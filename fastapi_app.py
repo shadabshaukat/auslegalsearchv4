@@ -1,5 +1,5 @@
 """
-FastAPI backend for AUSLegalSearchv4, with legal-tuned hybrid QA, legal-aware chunking, RAG, reranker interface, OCI GenAI, Oracle 23ai DB, and full system prompt config.
+FastAPI backend for AUSLegalSearchv4, with legal-tuned hybrid QA, legal-aware chunking, RAG, reranker interface, OCI GenAI, Oracle 26ai DB, and full system prompt config.
 """
 
 # Always load .env if present
@@ -28,7 +28,7 @@ from db.store import (
 from embedding.embedder import Embedder
 from rag.rag_pipeline import RAGPipeline, list_ollama_models
 from rag.oci_rag_pipeline import OCIGenAIPipeline
-from db.oracle23ai_connector import Oracle23AIConnector
+from db.oracle26ai_connector import Oracle26AIConnector
 from ingest.loader import walk_legal_files, parse_txt, parse_html, chunk_document
 
 RERANKER_DATA_PATH = "./reranker_models.json"
@@ -71,7 +71,7 @@ def download_hf_model(hf_repo):
 
 app = FastAPI(
     title="AUSLegalSearchv4 API",
-    description="REST API for legal vector search, ingestion, RAG, chat, reranker, system prompt, OCI GenAI, and Oracle 23ai DB.",
+    description="REST API for legal vector search, ingestion, RAG, chat, reranker, system prompt, OCI GenAI, and Oracle 26ai DB.",
     version="0.40"
 )
 
@@ -481,8 +481,8 @@ def api_chat_session(msg: ChatMsg, _: str = Depends(get_current_user)):
         "chunk_metadata": chunk_metadata
     }
 
-# === Oracle 23ai DB endpoints ===
-class Oracle23aiQueryReq(BaseModel):
+# === Oracle 26ai DB endpoints ===
+class Oracle26aiQueryReq(BaseModel):
     user: Optional[str] = None
     password: Optional[str] = None
     dsn: Optional[str] = None
@@ -490,9 +490,10 @@ class Oracle23aiQueryReq(BaseModel):
     sql: str
     params: Optional[List[Any]] = None
 
-@app.post("/db/oracle23ai_query", tags=["db", "oracle"])
-def api_oracle23ai_query(req: Oracle23aiQueryReq, _: str = Depends(get_current_user)):
-    connector = Oracle23AIConnector(
+@app.post("/db/oracle26ai_query", tags=["db", "oracle"])
+@app.post("/db/oracle23ai_query", tags=["db", "oracle"], include_in_schema=False)
+def api_oracle26ai_query(req: Oracle26aiQueryReq, _: str = Depends(get_current_user)):
+    connector = Oracle26AIConnector(
         user=req.user,
         password=req.password,
         dsn=req.dsn,

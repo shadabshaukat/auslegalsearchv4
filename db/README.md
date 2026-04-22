@@ -3,13 +3,13 @@
 Storage and retrieval layer for ingestion, search, RAG, and analytics.
 
 - Default backend: PostgreSQL with pgvector for embeddings and FTS (tsvector) for document text.
-- Optional Oracle 23ai connector for direct SQL access.
+- Optional Oracle 26ai connector for direct SQL access.
 - New optional backend: OpenSearch (knn vector + text search) for document/chunk/session/auth/search flows.
 
 Folder contents
 - connector.py — SQLAlchemy engine and session factory; .env loader; pool/timeouts; pgvector extension helper
 - store.py — ORM models (users, documents, embeddings, sessions, etc.), create_all_tables(), search helpers (vector/BM25/hybrid/FTS)
-- oracle23ai_connector.py — Optional Oracle 23ai connector using python-oracledb for direct Oracle SQL
+- oracle23ai_connector.py / oracle26ai_connector.py — Optional Oracle 26ai connector using python-oracledb for direct Oracle SQL
 - test_db_setup.py — Local setup tester (if present)
 - __init__.py — package marker
 
@@ -200,9 +200,9 @@ LIMIT 10;
 ```
 
 
-## Oracle 23ai connector (optional)
+## Oracle 26ai connector (optional)
 
-db/oracle23ai_connector.py provides a lightweight connector for Oracle 23ai databases for direct SQL calls, used by FastAPI endpoint /db/oracle23ai_query.
+db/oracle26ai_connector.py provides a lightweight connector for Oracle 26ai databases for direct SQL calls, used by FastAPI endpoint /db/oracle26ai_query.
 
 Environment/params:
 - ORACLE_DB_USER, ORACLE_DB_PASSWORD, ORACLE_DB_DSN
@@ -210,17 +210,19 @@ Environment/params:
 
 Usage (Python)
 ```python
-from db.oracle23ai_connector import Oracle23AIConnector
+from db.oracle26ai_connector import Oracle26AIConnector
 
-conn = Oracle23AIConnector()  # or pass user/password/dsn/wallet_location
+conn = Oracle26AIConnector()  # or pass user/password/dsn/wallet_location
 rows = conn.run_query("SELECT 1 AS ok FROM dual")
 print(rows)
 conn.close()
 ```
 
 FastAPI endpoint (fastapi_app.py)
-- POST /db/oracle23ai_query with JSON:
+- POST /db/oracle26ai_query with JSON:
   - { "user": "...", "password": "...", "dsn": "...", "wallet_location": "...", "sql": "SELECT ...", "params": [] }
+- Backward-compatible legacy route remains available (hidden from schema):
+  - POST /db/oracle23ai_query
 
 
 ## Environment variables summary

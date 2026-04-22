@@ -36,6 +36,7 @@ import traceback
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from collections import deque
 import multiprocessing as mp
+import glob
 
 from ingest.loader import parse_txt, parse_html
 from ingest.semantic_chunker import chunk_document_semantic, ChunkingConfig, detect_doc_type, chunk_legislation_dashed_semantic, chunk_generic_rcts
@@ -49,6 +50,7 @@ from db.store import (
     bulk_upsert_file_chunks_opensearch,
 )
 from db.connector import DB_URL, engine
+from db.opensearch_connector import get_opensearch_client
 
 STORAGE_BACKEND = os.environ.get("AUSLEGALSEARCH_STORAGE_BACKEND", "postgres").strip().lower()
 
@@ -216,6 +218,89 @@ def _append_log_line(log_dir: str, session_name: str, file_path: str, success: b
 
 def _metrics_enabled() -> bool:
     return os.environ.get("AUSLEGALSEARCH_LOG_METRICS", "1") != "0"
+
+
+def _os_metrics_ndjson_enabled() -> bool:
+    return os.environ.get("OS_METRICS_NDJSON", "0") == "1"
+
+
+def _append_metrics_ndjson(log_dir: str, session_name: str, record: Dict[str, Any]) -> None:
+    if not _os_metrics_ndjson_enabled():
+        return
+    try:
+        os.makedirs(log_dir, exist_ok=True)
+        path = os.path.join(log_dir, f"{session_name}.metrics.ndjson")
+        rec = dict(record or {})
+        rec.setdefault("session", session_name)
+        rec.setdefault("ts", int(time.time() * 1000))
+        with open(path, "a", encoding="utf-8") as f:
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    except Exception:
+        pass
+
+
+def _truthy(v: Optional[str]) -> bool:
+    return str(v or "").strip().lower() in {"1", "true", "yes", "y", "on"}
+
+
+def _completed_from_success_logs(log_dir: str) -> set:
+    completed = set()
+    try:
+        for p in glob.glob(os.path.join(log_dir or ".", "*.success.log")):
+            try:
+                with open(p, "r", encoding="utf-8") as f:
+                    for ln in f:
+                        s = (ln or "").strip()
+                        if not s or s.startswith("#"):
+                            continue
+                        fp = s.split("\t", 1)[0].strip()
+                        if fp:
+                            completed.add(fp)
+            except Exception:
+                continue
+    except Exception:
+        pass
+    return completed
+
+
+class _OpenSearchIngestState:
+    def __init__(self, enabled: bool):
+        self.enabled = bool(enabled)
+        self.client = None
+        self.index = os.environ.get("OPENSEARCH_INGEST_STATE_INDEX", "auslegalsearch_ingest_state")
+        if not self.enabled:
+            return
+        try:
+            self.client = get_opensearch_client()
+            if not self.client.indices.exists(index=self.index):
+                self.client.indices.create(
+                    index=self.index,
+                    body={
+                        "mappings": {
+                            "properties": {
+                                "type": {"type": "keyword"},
+                                "session": {"type": "keyword"},
+                                "file": {"type": "keyword"},
+                                "status": {"type": "keyword"},
+                                "ts": {"type": "date"},
+                            }
+                        }
+                    },
+                )
+        except Exception as e:
+            self.enabled = False
+            self.client = None
+            print(f"[beta_worker/opensearch] WARN: could not ensure state index '{self.index}': {e}", flush=True)
+
+    def upsert(self, doc_id: str, body: Dict[str, Any]) -> None:
+        if not self.enabled or self.client is None:
+            return
+        try:
+            payload = dict(body or {})
+            payload.setdefault("ts", int(time.time() * 1000))
+            self.client.index(index=self.index, id=doc_id, body=payload, refresh=False)
+        except Exception:
+            pass
 
 
 def _append_success_metrics_line(
@@ -721,7 +806,8 @@ def run_worker_pipelined(
     token_target: int,
     token_overlap: int,
     token_max: int,
-    log_dir: str
+    log_dir: str,
+    resume: bool = False,
 ) -> None:
     """
     Pipelined worker:
@@ -755,6 +841,12 @@ def run_worker_pipelined(
         if not root_dir:
             raise ValueError("Either --partition_file or --root must be provided")
         files = find_all_supported_files(root_dir)
+    if resume or _truthy(os.environ.get("OS_RESUME_FROM_LOGS")):
+        before = len(files)
+        done = _completed_from_success_logs(log_dir)
+        if done:
+            files = [fp for fp in files if fp not in done]
+        print(f"[beta_worker] {session_name}: resume enabled -> skipping {before - len(files)} already-completed files", flush=True)
     # Optional: sort this worker's files by size desc to reduce tail latency (env-enabled by default)
     if os.environ.get("AUSLEGALSEARCH_SORT_WORKER_FILES", "1") != "0":
         try:
@@ -990,14 +1082,15 @@ def run_worker(
     token_target: int,
     token_overlap: int,
     token_max: int,
-    log_dir: str
+    log_dir: str,
+    resume: bool = False,
 ) -> None:
     """
     Main loop for this worker.
     """
     # Use pipelined mode when multiple CPU workers are configured
     if CPU_WORKERS > 1 or int(os.environ.get("AUSLEGALSEARCH_PIPELINE_PREFETCH", str(PIPELINE_PREFETCH))) > 0:
-        return run_worker_pipelined(session_name, root_dir, partition_file, embedding_model, token_target, token_overlap, token_max, log_dir)
+        return run_worker_pipelined(session_name, root_dir, partition_file, embedding_model, token_target, token_overlap, token_max, log_dir, resume)
 
     # Early diagnostics
     try:
@@ -1025,6 +1118,12 @@ def run_worker(
         if not root_dir:
             raise ValueError("Either --partition_file or --root must be provided")
         files = find_all_supported_files(root_dir)
+    if resume or _truthy(os.environ.get("OS_RESUME_FROM_LOGS")):
+        before = len(files)
+        done = _completed_from_success_logs(log_dir)
+        if done:
+            files = [fp for fp in files if fp not in done]
+        print(f"[beta_worker] {session_name}: resume enabled -> skipping {before - len(files)} already-completed files", flush=True)
     # Optional: sort this worker's files by size desc to reduce tail latency (env-enabled by default)
     if os.environ.get("AUSLEGALSEARCH_SORT_WORKER_FILES", "1") != "0":
         try:
@@ -1421,6 +1520,7 @@ def _parse_cli_args(argv: List[str]) -> Dict[str, Any]:
     ap.add_argument("--overlap_tokens", type=int, default=64, help="Chunk overlap tokens (default 64)")
     ap.add_argument("--max_tokens", type=int, default=640, help="Hard max per chunk (default 640)")
     ap.add_argument("--log_dir", default="./logs", help="Directory to write per-worker success/error logs")
+    ap.add_argument("--resume", action="store_true", help="Skip files already present in *.success.log files under --log_dir")
     return vars(ap.parse_args(argv))
 
 
@@ -1433,6 +1533,7 @@ def run_worker_opensearch(
     token_overlap: int,
     token_max: int,
     log_dir: str,
+    resume: bool = False,
 ) -> None:
     """
     OpenSearch-safe worker path that avoids direct SQLAlchemy session usage.
@@ -1449,6 +1550,12 @@ def run_worker_opensearch(
         if not root_dir:
             raise ValueError("Either --partition_file or --root must be provided")
         files = find_all_supported_files(root_dir)
+    if resume or _truthy(os.environ.get("OS_RESUME_FROM_LOGS")):
+        before = len(files)
+        done = _completed_from_success_logs(log_dir)
+        if done:
+            files = [fp for fp in files if fp not in done]
+        print(f"[beta_worker/opensearch] {session_name}: resume enabled -> skipping {before - len(files)} already-completed files", flush=True)
 
     embedder = Embedder(embedding_model) if embedding_model else Embedder()
     cfg = ChunkingConfig(
@@ -1462,21 +1569,55 @@ def run_worker_opensearch(
     processed_chunks = 0
     successes: List[str] = []
     failures: List[str] = []
+    state = _OpenSearchIngestState(enabled=_truthy(os.environ.get("OS_INGEST_STATE_ENABLE")))
+    state.upsert(f"{session_name}::summary", {
+        "type": "session",
+        "session": session_name,
+        "status": "running",
+        "total_files": len(files),
+        "files_ok": 0,
+        "files_failed": 0,
+        "total_indexed": 0,
+    })
 
     for idx_f, filepath in enumerate(files, start=1):
+        t_file = time.time()
+        parse_ms: Optional[int] = None
+        chunk_ms: Optional[int] = None
+        embed_ms: Optional[int] = None
+        index_ms: Optional[int] = None
         try:
             row = get_session_file(session_name, filepath)
             if row and getattr(row, "status", None) == "complete":
                 continue
             if not row:
                 upsert_session_file_status(session_name, filepath, "pending")
+            state.upsert(f"{session_name}::{filepath}", {
+                "type": "file",
+                "session": session_name,
+                "file": filepath,
+                "status": "pending",
+            })
 
+            t0 = time.time()
             with _deadline(PARSE_TIMEOUT):
                 base_doc = parse_file(filepath)
+            parse_ms = int((time.time() - t0) * 1000)
             if not base_doc or not base_doc.get("text"):
                 upsert_session_file_status(session_name, filepath, "error")
                 failures.append(filepath)
                 _append_log_line(log_dir, session_name, filepath, success=False)
+                _append_metrics_ndjson(log_dir, session_name, {
+                    "file": filepath,
+                    "status": "error",
+                    "stage": "parse",
+                    "parse_ms": parse_ms,
+                    "duration_ms": int((time.time() - t_file) * 1000),
+                })
+                state.upsert(f"{session_name}::{filepath}", {
+                    "type": "file", "session": session_name, "file": filepath,
+                    "status": "error", "stage": "parse", "parse_ms": parse_ms,
+                })
                 continue
 
             path_meta = derive_path_metadata(filepath, root_dir or "")
@@ -1487,6 +1628,7 @@ def run_worker_opensearch(
             if detected_type and not base_meta.get("type"):
                 base_meta["type"] = detected_type
 
+            t1 = time.time()
             with _deadline(CHUNK_TIMEOUT):
                 file_chunks = chunk_legislation_dashed_semantic(base_doc["text"], base_meta=base_meta, cfg=cfg)
                 if not file_chunks:
@@ -1497,23 +1639,40 @@ def run_worker_opensearch(
 
                 if not file_chunks and os.environ.get("AUSLEGALSEARCH_FALLBACK_CHUNK_ON_TIMEOUT", "1") != "0":
                     file_chunks = _fallback_chunk_text(base_doc["text"], base_meta, cfg)
+            chunk_ms = int((time.time() - t1) * 1000)
 
             if not file_chunks:
                 upsert_session_file_status(session_name, filepath, "complete")
                 successes.append(filepath)
                 _append_log_line(log_dir, session_name, filepath, success=True)
+                _append_metrics_ndjson(log_dir, session_name, {
+                    "file": filepath,
+                    "status": "ok",
+                    "chunks": 0,
+                    "parse_ms": parse_ms,
+                    "chunk_ms": chunk_ms,
+                    "duration_ms": int((time.time() - t_file) * 1000),
+                })
+                state.upsert(f"{session_name}::{filepath}", {
+                    "type": "file", "session": session_name, "file": filepath,
+                    "status": "complete", "chunks": 0,
+                    "parse_ms": parse_ms, "chunk_ms": chunk_ms,
+                })
                 continue
 
             texts = [c["text"] for c in file_chunks]
             fmt = base_doc.get("format", Path(filepath).suffix.lower().strip("."))
 
+            t2 = time.time()
             with _deadline(EMBED_BATCH_TIMEOUT):
                 vecs = _embed_in_batches(embedder, texts, batch_size=batch_size)
+            embed_ms = int((time.time() - t2) * 1000)
 
             inserted = 0
             last_err = None
             for attempt in range(max(1, insert_retries)):
                 try:
+                    t3 = time.time()
                     with _deadline(INSERT_TIMEOUT):
                         inserted = bulk_upsert_file_chunks_opensearch(
                             source_path=filepath,
@@ -1522,6 +1681,7 @@ def run_worker_opensearch(
                             vectors=vecs,
                             max_retries=max(1, insert_retries),
                         )
+                    index_ms = int((time.time() - t3) * 1000)
                     last_err = None
                     break
                 except Exception as e:
@@ -1536,6 +1696,22 @@ def run_worker_opensearch(
             update_session_progress(session_name, last_file=filepath, last_chunk=inserted - 1, processed_chunks=processed_chunks)
             successes.append(filepath)
             _append_log_line(log_dir, session_name, filepath, success=True)
+            _append_metrics_ndjson(log_dir, session_name, {
+                "file": filepath,
+                "status": "ok",
+                "chunks": len(file_chunks),
+                "parse_ms": parse_ms,
+                "chunk_ms": chunk_ms,
+                "embed_ms": embed_ms,
+                "index_ms": index_ms,
+                "duration_ms": int((time.time() - t_file) * 1000),
+            })
+            state.upsert(f"{session_name}::{filepath}", {
+                "type": "file", "session": session_name, "file": filepath,
+                "status": "complete", "chunks": len(file_chunks),
+                "parse_ms": parse_ms, "chunk_ms": chunk_ms,
+                "embed_ms": embed_ms, "index_ms": index_ms,
+            })
             if idx_f % 10 == 0:
                 print(f"[beta_worker/opensearch] {session_name}: {idx_f}/{len(files)} processed, chunks={processed_chunks}", flush=True)
         except Exception as e:
@@ -1546,11 +1722,36 @@ def run_worker_opensearch(
             failures.append(filepath)
             _append_log_line(log_dir, session_name, filepath, success=False)
             print(f"[beta_worker/opensearch] FAILED {idx_f}/{len(files)} -> {filepath}: {e}", flush=True)
+            _append_metrics_ndjson(log_dir, session_name, {
+                "file": filepath,
+                "status": "error",
+                "error": str(e),
+                "parse_ms": parse_ms,
+                "chunk_ms": chunk_ms,
+                "embed_ms": embed_ms,
+                "index_ms": index_ms,
+                "duration_ms": int((time.time() - t_file) * 1000),
+            })
+            state.upsert(f"{session_name}::{filepath}", {
+                "type": "file", "session": session_name, "file": filepath,
+                "status": "error", "error": str(e),
+                "parse_ms": parse_ms, "chunk_ms": chunk_ms,
+                "embed_ms": embed_ms, "index_ms": index_ms,
+            })
 
     paths = _write_logs(log_dir, session_name, successes, failures)
     print(f"[beta_worker/opensearch] Session {session_name} complete. OK={len(successes)} failed={len(failures)}", flush=True)
     print(f"[beta_worker/opensearch] Success log: {paths['success_log']}", flush=True)
     print(f"[beta_worker/opensearch] Error log:   {paths['error_log']}", flush=True)
+    state.upsert(f"{session_name}::summary", {
+        "type": "session",
+        "session": session_name,
+        "status": "complete",
+        "total_files": len(files),
+        "files_ok": len(successes),
+        "files_failed": len(failures),
+        "total_indexed": processed_chunks,
+    })
     complete_session(session_name)
 
 
@@ -1566,6 +1767,7 @@ if __name__ == "__main__":
             token_overlap=args.get("overlap_tokens") or 64,
             token_max=args.get("max_tokens") or 640,
             log_dir=args.get("log_dir") or "./logs",
+            resume=bool(args.get("resume")),
         )
         raise SystemExit(0)
     run_worker(
@@ -1577,4 +1779,5 @@ if __name__ == "__main__":
         token_overlap=args.get("overlap_tokens") or 64,
         token_max=args.get("max_tokens") or 640,
         log_dir=args.get("log_dir") or "./logs",
+        resume=bool(args.get("resume")),
     )

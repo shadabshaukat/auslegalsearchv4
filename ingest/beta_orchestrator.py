@@ -58,6 +58,7 @@ from ingest.beta_scanner import find_sample_files         # sample/preview mode 
 from db.store import start_session, create_all_tables
 from db.connector import DB_URL, engine
 from sqlalchemy import text
+from db.opensearch_connector import get_opensearch_client, index_target
 
 STORAGE_BACKEND = os.environ.get("AUSLEGALSEARCH_STORAGE_BACKEND", "postgres").strip().lower()
 
@@ -165,7 +166,8 @@ def launch_worker(
     max_tokens: int,
     log_dir: str,
     gpu_index: Optional[int] = None,
-    python_exec: Optional[str] = None
+    python_exec: Optional[str] = None,
+    resume: bool = False,
 ) -> subprocess.Popen:
     """
     Launch a single worker process with CUDA_VISIBLE_DEVICES assigned (if gpu_index is not None).
@@ -183,6 +185,8 @@ def launch_worker(
     ]
     if embedding_model:
         cmd.extend(["--model", embedding_model])
+    if resume:
+        cmd.append("--resume")
 
     env = dict(os.environ)
     if gpu_index is not None:
@@ -221,6 +225,96 @@ def _db_ping() -> bool:
         return False
 
 
+def _truthy(v: Optional[str]) -> bool:
+    return str(v or "").strip().lower() in {"1", "true", "yes", "y", "on"}
+
+
+def _resolve_write_indexes_for_tuning(client) -> List[str]:
+    """
+    Resolve concrete write targets for documents/embeddings for temporary ingest tuning.
+    Works in both direct-index and alias modes.
+    """
+    targets: List[str] = []
+    for suffix in ("documents", "embeddings"):
+        t = index_target(suffix, purpose="write")
+        try:
+            alias_data = client.indices.get_alias(name=t)
+            marked = []
+            for idx, payload in (alias_data or {}).items():
+                aliases = (payload or {}).get("aliases") or {}
+                cfg = aliases.get(t) or {}
+                if cfg.get("is_write_index") is True:
+                    marked.append(idx)
+            if marked:
+                targets.extend(marked)
+                continue
+            # Fallback when alias exists without explicit marker
+            targets.extend(list((alias_data or {}).keys()))
+            continue
+        except Exception:
+            pass
+        targets.append(t)
+    return sorted(list(dict.fromkeys(targets)))
+
+
+def _put_index_settings(client, idx: str, settings_body: Dict[str, Any]) -> None:
+    client.indices.put_settings(index=idx, body=settings_body)
+
+
+def _tune_indexes_for_bulk() -> Dict[str, Dict[str, Any]]:
+    """
+    Optional pre-ingest tuning for OpenSearch writes.
+    When OPENSEARCH_TUNE_INDEX=1 and backend is OpenSearch, set:
+      - refresh_interval=-1
+      - number_of_replicas=0
+    and return restore settings captured per tuned index.
+    """
+    restore: Dict[str, Dict[str, Any]] = {}
+    if STORAGE_BACKEND != "opensearch":
+        return restore
+    if not _truthy(os.environ.get("OPENSEARCH_TUNE_INDEX")):
+        return restore
+    try:
+        client = get_opensearch_client()
+        targets = _resolve_write_indexes_for_tuning(client)
+        for idx in targets:
+            try:
+                st = client.indices.get_settings(index=idx)
+                cfg = (st.get(idx) or {}).get("settings", {}).get("index", {})
+                orig_refresh = cfg.get("refresh_interval")
+                orig_repl = cfg.get("number_of_replicas")
+                r: Dict[str, Any] = {}
+                if orig_refresh is not None:
+                    r["refresh_interval"] = orig_refresh
+                if orig_repl is not None:
+                    r["number_of_replicas"] = orig_repl
+                if r:
+                    restore[idx] = {"index": r}
+                _put_index_settings(client, idx, {"index": {"refresh_interval": "-1", "number_of_replicas": "0"}})
+                print(f"[beta_orchestrator] OpenSearch tune: index '{idx}' set refresh_interval=-1, number_of_replicas=0", flush=True)
+            except Exception as e:
+                print(f"[beta_orchestrator] WARN: OpenSearch tune failed for index '{idx}': {e}", flush=True)
+        return restore
+    except Exception as e:
+        print(f"[beta_orchestrator] WARN: OpenSearch tuning not applied: {e}", flush=True)
+        return {}
+
+
+def _restore_indexes_after_bulk(restore: Dict[str, Dict[str, Any]]) -> None:
+    if STORAGE_BACKEND != "opensearch" or not restore:
+        return
+    try:
+        client = get_opensearch_client()
+        for idx, body in restore.items():
+            try:
+                _put_index_settings(client, idx, body)
+                print(f"[beta_orchestrator] OpenSearch restore: index '{idx}' settings restored -> {body}", flush=True)
+            except Exception as e:
+                print(f"[beta_orchestrator] WARN: OpenSearch restore failed for index '{idx}': {e}", flush=True)
+    except Exception as e:
+        print(f"[beta_orchestrator] WARN: OpenSearch restore skipped: {e}", flush=True)
+
+
 def orchestrate(
     root_dir: str,
     session_name: str,
@@ -234,6 +328,7 @@ def orchestrate(
     log_dir: str,
     shards: int = 0,
     balance_by_size: bool = False,
+    resume: bool = False,
     wait: bool = True
 ) -> Dict[str, Any]:
     """
@@ -285,6 +380,8 @@ def orchestrate(
 
     if total_files == 0:
         raise RuntimeError(f"No supported files found under root: {root_dir}")
+
+    restore_settings = _tune_indexes_for_bulk()
 
     # GPU count
     detected = get_num_gpus()
@@ -375,7 +472,8 @@ def orchestrate(
             overlap_tokens=overlap_tokens,
             max_tokens=max_tokens,
             log_dir=str(log_root),
-            gpu_index=gpu_index if num > 1 else None
+            gpu_index=gpu_index if num > 1 else None,
+            resume=resume,
         )
         child_sessions.append(child)
         part_files.append(pfile)
@@ -418,6 +516,7 @@ def orchestrate(
         "shards": len(parts),
         "detected_gpus": detected,
         "log_dir": str(log_root),
+        "resume": bool(resume),
     }
 
     if not wait:
@@ -496,6 +595,7 @@ def orchestrate(
     summary["started_at"] = start_iso
     summary["ended_at"] = end_iso
     summary["duration_sec"] = duration_sec
+    _restore_indexes_after_bulk(restore_settings)
     return summary
 
 
@@ -515,6 +615,7 @@ def _parse_cli_args(argv: List[str]) -> Dict[str, Any]:
     ap.add_argument("--no_wait", action="store_true", help="Do not wait for workers; exit after launch (no aggregation)")
     ap.add_argument("--balance_by_size", action="store_true", help="Greedy size-balanced partitions across GPUs (better load balance)")
     ap.add_argument("--shards", type=int, default=0, help="Number of shards to split the file list into (0=auto: GPUs*4). Enables dynamic scheduling across GPUs.")
+    ap.add_argument("--resume", action="store_true", help="Pass --resume to workers to skip files already present in *.success.log under --log_dir")
     return vars(ap.parse_args(argv))
 
 
@@ -533,6 +634,7 @@ if __name__ == "__main__":
         log_dir=args.get("log_dir") or "./logs",
         shards=args.get("shards") or 0,
         balance_by_size=bool(args.get("balance_by_size")),
+        resume=bool(args.get("resume")),
         wait=not bool(args.get("no_wait")),
     )
     print(json.dumps(summary, indent=2))

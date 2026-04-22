@@ -57,6 +57,11 @@ Key modules
 - Launches one worker per child (sets CUDA_VISIBLE_DEVICES=idx). Writes partition files:
   - .beta-gpu-partition-{session}-gpu{i}.txt
 - Optional wait: aggregates child success/error logs into master {session} logs with header (started/ended/duration/child count/files_ok/failed)
+- Resume mode support:
+  - `--resume` passes resume behavior to workers.
+  - workers skip paths already present in `*.success.log` under `--log_dir`.
+- OpenSearch ingest tuning support:
+  - if `AUSLEGALSEARCH_STORAGE_BACKEND=opensearch` and `OPENSEARCH_TUNE_INDEX=1`, orchestrator temporarily tunes write indexes (`refresh_interval=-1`, `number_of_replicas=0`) and restores settings after run.
 
 2) Worker (ingest/beta_worker.py)
 - Pipelined mode (default): ProcessPoolExecutor for CPU Stage; main process for GPU embed + DB insert
@@ -135,6 +140,18 @@ Diagnostics/logs
 - AUSLEGALSEARCH_ERROR_TRACE=0/1 (default 0)
 - AUSLEGALSEARCH_DEBUG_COUNTS=0/1 (default 0) — prints DB counts periodically
 
+OpenSearch ingest options
+- OPENSEARCH_TUNE_INDEX=1
+  - Orchestrator-managed pre/post index tuning for bulk ingest windows.
+- OS_RESUME_FROM_LOGS=1
+  - Worker-side resume mode (alternate to `--resume`).
+- OS_METRICS_NDJSON=1
+  - Emits `{session}.metrics.ndjson` with per-file parse/chunk/embed/index timings and status.
+- OS_INGEST_STATE_ENABLE=1
+  - Writes lightweight OpenSearch ingest progress docs (`session` + `file`) into `OPENSEARCH_INGEST_STATE_INDEX`.
+- OPENSEARCH_INGEST_STATE_INDEX (default `auslegalsearch_ingest_state`)
+  - Index name used for OpenSearch-backed ingest state KV docs.
+
 
 ## Quickstart
 
@@ -143,6 +160,44 @@ Full ingest (auto GPU detect)
 python3 -m ingest.beta_orchestrator \
   --root "/path/to/Data_for_Beta_Launch" \
   --session "beta-full-$(date +%Y%m%d-%H%M%S)" \
+  --model "nomic-ai/nomic-embed-text-v1.5" \
+  --target_tokens 1500 --overlap_tokens 192 --max_tokens 1920 \
+  --log_dir "/abs/path/to/logs"
+```
+
+OpenSearch ingest with resume, metrics, and state index
+```bash
+export AUSLEGALSEARCH_STORAGE_BACKEND=opensearch
+export OPENSEARCH_TUNE_INDEX=1
+export OS_METRICS_NDJSON=1
+export OS_INGEST_STATE_ENABLE=1
+
+python3 -m ingest.beta_orchestrator \
+  --root "/path/to/Data_for_Beta_Launch" \
+  --session "os-full-$(date +%Y%m%d-%H%M%S)" \
+  --model "nomic-ai/nomic-embed-text-v1.5" \
+  --target_tokens 3000 --overlap_tokens 250 --max_tokens 3500 \
+  --resume \
+  --log_dir "/abs/path/to/logs"
+```
+
+PostgreSQL ingest
+```bash
+export AUSLEGALSEARCH_STORAGE_BACKEND=postgres
+python3 -m ingest.beta_orchestrator \
+  --root "/path/to/Data_for_Beta_Launch" \
+  --session "pg-full-$(date +%Y%m%d-%H%M%S)" \
+  --model "nomic-ai/nomic-embed-text-v1.5" \
+  --target_tokens 1500 --overlap_tokens 192 --max_tokens 1920 \
+  --log_dir "/abs/path/to/logs"
+```
+
+Oracle mode ingest
+```bash
+export AUSLEGALSEARCH_STORAGE_BACKEND=oracle
+python3 -m ingest.beta_orchestrator \
+  --root "/path/to/Data_for_Beta_Launch" \
+  --session "oracle-full-$(date +%Y%m%d-%H%M%S)" \
   --model "nomic-ai/nomic-embed-text-v1.5" \
   --target_tokens 1500 --overlap_tokens 192 --max_tokens 1920 \
   --log_dir "/abs/path/to/logs"

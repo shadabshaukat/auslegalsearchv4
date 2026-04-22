@@ -20,7 +20,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 Notes:
-- Requirements include oci and oracledb for full Oracle GenAI and Oracle 23ai DB coverage.
+- Requirements include oci and oracledb for full Oracle GenAI and Oracle 26ai DB coverage.
 - pgvector must be installed/enabled on your PostgreSQL target.
 - OpenSearch support requires `opensearch-py` and OpenSearch 3.2-compatible cluster settings.
 
@@ -79,7 +79,7 @@ export OCI_COMPARTMENT_OCID='ocid1.compartment.oc1...'
 export OCI_GENAI_MODEL_OCID='ocid1.generativeaiocid...'
 ```
 
-Oracle 23ai DB integration (optional):
+Oracle 26ai DB integration (optional):
 ```sh
 export ORACLE_DB_USER='your_db_user'
 export ORACLE_DB_PASSWORD='your_db_password'
@@ -120,7 +120,7 @@ For production, secure endpoints behind WAF/reverse proxy and TLS. Store secrets
 
 - Ingestion (Beta) Pipeline: [ingest/README.md](ingest/README.md)
 - Embedding Subsystem: [embedding/README.md](embedding/README.md)
-- Database Layer (Postgres + pgvector + FTS + Oracle 23ai connector): [db/README.md](db/README.md)
+- Database Layer (Postgres + pgvector + FTS + Oracle 26ai connector): [db/README.md](db/README.md)
 - RAG Pipelines (Ollama and OCI GenAI): [rag/README.md](rag/README.md)
 - Streamlit UI (Login + Chat): [pages/README.md](pages/README.md)
 - Tools: SQL Latency Benchmark (p50/p95, vector/FTS/metadata, and optimized SQL scenarios): [tools/README-bench-sql-latency.md](tools/README-bench-sql-latency.md)
@@ -146,7 +146,7 @@ Other helpful docs:
   - Vector, BM25-like, Hybrid, and FTS with metadata-aware filtering.
   - Backends: PostgreSQL/pgvector (default) or OpenSearch knn/text (when `AUSLEGALSEARCH_STORAGE_BACKEND=opensearch`).
 - Applications
-  - FastAPI REST API for search, RAG, agentic chat, Oracle 23ai proxy.
+  - FastAPI REST API for search, RAG, agentic chat, Oracle 26ai proxy.
   - Streamlit chat UI with hybrid retrieval and source cards.
   - Gradio UI for hybrid/vector/OCI GenAI demos.
 
@@ -157,7 +157,7 @@ Other helpful docs:
 - Embeddings
   - Sentence-Transformers primary; HuggingFace AutoModel fallback with mean pooling; configurable batch size and revisions; dimension must match DB.
 - Database
-  - PostgreSQL + pgvector and optional Oracle 23ai connector remain intact.
+  - PostgreSQL + pgvector and optional Oracle 26ai connector remain intact.
   - OpenSearch backend is additionally supported for document/chunk/vector/session/auth storage and retrieval.
 - RAG
   - Ollama and OCI GenAI pipelines format metadata-rich context and enforce legal-grade prompts; Agentic CoT endpoints exposed via FastAPI.
@@ -189,7 +189,7 @@ Other helpful docs:
                                   |
     +----------+-----------+----------+----------------------------------------+
     |          |           |                                  |          |
-[FastAPI :8000]  [Gradio :7866+]  [Streamlit :8501]    [PGVector/PostgreSQL] [Oracle 23ai DB]
+[FastAPI :8000]  [Gradio :7866+]  [Streamlit :8501]    [PGVector/PostgreSQL] [Oracle 26ai DB]
     |          |           |                                  |          |
     |          |           +---Modern LLM/Cloud UI (Gradio tabs: Hybrid, Chat, OCI GenAI, Agentic)----+ 
     |          +---Multisource LLM-driven Chat, Hybrid Search, OCI GenAI---+                 
@@ -254,6 +254,51 @@ python3 -m ingest.beta_orchestrator \
   --model "nomic-ai/nomic-embed-text-v1.5" \
   --target_tokens 1500 --overlap_tokens 192 --max_tokens 1920 \
   --log_dir "/abs/path/to/logs"
+```
+
+OpenSearch full ingest (direct to OpenSearch backend)
+```sh
+export AUSLEGALSEARCH_STORAGE_BACKEND=opensearch
+export OPENSEARCH_TUNE_INDEX=1
+export OS_METRICS_NDJSON=1
+export OS_INGEST_STATE_ENABLE=1
+
+python3 -m ingest.beta_orchestrator \
+  --root "/path/to/Data_for_Beta_Launch" \
+  --session "os-full-$(date +%Y%m%d-%H%M%S)" \
+  --model "nomic-ai/nomic-embed-text-v1.5" \
+  --target_tokens 3000 --overlap_tokens 250 --max_tokens 3500 \
+  --resume \
+  --log_dir "/abs/path/to/logs"
+```
+
+PostgreSQL ingest (pgvector + FTS)
+```sh
+export AUSLEGALSEARCH_STORAGE_BACKEND=postgres
+
+python3 -m ingest.beta_orchestrator \
+  --root "/path/to/Data_for_Beta_Launch" \
+  --session "pg-full-$(date +%Y%m%d-%H%M%S)" \
+  --model "nomic-ai/nomic-embed-text-v1.5" \
+  --target_tokens 1500 --overlap_tokens 192 --max_tokens 1920 \
+  --log_dir "/abs/path/to/logs"
+```
+
+Oracle mode ingest (same orchestrator flow, Oracle backend selected)
+```sh
+export AUSLEGALSEARCH_STORAGE_BACKEND=oracle
+
+python3 -m ingest.beta_orchestrator \
+  --root "/path/to/Data_for_Beta_Launch" \
+  --session "oracle-full-$(date +%Y%m%d-%H%M%S)" \
+  --model "nomic-ai/nomic-embed-text-v1.5" \
+  --target_tokens 1500 --overlap_tokens 192 --max_tokens 1920 \
+  --log_dir "/abs/path/to/logs"
+```
+
+Oracle 26ai direct SQL query helper (Python)
+```sh
+python3 -c "from db.oracle26ai_connector import Oracle26AIConnector; c=Oracle26AIConnector(); print(c.run_query('SELECT 1 AS ok FROM dual')); c.close()"
 ```
 
 Dynamic sharding and size balancing (reduces tail latency on skewed corpora)
