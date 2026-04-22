@@ -145,6 +145,63 @@ def _sort_by_size_desc(paths: List[str]) -> List[str]:
     return sorted(paths, key=_sz, reverse=True)
 
 
+def _sort_by_size_zigzag(paths: List[str]) -> List[str]:
+    """
+    Smooth file-size progression instead of strict largest-first.
+    Order alternates large/small/large/small to reduce long head-of-line tails
+    while still keeping large files flowing early.
+    """
+    sized = _sort_by_size_desc(paths)
+    out: List[str] = []
+    i, j = 0, len(sized) - 1
+    while i <= j:
+        out.append(sized[i])
+        i += 1
+        if i <= j:
+            out.append(sized[j])
+            j -= 1
+    return out
+
+
+def _order_worker_files(paths: List[str]) -> (List[str], str):
+    """
+    Worker-local file order strategy.
+    Env:
+      AUSLEGALSEARCH_WORKER_FILE_ORDER =
+        - natural|none|off        : keep input order
+        - size_desc|largest_first : strict largest-first
+        - size_zigzag|smooth      : alternate large/small (default)
+
+    Backward compatibility:
+      AUSLEGALSEARCH_SORT_WORKER_FILES=0 forces natural order.
+    """
+    # Legacy hard disable takes precedence.
+    if os.environ.get("AUSLEGALSEARCH_SORT_WORKER_FILES", "1") == "0":
+        return paths, "natural(legacy-disable)"
+
+    mode = os.environ.get("AUSLEGALSEARCH_WORKER_FILE_ORDER", "size_zigzag").strip().lower()
+    if mode in {"natural", "none", "off"}:
+        return paths, "natural"
+    if mode in {"size_desc", "largest_first", "largest"}:
+        return _sort_by_size_desc(paths), "size_desc"
+    # Default and recommended for smoother long runs.
+    if mode in {"size_zigzag", "smooth", "balanced", "size_mix"}:
+        return _sort_by_size_zigzag(paths), "size_zigzag"
+    return _sort_by_size_zigzag(paths), f"size_zigzag(fallback:{mode})"
+
+
+def _opensearch_pipeline_enabled() -> bool:
+    """
+    Dedicated OpenSearch pipeline toggle.
+    - AUSLEGALSEARCH_OPENSEARCH_PIPELINED=1|0 explicitly enables/disables.
+    - If unset, fallback to existing auto behavior based on CPU workers/prefetch.
+    """
+    v = os.environ.get("AUSLEGALSEARCH_OPENSEARCH_PIPELINED")
+    if v is not None:
+        return _truthy(v)
+    return CPU_WORKERS > 1 or int(os.environ.get("AUSLEGALSEARCH_PIPELINE_PREFETCH", str(PIPELINE_PREFETCH))) > 0
+
+
 def derive_path_metadata(file_path: str, root_dir: str) -> Dict[str, Any]:
     """
     Derive helpful metadata from the folder structure.
@@ -680,10 +737,12 @@ def _cpu_prepare_file(
             base_doc = parse_file(filepath)
         text_len = len(base_doc.get("text", "") or "")
         parse_ms = int((time.time() - t0) * 1000)
+        file_fmt = (base_doc.get("format") or Path(filepath).suffix.lower().strip(".") or "txt")
         if not base_doc or not base_doc.get("text"):
             return {
                 "filepath": filepath,
                 "status": "empty",
+                "format": file_fmt,
                 "text_len": 0,
                 "chunk_count": 0,
                 "chunk_strategy": "no-chunks",
@@ -728,6 +787,7 @@ def _cpu_prepare_file(
             return {
                 "filepath": filepath,
                 "status": "zero_chunks",
+                "format": file_fmt,
                 "text_len": text_len,
                 "chunk_count": 0,
                 "detected_type": detected_type,
@@ -755,6 +815,7 @@ def _cpu_prepare_file(
         return {
             "filepath": filepath,
             "status": "ok",
+            "format": file_fmt,
             "chunks": file_chunks,
             "text_len": text_len,
             "chunk_count": len(file_chunks),
@@ -793,6 +854,7 @@ def _cpu_prepare_file(
                 return {
                     "filepath": filepath,
                     "status": "fallback_ok",
+                    "format": (base_doc.get("format") or Path(filepath).suffix.lower().strip(".") or "txt"),
                     "chunks": fb_chunks,
                     "text_len": len(base_doc.get("text","")),  # type: ignore
                     "chunk_count": len(fb_chunks),
@@ -868,13 +930,12 @@ def run_worker_pipelined(
         if done:
             files = [fp for fp in files if fp not in done]
         print(f"[beta_worker] {session_name}: resume enabled -> skipping {before - len(files)} already-completed files", flush=True)
-    # Optional: sort this worker's files by size desc to reduce tail latency (env-enabled by default)
-    if os.environ.get("AUSLEGALSEARCH_SORT_WORKER_FILES", "1") != "0":
-        try:
-            files = _sort_by_size_desc(files)
-            print(f"[beta_worker] {session_name}: sorted {len(files)} files by size desc for better GPU utilization", flush=True)
-        except Exception as e:
-            print(f"[beta_worker] {session_name}: note: could not sort by size: {e}", flush=True)
+    # Worker-local ordering strategy (default: smooth size-zigzag, not strict largest-first)
+    try:
+        files, order_mode = _order_worker_files(files)
+        print(f"[beta_worker] {session_name}: ordered {len(files)} files using {order_mode}", flush=True)
+    except Exception as e:
+        print(f"[beta_worker] {session_name}: note: could not apply worker file order: {e}", flush=True)
 
     # Defer CUDA model initialization until AFTER the worker pool is created to avoid CUDA context fork
     embedder = None  # type: ignore
@@ -1145,13 +1206,12 @@ def run_worker(
         if done:
             files = [fp for fp in files if fp not in done]
         print(f"[beta_worker] {session_name}: resume enabled -> skipping {before - len(files)} already-completed files", flush=True)
-    # Optional: sort this worker's files by size desc to reduce tail latency (env-enabled by default)
-    if os.environ.get("AUSLEGALSEARCH_SORT_WORKER_FILES", "1") != "0":
-        try:
-            files = _sort_by_size_desc(files)
-            print(f"[beta_worker] {session_name}: sorted {len(files)} files by size desc for better GPU utilization", flush=True)
-        except Exception as e:
-            print(f"[beta_worker] {session_name}: note: could not sort by size: {e}", flush=True)
+    # Worker-local ordering strategy (default: smooth size-zigzag, not strict largest-first)
+    try:
+        files, order_mode = _order_worker_files(files)
+        print(f"[beta_worker] {session_name}: ordered {len(files)} files using {order_mode}", flush=True)
+    except Exception as e:
+        print(f"[beta_worker] {session_name}: note: could not apply worker file order: {e}", flush=True)
 
     embedder = Embedder(embedding_model) if embedding_model else Embedder()
     cfg = ChunkingConfig(
@@ -1564,6 +1624,20 @@ def run_worker_opensearch(
     - stage deadlines and retry/backoff,
     - optional RCTS + naive fallback chunking.
     """
+    # Use pipelined CPU prep + GPU embed/index overlap when configured.
+    if _opensearch_pipeline_enabled():
+        return run_worker_opensearch_pipelined(
+            session_name=session_name,
+            root_dir=root_dir,
+            partition_file=partition_file,
+            embedding_model=embedding_model,
+            token_target=token_target,
+            token_overlap=token_overlap,
+            token_max=token_max,
+            log_dir=log_dir,
+            resume=resume,
+        )
+
     # Schema/index bootstrap is usually handled by orchestrator once before launching workers.
     # Re-running this in every worker is expensive and can conflict with temporary ingest-time
     # index tuning (e.g., replicas forced to 0 during bulk windows).
@@ -1583,12 +1657,11 @@ def run_worker_opensearch(
         if done:
             files = [fp for fp in files if fp not in done]
         print(f"[beta_worker/opensearch] {session_name}: resume enabled -> skipping {before - len(files)} already-completed files", flush=True)
-    if os.environ.get("AUSLEGALSEARCH_SORT_WORKER_FILES", "1") != "0":
-        try:
-            files = _sort_by_size_desc(files)
-            print(f"[beta_worker/opensearch] {session_name}: sorted {len(files)} files by size desc for better throughput", flush=True)
-        except Exception as e:
-            print(f"[beta_worker/opensearch] {session_name}: note: could not sort by size: {e}", flush=True)
+    try:
+        files, order_mode = _order_worker_files(files)
+        print(f"[beta_worker/opensearch] {session_name}: ordered {len(files)} files using {order_mode}", flush=True)
+    except Exception as e:
+        print(f"[beta_worker/opensearch] {session_name}: note: could not apply worker file order: {e}", flush=True)
 
     embedder = Embedder(embedding_model) if embedding_model else Embedder()
     cfg = ChunkingConfig(
@@ -1788,6 +1861,280 @@ def run_worker_opensearch(
         "session": session_name,
         "status": "complete",
         "total_files": len(files),
+        "files_ok": len(successes),
+        "files_failed": len(failures),
+        "total_indexed": processed_chunks,
+    })
+    complete_session(session_name)
+
+
+def run_worker_opensearch_pipelined(
+    session_name: str,
+    root_dir: Optional[str],
+    partition_file: Optional[str],
+    embedding_model: Optional[str],
+    token_target: int,
+    token_overlap: int,
+    token_max: int,
+    log_dir: str,
+    resume: bool = False,
+) -> None:
+    """
+    OpenSearch pipelined worker:
+      - Stage A in ProcessPool: parse+chunk (CPU parallel)
+      - Stage B in main: GPU embedding
+      - Stage C in main: OpenSearch bulk upsert
+    """
+    if _truthy(os.environ.get("AUSLEGALSEARCH_WORKER_SCHEMA_INIT", "0")):
+        create_all_tables()
+    else:
+        print(f"[beta_worker/opensearch] {session_name}: skipping create_all_tables (AUSLEGALSEARCH_WORKER_SCHEMA_INIT=0)", flush=True)
+
+    if partition_file:
+        files = read_partition_file(partition_file)
+    else:
+        if not root_dir:
+            raise ValueError("Either --partition_file or --root must be provided")
+        files = find_all_supported_files(root_dir)
+
+    if resume or _truthy(os.environ.get("OS_RESUME_FROM_LOGS")):
+        before = len(files)
+        done = _completed_from_success_logs(log_dir)
+        if done:
+            files = [fp for fp in files if fp not in done]
+        print(f"[beta_worker/opensearch] {session_name}: resume enabled -> skipping {before - len(files)} already-completed files", flush=True)
+
+    try:
+        files, order_mode = _order_worker_files(files)
+        print(f"[beta_worker/opensearch] {session_name}: ordered {len(files)} files using {order_mode}", flush=True)
+    except Exception as e:
+        print(f"[beta_worker/opensearch] {session_name}: note: could not apply worker file order: {e}", flush=True)
+
+    total_files = len(files)
+    batch_size = int(os.environ.get("AUSLEGALSEARCH_EMBED_BATCH", "64"))
+    insert_retries = int(os.environ.get("AUSLEGALSEARCH_DB_MAX_RETRIES", str(DB_MAX_RETRIES)))
+
+    processed_chunks = 0
+    successes: List[str] = []
+    failures: List[str] = []
+    state = _OpenSearchIngestState(enabled=_truthy(os.environ.get("OS_INGEST_STATE_ENABLE")))
+    state.upsert(f"{session_name}::summary", {
+        "type": "session",
+        "session": session_name,
+        "status": "running",
+        "total_files": total_files,
+        "files_ok": 0,
+        "files_failed": 0,
+        "total_indexed": 0,
+    })
+
+    print(f"[beta_worker/opensearch] {session_name}: starting. files={total_files}, batch_size={batch_size}, cpu_workers={CPU_WORKERS}, prefetch={PIPELINE_PREFETCH}", flush=True)
+
+    file_iter = iter(files)
+    inflight = {}
+    inflight_started: Dict[str, float] = {}
+    submitted = 0
+    done_count = 0
+
+    with ProcessPoolExecutor(max_workers=CPU_WORKERS) as pool:
+        embedder = Embedder(embedding_model) if embedding_model else Embedder()
+
+        def _submit_next():
+            nonlocal submitted
+            while len(inflight) < PIPELINE_PREFETCH:
+                try:
+                    fp = next(file_iter)
+                except StopIteration:
+                    return
+
+                row = get_session_file(session_name, fp)
+                if row and getattr(row, "status", None) == "complete":
+                    continue
+                if not row:
+                    upsert_session_file_status(session_name, fp, "pending")
+
+                submitted += 1
+                inflight_started[fp] = time.time()
+                state.upsert(f"{session_name}::{fp}", {
+                    "type": "file",
+                    "session": session_name,
+                    "file": fp,
+                    "status": "pending",
+                })
+                print(f"[beta_worker/opensearch] {session_name}: start {submitted}/{total_files} -> {fp}", flush=True)
+                fut = pool.submit(_cpu_prepare_file, fp, root_dir, int(token_target), int(token_overlap), int(token_max))
+                inflight[fut] = fp
+
+        _submit_next()
+
+        while inflight:
+            for fut in as_completed(list(inflight.keys()), timeout=None):
+                fp = inflight.pop(fut)
+                done_count += 1
+                t_file = inflight_started.pop(fp, time.time())
+
+                parse_ms: Optional[int] = None
+                chunk_ms: Optional[int] = None
+                embed_ms: Optional[int] = None
+                index_ms: Optional[int] = None
+
+                try:
+                    res = fut.result()
+                except Exception as e:
+                    try:
+                        upsert_session_file_status(session_name, fp, "error")
+                    except Exception:
+                        pass
+                    failures.append(fp)
+                    _append_log_line(log_dir, session_name, fp, success=False)
+                    _append_metrics_ndjson(log_dir, session_name, {
+                        "file": fp,
+                        "status": "error",
+                        "stage": "prep",
+                        "error": str(e),
+                        "duration_ms": int((time.time() - t_file) * 1000),
+                    })
+                    state.upsert(f"{session_name}::{fp}", {
+                        "type": "file", "session": session_name, "file": fp,
+                        "status": "error", "stage": "prep", "error": str(e),
+                    })
+                    print(f"[beta_worker/opensearch] FAILED (prep) {done_count}/{total_files} -> {fp}: {e}", flush=True)
+                    break
+
+                status = res.get("status")
+                parse_ms = res.get("parse_ms")
+                chunk_ms = res.get("chunk_ms")
+
+                if status in ("empty", "zero_chunks"):
+                    upsert_session_file_status(session_name, fp, "complete")
+                    successes.append(fp)
+                    _append_log_line(log_dir, session_name, fp, success=True)
+                    _append_metrics_ndjson(log_dir, session_name, {
+                        "file": fp,
+                        "status": "ok",
+                        "chunks": 0,
+                        "parse_ms": parse_ms,
+                        "chunk_ms": chunk_ms,
+                        "duration_ms": int((time.time() - t_file) * 1000),
+                    })
+                    state.upsert(f"{session_name}::{fp}", {
+                        "type": "file", "session": session_name, "file": fp,
+                        "status": "complete", "chunks": 0,
+                        "parse_ms": parse_ms, "chunk_ms": chunk_ms,
+                    })
+                    break
+
+                if status == "error":
+                    upsert_session_file_status(session_name, fp, "error")
+                    failures.append(fp)
+                    _append_log_line(log_dir, session_name, fp, success=False)
+                    _append_metrics_ndjson(log_dir, session_name, {
+                        "file": fp,
+                        "status": "error",
+                        "stage": "prep",
+                        "error": str(res.get("error") or ""),
+                        "parse_ms": parse_ms,
+                        "chunk_ms": chunk_ms,
+                        "duration_ms": int((time.time() - t_file) * 1000),
+                    })
+                    state.upsert(f"{session_name}::{fp}", {
+                        "type": "file", "session": session_name, "file": fp,
+                        "status": "error", "stage": "prep", "error": str(res.get("error") or ""),
+                        "parse_ms": parse_ms, "chunk_ms": chunk_ms,
+                    })
+                    break
+
+                file_chunks = res.get("chunks") or []
+                fmt = res.get("format") or Path(fp).suffix.lower().strip(".")
+                texts = [c.get("text", "") for c in file_chunks]
+
+                try:
+                    t2 = time.time()
+                    with _deadline(EMBED_BATCH_TIMEOUT):
+                        vecs = _embed_in_batches(embedder, texts, batch_size=batch_size)
+                    embed_ms = int((time.time() - t2) * 1000)
+
+                    inserted = 0
+                    for attempt in range(max(1, insert_retries)):
+                        try:
+                            t3 = time.time()
+                            with _deadline(INSERT_TIMEOUT):
+                                inserted = bulk_upsert_file_chunks_opensearch(
+                                    source_path=fp,
+                                    fmt=fmt,
+                                    chunks=file_chunks,
+                                    vectors=vecs,
+                                    max_retries=max(1, insert_retries),
+                                )
+                            index_ms = int((time.time() - t3) * 1000)
+                            break
+                        except Exception:
+                            if attempt + 1 < max(1, insert_retries):
+                                time.sleep(min(8, 2 ** attempt))
+                            else:
+                                raise
+
+                    processed_chunks += inserted
+                    upsert_session_file_status(session_name, fp, "complete")
+                    update_session_progress(session_name, last_file=fp, last_chunk=inserted - 1, processed_chunks=processed_chunks)
+                    successes.append(fp)
+                    _append_log_line(log_dir, session_name, fp, success=True)
+                    _append_metrics_ndjson(log_dir, session_name, {
+                        "file": fp,
+                        "status": "ok",
+                        "chunks": len(file_chunks),
+                        "parse_ms": parse_ms,
+                        "chunk_ms": chunk_ms,
+                        "embed_ms": embed_ms,
+                        "index_ms": index_ms,
+                        "duration_ms": int((time.time() - t_file) * 1000),
+                    })
+                    state.upsert(f"{session_name}::{fp}", {
+                        "type": "file", "session": session_name, "file": fp,
+                        "status": "complete", "chunks": len(file_chunks),
+                        "parse_ms": parse_ms, "chunk_ms": chunk_ms,
+                        "embed_ms": embed_ms, "index_ms": index_ms,
+                    })
+                    if done_count % 10 == 0:
+                        print(f"[beta_worker/opensearch] {session_name}: {done_count}/{total_files} processed, chunks={processed_chunks}", flush=True)
+                except Exception as e:
+                    try:
+                        upsert_session_file_status(session_name, fp, "error")
+                    except Exception:
+                        pass
+                    failures.append(fp)
+                    _append_log_line(log_dir, session_name, fp, success=False)
+                    _append_metrics_ndjson(log_dir, session_name, {
+                        "file": fp,
+                        "status": "error",
+                        "error": str(e),
+                        "parse_ms": parse_ms,
+                        "chunk_ms": chunk_ms,
+                        "embed_ms": embed_ms,
+                        "index_ms": index_ms,
+                        "duration_ms": int((time.time() - t_file) * 1000),
+                    })
+                    state.upsert(f"{session_name}::{fp}", {
+                        "type": "file", "session": session_name, "file": fp,
+                        "status": "error", "error": str(e),
+                        "parse_ms": parse_ms, "chunk_ms": chunk_ms,
+                        "embed_ms": embed_ms, "index_ms": index_ms,
+                    })
+                    print(f"[beta_worker/opensearch] FAILED {done_count}/{total_files} -> {fp}: {e}", flush=True)
+
+                break
+
+            _submit_next()
+
+    paths = _write_logs(log_dir, session_name, successes, failures)
+    print(f"[beta_worker/opensearch] Session {session_name} complete. OK={len(successes)} failed={len(failures)}", flush=True)
+    print(f"[beta_worker/opensearch] Success log: {paths['success_log']}", flush=True)
+    print(f"[beta_worker/opensearch] Error log:   {paths['error_log']}", flush=True)
+    state.upsert(f"{session_name}::summary", {
+        "type": "session",
+        "session": session_name,
+        "status": "complete",
+        "total_files": total_files,
         "files_ok": len(successes),
         "files_failed": len(failures),
         "total_indexed": processed_chunks,
