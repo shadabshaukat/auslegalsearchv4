@@ -46,18 +46,19 @@ export AUSLEGALSEARCH_STORAGE_BACKEND=postgres
 OpenSearch (optional, primary retrieval/store engine when backend=opensearch):
 ```sh
 export AUSLEGALSEARCH_STORAGE_BACKEND=opensearch
-export AUSLEGALSEARCH_OS_HOST=localhost
-export AUSLEGALSEARCH_OS_PORT=9200
+export OPENSEARCH_HOST='https://your-opensearch-endpoint:9200'
 # Optional auth
-# export AUSLEGALSEARCH_OS_USER='admin'
-# export AUSLEGALSEARCH_OS_PASSWORD='admin'
+# export OPENSEARCH_USER='admin'
+# export OPENSEARCH_PASS='admin'
 # TLS controls
-# export AUSLEGALSEARCH_OS_USE_SSL=1
-# export AUSLEGALSEARCH_OS_VERIFY_CERTS=0
-# Index controls
-export AUSLEGALSEARCH_OS_INDEX_PREFIX='auslegalsearch'
-export AUSLEGALSEARCH_OS_SHARDS=1
-export AUSLEGALSEARCH_OS_REPLICAS=0
+# export OPENSEARCH_VERIFY_CERTS=1
+# Shard/replica/index controls
+export OPENSEARCH_NUMBER_OF_SHARDS=5
+export OPENSEARCH_NUMBER_OF_REPLICAS=1
+export OPENSEARCH_INDEX='cogneo_chunks'
+export OPENSEARCH_INDEX_PREFIX='auslegalsearch'
+export OPENSEARCH_FORCE_RECREATE=0
+export OPENSEARCH_ENFORCE_SHARDS=1
 ```
 
 API/Backend:
