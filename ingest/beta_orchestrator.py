@@ -50,6 +50,16 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Optional, Dict, Any
 
+# SQLAlchemy is only needed for non-OpenSearch DB ping/paths.
+_SQLA_AVAILABLE = True
+try:
+    from sqlalchemy import text
+except Exception:
+    _SQLA_AVAILABLE = False
+
+    def text(x):
+        return x
+
 # File listing helpers
 from ingest.beta_worker import find_all_supported_files  # full ingest (no skipping)
 from ingest.beta_scanner import find_sample_files         # sample/preview mode (skip year dirs)
@@ -57,10 +67,14 @@ from ingest.beta_scanner import find_sample_files         # sample/preview mode 
 # DB session tracking (use same schema/functions as existing pipeline)
 from db.store import start_session, create_all_tables
 from db.connector import DB_URL, engine
-from sqlalchemy import text
 from db.opensearch_connector import get_opensearch_client, index_target
 
 STORAGE_BACKEND = os.environ.get("AUSLEGALSEARCH_STORAGE_BACKEND", "postgres").strip().lower()
+
+if STORAGE_BACKEND != "opensearch" and not _SQLA_AVAILABLE:
+    raise ModuleNotFoundError(
+        "sqlalchemy is required when AUSLEGALSEARCH_STORAGE_BACKEND is not 'opensearch'"
+    )
 
 
 def _natural_sort_key(s: str):

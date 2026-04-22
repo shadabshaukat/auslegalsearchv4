@@ -10,7 +10,11 @@ from db.store import (
     create_user, get_user_by_email, check_password, set_last_login,
     get_user_by_googleid
 )
-from sqlalchemy.exc import IntegrityError
+try:
+    from sqlalchemy.exc import IntegrityError
+except Exception:
+    class IntegrityError(Exception):
+        pass
 
 # Remove sidebar on login page by hiding it with CSS
 st.set_page_config(page_title="Login", layout="centered")

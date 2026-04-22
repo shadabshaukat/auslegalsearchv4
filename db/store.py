@@ -4,9 +4,39 @@ Centralized DB models and ORM for auslegalsearchv4.
 - All app code imports models and functions from here, schema created with create_all_tables().
 """
 
-from sqlalchemy.orm import declarative_base, relationship
-from sqlalchemy import Column, Integer, String, Text, ForeignKey, DateTime, Boolean, Float, Date
-from sqlalchemy import select, desc, text
+_SQLA_AVAILABLE = True
+try:
+    from sqlalchemy.orm import declarative_base, relationship
+    from sqlalchemy import Column, Integer, String, Text, ForeignKey, DateTime, Boolean, Float, Date
+    from sqlalchemy import select, desc, text
+except Exception:
+    _SQLA_AVAILABLE = False
+
+    class _DummyCallable:
+        def __call__(self, *args, **kwargs):
+            return None
+
+    def declarative_base():
+        class _Base:
+            metadata = type("_Meta", (), {"create_all": staticmethod(lambda *a, **k: None)})()
+        return _Base
+
+    def relationship(*args, **kwargs):
+        return None
+
+    def Column(*args, **kwargs):
+        return None
+
+    Integer = String = Text = ForeignKey = DateTime = Boolean = Float = Date = _DummyCallable()
+
+    def select(*args, **kwargs):
+        raise RuntimeError("sqlalchemy unavailable")
+
+    def desc(*args, **kwargs):
+        return None
+
+    def text(x):
+        return x
 from db.connector import engine, SessionLocal, Vector, JSONB, UUIDType
 from datetime import datetime
 import uuid
@@ -29,6 +59,11 @@ except Exception:
 # Use a configured embedding dimension (defaults to 768 for common ST/HF models).
 EMBEDDING_DIM = int(os.environ.get("AUSLEGALSEARCH_EMBED_DIM", "768"))
 STORAGE_BACKEND = os.environ.get("AUSLEGALSEARCH_STORAGE_BACKEND", "postgres").strip().lower()
+
+if STORAGE_BACKEND != "opensearch" and not _SQLA_AVAILABLE:
+    raise ModuleNotFoundError(
+        "sqlalchemy is required when AUSLEGALSEARCH_STORAGE_BACKEND is not 'opensearch'"
+    )
 
 
 def _is_opensearch() -> bool:

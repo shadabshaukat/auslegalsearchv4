@@ -7,8 +7,18 @@ Database connection module for auslegalsearchv4.
 
 import os
 from urllib.parse import quote_plus
-from sqlalchemy import create_engine, text
-from sqlalchemy.orm import sessionmaker
+
+_SQLA_AVAILABLE = True
+try:
+    from sqlalchemy import create_engine, text
+    from sqlalchemy.orm import sessionmaker
+except Exception:
+    _SQLA_AVAILABLE = False
+    create_engine = None
+    sessionmaker = None
+
+    def text(x):
+        return x
 
 # Minimal .env loader (dependency-free). Reads KEY=VALUE lines and sets them in os.environ
 # ONLY if the key is not already exported. This makes `source .env` (without export) work.
@@ -40,6 +50,11 @@ def _load_dotenv_file():
 _load_dotenv_file()
 
 STORAGE_BACKEND = os.environ.get("AUSLEGALSEARCH_STORAGE_BACKEND", "postgres").strip().lower()
+
+if STORAGE_BACKEND != "opensearch" and not _SQLA_AVAILABLE:
+    raise ModuleNotFoundError(
+        "sqlalchemy is required when AUSLEGALSEARCH_STORAGE_BACKEND is not 'opensearch'"
+    )
 
 DB_HOST = os.environ.get("AUSLEGALSEARCH_DB_HOST")
 DB_PORT = os.environ.get("AUSLEGALSEARCH_DB_PORT")
@@ -111,8 +126,17 @@ else:
     )
     SessionLocal = sessionmaker(bind=engine)
 
-from sqlalchemy.dialects.postgresql import UUID as UUIDType, JSONB
-from pgvector.sqlalchemy import Vector
+if _SQLA_AVAILABLE:
+    from sqlalchemy.dialects.postgresql import UUID as UUIDType, JSONB
+    from pgvector.sqlalchemy import Vector
+else:
+    class _DummyType:
+        def __init__(self, *args, **kwargs):
+            pass
+
+    UUIDType = _DummyType
+    JSONB = _DummyType
+    Vector = _DummyType
 
 def ensure_pgvector():
     if engine is None:
