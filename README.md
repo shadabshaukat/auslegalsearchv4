@@ -1,4 +1,4 @@
-# AUSLegalSearchv3 — Agentic Multi-Faceted Legal AI Platform (Ollama ⬄ OCI GenAI ⬄ Oracle 23ai)
+# AUSLegalSearchv4 — Agentic Multi-Faceted Legal AI Platform (Ollama ⬄ OCI GenAI ⬄ OpenSearch ⬄ PostgreSQL ⬄ Oracle 26ai )
 
 ---
 
