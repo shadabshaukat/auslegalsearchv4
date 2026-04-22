@@ -1,6 +1,6 @@
-# AUSLegalSearch v3 — Tools Index
+# AUSLegalSearch v4 — Tools Index
 
-This directory contains developer tools for AUSLegalSearch v3.
+This directory contains developer tools for AUSLegalSearch v4.
 
 Available tools and documentation:
 - SQL Latency Benchmark (p50/p95; vector/FTS/metadata; optimized SQL scenarios)

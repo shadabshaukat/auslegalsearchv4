@@ -1,5 +1,5 @@
 """
-OCI GenAI RAG pipeline for auslegalsearchv3.
+OCI GenAI RAG pipeline for auslegalsearchv4.
 - Mirrors RAGPipeline but uses Oracle Cloud GenAI as LLM backend.
 - Handles OCI credential and config setup.
 - Retrieves relevant documents/chunks from the vector store (optionally).

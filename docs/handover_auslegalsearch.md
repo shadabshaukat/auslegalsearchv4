@@ -1,12 +1,12 @@
-# AUSLegalSearch v3 — Handover Document
+# AUSLegalSearch v4 — Handover Document
 
-This document explains the architecture, database schema, embedding and chunking strategies, and ingestion/loading pipeline for the AUSLegalSearchv3 system.
+This document explains the architecture, database schema, embedding and chunking strategies, and ingestion/loading pipeline for the AUSLegalSearchv4 system.
 
 ---
 
 ## 1. System Overview
 
-AUSLegalSearchv3 is a research platform for legal documents, designed with semantic search, hybrid/BM25 and FTS capabilities, leveraging large transformer-based vector models. It provides a unified API/Gradio/Streamlit interface with robust and reproducible vector and metadata management, optimized for legal research use cases.
+AUSLegalSearchv4 is a research platform for legal documents, designed with semantic search, hybrid/BM25 and FTS capabilities, leveraging large transformer-based vector models. It provides a unified API/Gradio/Streamlit interface with robust and reproducible vector and metadata management, optimized for legal research use cases.
 
 ---
 

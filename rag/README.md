@@ -1,4 +1,4 @@
-# AUSLegalSearch v3 — RAG Pipelines
+# AUSLegalSearch v4 — RAG Pipelines
 
 Retrieval Augmented Generation (RAG) runtime for local Ollama LLMs and Oracle Cloud GenAI. These pipelines accept pre-retrieved context chunks and format them (with metadata) into prompts, call the LLM, and return structured results for UI and API layers.
 

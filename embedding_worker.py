@@ -1,7 +1,7 @@
 """
 embedding_worker.py
 
-Parallel vectorization/embedding worker for auslegalsearchv2/v3.
+Parallel vectorization/embedding worker for auslegalsearchv4.
 Each file: all chunks embedded as a batch, and DB inserts (Documents and Embeddings) done per file.
 ENHANCED: Passes chunk-level legal metadata from loader to embedding/store.
 """

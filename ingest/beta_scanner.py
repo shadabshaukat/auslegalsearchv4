@@ -1,5 +1,5 @@
 """
-Beta dataset scanner for AUSLegalSearch v3.
+Beta dataset scanner for AUSLegalSearch v4.
 
 Goal:
 - From a given root directory, pick at most ONE representative file from each folder, recursively.

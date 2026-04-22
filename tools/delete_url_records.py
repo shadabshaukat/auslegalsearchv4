@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Delete all records for a given URL across embeddings (by chunk_metadata->>'url')
-and the corresponding documents rows in auslegalsearchv3.
+and the corresponding documents rows in auslegalsearchv4.
 
 - Locates embeddings where chunk_metadata->>'url' = :url
 - Deletes those embeddings

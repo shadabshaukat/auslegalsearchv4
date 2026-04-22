@@ -1,5 +1,5 @@
 """
-Oracle 23ai Database Connector for auslegalsearchv3.
+Oracle 23ai Database Connector for auslegalsearchv4.
 - Provides a connector class for querying Oracle 23ai databases.
 - Auth/credentials/config are loaded from environment variables or parameters.
 - Results are returned as native Python objects.

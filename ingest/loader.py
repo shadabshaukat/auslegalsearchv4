@@ -1,5 +1,5 @@
 """
-Loader for auslegalsearchv3: Nomic 768D Embedding, 1500-char Chunking
+Loader for auslegalsearchv4: Nomic 768D Embedding, 1500-char Chunking
 - All legal/journal/case/generic chunking uses ~1500-char target.
 - If any chunk >1500 chars after paragraph chunking, further split chunk at sentence/end boundary or substring.
 

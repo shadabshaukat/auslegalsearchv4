@@ -1,4 +1,4 @@
-# AUSLegalSearch v3 — Ingestion (Beta) Pipeline
+# AUSLegalSearch v4 — Ingestion (Beta) Pipeline
 
 High-throughput, multi-GPU ingestion for legal corpora. Discovers .txt/.html, parses to text + metadata, performs semantic, token-aware chunking (dashed-header aware), embeds on GPU, and persists Documents + Embeddings to PostgreSQL with pgvector and FTS maintenance. Includes multi-GPU orchestration, resumability, per-file metrics logging, and performance tuning.
 
@@ -190,7 +190,7 @@ Remaining-files method (illustrative; see docs/BetaDataLoad.md for full commands
 ```bash
 session=beta-full-YYYYMMDD-HHMMSS
 child=${session}-gpu3
-proj=/abs/path/auslegalsearchv3
+proj=/abs/path/auslegalsearchv4
 logs="$proj/logs"
 part=".beta-gpu-partition-${child}.txt"
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Relational metadata loader for AUSLegalSearch v3
+Relational metadata loader for AUSLegalSearch v4
 
 Purpose:
   - Parse files (txt/html) with dashed frontmatter and load normalized relational records

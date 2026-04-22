@@ -1,5 +1,5 @@
 """
-Multi-GPU orchestrator for AUSLegalSearch v3 beta ingestion.
+Multi-GPU orchestrator for AUSLegalSearch v4 beta ingestion.
 
 Purpose:
 - Mirror the previous multi-GPU embedding approach (one worker process per GPU, each with its own session).

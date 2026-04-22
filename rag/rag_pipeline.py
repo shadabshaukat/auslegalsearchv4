@@ -1,5 +1,5 @@
 """
-RAG pipeline for auslegalsearchv2/v3.
+RAG pipeline for auslegalsearchv4.
 - Retrieves relevant documents/chunks from the vector store.
 - Sends context, user question, and options to Ollama Llama3/Llama4 via API.
 - Returns model output (QA answer/summary) and relevant document sources.

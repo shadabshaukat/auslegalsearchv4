@@ -1,5 +1,5 @@
 """
-Embedding interface for auslegalsearchv3.
+Embedding interface for auslegalsearchv4.
 
 - Primary path: Sentence-Transformers models (default: nomic-ai/nomic-embed-text-v1.5, 768d)
 - Fallback path: Plain HuggingFace Transformer checkpoints (e.g., 'legal-bert-base-uncased') with pooling

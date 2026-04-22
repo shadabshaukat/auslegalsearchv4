@@ -12,8 +12,8 @@ sudo apt install python3 python3-venv python3-pip git postgresql libpq-dev gcc u
 
 2) Clone, prepare, and install dependencies
 ```sh
-git clone https://github.com/shadabshaukat/auslegalsearchv3.git
-cd auslegalsearchv3
+git clone https://github.com/shadabshaukat/auslegalsearchv4.git
+cd auslegalsearchv4
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
@@ -275,7 +275,7 @@ Resume a stuck child on “remaining files” only
 ```sh
 session=beta-full-YYYYMMDD-HHMMSS
 child=${session}-gpu3
-proj=/abs/path/auslegalsearchv3
+proj=/abs/path/auslegalsearchv4
 logs="$proj/logs"
 part=".beta-gpu-partition-${child}.txt"
 
@@ -359,8 +359,8 @@ Notes:
 ## Contribution and Support
 
 Raise issues, feature requests, or PRs at:  
-https://github.com/shadabshaukat/auslegalsearchv3
+https://github.com/shadabshaukat/auslegalsearchv4
 
 ---
 
-**AUSLegalSearchv3 — Enterprise-grade, agentic, explainable legal AI built for the modern legal practice.**
+**AUSLegalSearchv4 — Enterprise-grade, agentic, explainable legal AI built for the modern legal practice.**

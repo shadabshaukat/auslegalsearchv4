@@ -1,5 +1,5 @@
 """
-AUSLegalSearch v3 – Main App Page (ENHANCED: rich metadata chunk display)
+AUSLegalSearch v4 – Main App Page (ENHANCED: rich metadata chunk display)
 - Sidebar batch convert with 'Start' button
 - Legal hybrid search, ingestion, RAG, all chunk context returns rich metadata
 """
@@ -23,8 +23,8 @@ import re
 
 import legal_html2text
 
-st.set_page_config(page_title="AUSLegalSearch v3", layout="wide")
-st.title("AUSLegalSearch v3 – Legal Document Search, Background Embedding & RAG")
+st.set_page_config(page_title="AUSLegalSearch v4", layout="wide")
+st.title("AUSLegalSearch v4 – Legal Document Search, Background Embedding & RAG")
 
 API_ROOT = os.environ.get("AUSLEGALSEARCH_API_URL", "http://localhost:8000")
 

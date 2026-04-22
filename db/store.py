@@ -1,5 +1,5 @@
 """
-Centralized DB models and ORM for auslegalsearchv3.
+Centralized DB models and ORM for auslegalsearchv4.
 - Exports all tables, full CRUD/session logic for users, ingestion, search, embedding, chat, and conversion files.
 - All app code imports models and functions from here, schema created with create_all_tables().
 """

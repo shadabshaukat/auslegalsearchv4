@@ -1,4 +1,4 @@
-# AUSLegalSearch v3 — Post-load Indexing & Metadata Strategy (TB-scale)
+# AUSLegalSearch v4 — Post-load Indexing & Metadata Strategy (TB-scale)
 
 This repository includes two production-ready SQL scripts for optimizing JSON metadata filtering, trigram search, and vector similarity over very large tables (multi‑TB). Choose the variant that fits your rollout constraints.
 

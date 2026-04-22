@@ -1,5 +1,5 @@
 """
-Semantic, token-aware chunking utilities for AUSLegalSearch v3 (beta dataset).
+Semantic, token-aware chunking utilities for AUSLegalSearch v4 (beta dataset).
 
 Design goals:
 - Modern, tokenizer-agnostic approximation of token counts for fast, dependency-light operation.

@@ -1,5 +1,5 @@
 """ 
-AUSLegalSearchv3 Gradio UI:
+AUSLegalSearchv4 Gradio UI:
 - Tabs for Hybrid Search, Vector Search, RAG (with supersystem prompt), Conversational Chat, and Agentic Chat (chain-of-thought for both Ollama and OCI GenAI).
 """
 

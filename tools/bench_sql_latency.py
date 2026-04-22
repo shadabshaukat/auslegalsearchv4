@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-End-to-end SQL latency benchmark for AUSLegalSearch v3
+End-to-end SQL latency benchmark for AUSLegalSearch v4
 
 Baseline targets (existing):
 - Vector similarity (pgvector) + JSON metadata filters

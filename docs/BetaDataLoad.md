@@ -1,4 +1,4 @@
-# AUSLegalSearch v3 — Beta Data Load Guide
+# AUSLegalSearch v4 — Beta Data Load Guide
 
 End-to-end guide to run the beta ingestion pipeline: discover files, parse, chunk (semantic or dashed-header), embed on NVIDIA GPUs, write to Postgres/pgvector, and maintain FTS. Includes multi-GPU orchestration, resume, performance tuning, and verification.
 
@@ -378,7 +378,7 @@ Resumable ingestion and “remaining files” method
   ```
   session=beta-cases-full-20251014-122557
   child=${session}-gpu3
-  proj=/home/ubuntu/auslegalsearchv3/auslegalsearchv3
+  proj=/home/ubuntu/auslegalsearchv4/auslegalsearchv4
   logs="$proj/logs"
   part=".beta-gpu-partition-${child}.txt"
 
@@ -582,7 +582,7 @@ python3 -m ingest.beta_orchestrator \
   --target_tokens 1500 \
   --overlap_tokens 192 \
   --max_tokens 1920 \
-  --log_dir "/home/ubuntu/auslegalsearchv3/auslegalsearchv3/logs"
+  --log_dir "/home/ubuntu/auslegalsearchv4/auslegalsearchv4/logs"
 ```
 
 This guide reflects the current beta workflow and code paths:

@@ -1,5 +1,5 @@
 """
-Database connection module for auslegalsearchv3.
+Database connection module for auslegalsearchv4.
 - Connects to PostgreSQL with pgvector extension enabled.
 - Provides SQLAlchemy engine and session makers.
 - Checks/creates vector extension if needed.

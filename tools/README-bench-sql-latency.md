@@ -1,6 +1,6 @@
-# AUSLegalSearch v3 — Tools: SQL Latency Benchmark
+# AUSLegalSearch v4 — Tools: SQL Latency Benchmark
 
-This directory contains the end-to-end SQL latency benchmarking tool for the AUSLegalSearch v3 stack. It measures latency and prints top results for:
+This directory contains the end-to-end SQL latency benchmarking tool for the AUSLegalSearch v4 stack. It measures latency and prints top results for:
 - Vector similarity searches using pgvector with optional JSON metadata filters
 - Full Text Search (FTS) on documents.content via documents.document_fts
 - Metadata-only filtering on JSONB

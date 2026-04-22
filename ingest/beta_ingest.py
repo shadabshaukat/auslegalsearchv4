@@ -1,5 +1,5 @@
 """
-Beta dataset ingestion pipeline for AUSLegalSearch v3.
+Beta dataset ingestion pipeline for AUSLegalSearch v4.
 
 Requirements (kept):
 - Do NOT modify existing ingestion/embedding code; provide a parallel path specific to the beta dataset.

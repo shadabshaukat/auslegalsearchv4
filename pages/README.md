@@ -1,4 +1,4 @@
-# AUSLegalSearch v3 — Streamlit UI (pages)
+# AUSLegalSearch v4 — Streamlit UI (pages)
 
 Interactive Streamlit UI for login and legal chat with Retrieval Augmented Generation (RAG). The UI exposes a clean chat experience with per-source cards, metadata, and controls for LLM decoding parameters.
 

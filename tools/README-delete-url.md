@@ -1,4 +1,4 @@
-# AUSLegalSearch v3 — Delete by URL Tool
+# AUSLegalSearch v4 — Delete by URL Tool
 
 This utility locates and deletes all records for one or more URL values from the ingestion tables:
 - Deletes rows in `embeddings` where `chunk_metadata->>'url' = :url`

@@ -1,4 +1,4 @@
-# AUSLegalSearch v3 — Database Layer
+# AUSLegalSearch v4 — Database Layer
 
 Storage and retrieval layer for ingestion, search, RAG, and analytics.
 

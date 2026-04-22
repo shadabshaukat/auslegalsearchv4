@@ -1,5 +1,5 @@
 """
-OpenSearch connector and index bootstrap helpers for AUSLegalSearch v3.
+OpenSearch connector and index bootstrap helpers for AUSLegalSearch v4.
 
 This module is intentionally lightweight and optional. It only activates when
 `AUSLEGALSEARCH_STORAGE_BACKEND=opensearch`.

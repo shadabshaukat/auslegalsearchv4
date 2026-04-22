@@ -1,5 +1,5 @@
 """
-FastAPI backend for AUSLegalSearchv3, with legal-tuned hybrid QA, legal-aware chunking, RAG, reranker interface, OCI GenAI, Oracle 23ai DB, and full system prompt config.
+FastAPI backend for AUSLegalSearchv4, with legal-tuned hybrid QA, legal-aware chunking, RAG, reranker interface, OCI GenAI, Oracle 23ai DB, and full system prompt config.
 """
 
 # Always load .env if present
@@ -70,7 +70,7 @@ def download_hf_model(hf_repo):
         print(f"Could not download {hf_repo}: {e}")
 
 app = FastAPI(
-    title="AUSLegalSearchv3 API",
+    title="AUSLegalSearchv4 API",
     description="REST API for legal vector search, ingestion, RAG, chat, reranker, system prompt, OCI GenAI, and Oracle 23ai DB.",
     version="0.40"
 )

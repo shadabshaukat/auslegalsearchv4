@@ -1,4 +1,4 @@
-# AUSLegalSearch v3 — Embedding Subsystem
+# AUSLegalSearch v4 — Embedding Subsystem
 
 Vector embedding interface and runtime for the ingestion pipeline, search, and benchmarking tools. Provides a single, ergonomic API around Sentence-Transformers models with a robust HuggingFace fallback.
 

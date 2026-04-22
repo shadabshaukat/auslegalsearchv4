@@ -1,5 +1,5 @@
 """
-Parallel beta ingestion worker for AUSLegalSearch v3.
+Parallel beta ingestion worker for AUSLegalSearch v4.
 
 This worker:
 - Processes a provided list of files (via --partition_file) OR discovers all files under --root.
