@@ -1,0 +1,498 @@
+/home/ubuntu/DataClean/HCA/2009/Wurridjal v The Commonwealth of Australia - 2.txt
+/home/ubuntu/DataClean/HCA/2005/APLA Limited v Legal Services Commissioner NSW - 44.txt
+/home/ubuntu/DataClean/HCA/2003/Cattanach v Melchior - 38.txt
+/home/ubuntu/DataClean/HCA/2024/Commonwealth of Australia v Sanofi - 47.txt
+/home/ubuntu/DataClean/HCA/1999/Sue v Hill - 30.txt
+/home/ubuntu/DataClean/HCA/2013/Monis v The Queen - 4.txt
+/home/ubuntu/DataClean/HCA/1997/Re Residential Tenancies Tribunal of NSW v Henderson - 36.txt
+/home/ubuntu/DataClean/HCA/2005/Ruhani v Director of Police - 42.txt
+/home/ubuntu/DataClean/HCA/1998/Pyrenees Shire Council v Day - 3.txt
+/home/ubuntu/DataClean/HCA/1997/Commissioner Australian Federal Police v Propend Finance Pty Ltd - 3.txt
+/home/ubuntu/DataClean/HCA/1978/Sankey v Whitlam - 43.txt
+/home/ubuntu/DataClean/HCA/2014/Tajjour v New South Wales - 35.txt
+/home/ubuntu/DataClean/HCA/1956/R v Kirby - 10.txt
+/home/ubuntu/DataClean/HCA/2003/News Ltd v South Sydney District Rugby League Football Club Ltd - 45.txt
+/home/ubuntu/DataClean/HCA/2007/CGU Insurance Limited v AMP Financial Planning Pty Ltd - 36.txt
+/home/ubuntu/DataClean/HCA/1989/Philip Morris Ltd v Commissioner of Business Franchises Vic - 38.txt
+/home/ubuntu/DataClean/HCA/2004/Butcher v Lachlan Elder Realty Pty Ltd - 60.txt
+/home/ubuntu/DataClean/HCA/2002/Members of the Yorta Yorta Aboriginal Community v Victoria - 58.txt
+/home/ubuntu/DataClean/HCA/2004/Planning Commission WA v Temwood Holdings Pty Ltd - 63.txt
+/home/ubuntu/DataClean/HCA/2005/Fingleton v R - 34.txt
+/home/ubuntu/DataClean/HCA/2000/DJL v Central Authority - 17.txt
+/home/ubuntu/DataClean/HCA/1999/Re Colina - 57.txt
+/home/ubuntu/DataClean/HCA/2019/Victorian Building Authority v Andriotis - 22.txt
+/home/ubuntu/DataClean/HCA/1997/Esanda Finance Corporation Ltd v Peat Marwick Hungerfords Reg - 8.txt
+/home/ubuntu/DataClean/HCA/1957/Second Uniform Tax - 54.txt
+/home/ubuntu/DataClean/HCA/2006/Concrete Pty Ltd v Parramatta Design and Developments Pty Ltd - 55.txt
+/home/ubuntu/DataClean/HCA/2012/Equuscorp Pty Ltd v Haxton - 7.txt
+/home/ubuntu/DataClean/HCA/1988/Trident General Insurance Co Ltd v McNiece Bros Pty Ltd - 44.txt
+/home/ubuntu/DataClean/HCA/1908/R v Barger - 43.txt
+/home/ubuntu/DataClean/HCA/2004/Bayside City Council v Telstra Corp Ltd - 19.txt
+/home/ubuntu/DataClean/HCA/2002/Velevski v R - 4.txt
+/home/ubuntu/DataClean/HCA/2014/Brookfield Multiplex Ltd v Owners Corporation Strata Plan 61288 - 36.txt
+/home/ubuntu/DataClean/HCA/1998/Marks v GIO Australia Holdings - 69.txt
+/home/ubuntu/DataClean/HCA/1976/Russell v Russell - 23.txt
+/home/ubuntu/DataClean/HCA/1909/Federated Saw Mill v James Moore & Sons Pty Ltd - 43.txt
+/home/ubuntu/DataClean/HCA/2018/Minister for Immigration and Border Protection v SZVFW - 30.txt
+/home/ubuntu/DataClean/HCA/2000/Coal and Allied v AIRC - 47.txt
+/home/ubuntu/DataClean/HCA/2003/Neat Domestic Trading Pty Ltd v AWB Ltd - 35.txt
+/home/ubuntu/DataClean/HCA/1952/Capital Issues - 50.txt
+/home/ubuntu/DataClean/HCA/2013/Plaintiff M79-2012 v Minister for Immigration and Citizenship - 24.txt
+/home/ubuntu/DataClean/HCA/1972/King v Jones - 44.txt
+/home/ubuntu/DataClean/HCA/1931/McKernan v Fraser - 54.txt
+/home/ubuntu/DataClean/HCA/2000/Barwick v NSW Law Society - 2.txt
+/home/ubuntu/DataClean/HCA/1988/Mabo v Queensland - 69.txt
+/home/ubuntu/DataClean/HCA/1997/Postiglione v R - 26.txt
+/home/ubuntu/DataClean/HCA/1926/Federal Commissioner of Taxation v Munro - 58.txt
+/home/ubuntu/DataClean/HCA/1984/Gould v Vaggelas - 68.txt
+/home/ubuntu/DataClean/HCA/1996/Langer v Commonwealth - 43.txt
+/home/ubuntu/DataClean/HCA/2006/Clayton v R - 58.txt
+/home/ubuntu/DataClean/HCA/1992/David Securities Pty Ltd v Commonwealth Bank of Australia - 48.txt
+/home/ubuntu/DataClean/HCA/2004/Andar Transport Pty Ltd v Brambles Ltd - 28.txt
+/home/ubuntu/DataClean/HCA/2007/Forsyth v Deputy Commissioner of Taxation - 8.txt
+/home/ubuntu/DataClean/HCA/2004/Hillpalm Pty Ltd v Heaven's Door Pty Ltd - 59.txt
+/home/ubuntu/DataClean/HCA/2015/Tomlinson v Ramsey Food Processing Pty Limited - 28.txt
+/home/ubuntu/DataClean/HCA/1984/Davern v Messel - 34.txt
+/home/ubuntu/DataClean/HCA/2000/Spies v R - 43.txt
+/home/ubuntu/DataClean/HCA/1986/National Commercial Banking Corporation of Australia Ltd v Batty - 21.txt
+/home/ubuntu/DataClean/HCA/1983/Sorby v Commonwealth - 10.txt
+/home/ubuntu/DataClean/HCA/1994/Stephens v West Australian Newspapers Ltd - 45.txt
+/home/ubuntu/DataClean/HCA/1945/Commonwealth v Huon Transport Pty Ltd - 5.txt
+/home/ubuntu/DataClean/HCA/1989/Harriman v R - 50.txt
+/home/ubuntu/DataClean/HCA/2012/Minister for Home Affairs of the Commonwealth v Zentai - 28.txt
+/home/ubuntu/DataClean/HCA/1952/R v Hamilton Knight - 38.txt
+/home/ubuntu/DataClean/HCA/1970/Kotsis v Kotsis - 61.txt
+/home/ubuntu/DataClean/HCA/1999/Steele v Deputy Commissioner of Taxation - 7.txt
+/home/ubuntu/DataClean/HCA/2010/Kostas v HIA Insurance Services Pty Limited - 32.txt
+/home/ubuntu/DataClean/HCA/1996/Taikato v R - 28.txt
+/home/ubuntu/DataClean/HCA/1989/Australian Iron & Steel Pty Ltd v Banovic - 56.txt
+/home/ubuntu/DataClean/HCA/1986/Computer Edge Pty Ltd v Apple Computer Inc - 19.txt
+/home/ubuntu/DataClean/HCA/1996/State Authorities Superannuation Board v Commissioner of State Taxation WA - 32.txt
+/home/ubuntu/DataClean/HCA/2018/Alley v Gillespie - 11.txt
+/home/ubuntu/DataClean/HCA/2010/Aktas v Westpac Banking Corporation Limited - 25.txt
+/home/ubuntu/DataClean/HCA/2005/Banditt v R - 80.txt
+/home/ubuntu/DataClean/HCA/1979/McCormack v Federal Commissioner of Taxation - 18.txt
+/home/ubuntu/DataClean/HCA/1956/Federal Commissioner of Taxation v Official Receiver - 24.txt
+/home/ubuntu/DataClean/HCA/1937/Cowell v Rosehill Racecourse Co Ltd - 17.txt
+/home/ubuntu/DataClean/HCA/2012/Aytugrul v The Queen - 15.txt
+/home/ubuntu/DataClean/HCA/1970/Receipts Duty - 5.txt
+/home/ubuntu/DataClean/HCA/1962/Swift Australian Co Pty Ltd v Boyd Parkinson - 41.txt
+/home/ubuntu/DataClean/HCA/2020/Minister for Home Affairs v DMA18 as litigation guardian for DLZ18 - 43.txt
+/home/ubuntu/DataClean/HCA/2024/Kramer v Stone - 48.txt
+/home/ubuntu/DataClean/HCA/1910/O'Keefe v Williams - 40.txt
+/home/ubuntu/DataClean/HCA/1916/Knowles v Ballarat Trustees Executors & Agency Co Ltd - 57.txt
+/home/ubuntu/DataClean/HCA/2002/Macleod v Australian Securities and Investments Commission - 37.txt
+/home/ubuntu/DataClean/HCA/1984/MacCormick v Federal Commissioner of Taxation - 20.txt
+/home/ubuntu/DataClean/HCA/1997/Newcastle City Council v GIO General Ltd - 53.txt
+/home/ubuntu/DataClean/HCA/1909/Bellambi Coal Co Ltd v Murray - 73.txt
+/home/ubuntu/DataClean/HCA/1942/Australian Apple & Pear Marketing Board v Tonking - 37.txt
+/home/ubuntu/DataClean/HCA/2017/Commissioner of State Revenue v ACN 005 057 349 Pty Ltd - 6.txt
+/home/ubuntu/DataClean/HCA/2010/Republic of Croatia v Snedden - 14.txt
+/home/ubuntu/DataClean/HCA/2018/Falzon v Minister for Immigration and Border Protection - 2.txt
+/home/ubuntu/DataClean/HCA/1980/Barton v R - 48.txt
+/home/ubuntu/DataClean/HCA/1984/Foley v Padley - 50.txt
+/home/ubuntu/DataClean/HCA/2016/ElecNet Aust Pty Ltd v Commissioner of Taxation - 51.txt
+/home/ubuntu/DataClean/HCA/2010/AidWatch Incorporated v Commissioner of Taxation - 42.txt
+/home/ubuntu/DataClean/HCA/1996/Hot Holdings Pty Ltd v Creasy - 44.txt
+/home/ubuntu/DataClean/HCA/2010/Travelex Ltd v Commissioner of Taxation - 33.txt
+/home/ubuntu/DataClean/HCA/1966/NA Kratzmann Pty Ltd In Liq v Tucker No 1 - 72.txt
+/home/ubuntu/DataClean/HCA/1963/Fraher v Wunderlich Ltd - 53.txt
+/home/ubuntu/DataClean/HCA/1987/Butera v Director of Public Prosecutions Vic - 58.txt
+/home/ubuntu/DataClean/HCA/2019/Frugtniet v Australian Securities and Investments Commission - 16.txt
+/home/ubuntu/DataClean/HCA/1957/R v Spicer - 81.txt
+/home/ubuntu/DataClean/HCA/2023/Metal Manufactures Pty Limited v Morton - 1.txt
+/home/ubuntu/DataClean/HCA/2009/C.A.L. No 14 Pty Ltd v Motor Accidents Insurance Board - 47.txt
+/home/ubuntu/DataClean/HCA/1912/R v Commonwealth Court of Conciliation & Arbitration - 85.txt
+/home/ubuntu/DataClean/HCA/2005/Rich v CGU Insurance Limited - 16.txt
+/home/ubuntu/DataClean/HCA/1962/Pirie v Registrar-General - 58.txt
+/home/ubuntu/DataClean/HCA/1964/Redfern v Dunlop Rubber Australia Ltd - 9.txt
+/home/ubuntu/DataClean/HCA/1992/Ainsworth v Criminal Justice Commission - 10.txt
+/home/ubuntu/DataClean/HCA/1984/Federated Clerks' Union of Australia v Victorian Employers' Federation - 53.txt
+/home/ubuntu/DataClean/HCA/1978/R v Isaac - 33.txt
+/home/ubuntu/DataClean/HCA/2011/Marcolongo v Chen - 3.txt
+/home/ubuntu/DataClean/HCA/1962/R v Reynhoudt - 23.txt
+/home/ubuntu/DataClean/HCA/2024/Capic v Ford Motor Company of Australia Pty Ltd - 39.txt
+/home/ubuntu/DataClean/HCA/2004/Murphy v Overton Investments Pty Ltd - 3.txt
+/home/ubuntu/DataClean/HCA/1937/Broken Hill South Ltd Public Officer v Commissioner of Taxation NSW - 4.txt
+/home/ubuntu/DataClean/HCA/1968/Australian Federation of Air Pilots v Flight Crew Officers Industrial Tribunal - 22.txt
+/home/ubuntu/DataClean/HCA/2006/NBGM v Minister for Immigration and Multicultural Affairs - 54.txt
+/home/ubuntu/DataClean/HCA/1924/Jaques v Federal Commissioner of Taxation - 60.txt
+/home/ubuntu/DataClean/HCA/1973/Simpson v Forrester - 4.txt
+/home/ubuntu/DataClean/HCA/2016/Badenach v Calvert - 18.txt
+/home/ubuntu/DataClean/HCA/2023/Zurich Insurance Company Ltd v Koper - 25.txt
+/home/ubuntu/DataClean/HCA/1943/Visbord v Federal Commissioner of Taxation - 4.txt
+/home/ubuntu/DataClean/HCA/1951/Commissioner of Stamp Duties NSW v Pearse - 43.txt
+/home/ubuntu/DataClean/HCA/1910/SS Kalibia v Wilson - 77.txt
+/home/ubuntu/DataClean/HCA/1932/Smith's Newspapers Ltd v Becker - 39.txt
+/home/ubuntu/DataClean/HCA/1907/Heydon v Lillis - 73.txt
+/home/ubuntu/DataClean/HCA/1972/Federal Commissioner of Taxation v Williams - 31.txt
+/home/ubuntu/DataClean/HCA/1995/McGhee v R - 69.txt
+/home/ubuntu/DataClean/HCA/1999/Inge v R - 55.txt
+/home/ubuntu/DataClean/HCA/1965/Latec Investments Ltd v Hotel Terrigal Pty Ltd In Liq - 17.txt
+/home/ubuntu/DataClean/HCA/1977/International Nickel Australia Ltd v Federal Commissioner of Taxation - 49.txt
+/home/ubuntu/DataClean/HCA/2008/Gedeon v Commissioner of the New South Wales Crime Commission - 43.txt
+/home/ubuntu/DataClean/HCA/1974/Laybutt v Amoco Australia Pty Ltd - 49.txt
+/home/ubuntu/DataClean/HCA/1929/McGeoch v Federal Commissioner of Land Tax - 29.txt
+/home/ubuntu/DataClean/HCA/1989/Griffiths v R - 39.txt
+/home/ubuntu/DataClean/HCA/1989/Walton v R - 9.txt
+/home/ubuntu/DataClean/HCA/1978/Federal Commissioner of Taxation v Bidencope - 23.txt
+/home/ubuntu/DataClean/HCA/1974/Ratten v R - 35.txt
+/home/ubuntu/DataClean/HCA/2016/Castle v The Queen - 46.txt
+/home/ubuntu/DataClean/HCA/1965/R v Anderson - 27.txt
+/home/ubuntu/DataClean/HCA/1913/Amalgamated Society of Engineers v Smith - 44.txt
+/home/ubuntu/DataClean/HCA/1978/Finemores Transport Pty Ltd v New South Wales - 16.txt
+/home/ubuntu/DataClean/HCA/2015/Macoun v Commissioner of Taxation - 44.txt
+/home/ubuntu/DataClean/HCA/1979/Coe v Commonwealth - 68.txt
+/home/ubuntu/DataClean/HCA/1983/Taylor v Johnson - 5.txt
+/home/ubuntu/DataClean/HCA/1943/Graham v Markets Hotel Pty Ltd - 8.txt
+/home/ubuntu/DataClean/HCA/1997/Cutter v R - 7.txt
+/home/ubuntu/DataClean/HCA/1992/Chew v R - 18.txt
+/home/ubuntu/DataClean/HCA/1995/Medlin v State Government Insurance Commission - 5.txt
+/home/ubuntu/DataClean/HCA/1990/New South Wales v Commonwealth - 2.txt
+/home/ubuntu/DataClean/HCA/1923/R v Boston - 59.txt
+/home/ubuntu/DataClean/HCA/1953/Jenyns v Public Curator Qld - 2.txt
+/home/ubuntu/DataClean/HCA/1963/Teubner v Humble - 11.txt
+/home/ubuntu/DataClean/HCA/1956/Tozer Kemsley & Millbourn A'Asia Pty Ltd v Collier's Interstate Transport Service Ltd - 6.txt
+/home/ubuntu/DataClean/HCA/1992/Bennett v Minister of Community Welfare - 27.txt
+/home/ubuntu/DataClean/HCA/2009/Minister for Immigration and Citizenship v SZKTI - 30.txt
+/home/ubuntu/DataClean/HCA/1909/Linotype Co Ltd In Liq v Mounsey - 39.txt
+/home/ubuntu/DataClean/HCA/1971/Investment & Merchant Finance Corporation Ltd v Federal Commissioner of Taxation - 35.txt
+/home/ubuntu/DataClean/HCA/1971/Peel v R - 59.txt
+/home/ubuntu/DataClean/HCA/1977/Pioneer Kabushiki Kaisha v Registrar of Trade Marks - 56.txt
+/home/ubuntu/DataClean/HCA/1955/Perpetual Executors & Trustees Association of Australia Ltd v Federal Commissioner of Taxation - 66.txt
+/home/ubuntu/DataClean/HCA/1978/Stoneham v Ryan's Removals Pty Ltd - 59.txt
+/home/ubuntu/DataClean/HCA/1961/Sunbeam Corporation v Morphy-Richards Aust Pty Ltd - 39.txt
+/home/ubuntu/DataClean/HCA/1905/Reid v Smith - 54.txt
+/home/ubuntu/DataClean/HCA/1978/Stephens v R - 35.txt
+/home/ubuntu/DataClean/HCA/1954/Leonard v Booth - 64.txt
+/home/ubuntu/DataClean/HCA/1929/J C Williamson's Tivoli Vaudeville Pty Ltd v Federal Commissioner of Taxation - 33.txt
+/home/ubuntu/DataClean/HCA/2003/Romanos v Pentagold Investments Pty Ltd - 58.txt
+/home/ubuntu/DataClean/HCA/1943/Federal Commissioner of Taxation v Whiting s - 45.txt
+/home/ubuntu/DataClean/HCA/2024/Ismail v Minister for Immigration Citizenship and Multicultural Affairs - 2.txt
+/home/ubuntu/DataClean/HCA/1908/New South Wales v Commonwealth - 68.txt
+/home/ubuntu/DataClean/HCA/2022/Commissioner of Taxation v Carter - 10.txt
+/home/ubuntu/DataClean/HCA/2017/The Queen v Dickman - 24.txt
+/home/ubuntu/DataClean/HCA/1968/Government Insurance Office of NSW v Fredrichberg - 54.txt
+/home/ubuntu/DataClean/HCA/1975/Voulis v Kozary - 44.txt
+/home/ubuntu/DataClean/HCA/1953/Duncombe v Porter - 78.txt
+/home/ubuntu/DataClean/HCA/1985/Handevel Pty Ltd v Comptroller of Stamps Vic - 73.txt
+/home/ubuntu/DataClean/HCA/2015/Alcan Gove Pty Ltd v Zabic - 33.txt
+/home/ubuntu/DataClean/HCA/2010/CGU Insurance Limited v One.Tel Limited In Liquidation - 26.txt
+/home/ubuntu/DataClean/HCA/2013/Reeves v The Queen - 57.txt
+/home/ubuntu/DataClean/HCA/2012/New South Wales v Williamson - 57.txt
+/home/ubuntu/DataClean/HCA/1928/Burnham v Carroll Musgrove Theatres Ltd - 31.txt
+/home/ubuntu/DataClean/HCA/1946/Real Estate Institute of NSW v Blair - 43.txt
+/home/ubuntu/DataClean/HCA/1904/McLaughlin v Fosbery - 55.txt
+/home/ubuntu/DataClean/HCA/1979/Brisbane City Council v Group Projects Pty Ltd - 54.txt
+/home/ubuntu/DataClean/HCA/1910/Wingadee Shire Council v Willis - 35.txt
+/home/ubuntu/DataClean/HCA/1939/Field v Nott - 41.txt
+/home/ubuntu/DataClean/HCA/1990/Federal Commissioner of Taxation v Dalco - 3.txt
+/home/ubuntu/DataClean/HCA/1956/Fitzgerald v Masters - 53.txt
+/home/ubuntu/DataClean/HCA/2012/Douglass v The Queen - 34.txt
+/home/ubuntu/DataClean/HCA/2024/Miller v Minister for Immigration Citizenship and Multicultural Affairs - 13.txt
+/home/ubuntu/DataClean/HCA/1939/Webb v Hanlon - 8.txt
+/home/ubuntu/DataClean/HCA/1953/R v Commissioner of Patents - 67.txt
+/home/ubuntu/DataClean/HCA/1987/Sibbles v Highfern Pty Ltd - 66.txt
+/home/ubuntu/DataClean/HCA/2004/Minister for Immigration and Multicultural and Indigenous Affairs v Al Khafaji - 38.txt
+/home/ubuntu/DataClean/HCA/2005/New South Wales v Bujdoso [2005] HCA 76 - 76.txt
+/home/ubuntu/DataClean/HCA/1954/Gibbons v Wright - 17.txt
+/home/ubuntu/DataClean/HCA/1932/Richardson v Federal Commissioner of Taxation - 67.txt
+/home/ubuntu/DataClean/HCA/1977/R v Demack - 37.txt
+/home/ubuntu/DataClean/HCA/2015/Commissioner of the Australian Federal Police v Zhao - 5.txt
+/home/ubuntu/DataClean/HCA/1962/Thomas Brown & Sons Ltd v Fazal Deen - 59.txt
+/home/ubuntu/DataClean/HCA/1971/Watson v Marshall & Cade - 33.txt
+/home/ubuntu/DataClean/HCA/1982/R v McMahon - 56.txt
+/home/ubuntu/DataClean/HCA/1979/Green v Sommerville - 60.txt
+/home/ubuntu/DataClean/HCA/1995/Kizbeau Pty Ltd v W G & B Pty Ltd & McLean - 4.txt
+/home/ubuntu/DataClean/HCA/1948/Psaltis v Schultz - 31.txt
+/home/ubuntu/DataClean/HCA/1966/Insurance Commissioner of the State Motor Car Insurance Office v Denning - 79.txt
+/home/ubuntu/DataClean/HCA/2006/SZBEL v Minister for Immigration and Multicultural and Indigenous Affairs - 63.txt
+/home/ubuntu/DataClean/HCA/1959/Thompson v Federal Commissioner of Taxation - 66.txt
+/home/ubuntu/DataClean/HCA/2018/DL v The Queen - 32.txt
+/home/ubuntu/DataClean/HCA/1992/Jiminez v R - 14.txt
+/home/ubuntu/DataClean/HCA/2007/SZFDV v Minister for Immigration and Citizenship - 41.txt
+/home/ubuntu/DataClean/HCA/1971/Gannon v Gannon - 76.txt
+/home/ubuntu/DataClean/HCA/2021/Minister for Immigration Citizenship Migrant Services and Multicultural Affairs v Moorcroft - 19.txt
+/home/ubuntu/DataClean/HCA/1974/Bosnyak v Wroblewski - 45.txt
+/home/ubuntu/DataClean/HCA/2009/Minister for Immigration and Citizenship v SZIZO - 37.txt
+/home/ubuntu/DataClean/HCA/1999/Effem Foods Pty Ltd v Lake Cumbeline Pty Limited - 15.txt
+/home/ubuntu/DataClean/HCA/2014/Milne v The Queen - 4.txt
+/home/ubuntu/DataClean/HCA/2007/AJS v The Queen - 27.txt
+/home/ubuntu/DataClean/HCA/1964/British Traders' Insurance Co Ltd v Monson - 24.txt
+/home/ubuntu/DataClean/HCA/1909/Capel v Williams - 50.txt
+/home/ubuntu/DataClean/HCA/1979/Southern Centre of Theosophy Inc v South Australia - 59.txt
+/home/ubuntu/DataClean/HCA/2020/Minister for Home Affairs v DUA16 - 46.txt
+/home/ubuntu/DataClean/HCA/1958/Commissioner of Stamp Duties v Gale - 42.txt
+/home/ubuntu/DataClean/HCA/1981/Datt v NSW Law Society - 44.txt
+/home/ubuntu/DataClean/HCA/1907/Bishop v Chung Brothers - 23.txt
+/home/ubuntu/DataClean/HCA/1992/AutoCAD - 2.txt
+/home/ubuntu/DataClean/HCA/2008/Lujans v Yarrabee Coal Company Pty Ltd - 51.txt
+/home/ubuntu/DataClean/HCA/2007/General Motors Acceptance Corp Australia v Southbank Traders Pty Ltd - 19.txt
+/home/ubuntu/DataClean/HCA/2021/Minister for Immigration Citizenship Migrant Services and Multicultural Affairs v Viane - 41.txt
+/home/ubuntu/DataClean/HCA/1909/Co-operative Brick Co Pty Ltd v Hawthorn City - 56.txt
+/home/ubuntu/DataClean/HCA/1977/Slutzkin v Federal Commissioner of Taxation - 9.txt
+/home/ubuntu/DataClean/HCA/1950/Graham v Paterson - 9.txt
+/home/ubuntu/DataClean/HCA/1979/R v Cohen - 46.txt
+/home/ubuntu/DataClean/HCA/1933/Federal Commissioner of Taxation v Standard Trust Ltd - 19.txt
+/home/ubuntu/DataClean/HCA/1987/Kosciusko Thredbo Pty Ltd v Federal Commissioner of Taxation - 64.txt
+/home/ubuntu/DataClean/HCA/1961/City Motors v South Aerial Super Service Pty Ltd - 53.txt
+/home/ubuntu/DataClean/HCA/2000/Deputy Commissioner of Taxation v Woodhams - 10.txt
+/home/ubuntu/DataClean/HCA/1975/Sinclair v Maryborough Mining Warden - 17.txt
+/home/ubuntu/DataClean/HCA/1977/RCA Ltd v Federal Commissioner of Taxation - 33.txt
+/home/ubuntu/DataClean/HCA/1917/Gibson & Howes Ltd v Lennon Secretary for Agriculture & Stock Qld - 74.txt
+/home/ubuntu/DataClean/HCA/1927/Universal Film Manufacturing Company Australasia Ltd v New South Wales - 50.txt
+/home/ubuntu/DataClean/HCA/2006/Adams v Lambert - 10.txt
+/home/ubuntu/DataClean/HCA/1923/Monard v H M Leggo & Co Ltd - 53.txt
+/home/ubuntu/DataClean/HCA/1954/Scott v Numurkah Corporation - 14.txt
+/home/ubuntu/DataClean/HCA/1909/Moffat v Sheppard - 22.txt
+/home/ubuntu/DataClean/HCA/1979/West Australian Newspapers Ltd v Bridge - 10.txt
+/home/ubuntu/DataClean/HCA/1991/Walker v Wilson - 8.txt
+/home/ubuntu/DataClean/HCA/1964/Perry Engineering Co Ltd v Mermingis - 67.txt
+/home/ubuntu/DataClean/HCA/1939/Grey v Federal Commissioner of Taxation - 14.txt
+/home/ubuntu/DataClean/HCA/2019/Northern Territory v Sangare - 25.txt
+/home/ubuntu/DataClean/HCA/1964/Motel Marine Pty Ltd v IAC Finance Pty Ltd - 7.txt
+/home/ubuntu/DataClean/HCA/1999/MSP Nominees Pty Ltd v Commissioner of Stamps SA - 51.txt
+/home/ubuntu/DataClean/HCA/1908/Davidson v Chirnside - 65.txt
+/home/ubuntu/DataClean/HCA/1937/Molloy v Federal Commissioner of Land Tax - 62.txt
+/home/ubuntu/DataClean/HCA/1916/Bruce v Tyley - 34.txt
+/home/ubuntu/DataClean/HCA/1938/O'Donel v Commissioner for Road Transport & Tramways NSW - 15.txt
+/home/ubuntu/DataClean/HCA/1965/Federal Commissioner of Taxation v Uther - 42.txt
+/home/ubuntu/DataClean/HCA/1970/Brown v Rezitis - 56.txt
+/home/ubuntu/DataClean/HCA/1948/Henderson v Henderson - 15.txt
+/home/ubuntu/DataClean/HCA/1906/Stockwell v Ryder - 59.txt
+/home/ubuntu/DataClean/HCA/1990/Official Receiver In Bankruptcy v Schultz - 45.txt
+/home/ubuntu/DataClean/HCA/1951/Elder's Trustee & Executor Co Ltd v Federal Commissioner of Taxation - 65.txt
+/home/ubuntu/DataClean/HCA/1954/Wood v James - 77.txt
+/home/ubuntu/DataClean/HCA/2005/Laybutt v Glover Gibbs Pty Ltd tas Balfours NSW Pty Ltd - 56.txt
+/home/ubuntu/DataClean/HCA/1941/Matthews v Williams - 32.txt
+/home/ubuntu/DataClean/HCA/1966/Black v Smallwood - 2.txt
+/home/ubuntu/DataClean/HCA/1967/Smith Kline & French Laboratories Australia Ltd v Registrar of Trade Marks - 42.txt
+/home/ubuntu/DataClean/HCA/1933/Williams v City of Melbourne - 56.txt
+/home/ubuntu/DataClean/HCA/1951/Eastaway v Commonwealth - 80.txt
+/home/ubuntu/DataClean/HCA/1946/Commissioner of Taxation NSW v Hardie Investments Pty Ltd - 56.txt
+/home/ubuntu/DataClean/HCA/1956/Fox's - 63.txt
+/home/ubuntu/DataClean/HCA/1912/Tungamah Shire v Merrett - 63.txt
+/home/ubuntu/DataClean/HCA/1941/Trustees Executors & Agency Co Ltd v Federal Commissioner of Taxation - 36.txt
+/home/ubuntu/DataClean/HCA/2009/Lane v Morrison - 5.txt
+/home/ubuntu/DataClean/HCA/2010/Public Trustee of Queensland v Fortress Credit Corporation Aus 11 Pty Ltd - 29.txt
+/home/ubuntu/DataClean/HCA/1929/Western Australian Timber Workers' Industrial Union of Workers South West Land Division v Western Au - 26.txt
+/home/ubuntu/DataClean/HCA/1913/Norton v Hoare - 51.txt
+/home/ubuntu/DataClean/HCA/1942/Saywell v Saywell - 9.txt
+/home/ubuntu/DataClean/HCA/1988/Hoch v R - 50.txt
+/home/ubuntu/DataClean/HCA/1973/Johnston v Commissioner for Railways - 46.txt
+/home/ubuntu/DataClean/HCA/1948/Orr v Holmes - 16.txt
+/home/ubuntu/DataClean/HCA/1936/Brennan v R - 24.txt
+/home/ubuntu/DataClean/HCA/2009/John Holland Pty Ltd v Victorian Workcover Authority - 45.txt
+/home/ubuntu/DataClean/HCA/1998/Penney v R - 51.txt
+/home/ubuntu/DataClean/HCA/2022/Hill v Zuda Pty Ltd - 21.txt
+/home/ubuntu/DataClean/HCA/1910/Yuill v Kidman - 63.txt
+/home/ubuntu/DataClean/HCA/1913/Mount Bischoff Tin Mining Company Registered v Mount Bischoff Extended Tin Mining Company - 6.txt
+/home/ubuntu/DataClean/HCA/1959/Martin v Martin - 62.txt
+/home/ubuntu/DataClean/HCA/1905/National Mutual Life Association of Australasia Ltd v Kidman - 41.txt
+/home/ubuntu/DataClean/HCA/1938/Mangrovite Belting Ltd v J C Ludowici & Son Ltd - 67.txt
+/home/ubuntu/DataClean/HCA/1940/North Shore Gas Co Ltd v Commissioner of Stamp Duties NSW - 7.txt
+/home/ubuntu/DataClean/HCA/1991/Herscu v R - 40.txt
+/home/ubuntu/DataClean/HCA/1998/Capper v Thorpe - 24.txt
+/home/ubuntu/DataClean/HCA/2011/Tasty Chicks Pty Limited & Ors v Chief Commissioner of State Revenue - 41.txt
+/home/ubuntu/DataClean/HCA/1961/Braham v Walker - 7.txt
+/home/ubuntu/DataClean/HCA/1959/Australian Iron & Steel Ltd v Connell - 54.txt
+/home/ubuntu/DataClean/HCA/1961/Carroll v Purcell - 81.txt
+/home/ubuntu/DataClean/HCA/1994/Horta v Commonwealth - 32.txt
+/home/ubuntu/DataClean/HCA/1946/Willis v Commonwealth - 22.txt
+/home/ubuntu/DataClean/HCA/1934/Egerton-Warburton v Deputy Federal Commissioner of Taxation - 40.txt
+/home/ubuntu/DataClean/HCA/1973/Ryland v Federal Commissioner of Taxation - 33.txt
+/home/ubuntu/DataClean/HCA/1952/Luxton v Vines - 19.txt
+/home/ubuntu/DataClean/HCA/1964/Ritchie v Magree - 10.txt
+/home/ubuntu/DataClean/HCA/1957/South Australian Cold Stores Ltd v Electricity Trust of South Australia - 69.txt
+/home/ubuntu/DataClean/HCA/1988/Murphy v Farmer - 31.txt
+/home/ubuntu/DataClean/HCA/1917/Harrington v Browne - 36.txt
+/home/ubuntu/DataClean/HCA/1963/Crisp & Gunn Co-operative Ltd v Hobart Corporation - 55.txt
+/home/ubuntu/DataClean/HCA/1968/Conroy v Carter - 39.txt
+/home/ubuntu/DataClean/HCA/1917/Minister for Lands NSW v Jeremias - 41.txt
+/home/ubuntu/DataClean/HCA/1969/National Bank of Australasia Ltd v Federal Commissioner of Taxation - 11.txt
+/home/ubuntu/DataClean/HCA/1994/Re Alcan Australia Limited - 34.txt
+/home/ubuntu/DataClean/HCA/1905/Musgrove v McDonald - 50.txt
+/home/ubuntu/DataClean/HCA/1941/Bear v Official Receiver - 41.txt
+/home/ubuntu/DataClean/HCA/1931/Corporation of the City of Adelaide v Attorney-General SA - 48.txt
+/home/ubuntu/DataClean/HCA/1956/Fysh v Page - 13.txt
+/home/ubuntu/DataClean/HCA/1979/Ross v R - 29.txt
+/home/ubuntu/DataClean/HCA/1952/Hipworth v Mahar - 43.txt
+/home/ubuntu/DataClean/HCA/1964/Public Trustee WA v Nickisson - 62.txt
+/home/ubuntu/DataClean/HCA/1957/Buchanan & Brock Pty Ltd v Harris - 71.txt
+/home/ubuntu/DataClean/HCA/1932/Kessell v Leech - 38.txt
+/home/ubuntu/DataClean/HCA/1923/Cameron v Deputy Federal Commissioner of Taxation for Tasmania - 4.txt
+/home/ubuntu/DataClean/HCA/1980/Hope v Bathurst City Council - 16.txt
+/home/ubuntu/DataClean/HCA/1996/Ngo Ngo Ha v New South Wales - 17.txt
+/home/ubuntu/DataClean/HCA/1946/Dougan v Ley - 3.txt
+/home/ubuntu/DataClean/HCA/1981/Fox v Wood - 41.txt
+/home/ubuntu/DataClean/HCA/1957/Mann v Mann - 68.txt
+/home/ubuntu/DataClean/HCA/1966/NLS Pty Ltd v Hughes - 63.txt
+/home/ubuntu/DataClean/HCA/1957/Bentley v Benbow - 70.txt
+/home/ubuntu/DataClean/HCA/1960/Kennedy v Vercoe - 64.txt
+/home/ubuntu/DataClean/HCA/1930/Country Roads Board v Neale ADS Pty Ltd - 5.txt
+/home/ubuntu/DataClean/HCA/2018/Wehbe v Minister for Home Affairs - 50.txt
+/home/ubuntu/DataClean/HCA/1942/George v Roach - 22.txt
+/home/ubuntu/DataClean/HCA/1935/Booth v Booth - 15.txt
+/home/ubuntu/DataClean/HCA/1965/Federal Commissioner of Taxation v Mitchum - 23.txt
+/home/ubuntu/DataClean/HCA/1919/Bowles v Federal Commissioner of Taxation - 16.txt
+/home/ubuntu/DataClean/HCA/1946/Federal Commissioner of Taxation v Cornell - 32.txt
+/home/ubuntu/DataClean/HCA/1952/Callaghan v R - 55.txt
+/home/ubuntu/DataClean/HCA/1972/Federal Commissioner of Taxation v Faichney - 67.txt
+/home/ubuntu/DataClean/HCA/1986/Coldham Re - 87.txt
+/home/ubuntu/DataClean/HCA/1958/Keith Henry & Co Pty Ltd v Stuart Walker & Co Pty Ltd - 33.txt
+/home/ubuntu/DataClean/HCA/2015/Alqudsi v The Commonwealth - 49.txt
+/home/ubuntu/DataClean/HCA/1988/Hodges v New South Wales - 9.txt
+/home/ubuntu/DataClean/HCA/1912/Smith v Oldham - 61.txt
+/home/ubuntu/DataClean/HCA/1949/Election Importing Co Pty Ltd v Courtice - 20.txt
+/home/ubuntu/DataClean/HCA/1989/Re Collins - 42.txt
+/home/ubuntu/DataClean/HCA/1963/Dairy Farmers Co-operative Milk Co Ltd v Acquilina - 59.txt
+/home/ubuntu/DataClean/HCA/1997/Re Minister for Immigration & Ethnic Affairs Cth - 6.txt
+/home/ubuntu/DataClean/HCA/2020/Re Golding - 38.txt
+/home/ubuntu/DataClean/HCA/1918/Summers v Commonwealth - 33.txt
+/home/ubuntu/DataClean/HCA/1958/Howard v Jarvis - 19.txt
+/home/ubuntu/DataClean/HCA/1937/Jafferjee v Scarlett - 36.txt
+/home/ubuntu/DataClean/HCA/1981/Minister for Immigration & Ethnic Affairs v Pochi - 58.txt
+/home/ubuntu/DataClean/HCA/1964/Pedersen v Young - 28.txt
+/home/ubuntu/DataClean/HCA/1916/Metropolitan Meat Industry Board v Finlayson - 77.txt
+/home/ubuntu/DataClean/HCA/1937/Mickey Mouse - 38.txt
+/home/ubuntu/DataClean/HCA/1968/Davis v Commissioner for Main Roads - 10.txt
+/home/ubuntu/DataClean/HCA/1904/Tamworth Borough v Sanders - 41.txt
+/home/ubuntu/DataClean/HCA/1917/Titheradge v R - 76.txt
+/home/ubuntu/DataClean/HCA/1940/Fenton v Perpetual Trustee Co Ltd - 28.txt
+/home/ubuntu/DataClean/HCA/1914/Spence v Ravenscroft - 44.txt
+/home/ubuntu/DataClean/HCA/1957/Commonwealth v Anderson - 44.txt
+/home/ubuntu/DataClean/HCA/1979/National Employers' Mutual General Insurance Association Ltd v Waind - 11.txt
+/home/ubuntu/DataClean/HCA/1944/Federal Commissioner of Taxation v J Walter Thompson Australia Pty Ltd - 23.txt
+/home/ubuntu/DataClean/HCA/1995/Savvas v R - 29.txt
+/home/ubuntu/DataClean/HCA/2001/Re Sinanovic's Application - 40.txt
+/home/ubuntu/DataClean/HCA/1937/J C Williamson Ltd v Metro-Goldwyn-Mayer Theatres Ltd - 12.txt
+/home/ubuntu/DataClean/HCA/1933/Roman Catholic Bishop of Perth v Perth Road Board - 7.txt
+/home/ubuntu/DataClean/HCA/1979/Hyde Management Services Pty Ltd v FAI Insurances Ltd - 22.txt
+/home/ubuntu/DataClean/HCA/1956/Wheeler v Kelly - 5.txt
+/home/ubuntu/DataClean/HCA/1924/Carey v Palmer - 17.txt
+/home/ubuntu/DataClean/HCA/1907/Hamilton v Warne - 24.txt
+/home/ubuntu/DataClean/HCA/1932/Metropolitan Gas Company v Federal Commissioner of Taxation - 58.txt
+/home/ubuntu/DataClean/HCA/1948/Marks v Trustees Executors & Agency Co Ltd - 38.txt
+/home/ubuntu/DataClean/HCA/1974/Richardson v R - 19.txt
+/home/ubuntu/DataClean/HCA/1923/Walker & Company v Federal Commissioner of Taxation - 27.txt
+/home/ubuntu/DataClean/HCA/1934/Maher v Musson - 64.txt
+/home/ubuntu/DataClean/HCA/1937/Macpherson v Maund - 78.txt
+/home/ubuntu/DataClean/HCA/1935/Adams v Cleeve - 12.txt
+/home/ubuntu/DataClean/HCA/1961/Quarries Ltd v Federal Commissioner of Taxation - 69.txt
+/home/ubuntu/DataClean/HCA/1941/Herbert v R - 12.txt
+/home/ubuntu/DataClean/HCA/1919/Gellion v Elder's Trustee & Executor Co Ltd - 30.txt
+/home/ubuntu/DataClean/HCA/2019/EBT16 v Minister for Home Affairs - 44.txt
+/home/ubuntu/DataClean/HCA/1956/Smith v Associated Dominions Assurance Society Pty Ltd In Liq - 58.txt
+/home/ubuntu/DataClean/HCA/1937/Ex Parte Celotex Corporation - 31.txt
+/home/ubuntu/DataClean/HCA/1936/Goldman v Bramley - 35.txt
+/home/ubuntu/DataClean/HCA/1909/Ray v Davies - 51.txt
+/home/ubuntu/DataClean/HCA/1983/LNC Industries Ltd v BMW Australia Ltd - 31.txt
+/home/ubuntu/DataClean/HCA/1935/Sumner v Campbell - 20.txt
+/home/ubuntu/DataClean/HCA/1966/Heavy Minerals Pty Ltd v Federal Commissioner of Taxation - 60.txt
+/home/ubuntu/DataClean/HCA/1908/W H Burford and Sons Ltd v G Mowling and Son - 99.txt
+/home/ubuntu/DataClean/HCA/1928/Daniell v Federal Commissioner of Taxation - 17.txt
+/home/ubuntu/DataClean/HCA/1907/Kennedy v Palmer - 21.txt
+/home/ubuntu/DataClean/HCA/1959/Warren v Federal Commissioner of Taxation - 36.txt
+/home/ubuntu/DataClean/HCA/1955/Luya Julius Pty Ltd v Shepherd - 47.txt
+/home/ubuntu/DataClean/HCA/1990/Queensland TAB - 48.txt
+/home/ubuntu/DataClean/HCA/1968/Thompson & Wran v R - 21.txt
+/home/ubuntu/DataClean/HCA/1958/Raspor v R - 30.txt
+/home/ubuntu/DataClean/HCA/1932/Elder Smith & Co Ltd v Commissioner of Taxation NSW - 18.txt
+/home/ubuntu/DataClean/HCA/1921/Carey v Commonwealth - 54.txt
+/home/ubuntu/DataClean/HCA/1962/G F Heublein & Bro Inc v Continental Liqueurs Pty Ltd - 66.txt
+/home/ubuntu/DataClean/HCA/1993/Re Media Entertainment & Arts Alliance Ex Parte Hoyts Corporation Pty Ltd - 18.txt
+/home/ubuntu/DataClean/HCA/1951/R v Commonwealth Court of Conciliation & Arbitration - 2.txt
+/home/ubuntu/DataClean/HCA/1936/Dabscheck v Hecla Electrics Pty Ltd - 49.txt
+/home/ubuntu/DataClean/HCA/2017/Mercanti v Mercanti - 1.txt
+/home/ubuntu/DataClean/HCA/1959/Ryall v Carroll - 61.txt
+/home/ubuntu/DataClean/HCA/1929/Taylor v Reid - 32.txt
+/home/ubuntu/DataClean/HCA/1968/R v Gallagher - 87.txt
+/home/ubuntu/DataClean/HCA/1955/Spiratos v Australasian United Steam Navigation Co Ltd - 39.txt
+/home/ubuntu/DataClean/HCA/1984/Trimbole v Commonwealth - 83.txt
+/home/ubuntu/DataClean/HCA/1996/Re Attorney-General Cth - 4.txt
+/home/ubuntu/DataClean/HCA/1912/Willis v Perry - 12.txt
+/home/ubuntu/DataClean/HCA/1965/Re Lack - 7.txt
+/home/ubuntu/DataClean/HCA/1991/PS Chellaram & Co Ltd v China Ocean Shipping Company - 36.txt
+/home/ubuntu/DataClean/HCA/1984/Cardwell Shire Council v King Ranch Australia Pty Ltd - 39.txt
+/home/ubuntu/DataClean/HCA/1954/Yarra Glen & Lilydale Hunt Club v Federal Commissioner of Taxation - 55.txt
+/home/ubuntu/DataClean/HCA/1987/Saad v R - 14.txt
+/home/ubuntu/DataClean/HCA/1965/Farbenfabriken Bayer A G v Bayer Pharma Pty Ltd - 24.txt
+/home/ubuntu/DataClean/HCA/1935/Union Trustee Company of Australia Ltd v Federal Commissioner of Taxation - 51.txt
+/home/ubuntu/DataClean/HCA/1955/Viant v Viant - 40.txt
+/home/ubuntu/DataClean/HCA/1932/Federated Millers & Mill Employees' Association of Australasia v Butcher - 16.txt
+/home/ubuntu/DataClean/HCA/1932/Commercial Bank of Australia Ltd v Flannagan - 51.txt
+/home/ubuntu/DataClean/HCA/1932/Wurm v Richardson - 11.txt
+/home/ubuntu/DataClean/HCA/1930/Perkins v Cusack - 3.txt
+/home/ubuntu/DataClean/HCA/2017/Cecil v Director of Public Prosecutions Nauru - 46.txt
+/home/ubuntu/DataClean/HCA/1917/Holland v Jones - 26.txt
+/home/ubuntu/DataClean/HCA/1951/Keetley v Bowie - 56.txt
+/home/ubuntu/DataClean/HCA/1919/Melrose v Federal Commissioner of Taxation - 50.txt
+/home/ubuntu/DataClean/HCA/1918/Commonwealth v Registrar of Titles Vic - 17.txt
+/home/ubuntu/DataClean/HCA/1914/Brownfield v Earle - 11.txt
+/home/ubuntu/DataClean/HCA/1937/Union Steamship Company of New Zealand Ltd v Ship Caradale - 1.txt
+/home/ubuntu/DataClean/HCA/1928/Jones v Jones - 2.txt
+/home/ubuntu/DataClean/HCA/1953/McDermott v Collien - 44.txt
+/home/ubuntu/DataClean/HCA/1956/Charles Moore & Co WA Pty Ltd v Federal Commissioner of Taxation - 77.txt
+/home/ubuntu/DataClean/HCA/1998/South-West Forest Defence Foundation v Department of Conservation and Land Management No 2 - 35.txt
+/home/ubuntu/DataClean/HCA/1956/Deputy Federal Commissioner of Taxation v Academy Plastics Pty Ltd - 12.txt
+/home/ubuntu/DataClean/HCA/1912/Lee v Commissioner of Patents - 84.txt
+/home/ubuntu/DataClean/HCA/1936/Robert G Nall Limited  v Federal Commissioner of Taxation - 79.txt
+/home/ubuntu/DataClean/HCA/1994/Walker v New South Wales - 64.txt
+/home/ubuntu/DataClean/HCA/1965/Goding v Queensland Newspapers Pty Ltd - 33.txt
+/home/ubuntu/DataClean/HCA/1915/Linderstam v Barnett - 5.txt
+/home/ubuntu/DataClean/HCA/1923/Burns Philp & Co Ltd v West Australian Steam Navigation Co Ltd - 55.txt
+/home/ubuntu/DataClean/HCA/1965/Shaw v Shaw - 39.txt
+/home/ubuntu/DataClean/HCA/1959/Trustees Executors & Agency Co Ltd v Gleeson - 53.txt
+/home/ubuntu/DataClean/HCA/1919/Williamstown Town v Box - 6.txt
+/home/ubuntu/DataClean/HCA/1932/Simpson v Bannerman - 43.txt
+/home/ubuntu/DataClean/HCA/1967/Sibley v Kais - 43.txt
+/home/ubuntu/DataClean/HCA/1965/Purex Corporation Ltd v Vanguard Trading Co - 10.txt
+/home/ubuntu/DataClean/HCA/1914/Rice v Henley - 75.txt
+/home/ubuntu/DataClean/HCA/1921/Alexander v Menary - 34.txt
+/home/ubuntu/DataClean/HCA/1968/Brisbane Amateur Turf Club v Federal Commissioner of Taxation - 31.txt
+/home/ubuntu/DataClean/HCA/1970/Imperial Chemical Industries of Australia & New Zealand Ltd v Federal Commissioner of Taxation - 9.txt
+/home/ubuntu/DataClean/HCA/1981/Guzowski v Cook - 53.txt
+/home/ubuntu/DataClean/HCA/1919/McGregor v Huddart Parker Ltd - 28.txt
+/home/ubuntu/DataClean/HCA/1966/Connolly v Connolly - 47.txt
+/home/ubuntu/DataClean/HCA/1961/Commonwealth v Mullane - 28.txt
+/home/ubuntu/DataClean/HCA/1991/Re Building Workers' Industrial Union of Australia Ex Parte Pillar - 50.txt
+/home/ubuntu/DataClean/HCA/1911/Wilson v Jones - 11.txt
+/home/ubuntu/DataClean/HCA/1909/Bayne v Blake No 2 - 61.txt
+/home/ubuntu/DataClean/HCA/1920/Ramaciotti v Federal Commissioner of Taxation - 70.txt
+/home/ubuntu/DataClean/HCA/1927/Shaw v United Felt Hats Pty Ltd - 38.txt
+/home/ubuntu/DataClean/HCA/1949/Carpenters Investment Trading Co Ltd v Federal Commissioner of Taxation - 32.txt
+/home/ubuntu/DataClean/HCA/1913/Maguire v Browne - 57.txt
+/home/ubuntu/DataClean/HCA/1991/BLF - 20.txt
+/home/ubuntu/DataClean/HCA/1907/Peacock v D M Osborne & Co - 42.txt
+/home/ubuntu/DataClean/HCA/1914/Daimler Co Ltd v Registrar of Trade Marks - 91.txt
+/home/ubuntu/DataClean/HCA/1962/White v R - 51.txt
+/home/ubuntu/DataClean/HCA/1924/Ex parte Carpathia Tin Mining Co Ltd - 66.txt
+/home/ubuntu/DataClean/HCA/1923/Thomson v Federal Commissioner of Taxation - 44.txt
+/home/ubuntu/DataClean/HCA/2013/Michaelides v The Queen - 9.txt
+/home/ubuntu/DataClean/HCA/1922/Bucknell v O'Donnell - 40.txt
+/home/ubuntu/DataClean/HCA/1914/Ryan v Ryan - 64.txt
+/home/ubuntu/DataClean/HCA/1984/Ball v Federal Commissioner of Taxation - 71.txt
+/home/ubuntu/DataClean/HCA/1924/Incorporated Council of Law Reporting Qld v Federal Commissioner of Taxation - 23.txt
+/home/ubuntu/DataClean/HCA/1963/Kenny v Hornberg - 34.txt
+/home/ubuntu/DataClean/HCA/1920/Cumming & Co Ltd v Hasell - 66.txt
+/home/ubuntu/DataClean/HCA/1997/Department of Social Security v Lee - 46.txt
+/home/ubuntu/DataClean/HCA/1924/Downie v Thomas - 52.txt
+/home/ubuntu/DataClean/HCA/1955/R v Galvin - 7.txt
+/home/ubuntu/DataClean/HCA/1956/Wirth v Wirth - 71.txt
+/home/ubuntu/DataClean/HCA/1918/Melbourne Electric Supply Co Ltd v Ogden - 7.txt
+/home/ubuntu/DataClean/HCA/1915/Union Trustee Company of Australia Ltd v Federal Commissioner of Land Tax - 68.txt
+/home/ubuntu/DataClean/HCA/1916/Caldwell v Commissioner of Patents - 52.txt
+/home/ubuntu/DataClean/HCA/1986/Attorney-General Cth v Burcher - 75.txt
+/home/ubuntu/DataClean/HCA/1913/Ling Pack otherwise Ah Sing v Gleeson - 15.txt
+/home/ubuntu/DataClean/HCA/1919/Municipal Tramways Trust v Scott - 46.txt
+/home/ubuntu/DataClean/HCA/1918/Ruse v Bank of Australasia - 63.txt
+/home/ubuntu/DataClean/HCA/1917/Ruse v Bank of Australasia - 57.txt
+/home/ubuntu/DataClean/HCA/1908/Maloney v Maloney - 79.txt
+/home/ubuntu/DataClean/HCA/1913/Perpetual Trustee Co Ltd v Stockton Municipal Council - 59.txt
+/home/ubuntu/DataClean/HCA/1931/Irving v Munro & Sons Ltd - 57.txt
+/home/ubuntu/DataClean/HCA/1913/Re Hanlon - 46.txt
+/home/ubuntu/DataClean/HCA/1934/Adams v Herald & Weekly Times Ltd - 11.txt
+/home/ubuntu/DataClean/HCA/1917/Flint v Bannigan - 72.txt
+/home/ubuntu/DataClean/HCA/1957/Maksymczuk v Gillespie Bros Pty Ltd - 89.txt
+/home/ubuntu/DataClean/HCA/1907/McGee v Wolfenden - 1.txt
+/home/ubuntu/DataClean/HCA/1918/Gumley v Breen - 20.txt

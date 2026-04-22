@@ -1,0 +1,7 @@
+
+# Step 1: Pull remote changes and integrate (resolve any conflicts interactively)
+git pull --rebase origin main
+
+# Step 2: If no errors, push (otherwise resolve conflicts, then push)
+git push origin main
+

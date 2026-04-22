@@ -1,0 +1,10 @@
+v0.1.0
+App checkpoint: Streamlit-based legal RAG/embedding pipeline, chunked ingestion and progress, fast batch vector embedding, PostgreSQL + pgvector backend, per-session file checkpointing, GUI model selection, password masking, robust resume/stop, base LLM and embedding model flexibility.
+Date: 2025-07-09
+Main components:
+- app.py (Streamlit UI, ingestion, RAG)
+- embedding_worker.py (batch vectorization, DB, progress)
+- db/store.py (ORM, session/file tables, search)
+- embedding/embedder.py (SentenceTransformer-based embedding utility)
+- requirements.txt (Python deps)
+Core UX: Live progress bars, robust checkpointing, reproducible ingestion/search/RAG pipeline.

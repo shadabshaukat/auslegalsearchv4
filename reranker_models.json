@@ -1,0 +1,27 @@
+[
+  {
+    "name": "mxbai-rerank-xsmall",
+    "desc": "General XC; top-3 HuggingFace scorer",
+    "hf": "mixedbread-ai/mxbai-rerank-xsmall"
+  },
+  {
+    "name": "ms-marco-MiniLM-L-6-v2",
+    "desc": "MS MARCO cross-encoder baseline",
+    "hf": "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  },
+  {
+    "name": "nlpaueb-legal-bert-small-uncased",
+    "desc": "Legal-domain (smaller) classifier",
+    "hf": "nlpaueb/legal-bert-small-uncased"
+  },
+  {
+    "name": "mxbai-rerank-large-v1",
+    "desc": "",
+    "hf": "mixedbread-ai/mxbai-rerank-large-v1"
+  },
+  {
+    "name": "",
+    "desc": "",
+    "hf": ""
+  }
+]

@@ -1,0 +1,771 @@
+/home/ubuntu/DataClean/legis/cth/consol_act/Customs Act 1901 - ca1901124.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Veterans' Entitlements Act 1986 - vea1986261.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Water Act 1989 - wa198983.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Children, Youth And Families Act 2005 - cyafa2005252.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Legal Profession Uniform Law Application Act 2014 - lpulaa2014406.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Tariff Amendment Act 1977 No. 73, 1977 - ctaa1977258.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Workers Compensation Act 1987 - wca1987255.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Aboriginal Land Rights (Northern Territory) Act 1976 - alrta1976444.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Fair Work (Registered Organisations) Act 2009 - fwoa2009362.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Building Regulations 2018 - br2018200.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Industrial Relations Reform Act 1993 No. 98, 1993 - irra1993311.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Agricultural And Veterinary Chemicals Code Act 1994 - aavcca1994382.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/New Business Tax System (Consolidation And Other Measures) Act 2003 - nbtsaoma2003604.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Fair Work Legislation Amendment (Secure Jobs, Better Pay) Act 2022 (No. 79, 2022) - fwlajbpa2022516.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Tax Laws Amendment (Simplified Superannuation) Act 2007 (No. 9, 2007) - tlasa2007460.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Environment Protection Regulations 2021 - epr2021393.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/National Parks Act 1975 - npa1975159.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Security (Disability And Sickness Support) Amendment Act 1991 No. 141, 1991 - ssassaa1991591.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Clean Energy (Household Assistance Amendments) Act 2011 (No. 141, 2011) - ceaaa2011415.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Patents Amendment (Patent Coopereation Treaty) Act 1979 No. 188, 1979 - pacta1979466.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Port Management Act 1995 - pma1995169.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Appropriation Act (No. 1) 1980-81 No. 141, 1980 - aa1198081n1411980230.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Taxation Laws Amendment Act (No. 2) 1999 No. 93, 1999 - tlaa21999275.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Retirement Villages Act 1999 - rva1999217.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Local Land Services Act 2013 - llsa2013178.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Treasury Laws Amendment (Registries Modernisation And Other Measures) Act 2020 - tlamaoma2020703.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Drugs, Poisons And Controlled Substances Regulations 2017 - dpacsr2017531.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/National Transport Commission (Road Transport Legislation--Compliance And Enforcement Bill) Regulati - ntctlaebr2006972.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Law Enforcement Integrity Commissioner Act 2006 (No. 85, 2006) - leica2006419.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Families, Community Services And Indigenous Affairs Legislation Amendment (Child Support Reform Cons - fcsaialasrcaoma20071196.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/County Court Act 1958 - cca1958185.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/New Business Tax System (Consolidation And Other Measures) Act (No. 1) 2002 - nbtsaoma12002631.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Gas Industry Act 2001 - gia2001167.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/National Measurement Act 1960 - nma1960222.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Telecommunications (Consumer Protection And Service Standards) Act 1999 - tpassa1999620.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Adoption Act 1984 - aa1984107.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/State Superannuation Act 1988 - ssa1988255.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Tax Laws Amendment (2004 Measures No. 2) Act 2004 - tla2004mn2a2004314.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Security Legislation Amendment Act 1992 No. 81, 1992 - sslaa1992378.txt
+/home/ubuntu/DataClean/legis/cth/num_act/New Business Tax System (Capital Allowances-Transitional And Consequential) Act 2001 No. 77, 2001 - nbtsaaca2001745.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Marine Safety (Domestic Commercial Vessel) National Law Act 2012 (No. 121, 2012) - mscvnla2012494.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Veterans' Affairs And Other Legislation Amendment (Pension Reform) Act 2009 (No. 81, 2009) - vaaolara2009593.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Essential Services Commission Act 2001 - esca2001327.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Protection Of The Sea Legislation Amendment Act 1986 - potslaa1986409.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Retail Leases Act 1994 - rla1994135.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Tariff Amendment (Thailand-Australia Free Trade Agreement Implementation) Act 2004 No. 131,  - ctaftaia2004716.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Trade Marks Act 1994 No. 156 Of 1994 - tma1994121.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Migration And Maritime Powers Legislation Amendment (Resolving The Asylum Legacy Caseload) Act 2014  - mamplatalca2014822.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Trade Practices Amendment Act 1977 No. 81 Of 1977 - tpaa1977229.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Gambling Reform Act 2012 (No. 193, 2012) - ngra2012225.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Border Protection Legislation Amendment (Deterrence Of Illegal Foreign Fishing) Act 2005 No. 103, 20 - bplaoiffa2005683.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Security And Veterans' Affairs Legislation Amendment (Budget And Other Measures) Act 1998 No. - ssavalaaoma1998766.txt
+/home/ubuntu/DataClean/legis/cth/num_act/First Corporate Law Simplification Act 1995 No. 115, 1995 - fclsa1995364.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Seafarers Rehabilitation And Compensation Act 1992 - sraca1992381.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Financial Sector Legislation Amendment (Simplifying Regulation And Review) Act 2007 (No. 154, 2007) - fslarara2007679.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Airports (Control Of On-Airport Activities) Regulations 1997 - aooar1997571.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Conveyancers Act 2006 - ca2006153.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Veterans' Entitlements (Rewrite) Transition Act 1991 No. 73, 1991 - veta1991481.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Superannuation Legislation Amendment (Simplification) Act 2007 (No. 15, 2007) - slaa2007528.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Income Tax (International Agreements) Amendment Act 1992 No. 139, 1992 - itaaa1992432.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Security Amendment Act 1987 No. 77, 1987 - ssaa1987266.txt
+/home/ubuntu/DataClean/legis/cth/num_act/States Grants (Tertiary Education Assistance) Act 1987 No. 123, 1987 - sgeaa1987463.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Security And Veterans' Entitlements Amendment Act (No. 2) 1987 No. 130, 1987 - ssaveaa21987549.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Family Law Amendment Act 1983 No. 72, 1983 - flaa1983194.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Military Rehabilitation And Compensation (Consequential And Transitional Provisions) Act 2004 - mracatpa2004841.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Tax And Superannuation Laws Amendment (2013 Measures No. 1) Act 2013 (No. 88, 2013) - tasla2013mn1a2013504.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Taxation Laws Amendment (Superannuation) Act 1992 No. 208 Of 1992 - tlaa1992422.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Tax Laws Amendment (2004 Measures No. 7) Act 2005 No. 41, 2005 - tla2004mn7a2005314.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Taxation Laws Amendment Act (No. 2) 2000 - tlaa22000275.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Petroleum Resource Rent Tax Assessment Act 1987 No. 142, 1987 - prrtaa1987452.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Proceeds Of Crime (Consequential Amendments And Transitional Provisions) Act 2002 No. 86, 2002 - pocaatpa2002702.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Competition And Consumer Amendment (Competition Policy Review) Act 2017 (No. 114, 2017) - cacapra2017623.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Aboriginal And Torres Strait Islander Commission Amendment Act 2005 - aatsicaa2005558.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Civil Aviation (Carriers' Liability) Amendment Act 1991 No. 189, 1991 - calaa1991407.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Military Justice (Interim Measures) Act (No. 1) 2009 - mjma12009401.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Service And Execution Of Process Act 1992 No. 172, 1992 - saeopa1992325.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Safety, Rehabilitation And Compensation And Other Legislation Amendment Act 2001 - sracaolaa2001637.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Emergency Management Act 2013 - ema2013190.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Crime Commission Establishment Act 2002 No. 125, 2002 - accea2002423.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/District Court Act 1973 - dca1973187.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Taxation Laws Amendment Act (No. 4) 1999 No. 94, 1999 - tlaa41999275.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Appropriation Act (No. 3) 2008-2009 (No. 21, 2009) - aa320082009203.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Primary Industries Levies And Charges Disbursement Act 2024 (No. 59, 2024) - pilacda2024515.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Public Health And Wellbeing Regulations 2019 - phawr2019331.txt
+/home/ubuntu/DataClean/legis/cth/num_act/States Grants (Tertiary Education Assistance) Amendment Act 1983 No. 120, 1983 - sgeaaa1983543.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Health Complaints Act 2016 - hca2016181.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Pipelines Act 1967 - pa1967117.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Par&#84;Nership Act 1958 - p84a1958135.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Superannuation Amendment Act 1976 No. 32, 1976 - saa1976275.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Education Services For Overseas Students Act 2000 No. 164, 2000 - esfosa2000442.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Petroleum Resource Rent Tax Assessment Amendment Act 2012 (No. 18, 2012) - prrtaaa2012532.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Fuel Tax (Consequential And Transitional Provisions) Act 2006 - ftatpa2006547.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Crimes Legislation Amendment (Economic Disruption) Act 2021 (No. 3, 2021) - clada2021478.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/National Measurement Regulations 1999 - nmr1999331.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Industrial Chemicals (Notification And Assessment) Act 1989 No. 8, 1990 - icaaa1989465.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Agricultural And Veterinary Chemicals (Control Of Use) Act 1992 - aavcoua1992510.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Companies And Securities Commission Act 1979 No. 173, 1979 - ncasca1979438.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Partnership Act 1892 - pa1892154.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Health Legislation (Private Health Insurance Reform) Amendment Act 1995 No. 41 Of 1995 - hlhiraa1995557.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Subordinate Legislation (Legislative Instruments) Regulations 2021 - slir2021630.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Telecommunications Legislation Amendment (Enhancing Consumer Safeguards And Other Measures) Act 2024 - tlacsaoma2024833.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Supply Act (No. 2) 2022-2023 (No. 22, 2022) - sa220222023151.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Child Protection (Working With Children) Act 2012 - cpwca2012388.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Moratorium Act 1932 - ma1932154.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Human Source Management Act 2023 - hsma2023231.txt
+/home/ubuntu/DataClean/legis/cth/num_act/States Grants (Tertiary Education Assistance) Amendment Act 1986 No. 67, 1986 - sgeaaa1986543.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Heritage Regulations 2017 - hr2017195.txt
+/home/ubuntu/DataClean/legis/cth/num_act/States Grants (Tertiary Education Assistance) Amendment Act 1980 No. 96, 1980 - sgeaaa1980543.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Victorian Renewable Energy Act 2006 - vrea2006267.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Wine Australia Regulations 2018 - war2018270.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Crimes Legislation Amendment (Powers And Offences) Act 2012 - claaoa2012445.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Repatriation Acts Amendment Act 1979 No. 18, 1979 - raaa1979274.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Research Involving Human Embryos Act 2002 - rihea2002347.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Terrorism (High Risk Offenders) Act 2017 - troa2017311.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Fisheries Legislation Amendment Act 2007 - flaa2007302.txt
+/home/ubuntu/DataClean/legis/cth/num_act/A New Tax System (Tax Administration) Act (No. 2) 2000 No. 91, 2000 - antsaa22000418.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Export Market Development Grants Amendment Act (No. 2) 1990 No. 8, 1991 - emdgaa21990475.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Aged Care (Consequential And Transitional Provisions) Act 2024 (No. 109, 2024) - acatpa2024501.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Supply Act (No. 1) 1981-82 No. 72, 1981 - sa1198182n721981178.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Jobs Act 2013 (No. 69, 2013) - aja2013169.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Community Services And Health Legislation Amendment Act (No. 2) 1990 No. 141, 1990 - csahlaa21990520.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Bounty (Metal Working Machines And Robots) Act 1985 No. 133, 1985 - bwmara1985411.txt
+/home/ubuntu/DataClean/legis/cth/num_act/International Arbitration Amendment Act 2010 (No. 97, 2010) - iaaa2010356.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Airports (Building Control) Regulations 1996 - acr1996398.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Treasury Laws Amendment (Consumer Data Right) Act 2024 (No. 75, 2024) - tladra2024450.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Taxation Laws Amendment Act (No. 2) 1986 No. 49, 1986 - tlaa21986275.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Trans-Tasman Proceedings Act 2010 (No. 35, 2010) - tpa2010254.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Health And Other Services (Compensation) Act 1995 - haosa1995370.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Superannuation Laws Amendment (Capital Gains Tax Relief And Other Efficiency Measures) Act 2012 (No. - slagtraoema2012762.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Occupational Health And Safety (Maritime Industry) (National Standards) Regulations 2003 - ohasisr2003753.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Agricultural Industry Services Act 1998 - aisa1998366.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Copyright Amendment (Disability Access And Other Measures) Act 2017 (No. 49, 2017) - caaaoma2017527.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Extradition Act 1988 No. 4, 1988 - ea1988149.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Family And Community Services And Veterans' Affairs Legislation Amendment (Sugar Reform) Act 2004 No - facsavalara2004800.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Qantas Sale Act 1992 No. 196, 1992 - qsa1992120.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Primary Industries Levies And Charges Collection Act 2024 (No. 58, 2024) - pilacca2024476.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Agricultural And Veterinary Chemicals Act 1988 No. 91, 1988 - aavca1988359.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/National Broadband Network Companies Act 2011 - nbnca2011336.txt
+/home/ubuntu/DataClean/legis/cth/num_act/New Business Tax System (Alienation Of Personal Services Income) Act 2000 No. 86, 2000 - nbtsopsia2000643.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Community Services Sector (Portable Long Service Leave) Act 2024 - csslsla2024550.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Financial Sector Reform Act 2022 (No. 87, 2022) - fsra2022224.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Electronic Conveyancing (Adoption Of National Law) Act 2012 - econla2012451.txt
+/home/ubuntu/DataClean/legis/cth/num_act/States Grants (Universities) Amendment Act 1976 No. 14, 1976 - sgaa1976410.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Australian Apprenticeship Support Loans Act 2014 - aasla2014446.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Business Services Wage Assessment Tool Payment Scheme Act 2015 - bswatpsa2015561.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Illegal Logging Prohibition Act 2012 - ilpa2012260.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Prime Minister And Cabinet (Miscellaneous Provisions) Act 1994 No. 33, 1994 - pmacpa1994520.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Judges' Pensions Act 1968 - jpa1968184.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Superannuation Legislation Amendment (Family Law And Other Matters) Act 2004 No. 58, 2004 - slalaoma2004646.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Health Insurance Amendment (Inappropriate And Prohibited Practices And Other Measures) Act 2007 (No. - hiaappaoma2007756.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Higher Education Support (Transitional Provisions And Consequential Amendments) Act 2003 - hespacaa2003813.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Snowy Hydro Corporatisation Act 1997 - shca1997355.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Hazardous Waste (Regulation Of Exports And Imports) Act 1989 No. 6, 1990 - hwoeaia1989548.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Agl Corporate Conversion Act 2002 - acca2002264.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Veterans' Affairs Legislation Amendment Act 1991 No. 74 Of 1991 - valaa1991362.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Tobacco Regulations 2017 - tr2017182.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Australian Radiation Protection And Nuclear Safety Act 1998 - arpansa1998487.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Sporting Injuries Insurance Act 1978 - siia1978323.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Broadcasting Services Amendment Act (No. 3) 1999 No. 198, 1999 - bsaa31999321.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Medical Indemnity Amendment Act 2003 No. 121, 2003 - miaa2003245.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Health Services (Health Service Establishments) Regulations 2024 - hsser2024544.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Agricultural Industry Development Act 1990 - aida1990394.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Independent Air Fares Committee Act 1981 No. 76, 1981 - iafca1981283.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Creative Australia Act 2023 - caa2023189.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Status Of Children Act 1974 - soca1974199.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Age Discrimination Act 2004 No. 68, 2004 - ada2004174.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Family And Community Services And Veterans' Affairs Legislation Amendment (Debt Recovery) Act 2001 N - facsavalara2001800.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Taxation Laws Amendment Act 1987 No. 61, 1987 - tlaa1987248.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Carriage Of Goods By Sea Act 1991 - cogbsa1991196.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Future Drought Fund Act 2019 - fdfa2019233.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Baptist Churches Of New South Wales Property Trust Act 1984 - bconswpta1984587.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Outworkers (Improved Protection) Act 2003 - opa2003395.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Land And Property Information Nsw (Authorised Transaction) Act 2016 - lapinta2016598.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Appropriation (Northern Territory National Emergency Response) Act (No. 1) 2007-2008 (No. 126, 2007) - atnera120072008713.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Parliamentary Committees Act 2003 - pca2003273.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Superannuation Contributions Tax (Assessment And Collection) Act 1997 No. 70, 1997 - sctaca1997641.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Pig Industry Act 1986 No. 157, 1986 - pia1986172.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Presbyterian Trusts Act 1979 - pta1979272.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Motor Vehicles (Third Party Insurance) Act 1942 - mvpia1942396.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Treasury Laws Amendment (2021 Measures No. 1) Act 2021 - tla2021mn1a2021391.txt
+/home/ubuntu/DataClean/legis/cth/num_act/A New Tax System (Tax Administration) Act (No. 1) 2000 No. 44, 2000 - antsaa12000418.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Health And Community Services Legislation Amendment Act 1991 No. 211, 1991 - hacslaa1991493.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Venture Capital Act 2002 - vca2002174.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Appropriation Act (No. 4) 2014-2015 (No. 29, 2015) - aa420142015203.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Appropriation Act (No. 4) 2004-2005 No. 36, 2005 - aa420042005203.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Consumer Credit Protection Amendment (Mandatory Credit Reporting And Other Measures) Act 20 - nccpacraoma2021895.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Supply Act (No. 2) 1992-93 No. 43, 1992 - sa2199293n431992178.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Holiday Parks (Long-Term Casual Occupation) Act 2002 - hpcoa2002402.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Treasury Legislation Amendment (Repeal Day) Act 2015 (No. 2, 2015) - tlada2015410.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Therapeutic Goods Amendment (Medical Devices And Other Measures) Act 2009 (No. 38, 2009) - tgadaoma2009541.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Workplace Relations Amendment (Improved Protection For Victorian Workers) Act 2003 No. 137, 2003 - wrapfvwa2003759.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Taxation Laws Amendment Act 1993 No. 17, 1993 - tlaa1993248.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Services Amendment Act 1979 No. 121, 1979 - ssaa1979246.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Place Management Nsw Act 1998 - pmna1998189.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Honey Marketing Act 1988 No. 33, 1988 - hma1988172.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Crimes Legislation Amendment Act (No. 2) 2011 - claa22011301.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Environment, Sport And Territories Legislation Amendment Act 1995 No. 25, 1995 - esatlaa1995595.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs (Valuations) Amendment Act 1981 No. 157, 1981 - caa1981328.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Subsidy (Cultivation Machines And Equipment) Act 1986 No. 133, 1986 - smaea1986439.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Remuneration Tribunal Act 1973 - rta1973251.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Subdivision (Procedures) Regulations 2021 - sr2021376.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Australian Meat And Live-Stock Industry (Repeals And Consequential Provisions) Act 1997 - amaliacpa1997780.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Parliamentary Business Resources Legislation Amendment (Review Implementation And Other Measures) Ac - pbrlaiaoma2024965.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Parliamentary Business Resources Legislation Amendment (Review Implementation And Other Measures) Ac - pbrlaiaoma2024965.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Anti-Money Laundering And Counter-Terrorism Financing (Transitional Provisions And Consequential Ame - alacfpacaa20061064.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Extradition (Commonwealth Countries) Amendment Act 1985 No. 17, 1985 - ecaa1985474.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Gene Technology Amendment Act 2007 (No. 99, 2007) - gtaa2007242.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Entertainment Industry Act 2013 - eia2013288.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Libraries Act 1988 - la1988105.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Fortification Removal Act 2013 - fra2013232.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Bankruptcy Legislation Amendment (Superannuation Contributions) Act 2007 (No. 57, 2007) - blaca2007674.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Agricultural And Veterinary Chemicals (Administration) Amendment Act 2007 (No. 90, 2007) - aavcaa2007591.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Tradex Scheme Act 1999 No. 185, 1999 - tsa1999134.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Taxation (Interest On Overpayments And Early Payments) Act 1983 - tooaepa1983584.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/The Baptist Union Incorporation Act 1930 - buia1930323.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Driving Instructors Act 1992 - dia1992262.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Broadcasting And Other Legislation Amendment (Deregulation) Act 2015 - baolaa2015510.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Tariff Amendment Act (No. 2) 1997 No. 192, 1997 - ctaa21997285.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Broadcasting Services Amendment (Subscription Television Drama And Community Broadcasting Licences)  - bsatdacbla2006902.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Industries Assistance Commission Act 1973 No. 169, 1973 - iaca1973368.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Statute Law Revision Act 2007 (No. 8, 2007) - slra2007256.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Motor Car Traders Regulations 2018 - mctr2018303.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Veterans' Entitlements Regulations 1986 - ver1986370.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Judicial Entitlements Act 2015 - jea2015226.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Supply Act (No. 2) 1988-89 No. 44, 1988 - sa2198889n441988178.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Library Act 1939 - la193999.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Commonwealth Electoral Legislation Amendment Act 1984 No. 45, 1984 - celaa1984425.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Amendment (Anti-Dumping Improvements) Act (No. 3) 2012 (No. 196, 2012) - caia32012505.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Taxation (Multinational--Global And Domestic Minimum Tax) Act 2024 (No. 132, 2024) - tadmta2024531.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Fair Work Amendment (Supporting Australia'S Jobs And Economic Recovery) Act 2021 (No. 25, 2021) - fwaajaera2021680.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Security Legislation Amendment (Improved Support For Carers) Act 2009 (No. 44, 2009) - sslasfca2009684.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Tariff Amendment Act 1994 No. 87, 1994 - ctaa1994258.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Civil Aviation Amendment Act 2003 No. 105, 2003 - caaa2003234.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Telecommunications (Interception) Act 1979 No. 114 Of 1979 - ta1979350.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Higher Education Legislation Amendment Act (No. 2) 2004 No. 114, 2004 - helaa22004372.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Family And Community Services And Veterans' Affairs Legislation Amendment (Income Streams) Act 2004  - facsavalasa2004811.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Electoral And Referendum Amendment Act (No. 1) 2001 No. 34, 2001 - earaa12001325.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Security And Veterans' Entitlements (Maintenance Income Test) Amendment Act 1988 No. 13, 1988 - ssaveitaa1988723.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Windfall Gains Tax Act 2021 - wgta2021181.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Fair Work (Registered Organisations) Amendment (Administration) Act 2024 (No. 74, 2024) - fwoaa2024594.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Dangerous Goods (Hcdg) Regulations 2016 - dgr2016298.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Housing Australia Act 2018 - haa2018200.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Family Law Legislation Amendment (Family Violence And Other Measures) Act 2011 (No. 189, 2011) - fllavaoma2011613.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Marine And Coastal (Prescribed Consents) Regulations 2025 - maccr2025454.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Commonwealth Serum Laboratories Act 1961 - csla1961345.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Therapeutic Goods Amendment (2020 Measures No. 1) Act 2020 (No. 75, 2020) - tga2020mn1a2020391.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Superannuation (Portability) Act 1989 - sa1989331.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/A New Tax System (Australian Business Number) Act 1999 - antsbna1999470.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Australian Nuclear Science And Technology Organisation Act 1987 - ansatoa1987505.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Legislation Amendment (Airport, Port And Cargo Security) Act 2004 No. 111, 2004 - clapacsa2004638.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Housing Loans Insurance Amendment Act 1977 No. 39, 1977 - hliaa1977338.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Gas Pipelines Access (Commonwealth) Act 1998 No. 101, 1998 - gpaa1998315.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Professional Boxing And Combat Sports Regulations 2018 - pbacsr2018497.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Crown Proceedings Act 1958 - cpa1958193.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Financial Sector Legislation Amendment (Restructures) Act 2007 (No. 117, 2007) - fslaa2007522.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Local Jobs First Act 2003 - ljfa2003168.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Financial Agreement Act 1994 - faa1994160.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Tariff Amendment Act (No. 1) 2003 No. 63, 2003 - ctaa12003285.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Repatriation Acts Amendment Act 1974 No. 90, 1974 - raaa1974274.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs And Excise Legislation Amendment Act (No. 2) 1989 No. 24, 1989 - caelaa21989418.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Resale Royalty Right For Visual Artists Act 2009 - rrrfvaa2009454.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Security And Indigenous Legislation Amendment (Budget And Other Measures) Act 2010 (No. 89, 2 - ssailaaoma2010724.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Supply Act (No. 2) 1981-82 No. 73, 1981 - sa2198182n731981178.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Defence Force Retirement And Death Benefits (Pension Increases) Act 1976 No. 34, 1976 - dfradbia1976505.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Navigation (Consequential Amendments) Act 2012 (No. 129, 2012) - naa2012363.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Circular Economy (Waste Reduction And Recycling) (Waste To Energy Scheme) Regulations 2023 - cerartesr2023767.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Victoria State Emergency Service Regulations 2017 - vsesr2017439.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Independent Contractors Act 2006 (No. 162, 2006) - ica2006255.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Antarctic Treaty (Environment Protection) Act 1980 No. 103, 1980 - atpa1980447.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Migration Amendment (Regulation Of Migration Agents) Act 2020 (No. 71, 2020) - maomaa2020486.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Law And Justice Legislation Amendment Act (No. 3) 1992 No. 165, 1992 - lajlaa31992369.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Superannuation Laws Amendment (Small Accounts And Other Measures) Act 1995 No. 53, 1995 - slaaaoma1995636.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Family Law (Fees) Regulations 2022 - flr2022254.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Imported Food Control Regulations 2019 - ifcr2019348.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Tourism Australia Act 2004 No. 74, 2004 - taa2004222.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Taxation Laws Amendment (Structured Settlements And Structured Orders) Act 2002 No. 139, 2002 - tlasasoa2002756.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Tax Laws Amendment (2013 Measures No. 3) Act 2013 (No. 120, 2013) - tla2013mn3a2013314.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Protection Of The Sea (Powers Of Intervention) Amendment Act 2006 (No. 44, 2006) - potsoiaa2006559.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Broadcasting Corporation (Transitional Provisions And Consequential Amendments) Act 1983  - abcpacaa1983903.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Classification (Publications, Films And Computer Games) Amendment Act (No. 1) 2001 No. 13, 2001 - cfacgaa12001596.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Asbestos Safety And Eradication Agency Act 2013 (No. 58, 2013) - asaeaa2013336.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Emergency Management Act 1986 - ema1986190.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Civil Law And Justice Legislation Amendment Act 2015 (No. 113, 2015) - clajlaa2015392.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Defence Legislation Amendment (Enhancement Of The Reserves And Modernisation) Act 2001 No. 10, 2001 - dlaotrama2001650.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Competition Policy Reform (Victoria) Act 1995 - cpra1995381.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Industrial Relations And Other Legislation Amendment Act 1995 - iraolaa1995511.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Tobacco Plain Packaging Regulations 2011 - tppr2011289.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Oaths Act 1900 - oa190079.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/National Domestic Violence Orde&#82; Scheme Act 2016 - ndvo82sa2016341.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Bounty (Books) Amendment Act 1979 No. 69, 1979 - baa1979249.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Companies (Miscellaneous Amendments) Act 1981 No. 92, 1981 - caa1981340.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Parliamentary Commission Of Inquiry Act 1986 No. 9, 1986 - pcoia1986405.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Sales Tax Laws (Computer Programs) Amendment Act 1989 No. 19, 1990 - stlpaa1989447.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Future Made In Australia (Omnibus Amendments No. 1) Act 2024 (No. 120, 2024) - fmiaan1a2024450.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Maritime Legislation Amendment Act 2011 (No. 167, 2011) - mlaa2011293.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Health Amendment (Private Health Insurance Levies) Act 2003 No. 69, 2003 - nhahila2003520.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Veterans' Affairs Legislation Amendment (Budget Measures) Act 2017 (No. 59, 2017) - valama2017508.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Firefighters' Presumptive Rights Compensation And Fire Services Legislation Amendment (Reform) Act 2 - fprcafslaa2019902.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Health And Community Services Legislation Amendment Act (No. 3) 1992 No. 204, 1992 - hacslaa31992520.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/National Taxation Reform (Consequential Provisions) Act 2000 - ntrpa2000552.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Superannuation (Consequential Amendments) Act 2005 - saa2005435.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Major Crime (Investigative Powers) Regulations 2025 - mcpr2025464.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Legislation Amendment Act (No. 1) 2003 No. 119, 2003 - claa12003343.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Public Governance, Performance And Accountability (Consequential Modifications Of Appropriation Acts - pgpaamoaa13a5a20141008.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Automotive Industry Authority Act 1984 No. 106, 1984 - aiaa1984402.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Agricultural And Veterinary Chemicals (New South Wales) Act 1994 - aavcswa1994531.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Tax Laws Amendment (2012 Measures No. 3) Act 2012 (No. 58, 2012) - tla2012mn3a2012314.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Offshore Petroleum (Repeals And Consequential Amendments) Act 2006 (No. 17, 2006) - opacaa2006546.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Medicare Levy Act 1986 - mla1986131.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Appropriation Act (No. 6) 2023-2024 (No. 46, 2024) - aa620232024203.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Disability Services And Inclusion (Consequential Amendments And Transitional Provisions) Act 2023 (N - dsaiaatpa2023878.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Coal Mining Industry (Long Service Leave) Payroll Levy Collection Act 1992 - cmislplca1992638.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Services Legislation Amendment (More Generous Means Testing For Youth Payments) Act 2015 (No. - sslagmtfypa2015860.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Building And Construction Industry (Consequential And Transitional Provisions) Act 2016 (No. 88, 201 - baciatpa2016832.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/National Library Regulations 2018 - nlr2018286.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Primary Industries And Energy Legislation Amendment Act (No. 2) 1992 No. 59, 1992 - piaelaa21992545.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Migration Amendment (Charging For A Migration Outcome) Act 2015 (No. 161, 2015) - mafamoa2015475.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Higher Education Funding Amendment Act (No. 2) 1995 No. 163, 1995 - hefaa21995328.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/The Commercial Banking Company Of Sydney Limited (Merger) Act 1982 - cbcosla1982464.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Shipping Reform (Tax Incentives) Act 2012 - sria2012332.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Bounty (Room Air Conditioners) Act 1983 No. 10, 1983 - baca1983327.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Members Of Parliament (Standards) Regulations 2019 - mopr2019407.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Reconciliation And Aboriginal And Torres Strait Islander Affairs Legislation Amendment (Application  - raaatsialaocca2001971.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Centenary Institute Of Cancer Medicine And Cell Biology Act 1985 - ciocmacba1985478.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Australian Centre For International Agricultural Research Act 1982 - acfiara1982561.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Charter Of The United Nations (Sanctions--Somalia) Regulations 2008 - cotunr2008565.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Superannuation Amendment Act 1988 No. 130, 1988 - saa1988275.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Bank Of South Australia And Advance Bank Act 1996 - bosaaaba1996318.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Saint Andrew'S Cathedral Site Act 1935 - sacsa1935268.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Organ And Tissue Donation And Transplantation Authority Amendment (Governance And Other M - aoatdataaaoma20211031.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Designs Amendment (Advisory Council On Intellectual Property Response) Act 2021 (No. 100, 2021) - dacoipra2021723.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/National Vocational Education And Training Regulator Regulations 2011 - nveatrr2011601.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Institute Of Sport Act 1995 - iosa1995251.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Petroleum (Submerged Lands - Miscellaneous Amendments) Act 1981 No. 79, 1981 - plmaa1981500.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Farm Household Support Amendment Act 2007 (No. 60, 2007) - fhsaa2007351.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Commonwealth Banks Act 1959 - cba1959193.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Charities (Consequential Amendments And Transitional Provisions) Act 2013 (No. 96, 2013) - caatpa2013646.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Tax Laws Amendment (Shipping Reform) Act 2012 (No. 57, 2012) - tlara2012353.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Prices Justification Amendment Act 1976 No. 182, 1976 - pjaa1976308.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Telecommunications Legislation Amendment (Consumer Protection) Act 2014 (No. 3, 2014) - tlapa2014631.txt
+/home/ubuntu/DataClean/legis/cth/num_act/States Grants (General Purposes) Amendment Act 1998 No. 109, 1998 - sgpaa1998428.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Telecommunications Amendment (Integrated Public Number Database) Act 2006 (No. 155, 2006) - tapnda2006556.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Commonwealth Places (Application Of Laws) Act 1970 - cpola1970376.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Adelaide Airport Curfew Act 2000 - aaca2000214.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Broadcasting (Ownership And Control) Act (No. 2) 1987 No. 183, 1987 - baca21987373.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Preference To Australian Goods (Commonwealth Authorities) Act 1980 No. 113, 1980 - ptagaa1980564.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Energy Legislation Amendment Act 2006 (No. 60, 2006) - elaa2006281.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Public Sector Superannuation Legislation Amendment Act 2018 (No. 80, 2018) - psslaa2018518.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Security Amendment (2007 Measures No. 1) Act 2007 (No. 172, 2007) - ssa2007mn1a2007386.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/National Library Act 1960 - nla1960177.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Statute Law Revision Act 2006 - slra2006256.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Natural Resources Management (Financial Assistance) Act 1992 No. 242, 1992 - nrmaa1992458.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Migration Legislation Amendment Act (No. 6) 2001 No. 131, 2001 - mlaa62001337.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Low Aromatic Fuel Act 2013 (No. 1, 2013) - lafa2013180.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Family Violence Reform Implementation Monitor Act 2016 - fvrima2016476.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Dairy Adjustment Act 1974 No. 166, 1974 - daa1974190.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Farm Household Support Amendment Act 2000 No. 144, 2000 - fhsaa2000351.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Aged Care Amendment (Independent Complaints Arrangements) Act 2015 (No. 131, 2015) - acacaa2015471.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Melbourne City Link Regulations 2019 - mclr2019321.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Agriculture, Fisheries And Forestry Legislation Amendment Act (No. 2) 1999 No. 170, 1999 - afaflaa21999587.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Public Interest Monitor Act 2011 - pima2011277.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Migration Amendment Act (No. 2) 1991 No. 196, 1991 - maa21991225.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Airports (Protection Of Airspace) Regulations 1996 - aoar1996446.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Supported Accommodation Assistance Act 1994 No. 162, 1994 - saaa1994359.txt
+/home/ubuntu/DataClean/legis/cth/num_act/A New Tax System (Indirect Tax Administration) Act 1999 No. 59, 1999 - antstaa1999465.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Income Tax Laws Amendment (Medicare Levy) Act 1983 No. 51, 1983 - itlala1983357.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Customs Co-Operation Council (Privileges And Immunities) Regulations 1979 - cccair1979673.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Wrongs (Par&#84; Vba Claims) Regulations 2025 - w84vcr2025325.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Future Made In Australia Act 2024 (No. 119, 2024) - fmiaa2024239.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Transfer Of Land (Fees) Regulations 2016 - tolr2016300.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Security Legislation Amendment (Further Budget And Other Measures) Act 1996 No. 83, 1996 - sslabaoma1996690.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Corporations Law Amendment (Asx) Act 1997 No. 199, 1997 - claa1997326.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Radiocommunications Legislation Amendment Act 2000 No. 34, 2000 - rlaa2000410.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Migration Amendment Act 1992 No. 24, 1992 - maa1992198.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Quarantine Amendment Act (No. 2) 1979 No. 105, 1979 - qaa21979238.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Public Service Amendment Act 1991 No. 205, 1991 - psaa1991232.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Royal Commissions Amendment Act 1982 No. 139, 1982 - rcaa1982304.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Treasury Laws Amendment (2021 Measures No. 4) Act 2021 (No. 72, 2021) - tla2021mn4a2021391.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Statute Stocktake Act 1999 No. 118, 1999 - ssa1999216.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Crimes (Serious Crime Prevention Orders) Act 2016 - ccpoa2016425.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Repatriation Acts Amendment Act (No. 2) 1979 No. 124, 1979 - raaa21979301.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Dairy Produce Amendment Act 1977 No. 53, 1977 - dpaa1977228.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Health Legislation Amendment (Podiatric Surgery And Other Matters) Act 2004 No. 117, 2004 - hlasaoma2004619.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Gas Industry (Penalty Regime) Regulations 2022 - girr2022413.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/International Court Of Justice (Privileges And Immunities) Regulations 1967 - icojair1967690.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Migration Amendment (Family Violence And Other Measures) Act 2018 (No. 162, 2018) - mavaoma2018505.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Land (Revocation Of Reservations) Act 2016 - lora2016332.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Compensation (Australian Government Employees) Act 1974 No. 92, 1974 - cgea1974488.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Counter-Terrorism Legislation Amendment (2019 Measures No. 1) Act 2019 (No. 119, 2019) - cla2019mn1a2019548.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Conciliation And Arbitration Amendment Act 1977 No. 64, 1977 - caaaa1977345.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Electoral Legislation Amendment (Foreign Influences And Offences) Act 2022 (No. 6, 2022) - elaiaoa2022541.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Electricity Safety (Cathodic Protection) Regulations 2019 - espr2019498.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Export Inspection Charge Act 1985 No. 26, 1985 - eica1985263.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Education Legislation Amendment (2020 Measures No. 1) Act 2020 (No. 62, 2020) - ela2020mn1a2020416.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Education Services For Overseas Students (Registration Of Providers And Financial Regulation) Amendm - esfosopafraa1993989.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Building Energy Efficiency Disclosure Regulations 2010 - beedr2010458.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Law Officers Act 1964 - loa1964127.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Transport Security Amendment (Testing And Training) Act 2020 (No. 125, 2020) - tsaata2020532.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Electoral And Referendum Amendment Act 1995 No. 166, 1995 - earaa1995298.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Health Legislation Amendment Act 1998 No. 19, 1998 - hlaa1998261.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Banking Legislation Amendment Act 1986 No. 166, 1986 - blaa1986264.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Space Council Act 1994 No. 27, 1994 - asca1994236.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Children (Education And Care Services National Law Application) Act 2010 - cacsnlaa2010516.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Law And Justice Legislation Amendment (Northern Territory Local Court) Act 2016 (No. 26, 2016) - lajlatlca2016695.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Sewerage Agreements Act 1974 No. 73, 1974 - saa1974193.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Wheat Marketing Legislation Amendment Act 1998 No. 103, 1998 - wmlaa1998354.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Copyright Amendment Act 1991 No. 174, 1991 - caa1991213.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Cancer Australia Act 2006 (No. 35, 2006) - caa2006152.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian National Railways Commission (Transitional Provisions And Consequential Amendments) Act 1 - anrcpacaa1983966.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Voluntary Assisted Dying Regulations 2018 - vadr2018411.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Offshore Minerals (Consequentiall Provisions) Act 1994 No. 29, 1994 - ompa1994487.txt
+/home/ubuntu/DataClean/legis/cth/num_act/States Grants (General Purposes) Act 1991 No. 170, 1991 - sgpa1991348.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Security Amendment Act (No. 2) 1993 No. 120, 1993 - ssaa21993293.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Employment, Education And Training Amendment Act 2000 No. 10, 2000 - eeataa2000412.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Tax Laws Amendment (Small Business Measures No. 2) Act 2015 - tlabmn2a2015466.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Storage Liens Act 1935 - sla1935153.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Supported Residential Services (Community Visitors) Regulations 2024 - srsvr2024699.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Cattle Export Charges Amendment Act 1995 No. 74, 1995 - cecaa1995302.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Foreign Acquisitions And Takeovers Fees Imposition Amendment (Fee Streamlining And Other Measures) A - faatfiasaoma2017907.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Offshore Petroleum And Greenhouse Gas Storage Amendment (Significant Incident Directions) Act 2012 ( - opaggsaida2012802.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Sydney Airport Demand Management Amendment Act 2008 (No. 83, 2008) - sadmaa2008395.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Radiocommunications (Transitional Provisions And Consequential Amendments) Act 1983 No. 136, 1983 - rpacaa1983760.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Treasury Laws Amendment (Working Holiday Maker Reform) Act 2016 (No. 89, 2016) - tlahmra2016540.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Child Support (Assessment) Regulations 2018 - csr2018403.txt
+/home/ubuntu/DataClean/legis/cth/num_act/States (Tax Sharing And Health Grants) Amendment Act (No. 2) 1982 No. 94, 1982 1982 - ssahgaa21982454.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Veterans' Affairs Legislation Amendment (Application Of Criminal Code) Act 2001 No. 16, 2001 - valaocca2001580.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Statutory Declarations Amendment Act 2023 (No. 92, 2023) - sdaa2023360.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Jurisdiction Of Courts (Miscellaneous Amendments) Act 2000 No. 161, 2000 - jocaa2000502.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Churches Of Christ, Scientist Incorporation Act 1958 - cocsia1958451.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Homeless Persons Assistance Act 1974 No. 148, 1974 - hpaa1974308.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Health Amendment (Pharmaceutical Benefits Scheme) Act 2008 (No. 49, 2008) - nhabsa2008463.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Independent National Security Legislation Monitor Amendment Act 2021 (No. 130, 2021) - inslmaa2021599.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Services Act 1974 No. 2, 1974 - ssa1974166.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Centennial Roads Development Amendment Act 1990 No. 3, 1991 - acrdaa1990466.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Northern Territory (Self-Government) Regulations 1978 - ntr1978534.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Defence Force Retirement And Death Benefits Amendment Act 1976 No. 33, 1976 - dfradbaa1976416.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Bass Strait Sea Passenger Service Agreement Act 1984 No. 167, 1984 - bsspsaa1984409.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Parliamentary And Judicial Retiring Allowances Act 1973 No. 47, 1973 - pajraa1973425.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Trade Practices Amendment (Country Of Origin Representations) Act 1998 No. 106, 1998 - tpaoora1998606.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Tariff Amendment Act (No. 1) 1999 No. 190, 1999 - ctaa11999285.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Aged Care And Other Legislation Amendment Act 2014 (No. 126, 2014) - acaolaa2014326.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Baptist Union Incorporation Act 1919 - buia1919323.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Vet Student Payment Arrangements (Miscellaneous Amendments) Act 2021 (No. 17, 2021) - vspaaa2021604.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Ozone Protection And Synthetic Greenhouse Gas (Import Levy) Amendment Act 2022 (No. 93, 2022) - opasgglaa2022702.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Honey Industry Amendment Act 1980 No. 145, 1980 - hiaa1980285.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Seamen'S Compensation Amendment Act 1976 No. 168, 1976 - scaa1976302.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Treasury Laws Amendment (2017 Measures No. 6) Act 2017 (No. 118, 2017) - tla2017mn6a2017391.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Public Health And Wellbeing (Quarantine Fees) Regulations 2020 - phawfr2020472.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Treasury Laws Amendment (2017 Measures No. 3) Act 2017 (No. 75, 2017) - tla2017mn3a2017391.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Treasury Laws Amendment (Gift Cards) Act 2018 (No. 133, 2018) - tlaca2018349.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Medicare Levy Act 1984 No. 101, 1984 - mla1984131.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Health Amendment Act 1987 No. 22, 1987 - nhaa1987227.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Defence Legislation Amendment Act (No. 1) 1996 No. 56, 1996 - dlaa11996275.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Presbyterian Churches Act 1837 - pca1837238.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Forestry Revocation And National Parks Reservation Act 1983 - franpra1983540.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Broadcasting Legislation Amendment Act (No. 1) 2006 (No. 127, 2006) - blaa12006341.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Aviation Crimes And Policing Legislation Amendment Act 2011 (No. 1, 2011) - acaplaa2011450.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Civil Aviation Legislation Amendment Act 2003 No. 83, 2003 - calaa2003346.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Communications Legislation Amendment Act (No. 3) 2003 No. 108, 2003 - claa32003395.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Forests (Forest Firefighters Presumptive Rights Compensation) Regulations 2022 - ffprcr2022780.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Migration Amendment (Points System) Act 1993 No. 14, 1994 - masa1993380.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Firefighters' Presumptive Rights Compensation Regulations 2019 - fprcr2019608.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Education Amendment (Direct Measure Of Income) Act 2020 (No. 36, 2020) - aeamoia2020490.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Foreign Evidence (Foreign Material--Criminal And Related Civil Proceedings) Regulations 2018 - femarcpr2018693.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Research Council (Consequential And Transitional Provisions) Act 2001 No. 9, 2001 - arcatpa2001710.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Agricultural And Veterinary Chemicals (Control Of Use) (Fertilisers) Regulations 2025 - aavcour2025748.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Excise Tariff Amendment Act 1987 No. 53, 1987 - etaa1987214.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Liquefied Gas (Road Vehicle Use) Tax Collection Act 1974 No. 77, 1974 - lgvutca1974397.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Epidemiological Studies (Confidentiality) Act 1981 No. 148, 1981 - esa1981382.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Education Services For Overseas Students (Tps Levies) Act 2012 (No. 11, 2012) - esfosla2012560.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Corporations Legislation Amendment (Deregulatory And Other Measures) Act 2015 (No. 19, 2015) - claaoma2015673.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Therapeutic Goods Amendment Act 1997 No. 116 Of 1997 - tgaa1997271.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Water (Commonwealth Powers) Act 2008 - wpa2008303.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Land (Miscellaneous Matters) Act 2005 - lma2005272.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Crime Authority Amendment Act 1991 No. 209, 1991 - ncaaa1991350.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Copyright Amendment (Re-Enactment) Act 1993 No. 107, 1993 - caa1993320.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Security Amendment Act (No. 2) 1992 No. 134, 1992 - ssaa21992293.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Health Amendment Act 1983 No. 35, 1983 - nhaa1983227.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Oaths And Affirmations (Affidavits, Statutory Declarations And Certifications) Regulations 2018 - oaasdacr2018822.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Dairy Adjustment Levy Termination Act 2008 (No. 123, 2008) - dalta2008377.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Pasture Seed Levy Act 1989 No. 146, 1989 - psla1989203.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Petroleum Excise (Prices) Amendment Act 1997 No. 79, 1997 - peaa1997340.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Tax Laws Amendment (2005 Measures No. 6) Act 2006 (No. 13, 2006) - tla2005mn6a2006314.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Financial Transaction Reports Amendment Act 2006 (No. 134, 2006) - ftraa2006388.txt
+/home/ubuntu/DataClean/legis/cth/num_act/International Labour Organisation (Compliance With Conventions) Act 1992 No. 220, 1992 - ilowca1992629.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Supreme Court Admiralty Rules 2019 - scar2019326.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Broadcasting And Television (Consequential Amendments) Act 1985 No. 67, 1985 - bataa1985498.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Clean Energy (Charges--Customs) Act 2011 (No. 153, 2011) - cea2011276.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Aboriginal Lands Act 1991 - ala1991144.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Renewable Energy (Jobs And Investment) Act 2017 - reaia2017354.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Superannuation Contributions Tax (Members Of Constitutionally Protected Superannuation Funds) Imposi - sctocpsfia19971162.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Education Services For Overseas Students Amendment (Registration Charges Consequentials) Act 2011 - esfosacca2011879.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Corporations Legislation (Evidence) Amendment Act 1992 No. 27, 1992 - claa1992423.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Criminal Code Amendment (Hamas And Lashkar-E-Tayyiba) Act 2003 No. 109, 2003 - ccaala2003391.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Snowy Hydro Legacy Fund Act 2018 - shlfa2018265.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Health Amendment (Technical Changes To Averaging Price Disclosure Threshold And Other Matte - nhactapdtaoma2024878.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Aboriginal Land Rights (Northern Territory) (Land Description) Regulations - alrtdr701.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Public Service Amendment Act (No. 2) 2024 (No. 76, 2024) - psaa22024259.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Appropriation Act (No. 1) 1978-79 No. 141, 1978 - aa1197879n1411978230.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Services Legislation Amendment (Child Support Measures) Act 2023 (No. 27, 2023) - sslasma2023600.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Security And Other Legislation Amendment (Miscellaneous Measures) Act 2011 (No. 91, 2011) - ssaolama2011683.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/International Transfer Of Prisoners (Victoria) Act 1998 - itopa1998485.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Broadcasting Legislation Amendment (Primary Television Broadcasting Service) Act 2015 (No. 127, 2015 - blatbsa2015702.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Transaction Reports And Analysis Centre Supervisory Cost Recovery Levy Act 2011 (No. 54,  - atraacscrla2011913.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Services Amendment Act (No. 2) 1976 No. 62, 1976 - ssaa21976273.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Trade Practices (Consumer Product Safety Standard) (Reduced Fire Risk Cigarettes) Regulations 2008 - tppssfrcr2008828.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Lake Corangamite Act 1966 - lca1966141.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Migration Legislation Amendment Act (No. 5) 1995 No. 100, 1995 - mlaa51995337.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Wool Industry Act 1974 No. 65, 1974 - wia1974204.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Industrial Chemicals (Notification And Assessment) Amendment Act 2019 (No. 14, 2019) - icaaaa2019545.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Income Tax (Companies And Superannuation Funds) Act 1980 No. 126, 1980 - itasfa1980451.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Commonwealth Arrangements Act 1958 - caa1958274.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/National Transport Commission (Model Amendments Act Heavy Vehicle Driver Fatigue--Package No. 3) Reg - ntcaahvdfn3r2009931.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Age Discrimination Amendment Act 2006 (No. 63, 2006) - adaa2006254.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Self-Exclusion Register (Cost Recovery Levy) Act 2019 (No. 128, 2019) - nsrrla2019559.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Act (No. 2) 1974 No. 120, 1974 - ca21974151.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Food (Forms And Registration) Regulations 2015 - farr2015391.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Tourism Australia Amendment Act 2007 (No. 47, 2007) - taaa2007302.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Environment Protection (Sea Dumping) Amendment Act 1986 No. 141, 1986 - epdaa1986463.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Broadcasting Legislation Amendment (2021 Measures No. 1) Act 2021 - bla2021mn1a2021434.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Foreign States Immunities (Taxation) Regulations 2018 - fsir2018493.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Quarantine Charges (Imposition--Customs) Act 2014 (No. 16, 2014) - qca2014417.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Overseas Students Charge Collection Act 1979 No. 120, 1979 - oscca1979365.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Disability Insurance Scheme Amendment (Strengthening Banning Orders) Act 2020 (No. 103, 202 - ndisaboa2020695.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Authorised Deposit-Taking Institutions Supervisory Levy Imposition Act 1998 - adislia1998810.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Assistance For Severely Affected Regions (Special Appropriation) (Coronavirus Economic Response Pack - afsaraerpa2020948.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Electoral Legislation Amendment (Covid Enfranchisement) Act 2022 (No. 5, 2022) - elaea2022482.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Pipeline Construction (Young To Wagga Wagga) Act 1980 No. 8, 1980 - pctwwa1980436.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Trade Practices (Consumer Product Safety Standard -- Corded Internal Window Coverings) Regulations 2 - tppssciwcr2010904.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Cattle Export Charge Act 1990 No. 142, 1990 - ceca1990204.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Werribee South Land Act 1991 - wsla1991203.txt
+/home/ubuntu/DataClean/legis/cth/num_act/States Grants (Education Assistance-Participation And Equity) Amendment Act 1987 No. 38, 1987 - sgaaeaa1987680.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Pipeline Legislation Amendment Act 1994 No. 167, 1994 - plaa1994291.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Aged Care (Bond Security) Amendment Act 2013 (No. 77, 2013) - acsaa2013280.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Private Health Insurance (Reinsurance Trust Fund Levy) Act 2003 No. 73, 2003 - phitfla2003558.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Building And Construction Industry Improvement Amendment (Ohs) Act 2007 (No. 153, 2007) - baciiaa2007646.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Sales Tax (Exemptions And Classifications) Amendment Act (No. 2) 1989 No. 18, 1990 - stacaa21989511.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Parliamentary Workplace Reform (Set The Standard Measures No. 1) Act 2022 (No. 7, 2022) - pwrtsmn1a2022589.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Compensation (Japanese Internment) Act 2001 - cia2001338.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Local Government (Central Goldfields Shire Council) Act 2017 - lggsca2017455.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Civil Aviation (Carriers' Liability) Act 1961 - cala1961327.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Higher Education Support Amendment Act (No. 1) 2012 (No. 38, 2012) - hesaa12012378.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Export Charges (Imposition--Customs) Act 2015 - eca2015399.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Minerals (Submerged Lands) (Registration Fees) Act 1981 No. 86, 1981 - mlfa1981408.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Water Amendment Act 2015 (No. 133, 2015) - waa2015163.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Cocos (Keeling) Islands Amendment Act 1979 No. 6, 1979 - ciaa1979278.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Melbourne Orphan Asylum Sale Act 1875 - moasa1875301.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Drought Assistance (Primary Producers) Act 1982 No. 99, 1982 - dapa1982410.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Autonomous Sanctions Amendment (Magnitsky-Style And Other Thematic Sanctions) Act 2021 (No. 128, 202 - asaaotsa2021789.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Public Records Regulations 2023 - prr2023262.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Director Of Public Prosecutions Amendment Act 1986 No. 88, 1986 - doppaa1986423.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs And Excise Amendment Act 1983 No. 101, 1983 - caeaa1983279.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Supply Act (No. 2) 1975 76 No. 39, 1975 - sa2197576n391975178.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Citizenship Amendment (Defence Families) Act 2012 (No. 119, 2012) - acafa2012435.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Statute Law (Miscellaneous Provisions) Act 2024 - slpa2024434.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Parliamentary Contributory Superannuation Amendment Act 1979 No. 131, 1979 - pcsaa1979583.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Petroleum And Other Fuels Reporting (Consequential Amendments And Transitional Provisions) Act 2017  - paofraatpa2017927.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Product Stewardship (Oil) (Consequential Amendments) Act 2000 No. 105, 2000 - psaa2000515.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Vocational Education And Training Regulator (Charges) Act 2012 (No. 105, 2012) - nveatra2012546.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Amendment (Military End-Use) Act 2012 (No. 152, 2012) - caea2012365.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Federal Police Amendment Act 1981 No. 22, 1981 - afpaa1981305.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Civil Aviation (Carriers' Liability) Amendment Act 1976 No. 126, 1976 - calaa1976407.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Broadcasting Services Amendment (Community Television) Act 2024 (No. 15, 2024) - bsata2024538.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Vocational Education And Training Funding Laws Amendment Act 1993 No. 119 Of 1993 - veatflaa1993505.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Immigration (Education) Regulations 2018 - ir2018330.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Migration Legislation Amendment (Parents And Other Measures) Act 2000 No. 128, 2000 - mlaaoma2000566.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Sex Discrimination (Consequential Amendments) Act 1986 No. 163, 1986 - sdaa1986449.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Health Amendment Act (No. 3) 1976 No. 108, 1976 - nhaa31976254.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Aged Persons Hostels Amendment Act 1976 No. 92, 1976 - aphaa1976304.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Tariff (Anti-Dumping) Amendment (Off-Shore Installations) Act 1982 No. 53, 1982 - ctaia1982611.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Treasury Laws Amendment (Lower Taxes For Small And Medium Businesses) Act 2018 (No. 134, 2018) - tlatfsamba2018688.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Security And Other Legislation Amendment (Employment Entry Payment) Act 2008 (No. 64, 2008) - ssaolaepa2008747.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Corporations Amendment (Repayment Of Directors' Bonuses) Act 2003 No. 25, 2003 - caodba2003569.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Private Health Insurance Legislation Amendment Act 2009 (No. 66, 2009) - philaa2009440.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Tax Laws Amendment (Political Contributions And Gifts) Act 2010 (No. 16, 2010) - tlacaga2010520.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Maritime College Act 1976 No. 84, 1976 - mca1976153.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Warragul (Public Park) Lands Act 1967 - wpla1967258.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Wine Grapes Levy Amendment Act 1989 No. 141, 1989 - wglaa1989268.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Imported Food Charges (Imposition--Customs) Act 2015 (No. 97, 2015) - ifca2015435.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Loan Act 1993 No. 77, 1993 - la199359.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Fisheries Management (Fishing Levy Collection) Regulations 2018 - fmlcr2018525.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Royal Melbourne Hospital Act 1938 - rmha1938275.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Diesel Fuel Taxation (Administration) Amendment Act 1980 No. 63, 1980 - dftaa1980437.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Ashmore And Cartier Islands Acceptance Amendment Act 1985 No. 202, 1985 - aaciaaa1985388.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Recycling And Waste Reduction Charges (Customs) Act 2020 (No. 121, 2020) - rawrca2020444.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Wheat Marketing Amendment Act 2006 (No. 157, 2006) - wmaa2006242.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Financial Services Reform (Consequential Provisions) Act 2002 No. 29, 2002 - fsrpa2002530.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Import Processing Charges Amendment Act 2000 No. 3, 2000 - ipcaa2000355.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Bankruptcy (Estate Charges) Amendment Act 2001 - bcaa2001340.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Therapeutic Goods Amendment (Poisons Standard) Act 2008 (No. 9, 2008) - tgasa2008444.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Protection Of The Environment Legislation Miscellaneous Amendments Act 2017 - potelmaa2017678.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Superannuation Supervisory Levy Imposition Act 1998 No. 60, 1998 - sslia1998560.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Mooroopna Race-Course Land Act 1901 - mrla1901259.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Queen Victoria Medical Centre (Guarantees) Act 1982 - qvmca1982367.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Industry Commission Amendment Act 1995 No. 150, 1995 - icaa1995342.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Wool Industry Amendment Act (No. 2) 1977 No. 92 Of 1977 - wiaa21977311.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Radiocommunications (Miscellaneous Provisions) Act 1982 No. 66, 1982 - rpa1982499.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Military Rehabilitation And Compensation (Consequential And Transitional Provisions) Regulations 202 - mracatpr2020950.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/First Home Owner Grant And Home Buyer Schemes Regulations 2021 - fhogahbsr2021543.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Financial Management And Accountability Amendment Act 2000 No. 80, 2000 - fmaaaa2000401.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Capital Territory Electricity Supply Amendment Act 1979 No. 106, 1979 - actesaa1979622.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Lands Acquisition Regulations 2017 - lar2017301.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Pipeline Construction (Dalton To Canberra) Act 1980 No. 21, 1980 - pctca1980405.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Qantas Airways Limited (Loan Guarantee) Act 1978 No. 19, 1978 - qalga1978362.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Sales Tax (Exemptions And Classifications) Amendment Act 1989 No. 72, 1989 - stacaa1989484.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Norfolk Island Amendment (Supreme Court) Act 2020 (No. 83, 2020) - niaca2020400.txt
+/home/ubuntu/DataClean/legis/cth/num_act/States Grants (Hospital Operating Costs) Act 1976 No. 80, 1976 - sgoca1976431.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Social Services And Other Legislation Amendment (Lifting The Income Limit For The Commonwealth Senio - ssaolatilftcshca20221004.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Wet Tropics Of Queensland World Heritage Area Conservation Act 1994 - wtoqwhaca1994576.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Road Vehicle Standards Charges (Imposition--Excise) Act 2018 (No. 166, 2018) - rvsca2018445.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Protection Of The Sea (Civil Liability For Bunker Oil Pollution Damage) (Consequential Amendments) A - potslfbopdaa2008881.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Administrative Decisions (Judicial Review) Amendment Act 1978 No. 66, 1978 - adraa1978476.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Forest Industries Research Export Charge Act 1993 No. 89, 1993 - fireca1993423.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Water Efficiency Labelling And Standards Amendment (Registration Fees) Act 2013 (No. 64, 2013) - welasafa2013584.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Extradition (Kingdom Of Cambodia) Regulations 2003 - eocr2003383.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Clean Energy (Customs Tariff Amendment) Act 2012 (No. 85, 2012) - cetaa2012356.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Commonwealth Grants Commission Amendment Act 1981 No. 173, 1981 - cgcaa1981423.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Health Insurance (Pathology) (Fees) Act 1991 No. 191, 1991 - hia1991305.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Import Processing Charges Amendment Act 2015 (No. 148, 2015) - ipcaa2015355.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Appropriation (Parliamentary Departments) Act (No. 2) 1982-83 No. 13, 1983 - ada2198283n131983494.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Sales Tax (In Situ Pools) (Deficit Reduction) Act 1993 No. 43, 1993 - stspra1993421.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Telecommunications (Industry Levy) Act 2012 - tla2012396.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Education Services For Overseas Students Amendment Act 2005 No. 157, 2005 - esfosaa2005522.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Copyright Amendment (Film Directors' Rights) Act 2005 No. 130, 2005 - cadra2005426.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Fish (Export Inspection Charge) Act 1981 No. 57, 1981 - fica1981301.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Dairy Produce Levy (No. 1) Amendment Act 1989 No. 131, 1989 - dpl1aa1989315.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Water Efficiency Labelling And Standards (Registration Fees) Act 2013 (No. 63, 2013) - welasfa2013504.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Defence Legislation Amendment (Flexible Career Practices) Act 2000 No. 113, 2000 - dlacpa2000444.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Stevedoring Industry (Temporary Provisions) Amendment Act 1976 No. 48, 1976 - sipaa1976618.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Treasury Laws Amendment (Working Holiday Maker Employer Register) Act 2018 (No. 125, 2018) - tlahmera2018665.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Imported Food Charges (Collection) Regulation 2015 - ifcr2015392.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Cattle Disease Eradication Trust Account Act 1991 No. 23, 1991 - ncdetaa1991460.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Cotton Levy Act 1982 No. 147, 1982 - cla1982162.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Victims Of Crime Commissioner Regulations 2020 - voccr2020420.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Consular Fees Act 1955 - cfa1955147.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Financial Sector (Transfer And Restructure) Regulations 2018 - fsarr2018530.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Minerals (Submerged Lands) (Exploration Permit Fees) Act 1981 No. 83, 1981 - mlpfa1981478.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Loan Act (No. 2) 1982 No. 107, 1982 - la2198286.txt
+/home/ubuntu/DataClean/legis/cth/num_act/New Business Tax System (Venture Capital Deficit Tax) Act 2000 No. 62, 2000 - nbtscdta2000541.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Cattle Disease Eradiction Trust Account Amendment Act 1995 No. 78, 1995 - ncdetaaa1995540.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Co-Operative Farmers And Graziers Direct Meat Supply Limited (Loan Guarantee) Act 1978 No. 16, 1978 - cfagdmslga1978700.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Excise Tariff Amendment (Carbon Tax Repeal) Act 2014 (No. 87, 2014) - etatra2014354.txt
+/home/ubuntu/DataClean/legis/cth/num_act/States Grants (Aboriginal Advancement) Act (No. 2) 1973 No. 168, 1973 - sgaa21973368.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Radiocommunications (Transmitter Licence Tax) Amendment Act 1992 No. 144, 1992 - rltaa1992530.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Telecommunications (Carrier Licence Fees) Amendment Act 1996 No. 26 Of 1996 - tlfaa1996434.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Extension Of Charitable Purpose Act 2004 No. 107, 2004 - eocpa2004328.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Classification (Publications, Films And Computer Games) Amendment Act (No. 2) 2004 No. 140, 2004 - cfacgaa22004596.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Parliament Act 1974 No. 165, 1974 - pa1974120.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Wheat Tax (Permit) Collection Act 1984 No. 144 Of 1984 - wtca1984288.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Aviation Fuel Revenues (Special Appropriation) Amendment Act 1999 No. 97, 1999 - afraaa1999538.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Telecommunications (Numbering Fees) Act 1991 No. 90 Of 1991 - tfa1991339.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Tax Laws Amendment (Personal Income Tax Reduction) Act 2007 (No. 76, 2007) - tlaitra2007481.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Pig Slaughter Levy Collection Act 1975 No. 46, 1975 - pslca1975310.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/International Sugar Organization (Privileges And Immunites) Regulations - isoair709.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Ozone Protection (Licence Fees-Imports) Amendment Act 2003 No. 124, 2003 - opfaa2003474.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Amendment Act (No. 2) 1976 No. 174, 1976 - caa21976231.txt
+/home/ubuntu/DataClean/legis/cth/num_act/International Development Association (Further Payment) Act 1984 No. 137, 1984 - idapa1984570.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/New Business Tax System (Venture Capital Deficit Tax) Act 2003 - nbtscdta2003541.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Papua New Guinea Act 1975 No. 97, 1975 - pnga1975161.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Petroleum (Submerged Lands) Amendment Act 2002 No. 93, 2002 - plaa2002347.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Commonwealth Banks Amendment Act 1978 No. 77, 1978 - cbaa1978273.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Corporations (Compensation Arrangements Levies) Act 2001 - cala2001493.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/St. Luke'S Hospital Act 1952 - slha1952213.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Income Tax Rates Amendment Act 1988 No. 118, 1988 - itraa1988254.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Land (Surf Life Saving Association) Act 1967 - llsaa1967316.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Securities Exchanges (Application For Membership) Fidelity Funds Contribution Act 1989 No. 111, 1989 - sefmffca1989744.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Broadcasting (Retransmission Permits And Temporary Transmission Permits) Fees Act 1988 No. 143, 1988 - bpattpfa1988814.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Family Trust Distribution Tax (Primary Liability) Amendment (Disabilitycare Australia) Act 2013 (No. - ftdtlaaa2013843.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Pig Slaughter Levy Amendment Act 1989 No. 134, 1989 - pslaa1989292.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Tax Laws Amendment (Medicare Levy And Medicare Levy Surcharge) Act 2006 (No. 59, 2006) - tlalamlsa2006521.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Offshore Petroleum And Greenhouse Gas Storage (Regulatory Levies) Amendment Act 2013 (No. 142, 2013) - opaggslaa2013724.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Tax Laws Amendment (Medicare Levy And Medicare Levy Surcharge) Act 2004 - tlalamlsa2004521.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Papua New Guinea Act 1974 No. 56, 1974 - pnga1974161.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Tax Laws Amendment (Medicare Levy And Medicare Levy Surcharge) Act 2008 (No. 50, 2008) - tlalamlsa2008521.txt
+/home/ubuntu/DataClean/legis/nsw/consol_act/Fisheries Management Amendment Act 2009 - fmaa2009273.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Aboriginal Land Rights (Northern Territory) Amendment Act 2002 No. 99, 2002 - alrtaa2002524.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Superannuation (Excess Concessional Contributions Charge) Act 2013 (No. 116, 2013) - sccca2013583.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Disability Services Amendment (Linking Upper Age Limits For Disability Employment Services To Pensio - dsaualfdestpaa20171003.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Wheat Levy Act (No. 1) 1979 No. 167 Of 1979 - wla11979160.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Superannuation (Excess Non-Concessional Contributions Tax) Act 2007 - sncta2007629.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Securities Commission Amendment Act 1990 No. 41, 1990 - ascaa1990444.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Long Service Leave Legislation Amendment (Telstra) Act 2009 (No. 110, 2009) - lsllaa2009459.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Farm Household Support Amendment Act 1997 No. 21, 1997 - fhsaa1997351.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/International Exhibitions Bureau (Privileges And Immunities) Regulations - iebair704.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Taxation (Trustee Beneficiary Non-Disclosure Tax) Act (No. 2) 2007 (No. 145, 2007) - tbnta22007528.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Sales Tax Amendment Act (No. 2) 1981 No. 134, 1981 - staa21981221.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Sales Tax Amendment Act (No. 4) 1982 No. 87, 1982 - staa41982221.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Trans-Tasman Mutual Recognition (Victoria) Act 1998 - tmra1998439.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Seat Of Government (Administration) Amendment Act 1978 No. 40, 1978 - sogaa1978436.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Workplace Relations Amendment (Tallies) Act 2001 No. 7, 2001 - wraa2001371.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Amendment (Alcoholic Beverages) Act 2000 No. 84, 2000 - caba2000348.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Stevedoring Industry Charge Act 1975 No. 103, 1975 - sica1975306.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Excise Levies Legislation Amendment (Honey) Act 2018 (No. 119, 2018) - ellaa2018400.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Telecommunications (Consumer Protection And Service Standards) Amendment Act 2000 No. 33, 2000 - tpassaa2000700.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Superannuation Laws Amendment (2007 Budget Co-Contribution Measure) Act 2007 (No. 67, 2007) - sla2007bcma2007618.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Poultry Industry Assistance Amendment Act (No. 2) 1979 No. 21, 1979 - piaaa21979470.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Public Service Amendment Act 1997 No. 23, 1997 - psaa1997232.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Tariff (Uranium Concentrate Export Duty) Amendment Act 1991 No. 58, 1991 - ctcedaa1991613.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Excise Legislation Amendment (Condensate) Act 2011 (No. 140, 2011) - elaa2011362.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Act No. 454 - an45448.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Residue Survey Excise Levy Rate Correction (Lamb Transactions) Act 2004 No. 4, 2004 - nrselrcta2004711.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Energy Efficiency Opportunities (Repeal) Act 2014 (No. 97, 2014) - eeoa2014399.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Governor-General Amendment (Salary) Act 2024 (No. 53, 2024) - gaa2024332.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Radiocommunications (Transmitter Licence Tax) Amendment Act 2000 No. 36, 2000 - rltaa2000530.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Renewable Energy (Electricity) (Large-Scale Generation Shortfall Charge) Act 2000 - regsca2000592.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Amendment Act 1980 No. 15, 1980 - caa1980204.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Native Title Amendment (Infrastructure And Public Facilities) Act 2020 (No. 113, 2020) - ntaapfa2020562.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Tradex Duty Imposition (General) Act 1999 - tdia1999337.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Dairying Industry Research And Promotion Levy Collection Act 1978 No. 139, 1978 - diraplca1978591.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Trade Practices (Transfer Of Market Dominance) Amendment Act 1986 No. 8 Of 1986 - tpomdaa1986472.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Stevedoring Industry Charge (Termination) Act 1977 No. 120, 1977 - sica1977433.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Wool Tax (No. 1) Amendment Act 1990 No. 63 Of 1990 - wt1aa1990231.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Wool Tax (No. 5) Amendment Act 1990 No. 67 Of 1990 - wt5aa1990231.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Tradex Duty Imposition (Customs) Act 1999 No. 186, 1999 - tdia1999385.txt
+/home/ubuntu/DataClean/legis/vic/consol_reg/Audit (Public Bodies) Regulations 2025 - abr2025285.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Appropriation (Hih Assistance) Act 2001 No. 74, 2001 - aaa2001298.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Diesel Fuel Tax Amendment Act (No. 1) 1982 No. 109, 1982 - dftaa11982258.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Schools Assistance Amendment (Financial Assistance) Act 2011 (No. 26, 2011) - saaaa2011445.txt
+/home/ubuntu/DataClean/legis/cth/num_act/National Health (Pharmaceutical Benefits Charges) Act 1975 No. 93, 1975 - nhbca1975390.txt
+/home/ubuntu/DataClean/legis/cth/consol_reg/Coal Mining Industry (Long Service Leave) Payroll Levy Regulations 2018 - cmislplr2018649.txt
+/home/ubuntu/DataClean/legis/cth/num_act/A New Tax System (Goods And Services Tax Imposition-General) Act 1999 No. 75, 1999 - antsastia1999586.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Insurance Amendment Act 1991 No. 32, 1991 - iaa1991196.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Exotic Animal Disease Control Amendment Act 1995 No. 80, 1995 - eadcaa1995360.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Acts Interpretation Amendment Act 1978 No. 35, 1978 - aiaa1978310.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Broadcasting Stations Licence Fees Amendment Act 1982 No. 155 Of 1982 - bslfaa1982386.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Tariff Amendment (Tobacco Content) Act 2008 (No. 37, 2008) - ctaca2008394.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/A New Tax System (Luxury Car Tax Imposition--Excise) Act 1999 - antsctia1999561.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Wheat Marketing Amendment Act 1983 No. 24 Of 1983 - wmaa1983242.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/William E. Dorling Scholarship Fund Act 1975 - wedsfa1975327.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Ministers Of State Amendment Act 1985 No. 56, 1985 - mosaa1985297.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Nitrogenous Fertilizers Subsidy Amendment Act 1981 No. 174, 1981 - nfsaa1981475.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Tariff Validation Act (No. 3) 1974 No. 163, 1974 - ctva31974302.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Apple And Pear Levy Amendment Act 1981 No. 28, 1984 - aaplaa1981n281984285.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Research Council Amendment Act 2014 (No. 1, 2014) - arcaa2014346.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Tariff Validation Act 1973 No. 58, 1973 - ctva1973275.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Stevedoring Industry Charge Amendment Act 1976 No. 49, 1976 - sicaa1976386.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Sea-Carriage Of Goods Amendment Act 1979 No. 101, 1979 - sogaa1979251.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Excise Tariff Validation Act 1979 No. 179, 1979 - etva1979231.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Anzac Day Act 1995 No. 21, 1995 - ada199588.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Meat And Live-Stock Corporation Amendment Act 1979 No. 76, 1979 - amalcaa1979498.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Customs Tariff (Coal Export Duty) Amendment Act 1977 No. 103, 1977 - ctedaa1977443.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Sydney Airport Demand Management Amendment Act 2001 No. 45, 2001 - sadmaa2001395.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Organisation For Economic Co-Operation And Development (Financial Support Fund) Repeal Act 1995 No.  - ofecadsfra1995782.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Excise Tariff Amendment Act (No. 4) 1997 No. 169, 1997 - etaa41997241.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Nitrogenous Fertilizars Subsidy Amendment Act 1980 No. 137, 1980 - nfsaa1980471.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Stevedoring Industry (Temporary Provisions) Amendment Act 1977 No. 76, 1977 - sipaa1977618.txt
+/home/ubuntu/DataClean/legis/cth/num_act/New Business Tax System (Over-Franking Tax) Act 2002 No. 49, 2002 - nbtsta2002467.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Taxation (Interest On Non-Resident Trust Distributions) Act 1990 No. 124, 1990 - tontda1990631.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Queenscliff Land Act 1978 - qla1978154.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Income Tax (Deferred Interest Securities) (Tax File Number Withholding Tax) Act 1991 - itisfnwta1991690.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Wheat Tax Amendment Act 1984 No. 146 Of 1984 - wtaa1984195.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Extension Of Sunset Of Parliamentary Joint Committee On Native Title Act 2004 No. 13, 2004 - eosopjconta2004717.txt
+/home/ubuntu/DataClean/legis/vic/consol_act/Melbourne (Flinders-Street) Land Act 1958 - mla1958304.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Nrs Levy Imposition Amendment Act 1999 No. 49, 1999 - nliaa1999338.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Shortfall Interest Charge (Imposition) Act 2005 No. 76, 2005 - sica2005390.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Workplace Relations And Other Legislation Amendment Act (No. 2) 1996 No. 77 Of 1996 - wraolaa21996516.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Education Services For Overseas Students (Registration Of Providers And Financial Regulation) Amendm - esfosopafraa119971016.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Health Legislation Amendment (Medical Practitioners' Qualifications And Other Measures) Act 2001 - hlapqaoma2001767.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Transport Security Amendment (Security Of Australia'S Transport Sector) Act 2025 (No. 22, 2025) - tsaoatsa2025793.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Health Insurance Commission (Reform And Separation Of Functions) Act 1997 No. 159, 1997 - hicasofa1997607.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Agriculture, Fisheries And Forestry Legislation Amendment Act (No. 1) 2003 - afaflaa12003587.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Administrative Review Tribunal (Miscellaneous Measures) Act 2025 (No. 14, 2025) - artma2025564.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Industry, Science And Tourism Legislation Amendment Act 1997 No. 91, 1997 - isatlaa1997510.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Commonwealth Motor Vehicles (Liability) Amendment Act 1997 No. 110, 1997 - cmvaa1997472.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Papua New Guinea (Members Of The Forces Benefits) Act 1957 - pngotfba1957410.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Australian Meat And Live-Stock Industry Act 1997 No. 206, 1997 - amalia1997407.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Defence Forces Special Retirement Benefits Act 1960 - dfsrba1960363.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Corporate Law Economic Reform Program Act 1999 - clerpa1999375.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Copyright Amendment (Digital Agenda) Act 2000 - caaa2000294.txt
+/home/ubuntu/DataClean/legis/cth/consol_act/Taxation Laws Amendment Act (No. 4) 1994 - tlaa41994275.txt
+/home/ubuntu/DataClean/legis/cth/num_act/Navigation Amendment Act 2025 (No. 2, 2025) - naa2025203.txt

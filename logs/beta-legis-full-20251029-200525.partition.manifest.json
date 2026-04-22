@@ -1,0 +1,71 @@
+{
+  "total_files": 12324,
+  "shards": [
+    {
+      "index": 0,
+      "count": 768
+    },
+    {
+      "index": 1,
+      "count": 768
+    },
+    {
+      "index": 2,
+      "count": 769
+    },
+    {
+      "index": 3,
+      "count": 771
+    },
+    {
+      "index": 4,
+      "count": 771
+    },
+    {
+      "index": 5,
+      "count": 770
+    },
+    {
+      "index": 6,
+      "count": 771
+    },
+    {
+      "index": 7,
+      "count": 771
+    },
+    {
+      "index": 8,
+      "count": 770
+    },
+    {
+      "index": 9,
+      "count": 770
+    },
+    {
+      "index": 10,
+      "count": 771
+    },
+    {
+      "index": 11,
+      "count": 771
+    },
+    {
+      "index": 12,
+      "count": 770
+    },
+    {
+      "index": 13,
+      "count": 771
+    },
+    {
+      "index": 14,
+      "count": 771
+    },
+    {
+      "index": 15,
+      "count": 771
+    }
+  ],
+  "assigned_total": 12324,
+  "unique_assigned": 12324
+}

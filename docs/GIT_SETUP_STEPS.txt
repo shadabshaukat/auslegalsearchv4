@@ -1,0 +1,24 @@
+
+# --- ONE-TIME SETUP (if not configured) ---
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+# --- LOGIN TO GITHUB ---
+# Install and login with GitHub CLI (recommended, enables browser SSO and stores credentials)
+brew install gh
+gh auth login
+
+# --- INITIALIZE GIT (if not already initialized) ---
+cd /Users/shadab/Desktop/auslegalsearchv2
+git init
+
+# --- ADD REMOTE OR SET/CHECK REMOTE ---
+git remote remove origin 2>/dev/null || true
+git remote add origin https://github.com/shadabshaukat/auslegalsearchv2.git
+
+# --- COMMIT AND PUSH ENTIRE FOLDER ---
+git add .
+git commit -m "Initial full commit of working AusLegalSearch v0.1.0"
+git branch -M main
+git push -u origin main
+

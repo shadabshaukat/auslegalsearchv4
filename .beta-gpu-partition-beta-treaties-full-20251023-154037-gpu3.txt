@@ -1,0 +1,1181 @@
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1969_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1969_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1970_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1970_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1970_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1970_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1971_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1971_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1971_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1972_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1972_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1972_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1972_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1973_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1973_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1973_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1973_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1974_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1974_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1974_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1974_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1975_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1975_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1975_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1975_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1975_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1975_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1975_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1975_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1975_32.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1976_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1976_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1976_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1976_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1977_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1977_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1977_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1977_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1977_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1977_32.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1978_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1978_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1978_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1978_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1979_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1979_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1979_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1980_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1980_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1981_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1981_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1981_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1982_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1982_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1983_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1983_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1983_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1983_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1984_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1984_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1984_32.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1984_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1984_34.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1985_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1985_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1985_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1985_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1985_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1985_32.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1985_38.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1986_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1986_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1986_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1986_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1986_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1987_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1987_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1987_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1987_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1987_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1988_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1988_36.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1988_37.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1988_38.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1988_44.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1989_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1989_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1989_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1989_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1989_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1989_34.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1990_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1990_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1990_46.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1990_47.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1990_48.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1991_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1991_46.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1991_48.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1992_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1992_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1992_34.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1993_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1993_40.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1994_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1995_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1995_35.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1997_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1997_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1997_32.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1999_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 1999_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 2000_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 2000_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 2000_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 2000_32.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes Constituting an Agreement Between the Government of Australia and the Government o - 2002_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 2006_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 2007_39.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Government o - 2010_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Korean Penin - 1995_34.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Multinationa - 1993_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Multinationa - 1997_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Multinationa - 1999_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Provisional  - 1974_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Royal Hellen - 1952_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Royal Hellen - 1956_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Royal Lao Go - 1963_28.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Royal Lao Go - 1971_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Royal Lao Go - 1972_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Royal Lao Go - 1973_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the Royal Thai G - 1959_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the United Natio - 1952_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of Australia and the United Natio - 2000_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1939_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1940_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1940_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1952_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1953_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1955_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1957_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1964_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1964_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1964_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1965_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1965_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1965_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1965_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1965_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1966_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1967_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the Commonwealth of Australia  - 1967_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the United Kingdom of Great Br - 1920_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the United Kingdom of Great Br - 1920_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the United Kingdom of Great Br - 1926_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the United Kingdom of Great Br - 1926_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the United Kingdom of Great Br - 1929_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the United Kingdom of Great Br - 1929_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the United Kingdom of Great Br - 1930_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the United Kingdom of Great Br - 1931_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the United Kingdom of Great Br - 1935_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the United Kingdom of Great Br - 1935_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the United Kingdom of Great Br - 1937_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the United Kingdom of Great Br - 1952_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Government of the United Kingdom of Great Br - 1963_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Governments of Australia, Canada, India, New - 1978_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Governments of Australia, India, New Zealand - 1938_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Governments of Australia, India, New Zealand - 1938_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Governments of Australia, New Zealand and th - 1938_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Governments of Australia, New Zealand and th - 1954_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Governments of the United Kingdom of Great B - 1939_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Governments of the United Kingdom of Great B - 1939_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the overnment of Australia and the Government of - 1977_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the overnment of Australia, India, New Zealand a - 1938_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the Patent Office of the Government of Australia - 1984_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the United Kingdom and Egypt establishing a Comm - 1930_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement between the United Kingdom of Great Britain and Ireland  - 1914_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement extending the Agreement between Australia and Japan on C - 1985_28.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement further amending the Agreement relating to the establish - 1982_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement further amending the Schedule to the Agreement between t - 1966_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement terminating the Inter-Governmental Agreement for the Con - 1956_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes Constituting an Agreement to Amend Annexes 2-B (Tariff Schedule of Australia), 4-A - 2010_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement to amend the Agreement between the Government of the Uni - 2012_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement to amend the Schedule to the Agreement between the Gover - 1993_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes Constituting an Agreement to Amend, and to Provide for International Obligation Ex - 1995_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement to extend the Agreement between the Government of Austra - 1993_38.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement to extend the Agreement between the Government of Austra - 1996_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement to extend the Agreement between the Government of Austra - 2012_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement to further amend the Agreement between the Government of - 1992_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement to further amend the Agreement between the Government of - 1993_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement to further amend the Schedule to the Agreement between A - 1993_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement to further extend the Agreement between the Government o - 1994_37.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement to further extend the Agreement between the Government o - 1995_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Agreement with the Government of Japan to amend, by replacing the  - 2006_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes Constituting an Agreement, between Australia and the United States of America to A - 2001_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Amendment to the Agreement between the Government of Australia and - 1965_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an amendment to the Agreement between the Government of Australia and - 1966_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an amendment to the Agreement between the Government of Australia and - 1967_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Amendment to the Agreement between the Government of Australia and - 2011_38.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Implementing Arrangement between the Government of Australia and t - 1999_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Implementing Arrangement, concerning International Obligation Exch - 1993_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes constituting an Interim Agreement between the Government of Australia and the Gove - 1978_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes establishing a provisional Modus Vivendi pending the conclusion of a Treaty of Com - 1901_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes to extend the Exchange of Notes constituting an Agreement between the Government o - 2024_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes, done at Canberra on 9 December 2011, constituting an Agreement between the Govern - 2013_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchange of Notes, done at Canberra on 21 November 2013, constituting an Agreement between the Gover - 2014_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchanges of Notes constituting a Temporary Air Agreement between the Government of Australia and th - 1950_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchanges of Notes constituting Agreements between the Government of Australia and the Government of - 1985_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchanges of Notes constituting Agreements between the Government of Australia and the Government of - 1987_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchanges of Notes constituting an Agreement between the Government of Australia and the Government  - 1951_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchanges of Notes constituting an Agreement between the Government of Australia and the Government  - 1953_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchanges of Notes constituting an Agreement between the Government of Australia and the Government  - 1957_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchanges of Notes constituting an Agreement between the Government of Australia and the Government  - 1958_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchanges of Notes constituting an Agreement between the Government of Australia and the Government  - 1996_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchanges of Notes constituting an Agreement between the Government of Australia and the United Nati - 1966_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Exchanges of Notes constituting an Agreement between the Government of the United Kingdom of Great B - 1929_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Extension of the Agreement between the Government of Australia and the International Bureau of the W - 2008_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Extension of the International Coffee Agreement 1976 (Agreement of 3 December 1975) - 1983_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Extension of the International Sugar Agreement of 13 October 1973 - 1976_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Extradition Convention between the United Kingdom of Great Britain and Ireland and Estonia - 1927_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Extradition Treaty Between Australia and the Republic of India (Canberra, 23 June 2008) - 2011_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Extradition Treaty between Australia and the Republic of Indonesia - 1995_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Extradition Treaty between the United Kingdom and Iraq - 1934_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Extradition Treaty between the United Kingdom of Great Britain and Ireland and the Republic of Lithu - 1928_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Extradition Treaty between the United Kingdom of Great Britain and Northern Ireland and the Albanian - 1928_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Extradition Treaty between the United Kingdom of Great Britain and Northern Ireland and the United S - 1935_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fifth Additional Protocol to the Convention of the Universal Postal Union of 10 July 1964 (Seoul, 14 - 2005_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fifth Agreement to extend the 1987 Regional Cooperative Agreement for Research, Development and Trai - 2012_37.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fifth International Tin Agreement - 1976_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fifth Procès-Verbal extending the Declaration on the Provisional Accession of the United Arab Republ - 1970_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fifth Procès-Verbal extending the Declaration on the Provisional Accession of Tunisia to the General - 1969_28.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fifth Protocol Establishing the Prolongation of the Treaty between the Kingdom of the Netherlands an - 2018_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fifth Protocol of Rectifications and Modifications to the Texts of the Schedules to the General Agre - 1969_32.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fifth Protocol to the General Agreement on Trade in Services of 15 April 1994 - 1999_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Film Co-production Agreement Between the Government of Australia and the Government of the People's  - 2008_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Films Co-Production Agreement between the Government of Australia and the Government of Canada - 1990_37.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Films Co-Production Agreement between the Government of Australia and the Government of Ireland - 1998_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Films Co-Production Agreement between the Government of Australia and the Government of Italy - 1996_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Films Co-production Agreement Between the Government of Australia and the Government of the Federal  - 2001_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Films Co-Production Agreement between the Government of Australia and the Government of the State of - 1998_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Films Co-production Agreement between the Government of Australia and the Government of the United K - 1991_28.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Final Act Embodying the Results of the Uruguay Rounds of Multilateral Trade Negotiations - 1995_39.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Final Act of the Conference of Wheat Exporting and Importing Countries - 1933_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Final Acts of the World Radiocommunications Conference (WRC 2007) (Geneva, 16 November 2007) - 2009_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Final Peace Agreement between the Government of Australia and the Government of Siam - 1946_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Final Protocol and Partial Revision of the 1998 Radio Regulations, as incorporated in the Final Acts - 2002_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/First Protocol to Amend the Agreement Establishing the ASEAN-Australia-New Zealand Free Trade Area ( - 2015_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/First Protocol to the Agreement between the Government of Australia and the Government of New Zealan - 1995_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Five Power Defence Arrangements - 1971_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Food Aid Convention, 1980 - 1980_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Food Aid Convention, 1999 - 1999_28.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Food Assistance Convention (London, 25 April 2012) - 2014_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fourth Additional Protocol to the Constitution of the Universal Postal Union - 1994_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fourth Agreement to Extend the 1987 Regional Cooperative Agreement for Research, Development and Tra - 2009_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fourth International Tin Agreement - 1971_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fourth Procès-Verbal extending the Declaration on the Provisional Accession of the United Arab Repub - 1969_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fourth Procès-Verbal extending the Declaration on the Provisional Accession of the United Arab Repub - 1969_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fourth Procès-Verbal extending the Declaration on the Provisional Accession of Tunisia to the Genera - 1968_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fourth Protocol Establishing the Prolongation of the Treaty between the Kingdom of the Netherlands a - 2017_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fourth Protocol of Rectifications and Modifications to the Annexes and to the Texts of the Schedules - 1959_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Fourth Protocol to the General Agreement on Trade in Services of 15 April 1994 - 1998_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Framework Agreement between Australia, of the one part, and the European Union and its Member States - 2018_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Framework Agreement between the Government of Australia and the Government of the French Republic Co - 2017_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Framework Agreement between the Government of Australia and the Organisation for Joint Armament Coop - 2022_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Framework Agreement Between the Government of the Republic of Turkey and the Government of Australia - 2009_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Framework Agreement for International Collaboration on Research and Development of Generation IV Nuc - 2017_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Framework Agreement on the establishment of the International Solar Alliance (New Delhi, 18 July 201 - 2017_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Free Trade Agreement between Australia and Hong Kong, China and associated side letters (Sydney, 26  - 2020_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Free Trade Agreement between Australia and the Republic of Peru (Canberra, 12 February 2018) - 2020_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Free Trade Agreement between Australia and the United Kingdom of Great Britain and Northern Ireland  - 2023_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Free Trade Agreement between the Government of Australia and the Government of the People's Republic - 2015_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Free Trade Agreement between the Government of Australia and the Government of the Republic of Korea - 2014_43.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Further Amendment to [Article 4 of] the Parcels Post Convention between the Commonwealth of Australi - 1912_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Further Extension of the International Sugar Agreement of 13 October 1973 - 1977_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/GATT UAR extension - Second Proc�s-Verbal extending the Declaration on the Provisional Accession of  - 1965_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/General Act of Arbitration for the Pacific Settlement of International Disputes - 1975_49.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/General Agreement on Development Cooperation between the Government of Australia and the Government  - 1998_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/General Agreement on Development Cooperation between the Government of Australia and the Government  - 1999_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/General Agreement on Tariff and Trade [GATT] - 1948_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/General Agreement on Tariffs and Trade 1947 - 1995_40.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/General Obligatory Arbitration Treaty between the United Kingdom of Great Britain and Ireland and th - 1919_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/General Treaty between the United Kingdom of Great Britain and Ireland and Morocco (Tangier, 9 Decem - 1901_73.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/General Treaty for Renunciation of War as an Instrument of National Policy [Kellogg-Briand Pact] - 1929_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Geneva (1967) Protocol to the General Agreement on Tariffs and Trade of 30 October 1947 [Kennedy Rou - 1968_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Geneva Convention for the Amelioration of the Condition of the Wounded and Sick in Armies in the Fie - 1931_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Global Convention on the Recognition of Qualifications concerning Higher Education (Paris, 25 Novemb - 2023_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Guarantee Agreement (Second Power Project) between Australia and the International Bank for Reconstr - 1974_37.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Headquarters Agreement between the Government of Australia and the Commission for the Conservation o - 1986_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Headquarters Agreement between the Government of Australia and the Commission for the Conservation o - 1999_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Headquarters Agreement Between the Government of Australia and the Secretariat to the Agreement on t - 2008_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention 162, Asbestos, 1986 (Geneva, 24 June 1986) - 2012_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention 175, Part Time Work Convention, 1994 (Geneva, 24 June 1994) - 2012_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 2) concerning Unemployment - 1973_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 7) fixing the Minimum Age for Admission of Children to Employment at Sea - 1935_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 8) concerning Unemployment Indemnity in case of Loss or Foundering of the Ship - 1935_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 9) for Establishing Facilities for Finding Employment for Seamen - 1925_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 10) concerning the Age for Admission of Children to Employment in Agriculture, a - 1957_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 11) concerning the Rights of Association and Combination of Agricultural Workers - 1957_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 12) concerning Workmen's Compensation in Agriculture - 1960_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 15) fixing the Minimum Age for the Admission of Young Persons to Employment as T - 1935_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 16) concerning the Compulsory Medical Examination of Children and Young Persons  - 1935_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 18) concerning Workmen's Compensation for Occupational Diseases - 1959_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 21) concerning the Simplification of the Inspection of Emigrants on Board Ship - 1931_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 22) concerning Seamen's Articles of Agreement - 1935_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 26) concerning the Creation of Minimum Wage-Fixing Machinery - 1932_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 27) concerning the Marking of the Weight on Heavy Packages Transported by Vessel - 1932_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 29) concerning Forced or Compulsory Labour - 1933_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 42) concerning Workmen's Compensation for Occupational Diseases (Revised) - 1959_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 45) concerning the Employment of Women on Underground Work in Mines of all Kinds - 1954_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 47) concerning the Reduction of Hours of Work to Forty a Week - 1971_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 58) fixing the Minimum Age for the Admission of Children to Employment at Sea (R - 1993_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 63) concerning Statistics of Wages and Hours of Work in the Principal Mining and - 1940_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 80) for the Partial Revision of Conventions adopted at the first Twenty-Eight Se - 1949_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 81) concerning Labour Inspection in Industry and Commerce - 1976_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 83) concerning the Application of International Labour Standards to Non-Metropol - 1974_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 85) concerning Labour Inspectorates in Non-Metropolitan Territories - 1955_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 86) concerning the Maximum Length of Contracts of Employment of Indigenous Worke - 1974_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 87) concerning Freedom of Association and Protection of the Right to Organise - 1974_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 92) concerning Crew Accommodation on Board Ship - 1992_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 98) concerning the Application of the Principles of the Right to Organise and to - 1974_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 99) concerning Minimum Wage Fixing Machinery in Agriculture - 1970_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 100) concerning Equal Remuneration for Men and Women Workers for Work of Equal V - 1975_45.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 105) concerning the Abolition of Forced Labour - 1960_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 111) concerning Discrimination in respect of Employment and Occupation - 1974_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 112) concerning the Minimum Age for Admission to Employment as Fishermen - 1972_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 116) concerning the Partial Revision of the Conventions adopted by the General C - 1963_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 122) concerning Employment Policy - 1970_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 123) concerning the Minimum Age for Admission to Employment Underground in Mines - 1972_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 131) concerning Minimum Wage Fixing, with Special Reference to Developing Countr - 1974_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 133) concerning Crew Accommodation on Board Ship (supplementary provisions) - 1992_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 135) concerning Protection and Facilities to be Afforded to Workers' Representat - 1994_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 137) concerning the Social Repercussions of New Methods of Cargo Handling in Doc - 1975_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 142) concerning Vocational Guidance and Vocational Training in the Development o - 1986_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 150) concerning Labour Administration Role, Functions and Organisation - 1986_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 155) concerning Occupational Safety and Health and the Working Environment (Gene - 2005_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 156) concerning Equal Opportunities and Equal Treatment for Men and Women Worker - 1991_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 158) concerning Termination of Employment at the Initiative of the Employer - 1994_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 159) concerning Vocational Rehabilitation and Employment (Disabled Persons) - 1991_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 160) concerning Labour Statistics - 1988_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 173) concerning the Protection of Workers' Claims in the Event of the Insolvency - 1995_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/ILO Convention (No. 182) Concerning the Prohibition and Immediate Action for the Elimination of the  - 2007_38.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Implementation procedures for airworthiness covering design approval, production activities, export  - 2006_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Implementation Procedures for Airworthiness covering Design Approval, Production Activities, Export  - 2011_32.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Indo-Pacific Economic for Prosperity Agreement relating to Supply Chain Resilience (San Francisco, 1 - 2024_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Indonesia-Australia Comprehensive Economic Partnership Agreement (Jakarta, 4 March 2019) - 2020_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Indus Basin Development Fund (Supplemental) Agreement, 1964 - 1964_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Indus Basin Development Fund Agreement, 1960 - 1961_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Instrument amending the Constitution of the International Telecommunication Union (Geneva, 1992) as  - 2008_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Instrument amending the Constitution of the International Telecommunication Union of 22 December 199 - 1996_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Instrument amending the Constitution of the International Telecommunication Union of 22 December 199 - 2000_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Instrument for the Amendment of the Constitution of the International Labour Organisation - 1954_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Instrument for the Amendment of the Constitution of the International Labour Organisation of 28 June - 1946_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Instrument for the Amendment of the Constitution of the International Labour Organisation of 28 June - 1974_36.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Instrument for the Amendment of the Constitution of the International Labour Organization of 28 June - 1948_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Instruments Amedning the Constitution and the Convention of the International Communications Union ( - 2005_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Inter-Allied Agreement to carry out the Experts' [Dawes] Plan of 9 April 1924 - 1924_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Inter-Governmental Agreement between Australia, New Zealand and the United Kingdom of Great Britain  - 1949_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Inter-Governmental Agreement between Australia, New Zealand and the United Kingdom of Great Britain  - 1949_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Intergovernmental Agreement for Tasman Sea Air Services - 1940_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Interim Agreement between the Government of Australia and the Commission for the Conservation of Ant - 1983_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Interim Agreement between the Government of Australia, the Government of the United Kingdom of Great - 1964_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Interim Agreement on International Civil Aviation - 1957_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Interim Arrangements concluded by the Governments represented at the United Nations Conference on In - 1945_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Agreement between the Creditor Powers respecting State Properties ceded by Austria, Hu - 1932_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Agreement for the Creation at Paris of an International Office for Dealing with Contag - 1925_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Agreement for the Regulation of Whaling - 1946_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Agreement for the Suppression of the Circulation of Obscene Publications - 1912_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Agreement modifying the Convention for the Creation of an International Institute of R - 1938_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Agreement on Jute and Jute Products, 1982 - 1984_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Agreement on Jute and Jute Products, 1989 - 1991_41.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Agreement on the Use of INMARSAT Ship Earth Stations within the Territorial Sea and Po - 1993_42.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Agreement regarding the Financial Obligations of Czechoslovakia resulting from the Pea - 1930_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Agreement respecting the Creation of an International Office of Public Health - 1909_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Bovine Meat Agreement - 1995_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Cocoa Agreement, 1972 - 1973_38.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Cocoa Agreement, 1975 - 1976_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Code for Application of Fire Test Procedures [under the auspices of the International  - 1998_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Code for Ships Operating in Polar Waters (Polar Code) Resolution MEPC.264(68) (London, - 2017_36.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Code for Ships Operating in Polar Waters (Polar Code) Resolution MSC.385(94) (London,  - 2017_34.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Coffee Agreement 1976 - 1976_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Coffee Agreement of 18 March 1968 as extended - 1973_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Coffee Agreement, 1968 - 1968_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Coffee Agreement, 1983 - 1983_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention Against Doping in Sport (Paris. 19 October 2005) - 2007_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention against the Taking of Hostages - 1990_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention concerning the Laws and Customs of War on Land [Hague IV] - 1910_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention concerning the Use of Broadcasting in the Cause of Peace - 1938_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for Adapting to Maritime Warfare the Principles of the Geneva Convention of - 1901_132.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for Safe Containers - 1981_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Amelioration of the Condition of the Wounded and Sick in Armies in  - 1907_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Control and Management of Ships' Ballast Water and Sediments, 2004  - 2017_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Creation at Paris of an International Institute of Refrigeration - 1923_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Pacific Settlement of International Disputes [Hague I] (The Hague,  - 1901_130.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Prevention of Pollution from Ships, 1973, as Modified by the Protoc - 2004_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Prevention of Pollution of the Sea by Oil, 1954 - 1962_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Protection of Industrial Property of 20 March 1883, as revised 14 D - 1958_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Protection of Industrial Property of 20 March 1883, revised at Brus - 1933_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Protection of Industrial Property, and Final Protocol - 1925_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Protection of Literary and Artistic Works - 1912_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Protection of New Varieties of Plants - 1989_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Protection of New Varieties of Plants of 2 December 1961 [UPOV], as - 2000_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Protection of Performers, Producers of Phonograms and Broadcasting  - 1992_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Publication of Customs Tariffs, Regulations for carrying the Conven - 1901_128.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Regulation of Whaling [International Whaling Convention] - 1948_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Safety of Life at Sea - 1936_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Safety of Life at Sea, 1948 - 1960_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Safety of Life at Sea, 1960, and Regulations - 1968_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Safety of Life at Sea, 1974 - 1983_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Suppression of Acts of Nuclear Terrorism (New York, 13 April 2005) - 2012_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Suppression of Counterfeiting Currency, and Protocol - 1982_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Suppression of Terrorist Bombings (New York, 15 December 1997) - 2002_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Suppression of the Circulation of and Traffic in Obscene Publicatio - 1935_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Suppression of the Financing of Terrorism (New York, 9 December 199 - 2002_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Suppression of the Traffic in Women and Children - 1922_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Suppression of the Traffic in Women of Full Age - 1936_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention for the Unification of Certain Rules of Law relating to Bills of Lading [Ha - 1956_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention modifying the Convention respecting the Creation of an International Office - 1947_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on Civil Liability for Bunker Oil Pollution Damage 2001 (London, 23 March 2 - 2009_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on Civil Liability for Oil Pollution Damage - 1984_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on Load Lines, 1966 - 1968_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on Maritime Search and Rescue, 1979 - 1986_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on Mutual Administrative Assistance for the Prevention, Investigation and R - 1987_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on Oil Pollution Preparedness, Response and Co-Operation, 1990 - 1995_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on Salvage, 1989 - 1998_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on Simplification and Harmonization of Customs Procedures Annex E.1. (conce - 1984_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on Standards of Training, Certification and Watchkeeping for Seafarers, 197 - 1984_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on the Control of Harmful Anti-fouling Systems on Ships, 2001 (London, 5 Oc - 2008_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on the Elimination of all Forms of Racial Discrimination - 1975_40.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on the Establishment of an International Fund for Compensation for Oil Poll - 1995_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on the Harmonized Commodity Description and Coding System - 1988_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on the Prevention of Marine Pollution by Dumping of Wastes and Other Matter - 1985_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on the Simplification and Harmonization of Customs Procedures - 1975_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on the Simplification and Harmonization of Customs Procedures - 1982_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on the Simplification and Harmonization of Customs Procedures - 1982_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on the Simplification and Harmonization of Customs Procedures Annex A.3. (c - 1985_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on the Simplification and Harmonization of Customs Procedures Annex D.1. (c - 1984_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention on Tonnage Measurement of Ships, 1969 - 1982_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention relating to Dangerous Drugs, and Protocol - 1928_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention relating to Economic Statistics, and Protocol - 1932_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention relating to Intervention on the High Seas in Cases of Oil Pollution Casualt - 1984_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention relating to the Limitation of the Liability of Owners of Sea-Going Ships, a - 1981_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention relating to the Simplification of Customs Formalities, and Protocol of Sign - 1925_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention relative to Air Navigation - 1922_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention relative to Certain Restrictions on the Exercise of the Right of Capture in - 1910_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention relative to the Conversion of Merchant Ships into Warships [Hague VII] - 1910_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention relative to the Laying of Automatic Submarine Contact Mines [Hague VIII] - 1910_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention relative to the Opening of Hostilities [Hague III] - 1910_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention relative to the Status of Enemy Merchant Ships at the Outbreak of Hostiliti - 1910_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention respecting Bombardments by Naval Forces in Time of War [Hague IX] - 1910_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention respecting the Limitation of the Employment of Force for the Recovery of Co - 1910_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention respecting the Prohibition of the Use of White (Yellow) Phosphorus in the M - 1919_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention to Facilitate the Importation of Commercial Samples and Advertising Materia - 1956_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention to Suppress the Slave Trade and Slavery - 1927_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Convention with respect to the Laws and Customs of War on Land [Hague II] (The Hague,  - 1901_131.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Covenant on Civil and Political Rights - 1980_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Covenant on Economic, Social and Cultural Rights - 1976_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Dairy Arrangement - 1980_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Declaration Prohibiting the Discharge of Projectiles and Explosives from Balloons [Hag - 1909_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Grains Agreement, 1995 - 1995_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Grains Arrangement 1967 comprising the Wheat Trade Convention and Food Aid Convention - 1968_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Labour Organization Convention (No. 69) concerning Certification of Ships' Cooks - 1996_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Labour Organization Convention (No. 73) concerning the Medical Examination of Seafarer - 1996_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Labour Organization Convention (No. 166) concerning the Repatriation of Seafarers (Rev - 1996_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Labour Organization Convention concerning the elimination of violence and harassment i - 2024_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Labour Organization Convention No. 191 Safe and Healthy Working Environment (Consequen - 2024_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Life-Saving Appliance (LSA) Code [under the auspices of the International Convention f - 1998_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Load Line Convention, and Final Protocol - 1936_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Maritime Organization Protocol of 1992 to amend the International Convention on Civil  - 1996_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Maritime Organization Protocol of 1992 to amend the International Convention on the Es - 1996_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Natural Rubber Agreement, 1979 - 1980_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Opium Convention - 1920_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Plant Protection Convention - 1952_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Radiotelegraph Convention, Final Protocol and Detailed Service Regulations - 1913_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Radiotelegraph Convention; General Regulations; Additional Regulations - 1929_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Radiotelegraphic Convention, Final Protocol and Service Regulations - 1913_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Regulations for Preventing Collisions at Sea - 1967_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Sanitary Convention - 1923_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Sanitary Convention [for preventing the introduction and spread of the Plague] - 1902_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Sanitary Convention [on Cholera and the Plague] - 1909_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Sanitary Convention for Aerial Navigation - 1935_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Sanitary Convention, and Protocol of Signature - 1928_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Sugar Agreement 1984 - 1985_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Sugar Agreement - 1953_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Sugar Agreement of 1958 - 1959_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Sugar Agreement, 1968 - 1969_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Sugar Agreement, 1973 - 1973_41.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Sugar Agreement, 1977 - 1978_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Sugar Agreement, 1987 - 1988_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Sugar Agreement, 1992 - 1993_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Telecommunication Convention - 1934_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Telecommunication Convention, Final Protocol and Additional Protocols I-IV - 1962_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Telecommunication Convention, Final Protocol, Additional Protocols I-VI, and Optional  - 1975_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Telecommunication Convention, Final Protocol, Additional Protocols I-VII, and Optional - 1984_35.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Telecommunication Convention, Final Protocol, and Additional Protocols I-IV - 1954_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Telecommunication Convention, Final Protocol, and Additional Protocols I-X - 1949_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Telecommunication Convention; Final Protocol; Additional Protocols I-IV and Optional A - 1967_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Telecommunication Regulations - 1992_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Telecommunication Union (ITU) Constitution; Convention; Optional Protocol on the Compu - 1994_28.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Telecommunication Union, World Radiocommunication Conference (WRC-03), Incorporating p - 2006_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Telegraphic Convention - 1903_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Treaty for the Limitation and Reduction of Naval Armament - 1930_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Treaty on Plant Genetic Resources For Food and Agriculture (Rome, 3 November 2001) – - 2006_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Tropical Timber Agreement, 1983 - 1988_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Tropical Timber Agreement, 1994 - 1997_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Tropical Timber Agreement, 2006 (Geneva, 27 January 2006) - 2011_44.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Wheat Agreement 1986 - 1988_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Wheat Agreement - 1949_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Wheat Agreement, 1956 - 1956_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Wheat Agreement, 1959 - 1959_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Wheat Agreement, 1962 - 1962_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/International Wheat Agreement, 1971 - 1971_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Investment Agreement between the Government of Australia and the Government of the Hong Kong Special - 2020_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Joint Agreement on Enhanced Cooperation between Australia and Papua New Guinea (Port Moresby, 30 Jun - 2004_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Joint Convention on the Safety of Spent Fuel Management and on the Safety of Radioactive Waste Manag - 2003_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Joint Initiative on Services Domestic Regulation (Geneva, 2 December 2021) - 2025_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Kyoto Protocol to the United Nations Framework Convention on Climate Change (Kyoto, 11 December 1997 - 2008_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Letter of Notification of Association [of Australia] with the International COSPAS-SARSAT Programme  - 1991_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/List of International Agreements (Treaties, Conventions, Etc) to Which Australia Is a Party, or Whic - 1935_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Loan Agreement (Qantas Project) between the Commonwealth of Australia and the International Bank for - 1958_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Loan Agreement (Snowy Mountains Project) between the Commonwealth of Australia and the International - 1962_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Loan Agreement (Snowy Mountains Project) between the Commonwealth of Australia and the International - 1963_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Loan Agreement between Australia and the International Monetary Fund (Canberra, 19 December 2016 and - 2017_41.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Loan Agreement between Australia and the International Monetary Fund (Tokyo, 13 October 2012) - 2013_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Loan Agreement between Australia and the International Monetary Fund - 2021_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Loan Agreement between the Commonwealth of Australia and the International Bank for Reconstruction a - 1950_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Loan Agreement between the Commonwealth of Australia and the International Bank for Reconstruction a - 1952_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Loan Agreement between the Commonwealth of Australia and the International Bank for Reconstruction a - 1954_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Loan Agreement between the Commonwealth of Australia and the International Bank for Reconstruction a - 1955_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Loan Agreement between the Commonwealth of Australia and the International Bank for Reconstruction a - 1958_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Malaysia-Australia Free Trade Agreement (Kuala Lumpur, 22 May 2012) - 2013_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Mandate for the Administration of the German Possessions in the Pacific Ocean situated South of the  - 1920_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Maritime Labour Convention, 2006 (No. 186) (Geneva, 7 February 2006) - 2013_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Marrakesh Agreement establishing the World Trade Organization (WTO Agreement) - 1995_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Measure 1 (2003) Secreatriat of the Antarctic Treaty (Madrid, 20 June 2003) - 2009_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Measure 4 (2006) Specially Protected Species Fur Seals (Edinburgh, 23 June 2006) - 2007_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Memorandum of Agreement between the Government of Australia and the Government of the United States  - 1995_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Memorandum of Agreement between the Government of the Commonwealth of Australia and the United Kingd - 1947_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Memorandum of Agreement between the United States of America, Argentina, Australia, Canada and the U - 1942_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Memorandum of Agreement on Basic Elements for the Negotiation of a World Grains Arrangement - 1967_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Memorandum of Heads of Agreement concerning Silver - 1934_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Memorandum of Understanding to confer upon the Committee for Co-ordination of Joint Prospecting for  - 1986_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Migration and Settlement Agreement between the Commonwealth of Australia and the Kingdom of the Neth - 1965_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Migration and Settlement Agreement between the Government of the Commonwealth of Australia and the G - 1970_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Migration and Settlement Agreement between the Government of the Commonwealth of Australia and the G - 1971_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Minamata Convention on Mercury (Kumamoto, 10 October 2013) - 2022_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Minimum Age Convention, 1973 (No. 138) (Geneva, 26 June 1973) - 2024_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Modifications to [Articles 22(2) and 39(1)(a) of] the Patent Co-operation Treaty (PCT) of 19 June 19 - 1985_40.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Montreal Protocol No. 4 to amend the Convention for the Unification of Certain Rules relating to Int - 1998_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Montreal Protocol on Substances that Deplete the Ozone Layer - 1989_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Multilateral Convention to Implement Tax Treaty Related Measures to Prevent Base Erosion and Profit  - 2019_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Mutual Recognition Agreement between Australia and the Republic of Singapore on Conformity Assessmen - 2001_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Mutual Recognition Agreement on Conformity Assessment In Relation To Medicines Good Manufacturing Pr - 2006_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Mutual Weapons Development Program Agreement between the Government of the Commonwealth of Australia - 1960_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Nam Ngum Development Fund Agreement, 1966 - 1966_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/New [Second] Revised Text of the International Plant Protection Convention of 6 December 1951, as re - 2005_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/New Zealand - Australia Free Trade Agreement - 1966_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Nice Agreement concerning the International Classification of Goods and Services for the Purposes of - 1972_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Nice Agreement concerning the International Classification of Goods and Services for the Purposes of - 1979_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Ninth Protocol of Rectifications and Modifications to the Texts of the Schedules to the General Agre - 1969_36.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Niue Treaty on Cooperation in Fisheries Surveillance and Law Enforcement in the South Pacific Region - 1993_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Optional Clause of the Statute of the Permanent Court of International Justice of 16 December 1920 - 1930_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Optional Protocol to the Convention against Torture and other Cruel, Inhuman or Degrading Treatment  - 2018_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Optional Protocol to the Convention on Diplomatic Relations of 18 April 1961 concerning the Compulso - 1968_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Optional Protocol to the Convention on the Elimination of All Forms of Disrimination against Women o - 2009_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Optional Protocol to the Convention on the Rights of the Child Involvement of Children in Armed Conf - 2006_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Optional Protocol to the Convention on the Rights of the Child, on the Sale of Children, Child Prost - 2007_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Optional Protocol to the United Nations Convention on the Rights of Persons with Disabilities (New Y - 2009_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Pacific Agreement on Closer Economic Relations (PACER) (Nauru, 18 August 2001) - 2004_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Pacific Agreement on Closer Economic Relations Plus (PACER Plus) and associated side letter (Nuku’al - 2020_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Parcel Post Agreement between the Commonwealth of Australia and the Republic of the Philippines - 1949_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Parcel Post Agreement between the Commonwealth of Australia and the Union of South Africa - 1911_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Parcel Post Agreement between the Govenment of the Commonwealth of Australia and the Government of J - 1962_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Parcels Post Convention between the Commonwealth of Australia and the United States of America - 1905_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Paris Agreement (Paris, 12 December 2015) - 2016_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Paris Convention for the Protection of Industrial Property of 20 March 1883 - 1972_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Partial Revision of the 2008 Radio Regulations as Incorporated in the International Telecommunicatio - 2013_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Partial Revision of the 2012 Radio Regulations, as incorporated into the Final Acts of the World Rad - 2017_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Patent Cooperation Treaty - 1980_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Patent Law Treaty (Geneva, 1 June 2000) - 2009_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Plant Protection Agreement for the South East Asia and Pacific Region - 1956_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Process-Verbal concerning the Application of Articles IV, V, VI, VII, IX, XII and XIII of the Conven - 1940_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Procès-Verbal of Rectification concerning the Protocol amending Part I and Articles XXIX and XXX of  - 1957_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Procès-Verbal relating to the Rules of Submarine Warfare set forth in Part IV of the Treaty for the  - 1936_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Project Agreement between the Government of Australia and the Government of the United States of Ame - 1991_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Project Arrangement between the Government of Australia and the Government of the United States of A - 1997_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol (SDR Protocol) amending the International Convention for the Unification of Certain Rules o - 1993_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol [between the British Empire, France and Italy, and Bulgaria] for Arrangements for Reparatio - 1923_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol [insertion of Article 83bis] to the Convention on International Civil Aviation of 7 Decembe - 1998_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol Additional to the Agreement [of 10 July 1974] between Australia and the International Atomi - 1997_28.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol additional to the Geneva Conventions of 12 August 1949, and relating to the Adoption of an  - 2010_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol Additional to the Geneva Conventions of 12 August 1949, and relating to the Protection of V - 1991_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol Additional to the Geneva Conventions of 12 August 1949, and relating to the Protection of V - 1991_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol Against the Smuggling of Migrants by Land, Sea and Air, Supplementing the United Nations Co - 2004_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending Article 5 of the International Convention relative to Air Navigation of 13 October - 1926_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending Article 10 of the Convention for the Creation of an International Institute of Agr - 1927_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending Article 12 of the Treaty for the Extradition of Criminals between the United Kingd - 1927_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending Article 34 of the International Convention relative to Air Navigation of 13 Octobe - 1926_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending Article 45 of the Convention on International Civil Aviation of 7 December 1944 - 1958_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending Article 50(a) of the Convention on International Civil Aviation of 7 December 1944 - 1962_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending Paragraph 13 of Annex II to Part VIII of the Treaty of Peace between the Allied an - 1924_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending Paragraphs 12 and 19 of Annex II to Part VIII of the Treaty of Peace between the A - 1921_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the Agreement between Australia and the Kingdom of Belgium for the Avoidance of Do - 1986_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol Amending the Agreement Between the Government of Australia and the Government of Malaysia f - 2000_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol Amending the Agreement Between the Government of Australia and the Government of New Zealan - 2007_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the Agreement between the Government of Australia and the Government of the French - 1990_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol Amending the Agreement Between the Government of Australia and the Government of the Republ - 2008_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol Amending the Agreement between the Government of Australia and the Government of the Republ - 2013_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the Agreement between the Government of the Commonwealth of Australia and the Gove - 1990_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the Agreement for the Suppression of the Circulation of Obscene Publications of 4  - 1949_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the Agreements, Conventions and Protocols on Narcotic Drugs of 23 January 1912, 11 - 1947_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol Amending the Convention Between Australia and Canada for the Avoidance of Double Taxation a - 2002_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol Amending the Convention Between the Government of Australia and the Government of the Unite - 2003_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the Convention concerning the Creation of an International Union for the Publicati - 1950_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the Convention to Suppress the Slave Trade and Slavery of 25 September 1926 - 1953_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the General Agreement on Tariffs and Trade of 30 October 1947 to Introduce a Part  - 1966_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the International Agreement for the Regulation of Whaling of 8 June 1937 and the P - 1947_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the International Agreement for the Suppression of the White Slave Traffic of 18 M - 1949_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the International Convention for the Unification of Certain Rules relating to Inte - 1963_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the International Convention relating to Economic Statistics of 14 December 1928 - 1948_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the International Convention relating to the Limitation of the Liability of Owners - 1984_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the International Sugar Agreement of 1 October 1953 - 1957_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the Preamble and Parts II and III of the General Agreement on Tariffs and Trade of - 1957_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the Reciprocal Agreement on Social Security between the Government of Australia an - 1992_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the Single Convention on Narcotic Drugs of 30 March 1961 - 1975_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol amending the Treaty on Extradition between Australia and the United States of America of 14 - 1992_43.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol between Australia and Finland amending the Treaty concerning Extradition of 7 June 1984 - 1987_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol between Australia and Sweden amending the Treaty concerning Extradition of 20 March 1973 - 1985_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol between Australia and Sweden further amending the Treaty concerning Extradition of 20 March - 1989_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol between Australia and the Republic of Austria amending the Treaty concerning Extradition of - 1987_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol between Australia, Canada, New Zealand, United Kingdom of Great Britain and Northern Irelan - 1953_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol between the Government of Australia and the Government of Japan amending the Agreement on C - 1964_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol between the Government of Australia and the Government of Thailand concerning the Financing - 1989_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol Between the Government of Australia and the Government of the Hong Kong Special Administrat - 2008_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol between the Government of Australia and the Government of the People's Republic of China on - 1984_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol between the Government of Australia and the Government of the United Kingdom of Great Brita - 1980_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol between the United Kingdom of Great Britain and Ireland and Colombia respecting the Applica - 1912_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol between the United Kingdom of Great Britain and Ireland and Costa Rica respecting the Appli - 1913_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol between the United Kingdom of Great Britain and Ireland and France respecting the Applicati - 1912_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol between the United Kingdom of Great Britain and Ireland and Roumania explanatory of Article - 1901_91.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol between the United Kingdom of Great Britain and Ireland and Uruguay to amend Article IX of  - 1901_118.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol bringing under International Control Drugs outside the Scope of the Convention for Limiting - 1949_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol concerning Amendments to Articles 3, 5, 7, 15, 34, 37, 41, 42 and to the Final Clauses of t - 1933_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol concerning Co-operation in Combating Pollution Emergencies in the South Pacific Region [und - 1990_32.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol Concerning the Bougainville Transition Team Made pursuant to theAgreement, done at Port Mor - 2003_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol concerning the Office International d'Hygiene Publique [International Office of Public Heal - 1947_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol concerning the Peace Monitoring Group made pursuant to [and amending] the Agreement between - 1998_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol concerning the Revision of the Statute of the Permanent Court of International Justice of 1 - 1936_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol concerning the Settlement by means of a Lump Sum of the Cost of the Inter-Allied Occupation - 1924_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol concerning the Suspension of Payments by Czechoslovakia - 1931_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol concerning the Suspension of Payments by Germany - 1931_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol establishing a Preparatory Group with a View to the Creation of a European Organisation for - 1962_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol establishing the Prolongation of the Treaty between Australia and the Kingdom of the Nether - 2015_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol extending the Agreement regarding the Regulation of Production and Marketing of Sugar of 6  - 1948_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol extending the Agreement regarding the Regulation of the Production and Marketing of Sugar o - 1944_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol extending the Agreement regarding the Regulation of the Production and Marketing of Sugar o - 1945_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol extending the Agreement regarding the Regulation of the Production and Marketing of Sugar o - 1946_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol extending the Agreement regarding the Regulation of the Production and Marketing of Sugar o - 1947_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol extending the Long-Term Arrangement regarding International Trade in Cotton Textiles of 9 F - 1967_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol extending the Long-Term Arrangement regarding International Trade in Cotton Textiles of 9 F - 1970_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for Limiting and Regulating the Cultivation of the Poppy Plant, the Production of, Internat - 1963_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Accession of Hungary to the General Agreement on Tariffs and Trade of 30 October 19 - 1974_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Accession of the People's Republic of Bangladesh to the General Agreement on Tariff - 1975_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Continuation in Force of the International Coffee Agreement of 18 March 1968, as ex - 1975_36.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Dissolution of the International Institute of Agriculture and the Transfer of its F - 1948_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Extension of the International Wheat Agreement of 10 March 1962 - 1965_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Further Extension of the International Wheat Agreement of 10 March 1962 - 1966_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Further Extension of the International Wheat Agreement of 10 March 1962 - 1967_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Further Prolongation of the International Sugar Agreement of 1 December 1958 - 1966_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Further Prolongation of the International Sugar Agreement of 1 December 1958 - 1966_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Prohibition of the Use in War of Asphyxiating, Poisonous or other Gases, and of Bac - 1930_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Prolongation of the Agreement regarding the Regulation of Production and Marketing  - 1952_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the prolongation of the Agreement regarding the Regulation of the Production and Market - 1949_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Prolongation of the International Sugar Agreement of 1 December 1958 - 1964_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Regulation of Whaling for the 1947-48 Season - 1948_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Suppression of Unlawful Acts against the Safety of Fixed Platforms Located on the C - 1993_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Suppression of Unlawful Acts of Violence at Airports Serving International Civil Av - 1990_39.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol for the Termination of the Agreement for the Unification of Pharmacopoeial Formulas for Pot - 1953_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol instituting a Conciliation and Good Offices Commission for the Settlement of Disputes arisi - 1974_28.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of 1978 relating to the International Convention for Safety of Life at Sea of 1 November 19 - 1983_28.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of 1978 relating to the International Convention for the Prevention of Pollution from Ships - 1988_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of 1978 relating to the International Convention for the Prevention of Pollution from Ships - 2007_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of 1988 relating to the International Convention for the Safety of Life at Sea of 1 Novembe - 2000_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of 1988 relating to the International Convention on Load Lines of 5 April 1966 - 2000_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of 1996 to Amend the Convention on Limitation of Liability for Maritime Claims of 19 Novemb - 2004_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of 1997 to amend the International Convention for the Prevention of Pollution from Ships of - 2007_37.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of 2002 to the Occupational Safety and Health Convention, 1981 (Geneva, 20 June 2002) - 2012_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of Amendment to [Article 15.1 of] the International Convention on Mutual Administrative Ass - 1991_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of Amendment to the International Convention on the Smplification and Harmonization of Cust - 2006_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of an Amendment to Article 4 of the Covenant of the League of Nations of 28 June 1919 - 1926_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of an Amendment to Article 6 [last paragraph] of the Covenant of the League of Nations of 2 - 1924_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of an Amendment to Article 12 of the Covenant of the League of Nations of 28 June 1919 - 1924_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of an Amendment to Article 13 of the Covenant of the League of Nations of 28 June 1919 - 1924_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of an Amendment to Article 13 of the Covenant of the League of Nations of 28 June 1919 - 1924_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of an Amendment to Article 393 [ILO Constitution] of the Treaty of Peace with Germany, done - 1934_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol of Signature of the Statute of the Permanent Court of International Justice - 1921_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol on Economic Co-operation between the Government of Australia and the Government of the Peop - 1981_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol on Environmental Protection to the Antarctic Treaty of 1 December 1959 - 1998_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol on Harmonisation of Quarantine Administrative Procedures to the Australia New Zealand Close - 1988_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol on Investment to the Australia - New Zealand Closer Economic Relations Trade Agreement (Wel - 2013_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol on Preparedness, Response and Co-operation to Pollution Incidents by Hazardous and Noxious  - 2007_41.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol on Privileges and Immunities of the European Launcher Development Organisation, and Protoco - 1967_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol on Prohibitions or Restrictions on the Use of Mines, Booby-Traps and other Devices, as amen - 1998_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol on the Accession of the United Kingdom of Great Britain and Northern Ireland to the Compreh - 2024_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol on the Authentic Trilingual Text of the Convention on International Civil Aviation of 7 Dec - 1969_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol on Trade in Services to the Australia New Zealand Closer Economic Relations - Trade Agreeme - 1988_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol providing for the Suspension of Certain Payments by Bulgaria under the International Agreem - 1932_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol providing for the Suspension of Certain Payments by Hungary under the International Agreeme - 1932_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol regarding Statistics of Causes of Death, revising the Annex to the International Agreement  - 1940_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol regarding the Immunities of the Bank for International Settlements - 1938_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to Amendments to Articles 34 and 40 of the International Convention relative to Ai - 1933_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to an amendment to [the final paragraph of] the Convention on International Civil  - 1999_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to an Amendment to Article 3bis of the Convention on International Civil Aviation  - 1998_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to an Amendment to Article 48(a) of the Convention on International Civil Aviation - 1975_51.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to an Amendment to Article 50(a) of the Convention on International Civil Aviation - 1973_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to an Amendment to Article 50(a) of the Convention on International Civil Aviation - 1980_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to an Amendment to Article 50(a) of the Convention on International Civil Aviation - 2003_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to an Amendment to Article 56 of the Convention on International Civil Aviation (M - 2005_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to an Amendment to Article 56 of the Convention on International Civil Aviation of - 1974_35.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to Certain Concessions granted in the Ottoman Empire, and Declaration by Turkey - 1924_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to Intervention on the High Seas in Cases of Pollution by Substances Other than Oi - 1984_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to Milk Fat - 1973_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to Negotiations for the Establishment of New Schedule III - Brazil - to the Genera - 1969_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to Refugee Seamen - 1975_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to Signature by the Serb-Croat-Slovene State - 1924_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to the Accession of Belgium and Portugal to Certain Provisions of Instruments sign - 1924_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to the Karagatch Territory and the Islands of Imbros and Tenedos - 1924_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol Relating to the Madrid Agreement Concerning the International Registration of Marks, 1891 - 2001_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to the Status of Refugees - 1973_37.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol relating to the Treaty concluded at Sèvres between the Principal Allied Powers and Greece o - 1924_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol respecting the Putting into Force of the International Opium Convention of 23 January 1912 - 1915_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol Supplementary to the Geneva (1979) Protocol to the General Agreement on Tariffs and Trade - 1980_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol suspending Safeguards applied in Australia under the Agreement between the International At - 1974_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to Agreement between Australia and the Republic of Austria (1 April 1992, Canberra) on Soci - 2002_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to Amend Annex 2 and Annex 5 of the Thailand-Australia Free Trade Agreement (Bangkok, 24 Ap - 2018_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to amend the Agreement on North Atlantic Ocean Stations of 25 February 1954 - 1971_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to amend the Agreement on North Atlantic Ocean Stations of 25 February 1954, as amended 13  - 1973_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to amend the Convention for the Suppression of the Circulation of and Traffic in Obscene Pu - 1947_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to amend the Convention for the Suppression of the Traffic in Women and Children of 30 Sept - 1947_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to amend the Convention on Wetlands of International Importance especially as Waterfowl Hab - 1986_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to amend the Convention relating to International Exhibitions of 22 November 1928 - 1980_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to enforce and to prolong the International Agreement regarding the Regulation of Productio - 1942_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children, supp - 2005_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to prolong the Convention of 15 December 1944 modifying the International Sanitary Conventi - 1946_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to prolong the Convention of 15 December 1944 modifying the International Sanitary Conventi - 1946_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to the Agreement on the Importation of Educational, Scientific and Cultural Materials of 22 - 1992_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to the Australia New Zealand Closer Economic Relations - Trade Agreement on Acceleration of - 1988_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to the Convention on International Interests in Mobile Equipment on Matters Specific to Air - 2015_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to the International Convention for the Regulation of Whaling of 2 December 1946 - 1959_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to the International Convention on the Establishment of an International Fund for Compensat - 1995_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol to the Trade Agreement between the Government of Australia and the Government of the German - 1977_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocol V on Explosive Remnants of War to the 1980 Convention on Prohibitions or Restrictions on th - 2007_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocols for the Extension of the Wheat Trade Convention and Food Aid Convention constituting the I - 1974_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocols for the Further Extension of the Wheat Trade Convention and Food Aid Convention constituti - 1975_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Protocols for the Third Extension of the Wheat Trade Convention and Food Aid Convention constituting - 1976_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Ratification of the Decisions of the 2012 Doha Congress Universal Postal Union General Regulations o - 2016_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Reciprocal Agreement between Australia and Italy in the matter of Health Assistance - 1988_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Reciprocal Agreement on Social Security between the Government of Australia and the Government of Ca - 1989_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Regional Co-operative Agreement for Research, Development and Training related to Nuclear Science an - 1977_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Regional Co-operative Agreement for Research, Development and Training related to Nuclear Science an - 1988_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Regional Co-operative Agreement for Research, Development and Training Related to Nuclear Science an - 2017_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Regional Comprehensive Economic Partnership Agreement (15 November 2020) - 2022_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Regional Convention on the Recognition of Studies, Diplomas and Degrees in Higher Education in Asia  - 1985_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Regional Cooperation Agreement on Combating Piracy and Armed Robbery Against Ships in Asia (Tokyo, 1 - 2013_28.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Rehabilitation and Development Co-operation Agreement between the Government of Australia and the Go - 1994_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Renewal of the New Arrangements to Borrow (4 November 2016) - 2017_42.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Resolution A.1070 (28) IMO INSTUMENT IMPLEMENTATION CODE (III CODE) (London, 4 December 2013) - 2016_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Resolution A.1083(28) - AMENDMENTS TO THE INTERNATIONAL CONVENTION ON LOAD LINES, 1966 (London, 4 De - 2016_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Resolution A.1084(28) - AMENDMENTS TO THE INTERNATIONALCONVENTION ON TONNAGE MEASUREMENT OF SHIPS, 1 - 2016_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Resolution A.1085(28) - AMENDMENTS TO THE CONVENTION ON THE INTERNATIONAL REGULATIONS FOR PREVENTING - 2016_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Resolution MEPC.193(61) Amendments to the Annex of the Protocol of 1978 Relating to the Internationa - 2014_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Resolution MEPC.200(62) Amendments to the Annex of the Protocol of 1978 Relating to the Internationa - 2013_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Resolution MEPC.201(62) Revised MARPOL Annex V Regulation for the Prevention of Pollution by Garbage - 2013_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Resolution MEPC.203(62) Amendments to MARPOL Annex VI on Regulations for the Prevention of Air Pollu - 2013_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Resolution MSC.365(93) - AMENDMENTS TO THE INTERNATIONAL CONVENTION FOR THE SAFETY OF LIFE AT SEA, 1 - 2016_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Resolution MSC.366(93) - AMENDMENTS TO THE INTERNATIONAL CONVENTION FOR THE SAFETY OF LIFE AT SEA, 1 - 2016_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Resolution MSC.373(93) - AMENDMENTS TO THE INTERNATIONAL CONVENTION ON STANDARDS OF TRAINING, CERTIF - 2016_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Resolution MSC.375(93) - AMENDMENTS TO THE PROTOCOL OF 1988 RELATING TO THE INTERNATIONAL CONVENTION - 2016_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Revised Agreement on Government Procurement (Annex to the Protocol Amending the Agreement on Governm - 2019_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Revised Text of Annex II to the Agreement on North Atlantic Ocean Stations of 25 February 1954 (5 Ju - 1970_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Revised Text of the International Plant Protection Convention of 6 December 1951 - 1991_50.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Rome Statute of the International Criminal Court (Rome, 17 July 1998) - 2002_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Rotterdam Convention on the Prior Informed Consent Procedure for Certain Hazardous Chemicals and Pes - 2004_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Scientific and Technological Agreement between the Government of Australia and the Government of the - 1989_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Seafarers' Training, Certification and Watchkeeping Code [STCW Code] - 1997_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Additional Protocol to the Constitution of the Asian-Pacific Postal Union Teheran, 18 Septemb - 2005_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Agreement to Extend the Agreement establishing the Asian Regional Co-operative Project on Foo - 1985_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Agreement to extend the Regional Co-Operative Agreement for Research, Development and Trainin - 1982_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Agreement to further extend the Regional Co-operative Agreement for Research, Development and - 1997_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Amendment to the Articles of Agreement of the International Monetary Fund of 27 December 1945 - 1978_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Geneva (1987) Protocol to the General Agreement on Tariffs and Trade - 1988_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second International Tin Agreement - 1961_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Nam Ngum Development Fund Agreement, 1974 - 1974_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Optional Protocol to the International Covenant on Civil and Political Rights, Aiming at the  - 1991_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Procès-Verbal extending the Declaration on the Provisional Accession of Argentina to the Gene - 1965_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Procès-Verbal extending the Declaration on the Provisional Accession of the United Arab Repub - 1967_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Procès-Verbal extending the Declaration on the Provisional Accession of the United Arab Repub - 1967_34.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Procès-Verbal extending the Declaration on the Provisional Accession of Tunisia to the Genera - 1964_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Protocol Amending the Agreement between Australia and the Kingdom of Belgium for the Avoidanc - 2014_37.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Protocol amending the Agreement between Australia and the Kingdom of the Netherlands for the  - 1987_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Protocol Amending the Agreement between the Government of Australia and the Government of Mal - 2004_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Protocol Amending the Agreement between the Government of the Commonwealth of Australia and t - 2010_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Protocol between the Government of the Commonwealth of Australia and the Government of New Ca - 1962_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Protocol Establishing the Prolongation of the Treaty between the Kingdom of the Netherlands a - 2016_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Protocol to Amend the Agreement Establishing the ASEAN-Australia-New Zealand Free Trade Area  - 2025_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Protocol to the Agreement between Australia and the Republic of Austria on Social Security (V - 2012_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Protocol to the Agreement between the Government of Australia and the Government of New Zeala - 1996_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Second Protocol to the General Agreement on Trade in Services [GATS] of 15 April 1994 - 1996_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Security Agreement between the Government of Australia and the Organisation for Joint Armament Coope - 2024_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Security Treaty between Australia, New Zealand and the United States of America [ANZUS] - 1952_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Seventh Additional Protocol to the Constitution (of 10 July 1964) of the Universal Postal Union; the - 2007_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Seventh Protocol of Rectifications and Modifications to the Texts of the Schedules to the General Ag - 1969_34.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Singapore Treaty on the Law of Trademarks, Regulations and a Supplementary Resolution by the Diploma - 2009_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Singapore-Australia Free Trade Agreement (SAFTA) (Singapore, 17 February 2003) - 2003_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Singapore-Australia Free Trade Agreement Amendments (Singapore on 27 July 2009) - 2011_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Singapore-Australia Free Trade Agreement Amendments Sectoral Annex on Food Products; Sectoral Annex  - 2006_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Single Convention on Narcotic Drugs, 1961 - 1967_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Sixth Additional Protocol to the Constitution of the Universal Postal Union of 10 July 1964 (Seoul,  - 2005_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Sixth International Tin Agreement - 1982_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Sixth Procès-Verbal extending the Declaration on the Provisional Accession of Tunisia to the General - 1970_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Sixth Protocol of Rectifications and Modifications to the Texts of the Schedules to the General Agre - 1969_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Sixth Protocol of Supplementary Concessions to the General Agreement on Tariffs and Trade of 30 Octo - 1956_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/South Pacific Forum Fisheries Agency Convention - 1979_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/South Pacific Nuclear Free Zone Treaty (Rarotonga, 6 August 1985) - 1986_32.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/South Pacific Regional Trade and Economic Cooperation Agreement [SPARTECA] - 1982_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Southeast Asia Collective Defense Treaty [SEATO], and Protocol - 1955_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Southern Indian Ocean Fisheries Agreement (Rome, 29 December 2006) - 2012_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Special Protocol relating to Article XXIV of the General Agreement on Tariffs and Trade [GATT] of 30 - 1954_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/State Treaty for the Re-Establishment of an Independent and Democratic Austria - 1961_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Statute of The Hague Conference on Private International Law - 1973_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Statute of the International Atomic Energy Agency [IAEA] (New York, 26 October 1956) - 1957_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Statute of the International Court of Justice - 1975_50.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Statute of the International Institute for the Unification of Private Law (UNIDROIT), as amended (Ro - 1973_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Statute of the International Renewable Energy Agency (Bonn, 26 January 2009) - 2011_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Statutes of the International Centre for the Registration of Serial Publications, as amended 12 Octo - 1984_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Statutes of the International Centre for the Study of the Preservation and Restoration of Cultural P - 1975_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Stockholm Convention on Persistent Organic Pollutants (Stockholm, 22 May 2001) - 2004_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Strasbourg Agreement concerning the International Patent Classification - 1975_42.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1980_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1981_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1983_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1984_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1985_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1986_28.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1987_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1988_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1989_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1990_40.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1991_47.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1992_42.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1993_41.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1994_38.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1996_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of Japan concerning Japa - 1997_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of the Republic of Korea - 1984_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of the Republic of Korea - 1985_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of the Republic of Korea - 1986_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Subsidiary Agreement between the Government of Australia and the Government of the Republic of Korea - 1987_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Agreement Between The Government Of The Commonwealth Of Australia And The Government O - 2007_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Agreement between the United Kingdom and Norway to the Treaty for the Mutual Surrender - 1929_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Agreement between the United Kingdom of Great Britain and Ireland and Sweden to the Tr - 1907_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Agreement on Arbitration to the Special Agreement of 20 August 1964 related to the Agr - 1966_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Agreement to revise Article II of the British Commonwealth-United States of America Te - 1952_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Agreement to the Interim Agreement between Australia, the United Kingdom of Great Brit - 1965_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Agreement, 1976, to Second Nam Ngum Development Fund Agreement of 26 June 1974 - 1976_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Convention [to the Treaty of 9 August 1842] for the Extradition of Criminals (Washingt - 1901_113.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Convention between Great Britain and Northern Ireland, Australia and New Zealand, and  - 1941_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Convention between His Majesty in respect of the United Kingdom, the Commonwealth of A - 1942_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Convention between the United Kingdom of Great Britain and Ireland and the United Stat - 1901_115.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Convention between the United Kingdom of Great Britain and Ireland and the United Stat - 1907_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Convention between the United Kingdom of Great Britain and Northern Ireland and Icelan - 1939_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Convention on the Abolition of Slavery, the Slave Trade, and Institutions and Practice - 1958_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Protocol to the Protocol concerning the Suspension of Payments by Czechoslovakia of 11 - 1932_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Protocol to the Protocol concerning the Suspension of Payments by Germany of 11 August - 1932_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Protocol to the Protocol providing for the Suspension of Certain Payments by Bulgaria  - 1932_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Supplementary Protocol to the Protocol providing for the Suspension of Certain Payments by Hungary o - 1932_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/The Agreement Establishing the Advisory Centre on WTO Law (Seattle, 30 November 1999) - 2011_34.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/The Agreement to terminate the Agreement between Australia and the Republic of Peru on the Promotion - 2020_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/The Antarctic Treaty - 1961_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/The Force Posture Agreement between the Government of Australia and the Government of the United Sta - 2015_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/The International Health Regulations (2005) (Geneva, 23 May 2005) - 2007_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Third Agreement to Extend the 1987 Regional Co-operative Agreement for Research, Development and Tra - 2003_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Third Amendment of the Articles of Agreement of the International Monetary Fund of 27 December 1945 - 1993_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Third International Tin Areement - 1966_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Third Proc�s-Verbal extending the Declaration on the Provisional Accession of Argentina to the Gener - 1967_32.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Third Proc�s-Verbal extending the Declaration on the Provisional Accession of the United Arab Republ - 1968_28.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Third Protocol Amending the Agreement between the Government of Australia and the Government of Mala - 2011_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Third Protocol Amending the Treaty of Amity and Cooperation in Southeast Asia (Hanoi, 23 July 2010) - 2012_39.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Third Protocol between the Government of the Commonwealth of Australia and the Government of New Cal - 1964_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Third Protocol Establishing the Prolongation of the Treaty between the Kingdom of the Netherlands an - 2016_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Third Protocol to the General Agreement on Trade in Services [GATS] of 15 April 1994 - 1996_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Timor Sea Treaty Between the Government of East Timor and the Government of Australia (Dili, 20 May  - 2003_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Title - 1946_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Title - 1967_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/To the Rotterdam Convention on the Prior Informed Consent Procedure For Certain Hazardous Chemicals  - 2006_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between Australia and Canada - 1931_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between Australia and New Zealand - 1922_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between Australia and Southern Rhodesia - 1941_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between Australia and the United Kingdom of Great Britain and Northern Ireland - 1932_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Commonwealth of Australia and the Dominion of New Zealand - 1933_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Commonwealth of Australia and the Federation of Malaya - 1958_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of Australia and the Government of India - 1976_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of Australia and the Government of the Democratic Republic of - 1974_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of Australia and the Government of the Federal Republic of Ni - 1989_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of Australia and the Government of the Federative Republic of - 1978_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of Australia and the Government of the German Democratic Repu - 1974_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of Australia and the Government of the Hashemite Kingdom of J - 1988_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of Australia and the Government of the Hungarian People's Rep - 1974_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of Australia and the Government of the Islamic Republic of Pa - 1990_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of Australia and the Government of the Kingdom of Thailand - 1979_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of Australia and the Government of the People's Republic of B - 1974_32.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of Australia and the Government of the People's Republic of C - 1973_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of Australia and the Government of the Republic of Cyprus - 1983_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of Australia and the Government of the Republic of the Philip - 1979_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of Australia and the Imperial Government of Iran - 1974_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of the Commonwealth of Australia and the Government of Canada - 1960_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of the Commonwealth of Australia and the Government of the Fe - 1959_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of the Commonwealth of Australia and the Government of the Hu - 1967_28.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of the Commonwealth of Australia and the Government of the Pe - 1966_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of the Commonwealth of Australia and the Government of the Re - 1959_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of the Commonwealth of Australia and the Government of the Re - 1965_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of the Commonwealth of Australia and the Government of the Re - 1965_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of the Commonwealth of Australia and the Government of the Re - 1968_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of the Commonwealth of Australia and the Government of the Re - 1973_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of the Commonwealth of Australia and the Government of the So - 1967_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of the Commonwealth of Australia and the Government of the So - 1971_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Government of the Commonwealth of Australia and the Government of the Un - 1965_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade Agreement between the Governments of the Commonwealth of Australia and the Federation of Rhode - 1955_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trade and Investment Agreement between the Government of Australia and the Government of the United  - 1997_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trademark Law Treaty - 1998_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Transposition of Annex 2 (Product Specific Rules) of the Agreement Establishing the ASEAN-Australia- - 2019_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty [between the United Kingdom of Great Britain and Ireland and the Kingdom of Greece] for the M - 1912_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty [of Commerce and Alliance] between Great Britain and Sweden (Stockholm, 5 February 1766) - 1901_102.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty [of Commerce] between Great Britain and Sweden (Westminster, 17 July 1656) - 1901_100.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty [of Peace and Commerce] between Great Britain and Denmark (Copenhagen, 11 July 1670) - 1901_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty [of Peace and Commerce] between Great Britain and Denmark (Whitehall, 13 February 1661) - 1901_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty [of Peace and Commerce] between Great Britain and Sweden (Upsala, 11 April 1654) - 1901_99.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty [of Peace and Commerce] between Great Britain and Sweden (Whitehall, 21 October 1661) - 1901_101.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1974 - 1975_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1976 - 1976_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1977 - 1977_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1978 - 1978_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1979 - 1979_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1980 - 1980_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1981 - 1981_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1983 - 1983_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1984 - 1984_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1985 - 1985_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1986 - 1986_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1987 - 1987_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1988 - 1988_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1989 - 1989_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1990 - 1990_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1991 - 1991_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1992 - 1992_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1993 - 1993_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1994 - 1994_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1995 - 1995_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1996 - 1996_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1997 - 1997_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1998 - 1998_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 1999 Australian Treaty Series - 1999_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 2000 - 2000_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Action 2001 - 2001_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty banning Nuclear Weapon Tests in the Atmosphere, in Outer Space and Under Water - 1963_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and Finland concerning Extradition - 1985_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and Norway concerning Extradition - 1987_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and Sweden concerning Extradition - 1974_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Between Australia and Sweden on Mutual Assistance in Criminal Matters (Stockholm, 18 December - 2001_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and Switzerland on Extradition - 1991_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and Switzerland on Mutual Assistance in Criminal Matters - 1994_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Democratic Republic of Timor-Leste Establishing Their Maritime Boun - 2019_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Federal Republic of Germany concerning Extradition - 1990_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Between Australia and the Government of the Democratic Republic of Timor-Leste on Certain Mar - 2007_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Grand Duchy of Luxembourg on Mutual Assistance in Criminal Matters - 1994_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Between Australia and the Hellenic Republic on Mutual Assistance in Criminal Matters (Athens, - 2005_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Independent State of Papua New Guinea concerning Sovereignty and Ma - 1985_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Between Australia and the Kingdom of Thailand on Mutual Assistance in Criminal Matters (Kuala - 2009_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Kingdom of the Netherlands on Mutual Assistance in Criminal Matters - 1991_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Kingdom of the Netherlands on the Ongoing Presence of Australian Pe - 2019_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Kingdom of the Netherlands on the presence of Australian personnel  - 2014_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the People's Republic of China concerning Transfer of Sentenced Persons - 2011_41.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Between Australia and the People's Republic of China on Mutual Legal Assistance in Criminal M - 2007_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Republic of Austria concerning Extradition - 1975_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Republic of Austria on Mutual Assistance in Criminal Matters - 1990_36.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Republic of Hungary on Mutual Assistance in Criminal Matters - 1997_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Republic of India on Mutual Legal Assistance in Criminal Matters (C - 2011_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Republic of Indonesia on Mutual Assistance in Criminal Matters - 1999_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Republic of Indonesia on the Zone of Cooperation in an Area between - 1991_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Republic of Korea on Mutual Assistance in Criminal Matters - 1993_34.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Republic of Poland on Extradition - 1999_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Republic of Portugal on Mutual Assistance in Criminal Matters - 1994_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Republic of the Philippines on Mutual Assistance in Criminal Matter - 1993_37.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the Socialist Republic of Vietnam on Extradition (Canberra, 10 April 20 - 2014_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the State of Israel concerning Extradition - 1976_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the State of the United Arab Emirates on Mutual Legal Assistance in Cri - 2011_28.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the United Mexican States on Mutual Legal Assistance in Criminal Matter - 1992_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between Australia and the United States of America amending in their Application to Australia - 1941_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the British Empire, France, Japan and the United States of America relating to their  - 1923_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the British Empire, the United States of America, France, Italy and Japan, for the Li - 1923_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Commonwealth of Australia and the Federal Republic of Germany regarding the Divis - 1966_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Government of Australia and the Government of Canada on Mutual Assistance in Crim - 1990_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Between the Government of Australia and the Government of His Serene Highness the Prince of M - 2001_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Between the Government of Australia and the Government of Malaysia on Extradition Putrajaya,  - 2006_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Between the Government of Australia and the Government of Malaysia on Mutual Assistance In Cr - 2006_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Government of Australia and the Government of New Zealand Establishing Certain Ex - 2006_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Government of Australia and the Government of the Argentine Republic on Mutual As - 1993_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Between the Government of Australia and the Government of the French Republic on Cooperation  - 2005_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Government of Australia and the Government of the French Republic on Mutual Assis - 1994_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Government of Australia and the Government of the Kingdom of Great Britain and No - 2014_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Government of Australia and the Government of the Republic of Ecuador on Mutual A - 1997_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Government of Australia and the Government of the State of Israel on Mutual Legal - 1995_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Government of Australia and the Government of the United Arab Emirates concerning - 2023_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Government of Australia and the Government of the United Kingdom of Great Britain - 1990_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Government of Australia and the Government of The United States of America Concer - 2013_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Government of Australia and the Government of the United States of America on Mut - 1999_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Government of the United Kingdom of Great Britain and Ireland and the Government  - 1901_114.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Principal Allied and Associated Powers and Czechoslovakia [Czechoslovak Minoritie - 1920_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Principal Allied and Associated Powers and Poland, Roumania, the Serb-Croat-Slove - 1921_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Principal Allied and Associated Powers and Roumania [Romanian Minorities Treaty] - 1920_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Principal Allied and Associated Powers and the Serb-Croat-Slovene State [Yugoslav - 1920_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Principal Allied and Associated Powers, and Greece, concerning the Protection of  - 1924_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Principal Allied and Associated Powers, and Greece, concerning Thrace - 1924_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Principal Allied Powers and Denmark concerning Slesvig [Schleswig] - 1920_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the Principal Allied Powers and Roumania respecting Bessarabia - 1927_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom and Hungary supplementary to the Treaty for the Mutual Surrender o - 1938_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Austria-Hungary for the Mutual Su - 1901_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Belgium for the Mutual Surrender  - 1901_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Belgium for the Mutual Surrender  - 1902_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Brazil for the Mutual Surrender o - 1901_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Brazil Providing for the Establis - 1921_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Chile for the Establishment of a  - 1919_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Chile for the Mutual Surrender of - 1901_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Colombia for the Mutual Surrender - 1901_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Cuba for the Mutual Surrender of  - 1905_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Czechoslovakia for the Extraditio - 1927_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Denmark for the Mutual Surrender  - 1901_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and El Salvador for the Mutual Surren - 1901_34.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and France for the Mutual Surrender o - 1901_40.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Germany extending to certain Brit - 1912_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Germany for the Mutual Surrender  - 1901_48.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Germany respecting Extradition be - 1911_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Guatemala for the Mutual Surrende - 1901_56.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Haiti for the Mutual Surrender of - 1901_58.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Italy for the Mutual Surrender of - 1901_62.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Liberia for the Mutual Surrender  - 1901_68.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Luxembourg for the Mutual Surrend - 1901_69.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Mexico for the Mutual Surrender o - 1901_70.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Monaco for the Extradition of Cri - 1901_72.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Nicaragua for the Mutual Surrende - 1906_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Panama for the Mutual Surrender o - 1907_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Paraguay for the Mutual Surrender - 1911_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Peru for the Mutual Surrender of  - 1907_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Portugal for the Mutual Surrender - 1901_86.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Roumania for the Mutual Surrender - 1901_89.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and San Marino for the Mutual Extradi - 1901_93.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Serbia [Yugoslavia] for the Mutua - 1901_123.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Siam [Thailand] respecting the Ex - 1911_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Spain for the Mutual Surrender of - 1901_95.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Switzerland for the Mutual Surren - 1901_106.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and the Argentine Republic for the Mu - 1901_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and the Netherlands for the Mutual Su - 1901_77.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and the Republic of Bolivia for the M - 1901_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and the Republic of the Equator [Ecua - 1901_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and the United States of America rela - 1902_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and the United States of America to S - 1901_108.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and the United States of America with - 1914_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland and Uruguay for the Mutual Surrender  - 1901_116.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland, and Finland, for the Extradition of  - 1925_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland, and Latvia, for the Extradition of F - 1926_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Ireland, and Sweden and Norway, for the Mutua - 1901_79.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty between the United Kingdom of Great Britain and Northern Ireland and the Republic of Poland f - 1935_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty concerning the Archipelago of Spitsbergen, and Protocol - 1925_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Amity and Cooperation in Southeast Asia (Denpasar, 24 February 1976); Protocol Amending th - 2005_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Amity, Commerce and Navigation between the United Kingdom of Great Britain and Ireland and - 1901_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Amity, Commerce and Navigation between the United Kingdom of Great Britain and Ireland and - 1901_120.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Commerce and Navigation between the United Kingdom of Great Britain and Ireland and Greece - 1901_54.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Commerce and Navigation between the United Kingdom of Great Britain and Ireland and Italy, - 1901_65.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Commerce and Navigation between the United Kingdom of Great Britain and Ireland and Japan, - 1901_66.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Commerce and Navigation between the United Kingdom of Great Britain and Ireland and Mexico - 1901_71.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Commerce and Navigation between the United Kingdom of Great Britain and Ireland and Russia - 1901_92.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Commerce between the United Kingdom of Great Britain and Ireland and Austria-Hungary, and  - 1901_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Commerce between the United Kingdom of Great Britain and Ireland and Serbia [Yugoslavia] ( - 1901_122.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Extradition between Australia and the Republic of Italy - 1976_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Extradition between Australia and the Republic of Italy - 1990_20.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Friendship and Commerce between the United Kingdom of Great Britain and Ireland and Liberi - 1901_67.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Friendship between the United Kingdom of Great Britain and Ireland and Ethiopia (Addis Aba - 1901_36.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Friendship, Commerce and Navigation between the United Kingdom of Great Britain and Irelan - 1901_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Friendship, Commerce and Navigation between the United Kingdom of Great Britain and Irelan - 1901_21.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Friendship, Commerce and Navigation between the United Kingdom of Great Britain and Irelan - 1901_33.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Friendship, Commerce and Navigation between the United Kingdom of Great Britain and Irelan - 1901_59.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Friendship, Commerce and Navigation between the United Kingdom of Great Britain and Irelan - 1901_81.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Friendship, Commerce and Navigation between the United Kingdom of Great Britain and Irelan - 1901_82.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Friendship, Commerce and Navigation between the United Kingdom of Great Britain and Irelan - 1901_83.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Friendship, Commerce and Navigation between the United Kingdom of Great Britain and Irelan - 1901_117.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Friendship, Commerce and Reciprocal Establishment between the United Kingdom of Great Brit - 1901_103.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Navigation between the United Kingdom of Great Britain and Ireland and Austria (Vienna, 30 - 1901_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Peace [with Turkey] - 1924_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Peace between the Allied and Associated Powers and Austria; Protocol, Declaration and Spec - 1920_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Peace between the Allied and Associated Powers and Bulgaria, and Protocol - 1920_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Peace between the Allied and Associated Powers and Germany - 1920_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Peace between the Allied and Associated Powers and Hungary, Protocol and Declaration - 1921_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Peace between the United Kingdom of Great Britain and Ireland and Persia [Iran], and Note  - 1901_60.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Peace with Bulgaria; Treaty of Peace with Findland; Treaty of Peace with Hungary; Treaty o - 1948_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Peace with Japan, and Protocol - 1952_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty of Peace with Poland [Polish Minorities Treaty] - 1920_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Development Co-operation between the Government of Australia and the Government of Papua N - 1989_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Development Co-operation between the Government of Australia and the Government of Papua N - 2000_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and Ireland - 1989_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and Spain - 1988_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the Federative Republic of Brazil - 1996_15.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the Grand Duchy of Luxembourg - 1988_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the Hellenic Republic - 1991_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the Kingdom of Belgium - 1986_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the Kingdom of the Netherlands - 1988_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the Oriental Republic of Uruguay (Montevideo, 7 October  - 2011_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the Republic of Chile - 1996_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the Republic of Hungary - 1997_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the Republic of Korea - 1991_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition Between Australia and the Republic of Latvia (Riga, 14 July 2000) - 2005_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the Republic of Paraguay - 1999_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the Republic of Portugal - 1988_28.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition Between Australia and the Republic of South AFRICA (Canberra, 9 December 1998) - 2001_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the Republic of the Philippines - 1991_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition Between Australia and the Republic of Turkey (Canberra, 3 March 1994) - 2003_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the Republic of Venezuela - 1993_35.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the State of the United Arab Emirates (Hobart, 26 July 2 - 2011_29.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the United Mexican States - 1991_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between Australia and the United States of America - 1976_10.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between the Government of Australia and the Government of His Serene Highness  - 1990_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between the Government of Australia and the Government of the Republic of Arge - 1990_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between the Government of Australia and the Government of the Republic of Ecua - 1990_19.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Extradition between the Government of Australia and the Government of the Republic of Fran - 1989_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Fisheries between the Government of Certain Pacific Island States and the Government of th - 1988_42.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Judicial Assistance in Civil and Commercial Matters between Australia and the Republic of  - 2000_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Mutual Assistance in Criminal Matters between Australia and the Kingdom of Spain - 1991_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Mutual Assistance in Criminal Matters between Australia and the Republic of Italy - 1994_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Mutual Legal Assistance in Criminal Matters between Australia and the Socialist Republic o - 2017_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on Principles Governing the Activities of States in the Exploration and Use of Outer Space, i - 1967_24.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on the Non-Proliferation of Nuclear Weapons - 1973_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty on the Prohibition of the Emplacement of Nuclear Weapons and other Weapons of Mass Destructio - 1973_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty relating to the Chinese Customs Tariff - 1925_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Treaty Supplementary to the Treaty relating to Insular Possessions and Insular Dominions in the Paci - 1923_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trusteeship Agreement for the Territory of Nauru - 1947_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Trusteeship Agreement for the Territory of New Guinea - 1946_1.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/UNESCO Convention on the Protection and Promotion of the Diversity of Cultural Expressions (Paris, 2 - 2009_25.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/United Kingdom-Australia Trade Agreement [UKATA] - 1957_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/United Nations Convention Against Corruption (New York, 31 October 2003) - 2006_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/United Nations Convention against Illicit Traffic in Narcotic Drugs and Psychotropic Substances - 1993_4.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/United Nations Convention Against Transnational Organised Crime (New York, 15 November 2000) - 2004_12.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/United Nations Convention on Contracts for the International Sale of Goods - 1988_32.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/United Nations Convention on the Law of the Sea - 1994_31.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/United Nations Convention on Transparency in Treaty-based Investor-State Arbitration (New York, 10 D - 2021_6.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/United Nations Convention to Combat Desertification in those Countries Experiencing Serious Drought  - 2000_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/United Nations Framework Convention on Climate Change - 1994_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Universal Copyright Convention, and Protocols 1, 2 and 3 - 1969_9.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Universal Copyright Convention, as revised, and Protocols 1 and 2 - 1978_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Universal Postal Convention and Final Protocol; Detailed Regulations; Provisions regarding Conveyanc - 1949_8.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Universal Postal Convention, and Final Protocol; Detailed Regulations, and Final Protocol; Provision - 1930_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Universal Postal Convention, and Final Protocol; Detailed Regulations; Provisions concerning Air Mai - 1959_13.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Universal Postal Convention, Final Protocol and Detailed Regulations - 1904_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Universal Postal Convention, Final Protocol and Detailed Regulations; Provisions relating to the Con - 1935_23.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Universal Postal Convention, Final Protocol and Final Protocol rectifying Final Protocol; Detailed R - 1925_16.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Universal Postal Union (XVIII Congress) General Regulations, and Final Protocol; Universal Postal Co - 1981_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Universal Postal Union Additional Protocol to the Constitution of 10 July 1964; General Regulations, - 1971_18.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Universal Postal Union Constitution, and Final Protocol; General Regulations, and Final Protocol; Co - 1966_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Universal Postal Union Eighth Additional Protocol to the Constitution of 10 July 1964, As Amended; C - 2012_30.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Universal Postal Union Second Additional Protocol to the Constitution of 10 July 1964; General Regul - 1977_5.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Universal Postal Union Universal Postal Convention, and Final Protocol; Detailed Regulations; Provis - 1954_14.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Utilities Claims Settlement Agreement between the United States of America (as Unified Command and o - 1959_22.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Vienna Convention for the Protection of the Ozone Layer - 1988_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Vienna Convention on Consular Relations - 1973_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Vienna Convention on Diplomatic Relations - 1968_3.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/Vienna Convention on the Law of Treaties - 1974_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/WHO Framework Convention on Tobacco Control (Geneva, 21 May 2003) - 2005_7.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/WIPO Copyright Treaty (Geneva, 20 December 1996) - 2007_17.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/WIPO Performances and Phonograms Treaty (Geneva, 20 December 1996) - 2007_27.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/World Health Organization Additional Regulations amending the Regulations No. 1 regarding Nomenclatu - 1958_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/World Health Organization Nomenclature Regulations ( including the Compilation and Publication of St - 1968_2.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/World Health Organization Regulations No. 1 regarding Nomenclature (including the Compilation and Pu - 1950_11.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/World Intellectual Property Organisation Copyright Treaty Geneva (Geneva, 20 December 1996) - 2007_26.txt
+/home/ubuntu/DataClean/treaties/dfat/treaties/ATS/data/World Wine Trade Group Agreement on Requirements for Wine Labelling (Canberra, 23 January 2007) - 2012_17.txt

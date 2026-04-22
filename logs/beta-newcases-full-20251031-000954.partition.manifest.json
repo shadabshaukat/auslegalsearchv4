@@ -1,0 +1,31 @@
+{
+  "total_files": 6,
+  "shards": [
+    {
+      "index": 0,
+      "count": 1
+    },
+    {
+      "index": 1,
+      "count": 1
+    },
+    {
+      "index": 2,
+      "count": 1
+    },
+    {
+      "index": 3,
+      "count": 1
+    },
+    {
+      "index": 4,
+      "count": 1
+    },
+    {
+      "index": 5,
+      "count": 1
+    }
+  ],
+  "assigned_total": 6,
+  "unique_assigned": 6
+}

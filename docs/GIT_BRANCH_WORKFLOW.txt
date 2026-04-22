@@ -1,0 +1,21 @@
+
+# --- FEATURE BRANCH WORKFLOW FOR GITHUB ---
+
+# 1. Create and switch to new branch (replace "feature123" with your branch name)
+git checkout -b feature123
+
+# 2. Make changes, then add and commit as usual
+git add .
+git commit -m "Describe your feature or fix"
+
+# 3. Push new branch to GitHub (first time use -u)
+git push -u origin feature123
+
+# 4. To merge into main (locally, if you do not want to use GitHub PRs):
+git checkout main
+git pull --rebase origin main
+git merge feature123
+git push origin main
+
+# Optionally, you can use the GitHub website to open a Pull Request from "feature123" to "main" for code review or CI testing.
+
