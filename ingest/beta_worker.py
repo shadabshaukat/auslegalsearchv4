@@ -45,7 +45,8 @@ from db.store import (
     create_all_tables,
     start_session, update_session_progress, complete_session, fail_session,
     EmbeddingSessionFile, SessionLocal, Document, Embedding,
-    add_document, add_embedding, get_session_file, upsert_session_file_status
+    add_document, add_embedding, get_session_file, upsert_session_file_status,
+    bulk_upsert_file_chunks_opensearch,
 )
 from db.connector import DB_URL, engine
 
@@ -1433,7 +1434,14 @@ def run_worker_opensearch(
     token_max: int,
     log_dir: str,
 ) -> None:
-    """OpenSearch-safe worker path that avoids direct SQLAlchemy session usage."""
+    """
+    OpenSearch-safe worker path that avoids direct SQLAlchemy session usage.
+    P0 scale hardening:
+    - bulk upsert per file,
+    - idempotent keys via db.store bulk helper,
+    - stage deadlines and retry/backoff,
+    - optional RCTS + naive fallback chunking.
+    """
     create_all_tables()
     if partition_file:
         files = read_partition_file(partition_file)
@@ -1449,6 +1457,7 @@ def run_worker_opensearch(
         max_tokens=int(token_max),
     )
     batch_size = int(os.environ.get("AUSLEGALSEARCH_EMBED_BATCH", "64"))
+    insert_retries = int(os.environ.get("AUSLEGALSEARCH_DB_MAX_RETRIES", str(DB_MAX_RETRIES)))
 
     processed_chunks = 0
     successes: List[str] = []
@@ -1462,7 +1471,8 @@ def run_worker_opensearch(
             if not row:
                 upsert_session_file_status(session_name, filepath, "pending")
 
-            base_doc = parse_file(filepath)
+            with _deadline(PARSE_TIMEOUT):
+                base_doc = parse_file(filepath)
             if not base_doc or not base_doc.get("text"):
                 upsert_session_file_status(session_name, filepath, "error")
                 failures.append(filepath)
@@ -1477,9 +1487,16 @@ def run_worker_opensearch(
             if detected_type and not base_meta.get("type"):
                 base_meta["type"] = detected_type
 
-            file_chunks = chunk_legislation_dashed_semantic(base_doc["text"], base_meta=base_meta, cfg=cfg)
-            if not file_chunks:
-                file_chunks = chunk_document_semantic(base_doc["text"], base_meta=base_meta, cfg=cfg)
+            with _deadline(CHUNK_TIMEOUT):
+                file_chunks = chunk_legislation_dashed_semantic(base_doc["text"], base_meta=base_meta, cfg=cfg)
+                if not file_chunks:
+                    file_chunks = chunk_document_semantic(base_doc["text"], base_meta=base_meta, cfg=cfg)
+
+                if (not file_chunks) and os.environ.get("AUSLEGALSEARCH_USE_RCTS_GENERIC", "0") == "1":
+                    file_chunks = chunk_generic_rcts(base_doc["text"], base_meta=base_meta, cfg=cfg)
+
+                if not file_chunks and os.environ.get("AUSLEGALSEARCH_FALLBACK_CHUNK_ON_TIMEOUT", "1") != "0":
+                    file_chunks = _fallback_chunk_text(base_doc["text"], base_meta, cfg)
 
             if not file_chunks:
                 upsert_session_file_status(session_name, filepath, "complete")
@@ -1488,23 +1505,31 @@ def run_worker_opensearch(
                 continue
 
             texts = [c["text"] for c in file_chunks]
-            vecs = _embed_in_batches(embedder, texts, batch_size=batch_size)
+            fmt = base_doc.get("format", Path(filepath).suffix.lower().strip("."))
+
+            with _deadline(EMBED_BATCH_TIMEOUT):
+                vecs = _embed_in_batches(embedder, texts, batch_size=batch_size)
 
             inserted = 0
-            fmt = base_doc.get("format", Path(filepath).suffix.lower().strip("."))
-            for i, chunk in enumerate(file_chunks):
-                doc_id = add_document({
-                    "source": filepath,
-                    "content": chunk.get("text", ""),
-                    "format": fmt,
-                })
-                add_embedding(
-                    doc_id=doc_id,
-                    chunk_index=i,
-                    vector=vecs[i],
-                    chunk_metadata=chunk.get("chunk_metadata") or {},
-                )
-                inserted += 1
+            last_err = None
+            for attempt in range(max(1, insert_retries)):
+                try:
+                    with _deadline(INSERT_TIMEOUT):
+                        inserted = bulk_upsert_file_chunks_opensearch(
+                            source_path=filepath,
+                            fmt=fmt,
+                            chunks=file_chunks,
+                            vectors=vecs,
+                            max_retries=max(1, insert_retries),
+                        )
+                    last_err = None
+                    break
+                except Exception as e:
+                    last_err = e
+                    if attempt + 1 < max(1, insert_retries):
+                        time.sleep(min(8, 2 ** attempt))
+                    else:
+                        raise
 
             processed_chunks += inserted
             upsert_session_file_status(session_name, filepath, "complete")

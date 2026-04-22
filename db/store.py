@@ -11,15 +11,18 @@ from db.connector import engine, SessionLocal, Vector, JSONB, UUIDType
 from datetime import datetime
 import uuid
 import os
+import hashlib
+import time
 import bcrypt
 from types import SimpleNamespace
 from typing import Any, Dict, Optional
 
 try:
-    from db.opensearch_connector import get_opensearch_client, index_name, ensure_opensearch_indexes
+    from db.opensearch_connector import get_opensearch_client, index_name, index_target, ensure_opensearch_indexes
 except Exception:
     get_opensearch_client = None
     index_name = None
+    index_target = None
     ensure_opensearch_indexes = None
 
 # Production: avoid loading ML models at import-time in DB module.
@@ -46,10 +49,36 @@ def _os_now() -> str:
     return datetime.utcnow().isoformat() + "Z"
 
 
-def _os_idx(suffix: str) -> str:
-    if index_name is None:
+def _os_idx(suffix: str, purpose: str = "read") -> str:
+    if index_name is None and index_target is None:
         raise RuntimeError("OpenSearch index naming helper unavailable")
+    if index_target is not None:
+        return index_target(suffix, purpose=purpose)
     return index_name(suffix)
+
+
+def _os_bool(name: str, default: bool = False) -> bool:
+    v = os.environ.get(name)
+    if v is None:
+        return default
+    return str(v).strip().lower() in {"1", "true", "yes", "y", "on"}
+
+
+def _os_int(name: str, default: int) -> int:
+    try:
+        return int(os.environ.get(name, str(default)))
+    except Exception:
+        return int(default)
+
+
+def _stable_int_id(seed: str, hex_chars: int = 15) -> int:
+    h = hashlib.sha1(seed.encode("utf-8")).hexdigest()[:hex_chars]
+    return int(h, 16)
+
+
+def _chunk_doc_key(source: str, chunk_index: int, text: str) -> str:
+    raw = f"{source}|{chunk_index}|{text}"
+    return hashlib.sha1(raw.encode("utf-8")).hexdigest()
 
 
 def _os_next_id(counter_key: str) -> int:
@@ -639,7 +668,15 @@ def get_document_by_id(doc_id: int):
             s = hit.get("_source") or {}
             return {"id": s.get("doc_id"), "source": s.get("source"), "content": s.get("content"), "format": s.get("format")}
         except Exception:
-            return None
+            found = _os_get_by_term(_os_idx("documents"), "doc_id", int(doc_id))
+            if not found:
+                return None
+            return {
+                "id": found.get("doc_id"),
+                "source": found.get("source"),
+                "content": found.get("content"),
+                "format": found.get("format"),
+            }
 
     with SessionLocal() as session:
         d = session.query(Document).filter_by(id=doc_id).first()
@@ -678,15 +715,27 @@ def count_session_files(session_name: str, status: Optional[str] = None) -> int:
 
 def add_document(doc: dict) -> int:
     if _is_opensearch():
-        did = _os_next_id("documents")
+        source = doc["source"]
+        content = doc["content"]
+        fmt = doc["format"]
+        chunk_index = int(doc.get("chunk_index", 0))
+        doc_key = doc.get("doc_key") or _chunk_doc_key(source, chunk_index, content)
+        did = int(doc.get("doc_id") or _stable_int_id("doc:" + str(doc_key)))
         body = {
             "doc_id": did,
-            "source": doc["source"],
-            "content": doc["content"],
-            "format": doc["format"],
+            "doc_key": doc_key,
+            "chunk_index": chunk_index,
+            "source": source,
+            "content": content,
+            "format": fmt,
             "created_at": _os_now(),
         }
-        _os_client().index(index=_os_idx("documents"), id=str(did), body=body, refresh=True)
+        _os_client().index(
+            index=_os_idx("documents", purpose="write"),
+            id=str(doc_key),
+            body=body,
+            refresh=_os_bool("OPENSEARCH_REFRESH_ON_WRITE", False),
+        )
         return did
 
     with SessionLocal() as session:
@@ -702,24 +751,51 @@ def add_document(doc: dict) -> int:
 
 def add_embedding(doc_id: int, chunk_index: int, vector, chunk_metadata=None) -> int:
     if _is_opensearch():
-        eid = _os_next_id("embeddings")
+        source = ""
+        fmt = ""
+        text_body = ""
+        doc_key = None
         doc_res = None
         try:
             doc_res = _os_client().get(index=_os_idx("documents"), id=str(doc_id))
         except Exception:
-            doc_res = {"_source": {}}
+            # New canonical doc ID in OpenSearch path is keyed by doc_key, not numeric id.
+            # Fallback: try locate by doc_id term.
+            found = _os_get_by_term(_os_idx("documents"), "doc_id", int(doc_id))
+            doc_res = {"_source": found or {}}
         dsrc = (doc_res or {}).get("_source") or {}
+        source = dsrc.get("source", "")
+        fmt = dsrc.get("format", "")
+        text_body = dsrc.get("content", "")
+        doc_key = dsrc.get("doc_key")
+
+        emb_key = hashlib.sha1(f"{doc_key or doc_id}|{int(chunk_index)}".encode("utf-8")).hexdigest()
+        eid = _stable_int_id("emb:" + emb_key)
+
         body = {
             "embedding_id": eid,
+            "embedding_key": emb_key,
             "doc_id": int(doc_id),
+            "doc_key": doc_key,
             "chunk_index": int(chunk_index),
             "vector": list(vector),
             "chunk_metadata": chunk_metadata,
-            "text": dsrc.get("content", ""),
-            "source": dsrc.get("source", ""),
-            "format": dsrc.get("format", ""),
+            "source": source,
+            "format": fmt,
         }
-        _os_client().index(index=_os_idx("embeddings"), id=str(eid), body=body, refresh=True)
+        if _os_bool("OPENSEARCH_EMBED_STORE_TEXT", False):
+            body["text"] = text_body
+        else:
+            preview_chars = _os_int("OPENSEARCH_EMBED_TEXT_PREVIEW_CHARS", 0)
+            if preview_chars > 0 and text_body:
+                body["text_preview"] = text_body[:preview_chars]
+
+        _os_client().index(
+            index=_os_idx("embeddings", purpose="write"),
+            id=str(emb_key),
+            body=body,
+            refresh=_os_bool("OPENSEARCH_REFRESH_ON_WRITE", False),
+        )
         return eid
 
     with SessionLocal() as session:
@@ -747,19 +823,43 @@ def search_vector(query_vec, top_k=5):
                 }
             },
         }
-        res = _os_client().search(index=_os_idx("embeddings"), body=body)
+        res = _os_client().search(index=_os_idx("embeddings", purpose="read"), body=body)
         hits = []
+        missing_doc_ids = set()
         for h in (res.get("hits") or {}).get("hits") or []:
             src = h.get("_source") or {}
+            txt = src.get("text") or src.get("text_preview") or ""
+            if not txt and src.get("doc_id") is not None:
+                missing_doc_ids.add(int(src.get("doc_id")))
             hits.append({
                 "doc_id": src.get("doc_id"),
                 "chunk_index": src.get("chunk_index"),
                 "score": float(h.get("_score", 0.0)),
-                "text": src.get("text", ""),
+                "text": txt,
                 "source": src.get("source", ""),
                 "format": src.get("format", ""),
                 "chunk_metadata": src.get("chunk_metadata"),
             })
+
+        if missing_doc_ids:
+            docs = _os_client().search(
+                index=_os_idx("documents"),
+                body={
+                    "size": len(missing_doc_ids),
+                    "query": {"terms": {"doc_id": list(missing_doc_ids)}},
+                    "_source": ["doc_id", "content", "source", "format"],
+                },
+            )
+            by_id = {}
+            for d in (docs.get("hits") or {}).get("hits") or []:
+                ds = d.get("_source") or {}
+                by_id[int(ds.get("doc_id"))] = ds
+            for h in hits:
+                if not h.get("text") and h.get("doc_id") in by_id:
+                    ds = by_id[h.get("doc_id")]
+                    h["text"] = ds.get("content", "")
+                    h["source"] = h.get("source") or ds.get("source", "")
+                    h["format"] = h.get("format") or ds.get("format", "")
         return hits
 
     with SessionLocal() as session:
@@ -794,6 +894,134 @@ def search_vector(query_vec, top_k=5):
             })
         return hits
 
+
+def bulk_upsert_file_chunks_opensearch(
+    source_path: str,
+    fmt: str,
+    chunks,
+    vectors,
+    max_retries: int = 3,
+) -> int:
+    """High-throughput, idempotent bulk writer for OpenSearch chunk ingestion."""
+    if not _is_opensearch():
+        raise RuntimeError("bulk_upsert_file_chunks_opensearch is only valid for opensearch backend")
+    if not chunks:
+        return 0
+    if vectors is None or len(vectors) != len(chunks):
+        raise ValueError("Vector batch does not match chunks in bulk upsert")
+
+    try:
+        from opensearchpy.helpers import bulk, parallel_bulk  # type: ignore
+    except Exception as e:
+        raise RuntimeError("opensearch-py helpers.bulk unavailable") from e
+
+    client = _os_client()
+    docs_idx = _os_idx("documents", purpose="write")
+    embs_idx = _os_idx("embeddings", purpose="write")
+    timeout_sec = _os_int("OPENSEARCH_TIMEOUT", 120)
+    bulk_chunk_size = max(1, _os_int("OPENSEARCH_BULK_CHUNK_SIZE", 500))
+    bulk_max_bytes = max(1024 * 1024, _os_int("OPENSEARCH_BULK_MAX_BYTES", 104857600))
+    bulk_concurrency = max(1, _os_int("OPENSEARCH_BULK_CONCURRENCY", 2))
+    bulk_queue_size = max(1, _os_int("OPENSEARCH_BULK_QUEUE_SIZE", 8))
+    allow_oversub = _os_bool("OPENSEARCH_CONCURRENCY_OVERSUB", True)
+    if not allow_oversub:
+        cpu_cap = max(1, os.cpu_count() or 1)
+        bulk_concurrency = min(bulk_concurrency, cpu_cap)
+    store_text = _os_bool("OPENSEARCH_EMBED_STORE_TEXT", False)
+    preview_chars = _os_int("OPENSEARCH_EMBED_TEXT_PREVIEW_CHARS", 0)
+    refresh_on_write = _os_bool("OPENSEARCH_REFRESH_ON_WRITE", False)
+
+    actions = []
+    for i, chunk in enumerate(chunks):
+        text_body = chunk.get("text", "")
+        md = chunk.get("chunk_metadata") or {}
+
+        doc_key = _chunk_doc_key(source_path, int(i), text_body)
+        doc_id = _stable_int_id("doc:" + doc_key)
+        emb_key = hashlib.sha1(f"{doc_key}|{int(i)}".encode("utf-8")).hexdigest()
+        emb_id = _stable_int_id("emb:" + emb_key)
+
+        actions.append({
+            "_op_type": "index",
+            "_index": docs_idx,
+            "_id": str(doc_key),
+            "_source": {
+                "doc_id": int(doc_id),
+                "doc_key": doc_key,
+                "chunk_index": int(i),
+                "source": source_path,
+                "content": text_body,
+                "format": fmt,
+                "created_at": _os_now(),
+            },
+        })
+
+        emb_src = {
+            "embedding_id": int(emb_id),
+            "embedding_key": emb_key,
+            "doc_id": int(doc_id),
+            "doc_key": doc_key,
+            "chunk_index": int(i),
+            "vector": list(vectors[i]),
+            "chunk_metadata": md,
+            "source": source_path,
+            "format": fmt,
+        }
+        if store_text:
+            emb_src["text"] = text_body
+        elif preview_chars > 0 and text_body:
+            emb_src["text_preview"] = text_body[:preview_chars]
+
+        actions.append({
+            "_op_type": "index",
+            "_index": embs_idx,
+            "_id": str(emb_key),
+            "_source": emb_src,
+        })
+
+    last_err = None
+    for attempt in range(max(1, int(max_retries))):
+        try:
+            errors_count = 0
+            if bulk_concurrency > 1:
+                for ok, _ in parallel_bulk(
+                    client,
+                    actions,
+                    thread_count=bulk_concurrency,
+                    queue_size=bulk_queue_size,
+                    chunk_size=bulk_chunk_size,
+                    max_chunk_bytes=bulk_max_bytes,
+                    refresh=refresh_on_write,
+                    request_timeout=timeout_sec,
+                    raise_on_error=False,
+                    raise_on_exception=False,
+                ):
+                    if not ok:
+                        errors_count += 1
+            else:
+                _, errors = bulk(
+                    client,
+                    actions,
+                    chunk_size=bulk_chunk_size,
+                    max_chunk_bytes=bulk_max_bytes,
+                    refresh=refresh_on_write,
+                    request_timeout=timeout_sec,
+                    raise_on_error=False,
+                    raise_on_exception=False,
+                )
+                errors_count = len(errors or [])
+
+            if errors_count > 0:
+                raise RuntimeError(f"bulk upsert errors: {errors_count} failures")
+            return len(chunks)
+        except Exception as e:
+            last_err = e
+            if attempt + 1 < max(1, int(max_retries)):
+                time.sleep(min(8, 2 ** attempt))
+            else:
+                break
+    raise RuntimeError(f"OpenSearch bulk upsert failed after retries: {last_err}")
+
 def search_bm25(query, top_k=5):
     if _is_opensearch():
         body = {
@@ -801,23 +1029,54 @@ def search_bm25(query, top_k=5):
             "query": {
                 "multi_match": {
                     "query": query,
-                    "fields": ["content^2", "text", "chunk_metadata.*"],
+                    "fields": ["content^2", "text", "text_preview", "chunk_metadata.*"],
                 }
             },
         }
-        res = _os_client().search(index=[_os_idx("documents"), _os_idx("embeddings")], body=body)
+        res = _os_client().search(index=[_os_idx("documents", purpose="read"), _os_idx("embeddings", purpose="read")], body=body)
         out = []
+        missing_doc_ids = set()
         for h in (res.get("hits") or {}).get("hits") or []:
             src = h.get("_source") or {}
+            txt = src.get("text") or src.get("text_preview") or src.get("content", "")
+            did = src.get("doc_id", src.get("id"))
+            if (not txt) and did is not None:
+                try:
+                    missing_doc_ids.add(int(did))
+                except Exception:
+                    pass
             out.append({
-                "doc_id": src.get("doc_id", src.get("id")),
+                "doc_id": did,
                 "chunk_index": src.get("chunk_index", 0),
                 "score": float(h.get("_score", 0.0)),
-                "text": src.get("text") or src.get("content", ""),
+                "text": txt,
                 "source": src.get("source", ""),
                 "format": src.get("format", ""),
                 "chunk_metadata": src.get("chunk_metadata"),
             })
+
+        if missing_doc_ids:
+            docs = _os_client().search(
+                index=_os_idx("documents"),
+                body={
+                    "size": len(missing_doc_ids),
+                    "query": {"terms": {"doc_id": list(missing_doc_ids)}},
+                    "_source": ["doc_id", "content", "source", "format"],
+                },
+            )
+            by_id = {}
+            for d in (docs.get("hits") or {}).get("hits") or []:
+                ds = d.get("_source") or {}
+                try:
+                    by_id[int(ds.get("doc_id"))] = ds
+                except Exception:
+                    pass
+            for h in out:
+                if not h.get("text") and h.get("doc_id") in by_id:
+                    ds = by_id[h.get("doc_id")]
+                    h["text"] = ds.get("content", "")
+                    h["source"] = h.get("source") or ds.get("source", "")
+                    h["format"] = h.get("format") or ds.get("format", "")
         return out
 
     with SessionLocal() as session:
@@ -1033,7 +1292,7 @@ def search_fts(query, top_k=10, mode="both"):
         if mode in ("documents", "both"):
             fields.append("content")
         if mode in ("metadata", "both"):
-            fields.extend(["chunk_metadata.*", "text"])
+            fields.extend(["chunk_metadata.*", "text", "text_preview"])
         if not fields:
             fields = ["content", "chunk_metadata.*", "text"]
 
@@ -1049,7 +1308,7 @@ def search_fts(query, top_k=10, mode="both"):
                 "fields": {f: {} for f in fields}
             }
         }
-        indices = [_os_idx("documents"), _os_idx("embeddings")]
+        indices = [_os_idx("documents", purpose="read"), _os_idx("embeddings", purpose="read")]
         res = _os_client().search(index=indices, body=body)
         grouped = {}
         for h in (res.get("hits") or {}).get("hits") or []:
@@ -1068,7 +1327,7 @@ def search_fts(query, top_k=10, mode="both"):
                 "chunk_index": src.get("chunk_index"),
                 "source": src.get("source", ""),
                 "content": src.get("content", src.get("text", "")),
-                "text": src.get("text", src.get("content", "")),
+                "text": src.get("text", src.get("text_preview", src.get("content", ""))),
                 "chunk_metadata": md,
                 "snippet": snippet,
                 "search_area": "metadata" if src.get("chunk_metadata") else "documents",
@@ -1169,5 +1428,6 @@ __all__ = [
     "start_session", "update_session_progress", "complete_session", "fail_session", "get_active_sessions", "get_resume_sessions", "get_session",
     "list_documents", "get_document_by_id", "get_session_file", "count_session_files", "upsert_session_file_status",
     "add_document", "add_embedding", "search_vector", "search_bm25", "search_hybrid", "get_file_contents",
+    "bulk_upsert_file_chunks_opensearch",
     "add_conversion_file", "update_conversion_file_status"
 ]

@@ -19,7 +19,7 @@ from typing import Any, Dict, Iterable, List
 
 from sqlalchemy import create_engine, text
 
-from db.opensearch_connector import ensure_opensearch_indexes, get_opensearch_client, index_name
+from db.opensearch_connector import ensure_opensearch_indexes, get_opensearch_client, index_name, index_target
 
 
 def _resolve_pg_url(cli_url: str | None) -> str:
@@ -67,7 +67,7 @@ def _chunked_fetch(conn, sql: str, batch_size: int) -> Iterable[List[Any]]:
 
 
 def migrate_documents(conn, client, batch_size: int) -> int:
-    idx = index_name("documents")
+    idx = index_target("documents", purpose="write")
     total = 0
     from opensearchpy.helpers import bulk  # type: ignore
 
@@ -102,7 +102,7 @@ def migrate_documents(conn, client, batch_size: int) -> int:
 
 
 def migrate_embeddings(conn, client, batch_size: int) -> int:
-    idx = index_name("embeddings")
+    idx = index_target("embeddings", purpose="write")
     total = 0
     from opensearchpy.helpers import bulk  # type: ignore
 
