@@ -189,6 +189,10 @@ def launch_worker(
         cmd.append("--resume")
 
     env = dict(os.environ)
+    if _truthy(os.environ.get("OPENSEARCH_TUNE_INDEX")):
+        # During bulk-tuned ingest we temporarily set replicas=0; disable strict
+        # shard/replica validation in child startup checks to prevent false failures.
+        env["OPENSEARCH_ENFORCE_SHARDS"] = "0"
     if gpu_index is not None:
         env["CUDA_VISIBLE_DEVICES"] = str(gpu_index)
 
@@ -348,9 +352,19 @@ def orchestrate(
     if not _db_ping():
         print("[beta_orchestrator] Aborting: cannot connect to DB. Check .env and network.", flush=True)
         raise RuntimeError("DB ping failed")
+    # If ingest tuning is enabled we may intentionally set replicas=0 temporarily,
+    # which can conflict with strict startup shard/replica validation.
+    _saved_enforce = os.environ.get("OPENSEARCH_ENFORCE_SHARDS")
+    if STORAGE_BACKEND == "opensearch" and _truthy(os.environ.get("OPENSEARCH_TUNE_INDEX")):
+        os.environ["OPENSEARCH_ENFORCE_SHARDS"] = "0"
     print("[beta_orchestrator] Ensuring schema...", flush=True)
     create_all_tables()  # Ensure schema + FTS triggers
     print("[beta_orchestrator] Schema OK", flush=True)
+    if STORAGE_BACKEND == "opensearch" and _truthy(os.environ.get("OPENSEARCH_TUNE_INDEX")):
+        if _saved_enforce is None:
+            os.environ.pop("OPENSEARCH_ENFORCE_SHARDS", None)
+        else:
+            os.environ["OPENSEARCH_ENFORCE_SHARDS"] = _saved_enforce
     log_root = Path(log_dir).resolve()
     log_root.mkdir(parents=True, exist_ok=True)
     try:

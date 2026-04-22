@@ -88,7 +88,10 @@ class Embedder:
                 except TypeError:
                     # Older sentence_transformers versions may not support revision/local_files_only
                     self._st_model = SentenceTransformer(resolved, trust_remote_code=trust_remote)
-                self.dimension = int(self._st_model.get_sentence_embedding_dimension())
+                if hasattr(self._st_model, "get_embedding_dimension"):
+                    self.dimension = int(self._st_model.get_embedding_dimension())
+                else:
+                    self.dimension = int(self._st_model.get_sentence_embedding_dimension())
             except Exception as e:
                 warnings.warn(f"SentenceTransformer load failed for '{resolved}', falling back to HF: {e}")
                 self._init_hf_fallback(resolved, trust_remote)

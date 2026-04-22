@@ -1543,7 +1543,13 @@ def run_worker_opensearch(
     - stage deadlines and retry/backoff,
     - optional RCTS + naive fallback chunking.
     """
-    create_all_tables()
+    # Schema/index bootstrap is usually handled by orchestrator once before launching workers.
+    # Re-running this in every worker is expensive and can conflict with temporary ingest-time
+    # index tuning (e.g., replicas forced to 0 during bulk windows).
+    if _truthy(os.environ.get("AUSLEGALSEARCH_WORKER_SCHEMA_INIT", "0")):
+        create_all_tables()
+    else:
+        print(f"[beta_worker/opensearch] {session_name}: skipping create_all_tables (AUSLEGALSEARCH_WORKER_SCHEMA_INIT=0)", flush=True)
     if partition_file:
         files = read_partition_file(partition_file)
     else:
@@ -1556,6 +1562,12 @@ def run_worker_opensearch(
         if done:
             files = [fp for fp in files if fp not in done]
         print(f"[beta_worker/opensearch] {session_name}: resume enabled -> skipping {before - len(files)} already-completed files", flush=True)
+    if os.environ.get("AUSLEGALSEARCH_SORT_WORKER_FILES", "1") != "0":
+        try:
+            files = _sort_by_size_desc(files)
+            print(f"[beta_worker/opensearch] {session_name}: sorted {len(files)} files by size desc for better throughput", flush=True)
+        except Exception as e:
+            print(f"[beta_worker/opensearch] {session_name}: note: could not sort by size: {e}", flush=True)
 
     embedder = Embedder(embedding_model) if embedding_model else Embedder()
     cfg = ChunkingConfig(
@@ -1629,16 +1641,23 @@ def run_worker_opensearch(
                 base_meta["type"] = detected_type
 
             t1 = time.time()
-            with _deadline(CHUNK_TIMEOUT):
-                file_chunks = chunk_legislation_dashed_semantic(base_doc["text"], base_meta=base_meta, cfg=cfg)
-                if not file_chunks:
-                    file_chunks = chunk_document_semantic(base_doc["text"], base_meta=base_meta, cfg=cfg)
+            try:
+                with _deadline(CHUNK_TIMEOUT):
+                    file_chunks = chunk_legislation_dashed_semantic(base_doc["text"], base_meta=base_meta, cfg=cfg)
+                    if not file_chunks:
+                        file_chunks = chunk_document_semantic(base_doc["text"], base_meta=base_meta, cfg=cfg)
 
-                if (not file_chunks) and os.environ.get("AUSLEGALSEARCH_USE_RCTS_GENERIC", "0") == "1":
-                    file_chunks = chunk_generic_rcts(base_doc["text"], base_meta=base_meta, cfg=cfg)
+                    if (not file_chunks) and os.environ.get("AUSLEGALSEARCH_USE_RCTS_GENERIC", "0") == "1":
+                        file_chunks = chunk_generic_rcts(base_doc["text"], base_meta=base_meta, cfg=cfg)
 
-                if not file_chunks and os.environ.get("AUSLEGALSEARCH_FALLBACK_CHUNK_ON_TIMEOUT", "1") != "0":
+                    if not file_chunks and os.environ.get("AUSLEGALSEARCH_FALLBACK_CHUNK_ON_TIMEOUT", "1") != "0":
+                        file_chunks = _fallback_chunk_text(base_doc["text"], base_meta, cfg)
+            except _Timeout:
+                if os.environ.get("AUSLEGALSEARCH_FALLBACK_CHUNK_ON_TIMEOUT", "1") != "0":
                     file_chunks = _fallback_chunk_text(base_doc["text"], base_meta, cfg)
+                    print(f"[beta_worker/opensearch] {session_name}: chunk timeout -> fallback chunker used for {filepath}", flush=True)
+                else:
+                    raise
             chunk_ms = int((time.time() - t1) * 1000)
 
             if not file_chunks:

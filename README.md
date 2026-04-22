@@ -128,6 +128,7 @@ For production, secure endpoints behind WAF/reverse proxy and TLS. Store secrets
 - Post-load Indexing & Metadata Strategy (TB-scale): [schema-post-load/README.md](schema-post-load/README.md)
 - Optimized SQL templates (citation/name/title/source, ANN, grouping): [schema-post-load/optimized_sql.sql](schema-post-load/optimized_sql.sql)
 - Beta Data Load Guide (end-to-end ingest runbook): [docs/BetaDataLoad.md](docs/BetaDataLoad.md)
+- Benchmarking notes (GPU/CUDA fix, ingest throughput, 8M-file ETA): [BENCHMARKING.md](BENCHMARKING.md)
 
 Other helpful docs:
 - Gradio API/UX: [docs/API_SPEC_GRADIO.md](docs/API_SPEC_GRADIO.md)

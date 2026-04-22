@@ -510,6 +510,40 @@ Result: **header-derived metadata is preserved and indexed** in current ingestio
 
 Overall: the pipeline now has **multi-GPU + CPU-prep parallelism + configurable OpenSearch bulk parallelism**.
 
+## 7.6 Benchmark snapshot (2026-04-22/23, OpenSearch backend)
+
+Environment validated after torch/CUDA correction:
+- torch: `2.11.0+cu128`
+- torch CUDA runtime: `12.8`
+- `torch.cuda.is_available() == True`
+- GPUs visible: 4
+
+Measured ingestion sessions:
+
+1) `os-bench-20260422-2358`
+- elapsed_min: 7.16
+- files_ok: 62
+- chunks_indexed: 67,121
+- files_per_min: 8.66
+- chunks_per_min: 9,376.64
+
+2) `os-bench-final-20260423-0001`
+- elapsed_min: 3.95
+- files_ok: 31
+- chunks_indexed: 35,934
+- files_per_min: 7.85
+- chunks_per_min: 9,101.71
+
+GPU utilization snapshot during active ingest showed high load (84–100% across 4 GPUs), confirming GPU embedding path is functioning.
+
+### 8M-file direct extrapolation (from measured files/min)
+- ~5.35 to 8.66 files/min (across captured benchmark windows)
+- Approx duration for 8,000,000 files: **~641 to ~1,038 days**
+
+Notes:
+- This is a direct throughput extrapolation; real duration depends on file-size distribution, chunk density, model behavior, and OpenSearch cluster write capacity.
+- For planning, treat this as baseline before additional ingest scaling changes (bulk tuning, lifecycle/rollover, larger cluster profile, more GPUs/workers).
+
 ## P1 (high impact)
 - Separate ingest index settings from query-time settings (dynamic tuning hooks).
 - Add aliases + rollover support in `opensearch_connector`.
@@ -546,6 +580,7 @@ Use this checklist before each release:
 | 2026-04-22 | Docs | Updated naming and environment docs to v4 + OpenSearch configs | Implemented | README/db docs updated |
 | 2026-04-22 | Scale plan | Added this specification file with 1M/8M optimization roadmap | Implemented | Track future changes here |
 | 2026-04-22 | P1 implementation | Added alias-based docs/embeddings routing, startup alias validation, rollover helper, and ISM bootstrap tooling | Implemented | `db/opensearch_connector.py`, `db/store.py`, `tools/opensearch_rollover.py`, `tools/opensearch_bootstrap_ilm.py` |
+| 2026-04-23 | Benchmarking | Added GPU/CUDA validation + OpenSearch ingest throughput snapshot + 8M extrapolation | Implemented | See `BENCHMARKING.md` and section 7.6 |
 
 ---
 
