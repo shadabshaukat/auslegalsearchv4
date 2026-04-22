@@ -26,8 +26,24 @@ import sys
 import time
 from pathlib import Path
 from typing import Dict, Any, List, Optional
-from sqlalchemy import text
-from sqlalchemy.exc import OperationalError, DBAPIError
+
+# SQLAlchemy is required for postgres/oracle paths, but OpenSearch-only runs should
+# still be importable even if sqlalchemy is not installed in the environment.
+_SQLA_AVAILABLE = True
+try:
+    from sqlalchemy import text
+    from sqlalchemy.exc import OperationalError, DBAPIError
+except Exception:
+    _SQLA_AVAILABLE = False
+
+    def text(x):
+        return x
+
+    class OperationalError(Exception):
+        pass
+
+    class DBAPIError(Exception):
+        pass
 
 import signal
 import contextlib
@@ -53,6 +69,11 @@ from db.connector import DB_URL, engine
 from db.opensearch_connector import get_opensearch_client
 
 STORAGE_BACKEND = os.environ.get("AUSLEGALSEARCH_STORAGE_BACKEND", "postgres").strip().lower()
+
+if STORAGE_BACKEND != "opensearch" and not _SQLA_AVAILABLE:
+    raise ModuleNotFoundError(
+        "sqlalchemy is required when AUSLEGALSEARCH_STORAGE_BACKEND is not 'opensearch'"
+    )
 
 # Timeouts (seconds). Tunable via env.
 PARSE_TIMEOUT = int(os.environ.get("AUSLEGALSEARCH_TIMEOUT_PARSE", "60"))
