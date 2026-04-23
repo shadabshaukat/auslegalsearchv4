@@ -114,7 +114,27 @@ def index_target(suffix: str, purpose: str = "read") -> str:
     if purpose not in {"read", "write"}:
         purpose = "read"
     if aliases_enabled() and suffix in {"documents", "embeddings"}:
-        return alias_name(suffix, purpose)
+        alias = alias_name(suffix, purpose)
+        # Resilient fallback when alias mode is enabled but alias bootstrap is broken
+        # (e.g., invalid_alias_name_exception because an index already uses alias name).
+        try:
+            client = get_opensearch_client()
+            try:
+                client.indices.get_alias(name=alias)
+                return alias
+            except Exception:
+                # If a concrete index exists with alias name, fallback to direct index target.
+                if client.indices.exists(index=alias):
+                    if _env_bool("OPENSEARCH_ALIAS_ALLOW_INDEX_CONFLICT_FALLBACK", default=True):
+                        return index_name(suffix)
+                # If alias does not exist yet, permissive mode falls back to direct index.
+                if _env_bool("OPENSEARCH_ALIAS_STRICT", default=False):
+                    return alias
+                return index_name(suffix)
+        except Exception:
+            if _env_bool("OPENSEARCH_ALIAS_STRICT", default=False):
+                return alias
+            return index_name(suffix)
     return index_name(suffix)
 
 
@@ -310,6 +330,7 @@ def _bootstrap_rollover_family(client, suffix: str, force_recreate: bool = False
 def ensure_opensearch_indexes() -> None:
     client = get_opensearch_client()
     use_aliases = aliases_enabled()
+    alias_bootstrap_ok = True
     required = [
         index_name("users"),
         index_name("embedding_sessions"),
@@ -324,8 +345,18 @@ def ensure_opensearch_indexes() -> None:
     force_recreate = _env_bool("OPENSEARCH_FORCE_RECREATE", default=False)
 
     if use_aliases:
-        _bootstrap_rollover_family(client, "documents", force_recreate=force_recreate)
-        _bootstrap_rollover_family(client, "embeddings", force_recreate=force_recreate)
+        try:
+            _bootstrap_rollover_family(client, "documents", force_recreate=force_recreate)
+            _bootstrap_rollover_family(client, "embeddings", force_recreate=force_recreate)
+        except Exception as e:
+            if _env_bool("OPENSEARCH_ALIAS_ALLOW_INDEX_CONFLICT_FALLBACK", default=True):
+                alias_bootstrap_ok = False
+                print(f"[opensearch_connector] WARN: alias bootstrap failed, falling back to direct index targets: {e}")
+            else:
+                raise
+
+    if use_aliases and not alias_bootstrap_ok:
+        required = [index_name("documents"), index_name("embeddings")] + required
 
     for idx in required:
         if client.indices.exists(index=idx) and force_recreate:
