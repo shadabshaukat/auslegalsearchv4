@@ -452,6 +452,8 @@ def _write_logs(log_dir: str, session_name: str, successes: List[str], failures:
     os.makedirs(log_dir, exist_ok=True)
     succ_path = os.path.join(log_dir, f"{session_name}.success.log")
     fail_path = os.path.join(log_dir, f"{session_name}.error.log")
+    failed_paths_path = os.path.join(log_dir, f"{session_name}.failed.paths.txt")
+    failed_ndjson_path = os.path.join(log_dir, f"{session_name}.failed.ndjson")
 
     # Ensure files exist
     try:
@@ -479,7 +481,26 @@ def _write_logs(log_dir: str, session_name: str, successes: List[str], failures:
     except Exception:
         pass
 
-    return {"success_log": succ_path, "error_log": fail_path}
+    # Write a de-duplicated failed-file list that can be reused as --partition_file.
+    try:
+        with open(failed_paths_path, "w", encoding="utf-8") as f:
+            for p in failures:
+                f.write(p + "\n")
+    except Exception:
+        pass
+
+    # Ensure failed NDJSON exists even on all-success runs.
+    try:
+        open(failed_ndjson_path, "a", encoding="utf-8").close()
+    except Exception:
+        pass
+
+    return {
+        "success_log": succ_path,
+        "error_log": fail_path,
+        "failed_paths_file": failed_paths_path,
+        "failed_ndjson": failed_ndjson_path,
+    }
 
 def _error_details_enabled() -> bool:
     return os.environ.get("AUSLEGALSEARCH_ERROR_DETAILS", "1") == "1"
@@ -515,6 +536,44 @@ def _append_error_detail(
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
     except Exception:
         # Never fail pipeline due to logging
+        pass
+
+
+def _append_failed_reingest_entry(
+    log_dir: str,
+    session_name: str,
+    file_path: str,
+    stage: str,
+    error_type: str,
+    message: str,
+    meta: Optional[Dict[str, Any]] = None,
+) -> None:
+    """
+    Real-time failed-file tracking for targeted re-ingestion.
+    Writes:
+      - {session}.failed.ndjson   (structured failure events)
+      - {session}.failed.paths.txt (one filepath per line; usable as --partition_file)
+    """
+    try:
+        os.makedirs(log_dir, exist_ok=True)
+        rec = {
+            "ts": int(time.time() * 1000),
+            "session": session_name,
+            "file": file_path,
+            "stage": stage,
+            "error_type": error_type,
+            "message": message,
+            "meta": meta or {},
+        }
+        ndjson_path = os.path.join(log_dir, f"{session_name}.failed.ndjson")
+        with open(ndjson_path, "a", encoding="utf-8") as f:
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+
+        paths_path = os.path.join(log_dir, f"{session_name}.failed.paths.txt")
+        with open(paths_path, "a", encoding="utf-8") as f:
+            f.write(file_path + "\n")
+    except Exception:
+        # Never fail ingest because of failure tracking I/O.
         pass
 
 
@@ -953,6 +1012,8 @@ def run_worker_pipelined(
     except Exception:
         _safe_db = DB_URL
     _succ_path = os.path.join(log_dir, f"{session_name}.success.log")
+    failed_paths_path = os.path.join(log_dir, f"{session_name}.failed.paths.txt")
+    failed_ndjson_path = os.path.join(log_dir, f"{session_name}.failed.ndjson")
     _err_path = os.path.join(log_dir, f"{session_name}.error.log")
     print(f"[beta_worker] {session_name}: DB = {_safe_db}", flush=True)
     print(f"[beta_worker] {session_name}: logs: success->{_succ_path}, error->{_err_path}", flush=True)
@@ -1713,6 +1774,15 @@ def run_worker_opensearch(
                 upsert_session_file_status(session_name, filepath, "error")
                 failures.append(filepath)
                 _append_log_line(log_dir, session_name, filepath, success=False)
+                _append_failed_reingest_entry(
+                    log_dir=log_dir,
+                    session_name=session_name,
+                    file_path=filepath,
+                    stage="parse",
+                    error_type="EmptyText",
+                    message="Parsed file has no text",
+                    meta={"parse_ms": parse_ms},
+                )
                 _append_metrics_ndjson(log_dir, session_name, {
                     "file": filepath,
                     "status": "error",
@@ -1834,6 +1904,21 @@ def run_worker_opensearch(
                 pass
             failures.append(filepath)
             _append_log_line(log_dir, session_name, filepath, success=False)
+            _append_failed_reingest_entry(
+                log_dir=log_dir,
+                session_name=session_name,
+                file_path=filepath,
+                stage="opensearch",
+                error_type=type(e).__name__,
+                message=str(e),
+                meta={
+                    "parse_ms": parse_ms,
+                    "chunk_ms": chunk_ms,
+                    "embed_ms": embed_ms,
+                    "index_ms": index_ms,
+                    "duration_ms": int((time.time() - t_file) * 1000),
+                },
+            )
             print(f"[beta_worker/opensearch] FAILED {idx_f}/{len(files)} -> {filepath}: {e}", flush=True)
             _append_metrics_ndjson(log_dir, session_name, {
                 "file": filepath,
@@ -1987,6 +2072,15 @@ def run_worker_opensearch_pipelined(
                         pass
                     failures.append(fp)
                     _append_log_line(log_dir, session_name, fp, success=False)
+                    _append_failed_reingest_entry(
+                        log_dir=log_dir,
+                        session_name=session_name,
+                        file_path=fp,
+                        stage="prep",
+                        error_type=type(e).__name__,
+                        message=str(e),
+                        meta={"duration_ms": int((time.time() - t_file) * 1000)},
+                    )
                     _append_metrics_ndjson(log_dir, session_name, {
                         "file": fp,
                         "status": "error",
@@ -2028,6 +2122,19 @@ def run_worker_opensearch_pipelined(
                     upsert_session_file_status(session_name, fp, "error")
                     failures.append(fp)
                     _append_log_line(log_dir, session_name, fp, success=False)
+                    _append_failed_reingest_entry(
+                        log_dir=log_dir,
+                        session_name=session_name,
+                        file_path=fp,
+                        stage="prep",
+                        error_type="PrepError",
+                        message=str(res.get("error") or ""),
+                        meta={
+                            "parse_ms": parse_ms,
+                            "chunk_ms": chunk_ms,
+                            "duration_ms": int((time.time() - t_file) * 1000),
+                        },
+                    )
                     _append_metrics_ndjson(log_dir, session_name, {
                         "file": fp,
                         "status": "error",
@@ -2104,6 +2211,21 @@ def run_worker_opensearch_pipelined(
                         pass
                     failures.append(fp)
                     _append_log_line(log_dir, session_name, fp, success=False)
+                    _append_failed_reingest_entry(
+                        log_dir=log_dir,
+                        session_name=session_name,
+                        file_path=fp,
+                        stage="opensearch",
+                        error_type=type(e).__name__,
+                        message=str(e),
+                        meta={
+                            "parse_ms": parse_ms,
+                            "chunk_ms": chunk_ms,
+                            "embed_ms": embed_ms,
+                            "index_ms": index_ms,
+                            "duration_ms": int((time.time() - t_file) * 1000),
+                        },
+                    )
                     _append_metrics_ndjson(log_dir, session_name, {
                         "file": fp,
                         "status": "error",

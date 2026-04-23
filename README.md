@@ -125,6 +125,7 @@ For production, secure endpoints behind WAF/reverse proxy and TLS. Store secrets
 - Streamlit UI (Login + Chat): [pages/README.md](pages/README.md)
 - Tools: SQL Latency Benchmark (p50/p95, vector/FTS/metadata, and optimized SQL scenarios): [tools/README-bench-sql-latency.md](tools/README-bench-sql-latency.md)
 - Tools: Delete by URL utility (single/bulk, with literal --show-sql): [tools/README-delete-url.md](tools/README-delete-url.md)
+- Tools index (including failed-file re-ingest helper): [tools/README.md](tools/README.md)
 - Post-load Indexing & Metadata Strategy (TB-scale): [schema-post-load/README.md](schema-post-load/README.md)
 - Optimized SQL templates (citation/name/title/source, ANN, grouping): [schema-post-load/optimized_sql.sql](schema-post-load/optimized_sql.sql)
 - Beta Data Load Guide (end-to-end ingest runbook): [docs/BetaDataLoad.md](docs/BetaDataLoad.md)
@@ -272,6 +273,31 @@ python3 -m ingest.beta_orchestrator \
   --resume \
   --log_dir "/abs/path/to/logs"
 ```
+
+OpenSearch failed-file re-ingest (new)
+- Workers now emit:
+  - `logs/<child-session>.failed.paths.txt` (retry partition source)
+  - `logs/<child-session>.failed.ndjson` (structured stage/error details)
+- OpenSearch bulk failures now include sampled item-level reasons in the worker error output.
+
+Retry directly from a worker failed list:
+```sh
+python3 -m ingest.beta_worker retry-gpu0 \
+  --partition_file "/abs/path/logs/<child-session>.failed.paths.txt" \
+  --model "nomic-ai/nomic-embed-text-v1.5" \
+  --target_tokens 3000 --overlap_tokens 250 --max_tokens 3500 \
+  --log_dir "/abs/path/logs"
+```
+
+Generate retry partitions automatically (single or multi-GPU) using helper tool:
+```sh
+python3 -m tools.reingest_failed \
+  --logs_dir "/abs/path/logs" \
+  --shards 4 --balance_by_size \
+  --print_worker_commands
+```
+
+For full options, see: `tools/reingest_failed.py` and `ingest/README.md`.
 
 PostgreSQL ingest (pgvector + FTS)
 ```sh

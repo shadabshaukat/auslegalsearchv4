@@ -1014,12 +1014,37 @@ def bulk_upsert_file_chunks_opensearch(
             "_source": emb_src,
         })
 
+    def _extract_error_reason(item: Any) -> str:
+        """Best-effort extraction of OpenSearch bulk item error reason."""
+        try:
+            if not isinstance(item, dict):
+                return str(item)
+            op_payload = next(iter(item.values())) if item else {}
+            if not isinstance(op_payload, dict):
+                return str(item)
+            err = op_payload.get("error")
+            if isinstance(err, dict):
+                typ = err.get("type")
+                reason = err.get("reason")
+                caused = err.get("caused_by") or {}
+                caused_reason = caused.get("reason") if isinstance(caused, dict) else None
+                parts = [p for p in [typ, reason, caused_reason] if p]
+                return " | ".join(parts) if parts else str(err)
+            if err:
+                return str(err)
+            if op_payload.get("status") and int(op_payload.get("status")) >= 300:
+                return f"status={op_payload.get('status')}"
+            return str(item)
+        except Exception:
+            return str(item)
+
     last_err = None
     for attempt in range(max(1, int(max_retries))):
         try:
             errors_count = 0
+            sample_errors: List[str] = []
             if bulk_concurrency > 1:
-                for ok, _ in parallel_bulk(
+                for ok, item in parallel_bulk(
                     client,
                     actions,
                     thread_count=bulk_concurrency,
@@ -1033,6 +1058,8 @@ def bulk_upsert_file_chunks_opensearch(
                 ):
                     if not ok:
                         errors_count += 1
+                        if len(sample_errors) < 8:
+                            sample_errors.append(_extract_error_reason(item))
             else:
                 _, errors = bulk(
                     client,
@@ -1045,9 +1072,13 @@ def bulk_upsert_file_chunks_opensearch(
                     raise_on_exception=False,
                 )
                 errors_count = len(errors or [])
+                if errors:
+                    for e in errors[:8]:
+                        sample_errors.append(_extract_error_reason(e))
 
             if errors_count > 0:
-                raise RuntimeError(f"bulk upsert errors: {errors_count} failures")
+                sample = "; ".join(sample_errors[:5]) if sample_errors else "no detailed error payload"
+                raise RuntimeError(f"bulk upsert errors: {errors_count} failures; sample={sample}")
             return len(chunks)
         except Exception as e:
             last_err = e

@@ -152,6 +152,12 @@ OpenSearch ingest options
 - OPENSEARCH_INGEST_STATE_INDEX (default `auslegalsearch_ingest_state`)
   - Index name used for OpenSearch-backed ingest state KV docs.
 
+Failed-file retry outputs (new)
+- Every worker now emits retry artifacts for targeted re-ingest:
+  - `{session}.failed.paths.txt` — one failed filepath per line (reusable as `--partition_file`)
+  - `{session}.failed.ndjson` — structured failure events with `stage`, `error_type`, `message`, and timings metadata
+- OpenSearch bulk failures now include sampled per-item error reasons (mapping reject, circuit-breaker, payload, etc.) from the OpenSearch bulk response.
+
 
 ## Quickstart
 
@@ -271,6 +277,8 @@ Per-child logs under --log_dir:
   - Example fields: filepath, chunks, text_len, strategy, target/overlap/max_tokens, type, section_count, tokens_est_total/mean, parse_ms/chunk_ms/embed_ms/insert_ms
 - {child}.error.log — filepaths that failed
 - {child}.errors.ndjson — structured error records (AUSLEGALSEARCH_ERROR_DETAILS=1)
+- {child}.failed.paths.txt — deduplicated failed file paths for direct re-ingestion
+- {child}.failed.ndjson — real-time structured failed-file events (stage + detailed message)
 - Child footers: # summary files_ok=... or files_failed=...
 - Orchestrator (wait mode): master {session}.success.log and {session}.error.log with header:
   - session, started_at (UTC), ended_at (UTC), duration_sec, child_sessions, files_ok/failed
@@ -312,6 +320,55 @@ Per-child logs under --log_dir:
   - Success is recorded with 0 chunks; verify loader/HTML parsing and content quality
 - Slow ingestion:
   - Increase CPU workers (bounded), ensure fast storage for data and HF cache, tune batch size and chunk sizes
+
+- OpenSearch error only shows failure count:
+  - New bulk error message now includes sampled item-level reasons (from OpenSearch response payload)
+  - Check `{child}.failed.ndjson` for exact file + stage context and use `{child}.failed.paths.txt` for retries
+
+
+## Re-ingesting failed files (recommended)
+
+### Option A: direct retry from worker output
+
+If you already have a worker failed-path file:
+
+```bash
+python3 -m ingest.beta_worker retry-gpu0 \
+  --partition_file "/abs/path/logs/<child-session>.failed.paths.txt" \
+  --model "nomic-ai/nomic-embed-text-v1.5" \
+  --target_tokens 3000 --overlap_tokens 250 --max_tokens 3500 \
+  --log_dir "/abs/path/logs"
+```
+
+### Option B: use helper tool to shard failures across GPUs
+
+Generate retry partitions from latest failed list:
+
+```bash
+python3 -m tools.reingest_failed \
+  --logs_dir "/abs/path/logs" \
+  --shards 4 --balance_by_size \
+  --print_worker_commands
+```
+
+Use a specific session’s failed list:
+
+```bash
+python3 -m tools.reingest_failed \
+  --logs_dir "/abs/path/logs" \
+  --session "os-full-20260423-0001-gpu0" \
+  --shards 4 --balance_by_size \
+  --output_dir "/abs/path/auslegalsearchv4" \
+  --output_prefix "retry-os-full-gpu0" \
+  --print_worker_commands
+```
+
+This writes partition files like:
+- `.beta-gpu-partition-retry-os-full-gpu0-shard0.txt`
+- `.beta-gpu-partition-retry-os-full-gpu0-shard1.txt`
+- ...
+
+Then run each printed worker command (one per GPU shard).
 
 
 ## DB sanity checks (psql)

@@ -29,6 +29,12 @@ Available tools and documentation:
   - Example:
     - `python -m tools.opensearch_bootstrap_ilm --policy-id auslegalsearch-hot-warm --min-rollover-age 7d --min-warm-age 30d`
 
+- Re-ingest Failed Files Helper
+  - Script: reingest_failed.py
+  - Purpose: read `*.failed.paths.txt` from ingestion logs and generate retry partition files (single or multi-shard)
+  - Example:
+    - `python -m tools.reingest_failed --logs_dir ./logs --session os-full-20260423-0001-gpu0 --shards 4 --balance_by_size --print_worker_commands`
+
 Notes:
 - All tools inherit database configuration via the shared connector (db/connector.py) and .env. Recommended:
   set -a; source .env; set +a

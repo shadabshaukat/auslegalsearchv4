@@ -356,6 +356,13 @@ Implemented components:
   - embeddings: `embedding_key`, `doc_key`, `text_preview`
   - documents: `doc_key`, `chunk_index`
 
+5. OpenSearch failure diagnostics + targeted retry artifacts
+- `db/store.py::bulk_upsert_file_chunks_opensearch(...)` now extracts and surfaces sampled item-level OpenSearch bulk failure reasons (type/reason/caused_by) in raised errors.
+- `ingest/beta_worker.py` now writes real-time retry artifacts per worker session:
+  - `{session}.failed.paths.txt` (failed paths, reusable as `--partition_file`)
+  - `{session}.failed.ndjson` (structured failed-file event stream with stage/error metadata)
+- Added helper tool `tools/reingest_failed.py` to generate retry partition files (single or multi-shard, optional size balancing) and print worker relaunch commands.
+
 4. Search path alignment updates
 - BM25/FTS paths now consider `text_preview`.
 - Vector/BM25 text enrichment now resolves missing full content via documents index.
@@ -510,6 +517,20 @@ Result: **header-derived metadata is preserved and indexed** in current ingestio
 
 Overall: the pipeline now has **multi-GPU + CPU-prep parallelism + configurable OpenSearch bulk parallelism**.
 
+## 7.7 Failed-file re-ingestion workflow (implemented)
+
+For OpenSearch ingest sessions, worker logs now support first-class retry loops:
+
+1. During failures, worker appends structured events to:
+   - `{session}.failed.ndjson`
+2. Worker writes failed file path list to:
+   - `{session}.failed.paths.txt`
+3. Operators can:
+   - re-run directly with `--partition_file <session>.failed.paths.txt`, or
+   - use `python -m tools.reingest_failed --shards N --balance_by_size` for multi-GPU retry partitioning.
+
+This closes the previous observability gap where OpenSearch bulk failures only surfaced as failure counts without per-item cause hints.
+
 ## 7.6 Benchmark snapshot (2026-04-22/23, OpenSearch backend)
 
 Environment validated after torch/CUDA correction:
@@ -581,6 +602,7 @@ Use this checklist before each release:
 | 2026-04-22 | Scale plan | Added this specification file with 1M/8M optimization roadmap | Implemented | Track future changes here |
 | 2026-04-22 | P1 implementation | Added alias-based docs/embeddings routing, startup alias validation, rollover helper, and ISM bootstrap tooling | Implemented | `db/opensearch_connector.py`, `db/store.py`, `tools/opensearch_rollover.py`, `tools/opensearch_bootstrap_ilm.py` |
 | 2026-04-23 | Benchmarking | Added GPU/CUDA validation + OpenSearch ingest throughput snapshot + 8M extrapolation | Implemented | See `BENCHMARKING.md` and section 7.6 |
+| 2026-04-23 | OpenSearch ingest resilience | Added bulk per-item error sampling, real-time failed-file artifacts, and retry partition helper tool | Implemented | `db/store.py`, `ingest/beta_worker.py`, `tools/reingest_failed.py`, README updates |
 
 ---
 
