@@ -299,6 +299,8 @@ def _metrics_enabled() -> bool:
 
 
 def _os_metrics_ndjson_enabled() -> bool:
+    if _throughput_mode_enabled():
+        return False
     return os.environ.get("OS_METRICS_NDJSON", "0") == "1"
 
 
@@ -319,6 +321,11 @@ def _append_metrics_ndjson(log_dir: str, session_name: str, record: Dict[str, An
 
 def _truthy(v: Optional[str]) -> bool:
     return str(v or "").strip().lower() in {"1", "true", "yes", "y", "on"}
+
+
+def _throughput_mode_enabled() -> bool:
+    """High-throughput ingest mode toggle for OpenSearch workers."""
+    return _truthy(os.environ.get("AUSLEGALSEARCH_MAX_THROUGHPUT_MODE", "0"))
 
 
 def _completed_from_success_logs(log_dir: str) -> set:
@@ -630,6 +637,81 @@ def _embed_in_batches(embedder: Embedder, texts: List[str], batch_size: int) -> 
                 # Non-OOM error: propagate
                 raise
     return all_vecs
+
+
+def _resolve_os_stream_flush_size(total_chunks: int) -> int:
+    """
+    Per-file streaming sub-batch size for OpenSearch embed+index stage.
+    - AUSLEGALSEARCH_OS_STREAM_CHUNK_FLUSH_SIZE > 0: explicit value
+    - throughput mode: default to 1200
+    - otherwise: process whole file in one window (legacy behavior)
+    """
+    try:
+        cfg = int(os.environ.get("AUSLEGALSEARCH_OS_STREAM_CHUNK_FLUSH_SIZE", "0"))
+    except Exception:
+        cfg = 0
+    if cfg > 0:
+        return max(1, cfg)
+    if _throughput_mode_enabled():
+        return 1200
+    return max(1, int(total_chunks or 1))
+
+
+def _embed_and_index_file_chunks_opensearch(
+    *,
+    embedder: Embedder,
+    source_path: str,
+    fmt: str,
+    file_chunks: List[Dict[str, Any]],
+    batch_size: int,
+    insert_retries: int,
+) -> (int, int, int):
+    """
+    Stream file chunks through embed->index windows to reduce memory spikes and
+    head-of-line blocking for very large files.
+    Returns: (inserted_total, embed_ms_total, index_ms_total)
+    """
+    if not file_chunks:
+        return 0, 0, 0
+
+    window_size = _resolve_os_stream_flush_size(len(file_chunks))
+    inserted_total = 0
+    embed_ms_total = 0
+    index_ms_total = 0
+
+    for start in range(0, len(file_chunks), window_size):
+        sub_chunks = file_chunks[start:start + window_size]
+        texts = [c.get("text", "") for c in sub_chunks]
+
+        t2 = time.time()
+        with _deadline(EMBED_BATCH_TIMEOUT):
+            sub_vecs = _embed_in_batches(embedder, texts, batch_size=batch_size)
+        embed_ms_total += int((time.time() - t2) * 1000)
+
+        inserted_win = 0
+        for attempt in range(max(1, insert_retries)):
+            try:
+                t3 = time.time()
+                with _deadline(INSERT_TIMEOUT):
+                    inserted_win = bulk_upsert_file_chunks_opensearch(
+                        source_path=source_path,
+                        fmt=fmt,
+                        chunks=sub_chunks,
+                        vectors=sub_vecs,
+                        max_retries=max(1, insert_retries),
+                        chunk_start_index=start,
+                    )
+                index_ms_total += int((time.time() - t3) * 1000)
+                break
+            except Exception:
+                if attempt + 1 < max(1, insert_retries):
+                    time.sleep(min(8, 2 ** attempt))
+                else:
+                    raise
+
+        inserted_total += inserted_win
+
+    return inserted_total, embed_ms_total, index_ms_total
 
 
 def _db_insert_with_retry(
@@ -1736,7 +1818,7 @@ def run_worker_opensearch(
     processed_chunks = 0
     successes: List[str] = []
     failures: List[str] = []
-    state = _OpenSearchIngestState(enabled=_truthy(os.environ.get("OS_INGEST_STATE_ENABLE")))
+    state = _OpenSearchIngestState(enabled=_truthy(os.environ.get("OS_INGEST_STATE_ENABLE")) and not _throughput_mode_enabled())
     state.upsert(f"{session_name}::summary", {
         "type": "session",
         "session": session_name,
@@ -1843,36 +1925,16 @@ def run_worker_opensearch(
                 })
                 continue
 
-            texts = [c["text"] for c in file_chunks]
             fmt = base_doc.get("format", Path(filepath).suffix.lower().strip("."))
 
-            t2 = time.time()
-            with _deadline(EMBED_BATCH_TIMEOUT):
-                vecs = _embed_in_batches(embedder, texts, batch_size=batch_size)
-            embed_ms = int((time.time() - t2) * 1000)
-
-            inserted = 0
-            last_err = None
-            for attempt in range(max(1, insert_retries)):
-                try:
-                    t3 = time.time()
-                    with _deadline(INSERT_TIMEOUT):
-                        inserted = bulk_upsert_file_chunks_opensearch(
-                            source_path=filepath,
-                            fmt=fmt,
-                            chunks=file_chunks,
-                            vectors=vecs,
-                            max_retries=max(1, insert_retries),
-                        )
-                    index_ms = int((time.time() - t3) * 1000)
-                    last_err = None
-                    break
-                except Exception as e:
-                    last_err = e
-                    if attempt + 1 < max(1, insert_retries):
-                        time.sleep(min(8, 2 ** attempt))
-                    else:
-                        raise
+            inserted, embed_ms, index_ms = _embed_and_index_file_chunks_opensearch(
+                embedder=embedder,
+                source_path=filepath,
+                fmt=fmt,
+                file_chunks=file_chunks,
+                batch_size=batch_size,
+                insert_retries=insert_retries,
+            )
 
             processed_chunks += inserted
             upsert_session_file_status(session_name, filepath, "complete")
@@ -2002,7 +2064,7 @@ def run_worker_opensearch_pipelined(
     processed_chunks = 0
     successes: List[str] = []
     failures: List[str] = []
-    state = _OpenSearchIngestState(enabled=_truthy(os.environ.get("OS_INGEST_STATE_ENABLE")))
+    state = _OpenSearchIngestState(enabled=_truthy(os.environ.get("OS_INGEST_STATE_ENABLE")) and not _throughput_mode_enabled())
     state.upsert(f"{session_name}::summary", {
         "type": "session",
         "session": session_name,
@@ -2153,33 +2215,15 @@ def run_worker_opensearch_pipelined(
 
                 file_chunks = res.get("chunks") or []
                 fmt = res.get("format") or Path(fp).suffix.lower().strip(".")
-                texts = [c.get("text", "") for c in file_chunks]
-
                 try:
-                    t2 = time.time()
-                    with _deadline(EMBED_BATCH_TIMEOUT):
-                        vecs = _embed_in_batches(embedder, texts, batch_size=batch_size)
-                    embed_ms = int((time.time() - t2) * 1000)
-
-                    inserted = 0
-                    for attempt in range(max(1, insert_retries)):
-                        try:
-                            t3 = time.time()
-                            with _deadline(INSERT_TIMEOUT):
-                                inserted = bulk_upsert_file_chunks_opensearch(
-                                    source_path=fp,
-                                    fmt=fmt,
-                                    chunks=file_chunks,
-                                    vectors=vecs,
-                                    max_retries=max(1, insert_retries),
-                                )
-                            index_ms = int((time.time() - t3) * 1000)
-                            break
-                        except Exception:
-                            if attempt + 1 < max(1, insert_retries):
-                                time.sleep(min(8, 2 ** attempt))
-                            else:
-                                raise
+                    inserted, embed_ms, index_ms = _embed_and_index_file_chunks_opensearch(
+                        embedder=embedder,
+                        source_path=fp,
+                        fmt=fmt,
+                        file_chunks=file_chunks,
+                        batch_size=batch_size,
+                        insert_retries=insert_retries,
+                    )
 
                     processed_chunks += inserted
                     upsert_session_file_status(session_name, fp, "complete")

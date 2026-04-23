@@ -35,6 +35,36 @@ Available tools and documentation:
   - Example:
     - `python -m tools.reingest_failed --logs_dir ./logs --session os-full-20260423-0001-gpu0 --shards 4 --balance_by_size --print_worker_commands`
 
+- Quick Benchmark Plan Generator
+  - Script: quick_benchmark_plan.py
+  - Purpose: print a small benchmark matrix (baseline + tuning scenarios) for OpenSearch ingest throughput testing
+  - Example:
+    - `python -m tools.quick_benchmark_plan --root /abs/path/Data_for_Beta_Launch --log-dir /abs/path/logs --session-prefix os-bench`
+
+- Benchmark Results Collector
+  - Script: collect_benchmark_results.py
+  - Purpose: aggregate orchestrator master logs into comparable throughput/failure summary table
+  - Example:
+    - `python -m tools.collect_benchmark_results --log-dir /abs/path/logs --session-prefix os-bench --top 10`
+
+- Ingest Telemetry Report
+  - Script: ingest_telemetry_report.py
+  - Purpose: aggregate worker `*.metrics.ndjson` + `*.errors.ndjson` into per-stage throughput/timing/error summaries
+  - Example:
+    - `python -m tools.ingest_telemetry_report --log-dir /abs/path/logs --session-prefix os-bench --json`
+
+- Search Benchmark Harness
+  - Script: benchmark_search_harness.py
+  - Purpose: benchmark vector/BM25/hybrid latency and overlap-based recall proxies across query sets
+  - Example:
+    - `python -m tools.benchmark_search_harness --queries-file ./queries.txt --top-k 10 --repeat 3 --json`
+
+- Search Parity Checker
+  - Script: check_search_parity.py
+  - Purpose: compare result field-shape/count parity between two backends (e.g., postgres vs opensearch)
+  - Example:
+    - `python -m tools.check_search_parity --query "duty of care negligence" --top-k 5 --backend-a postgres --backend-b opensearch`
+
 Notes:
 - All tools inherit database configuration via the shared connector (db/connector.py) and .env. Recommended:
   set -a; source .env; set +a

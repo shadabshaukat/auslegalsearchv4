@@ -262,8 +262,15 @@ OpenSearch full ingest (direct to OpenSearch backend)
 ```sh
 export AUSLEGALSEARCH_STORAGE_BACKEND=opensearch
 export OPENSEARCH_TUNE_INDEX=1
-export OS_METRICS_NDJSON=1
-export OS_INGEST_STATE_ENABLE=1
+export AUSLEGALSEARCH_MAX_THROUGHPUT_MODE=1
+export AUSLEGALSEARCH_OS_STREAM_CHUNK_FLUSH_SIZE=1200
+export AUSLEGALSEARCH_LOG_METRICS=0
+export OS_METRICS_NDJSON=0
+export OS_INGEST_STATE_ENABLE=0
+export OPENSEARCH_BULK_CHUNK_SIZE=1000
+export OPENSEARCH_BULK_MAX_BYTES=104857600
+export OPENSEARCH_BULK_CONCURRENCY=4
+export OPENSEARCH_BULK_QUEUE_SIZE=16
 
 python3 -m ingest.beta_orchestrator \
   --root "/path/to/Data_for_Beta_Launch" \
@@ -273,6 +280,10 @@ python3 -m ingest.beta_orchestrator \
   --resume \
   --log_dir "/abs/path/to/logs"
 ```
+
+Max-throughput profile notes
+- `AUSLEGALSEARCH_MAX_THROUGHPUT_MODE=1` disables optional per-file metrics/state writes in worker path for faster sustained ingestion.
+- `AUSLEGALSEARCH_OS_STREAM_CHUNK_FLUSH_SIZE=1200` enables per-file streaming embed/index windows to reduce large-file head-of-line stalls.
 
 OpenSearch failed-file re-ingest (new)
 - Workers now emit:

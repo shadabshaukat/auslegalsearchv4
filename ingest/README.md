@@ -151,6 +151,13 @@ OpenSearch ingest options
   - Writes lightweight OpenSearch ingest progress docs (`session` + `file`) into `OPENSEARCH_INGEST_STATE_INDEX`.
 - OPENSEARCH_INGEST_STATE_INDEX (default `auslegalsearch_ingest_state`)
   - Index name used for OpenSearch-backed ingest state KV docs.
+- AUSLEGALSEARCH_MAX_THROUGHPUT_MODE=1
+  - Throughput-first worker mode:
+    - disables metrics ndjson writes,
+    - disables ingest-state upserts,
+    - enables default streaming embed/index flush windows for large files.
+- AUSLEGALSEARCH_OS_STREAM_CHUNK_FLUSH_SIZE=1200
+  - Chunks per embed/index window for a single file (0=auto).
 
 Failed-file retry outputs (new)
 - Every worker now emits retry artifacts for targeted re-ingest:
@@ -171,12 +178,19 @@ python3 -m ingest.beta_orchestrator \
   --log_dir "/abs/path/to/logs"
 ```
 
-OpenSearch ingest with resume, metrics, and state index
+OpenSearch ingest (max-throughput profile)
 ```bash
 export AUSLEGALSEARCH_STORAGE_BACKEND=opensearch
 export OPENSEARCH_TUNE_INDEX=1
-export OS_METRICS_NDJSON=1
-export OS_INGEST_STATE_ENABLE=1
+export AUSLEGALSEARCH_MAX_THROUGHPUT_MODE=1
+export AUSLEGALSEARCH_OS_STREAM_CHUNK_FLUSH_SIZE=1200
+export AUSLEGALSEARCH_LOG_METRICS=0
+export OS_METRICS_NDJSON=0
+export OS_INGEST_STATE_ENABLE=0
+export OPENSEARCH_BULK_CHUNK_SIZE=1000
+export OPENSEARCH_BULK_MAX_BYTES=104857600
+export OPENSEARCH_BULK_CONCURRENCY=4
+export OPENSEARCH_BULK_QUEUE_SIZE=16
 
 python3 -m ingest.beta_orchestrator \
   --root "/path/to/Data_for_Beta_Launch" \
@@ -303,6 +317,18 @@ Per-child logs under --log_dir:
 - Model caching: set HF_HOME to fast SSD; warm model
 - CPU workers/prefetch: default CPU_WORKERS = min(8, cores-1); PIPELINE_PREFETCH=64 keeps GPU fed
 - Increase AUSLEGALSEARCH_TIMEOUT_CHUNK moderately for very long/complex documents if you see timeouts
+
+Suggested max-throughput env profile
+- `AUSLEGALSEARCH_MAX_THROUGHPUT_MODE=1`
+- `AUSLEGALSEARCH_OS_STREAM_CHUNK_FLUSH_SIZE=1200`
+- `AUSLEGALSEARCH_EMBED_BATCH=96` (or 128 if VRAM allows)
+- `AUSLEGALSEARCH_CPU_WORKERS=6`
+- `AUSLEGALSEARCH_PIPELINE_PREFETCH=96`
+- `OPENSEARCH_BULK_CHUNK_SIZE=1000`
+- `OPENSEARCH_BULK_MAX_BYTES=104857600`
+- `OPENSEARCH_BULK_CONCURRENCY=4`
+- `OPENSEARCH_BULK_QUEUE_SIZE=16`
+- `AUSLEGALSEARCH_LOG_METRICS=0`, `OS_METRICS_NDJSON=0`, `OS_INGEST_STATE_ENABLE=0`
 
 
 ## Troubleshooting

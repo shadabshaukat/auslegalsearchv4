@@ -116,6 +116,52 @@ def _chunk_doc_key(source: str, chunk_index: int, text: str) -> str:
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()
 
 
+def _percentile(values, p: float) -> float:
+    vals = sorted([float(v) for v in (values or [])])
+    if not vals:
+        return 0.0
+    if len(vals) == 1:
+        return vals[0]
+    p = max(0.0, min(100.0, float(p)))
+    pos = (len(vals) - 1) * (p / 100.0)
+    lo = int(pos)
+    hi = min(len(vals) - 1, lo + 1)
+    if lo == hi:
+        return vals[lo]
+    frac = pos - lo
+    return vals[lo] * (1.0 - frac) + vals[hi] * frac
+
+
+def _normalize_scores_distribution(scores, low_p: float = 5.0, high_p: float = 95.0):
+    """
+    Distribution-aware normalization:
+    - percentile clipping to reduce outlier domination
+    - linear scale to [0,1] on clipped range
+    """
+    vals = [float(v) for v in (scores or [])]
+    if not vals:
+        return []
+    if len(vals) < 3:
+        mn, mx = min(vals), max(vals)
+        if mx <= mn:
+            return [1.0 if v > 0 else 0.0 for v in vals]
+        return [(v - mn) / (mx - mn) for v in vals]
+
+    lo = _percentile(vals, low_p)
+    hi = _percentile(vals, high_p)
+    if hi <= lo:
+        mn, mx = min(vals), max(vals)
+        if mx <= mn:
+            return [1.0 if v > 0 else 0.0 for v in vals]
+        return [(v - mn) / (mx - mn) for v in vals]
+
+    out = []
+    for v in vals:
+        vv = min(max(v, lo), hi)
+        out.append((vv - lo) / (hi - lo))
+    return out
+
+
 def _os_next_id(counter_key: str) -> int:
     client = _os_client()
     counters = _os_idx("counters")
@@ -936,6 +982,7 @@ def bulk_upsert_file_chunks_opensearch(
     chunks,
     vectors,
     max_retries: int = 3,
+    chunk_start_index: int = 0,
 ) -> int:
     """High-throughput, idempotent bulk writer for OpenSearch chunk ingestion."""
     if not _is_opensearch():
@@ -968,12 +1015,13 @@ def bulk_upsert_file_chunks_opensearch(
 
     actions = []
     for i, chunk in enumerate(chunks):
+        abs_i = int(chunk_start_index) + int(i)
         text_body = chunk.get("text", "")
         md = chunk.get("chunk_metadata") or {}
 
-        doc_key = _chunk_doc_key(source_path, int(i), text_body)
+        doc_key = _chunk_doc_key(source_path, abs_i, text_body)
         doc_id = _stable_int_id("doc:" + doc_key)
-        emb_key = hashlib.sha1(f"{doc_key}|{int(i)}".encode("utf-8")).hexdigest()
+        emb_key = hashlib.sha1(f"{doc_key}|{abs_i}".encode("utf-8")).hexdigest()
         emb_id = _stable_int_id("emb:" + emb_key)
 
         actions.append({
@@ -983,7 +1031,7 @@ def bulk_upsert_file_chunks_opensearch(
             "_source": {
                 "doc_id": int(doc_id),
                 "doc_key": doc_key,
-                "chunk_index": int(i),
+                "chunk_index": abs_i,
                 "source": source_path,
                 "content": text_body,
                 "format": fmt,
@@ -996,7 +1044,7 @@ def bulk_upsert_file_chunks_opensearch(
             "embedding_key": emb_key,
             "doc_id": int(doc_id),
             "doc_key": doc_key,
-            "chunk_index": int(i),
+            "chunk_index": abs_i,
             "vector": list(vectors[i]),
             "chunk_metadata": md,
             "source": source_path,
@@ -1188,14 +1236,15 @@ def search_hybrid(query, top_k=5, alpha=0.5):
             else:
                 all_hits[key] = {**h, "vector_score": 0.0, "bm25_score": float(h.get("score", 0.0)), "hybrid_score": 0.0}
 
-        vec_scores = [v.get("vector_score", 0.0) for v in all_hits.values()]
-        bm_scores = [v.get("bm25_score", 0.0) for v in all_hits.values()]
-        vmin, vmax = (min(vec_scores), max(vec_scores)) if vec_scores else (0.0, 1.0)
-        bmin, bmax = (min(bm_scores), max(bm_scores)) if bm_scores else (0.0, 1.0)
-        for v in all_hits.values():
-            v_norm = (v.get("vector_score", 0.0) - vmin) / (vmax - vmin) if vmax > vmin else float(v.get("vector_score", 0.0) > 0)
-            b_norm = (v.get("bm25_score", 0.0) - bmin) / (bmax - bmin) if bmax > bmin else float(v.get("bm25_score", 0.0) > 0)
-            v["hybrid_score"] = alpha * v_norm + (1 - alpha) * b_norm
+        keys = list(all_hits.keys())
+        vec_scores = [all_hits[k].get("vector_score", 0.0) for k in keys]
+        bm_scores = [all_hits[k].get("bm25_score", 0.0) for k in keys]
+        vec_norm = _normalize_scores_distribution(vec_scores)
+        bm_norm = _normalize_scores_distribution(bm_scores)
+        for i, k in enumerate(keys):
+            v_norm = vec_norm[i] if i < len(vec_norm) else 0.0
+            b_norm = bm_norm[i] if i < len(bm_norm) else 0.0
+            all_hits[k]["hybrid_score"] = alpha * v_norm + (1 - alpha) * b_norm
 
         results = sorted(all_hits.values(), key=lambda x: x.get("hybrid_score", 0.0), reverse=True)[:top_k]
         for r in results:

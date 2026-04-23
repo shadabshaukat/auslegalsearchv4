@@ -350,6 +350,13 @@ Implemented components:
 - OpenSearch worker now uses **bulk upsert per file** (replacing row-by-row inserts).
 - Added stage deadlines and retries for parse/chunk/embed/insert in OpenSearch mode.
 - Added optional RCTS fallback + naive fallback in OpenSearch path for chunking resilience.
+- Added streaming embed/index windows for large files via:
+  - `AUSLEGALSEARCH_OS_STREAM_CHUNK_FLUSH_SIZE`
+  - helper `_embed_and_index_file_chunks_opensearch(...)`
+  (reduces per-file head-of-line blocking and memory spikes).
+- Added max-throughput mode gate:
+  - `AUSLEGALSEARCH_MAX_THROUGHPUT_MODE=1`
+  - disables OpenSearch ingest-state writes and metrics NDJSON writes in worker path.
 
 3. `db/opensearch_connector.py`
 - Extended OpenSearch mappings for new fields used by optimized path:
@@ -366,6 +373,7 @@ Implemented components:
 4. Search path alignment updates
 - BM25/FTS paths now consider `text_preview`.
 - Vector/BM25 text enrichment now resolves missing full content via documents index.
+- OpenSearch hybrid ranking normalization updated from simple min-max to percentile-clipped distribution-aware normalization to reduce outlier score skew at scale.
 
 ### Operational notes for rollout
 - Existing indexes created before this change may not have ideal explicit mappings for new fields.
@@ -531,6 +539,21 @@ For OpenSearch ingest sessions, worker logs now support first-class retry loops:
 
 This closes the previous observability gap where OpenSearch bulk failures only surfaced as failure counts without per-item cause hints.
 
+## 7.8 Max-throughput mode profile (implemented)
+
+P0 throughput-first mode is now available for OpenSearch ingestion windows:
+
+- `AUSLEGALSEARCH_MAX_THROUGHPUT_MODE=1`
+  - disables `OS_METRICS_NDJSON` output in worker path,
+  - disables `OS_INGEST_STATE_ENABLE` state upserts in worker path,
+  - defaults streaming flush size to 1200 chunks when no explicit flush size is set.
+
+- `AUSLEGALSEARCH_OS_STREAM_CHUNK_FLUSH_SIZE`
+  - explicit per-file embed/index window size (chunks per window)
+  - allows chunk streaming through GPU embed + OpenSearch bulk stages.
+
+This closes a key performance gap where very large files previously required full-file embed/index barriers.
+
 ## 7.6 Benchmark snapshot (2026-04-22/23, OpenSearch backend)
 
 Environment validated after torch/CUDA correction:
@@ -575,6 +598,14 @@ Notes:
 - Add benchmark harness for OpenSearch ANN+hybrid latency and recall.
 - Add ingestion telemetry sink (per-stage throughput, failures, retry counts).
 
+### P2 implementation status (initial tooling delivered)
+- Added `tools/check_search_parity.py`
+  - runs backend A/B search calls in isolated subprocesses and compares result field-shape/counts by mode (vector/bm25/hybrid/fts).
+- Added `tools/benchmark_search_harness.py`
+  - benchmarks vector/BM25/hybrid latency and reports overlap-based recall proxies (`hybrid∩vector`, `hybrid∩bm25`) over query sets.
+- Added `tools/ingest_telemetry_report.py`
+  - aggregates `*.metrics.ndjson` + `*.errors.ndjson` for per-stage averages (`parse/chunk/embed/insert`), throughput estimates, and error breakdowns.
+
 ---
 
 ## 8) OpenSearch Parity Verification Checklist
@@ -603,6 +634,8 @@ Use this checklist before each release:
 | 2026-04-22 | P1 implementation | Added alias-based docs/embeddings routing, startup alias validation, rollover helper, and ISM bootstrap tooling | Implemented | `db/opensearch_connector.py`, `db/store.py`, `tools/opensearch_rollover.py`, `tools/opensearch_bootstrap_ilm.py` |
 | 2026-04-23 | Benchmarking | Added GPU/CUDA validation + OpenSearch ingest throughput snapshot + 8M extrapolation | Implemented | See `BENCHMARKING.md` and section 7.6 |
 | 2026-04-23 | OpenSearch ingest resilience | Added bulk per-item error sampling, real-time failed-file artifacts, and retry partition helper tool | Implemented | `db/store.py`, `ingest/beta_worker.py`, `tools/reingest_failed.py`, README updates |
+| 2026-04-23 | P0 throughput mode | Added streaming chunk windows, chunk_start_index stability, and max-throughput worker mode to reduce ingest overhead | Implemented | `ingest/beta_worker.py`, `db/store.py`, `.env`, BENCHMARKING/README/ingest docs |
+| 2026-04-23 | P1 ranking + benchmarking utility | Added distribution-aware hybrid score normalization and quick benchmark plan generator script | Implemented | `db/store.py`, `tools/quick_benchmark_plan.py`, docs updates |
 
 ---
 

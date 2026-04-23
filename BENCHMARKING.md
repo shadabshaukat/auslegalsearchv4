@@ -142,3 +142,111 @@ Best practice for this stack:
   - assert `torch.cuda.is_available()` and expected GPU count.
 
 Docker does **not** replace NVIDIA driver requirements on host, but it greatly reduces environment drift and repeatability issues.
+
+---
+
+## 8) P0 implemented: streaming + max-throughput mode
+
+Implemented first-pass P0 changes for ingestion throughput:
+
+1. **Streaming embed/index windows per file (large-file friendly)**
+   - Worker now supports sub-batch processing of a single file’s chunks instead of forcing full-file embed+index in one shot.
+   - New env:
+     - `AUSLEGALSEARCH_OS_STREAM_CHUNK_FLUSH_SIZE`
+       - `>0`: explicit chunks/window
+       - `0`: auto (uses full-file window unless max-throughput mode is enabled)
+
+2. **Stable chunk indexing across streamed windows**
+   - `db/store.py::bulk_upsert_file_chunks_opensearch(...)` now accepts `chunk_start_index`.
+   - Ensures `doc_key/embedding_key/chunk_index` remain deterministic when processing files in multiple windows.
+
+3. **Max-throughput mode toggle**
+   - New env:
+     - `AUSLEGALSEARCH_MAX_THROUGHPUT_MODE=1`
+   - Behavior in this mode:
+     - disables metrics NDJSON writes
+     - disables ingest-state OpenSearch writes
+     - defaults streaming window size to 1200 chunks (when flush size env not explicitly set)
+
+4. **Current baseline profile in `.env` updated for throughput windows**
+   - `AUSLEGALSEARCH_MAX_THROUGHPUT_MODE=1`
+   - `AUSLEGALSEARCH_OS_STREAM_CHUNK_FLUSH_SIZE=1200`
+   - `AUSLEGALSEARCH_LOG_METRICS=0`
+   - `OS_METRICS_NDJSON=0`
+   - `OS_INGEST_STATE_ENABLE=0`
+
+---
+
+## 9) Suggested max-throughput profile (recommended test matrix)
+
+Use this profile for ingestion benchmark runs (then tune one variable at a time):
+
+```env
+# backend + ingest tuning
+AUSLEGALSEARCH_STORAGE_BACKEND=opensearch
+OPENSEARCH_TUNE_INDEX=1
+OPENSEARCH_ENFORCE_SHARDS=0
+
+# bulk write tuning
+OPENSEARCH_BULK_CHUNK_SIZE=1000
+OPENSEARCH_BULK_MAX_BYTES=104857600
+OPENSEARCH_BULK_CONCURRENCY=4
+OPENSEARCH_BULK_QUEUE_SIZE=16
+
+# worker throughput mode
+AUSLEGALSEARCH_MAX_THROUGHPUT_MODE=1
+AUSLEGALSEARCH_OS_STREAM_CHUNK_FLUSH_SIZE=1200
+AUSLEGALSEARCH_EMBED_BATCH=96
+AUSLEGALSEARCH_CPU_WORKERS=6
+AUSLEGALSEARCH_PIPELINE_PREFETCH=96
+
+# reduce optional overhead during backfill
+AUSLEGALSEARCH_LOG_METRICS=0
+OS_METRICS_NDJSON=0
+OS_INGEST_STATE_ENABLE=0
+```
+
+### Validation checklist for each run
+- Track `chunks/min` and `files/min`
+- Confirm GPU utilization remains stable (not saw-tooth idle spikes)
+- Check OpenSearch for bulk rejections/timeouts
+- Compare failure/retry counts and tail latency on large files
+
+---
+
+## 10) Quick benchmark plan script
+
+Use the helper to print a ready-to-run benchmark matrix:
+
+```bash
+python -m tools.quick_benchmark_plan \
+  --root "/abs/path/to/Data_for_Beta_Launch" \
+  --log-dir "/abs/path/to/logs" \
+  --session-prefix "os-bench"
+```
+
+It prints 4 scenarios:
+- baseline
+- embed96
+- bulk6
+- flush800
+
+Run one scenario at a time for ~10–15 minutes and compare throughput/error behavior.
+
+Then collect and compare run results:
+
+```bash
+python -m tools.collect_benchmark_results \
+  --log-dir "/abs/path/to/logs" \
+  --session-prefix "os-bench" \
+  --top 10
+```
+
+Optional JSON output:
+
+```bash
+python -m tools.collect_benchmark_results \
+  --log-dir "/abs/path/to/logs" \
+  --session-prefix "os-bench" \
+  --json
+```
