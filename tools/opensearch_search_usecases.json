@@ -1,0 +1,76 @@
+[
+  {
+    "id": "keyword_workplace_discrimination",
+    "type": "keyword",
+    "query": "discrimination workplace",
+    "top_k": 10,
+    "expected_terms": ["discrimination", "workplace"]
+  },
+  {
+    "id": "case_name_mabo",
+    "type": "case_name",
+    "query": "Mabo v Queensland",
+    "top_k": 10,
+    "expected_terms": ["mabo", "queensland"]
+  },
+  {
+    "id": "citation_175_clr_1",
+    "type": "citation",
+    "query": "175 CLR 1",
+    "top_k": 10,
+    "expected_terms": ["175 clr 1", "clr"]
+  },
+  {
+    "id": "legislation_fair_work_s351",
+    "type": "legislation",
+    "query": "Fair Work Act 2009 s 351",
+    "top_k": 10,
+    "expected_terms": ["fair work act", "351"]
+  },
+  {
+    "id": "boolean_near_discrimination",
+    "type": "boolean",
+    "query": "discrimination AND (age OR gender)",
+    "top_k": 10,
+    "expected_terms": ["discrimination", "age", "gender"]
+  },
+  {
+    "id": "conceptual_duty_of_care",
+    "type": "conceptual",
+    "query": "duty of care in negligence",
+    "top_k": 10,
+    "expected_terms": ["duty of care", "negligence"]
+  },
+  {
+    "id": "semantic_social_media_dismissal",
+    "type": "semantic",
+    "query": "Can employees be dismissed for social media posts?",
+    "top_k": 10,
+    "expected_terms": ["dismiss", "social media"]
+  },
+  {
+    "id": "natural_language_elements_negligence",
+    "type": "natural_language",
+    "query": "What are the elements of negligence in Australian law?",
+    "top_k": 10,
+    "expected_terms": ["negligence", "duty", "breach"]
+  },
+  {
+    "id": "metadata_high_court_recent",
+    "type": "metadata_filter",
+    "query": "duty of care",
+    "top_k": 10,
+    "filters": {
+      "jurisdiction": "Cth",
+      "court": "High Court"
+    },
+    "expected_terms": ["duty of care"]
+  },
+  {
+    "id": "related_materials_wik",
+    "type": "related",
+    "query": "Wik v Queensland",
+    "top_k": 10,
+    "expected_terms": ["native title", "queensland"]
+  }
+]

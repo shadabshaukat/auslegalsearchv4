@@ -65,6 +65,13 @@ Available tools and documentation:
   - Example:
     - `python -m tools.check_search_parity --query "duty of care negligence" --top-k 5 --backend-a postgres --backend-b opensearch`
 
+- OpenSearch DSL Search Harness (use-case driven)
+  - Script: opensearch_dsl_search_harness.py
+  - Use-cases file: opensearch_search_usecases.json
+  - Purpose: run phrase/NL legal search use-cases via OpenSearch DSL and report hit-rate/term-match coverage metrics
+  - Example:
+    - `python -m tools.opensearch_dsl_search_harness --usecases tools/opensearch_search_usecases.json --top-k 10`
+
 Notes:
 - All tools inherit database configuration via the shared connector (db/connector.py) and .env. Recommended:
   set -a; source .env; set +a

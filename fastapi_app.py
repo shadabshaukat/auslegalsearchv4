@@ -151,9 +151,15 @@ class SearchReq(BaseModel):
 
 @app.post("/search/vector", tags=["search"])
 def api_search_vector(req: SearchReq, _: str = Depends(get_current_user)):
-    embedder = Embedder()
-    query_vec = embedder.embed([req.query])[0]
-    hits = search_vector(query_vec, top_k=req.top_k)
+    try:
+        embedder = Embedder()
+        query_vec = embedder.embed([req.query])[0]
+        hits = search_vector(query_vec, top_k=req.top_k)
+    except Exception as e:
+        raise HTTPException(
+            status_code=503,
+            detail=f"Vector search unavailable: embedding initialization/query failed: {e}"
+        )
     # Include metadata in results
     for hit in hits:
         if "chunk_metadata" not in hit:
@@ -163,9 +169,15 @@ def api_search_vector(req: SearchReq, _: str = Depends(get_current_user)):
 @app.post("/search/rerank", tags=["search"])
 def api_search_rerank(req: SearchReq, _: str = Depends(get_current_user)):
     reranker_info = get_reranker_model(req.model)
-    embedder = Embedder()
-    query_vec = embedder.embed([req.query])[0]
-    hits = search_vector(query_vec, top_k=max(20, req.top_k))
+    try:
+        embedder = Embedder()
+        query_vec = embedder.embed([req.query])[0]
+        hits = search_vector(query_vec, top_k=max(20, req.top_k))
+    except Exception as e:
+        raise HTTPException(
+            status_code=503,
+            detail=f"Rerank search unavailable: embedding initialization/query failed: {e}"
+        )
     hits = sorted(hits, key=lambda x: x.get("score", 0), reverse=True)[:req.top_k]
     for h in hits:
         h["reranker"] = reranker_info["name"]
@@ -208,7 +220,13 @@ def api_search_hybrid(req: HybridSearchReq, _: str = Depends(get_current_user)):
     """
     Hybrid (vector+bm25) legal search with score and citation output, now with metadata.
     """
-    results = search_hybrid(req.query, top_k=req.top_k, alpha=req.alpha)
+    try:
+        results = search_hybrid(req.query, top_k=req.top_k, alpha=req.alpha)
+    except Exception as e:
+        raise HTTPException(
+            status_code=503,
+            detail=f"Hybrid search failed: {e}"
+        )
     fields = ["doc_id", "chunk_index", "hybrid_score", "citation", "score", "vector_score", "bm25_score", "text", "source", "format", "chunk_metadata"]
     filtered = [
         {k: r[k] for k in fields if k in r}

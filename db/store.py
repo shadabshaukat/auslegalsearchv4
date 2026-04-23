@@ -46,6 +46,7 @@ import time
 import bcrypt
 from types import SimpleNamespace
 from typing import Any, Dict, Optional
+from functools import lru_cache
 
 try:
     from db.opensearch_connector import get_opensearch_client, index_name, index_target, ensure_opensearch_indexes
@@ -179,6 +180,13 @@ def _os_next_id(counter_key: str) -> int:
     )
     doc = client.get(index=counters, id=counter_key)
     return int((doc.get("_source") or {}).get("value", 1))
+
+
+@lru_cache(maxsize=1)
+def _get_embedder_cached():
+    """Singleton embedder instance for search paths to avoid per-request reloads."""
+    from embedding.embedder import Embedder
+    return Embedder()
 
 
 def _os_get_by_term(index: str, field: str, value: Any) -> Optional[Dict[str, Any]]:
@@ -1217,13 +1225,21 @@ def search_bm25(query, top_k=5):
         return hits
 
 def search_hybrid(query, top_k=5, alpha=0.5):
-    # Lazy import to avoid heavy model load at module import-time
-    from embedding.embedder import Embedder
-    embedder = Embedder()
+    embedder = None
+    embedder_error = None
+    try:
+        embedder = _get_embedder_cached()
+    except Exception as e:
+        embedder_error = str(e)
 
     if _is_opensearch():
-        query_vec = embedder.embed([query])[0]
-        vector_hits = search_vector(query_vec, top_k=top_k * 2)
+        vector_hits = []
+        if embedder is not None:
+            try:
+                query_vec = embedder.embed([query])[0]
+                vector_hits = search_vector(query_vec, top_k=top_k * 2)
+            except Exception as e:
+                embedder_error = str(e)
         bm25_hits = search_bm25(query, top_k=top_k * 2)
         all_hits = {}
         for h in vector_hits:
@@ -1249,10 +1265,17 @@ def search_hybrid(query, top_k=5, alpha=0.5):
         results = sorted(all_hits.values(), key=lambda x: x.get("hybrid_score", 0.0), reverse=True)[:top_k]
         for r in results:
             r["citation"] = f'{r.get("source", "unknown")}#chunk{r.get("chunk_index",0)}'
+            if embedder_error:
+                r["warning"] = f"vector_stage_unavailable: {embedder_error}"
         return results
 
-    query_vec = embedder.embed([query])[0]
-    vector_hits = search_vector(query_vec, top_k=top_k * 2)
+    vector_hits = []
+    if embedder is not None:
+        try:
+            query_vec = embedder.embed([query])[0]
+            vector_hits = search_vector(query_vec, top_k=top_k * 2)
+        except Exception as e:
+            embedder_error = str(e)
     bm25_hits = search_bm25(query, top_k=top_k * 2)
 
     all_hits = {}
@@ -1291,6 +1314,8 @@ def search_hybrid(query, top_k=5, alpha=0.5):
     results = sorted(all_hits.values(), key=lambda x: x["hybrid_score"], reverse=True)[:top_k]
     for r in results:
         r["citation"] = f'{r["source"]}#chunk{r.get("chunk_index",0)}'
+        if embedder_error:
+            r["warning"] = f"vector_stage_unavailable: {embedder_error}"
     return results
 
 def get_file_contents(filepath):

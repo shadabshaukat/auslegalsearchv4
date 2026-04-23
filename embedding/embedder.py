@@ -23,6 +23,7 @@ from typing import List
 import numpy as np
 import os
 import warnings
+from pathlib import Path
 
 # Try to import SentenceTransformers for ST-native models
 try:
@@ -44,6 +45,54 @@ def _ensure_hf_imports():
 def _l2_normalize(v: np.ndarray, eps: float = 1e-12) -> np.ndarray:
     norm = np.linalg.norm(v, axis=-1, keepdims=True)
     return v / np.maximum(norm, eps)
+
+
+_MODEL_ALIASES = {
+    # Common local-cache folder names -> canonical HF repo IDs
+    "nomic-embed-text-v1.5": "nomic-ai/nomic-embed-text-v1.5",
+    "bge-legal-en-v1.5": "maastrichtlawtech/bge-legal-en-v1.5",
+}
+
+
+def _model_candidates(model_name: str) -> List[str]:
+    """
+    Build ordered candidate model identifiers from env/arg input.
+    Handles broken local path configs gracefully by trying canonical HF IDs.
+    """
+    raw = str(model_name or "").strip()
+    if not raw:
+        return [DEFAULT_MODEL]
+
+    cands: List[str] = [raw]
+
+    # If a filesystem-like path is configured but missing, fallback to basename aliases.
+    if raw.startswith("/") or raw.startswith("./") or raw.startswith("../"):
+        p = Path(raw)
+        if not p.exists():
+            base = p.name.strip()
+            if base:
+                alias = _MODEL_ALIASES.get(base)
+                if alias:
+                    cands.append(alias)
+
+    # Direct alias from plain short name
+    short = raw.rsplit("/", 1)[-1]
+    alias = _MODEL_ALIASES.get(short)
+    if alias:
+        cands.append(alias)
+
+    # Final safety fallback
+    if DEFAULT_MODEL not in cands:
+        cands.append(DEFAULT_MODEL)
+
+    # Deduplicate while preserving order
+    uniq: List[str] = []
+    seen = set()
+    for c in cands:
+        if c not in seen:
+            uniq.append(c)
+            seen.add(c)
+    return uniq
 
 class Embedder:
     def __init__(self, model_name: str = None):
@@ -75,53 +124,82 @@ class Embedder:
         rev = os.environ.get("AUSLEGALSEARCH_EMBED_REV", None)
         local_only = os.environ.get("AUSLEGALSEARCH_HF_LOCAL_ONLY", "0") == "1"
 
+        candidates = _model_candidates(resolved)
+
         # Try SentenceTransformer path first (if available)
+        st_errors = []
         if SentenceTransformer is not None:
-            try:
-                st_kwargs = {"trust_remote_code": trust_remote}
-                if rev:
-                    st_kwargs["revision"] = rev
-                if local_only:
-                    st_kwargs["local_files_only"] = True
+            for cand in candidates:
                 try:
-                    self._st_model = SentenceTransformer(resolved, **st_kwargs)
-                except TypeError:
-                    # Older sentence_transformers versions may not support revision/local_files_only
-                    self._st_model = SentenceTransformer(resolved, trust_remote_code=trust_remote)
-                if hasattr(self._st_model, "get_embedding_dimension"):
-                    self.dimension = int(self._st_model.get_embedding_dimension())
-                else:
-                    self.dimension = int(self._st_model.get_sentence_embedding_dimension())
-            except Exception as e:
-                warnings.warn(f"SentenceTransformer load failed for '{resolved}', falling back to HF: {e}")
-                self._init_hf_fallback(resolved, trust_remote)
-        else:
-            # No ST installed; go straight to HF fallback
-            self._init_hf_fallback(resolved, trust_remote)
+                    st_kwargs = {"trust_remote_code": trust_remote}
+                    if rev:
+                        st_kwargs["revision"] = rev
+                    if local_only:
+                        st_kwargs["local_files_only"] = True
+                    try:
+                        self._st_model = SentenceTransformer(cand, **st_kwargs)
+                    except TypeError:
+                        # Older sentence_transformers versions may not support revision/local_files_only
+                        self._st_model = SentenceTransformer(cand, trust_remote_code=trust_remote)
+                    self.model_name = cand
+                    if hasattr(self._st_model, "get_embedding_dimension"):
+                        self.dimension = int(self._st_model.get_embedding_dimension())
+                    else:
+                        self.dimension = int(self._st_model.get_sentence_embedding_dimension())
+                    break
+                except Exception as e:
+                    st_errors.append(f"{cand}: {e}")
+
+        if self._st_model is None:
+            if st_errors:
+                warnings.warn(
+                    "SentenceTransformer load failed for all candidates; falling back to HF. "
+                    f"Candidates={candidates}. Last error={st_errors[-1]}"
+                )
+            # No ST installed or ST load failed; use HF fallback candidates.
+            self._init_hf_fallback(candidates, trust_remote)
 
         # Final sanity check
         if self.dimension is None:
             raise RuntimeError(f"Could not determine embedding dimension for model '{resolved}'")
 
-    def _init_hf_fallback(self, model_name: str, trust_remote: bool = False):
+    def _init_hf_fallback(self, model_name, trust_remote: bool = False):
         """
         Initialize HuggingFace AutoModel fallback with mean pooling.
         Works for plain encoder checkpoints like 'legal-bert-base-uncased'.
         """
         _ensure_hf_imports()
-        try:
-            rev = os.environ.get("AUSLEGALSEARCH_EMBED_REV", None)
-            local_only = os.environ.get("AUSLEGALSEARCH_HF_LOCAL_ONLY", "0") == "1"
-            self._hf_tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=trust_remote, revision=rev, local_files_only=local_only)
-            self._hf_model = AutoModel.from_pretrained(model_name, trust_remote_code=trust_remote, revision=rev, local_files_only=local_only)
-            # BERT-base hidden size is typically 768; grab from config
-            hidden = getattr(self._hf_model.config, "hidden_size", None)
-            if hidden is None:
-                raise ValueError("HF model has no 'hidden_size' in config")
-            self.dimension = int(hidden)
-            self.use_hf_fallback = True
-        except Exception as e:
-            raise RuntimeError(f"HF fallback load failed for '{model_name}': {e}")
+        candidates = model_name if isinstance(model_name, list) else [str(model_name)]
+        rev = os.environ.get("AUSLEGALSEARCH_EMBED_REV", None)
+        local_only = os.environ.get("AUSLEGALSEARCH_HF_LOCAL_ONLY", "0") == "1"
+        errs = []
+        for cand in candidates:
+            try:
+                self._hf_tokenizer = AutoTokenizer.from_pretrained(
+                    cand,
+                    trust_remote_code=trust_remote,
+                    revision=rev,
+                    local_files_only=local_only,
+                )
+                self._hf_model = AutoModel.from_pretrained(
+                    cand,
+                    trust_remote_code=trust_remote,
+                    revision=rev,
+                    local_files_only=local_only,
+                )
+                hidden = getattr(self._hf_model.config, "hidden_size", None)
+                if hidden is None:
+                    raise ValueError("HF model has no 'hidden_size' in config")
+                self.model_name = cand
+                self.dimension = int(hidden)
+                self.use_hf_fallback = True
+                return
+            except Exception as e:
+                errs.append(f"{cand}: {e}")
+        raise RuntimeError(
+            "HF fallback load failed for all candidates. "
+            f"Candidates={candidates}. Last error={errs[-1] if errs else 'unknown'}"
+        )
 
     def embed(self, texts: List[str]) -> np.ndarray:
         """
