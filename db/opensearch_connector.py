@@ -81,28 +81,22 @@ def get_opensearch_client():
 
 
 def index_name(suffix: str) -> str:
-    # For embedding/vector index, allow explicit single index name
-    if suffix == "embeddings":
-        explicit = _env("OPENSEARCH_INDEX", default="")
-        if explicit:
-            return explicit
+    # Option A: single prefix-based concrete naming for all indexes.
     prefix = _env("OPENSEARCH_INDEX_PREFIX", "AUSLEGALSEARCH_OS_INDEX_PREFIX", default="auslegalsearch")
     return f"{prefix}_{suffix}"
 
 
 def aliases_enabled() -> bool:
-    return _env_bool("OPENSEARCH_USE_ALIASES", default=False)
+    # Alias mode intentionally disabled (Option A).
+    return False
 
 
 def alias_name(suffix: str, mode: str) -> str:
     mode = (mode or "read").strip().lower()
     if mode not in {"read", "write"}:
         raise ValueError(f"Unsupported alias mode: {mode}")
-    explicit = _env(f"OPENSEARCH_{suffix.upper()}_{mode.upper()}_ALIAS", default="")
-    if explicit:
-        return explicit
-    prefix = _env("OPENSEARCH_ALIAS_PREFIX", "OPENSEARCH_INDEX_PREFIX", "AUSLEGALSEARCH_OS_INDEX_PREFIX", default="auslegalsearch")
-    return f"{prefix}_{suffix}_{mode}"
+    # Kept for compatibility with tools imports; no alias creation/usage in runtime path.
+    return f"{index_name(suffix)}_{mode}"
 
 
 def index_target(suffix: str, purpose: str = "read") -> str:
@@ -113,28 +107,7 @@ def index_target(suffix: str, purpose: str = "read") -> str:
     purpose = (purpose or "read").strip().lower()
     if purpose not in {"read", "write"}:
         purpose = "read"
-    if aliases_enabled() and suffix in {"documents", "embeddings"}:
-        alias = alias_name(suffix, purpose)
-        # Resilient fallback when alias mode is enabled but alias bootstrap is broken
-        # (e.g., invalid_alias_name_exception because an index already uses alias name).
-        try:
-            client = get_opensearch_client()
-            try:
-                client.indices.get_alias(name=alias)
-                return alias
-            except Exception:
-                # If a concrete index exists with alias name, fallback to direct index target.
-                if client.indices.exists(index=alias):
-                    if _env_bool("OPENSEARCH_ALIAS_ALLOW_INDEX_CONFLICT_FALLBACK", default=True):
-                        return index_name(suffix)
-                # If alias does not exist yet, permissive mode falls back to direct index.
-                if _env_bool("OPENSEARCH_ALIAS_STRICT", default=False):
-                    return alias
-                return index_name(suffix)
-        except Exception:
-            if _env_bool("OPENSEARCH_ALIAS_STRICT", default=False):
-                return alias
-            return index_name(suffix)
+    # Option A: always concrete indexes, no aliases.
     return index_name(suffix)
 
 
@@ -265,90 +238,11 @@ def _validate_shards_replicas(client, idx: str) -> None:
         )
 
 
-def _alias_backing_indexes(client, alias: str) -> list:
-    try:
-        data = client.indices.get_alias(name=alias)
-    except Exception:
-        return []
-    return sorted(list((data or {}).keys()))
-
-
-def _alias_write_indexes(client, alias: str) -> list:
-    try:
-        data = client.indices.get_alias(name=alias)
-    except Exception:
-        return []
-    out = []
-    for idx, payload in (data or {}).items():
-        aliases = (payload or {}).get("aliases") or {}
-        cfg = aliases.get(alias) or {}
-        if cfg.get("is_write_index") is True:
-            out.append(idx)
-    return sorted(out)
-
-
-def _bootstrap_rollover_family(client, suffix: str, force_recreate: bool = False) -> None:
-    write_alias = alias_name(suffix, "write")
-    read_alias = alias_name(suffix, "read")
-    base = index_name(suffix)
-    pad = int(_env("OPENSEARCH_ROLLOVER_INDEX_PAD", default="6"))
-    first_index = f"{base}-{str(1).zfill(max(3, pad))}"
-    auto_create = _env_bool("OPENSEARCH_ALIAS_AUTO_CREATE", default=True)
-    validate = _env_bool("OPENSEARCH_ALIAS_VALIDATE_STARTUP", default=True)
-
-    if force_recreate:
-        for alias in (write_alias, read_alias):
-            for idx in _alias_backing_indexes(client, alias):
-                if client.indices.exists(index=idx):
-                    client.indices.delete(index=idx)
-
-    write_backing = _alias_backing_indexes(client, write_alias)
-    write_marked = _alias_write_indexes(client, write_alias)
-    if not write_backing and auto_create:
-        if not client.indices.exists(index=first_index):
-            client.indices.create(index=first_index, body=_index_body_for(first_index))
-        client.indices.put_alias(index=first_index, name=write_alias, body={"is_write_index": True})
-        client.indices.put_alias(index=first_index, name=read_alias)
-        write_backing = [first_index]
-        write_marked = [first_index]
-
-    # If alias exists but no explicit write marker, set first backing index as write index.
-    if write_backing and not write_marked and auto_create:
-        client.indices.put_alias(index=write_backing[0], name=write_alias, body={"is_write_index": True})
-        write_marked = [write_backing[0]]
-
-    # Keep read alias covering write backing indexes
-    if auto_create:
-        for idx in write_backing:
-            try:
-                client.indices.put_alias(index=idx, name=read_alias)
-            except Exception:
-                pass
-
-    if validate:
-        wb = _alias_backing_indexes(client, write_alias)
-        rb = _alias_backing_indexes(client, read_alias)
-        ww = _alias_write_indexes(client, write_alias)
-        for idx in sorted(set(wb + rb)):
-            try:
-                _validate_shards_replicas(client, idx)
-            except Exception:
-                raise
-        if not wb:
-            raise RuntimeError(f"OpenSearch alias validation failed: write alias '{write_alias}' has no backing index")
-        if not rb:
-            raise RuntimeError(f"OpenSearch alias validation failed: read alias '{read_alias}' has no backing index")
-        if len(ww) != 1:
-            raise RuntimeError(
-                f"OpenSearch alias validation failed: write alias '{write_alias}' must have exactly one write index, found {len(ww)}"
-            )
-
-
 def ensure_opensearch_indexes() -> None:
     client = get_opensearch_client()
-    use_aliases = aliases_enabled()
-    alias_bootstrap_ok = True
     required = [
+        index_name("documents"),
+        index_name("embeddings"),
         index_name("users"),
         index_name("embedding_sessions"),
         index_name("embedding_session_files"),
@@ -356,24 +250,8 @@ def ensure_opensearch_indexes() -> None:
         index_name("conversion_files"),
         index_name("counters"),
     ]
-    if not use_aliases:
-        required = [index_name("documents"), index_name("embeddings")] + required
 
     force_recreate = _env_bool("OPENSEARCH_FORCE_RECREATE", default=False)
-
-    if use_aliases:
-        try:
-            _bootstrap_rollover_family(client, "documents", force_recreate=force_recreate)
-            _bootstrap_rollover_family(client, "embeddings", force_recreate=force_recreate)
-        except Exception as e:
-            if _env_bool("OPENSEARCH_ALIAS_ALLOW_INDEX_CONFLICT_FALLBACK", default=True):
-                alias_bootstrap_ok = False
-                print(f"[opensearch_connector] WARN: alias bootstrap failed, falling back to direct index targets: {e}")
-            else:
-                raise
-
-    if use_aliases and not alias_bootstrap_ok:
-        required = [index_name("documents"), index_name("embeddings")] + required
 
     for idx in required:
         if client.indices.exists(index=idx) and force_recreate:
