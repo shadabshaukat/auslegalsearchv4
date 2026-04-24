@@ -1,0 +1,232 @@
+-----------------------------------
+title: NBL
+titles: ["NBL"]
+citations: ["[2019] NSWCATGD 5","NSWCATGD 5"]
+date: 2019-01-29 00:00:00
+type: case
+subjurisdiction: nsw
+jurisdiction: au
+data_quality: H
+database: NSWCATGD
+url: https://austlii.edu.au/cgi-bin/viewdoc/au/cases/nsw/NSWCATGD/2019/5.html
+-----------------------------------
+
+
+NBL [2019] NSWCATGD 5 (29 JANUARY 2019)
+
+Last Updated: 19 February 2019
+
+
+
+
+NSW Civil and Administrative Tribunal
+New South Wales
+
+
+
+
+
+Case Name:
+NBL
+Medium Neutral Citation:
+[2019] NSWCATGD 5 [http://www.austlii.edu.au/au/cases/nsw/NSWCATGD/2019/5.html]
+Hearing Date(s):
+5 October 2018 written submissions 29 October 2018
+Date of Orders:
+29 January 2019
+Decision Date:
+29 January 2019
+Jurisdiction:
+Guardianship Division
+Before:
+L Organ, Senior Member (Legal)
+Decision:
+1. The Tribunal has jurisdiction to hear the applications for review of an enduring power of attorney and review of an enduring guardianship appointment.
+
+2. The applications are to be listed for further directions on a date to be advised by the Registry.
+
+3. Any application by a party for legal representation is to be made in writing prior to the directions hearing.
+Catchwords:
+GUARDIANSHIP – review of making and operation and effect of enduring guardianship appointment – review of operation and effect of enduring power of attorney – interlocutory – jurisdiction – parties residing in different States of Australia – whether applications ‘matters’ between residents of different States – nature of Tribunal’s power – Tribunal found to have jurisdiction
+
+WORDS AND PHRASES – Diversity Jurisdiction – Domicile – Residence – Extraterritoriality
+Legislation Cited:
+Civil and Administrative Tribunal Act 2013 [http://www.austlii.edu.au/au/legis/nsw/consol_act/caata2013326/] (NSW), s 29 [http://www.austlii.edu.au/au/legis/nsw/consol_act/caata2013326/s29.html]
+Commonwealth of Australia Constitution [http://www.austlii.edu.au/au/legis/cth/consol_act/coaca430/] Act 1900 (Cth), ch III, ss 75(iv), 77
+Domicile Act 1979 [http://www.austlii.edu.au/au/legis/nsw/consol_act/da197983/] (NSW), s 7(2) [http://www.austlii.edu.au/au/legis/nsw/consol_act/da197983/s7.html]
+Guardianship Act 1987 [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/] (NSW), Pts 3A [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/index.html#p3a], 5 [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/index.html#p5], ss 4 [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/s4.html], 6K [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/s6k.html](3)
+Judiciary Act 1903 [http://www.austlii.edu.au/au/legis/cth/consol_act/ja1903112/] (Cth), s 39 [http://www.austlii.edu.au/au/legis/cth/consol_act/ja1903112/s39.html]
+Powers of Attorney Act 2003 [http://www.austlii.edu.au/au/legis/nsw/consol_act/poaa2003240/] (NSW), div 4, pt 3 [http://www.austlii.edu.au/au/legis/nsw/consol_act/poaa2003240/index.html#p3], ss 36(1) [http://www.austlii.edu.au/au/legis/nsw/consol_act/poaa2003240/s36.html], 36 [http://www.austlii.edu.au/au/legis/nsw/consol_act/poaa2003240/s36.html](3)–(9), 37 [http://www.austlii.edu.au/au/legis/nsw/consol_act/poaa2003240/s37.html](1)
+Residential Tenancies Act 2010 [http://www.austlii.edu.au/au/legis/nsw/consol_act/rta2010207/] (NSW), s 87 [http://www.austlii.edu.au/au/legis/nsw/consol_act/rta2010207/s87.html]
+Cases Cited:
+Attorney General for New South Wales v Gatsby [2018] NSWCA 254 [http://www.austlii.edu.au/au/cases/nsw/NSWCA/2018/254.html]
+Burns v Corbett [2018] HCA 15 [http://www.austlii.edu.au/au/cases/cth/HCA/2018/15.html]
+CJ v AKJ [2015] NSWSC 498 [http://www.austlii.edu.au/au/cases/nsw/NSWSC/2015/498.html]
+EMG v Guardianship and Administration Board of Victoria [1999] NSWSC 501 [http://www.austlii.edu.au/au/cases/nsw/NSWSC/1999/501.html]
+GS [2018] WASAT 72 [http://www.austlii.edu.au/au/cases/wa/WASAT/2018/72.html]
+JAK [2007] NSWGT 23 [http://www.austlii.edu.au/au/cases/nsw/NSWGT/2007/23.html] (31 October 2007
+Kertesz v Kertesz [1954) VLR 195
+Kumagai Gumi Co Ltd v FCT [1999] FCA 235 [http://www.austlii.edu.au/au/cases/cth/FCA/1999/235.html]; (1999) 161 ALR 699 [/cgi-bin/LawCite?cit=%281999%29%20161%20ALR%20699]
+Love v Attorney General (NSW) [1990] HCA 4 [http://www.austlii.edu.au/au/cases/cth/HCA/1990/4.html]; (1990) 169 CLR 307 [/cgi-bin/LawCite?cit=%281990%29%20169%20CLR%20307]
+NCK [2004] WAGAB 6 [http://www.austlii.edu.au/au/cases/wa/WAGAB/2004/6.html]
+P v P (1994) CLR 583 [/cgi-bin/LawCite?cit=%281994%29%20CLR%20583]
+Precision Data Holdings Ltd v Wills (1991) 173 CLR 167
+Re Eve 1986 CanLII 36 (SCC) [http://scc.lexum.umontreal.ca/en/1986/1986scr2-388/1986scr2-388.html]; [1986] 2 SCR 388 [/cgi-bin/LawCite?cit=%5b1986%5d%202%20SCR%20388]
+Re G [1966] NZLR 1028 [/cgi-bin/LawCite?cit=%5b1966%5d%20NZLR%201028]
+Re McBain; Ex parte Australian Catholic Bishops Conference & Anor [2002] CLR 372 [/cgi-bin/LawCite?cit=%5b2002%5d%20CLR%20372]
+Re S (Hospital Patient; Foreign Curator) [1995] 4 All ER 30 [/cgi-bin/LawCite?cit=%5b1995%5d%204%20All%20ER%2030]
+Zistis v Zistis [2018] NSWSC 722 [http://www.austlii.edu.au/au/cases/nsw/NSWSC/2018/722.html]
+Texts Cited:
+Leeming JA, Authority to Decide-The Law of Jurisdiction in Australia, (2012, Federation Press)
+Lindsay J, “A Struggle for Perfection in an Imperfect World: Dignity of the Individual, Capacity for Self-Management, Rights, Duties and Conflicts of Interest”, Supreme Court of New South Wales Speeches, 26 October 2018
+Lindsay J, “The Incapacitated Plaintiff and Personal Injury Compensation Proceedings”, Supreme Court of New South Wales Speeches, 11 March 2017
+Category:
+Principal judgment
+Parties:
+001: Review of an Enduring Power of Attorney
+
+NBL (the person)
+TZN (applicant, attorney)
+LYJ (attorney)
+PAJ (attorney)
+VBQ (attorney)
+
+002: Review of an Enduring Guardianship Appointment
+
+NBL (the person)
+TZN (applicant, enduring guardian)
+NTI (carer)
+PAJ (enduring guardian)
+VBQ (enduring guardian)
+LYJ (enduring guardian)
+Representation:
+Nil
+File Number(s):
+NCAT 2018/00275214
+Publication Restriction:
+Decisions of the Guardianship Division of the Civil and Administrative Tribunal have been anonymised to remove any information that may identify any person involved in the Tribunal’s proceedings (s 65 [http://www.austlii.edu.au/au/legis/nsw/consol_act/rta2010207/s65.html], Civil and Administrative Tribunal Act 2013 [http://www.austlii.edu.au/au/legis/nsw/consol_act/caata2013326/] (NSW)).
+
+REASONS FOR DECISION
+
+Background
+
+ 1. NBL is 88 and has since February 2018 been living in Western Australia with her son, PAJ and his wife NTI who is NBL’s carer. Prior to this, NBL was living in an aged care facility in Southern Sydney in New South Wales (NSW). NBL has three other children, LYJ, VBQ and TZN.
+ 2. On 31 May 2012, NBL appointed TZN as her attorney and enduring guardian. On 10 June 2012 NBL revoked that appointment. On the same date NBL appointed each of her four children jointly and severally to act as her enduring guardians and attorneys.
+ 3. On 7 September 2018, the Tribunal received joint applications for review of the enduring power of attorney and review of the enduring guardian appointments both made on 10 June 2012 (the EPOA and EGA) by NBL from TZN and VBQ.
+ 4. NBL is reported to have a diagnosis of dementia and cognitive impairment.
+ 5. A preliminary issue arises from the applications before the Tribunal. This issue relates to whether the Tribunal has jurisdiction to deal with the applications.
+ 6. On 5 October 2018, directions were made in relation to the filing of written submissions by the parties on the issue of whether the Tribunal had jurisdiction to determine the applications.
+
+The Hearing
+
+ 1. At the end of these reasons for Decision are lists of the parties to the application and witnesses at the hearing. [Appendix removed for publication.]
+ 2. A solicitor assisted VBQ and TZN in the capacity of McKenzie friend throughout the hearing. Another solicitor assisted PAJ also in the capacity of McKenzie friend.
+
+Does the NSW Civil and Administrative Tribunal (NCAT) have jurisdiction to determine the applications for review of the operation and effect of an enduring power of attorney and to review an enduring guardianship appointment?
+
+ 1. Since February 2018, NBL has lived in Western Australia. There is some dispute about the circumstances under which she came to live in Western Australia. There is also dispute about whether NBL will return to live in NSW.
+ 2. Two of the parties to the applications, PAJ and NTI, are residents of Western Australia. It is also clear that each of the other parties to the applications is a resident in NSW.
+ 3. The applicant submits that the hearing of the applications should occur in New South Wales “whether by the Tribunal or in a Court.” The applicant also submits that NBL’s place of residence is NSW.
+ 4. PAJ says NCAT does not have jurisdiction to determine the applications as both applications are matters between residents of different States. In other words he says the Tribunal does not have jurisdiction to determine the applications because their determination involves the exercise of Federal diversity jurisdiction. He relies on the High Court’s decision in Burns v Corbett [2018] HCA 15 [http://www.austlii.edu.au/au/cases/cth/HCA/2018/15.html] (“Burns”). In Burns, the High Court held that the Commonwealth of Australia Constitution [http://www.austlii.edu.au/au/legis/cth/consol_act/coaca430/] Act 1900 (Cth) (the Constitution [http://www.austlii.edu.au/au/legis/cth/consol_act/coaca430/]) precludes the Parliament of a State from conferring jurisdiction in respect of a matter between residents of different States within s 75(iv) [http://www.austlii.edu.au/au/legis/cth/consol_act/coaca430/s75.html] of the Constitution [http://www.austlii.edu.au/au/legis/cth/consol_act/coaca430/] on a Tribunal which is not one of the courts of the State referred to in s 77 [http://www.austlii.edu.au/au/legis/cth/consol_act/coaca430/s77.html] of that Act.
+ 5. The Court of Appeal has recently held in the matter of Attorney General for New South Wales v Gatsby [2018] NSWCA 254 [http://www.austlii.edu.au/au/cases/nsw/NSWCA/2018/254.html] (“Gatsby”) that NCAT is not a court of a state within the meaning of ch III of the Constitution [http://www.austlii.edu.au/au/legis/cth/consol_act/coaca430/] and s 39 [http://www.austlii.edu.au/au/legis/cth/consol_act/ja1903112/s39.html] of the Judiciary Act 1903 [http://www.austlii.edu.au/au/legis/cth/consol_act/ja1903112/] (Cth).
+ 6. The practical effect of the decisions in Burns and Gatsby means that if the power being exercised by the Tribunal is judicial rather than administrative in nature, then by operation of ch III of the Constitution [http://www.austlii.edu.au/au/legis/cth/consol_act/coaca430/], NCAT will be exercising, or purporting to exercise, federal judicial power and cannot do so as it is not a “court of a State”.
+ 7. The majority decision in the Court of Appeal in Gatsby was that the Tribunal was exercising judicial power in making an order under s 87 [http://www.austlii.edu.au/au/legis/nsw/consol_act/rta2010207/s87.html] of the Residential Tenancies Act 2010 [http://www.austlii.edu.au/au/legis/nsw/consol_act/rta2010207/] (NSW) (the RT Act) terminating a residential tenancy agreement. This was because the discretion exercised by the Tribunal to make an order under the section was analogous to that exercised by courts under the general law, since the section required the Tribunal to identify whether the contract constituting such an agreement existed, whether the contract was breached, and whether the breach was sufficient to justify termination. Further, such a termination order was enforceable by the Tribunal.
+ 8. It follows that the issue that arises in the applications before me is therefore whether the applications for review of the operation and effect of an enduring power of attorney and review of an enduring guardianship appointment are firstly “matters” “between residents of different States, or between a State and a resident of another State” and secondly whether the Tribunal is exercising judicial or administrative power.
+
+Are the applications for review of the operation and effect of an enduring power of attorney and review of an enduring guardian appointment matters between States, between residents of different States or between a State and a resident of another State and is the Tribunal exercising judicial or administrative power?
+
+ 1. It is clear that the determination of the applications before me does not involve a matter “between States”. It is also not a “matter between a State and a resident of another State”. There is an issue as to whether determinations of the applications are “matters” “between residents of different States”.
+ 2. Leeming JA in his text Authority to Decide-The Law of Jurisdiction in Australia (Federation Press, 2012) summarises the relevant principles in determining whether a matter is between residents of different States as follows:
+    * only natural persons may be residents;
+    * there must not be residents of the same State on both sides of the record;
+    * the presence of a party which is not a resident (because it is a corporation or a polity) precludes the dispute being “between” residents of different States;
+    * residence of a Territory as opposed to a State is insufficient;
+    * a “resident” is a person who resides permanently in a State;
+    * the time at which diversity is required to be established is the time jurisdiction is invoked by commencing proceedings, as opposed to the time of the conduct in question;
+    * a plaintiff invoking this jurisdiction must affirmatively, on evidence, satisfy the court that the preconditions are present.
+ 3. The question of what is a “matter” has been considered in a number of High Court decisions. In Re McBain; Ex parte Australian Catholic Bishops Conference & Anor [2002] CLR 372 [/cgi-bin/LawCite?cit=%5b2002%5d%20CLR%20372] (“Re McBain”), three steps were said to be required in identifying a “matter” by Gaudron and Gummow JJ. Firstly, the subject matter for determination; secondly, the identification of the right, duty or liability to be established and thirdly the identification of the controversy between the parties
+
+> ...for the quelling of which the judicial power of the Commonwealth is involved. While each of these inquiries may be pursued separately, all are related aspects of the basal question, ‘is there a “matter” in the sense required by Ch III of the Constitution [http://www.austlii.edu.au/au/legis/cth/consol_act/coaca430/].
+
+ 1. The Supreme Court in Zistis v Zistis [2018] NSWSC 722 [http://www.austlii.edu.au/au/cases/nsw/NSWSC/2018/722.html] (“Zistis”) considered whether NCAT had power to determine a residential tenancy dispute in light of the decision in Burns. In Zistis, Latham J set out the criteria, drawn from Love v Attorney General (NSW) [1990] HCA 4 [http://www.austlii.edu.au/au/cases/cth/HCA/1990/4.html]; (1990) 169 CLR 307 [/cgi-bin/LawCite?cit=%281990%29%20169%20CLR%20307] and Precision Data Holdings Ltd v Wills (1991) 173 CLR 167 (Precision Data) in determining whether proceedings involved the exercise of judicial power. In Zistis at [57] Her Honour said:
+
+> The accepted criteria for the characterisation of a power as a judicial power include the following (acknowledging that there is no definitive list of features);
+
+> > (1) The power to deliver a binding and authoritive decision in determining a dispute between parties;
+> > (2) The capacity to enforce those decisions, albeit that is not a necessary attribute of judicial power. The inability to enforce judgments is a factor weighing against the characterisation of the power as judicial;
+> > (3) The ascertainment of existing rights and liabilities by the determination of issues of fact and law, as opposed to a determination of what legal rights and liabilities should be created;
+> > (4) The observance of open justice principles and the rules of procedural fairness; Where a tribunal is not bound by the rules of evidence, this may indicate that the exercise of the power is administrative
+
+ 1. The question of whether there was a “matter” before NCAT was not raised by the parties at the hearing in the Court of Appeal in Gatsby. However, Basten JA thought the scope of the “matters” upon which those proceedings turned was arguably a critical issue.” At [246] Basten JA stated:
+
+> It must follow that where the relevant “matter” is defined by a State statute, the content of the “matter” will depend upon that statute. If a statute does not confer jurisdiction on a State Court, there will be no matter arising under statute and therefore no occasion to consider whether any particular paragraph of s 75 [http://www.austlii.edu.au/au/legis/cth/consol_act/coaca430/s75.html] of the Constitution [http://www.austlii.edu.au/au/legis/cth/consol_act/coaca430/] is engaged.
+
+ 1. His Honour thought the Tribunal was not exercising judicial power in making an order under s 87 of the RT Act terminating a residential tenancy agreement. His Honour said in the case of termination of a residential tenancy agreement as no right, duty or liability established by the RT Act was enforceable by a court until the Tribunal had determined an application under s 87 of that Act, there was no “matter” before the Tribunal for the purpose of s 75(iv) [http://www.austlii.edu.au/au/legis/cth/consol_act/coaca430/s75.html] of the Constitution [http://www.austlii.edu.au/au/legis/cth/consol_act/coaca430/].
+ 2. It is necessary to examine the nature of the present proceedings before the Tribunal and the legislation which gives the Tribunal jurisdiction to consider applications of the type before me. Guardianship legislation is protective in nature and its primary purpose is to benefit and promote the welfare and best interests of people with disabilities. The principles of the Guardianship Act 1987 [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/] (NSW) (the GA Act) are set out in s 4. The welfare and interests of the person with a disability is to be the paramount consideration in exercising any function under the GA Act. The views of persons affected by orders are to be taken into account by the Tribunal in deciding whether an order should be made. Parties to applications have a right to have their views and interests taken into account.
+ 3. NCAT has various jurisdictions, including a general jurisdiction. The determination of applications for review of an enduring power of attorney and enduring guardian appointment is an exercise of the Tribunal’s general jurisdiction under s 29 [http://www.austlii.edu.au/au/legis/nsw/consol_act/caata2013326/s29.html] of the Civil and Administrative Tribunal Act 2013 [http://www.austlii.edu.au/au/legis/nsw/consol_act/caata2013326/] (NSW).
+
+Application to review the EPOA
+
+ 1. The EPOA was created under the Powers of Attorney Act 2003 [http://www.austlii.edu.au/au/legis/nsw/consol_act/poaa2003240/] (NSW) (POA Act). The GA Act and the POA Act provide for the review of this instrument by the Tribunal.
+ 2. The Tribunal’s jurisdiction in relation to the review of powers of attorney is set out in div 4, Pt 3 of the POA Act.
+ 3. The Tribunal may, on the application of an interested person, decide to review the making, revocation or operation and effect of a reviewable power of attorney: s 36(1) of the POA Act.
+ 4. When reviewing the making of a power of attorney, the Tribunal may make an order declaring that the principal either did or did not have the mental capacity to make a valid power of attorney at the relevant time. If the Tribunal is satisfied the principal did not have the capacity necessary to make the power of attorney, the Tribunal may declare the power of attorney to be invalid. The Tribunal may also make an order that the power of attorney is invalid for some other reason, such as where the principal was induced to make the power of attorney by dishonesty or undue influence.
+ 5. When reviewing the operation and effect of a power of attorney, the Tribunal has a broad discretion to make orders in the terms of those set out in ss 36(3)–(9) of the POA Act if it is satisfied that it would be in the best interests of the principal to do so or that it would better reflect the wishes of the principal. For instance, the Tribunal may remove a person from office, vary a term or power, revoke all or part of the power of attorney and direct an attorney to lodge accounts.
+ 6. In the alternative, the Tribunal may decide not to make any orders in respect of the review and, if so, may treat the application as an application for a financial management order under Pt 3A of the GA Act “if it considers it appropriate in all the circumstances to do so” (refer s 37(1) of the POA Act).
+
+Review of the enduring guardian appointment
+
+ 1. On reviewing the appointment of an enduring guardian, the Tribunal may:
+    * (i) confirm the appointment of an enduring guardian with or without varying the functions of the appointed enduring guardian;
+    * (ii) proceed as if an application for guardianship or an application for financial management (or both) had been made; or
+    * (iii) revoke the appointment, with or without then proceeding as if an application for guardianship or an application for financial management (or both) had been made.
+ 2. The Tribunal must not revoke the appointment of an enduring guardian unless:
+    * (i) the enduring guardian requests the revocation; or
+    * (ii) the Tribunal is satisfied it is in the best interests of NBL that the appointment be revoked.
+ 3. The Solicitor acting for PAJ has referred me to a recent decision of the Western Australian State Administrative Tribunal (WASAT) in the matter of GS [2018] WASAT 72 [http://www.austlii.edu.au/au/cases/wa/WASAT/2018/72.html] (“GS”). In that matter the applicant, who was a resident of NSW, made two applications to WASAT. The applications were in respect of the applicant’s mother who was a resident of Western Australia. Firstly, an application for guardianship and administration was made. An administration order in Western Australia is similar to a financial management order made in NSW. Secondly, an application was made seeking the production of accounts and records by his mother’s attorney who was also resident in Western Australia.
+ 4. In GS, it was decided by WASAT that applications for guardianship and administration were “matters” that involved the determination of the subject person’s rights by the application of the law to the facts and there was therefore a justiciable controversy. WASAT acknowledged that ascertaining what is in the subject person’s best interests may have a subjective component but ultimately it is a question of fact based on the information before the Tribunal.
+ 5. WASAT held that the guardianship application was not a matter between residents of different States as there was no right, duty or obligation of the applicant affected by the proceedings. This is because the applicant was seeking the appointment of the Public Advocate as the guardian as the outcome for the guardianship application.
+ 6. However, WASAT held the application for administration was a “matter” between residents of different States as the applicant sought to be appointed as administrator. The application for production of the attorney’s records and accounts was also held to involve a “matter” between residents of different States because the mother, son, and brother all had an interest in the outcome of the application.
+ 7. I understand the decision in GS is the subject of an appeal to the Supreme Court of Western Australia.
+ 8. Justice Lindsay of the NSW Supreme Court, writing extra-curially stated that:
+
+> Proceedings involving an exercise of protective jurisdiction are essentially administrative in character (although, unconstrained, parties may seek to pursue them with adversarial zeal) and they are designed to protect the interests of a person in need of protection going forward. Although they may look to the past in aid of decision making about future risks in management of the affairs of a person in need of protection, they are not designed to delve deeply into the existence or otherwise of disputed claims about past events. They are commonly an exercise in risk management, necessarily summary in character. They are not a ready vehicle for litigation of disputed entitlements as between the person in need of protection and parties who may seek to be heard about the nature and course of protective management of that person’s affairs.
+> Lindsay J, “A Struggle for Perfection in an Imperfect World: Dignity of the Individual, Capacity for Self-Management, Rights, Duties and Conflicts of Interest”, Supreme Court of New South Wales Speeches, 26 October 2018
+
+ 1. Again writing extra-curially Lindsay J said the purposive character of the protective jurisdiction of the Supreme Court carries procedural consequences which distinguish the exercise of protective jurisdiction from what is routinely experienced in ordinary, adversarial proceedings on a claim of right at common law. His Honour says the focus is on problem solving, from the perspective of the person in need of protection, rather than on adjudication of competing claims made by adversaries. Further his Honour says the parens patriae jurisdiction is sometimes spoken of as “supervisory” in contrast with the Court’s adjudicative function in adversarial litigation. There is also recognition that the role of the Court is generally, literally, to supervise a manager, guardian or the like entrusted with day-to-day responsibility for management of the affairs of an incapable person, intervening only where necessary to protect the incapable person: Lindsay J, “The Incapacitated Plaintiff and Personal Injury Compensation Proceedings”, Supreme Court of New South Wales Speeches, 11 March 2017.
+ 2. In CJ v AKJ [2015] NSWSC 498 [http://www.austlii.edu.au/au/cases/nsw/NSWSC/2015/498.html] at [27] [http://www.austlii.edu.au/au/cases/nsw/NSWSC/2015/498.html#para27], the Court referred to the Canadian Supreme Court decision in Re Eve 1986 CanLII 36 (SCC) [http://scc.lexum.umontreal.ca/en/1986/1986scr2-388/1986scr2-388.html]; [1986] 2 SCR 388 [/cgi-bin/LawCite?cit=%5b1986%5d%202%20SCR%20388] in noting the focus for attention, upon an exercise by the Court of its protective jurisdiction (whether inherent or statutory), is upon protection of a particular person, not the benefit, detriment or convenience of the State or others.
+ 3. In P v P (1994) CLR 583 [/cgi-bin/LawCite?cit=%281994%29%20CLR%20583], McHugh J at 645 commented on the nature of the power being exercised by the former Guardianship Board in determining an application under Pt 5 of the GA Act for consent to medical treatment, specifically sterilisation of an intellectually disabled child.
+
+> In making a determination under that Part, the Board is not declaring any pre-existing rights of the parties in litigation before it. Its duty is to refuse to consent to the carrying out of treatment unless it is satisfied "that the treatment is the most appropriate form of treatment for promoting and maintaining the patient's health and well-being" (s. 45).
+
+Conclusion
+
+ 1. This Tribunal decides applications in relation to particular people and must act in accordance with the governing legislation. Only a court can determine the meaning of legislation authoritively. At [281] in Gatsby, Leeming J said that in considering the extent of its own jurisdiction all that NCAT could do was form and express an opinion.
+ 2. The jurisdiction of the Guardianship Division of NCAT is protective in nature. While recognising that the present applications before me could, on one view, be categorised as per Precision Data a “dispute about the existing rights and obligations of the parties to be determined by what those rights and obligations are” it must be recognised that there is also a very strong public interest component to the exercise of the Tribunal’s statutory powers.
+ 3. PAJ contends that there is a dispute between himself and TZN and VBQ as to who the Tribunal should remove or appoint as attorney or whether or not the Tribunal should revoke or confirm their appointment as enduring guardian as they each propose themselves remain and the others be removed. This he says, following the reasoning in the WASAT decision of GS, is a “matter” “between residents of different States”.
+ 4. In the circumstances of this case, I do not consider the determinations of the applications are “matters” “between residents of different states”. The substance of the matters to be determined by the Tribunal affects NBL and is not “between” PAJ, VBQ and TZN. On review of the EGA and EPOA, the Tribunal would be called on to examine past events and conduct and make findings in relation to these. The outcome, however, may involve the creation of a new set of rights and obligations which did not exist antecedently and independently of the making of the orders; for example if the Tribunal removed an attorney from office and replaced that attorney with another person. Similarly if the Tribunal decided to treat the application for review of the EGA as a guardianship application the outcome could involve the creation of a new set of rights and obligations with the appointment of a guardian or guardians by the Tribunal with different functions to those in the EGA.
+ 5. Significantly the Tribunal must not exercise its discretion to make any of the orders in ss 36 (3)–(9) of the POA Act unless it was satisfied it would be in the best interests of the principal or would better reflect the wishes of the principal. The appointment of an enduring guardian must not be revoked unless the enduring guardian requests the revocation or the Tribunal is satisfied it would be in the best interests of the subject person to do so.
+ 6. I also conclude the power being exercised by the Tribunal is administrative, not judicial, in nature. The power exercised by the Tribunal in determining the applications shares some of the characteristics of a judicial power such as the delivery of a binding and authoritive judgment and the requirement to apply the rules of procedural fairness. However, it is not bound by the rules of evidence and the proceedings are not a dispute inter partes. The proceedings in the Tribunal are protective in nature, inquisitorial and their primary purpose is to benefit and promote the welfare and best interests of people with disabilities.
+ 7. It follows that I am satisfied the Tribunal has jurisdiction to hear both the application to review the enduring guardian appointment and the application to review an enduring power of attorney.
+
+Other issues
+
+ 1.  PAJ contends in his submissions that if the Tribunal determines it has jurisdiction to hear the review applications, it will not have jurisdiction to treat the application for review of the EGA as an application for guardianship under s 6K(3) of the GA Act. This, he says, is because NBL is now a resident of Western Australia. The decision was made for NBL to live in Western Australia by PAJ as her enduring guardian appointed jointly and severally. It appears to be accepted that the decision for NBL to live in Western Australia was not made by agreement with the other appointed guardians.
+ 2.  In my view it is premature to make a decision on the issue of whether the Tribunal would have jurisdiction to make a guardianship order. There is no guardianship application presently before the Tribunal. A three-member panel hearing the application for review of the enduring guardianship appointment may decide to treat that application as an application for guardianship. This decision would depend on the evidence before the Tribunal at the time of the hearing. For the assistance of the parties, I set out some of the relevant considerations in deciding this issue if and when it arises.
+ 3.  The GA Act does not specify that the subject person must be in NSW or that the subject person must be a resident in or domiciled in NSW in order for there to be jurisdiction to make an order.
+ 4.  There is, however, a common law presumption against the extraterritorial operation of State legislation. The legislature’s intent that a statute is to have extraterritorial operation must be provided for by express words or arise by necessary implication.
+ 5.  The presumption against extraterritoriality is not rebutted by any express words in the GA Act. It has been remarked that the fact that the GA Act does not provide for service of an interstate application supports the presumption against extraterritoriality not being rebutted. This was an obiter remark made by Young J in EMG v Guardianship and Administration Board of Victoria [1999] NSWSC 501. [http://www.austlii.edu.au/au/cases/nsw/NSWSC/1999/501.html]
+ 6.  There is authority for the proposition that if the application of the presumption against extraterritoriality would defeat the purpose of the legislation, then it can be assumed that it was the intention of the legislature to override the presumption: Kumagai Gumi Co Ltd v FCT [1999] FCA 235 [http://www.austlii.edu.au/au/cases/cth/FCA/1999/235.html]; (1999) 161 ALR 699 [/cgi-bin/LawCite?cit=%281999%29%20161%20ALR%20699] at [707] [http://www.austlii.edu.au/au/cases/cth/FCA/1999/235.html#para707].
+ 7.  As noted by the then Guardianship Tribunal in JAK [2007] NSWGT 23 [http://www.austlii.edu.au/au/cases/nsw/NSWGT/2007/23.html] (31 October 2007) (“the JAK decision”), there is authority for the proposition that a domicile of a person proposed to be protected by an order can be used as a sufficient connecting factor to validate the extra territorial exercise of a protective jurisdiction. The legal concept of domicile involves both the intention to reside indefinitely in a particular place and the fact of residing there.
+ 8.  In limited circumstances, a person can be treated as “domiciled” in NSW, even though not physically present: Re S (Hospital Patient; Foreign Curator) [1995] 4 All ER 30 [/cgi-bin/LawCite?cit=%5b1995%5d%204%20All%20ER%2030]; Re G [1966] NZLR 1028 [/cgi-bin/LawCite?cit=%5b1966%5d%20NZLR%201028]; NCK [2004] WAGAB 6. [http://www.austlii.edu.au/au/cases/wa/WAGAB/2004/6.html] The legal concept of domicile involves both the intention of the person to reside indefinitely in a particular place and the fact of residing there. A person will not be able to acquire a new domicile of choice if they lack the capacity to form an intention to do that: s 7(2) [http://www.austlii.edu.au/au/legis/nsw/consol_act/da197983/s7.html] of the Domicile Act 1979 [http://www.austlii.edu.au/au/legis/nsw/consol_act/da197983/] (NSW). A person’s domicile cannot be changed by their guardian: Kertesz v Kertesz [1954) VLR 195.
+ 9.  I did not have the benefit of evidence from NBL herself on issues such as whether she regards Western Australia as her permanent home nor has the Tribunal heard evidence and made findings relevant to NBL’s current capacity or her capacity at the time she commenced to live in Western Australia.
+ 10. The Tribunal in the JAK decision held that it did not have jurisdiction to deal with a guardianship application. The JAK decision involved an application for a 68-year-old man who was residing in a nursing home in South Australia and arose in the context of previous applications and orders made by the Tribunal concerning JAK. The decision for JAK to live in South Australia was made lawfully under the authority of his guardian appointed under the GA Act. A guardian was subsequently appointed in South Australia and that guardian made the decision that JAK should live permanently in South Australia. In considering whether there were any reasons to rebut the presumption against extraterritorial presumption the Tribunal took into account, amongst other factors, that the subject person had the benefit of protective guardianship legislation in South Australia and the difficulty of the subject person participating in NSW proceedings if residing outside of NSW. The Tribunal noted that provision for interstate recognition of orders is a factor weighing on the side of the presumption rather than against it.
+ 11. Some considerations which would be relevant to the issue of whether the presumption against extraterritoriality has been rebutted would be as follows: Firstly, the difficulty of NBL participating in the hearing if it is conducted in NSW. Secondly, the people and organisations now involved in her day to day care and treatment are located in Western Australia. Thirdly, there is protective guardianship legislation in Western Australia and the provision for interstate recognition of guardianship orders in both Western Australia and NSW.
+ 12. I note that it would be open to anyone with a genuine concern for NBL’s welfare to bring an application for guardianship. Arguably, such an application may be more appropriately dealt with by WASAT as NBL is currently living in Western Australia and witnesses as to her present and future care requirements are also situated in Western Australia.
+ 13. There appears to be no dispute that the Tribunal on review of the enduring power of attorney could, if it considered it was appropriate, treat that application as an application for a financial management order under s 37(1) of the POA Act. I accept that this course would be open to the Tribunal hearing the review of the enduring power of attorney. It has been accepted by this Tribunal in other cases that where the person the subject of an application for financial management is not resident in NSW but has assets in NSW there is jurisdiction to make a financial management order.
+ 14. Given my decision on the preliminary issue of jurisdiction raised by PAJ, the applications should now be listed for a further directions hearing on a date to be advised by the Registry. I direct that any application by a party for leave for legal representation should be made in writing prior to the directions hearing.
+
+**********
+
+I hereby certify that this is a true and accurate record of the reasons for decision of the Civil and Administrative Tribunal of New South Wales.
+Registrar

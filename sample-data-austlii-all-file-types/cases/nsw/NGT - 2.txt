@@ -1,0 +1,186 @@
+-----------------------------------
+title: NGT
+titles: ["NGT"]
+citations: ["[2019] NSWCATGD 2","NSWCATGD 2"]
+date: 2019-01-21 00:00:00
+type: case
+subjurisdiction: nsw
+jurisdiction: au
+data_quality: H
+database: NSWCATGD
+url: https://austlii.edu.au/cgi-bin/viewdoc/au/cases/nsw/NSWCATGD/2019/2.html
+-----------------------------------
+
+
+NGT [2019] NSWCATGD 2 (21 JANUARY 2019)
+
+Last Updated: 12 February 2019
+
+
+
+
+NSW Civil and Administrative Tribunal
+New South Wales
+
+
+
+
+
+Case Name:
+NGT
+Medium Neutral Citation:
+[2019] NSWCATGD 2 [http://www.austlii.edu.au/au/cases/nsw/NSWCATGD/2019/2.html]
+Hearing Date(s):
+21 January 2019
+Date of Orders:
+21 January 2019
+Decision Date:
+21 January 2019
+Jurisdiction:
+Guardianship Division
+Before:
+J Claridge, Senior Member (Legal)
+L Houlahan, Senior Member (Professional)
+L Porter, General Member (Community)
+Decision:
+1. A guardianship order is made for NGT.
+
+2. SZD of [Address removed for publication.] is appointed as the guardian.
+
+3. This is a continuing guardianship order for a period of 12 months from 21 January 2019.
+
+4. This is a limited guardianship order giving the guardian(s) custody of NGT to the extent necessary to carry out the functions below.
+
+FUNCTIONS:
+
+5. The guardian has the following function:
+
+a) Restrictive Practices
+
+To make decisions about the following restrictive practices:
+
+Environmental restraint: to lock the tea and coffee in a kitchen cupboard to prevent NGT having unlimited access.
+
+CONDITIONS:
+
+6. The conditions of this order are:
+
+a) Standard Condition
+
+In exercising this role the guardian shall take all reasonable steps to bring NGT to an understanding of the issues and to obtain and consider his views before making significant decisions.
+
+b) Restrictive Practices Condition
+
+The guardian may only consent to:
+
+i) Other restrictive practices
+
+to address challenging behaviours within the context of the implementation of a comprehensive positive behaviour intervention and support program (or within the context of positive programming addressing NGT’s lifestyle and skills development needs).
+Catchwords:
+GUARDIANSHIP – application for a guardianship order – guardianship order made – appointment of private guardian
+
+RESTRICTIVE PRACTICES – definition and nature of restrictive practices – relationship between restrictive practices and NDIS – environmental restraint – whether practice is a restrictive practice – meaning of chemical restraint
+Legislation Cited:
+Guardianship Act 1987 [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/] (NSW), ss 3(1) [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/s3.html]–(2), 4 [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/s4.html], 14 [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/s14.html](1)–(2), 15 [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/s15.html](3), 17 [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/s17.html](1), 18 [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/s18.html](1)
+National Disability Insurance Scheme Act 2013 [http://www.austlii.edu.au/au/legis/cth/consol_act/ndisa2013341/] (Cth), s 9 [http://www.austlii.edu.au/au/legis/cth/consol_act/ndisa2013341/s9.html]
+National Disability Insurance Scheme (Restrictive Practices and Behaviour Support) Rules 2018 (Cth), r 6
+Cases Cited:
+Nil
+Texts Cited:
+Nil
+Category:
+Principal judgment
+Parties:
+002: Guardianship Application
+
+NGT (the person)
+SZD (applicant)
+Public Guardian
+Representation:
+Nil
+File Number(s):
+NCAT 2017/00236057
+Publication Restriction:
+Decisions of the Guardianship Division of the Civil and Administrative Tribunal have been anonymised to remove any information that may identify any person involved in the Tribunal’s proceedings (s 65, Civil and Administrative Tribunal Act 2013 [http://www.austlii.edu.au/au/legis/nsw/consol_act/caata2013326/] (NSW)).
+
+REASONS FOR DECISION
+
+Background
+
+ 1. NGT is 67 years old and lives in a group home in Northwest Sydney, managed by a disability service provider.
+ 2. NGT receives informal support from his two sisters.
+ 3. It is reported that NGT has an intellectual disability, schizophrenia and emphysema.
+ 4. On 6 November 2018, the Tribunal received an application for guardianship for NGT from SZD, sister.
+
+Written evidence
+
+ 1. Accompanying the application is Behaviour Support Plan dated July 2018, outcome summary for restricted practice authorisation dated 15 October 2018, restricted practice plan dated February 2016, tea and coffee procedure dated 30 August 2018, report dated 2 November 2018 by Dr Z, GP, Management Plan dated 20 December 2017, and discharge summary dated 11 December 2004.
+
+GUARDIANSHIP
+
+ 1. In determining an application for guardianship, the Tribunal must consider:
+    * Is the person who is the subject of the application someone for whom the Tribunal could make an order because he/she has a disability which prevents him/her from being able to make important life decisions?
+    * Should the Tribunal make a guardianship order and if so, what order should be made?
+    * Who should be the guardian?
+    * How long should the order last?
+
+Is NGT someone for whom the Tribunal could make an order?
+
+ 1. By s 14(1) [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/s14.html] of the Guardianship Act 1987 [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/] (NSW) (‘the Act’) we have power to make a guardianship order for a person if we are satisfied that he/she is “a person in need of a guardian”.
+ 2. A person in need of a guardian is “a person who because of a disability is totally or partially incapable of managing his or her person”: s 3(1) [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/s3.html] of the Act. The disability must restrict a person in one or more major life activity to such an extent that he or she requires supervision or social habilitation: s 3(2) [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/s3.html] of the Act.
+ 3. A number of reports and other documents submitted in evidence, consistently indicate that NGT has diagnoses of intellectual disability and chronic schizophrenia. It is reported that NGT has a moderate to mild level of intellectual disability with good speech communication skills and good adaptive skills. It is also reported that NGT is able to ignore symptoms of schizophrenia such as hallucinations without causing disruption to his life.
+ 4. These reports indicate, consistent with the view expressed by the witnesses at the hearing and NGT’s presentation, that as a result of his disabilities NGT is unable to make important personal health and lifestyle decisions, such that he needs supervision or assistance to function in society and has an inability to manage his person.
+
+Should the Tribunal make a guardianship order and what order should be made?
+
+ 1.  Before making a guardianship order, we must have regard to all of the following matters set out in s 14(2) [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/s14.html] of the Act:
+     * (a) the views (if any) of:
+       * (i) the person, and
+       * (ii) the person’s spouse, and
+       * (iii) the person’s carer and
+     * (b) the importance of preserving the person’s existing family relationships, and
+     * (c) the importance of preserving the person’s particular cultural and linguistic environments, and
+     * (d) the practicability of services being provided to the person without the need for the making of such an order.
+ 2.  Additionally we must observe the general principles listed in s 4 [http://www.austlii.edu.au/au/legis/nsw/consol_act/ga1987136/s4.html] of the Act. Among other things, this requires that in deciding whether to make a guardianship order, we must endeavour to restrict NGT’s freedom of decision making and freedom of action as little as possible. As far as possible we should enable NGT to be self-reliant in matters relating to NGT’s personal, domestic and financial affairs. At the same time, we must also aim to protect NGT from neglect, abuse and exploitation. The paramount consideration at all times is NGT’s welfare and interests.
+ 3.  We have been asked to appoint a guardian with authority to consent to certain practices described as restrictive practices in a behaviour management plan for NGT.
+ 4.  The Act does not define restrictive practices.
+ 5.  Generally, however, a restrictive practice has been viewed as any practice or intervention that restricts a person’s rights, freedom of movement or access to objects. Restrictive practices are generally used to manage challenging behaviour.
+ 6.  The application has been brought today as a result of the introduction of the National Disability Insurance Scheme (NDIS) and the implementation of the NDIS Quality and Safeguarding Framework (Framework), which underpins that scheme.
+ 7.  Under the Framework, states and territories are responsible for the authorisation of restrictive practices used by registered NDIS providers and behaviour support practitioners.
+ 8.  Section 9 [http://www.austlii.edu.au/au/legis/cth/consol_act/ndisa2013341/s9.html] of the National Disability Insurance Scheme Act 2013 [http://www.austlii.edu.au/au/legis/cth/consol_act/ndisa2013341/] (Cth) defines restrictive practices as ‘any practice or intervention that has the effect of restricting the rights or freedom of movement of a person with disability’.
+ 9.  Since 1 July 2018, registered NDIS providers in NSW are regulated by the NDIS Quality and Safeguards Commission and are responsible for ensuring that proper consent is obtained for the use of restrictive practices.
+ 10. Rule 6 of the National Disability Insurance Scheme (Restrictive Practices and Behaviour Support) Rules 2018 (Cth) states that a restrictive practice is a regulated restrictive practice if it involves, relevantly for today’s hearing:
+     * (a) chemical restraint, which is the use of medication or chemical substance for the primary purpose of influencing a person’s behaviour. It does not include the use of medication prescribed by a medical practitioner for the treatment of, or to enable treatment of, a diagnosed mental disorder, a physical illness or a physical condition;
+     * (b) environmental restraint, which restrict a person’s free access to all parts of their environment, including items or activities.
+ 11. In determining if a practice is a restrictive practice for which informed consent is required we must balance the right to autonomy of the person with the need to manage challenging behaviours in the interests and welfare of that person. We consider these practices in light of the lawfulness of the practice as well as the context, nature, degree and purpose of the restrictions to ensure that the person’s rights are not breached.
+ 12. We were provided with a behaviour support plan prepared for NGT, which sets out a plan for the management of some behaviours of concern, relating to the excessive consumption of tea and coffee and to relieve anxiety.
+ 13. NGT attended the hearing. He was able to participate and give a limited view. He appeared happy and relaxed at the hearing and agreed to everything proposed. He gave appropriate answers to questions asked of him.
+ 14. Ms Y stated that NGT takes Clozapine and Escitalopram as prescribed by Dr X, psychiatrist and Dr Z, general practitioner. These medications are prescribed for the treatment of schizophrenia and anxiety. SZD, as Person Responsible, stated that she has consented in the past to these medications for her brother. Ms Y stated that NGT has been taking to same dose of Clozapine for a long time. The dosage of his anxiety medication was increased recently. He sees a specialist for emphysema. These medications are not used to influence NGT’s behaviour but to treat diagnosed conditions. A guardianship order is not needed in these circumstances.
+ 15. Ms Y stated that NGT has restricted access to the cupboard in the kitchen in which tea and coffee is kept in the group home where he lives. She stated that NGT loves tea and coffee and will consume both to excess if permitted.
+ 16. In the behaviour support plan it states that: “[NGT] is addicted to the consumption of tea and coffee. If he has free access to the substances, he will consume a dangerous amount of them. Owing to the fact that [NGT] will inhale tea leaves from teabags wet or dry, it poses a significantly high risk of choking, aspiration pneumonia to his already damaged lungs. Therefore he is restricted from accessing them when there is no staff supervision available.”
+ 17. A tea and coffee routine has been developed for NGT so that he can consume tea and coffee throughout the day. In accordance with the routine NGT is able to consume three cups of decaffeinated coffee and the contents of a tea bottle made up each day. NGT accepts this routine and does not object.
+ 18. NGT can become anxious if he does not receive his coffee as scheduled. He will try to access tea and coffee whenever he can, including taking the keys to the cupboard when he finds them after seeking them out. He asked for a coffee at the hearing.
+ 19. Ms Y stated that the practice of restricting NGT’s access to tea and coffee cannot be phased out because he is obsessive about it. He displays other compulsive behaviours when anxious.
+ 20. NGT’s freedom to access parts of his home environment is restricted for the purpose of managing his behaviour. If the cupboards were not locked he would access them without control. We accept that this is an environmental restraint for which informed consent is required. On this basis we have decided to appoint a guardian with a restrictive practices function, with authority to consent to the kitchen cupboard being locked.
+
+Who should be appointed as the guardian?
+
+ 1. We have to be satisfied that any person appointed as a private guardian meets the following requirements under s 17(1) of the Act. He/she must:
+    * (a) have a personality generally compatible with the personality of the person under guardianship,
+    * (b) have no undue conflict of interest (particularly financial) with those of the person and
+    * (c) be able and willing to exercise the functions of the order.
+ 2. We are not able to appoint the Public Guardian as a person’s guardian if there is a private person who can be appointed: s 15(3) of the Act.
+ 3. The applicant proposes that she be appointed as NGT’s guardian.
+ 4. SZD is Person Responsible for her brother and has an active role in his life, visiting regularly and consenting to medications for him. After initially being reluctant because of her age, SZD stated that she is both willing and able to act as decision maker for her brother.
+ 5. Ms Y supported the appointment of SZD.
+ 6. We are satisfied that SZD meets the requirements to be appointed NGT’s guardian.
+
+How long should the order last?
+
+ 1. An initial continuing guardianship order can generally be made for a period not exceeding 12 months: s 18(1) of the Act.
+ 2. Ms Y stated that NGT’s behaviour support plan will be reviewed within the next three months but no changes are anticipated. We have decided to make a 12 month reviewable order.
+
+**********
+
+I hereby certify that this is a true and accurate record of the reasons for decision of the Civil and Administrative Tribunal of New South Wales.
+Registrar

@@ -166,6 +166,7 @@ def _knn_space() -> str:
 
 def _index_body_for(name: str) -> Dict[str, Any]:
     dim = _embedding_dim()
+    total_fields_limit = int(_env("OPENSEARCH_TOTAL_FIELDS_LIMIT", default="5000"))
     if _is_embeddings_index_name(name):
         return {
             "settings": {
@@ -173,6 +174,7 @@ def _index_body_for(name: str) -> Dict[str, Any]:
                     "knn": True,
                     "number_of_shards": int(_env("OPENSEARCH_NUMBER_OF_SHARDS", "AUSLEGALSEARCH_OS_SHARDS", default="1")),
                     "number_of_replicas": int(_env("OPENSEARCH_NUMBER_OF_REPLICAS", "AUSLEGALSEARCH_OS_REPLICAS", default="0")),
+                    "mapping.total_fields.limit": total_fields_limit,
                 }
             },
             "mappings": {
@@ -192,6 +194,7 @@ def _index_body_for(name: str) -> Dict[str, Any]:
                         },
                     },
                     "chunk_metadata": {"type": "object", "enabled": True},
+                    "chunk_metadata_text": {"type": "text"},
                     "text": {"type": "text"},
                     "text_preview": {"type": "text"},
                     "source": {"type": "keyword"},
@@ -206,6 +209,7 @@ def _index_body_for(name: str) -> Dict[str, Any]:
                 "index": {
                     "number_of_shards": int(_env("OPENSEARCH_NUMBER_OF_SHARDS", "AUSLEGALSEARCH_OS_SHARDS", default="1")),
                     "number_of_replicas": int(_env("OPENSEARCH_NUMBER_OF_REPLICAS", "AUSLEGALSEARCH_OS_REPLICAS", default="0")),
+                    "mapping.total_fields.limit": total_fields_limit,
                 }
             },
             "mappings": {
@@ -227,10 +231,23 @@ def _index_body_for(name: str) -> Dict[str, Any]:
             "index": {
                 "number_of_shards": int(_env("OPENSEARCH_NUMBER_OF_SHARDS", "AUSLEGALSEARCH_OS_SHARDS", default="1")),
                 "number_of_replicas": int(_env("OPENSEARCH_NUMBER_OF_REPLICAS", "AUSLEGALSEARCH_OS_REPLICAS", default="0")),
+                "mapping.total_fields.limit": total_fields_limit,
             }
         },
         "mappings": {"dynamic": True},
     }
+
+
+def _ensure_total_fields_limit(client, idx: str) -> None:
+    limit = int(_env("OPENSEARCH_TOTAL_FIELDS_LIMIT", default="5000"))
+    try:
+        client.indices.put_settings(
+            index=idx,
+            body={"index": {"mapping.total_fields.limit": limit}},
+        )
+    except Exception:
+        # Best effort; do not fail bootstrap if cluster rejects dynamic update.
+        pass
 
 
 def _validate_shards_replicas(client, idx: str) -> None:
@@ -363,4 +380,5 @@ def ensure_opensearch_indexes() -> None:
             client.indices.delete(index=idx)
         if not client.indices.exists(index=idx):
             client.indices.create(index=idx, body=_index_body_for(idx))
+        _ensure_total_fields_limit(client, idx)
         _validate_shards_replicas(client, idx)

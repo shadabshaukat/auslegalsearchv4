@@ -1,0 +1,695 @@
+-----------------------------------
+title: Beckingham v Browne
+titles: ["Beckingham v Browne"]
+citations: ["[2021] VSCA 362","VSCA 362"]
+date: 2021-12-17 00:00:00
+type: case
+subjurisdiction: vic
+jurisdiction: au
+data_quality: H
+database: VSCA
+url: https://austlii.edu.au/cgi-bin/viewdoc/au/cases/vic/VSCA/2021/362.html
+-----------------------------------
+
+
+BECKINGHAM V BROWNE [2021] VSCA 362 (17 DECEMBER 2021)
+
+Last Updated: 17 December 2021
+
+
+
+SUPREME COURT OF VICTORIA
+
+COURT OF APPEAL
+
+
+S EAPCI 2020 0071
+
+
+ROBERT OWEN BECKINGHAM
+Applicant
+
+
+v
+
+
+
+ALLISON BROWNE
+Respondent
+
+
+
+
+---
+
+
+JUDGES:
+MAXWELL P, McLEISH and NIALL JJA
+WHERE HELD:
+MELBOURNE
+DATE OF HEARING:
+3 August 2021
+DATE OF JUDGMENT:
+17 December 2021
+MEDIUM NEUTRAL CITATION:
+[2021] VSCA 362 [http://www.austlii.edu.au/au/cases/vic/VSCA/2021/362.html]
+JUDGMENT APPEALED FROM:
+[2020] VSC 301 (John [http://www.austlii.edu.au/au/cases/vic/VSC/2020/301.html] Dixon J)
+
+
+---
+
+
+ADMINISTRATIVE LAW – Appeal on question of law – Statutory notices – Statutory purpose – Anti-corruption investigation – Breach of confidentiality notices – Whether notices complied with statutory requirement – Whether notices valid – Notices invalid – Leave to appeal granted – Appeal allowed – Criminal Procedure Act 2009 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2009188/] s 272 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2009188/s272.html], Independent Broad-based Anti-corruption Act 2011 ss 3, 42.
+
+WORDS AND PHRASES – ‘specifying’ – ‘specify’.
+
+
+---
+
+
+
+
+
+APPEARANCES:
+Counsel
+Solicitors
+
+
+
+For the Applicant
+Mr O P Holdenson QC
+with Ms A Dixon
+Tony Hargreaves and Partners
+
+
+
+For the Respondent
+Mr C Young QC
+with Mr N Mutton
+Independent Broad-based Anti-corruption Commission
+
+
+
+MAXWELL P:
+
+Summary
+
+1 The applicant (‘RB’) faced four charges of contravening s 44(1) of the Independent Broad‑based Anti‑corruption Commission Act 2011 (‘IBAC Act’). Each charge alleged disclosure of a ‘restricted matter’, in breach of two confidentiality notices which the Independent Broad-based Anti-corruption Commission (the ‘IBAC’) had issued to him.
+2 On 12 June 2019, a magistrate dismissed the charges. The IBAC appealed to the Supreme Court pursuant to s 272 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2009188/s272.html] of the Criminal Procedure Act [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2009188/] 2009 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2009188/], on questions of law which are no longer relevant. On that appeal, RB conceded error but sought to support the dismissal of the charges on grounds not raised before, primarily, that the confidentiality notices were invalid because they did not satisfy the requirements of the authorising provision, s 42(1) of the IBAC Act.
+3 The judge rejected that ground, holding that the notices were valid.[1] His Honour allowed the IBAC’s appeal and remitted the matter to the Magistrates’ Court for hearing. RB now seeks leave to appeal against that decision. He maintains that the notices are invalid because they do not satisfy the express statutory requirement to ‘specify the restricted matter or restricted matters’.[2] Alternatively, he relies on an implied requirement that such a notice must identify with ‘reasonable clarity’ the matters which must not be disclosed.
+4 For reasons which follow, I would uphold the first of those contentions. In order to comply with the express requirement that a notice under s 42(1) ‘specify’ the restricted matters which cannot be disclosed, the notices given to RB had to identify the relevant matters ‘definitely or explicitly’, ‘in detail’ and with ‘unambiguous clarity’. As will appear, the ‘restricted matters’ listed in the notices were described in entirely general, indefinite and non-specific terms and, accordingly, the notices were not authorised by s 42(1). In those circumstances, it is unnecessary to consider the alternative argument.
+5 Leave to appeal should be granted, the appeal allowed and the order for dismissal of the charges restored.
+
+Relevant statutory provisions
+
+6 The IBAC Act establishes the IBAC (s 1). The objects of the IBAC Act (s 8) include the identification, investigation and exposure of ‘corrupt conduct’, and ‘police personnel misconduct’. Division 4 of pt 3 of the IBAC Act authorises the IBAC to carry out investigations.
+7 Section 42(1) of the IBAC Act relevantly provides as follows:
+
+> (1) If during an investigation the IBAC considers on reasonable grounds that the disclosure of one or more restricted matters would be likely to prejudice—
+
+
+
+> > (a) that investigation; or
+> > (b) the safety or reputation of a person; or
+> > 
+> > > (c) the fair trial of a person who has been, or may be, charged with an offence—
+> > 
+> > 
+> > the IBAC may issue a confidentiality notice in respect of that investigation to a person ... specifying the restricted matter or restricted matters in accordance with this section.
+
+8 Section 42 also requires that a confidentiality notice be in a prescribed form and that certain other documents must be provided with the confidentiality notice when it is served on the recipient. At the time of the alleged offending, sub-s (2) stated:
+
+> > (2) A confidentiality notice must—
+> > 
+> > > (a) be in the prescribed form;
+> > > (b) specify the restricted matter or restricted matters in respect of which the confidentiality notice is issued;
+> > > (c) include a copy of the provisions of subsections (3) to (8) and section 44 and an explanation of the effect of those provisions;
+> > > (d) include a statement—
+> > > (i) advising the person to whom the confidentiality notice is issued that additional obligations under the Protected Disclosure Act 2012 relating to confidentiality may apply to the person; and
+> > > (ii) directing the person to the provisions of that Act which impose those obligations;
+> > > (e) if a restricted matter specified in the confidentiality notice is the fact that the person has been, or is proposed to be, examined by, or has produced, or may produce, any document or thing to, the IBAC, specify that the IBAC authorises the person to whom the confidentiality notice is issued to disclose the restricted matter to—
+> > > (i) the person’s spouse or domestic partner; and
+> > > (ii) the person’s employer or manager or both, for the purpose of enabling the person to whom the confidentiality notice is issued to take the appropriate leave from his or her employment in order to comply with the witness summons—
+> > 
+> > 
+> > except to the extent that the IBAC considers that the authorisation to make the disclosure to the person's spouse, domestic partner, employer or manager would be likely to prejudice any of the matters specified in subsection (1)(a), (b) or (c).[3]
+
+9 The prescribed form of a confidentiality notice relevantly states:
+
+> > This confidentiality notice is issued under section 42 [http://www.austlii.edu.au/au/legis/vic/consol_act/ibaca2011479/s42.html] of the Independent Broad-based Anti-corruption Commission Act 2011 [http://www.austlii.edu.au/au/legis/vic/consol_act/ibaca2011479/] in respect of the following restricted matters:
+> > [specify restricted matter or matters]. [4]
+
+10 ‘Restricted matters’ are defined in s 3 of the IBAC Act, as follows:
+
+> > restricted matter means—
+> > (a) any evidence or information given to, or obtained by, the IBAC;
+> > 
+> > > (b) the contents of any document, or a description of any thing, produced to, or obtained by, the IBAC;
+> > > (c) the contents of any document, or a description of any thing, which the IBAC has made a copy of or seized under Division 3 or Division 4 of Part 4;
+> > > (d) the existence of, or any information about, a confidentiality notice or a witness summons;
+> > > (e) the subject matter of an investigation in relation to which a witness summons has been issued;
+> > > (f) any information that could enable a person who has been, or is proposed to be, examined by, or who has produced, or may produce, any document or thing to, the IBAC, to be identified or located;
+> > > (g) the fact that a person has been, or is proposed to be, examined by, or has produced, or may produce, any document or thing to, the IBAC.
+
+11 Section 44(1) relevantly provides:
+
+> > Disclosure subject to confidentiality notice
+> > (1) Subject to subsections (2), (3), (4) and (5), a person who—
+> > 
+> > > (a) is duly served with a confidentiality notice by the IBAC under section 42(9), and if applicable, any order extending the confidentiality notice; or
+> > 
+> > 
+> > ...
+> > must not disclose a restricted matter specified in the confidentiality notice while it has effect.
+> > Penalty: 120 penalty units or imprisonment for 12 months or both.
+
+The instruments issued by the IBAC
+
+12 On 27 November 2017, the IBAC issued four instruments addressed to RB: two confidentiality notices, which were identical in form, save for a different summons reference number on the first page; and two summonses. The first summons required RB to attend an examination in relation to certain matters on 19 December 2017. It was served on RB on 19 December 2017, along with one of the confidentiality notices. The second summons, along with the other confidentiality notice, was served on RB upon his attendance at the IBAC on 19 December 2017 and required him to attend an examination immediately and produce certain things in his possession.
+
+Proceedings before the Magistrate
+
+13 As already mentioned, RB faced four charges of disclosing a restricted matter ‘specified in’ a confidentiality notice. Each charge was in similar terms and alleged that:
+
+> > The accused at Melbourne in the State of Victoria on [date] being a person who was duly served with a Confidentiality Notice by the IBAC under section 42(9) of the [IBAC Act] did disclose to [named person] restricted matters specified in the Confidentiality Notice whilst the Confidentiality Notice was in effect, namely [disclosure described].
+
+14 The charges variously alleged disclosure by RB of:
+
+
+
+> > (a) the existence of the summons he had received to attend the IBAC examination;
+> > (b) the subject matter of the investigation to which the summons related;
+> > (c) the description of a thing that he had produced to the IBAC; and
+> > (d) the evidence that he had given to the IBAC.
+
+
+
+15 Relevantly each confidentiality notice stated:
+
+> > 1. What is this notice?
+> > This confidentiality notice is issued under section 42 of the Independent Broad-based Anti‑corruption Commission Act 2011 in respect of the following restricted matters:
+> >  * any evidence or information given to, or obtained by, the IBAC;
+> >  * the contents of any document, or a description of any thing, produced to, or obtained by the IBAC;
+> >  * the contents of any document, or a description of any thing, which the IBAC has made a copy of or seized under Division 3 or Division 4 of Part 4;
+> >  * the existence of, or any information about, a confidentiality notice or a witness summons;
+> >  * the subject matter of an investigation in relation to which a witness summons has been issued;
+> >  * any information that could enable a person who has been, or is proposed to be, examined by, or who has produced, or may produce, any document or thing to, the IBAC, to be identified or located;
+> >  * the fact that a person has been, or is proposed to be, examined by, or has produced, or may produce, any document or thing to, the IBAC.
+> > 
+> > 
+> > Because you have been given this confidentiality notice, you are not permitted to disclose the above restricted matters except as described below in the section headed ‘When are you authorised to disclose information?’
+> > If you disclose a restricted matter when you are not permitted to, you can face several penalties, including up to 12 months in prison or a fine of up to 120 penalty units or both.
+> > You should also note that additional obligations under Part 7 of the Protected Disclosure Act 2012 relating to confidentiality of assessable disclosures and people who make assessable disclosures may apply to you.
+> > 2. Why have you been given this notice?
+> > You have been given this confidentiality notice because the Independent Broad‑‑based Anti‑corruption Commission (‘IBAC’) considers that your disclosure of any of the restricted matters described above would be likely to prejudice:
+> > 
+> >  * an IBAC investigation; or
+> >  * the safety or reputation of a person; or
+> >  * the fair trial of a person who has been, or may be, charged with an offence.
+
+16 As mentioned, the first summons served on RB required him to attend and be examined in relation to his ‘knowledge of, and involvement in’ certain matters. Those matters were identified by date and by reference to four individuals, including RB, who were named in the summons. At the examination, the confidentiality notices were tendered and their ongoing operation, as well as the significant penalty for the breach of a confidentiality notice were drawn to RB’s attention. The notices operated from the time of service until they were cancelled by letter dated 21 November 2018.
+17 Before the magistrate, RB submitted that:
+
+> > the IBAC has not alleged in any of charges 1, 4, 5 or 6 that it had reasonable grounds for issuing a confidentiality notice in accordance with the IBAC Act. Most importantly, the IBAC has not adduced any evidence that it did have reasonable grounds for issuing a confidentiality notice in accordance with that legislation.
+> > As a result, this court cannot be satisfied beyond reasonable doubt that reasonable grounds existed for issuing a confidentiality notice. In the absence of any evidence on this point, the prosecution has not proved that the purported confidentiality notice was issued properly and was a valid notice. It follows that in the absence of proof that the purported confidentiality notice was validly issued charges 1, 4, 5 and 6 must be dismissed.
+
+18 The magistrate upheld this submission and dismissed the charges. On the IBAC’s appeal to the Supreme Court, however, RB did not seek to maintain the argument on which he had succeeded below. Instead, as already mentioned, he advanced (without objection from counsel for the IBAC) new arguments directed at showing that the notices were invalid.
+
+The decision at first instance
+
+19 The judge summarised RB’s new arguments as to why the notices were invalid. Four bases of invalidity were relied on, which his Honour summarised in these terms (referring for reasons of simplicity to ‘the notice’):
+
+> (a) the notice purported to restrict disclosure of matters unconnected with the investigation and was not issued in connection with that investigation;
+> (b) the notice did not specify the restricted matters that were the subject of the notice. Generality cannot be sufficient when the statutory obligation is to ‘specify’. A matter cannot be specified as a restricted matter by nominating the entire description of a class or category of restricted matters. The generality of that description cannot be read down by reference to what the recipient knew for three reasons: the statutory language, ‘specify’, does not permit some, necessarily uncertain, reading down; the respondent is inherently likely as a police officer to know much about other, different, IBAC investigations; and the notice did not describe any IBAC investigation;
+> (c) where the ‘restricted matter’ is devoid of meaningful factual content, the state of mind that enlivened the statutory power to issue the notice cannot have been satisfied; and
+> (d) the restricted matters are not identified with reasonable clarity and were entirely uncertain.[5]
+
+
+20 Of these, contentions (b) and (d) were the subject of the greatest attention both in his Honour’s reasons and in argument in this Court. It is important that these contentions be clearly distinguished as, on closer scrutiny, they can be seen to involve quite different aspects of statutory construction.
+21 Contention (b) fastens on the express words of the authorising provision, while contention (d) relies on a process of statutory implication, by means of which — it is said — an implied ‘condition of validity’ can be discerned. Unsurprisingly, the lines of authority relied on to support the respective contentions are quite distinct.
+22 As can be seen, contention (b) directs attention to the word ‘specify’ in s 42. As his Honour set it out in the reasons, this was a contention that
+
+
+
+> > the legislature’s use of the word ‘specify’ in s 42 required that unless the IBAC stated in explicit terms the various matters which subsection (1) required to be stated, the notice was invalid. That is, the IBAC could not specify in vague generalities, such as the mere statement of the classes or categories of possible restricted matter that are set out in the definition. It was submitted that this was not what the statute required. Rather, particularity and detail were intended.[6]
+
+23 As his Honour noted, RB supported this text-based contention by reference to authorities which have construed the word ‘specify’ in different statutory contexts. A number of those authorities were referred to with approval by this Court in Harofam v Scherman,[7] a decision on which RB relied both before the judge and again in this Court. I will refer to this as the ‘failure to specify’ contention. As will appear, it was the principal contention advanced in this Court, and I deal with it in detail below.
+24 Contention (d), on the other hand, is not concerned with the express terms of s 42. As I have said, it relies on a process of implication. An unstated requirement of ‘reasonable clarity’ is said to be discernible from the IBAC Act as a limitation on the exercise of this power. Thus, the notices are said to be invalid because the terms of the prohibition are ‘entirely uncertain’. I will refer to this as the ‘void for uncertainty’ contention.
+25 At first instance, RB submitted that the exercise of power under s 42 was subject to an ‘implicit condition ... of validity’. As recorded in his Honour’s reasons, the argument was that:
+
+> > as the power under s 42 allowed an administrative officer to criminalise an otherwise lawful communication, it was a condition of the validity of a s 42 notice that the proscription is ‘reasonably clear’. So much was said to follow from Pyneboard Pty Ltd v Trade Practices Commission. Reasonable clarity in this context required that the notice must make it abundantly clear what was to remain confidential so as to permit compliance with the requirement of the notice. The offence is one of absolute liability.[8]
+
+26 The authority here referred to was the 1982 judgment of the Full Federal Court in Pyneboard Pty Ltd v Trade Practices Commission.[9] That case concerned s 155 of the former Trade Practices Act 1974 [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/] (Cth), which authorised the issue of a notice requiring a person to furnish information or to produce documents. The provision did not require the information or documents to be ‘specified’ in the notice. But the Full Court concluded that — because non-compliance exposed the recipient to criminal liability — the notice was subject to two ‘implicit conditions of validity’. The implicit condition said to be relevant here was that the notice ‘must convey, with reasonable clarity, to the recipient what information he is required to furnish or what documents he is required to produce’.[10]
+27 The ‘void for uncertainty’ contention also relied on the decision of this Court in Daniel (a pseudonym) v Secretary to the Department of Justice.[11] That case was concerned not with a statutory notice but with a condition which a judge had attached to a supervision order, in the exercise of a broad statutory discretion to do so. Priest JA (with whom Weinberg and Beach JJA agreed) held that, because of the serious consequences which may flow from the breach of such a condition, the exercise of the discretionary power was subject to an implied requirement of reasonable clarity and precision in formulating the condition:
+
+> > In my opinion, as with an injunction, any condition attached to a supervision order must be expressed in as clear and unambiguous language as the circumstances reasonably permit. The language of a condition must be sufficiently precise as to make plain to a person subject to the supervision order what are the limits of the prohibited act or acts. Hence, an offender is entitled to have made clear what he must abstain from (or do) in order to comply with a particular condition. And a condition should plainly indicate to the person subject to the order what he or she is prohibited from doing (or not doing), without him or her having to draw inferences or conclusions about which reasonable minds might differ.[12]
+
+28 In response to the ‘void for uncertainty’ contention, as his Honour noted,[13] the IBAC relied on the following statement of the Full Federal Court in Comcare v Lilley:
+
+> > The point is, uncertainty (which may often be a synonym for lack of precision) is not some kind of freestanding criterion for invalidity. Uncertainty will only invalidate because one can derive from the text, context and purpose of the statute an intention by Parliament that the power be confined in a way which requires a high level of certainty (or precision). That will not always be the case ...[14]
+
+29 The judge rejected both of RB’s contentions. In relation to the ‘failure to specify’ contention, the relevant part of the reasons was as follows:
+
+> > The word ‘specify’ is defined in The Macquarie Dictionary in these terms:
+> > 1. to mention or name specifically or definitely; state in detail. 2. to give a specific character to. 3. to name or state as a condition. — verb (i). 4. to make a specific mention or statement.
+> > Context is significant. What s 42 of the IBAC Act requires is that the notice specifies ‘the restricted matter or restricted matters in accordance with this section’. The provisions of the section are set out earlier, and notably, restricted matters are defined by the IBAC Act. There appears to be no reason why the power conferred by s 42 should not be construed using the meanings that the words in context naturally bear. The authorities record the concern of the law to ensure that statutory demands authorising the production of information or documents for regulatory or law enforcement purposes, are construed in a practical and common sense manner. Ambiguity may be discerned by those with initiative to find uncertainty where none really exists.
+> > [The IBAC] contended for the fourth of the meanings found in the dictionary although in the present context, I discern no difference in meaning between the first and the fourth meanings. Either phrase describes the natural meaning of specify in the context in which it is found in s 42. I doubt that the parties were apart on this as [RB] seemed to submit that ‘specify’ was synonymous with ‘identify’. As I note later in these reasons, restricted matters are defined, and the drafter of a s 42 notice specifies by choosing from the definitional list.
+> > [RB] submitted that the principles are best espoused by the Full Federal Court in Pyneboard, a decision that concerned a notice under s 155 [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/s155.html] of the Trade Practices Act 1974 [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/] (Cth). The point of this submission was a little obscure. Although the statutory context was different in each case, the power under s 42 of the IBAC Act is more analogous with s 29 of the Australian Crime Commission Act than s 155 [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/s155.html] of the Trade Practices Act [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/]. Moreover, Flick J carefully considered Pyneboard and many other cases in the line of authority that flows from that case. In the context of the task presently before the court, I prefer the careful and considered approach adopted by Flick J in AB Pty Ltd v ACC in laying out the proper approach to construction of the statutory power. [RB’s] authorities, notably Daniel’s Case and Pyneboard identify, consistently with AB Pty Ltd v ACC, how the court should approach the proper assessment of the validity of the notice.
+> > In Pyneboard, Northrop, Deane and Fisher JJ relevantly observed:
+> > Questions of ultra vires aside, we would respectfully agree with Fox J that uncertainty or ambiguity will not invalidate subordinate legislation or a written directive issued under statutory power unless a point is reached where it cannot reasonably be given any meaning. Strictly speaking, when this point is reached, what is involved is not a matter of mere ambiguity or uncertainty,
+> > and later:
+> > The requirement that a notice under s 155(1) [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/s155.html] convey, with reasonable clarity, to the recipient what information he is required to furnish or what documents he is required to produce is not to be applied in a precious or hypercritical fashion. Artificial dissection, in the cause of determined obfuscation, can introduce an argumentative element of uncertainty into words which, when read reasonably in context, are adequate to convey a plain and clear meaning. Provided a notice makes it reasonably clear, in the circumstances in which it is given and on a fair reading of its terms, what information or documents are required, the requirements of s 155(1) [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/s155.html] as to clarity will be satisfied. In this regard, the mere fact that parsing and analysis in the artificial atmosphere of the courtroom can lead to the identification of a number of latent ambiguities will not invalidate what, as a matter of common sense, is reasonably clear.
+> > Subsequent authorities have applied a broad common sense approach to the construction of statutory notices as an expression that fairly synthesises the detailed discussion in Pyneboard. If the demand can be reasonably understood, the notice is valid. Further, if a specification in a notice may convey several different meanings it is for the court to say looking at the general background, the surrounding circumstances, the subject matter of discourse and other aids derived from the context of the specification, supplemented not infrequently by certain legal presumptions, what meaning is to be attributed to it.
+> > Having regard to the functions vested in the IBAC, the requirements for a valid notice through the exercise of the power under s 42 [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/s42.html] are less constrained than the position in respect of notices for production of documents or information in the cases discussed. A recipient of a confidentiality notice under s 42 [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/s42.html] may not have any knowledge of a particular investigation or of the underlying factual matrix. The recipient may have no knowledge of the information available to the IBAC or of how that information may expose the relationship between the recipient and the investigation, or between the recipient and others considered to be related to the investigation, and there may be good reason to keep such information confidential to a corruption investigating body. That, however, was not this case.
+> > On careful reading of the text of s 42 [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/s42.html], no requirement beyond the use of the word ‘specify’ for any greater detail than is set out in the definition of ‘restricted matters’ in s 3 of the Act, is evident. The definition in s 3 is a list of various matters that are restricted matters. It is an exhaustive list, which is made clear by the opening expression ‘restricted matter means’.
+> > [The IBAC] submitted, and I agree, that ‘specifying’ in the context of this section means no more than ‘identifying or stating the restricted matter or matters in accordance with the section’. There is no requirement for greater detail. It is a matter of identifying which one or more of the matters defined as restricted matters are relevant in the circumstances of the notice. Section 42(2) requires that a confidentiality notice be in a prescribed form and that it specify the restricted matter or matters. Clearly in that statutory context, this is a reference to the definition.[15]
+
+30 As can be seen, his Honour rejected the ‘failure to specify’ contention in part by reference to Pyneboard which, as already noted, identified the ‘implicit condition’ of reasonable clarity. It was that same implied requirement which was also at issue in AB Pty Ltd v Australian Crime Commission,[16] the decision of Flick J to which his Honour here referred with approval. In that case, the relevant statutory notice was said to be invalid because of ‘ambiguity and lack of precision in the terms employed in the notice’.[17]
+31 Having reviewed the authorities on ‘reasonable clarity’, beginning with Pyneboard, Flick J concluded that:
+
+> > The present notice may suffer from limited ambiguity; but such ambiguity as there may be provides no basis for concluding that any of the notices are not authorised by the terms of s 29 by reason of the uncertainty asserted.[18]
+
+32 It should be noted that the provision under consideration in AB Pty Ltd did use the word ‘specified’. Section 29 of the Australian Crime Commission Act 2002 [http://www.austlii.edu.au/au/legis/cth/consol_act/acca2002289/] authorised the issue of a notice requiring a person ‘to produce ... a document or thing specified in the notice’. Flick J found it unnecessary, however, to consider ‘the constraints that are imposed by the use of the term ”specify” in s 29’.[19] Accordingly, the decision in AB Pty Ltd is to be viewed as part of the ‘void for uncertainty’ line of authority. With great respect to the trial judge, it is therefore of no assistance in dealing with RB’s ‘failure to specify’ contention, which relies on the text of s 42(1). [http://www.austlii.edu.au/au/legis/cth/consol_act/acca2002289/s42.html]
+33 His Honour’s conclusion with respect to the text-based contention was as follows:
+
+> > As the [IBAC] submitted, the text and context of the statute do not require greater detail of the specific factual matrix lying behind the IBAC’s determination to be provided in the notice specifying the restricted matter. Neither does the text and context of the statute preclude use by repetition of the definitional language from the statute in the notice, when that language is sufficiently precise to permit the drafter of the notice to ‘specify’ using that language.[20]
+
+34 His Honour also rejected RB’s ‘void for uncertainty’ contention, holding that the validity of the notices must be considered ‘in context’:
+
+> > [RB’s] contention that the notice was impermissibly vague, broad, and unlimited confused the principles governing construction of the notices with those governing the construction of the statute. The statutory requirement to specify must be construed in a manner applicable generally and consistently in all circumstances where the statutory power is invoked. The construction of the statute does not admit of an analysis of the background and context of this particular notice, or of the degree or extent of the recipient’s knowledge about restricted matters.
+> > On the other hand, the construction of the notices must occur in that context. The notices, while adopting that statutory language for the specification, do so in the background and context of the particular investigation. Accordingly, the court may take into account the respondent’ knowledge and background and contextual facts. When viewed in this context, I cannot accept the respondent’s contention that the notices are invalid for being impermissibly vague and unlimited. There cannot be imprecision and uncertainty about the restricted matters when the notice uses the identical language to the definition in the Act. The contention could not be founded on a common sense interpretation of the notices.[21]
+
+‘Specifying the restricted matters’
+
+35 In this Court, RB’s submissions concentrated on the ‘failure to specify’ contention. Before addressing that contention, it is necessary to set out again the relevant parts of the notice:
+
+> > This confidentiality notice is issued under section 42 of the Independent Broad-based Anti-corruption Commission Act 2011 [http://www.austlii.edu.au/au/legis/vic/consol_act/ibaca2011479/] in respect of the following restricted matters:
+
+ * any evidence or information given to, or obtained by, the IBAC;
+ * the contents of any document, or a description of any thing, produced to, or obtained by the IBAC;
+ * the contents of any document, or a description of any thing, which the IBAC has made a copy of or seized under Division 3 or Division 4 of Part 4 [http://www.austlii.edu.au/au/legis/vic/consol_act/ibaca2011479/index.html#p4];
+ * the existence of, or any information about, a confidentiality notice or a witness summons;
+ * the subject matter of an investigation in relation to which a witness summons has been issued;
+ * any information that could enable a person who has been, or is proposed to be, examined by, or who has produced, or may produce, any document or thing to, the IBAC, to be identified or located;
+ * the fact that a person has been, or is proposed to be, examined by, or has produced, or may produce, any document or thing to, the IBAC;
+
+> > Because you have been given this confidentiality notice, you are not permitted to disclose the above restricted matters except as described below in the section headed ‘When are you authorised to disclose information?’
+
+36 It is also necessary to set out again the definition of ‘restricted matter’ from s 3 of the IBAC Act:
+
+> > restricted matter means—
+> > (a) any evidence or information given to, or obtained by, the IBAC;
+> > 
+> > > (b) the contents of any document, or a description of any thing, produced to, or obtained by, the IBAC;
+> > > (c) the contents of any document, or a description of any thing, which the IBAC has made a copy of or seized under Division 3 or Division 4 of Part 4;
+> > > (d) the existence of, or any information about, a confidentiality notice or a witness summons;
+> > > (e) the subject matter of an investigation in relation to which a witness summons has been issued;
+> > > (f) any information that could enable a person who has been, or is proposed to be, examined by, or who has produced, or may produce, any document or thing to, the IBAC, to be identified or located;
+> > > (g) the fact that a person has been, or is proposed to be, examined by, or has produced, or may produce, any document or thing to, the IBAC.
+
+37 As can be seen, each of the ‘restricted matters’ listed in the notices is identified using the exact language of one of the sub-paras of the definition of ‘restricted matter’. Moreover, the matters are listed in the notices in the order in which they appear in the statutory definition.
+38 RB’s principal submission, shortly stated, was that a notice in this form was not a valid notice for the purposes of s 42(1) because it failed to satisfy the statutory requirement of ‘specifying the restricted ... matters’. He advanced several related contentions, namely, that:
+
+ * each item in the notices, like the corresponding sub-para of the definition, identified a class of restricted matters, not ‘a restricted matter’;
+ * listing ‘restricted matters’ in such general and impersonal terms did not satisfy the statutory requirement that the relevant restricted matter(s) be ‘specified’; and
+ * the IBAC could not have reached the requisite state of satisfaction (‘considers on reasonable grounds that the disclosure of one or more restricted matters would be likely to prejudice ...’) with respect to matters stated in such general terms.
+
+39 As so often in the work of an intermediate appellate court, this appeal raises a question of statutory construction. The Court’s task here is to discern the legislative intention as expressed in the phrase ‘specifying the ... restricted matters’ in s 42(1). Although the phrase must be construed in context, the task of statutory construction begins and ends with the statutory text.[22]
+40 I begin with the definition of ‘restricted matter’. In my view, both the language used in the various parts of the definition, and the evident purpose of such a definition, show that the legislature’s intention was to identify a series of classes or categories of restricted matter.
+41 Unsurprisingly, the indefinite article is used throughout the definition: ‘an investigation’, ‘a person’, ‘a witness summons’. Likewise, the repeated use of the word ‘any’ provides the maximum scope of operation for each sub-para. A further indicator of that intention is the inclusion of multiple alternatives within individual sub-paras of the definition. For example, sub-para (g) of the definition encompasses ‘facts’ of four different kinds, namely:
+
+ * the fact that a person has been examined by the IBAC;
+ * the fact that a person is proposed to be examined by the IBAC;
+ * the fact that a person has produced any document or thing to the IBAC; and
+ * the fact that a person may produce any document or thing to the IBAC.
+
+42 Putting the matter another way, it is hardly to be thought that the legislature intended the following combination of alternative possibilities to constitute one ‘restricted matter’ within the meaning of s 42(1):
+
+> > Any information that could enable a person who—
+
+ * has been examined by the IBAC;
+
+is proposed to be examined by the IBAC;
+
+ * has produced any document or thing to the IBAC; or
+ * may produce any document or thing to the IBAC,
+
+> > to be identified or located.
+
+43 It is commonplace for statutory terms to be defined using language of this wide-ranging kind. The purpose to be served by such a broad definition is obvious, namely, to ensure that the operative provision in which the defined term is used is capable of applying to a large variety of circumstances and contingencies which — of necessity — cannot be anticipated in advance by the legislature. Examples can readily be found from across the statutory landscape.[23]
+44 So it was here. For quite understandable reasons, the legislature created classes of ‘restricted matter’, widely defined, so that the IBAC would have scope to exercise the power to issue confidentiality notices in respect of a wide range of future matters. What was anticipated, plainly, was that particular matters would arise ‘during an investigation’ the disclosure of which would be likely to prejudice the investigation. Defining the classes of ‘restricted matter’ broadly would ensure that, when such particular matters arose, the IBAC would be able to issue a confidentiality notice in respect of those matters.
+45 On this view of the nature and purpose of the definition, none of the items listed in the notices meets the description of ‘a restricted matter’. On the contrary, each item identifies a class or category of restricted matter.
+46 I turn next to the meaning to be given to the word ‘specifying’ in the phrase ‘specifying the restricted matter or restricted matters’.[24] As his Honour noted, the definition of ‘specify’ in the Macquarie Dictionary is as follows:
+
+> > 1. to mention or name specifically or definitely; state in detail. 2. to give a specific character to. 3. to name or state as a condition. — verb (i).
+> > 4. to make a specific mention or statement.[25]
+
+47 As noted earlier, his Honour’s conclusion was as follows:
+
+> > There appears to be no reason why the power conferred by s 42 should not be construed using the meanings that the words in context naturally bear ...
+> > [IBAC] contended for the fourth of the meanings found in the dictionary although in the present context, I discern no difference in meaning between the first and the fourth meanings. Either phrase describes the natural meaning of specify in the context in which it is found in s 42. I doubt that the parties were apart on this as [RB] seemed to submit that ‘specify’ was synonymous with ‘identify’. As I note later in these reasons, restricted matters are defined, and the drafter of a s 42 notice specifies by choosing from the definitional list.
+> > ...
+> > On careful reading of the text of s 42, no requirement beyond the use of the word ‘specify’ for any greater detail than is set out in the definition of ‘restricted matters’ in s 3 of the Act, is evident. The definition in s 3 is a list of various matters that are restricted matters. It is an exhaustive list, which is made clear by the opening expression ‘restricted matter means’.
+> > [IBAC] submitted, and I agree, that ‘specifying’ in the context of this section means no more than ‘identifying or stating the restricted matter or matters in accordance with the section’. There is no requirement for greater detail. It is a matter of identifying which one or more of the matters defined as restricted matters are relevant in the circumstances of the notice. Section 42(2) requires that a confidentiality notice be in a prescribed form and that it specify the restricted matter or matters. Clearly in that statutory context, this is a reference to the definition.[26]
+
+48 In this Court, counsel for RB emphasised the first of the definitions given by the Macquarie Dictionary: ‘to mention or name specifically or definitely; state in detail’. Counsel also drew attention to the decision in Harofam,[27] in which this Court (Nettle AP, Neave JA and Garde AJA) said that ‘the plain and ordinary meaning’ of the verb ‘specify’ was that given in the Oxford English Dictionary, as follows:
+
+> > To mention, speak of, or name (something) definitely or explicitly; to set down or state categorically or particularly; to relate in detail ...[28]
+
+49 Counsel submitted that, in order for a restricted matter to be ‘specified’, it must be stated in ‘explicit ... clear and unambiguous terms ... [with] some detail and ... particularity’. There needs to be ‘some definite factual content of the restricted matter’.
+50 The submission for the IBAC was that the judge’s analysis and conclusion (set out above) were correct. As it was expressed in the written case:
+
+> > There is nothing in the text of s 42(1) that evinces an intention [that] ‘the restricted matters’ in the notice must be stated with any greater precision than Parliament used in the definition of ‘restricted matters’.
+
+51 In my opinion, RB’s submission must be upheld. It is striking that both of the definitions referred to — from the Macquarie Dictionary and the Oxford English Dictionary — use the phrases ‘mention definitely’ and ‘state/relate in detail’. It is equally striking that the language of the items in the notices — replicating the language of the definition — is uniformly indefinite and bereft of detail of any kind.
+52 RB’s submission referred to a number of other authorities in which courts have had to give meaning to the word ‘specify’. While context will always have a role to play, there has been an unusual degree of consistency in judicial interpretation of the word in different contexts. This Court in Harofam[29] quoted with approval the following statement of Burchett J in Gantry Acquisition Corporation v Parker and Parsley Petroleum Australia Pty Ltd:
+
+> > [N]o change wrought by the contextual currents enveloping the word ‘specify’ ... can so transform it that it fails to signify a requirement of clarity and precision ... Judicial attempts to expound the meaning of the word ‘specify’ have repeatedly fixed upon unambiguous clarity as being connoted by it.[30]
+
+53 Burchett J’s generalisation about consistency of interpretation was further illustrated a decade later, in Gillis.[31] In that case, the New South Wales Court of Appeal was concerned with whether a tax liability had been ‘specified in an agreement’, as required by the relevant statutory provision. For that requirement to be met, the Court held, the liability had to be identified with ‘unambiguous clarity’.[32]
+54 Also in the passage approved in Harofam, Burchett J quoted the following statement from Barton J in Federated Engine Drivers and Firemen’s Association of Australasia v Broken Hill Pty Co Limited, ‘Things specified must be specific things. Here all is general.’[33]
+55 Burchett J commented that those words ‘might have been written for the present case’.[34] The same can be said here. There are no ‘specific things‘ in the notices issued to RB. On the contrary, ‘all is general’.
+56 For these reasons, in my view, the notices did not ‘specify’ any restricted matter, within the ordinary meaning of that word. It follows that they were not authorised by the statutory power under s 42(1), and are invalid.
+57 In the course of exchanges with the Court, senior counsel for the IBAC conceded that it would have been possible for the notices to be expressed in more specific terms, making reference to the circumstances of RB’s interaction with the IBAC. As explained below, however, counsel maintained that such greater specificity, while possible, was not required by s 42(1). Moreover, he submitted, circumstances could be readily imagined in which the IBAC would need to use the general and indefinite language of the definition in order to avoid prejudicing an investigation, and that Parliament must be taken to have anticipated such exigencies.
+58 I deal first with the specific formulations of ‘restricted matters’ which, counsel accepted, could have been used in these notices. It is instructive to compare each of those formulations with the language actually used in the corresponding item in the notices. I deal with them in the order in which they appeared in the notices:
+
+(1) Notice: ‘any evidence or information given to, or obtained by the IBAC’ (definition sub-para (a))
+
+Alternative: ‘any evidence or information given by you to the IBAC’.
+
+(2) Notice: ‘the existence of, or any information about, a confidentiality notice or a witness summons’ (definition sub-para (d))
+
+Alternative: ‘the existence of the confidentiality notice and the witness summons given to you’.
+
+(3) Notice: ‘the subject matter of an investigation in relation to which a witness summons has been issued’ (definition sub-para (e))
+
+Alternative: ‘the subject matter of the investigation in relation to which a witness summons was issued to you’.
+
+59 A further example can be given, as follows:
+
+(4) Notice: ‘the fact that a person has been, or is proposed to be, examined by, or has produced, or may produce, any document or thing to, the IBAC’ (definition sub-para (g))
+
+Alternative: ‘the fact that you have been, or are proposed to be, examined by the IBAC’.
+
+60 As can be seen, if the restricted matters had been specified in this ‘definite’ and ‘precise’ manner, RB would still have been subject to a very substantial prohibition on disclosure. Counsel for the IBAC did not suggest otherwise. Rather, as already noted, his argument was that circumstances could be contemplated in which a blanket prohibition, of the kind effected by the notices in question here, would be necessary.
+61 Such circumstances, it was said, were likely to arise at the beginning of an investigation, at which time the IBAC might well be concerned about prejudice to the investigation, because of the risk of collusion between witnesses and/or the fabrication of evidence. In those circumstances, it was submitted:
+
+> > All of the restricted matters, broadly stated, must be the subject of the notice if that’s the prejudice ... that’s being dealt with, because there can be no ... disclosure of information about any of those topics in order to protect that investigation.
+
+62 The submission was later repeated in somewhat different terms:
+
+> > Where your concern is to protect the investigation, it’s entirely proper, and we say permissible, to put a blanket coverage over that. Now if the person [to whom the confidentiality notice is issued] doesn’t know anything about it, they have nothing to disclose. If they do happen to know something about it then it will be caught by the prohibition.
+
+63 It is, with respect, perfectly understandable that an investigative agency might wish to be able to impose on a person a ‘blanket’ prohibition on disclosing anything he or she knows, or might know, about a particular investigation. A prohibition of such breadth might be thought to be the safest way to avoid any risk of prejudice to the investigation. But it is, of course, the statutory language, not the agency’s preference, which determines the scope of the power. And, as has already been shown, the use of the word ‘specify’ leaves no room for ‘blanket’ prohibitions of this kind.
+64 Nor is it difficult to discern the legislative rationale for requiring specificity. After all, this is a power which enables an administrative agency, by its own act, to expose a person to criminal liability. The effect of s 42 is that the issue of a notice exposes the recipient to a risk of criminal punishment which, but for the notice, would not exist. It is hardly surprising, therefore, that the legislature required the notice to be specific. Given the penal consequences of non-compliance, the recipient of the notice must be able to understand the scope and limits of the prohibition to which the notice subjects him or her.
+65 Counsel for the IBAC argued that RB would have been able — and could reasonably have been expected — to make sense of the general language in the notices by drawing on his own knowledge of what had taken place between himself and the IBAC. Doubtless he would have attempted to do so. But, as the trial judge correctly pointed out, the knowledge of a particular recipient is irrelevant to the task of construing the statute.[35]
+66 And the specificity required of a confidentiality notice is entirely consistent with the requirement that the only ‘restricted matters’ which can be specified are matters which have been the subject of the IBAC’s prior consideration. As s 42(1) makes clear, a restricted matter can only be the subject of a notice if the IBAC has concluded that disclosure of that matter ‘would be likely to prejudice’ the investigation (or a person’s safety, reputation or fair trial).
+67 It is unsurprising that the IBAC should be required to undertake its consideration of the risk of prejudice at a level of specificity, rather than merely by reference to a range of possibilities as to what the intended recipient might or might not know about various things. As I have said, the fact that the administrative action of issuing a notice to a person operates, by law, to expose that person to the risk of criminal prosecution for non-compliance is a strong indicator that Parliament would have intended the exercise of the power to be conditioned on specific consideration of particular matters which, if disclosed, might result in prejudice of the requisite kind.
+68 Had the ‘restricted matters’ been identified in the notices in the specific terms suggested earlier, they would have prevented RB from disclosing the very things about which the IBAC was doubtless concerned. As senior counsel for the IBAC properly conceded, on most occasions when the IBAC is considering issuing such a notice the Commission will have in mind — as a ‘core concern’ — the likely prejudice to the investigation if a person summoned to give evidence were to disclose the fact of having been summoned, or the subject matter of the interview, or any of the information provided by that person in the examination.
+69 It should also be pointed out that specifying the restricted matters in the ‘definite’ terms suggested above would not disclose information which the recipient did not already have. Self-evidently, had RB been given notices specifying restricted matters in terms expressly referable to his dealings with the IBAC, he would have learnt nothing more than he already knew.
+70 A related point arose in argument, concerning the hypothetical circumstance where a third party (‘P’) — not being the intended recipient of the confidentiality notice (‘R’) — had been summoned to give evidence in connection with the same investigation. The IBAC might not know, it was said, whether R was aware that P had been summoned but would want — just in case — to prohibit R from disclosing that fact. In my view, a notice addressed to R would still comply with s 42(1), while eliminating any risk of alerting R to something of which he or she was in fact unaware, if it specified the restricted matter as ‘the fact that any other person has been summoned to give evidence in relation to any of the matters about which you were summoned to give evidence’.
+71 There is an additional principle of statutory construction which confirms the conclusion I have reached. It concerns the statutory purpose intended to be served by the conferral of the power under s 42(1). Plainly enough, that purpose is to prevent a disclosure which would be likely to prejudice an investigation (or a person’s safety, reputation or fair trial).
+72 In my view, that purpose is much more likely to be achieved if the confidentiality notice states precisely, clearly and definitely what it is that the recipient is prohibited from disclosing. By contrast, a notice expressed in the general and indefinite terms used in these notices would be likely to leave the recipient in a state of uncertainty about how the prohibition applied to him or her. The recipient would need to work through each of the broadly-expressed categories in order to work out whether he or she was a person referred to or had done any of the things referred to.
+73 On this view, the interpretation of ‘specifying’ given earlier is wholly consistent with the securing of the legislative purpose.[36] If, contrary to my view, there were available a less stringent interpretation of the word ‘specifying’, then s 35(a) [http://www.austlii.edu.au/au/legis/vic/consol_act/iola1984322/s35.html] of the Interpretation of Legislation Act 1984 [http://www.austlii.edu.au/au/legis/vic/consol_act/iola1984322/] would require the court to prefer the narrower interpretation, as likely to promote the statutory purpose.
+74 There is a further sense in which specificity in such a notice will promote compliance. The IBAC Act expressly permits the disclosure of ‘restricted matters’ for the purpose of obtaining legal advice in relation to a witness summons or a confidentiality notice or a person’s rights and obligations under the IBAC Act.[37] Plainly enough, clear and precise identification of the restricted matters covered by the notice will facilitate the giving of appropriate legal advice.
+75 Finally, as RB points out, a now-repealed provision provides further textual confirmation of the degree of specificity required. At the relevant time, s 42(2)(e) of the IBAC Act provided that a notice must:
+
+> (e) if a restricted matter specified in the confidentiality notice is the fact that the person has been, or is proposed to be, examined by, or has produced, or may produce, any document or thing to, the IBAC, specify that the IBAC authorises the person to whom the confidentiality notice is issued to disclose the restricted matter to—
+> (i) the person’s spouse or domestic partner; and
+> (ii) the person’s employer or manager or both, for the purpose of enabling the person to whom the confidentiality notice is issued to take the appropriate leave from his or her employment in order to comply with the witness summons—
+
+
+
+> > except to the extent that the IBAC considers that the authorisation to make the disclosure to the person’s spouse, domestic partner, employer or manager would be likely to prejudice any of the matters specified in subsection (1)(a), (b) or (c).
+
+76 As can be seen, the legislature expressly contemplated that a notice might specify as a restricted matter ‘the fact that’ the recipient of the notice had been examined by the IBAC. In that event, the IBAC Act provided, the notice must include an authorisation from the IBAC for the recipient to disclose that fact to the recipient’s spouse or domestic partner, and to the recipient’s employer or manager.
+77 In the notices given to RB, that authorisation was expressed in these terms:
+
+> > If one of the restricted matters specified above is that you have been, or are about to be, summoned by the IBAC to be examined or produce documents or things, you ... may disclose this fact to your spouse or domestic partner and to your employer or manager for the purpose of arranging leave from work.[38]
+
+78 Thus the notices themselves anticipated the possibility that ‘one of the restricted matters specified’ would be ‘the fact that [RB had] been summoned by the IBAC to be examined’. As we have seen, no such ‘fact’ was specified in the notices. Instead, the relevant item in the notices was ‘the fact that a person has been, or is proposed to be, examined by, or has produced, or may produce, any document or thing to, the IBAC’.
+79 It will be apparent from what I have said that it is unnecessary to deal with the ‘void for uncertainty’ contention, which was maintained on the appeal as a secondary argument by reference to Daniel[39] and Comcare. For the reasons I have given, it is the text of s 42(1), and the legislature’s use of the word ’specifying’, which concludes the question of validity.
+80 Had that word not been used, then it might have been necessary to undertake the process of implication described in the cases from Pyneboard onwards. As it was expressed in Comcare, the object of that exercise would have been to see whether ‘one can derive from the text, context and purpose of the statute an [unstated] intention by Parliament that the power be confined in a way which requires a high level of certainty (or precision)’.[40] Since, however, Parliament has here made that intention explicit through its choice of statutory language, no occasion arises to search for implied limitations on the power.
+81 Finally, it is necessary to deal with a point which was discussed during argument, namely, whether a notice can lawfully prohibit the disclosure of something which, at the date of issue of the notice, has not occurred or come into existence. The submission for the IBAC was that, for obvious reasons of practicality, these notices must have — and must have been intended to have — an ‘ambulatory’ operation. For example, it was said, the phrase ‘the contents of any document ... produced to ... the IBAC’ (in sub-para (b) of the definition of ‘restricted matter’) encompasses both documents already produced and documents which will or may be produced in the future, that is, after the date of the notice. Otherwise, it was said, fresh notices would need to be issued as further material was produced.
+82 In my opinion, such ambulatory operation is not authorised by s 42(1), except where a particular sub-paragraph of the definition of ‘restricted matter’ specifically talks about future events. The drafting of the definition appears to be quite precise with respect to the use of tenses. Whereas sub-paras (c) and (e) use only the perfect tense — ‘has made’, ‘has been issued’ — sub-para (f) uses both perfect and future tenses: ‘a person who has been, or is proposed to be, examined by the IBAC’. In my view, when sub-para (a) uses the past participle ‘given’ in the phrase ‘any evidence or information given to the IBAC’, the word is being used in its ordinary sense, denoting something which has already occurred. If the legislature had intended to include evidence or information which ‘is proposed to be given’ or ‘may in the future be given’ to the IBAC, then it seems clear from the language of the other sub-paras that this would have been done expressly.
+83 This conclusion is consistent with the legislative intention that notices be specific, and that the power be exercised once consideration has been given to specific risks of prejudice. I note that, by definition, as at the date of issue of the notice the IBAC cannot know what evidence or information might be given in the future. It follows, in my view, that the IBAC cannot give the consideration which s 42(1) requires to such unknown future matters, in order to form the requisite view about the risk of prejudice. The position is different, of course, where — as at the date of the notice — the IBAC is aware of the identity of ‘a person who is proposed to be examined’ or of a person who ‘may produce any document or thing’.
+
+
+
+
+
+
+
+
+
+McLEISH JA:
+
+84 The background to this application for leave to appeal and the principal statutory provisions are set out in the reasons of Maxwell P.
+85 The single proposed ground of appeal is:
+
+The learned primary Judge erred in concluding that the confidentiality notices issued to the Applicant were valid.
+
+Particulars
+
+> (a) The learned primary Judge erred in concluding that the statute permitted the specification of the particular ‘restricted matters’ in a given case merely by ‘choosing from’ or copying verbatim the ‘definitional list’ of possible restricted matters in s 3(1) of the IBAC Act.
+> (b) The learned primary Judge erred in concluding that the content of the ‘restricted matters’ specified in a confidentiality notice was to be determined by reference to the ‘context’ or ‘background’ to the notices, rather than solely by reference to the content of the notices themselves.
+
+86 The case raises two questions which are encompassed within the proposed ground. First, is the requirement that a confidentiality notice under s 42 of the IBAC Act ‘specify the restricted matter or matters’ in respect of which it is issued capable of being satisfied by setting out one or more (or all) of the matters listed in the definition of ‘restricted matter’ in s 3(1) of the IBAC Act? This involves a question of construction of s 42.
+87 Secondly, is a confidentiality notice to be construed having regard to the context or background in which it was issued rather than solely by reference to its content? This involves a question of construction of the notices issued in this case.
+88 In my view, the answers to these questions proffered by the respondent should be accepted, with the result that the primary judge was right to set aside the order of the magistrate dismissing the relevant charges against the applicant. Leave to appeal should be granted but I would dismiss the appeal.
+Construction of s 42
+89 The requirement that a confidentiality notice specify the restricted matter or matters in respect of which it is issued appears in s 42(2)(b) of the IBAC Act and in the closing words of s 42(1). It is apparent that these provisions relate back to the opening words of s 42(1), which provide for the Independent Broad-based Anti-corruption Commission (‘the IBAC’) to issue a confidentiality notice ‘in respect of’ an investigation if, during that investigation, the IBAC ‘considers on reasonable grounds that the disclosure of one or more restricted matters would be likely to prejudice’ the investigation, the safety of a person or the fair trial of a person. In other words, the restricted matter or matters which must be specified in a notice are those whose disclosure the IBAC considers, on reasonable grounds, would be likely to cause the relevant prejudice.
+90 The starting point in deciding the question of construction is therefore to observe, based on this textual link, that the IBAC must form a view on reasonable grounds about the likelihood of prejudice from disclosure of a restricted matter or matters, and it is only once that is done that any requirement to ‘specify’ that restricted matter or matter will arise.
+91 The word ‘specify’, viewed in this light, demands identification of the matter or matters as to which the IBAC has formed its view as to the likelihood of prejudice. The question is whether it also acts to limit the permissible matters in respect of which the IBAC may form that view — in particular, whether the IBAC must base its view on matters falling within the definition of ‘restricted matter’ but identified with greater specificity than the things listed in the definition of that term.
+92 The concept of ‘restricted matter’ is defined in s 3(1) of the IBAC Act to mean any of seven things. Each of those things is described in general terms, consistently using wide language such as ‘any’ and the indefinite articles ‘a’ and ‘an’. The applicant contends that the requirement to ‘specify’ the relevant restricted matter or matters imports a degree of particularity greater than that found in the definition.
+93 A literal reading of the text of the provisions would suggest otherwise. On that approach, the IBAC could consider on reasonable grounds that one or more (or all) of the seven things described in the definition meets the statutory test and issue a notice specifying those generally expressed things accordingly.
+94 However, the words ‘during an investigation’ and ‘in respect of that investigation’ indicate that the formation of the view of the IBAC, upon reasonable grounds, takes place in the context of a particular investigation and that the notice is issued in that same context. For example, it would not be open to the IBAC to form a view that prejudice of the relevant kind is likely to result from the disclosure of any evidence given to the IBAC, without having regard to a particular investigation and the likelihood of prejudice if there was disclosure of evidence given in that investigation (or perhaps another particular investigation).
+95 This consideration points against reading s 42 as if it operates on the broadly-defined things in the definition of ‘restricted matter’, as if those seven things could simply be ‘plugged in’ to s 42 to provide its meaning. It is clear, instead, that something more limited is contemplated. At the least, the general things listed in the definition must be understood as things that happen or are done in the context of, or ‘in respect of’, a particular investigation.
+96 Plainly the IBAC could form the statutory view, and a notice could be issued, in respect of the evidence of a particular individual, or a document, thing or piece of information, which falls within the general language of the definition. So much is not in dispute.
+97 Leaving to one side the question whether the requirement that a confidentiality notice ‘specify’ the restricted matter or matters confines the scope of s 42(1), there is no obvious reason why the IBAC could not form the requisite view in respect of, for example, all evidence in the relevant investigation, or all documents produced in that investigation, without being limited to a particular witness, answer or document. An obvious example would be an investigation into the conduct of a police officer who worked under cover. That person’s safety might well be prejudiced by disclosure of any evidence in the investigation of which he or she was the subject, and not just from disclosure of their own evidence. It might reasonably be thought that to reveal anything at all about such an investigation may be likely to prejudice the person’s safety. Similarly, an investigation into alleged misconduct by a public servant might be prejudiced if it were known to that person or their colleagues that such an investigation was taking place, or what had been ascertained or produced in the course of it. That is especially so if an investigation has multiple people as its subjects and one or more of them has already given evidence.
+98 These considerations suggest that a generally expressed matter, or matters, falling within the definition of ‘restricted matter’ may satisfy the criterion in s 42(1), provided it is a matter, or matters, ‘in respect of’ a particular investigation. That may extend to forming the view that the risk of prejudice arises from the disclosure, in respect of that investigation, of any of the things listed in the definition. That is consistent with the general provision in s 117 of the IBAC Act that examinations are ordinarily to be held in private. The IBAC Act thereby proceeds on the basis that, ordinarily, the IBAC will conduct an investigation without that fact being publicly disclosed.
+99 On the other hand, as the applicant contended, the requirement that a confidentiality notice ‘specify’ the restricted matter or matters as to which the IBAC has formed the requisite view as to prejudice introduces a competing consideration. The obligation to specify serves to define the extent of potential criminal liability: s 44(1) makes it an offence, subject to certain exceptions, for a person served with a confidentiality notice (or who receives such a notice in permitted circumstances) to ‘disclose a restricted matter specified in [a] confidentiality notice’. It is important, therefore, that a notice is sufficiently specific to inform the recipient of the extent of his or her obligations.
+100 The word ‘specify’ has consistently been held to ‘signify a requirement of clarity and precision’.[41] It is not satisfied by ‘vague generalities’.[42]
+101 The latter observation should not be thought to mean that a thing which is general in nature can never be ‘specified’. It is possible to state such a thing with clarity and precision. In the present context, it would be both clear and precise to say in a notice that disclosure was prohibited of all evidence or information given to or obtained by the IBAC in a particular investigation — being the first item in the list in the definition of ‘restricted matter’. The same is true of each of the matters in that list.
+102 The possibility that a notice could be expressly confined, to continue the above example, to the evidence of the recipient, does not point to a prohibition on a notice having a wider scope. The example could be rephrased as a prohibition on disclosure of ‘all evidence or information given by you or any other person to the IBAC, or obtained from you or any other person, in a particular investigation’. It is hard to see how that is less specific than the same prohibition but omitting reference to ‘any other person’. Each formulation is equally clear and precise, or specific.
+103 The statement of Barton J in Federated Engine-Drivers and Firemen’s Association of Australasia v Broken Hill Pty Co Ltd,[43] ‘Things specified must be specific things’, at first appears inconsistent with this analysis. However, the statement does not articulate a principle of law, so much as a conclusion about the question of statutory construction presented in that case. It may be juxtaposed with the example given in the dissenting judgment of Higgins J:
+It would not be an abuse of language, if a sheriff’s officer ask a claimant to ‘specify’ what articles in a house are his property, to say ‘I specify all the articles’.[44]
+104 The question whether the requirement to specify the restricted matter or matters serves to confine the matters upon which the IBAC may form the necessary view to found the issuing of a confidentiality notice is therefore to be answered, not by reference to definitions or judicial consideration of the word ‘specify’ in other contexts, but by considering the statutory context and purpose of the provision in this case.[45]
+105 To import a requirement for a higher degree of specificity, which requires the IBAC to proceed on the basis of a subset of the matters listed in the definition of ‘restricted matter’ (read in the context of the relevant investigation) would confine the range of matters upon which the IBAC might found the requisite view as to prejudice. The requirement that the view be based on reasonable grounds already serves the purpose of narrowing the basis upon which a confidentiality notice may be issued. If the IBAC forms the view, on that basis, that one or more (or all) of the matters listed in the definition of ‘restricted matter’ satisfies the statutory test in respect of a given investigation, it is not apparent what statutory purpose would be served by precluding the issuing of a notice to that effect. The purpose of preventing disclosure of prejudicial matter would be undermined. The purpose of informing the recipient of their obligations would not be advanced, because the identification of the listed matter or matters would state with precision and clarity what was not to be disclosed, in any event.
+106 The limiting construction advanced by the applicant would also have a significant practical effect that would tend to undermine the statutory purpose of preserving confidentiality where to do otherwise may reasonably be thought likely to create the relevant prejudice. It would be perverse if the IBAC were to issue a confidentiality notice which revealed to the recipient confidential information of which he or she was previously unaware, for the purpose of preventing its further disclosure. The price of avoiding that risk, if there were a greater requirement of specificity, would be to omit the information in question from the notice altogether, in the hope that the recipient was unaware of it and so would be unable to disclose it anyway. Of course, that may leave the recipient of the notice free to disclose the information if they already have it, or if they come to acquire it subsequently.
+107 This points to a further perverse consequence of the limiting construction. Assume the IBAC is investigating allegations of misconduct involving three key witnesses. It could, on any view, issue a notice requiring each of those three persons not to disclose their evidence to any person, on the basis of likely prejudice to the investigation (based on reasonable grounds). But that may be insufficient. If one of the three witnesses breached the order by telling another what evidence he or she gave at an examination, the second witness could pass that information to the third witness without contravening their own notice. Again, specifying the identity of a witness other than the recipient, or the content of their evidence, in the notice would constitute the very disclosure the notices sought to prevent. Such disclosure might be avoided by instead adding a reference to ‘any other person’, but this would take the description back to the level of generality which the applicant contends lies outside the section.
+108 The preceding considerations all point strongly, in my view, to a broad meaning of ‘restricted matter’ in s 42, unconstrained by a requirement that a notice specify something more particular in every case than one or more of the things listed in the definition of ‘restricted matter’. On that construction, the IBAC must form the requisite view in respect of a particular investigation, and the notice must convey the subject matter of the prohibition with clarity to its recipient. The latter requirement gives rise, in this case, to the question of construction of the notice, as mentioned earlier.
+109 The applicant advanced nine considerations said to indicate, to the contrary, that ‘restricted matters’ must be specified by identifying the information that must not be disclosed, rather than ‘merely listing categories of “restricted matter” within which the information falls’.
+110 The premise for this contention is not established. The seven things listed in the definition of ‘restricted matter’ are not ‘categories’ of restricted matter — they are restricted matters, in respect of an investigation, for the reasons already advanced. But in any event, for the reasons that follow, the nine considerations do not point to any different conclusion.
+111 First, as just noted, the contention that the definition sets out ‘categories’ merely restates the ultimate conclusion sought to be drawn. It is also not correct to say that, for the purposes of s 42, the ‘categories’ cover all information ever obtained by the IBAC. For the reasons given, the definition operates, and must be given meaning, in the context of a particular investigation.
+112 Secondly, it may be accepted, for that very reason, that a notice cannot restrict all information falling within the alleged ‘categories’, without relating to a particular investigation. That, however, raises a question of construction of the relevant notice. It does not bear on the question of statutory construction under consideration.
+113 Thirdly, it may also be accepted that the ‘restricted matter’ in contemplation by the IBAC has to have some defined factual content which is specific to the particular investigation, rather than being a matter considered in the abstract. That does not mean, however, that such factual content may not support the formation of a view as to the likely prejudice that would be caused by disclosure of a widely expressed ‘restricted matter’. This again does not go to the meaning of the statute.
+114 Fourthly, it may further be accepted that ‘it is the particular information that has satisfied the state of satisfaction condition, which must be specified’. But it does not follow that the requisite state of satisfaction cannot be met with respect to ‘an entire category of information’.
+115 Fifthly, as already explained, the use of the word ‘specify’ does no more than demand identification of the things, the disclosure of which would be likely in the view of the IBAC to cause the relevant prejudice. If those things are general in nature, identifying them still constitutes their ‘specification’.
+116 Sixthly, the fact that s 42(2)(e) contemplates a specified restricted matter being the fact that the recipient of the notice has been examined (etc) does not serve to confine the meaning of ‘restricted matter’ or the expressly wide terms of its definition. Section 42(2)(e) is capable of applying in a case where a widely described notice embraces within its scope the fact that the recipient of the notice has been examined (etc), as well as cases where that fact is explicitly stated in the notice.
+117 Seventhly, the form of the applicable regulations does not assist in construing the statute under which they were made.[46] In any event, even if the contrary view were taken on the basis that s 196(f) of the IBAC Act expressly contemplates the prescribing of a form of confidentiality notice, the fact that the prescribed form accommodates issuing a notice with greater specificity than a list of the defined ‘restricted matters’ does not suggest that specifying items from that list would be impermissible.
+118 Eighthly, the penal consequences of breaching a confidentiality notice are pertinent. It is doubtless true that the IBAC Act must be read as requiring that the matters as to which the IBAC has formed the requisite view be specified so as to inform the recipient of his or her legal obligation and the basis of their potential exposure to criminal sanction. Again, this arises more particularly as an issue in construing a notice issued upon a broad basis, rather than in construing the statute so as to preclude issuing a notice on such a basis. It suffices that the statute requires a notice clearly to indicate what disclosure is prohibited.
+119 Finally, the fact that a notice impinges on freedom of expression may be a basis for demanding clarity in its terms, but again it does not assist in construing the statute. As noted, the statute can be taken to require specificity in the notice.
+120 Accordingly, the applicant’s argument as to construction of the statute should be rejected. The IBAC may form the view described in s 42(1), in respect of an investigation, by reference to the generally expressed ‘restricted matters’, or any of them, or by reference to matters falling within that general class. In either event, identifying those matters in the notice will constitute ‘specifying’ them for the purposes of s 42(1) and (2)(b) of the IBAC Act.
+Construction of the notices
+121 It follows from the above construction of s 42 of the IBAC Act that a confidentiality notice cast in entirely general terms, merely replicating the definition of ‘restricted matter’ without confining its scope to a particular investigation, would, on its face, not specify the restricted matter or matters in respect of an investigation, as to which the IBAC had formed the requisite view. The strict terms of such a notice would do no more than record the view of the IBAC that disclosure of any restricted matter would always give rise to relevant prejudice, irrespective of the circumstances. That would not reflect a proper application of the criterion in s 42(1).
+122 The issue that arises, however, is whether a notice cast in such terms is only to be read according to those strict terms, or whether it may be construed having regard to contextual considerations.
+123 Since it is open to the IBAC to conclude, in respect of a particular investigation, that disclosure of any or all of the matters encompassed within the definition of ‘restricted matter’ would be likely to give rise to the requisite prejudice, the issue resolves to whether regard can be had to matters outside the four corners of the notice in order to identify that the notice is confined to a particular investigation.
+124 The body of text in each confidentiality notice the subject of the present application is set out in the reasons of Maxwell P. As will be familiar, each notice sets out, as ‘the following restricted matters’ in respect of which the notice is issued, the seven things comprising the definition of ‘restricted matter’ in s 3(1) of the IBAC Act, verbatim.
+125 It is also relevant to note three further matters. First, in each notice the front page contains the words immediately after the heading:
+Summons No: SD-2349 [2350]
+Matter No: MAT-15647
+126 Secondly, each notice was accompanied by a copy of ss 42 and 44 of the IBAC Act.
+127 Thirdly, each notice was served along with a summons: in the first case, a summons to give evidence, and in the second case, a summons to produce documents or things. Each summons, and each confidentiality notice, was issued on the same day and served subsequently. The summons to produce documents or things was not served until the applicant came to give evidence some weeks after the service of the summons to give evidence. The summons to give evidence stated that the evidence was:
+in relation to—
+• Your knowledge of, and involvement in, matters concerning the arrest of [named persons] on [date] and the subsequent withdrawn prosecution and internal investigation of [named police officers].
+• Your involvement in inappropriately accessing information held in a Victoria Police database.
+128 It is relevant to note that s 121(2) of the IBAC Act requires that a witness summons to give evidence state the nature of the matters about which the person to whom it is directed is to be questioned (except to the extent that the IBAC considers on reasonable grounds that this would be likely to prejudice the investigation to which the witness summons relates or would be contrary to the public interest). Section 121(3)(b) requires a witness summons to be accompanied by a copy of any relevant confidentiality notice.
+129 In this way, in the circumstances of this case, the IBAC Act required that the applicant be informed of the subject matter of the examination at the time when he received the first confidentiality notice; and, although the IBAC Act did not require it, in fact he had the same information when he was served with the second confidentiality notice.
+130 On the other hand, as the applicant pointed out, a witness summons will not always afford information that could bear on the meaning of a confidentiality notice. As s 121(2) provides, a witness summons need not state the nature of the matters about which a person is to be questioned, to the extent that the IBAC considers on reasonable grounds that this would prejudice the investigation or be contrary to the public interest. But in any event, a confidentiality notice may come to bind persons other than the person to whom it is issued, who may not have a copy of the witness summons or any information about the subject matter of an examination.
+131 Section 44 makes it an offence for a person who receives a notice, by means of a permitted disclosure, to disclose a restricted matter specified in the notice: s 44(1)(b). In this context, s 44(2)(b) permits disclosure of a restricted matter specified in a notice where necessary for the purposes of obtaining any information, document or thing to comply with a witness summons or confidentiality notice, including to an interpreter, a parent or guardian, or an independent person (including in the case of a person who is illiterate or unable to understand the document due to impairment); and s 44(2)(c) permits disclosure to a legal practitioner for certain purposes.
+132 In either case, the person making the permitted disclosure must also provide the person to whom they make the disclosure with a copy of the relevant confidentiality notice: s 44(6). There is no requirement to provide a copy of the witness summons as well (although information about such a summons may, if it is specified as a restricted matter in the notice, be the subject of permitted disclosure). The confidentiality notice then binds the person to whom the permitted disclosure is made.
+133 Further, s 43 requires the IBAC to provide the Victorian Inspectorate with a copy of each confidentiality notice it issues.[47] In that regard, the IBAC is not required to provide the Victorian Inspectorate with a copy of a witness summons, but must give it a report specifying the name of the person summoned and the reasons why the summons was issued: s 122.
+134 With these considerations in mind, I turn to the question whether, and if so to what extent, a confidentiality notice is to be construed by reference to the context in which it is issued. It is axiomatic that, as s 44(1) provides, the relevant restricted matter or matters must be specified ‘in the confidentiality notice’. But that does not address the question how one ascertains the meaning of that which is stated in the notice.
+135 The applicant referred, among other authorities, to DPP Reference No 2 of 1996,[48] in which it was held that a statutory notice was to be construed ‘within the four corners of the written document’.[49] A ‘self-contained’ notice, it was said in that case, would best enable a person summoned to assess their rights. However, the contention that was rejected in that case was that ‘preliminary materials’ that informed the issuing of the notice could bear on its construction. No such argument is made here. Further, the notice in that case defined the scope of an inquiry, which formed the basis for subsequent exercises of power including the issuing of a summons. The notice was therefore addressed to a wide and indefinite audience. The case is not authority for any broad proposition that coercive notices are not to be construed having regard to their context.
+136 At the same time, it must be accepted that it is an important statutory purpose of any coercive or rights-limiting statutory notice that the person or persons affected by it be adequately informed of the obligation imposed.[50] The applicant aptly drew an analogy with the requirement that an injunction leaves parties no room for doubt as to whether or not their future conduct falls within its scope.[51] Inevitably, that at least limits the range of matters that may inform the construction of a notice of the kind now under consideration. As observed by Kiefel CJ, Bell and Keane JJ in Smethurst v Commissioner of Police (Cth),[52] if a warrant fails clearly to state the nature of the offence which is the object of the warrant, it is no answer to say that the person who is subject to the warrant has some ancillary information as to that offence.
+137 The primary judge considered that Daniel and Pyneboard[53] identify, consistently with AB Pty Ltd v Australian Crime Commission,[54] how a court should approach a confidentiality notice. He cited the following passage from the reasons of Northrop, Deane and Fisher JJ in Pyneboard, which concerned a requirement to produce documents under s 155 [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/s155.html] of the Trade Practices Act 1974 [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/] (Cth):
+
+> > The requirement that a notice under s 155(1) [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/s155.html] convey, with reasonable clarity, to the recipient what information he is required to furnish or what documents he is required to produce is not to be applied in a precious or hypercritical fashion. Artificial dissection, in the cause of determined obfuscation, can introduce an argumentative element of uncertainty into words which, when read reasonably in context, are adequate to convey a plain and clear meaning. Provided a notice makes it reasonably clear, in the circumstances in which it is given and on a fair reading of its terms, what information or documents are required, the requirements of s 155(1) [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/s155.html] as to clarity will be satisfied. In this regard, the mere fact that parsing and analysis in the artificial atmosphere of the courtroom can lead to the identification of a number of latent ambiguities will not invalidate what, as a matter of common sense, is reasonably clear.[55]
+
+138 The primary judge continued:
+
+Subsequent authorities have applied a broad common sense approach to the construction of statutory notices as an expression that fairly synthesises the detailed discussion in Pyneboard. If the demand can be reasonably understood, the notice is valid. Further, if a specification in a notice may convey several different meanings it is for the court to say looking at the general background, the surrounding circumstances, the subject matter of discourse and other aids derived from the context of the specification, supplemented not infrequently by certain legal presumptions, what meaning is to be attributed to it.[56]
+
+139 The last part of this passage encapsulated the following observation of Lord Keith of Avonholm in Fawcett Properties Ltd v Buckingham County Council[57] regarding a limiting condition attached to a planning permission, which was cited with approval in Pyneboard:[58]
+If a clause may convey several different meanings it is for the court to say, looking at the general background, surrounding circumstances, subject-matter of discourse and other aids derived from the context of the clause, supplemented not infrequently by certain legal presumptions, what meaning is to be attributed to the clause.[59]
+140 In AB Pty Ltd, Flick J considered notices to produce documents under s 29 of the Australian Crime Commission Act 2002 [http://www.austlii.edu.au/au/legis/cth/consol_act/acca2002289/] (Cth). Section 29 required a person served with a notice to produce the documents or things ‘specified’ in it. The applicant in that case contended that the notices were invalid as they did not identify the documents sought to be produced with the degree of specificity required by the section. In the course of deciding that the notices were sufficiently certain to comply with s 29, Flick J adopted and applied the above passages to the notices issued under that provision. Toward the end of his analysis, he said:
+Specificity in language may have regard to the knowledge of the person upon whom a notice is served. The ‘clarity’ of a notice served under s 264 of the [Income Tax Assessment Act 1936 [http://www.austlii.edu.au/au/legis/cth/consol_act/itaa1936240/] (Cth)], it has been said, ‘must be considered against the background of the knowledge and circumstances of the Respondent to the Notice and the contextual facts’. A document may be specified if the description of the document required to be produced is sufficiently certain to identify it to the person upon whom a notice is served — even if that description may mean little (if anything) to a person without such knowledge.[60]
+141 These observations were made in the course of evaluating arguments that various notices were ambiguous, or insufficiently certain, to satisfy the statutory requirements for their issue. Subject to one feature specific to the legislation in the present case, shortly to be considered, the above statements are apt to apply to the second issue raised by the proposed ground of appeal, which requires an understanding of what the confidentiality notices issued under s 42 require.
+142 But for that feature, it would therefore be appropriate, consistent with these authorities concerning other coercive statutory notices, to construe a confidentiality notice issued under s 42 in light of the knowledge and circumstances of the person to whom it is issued. That would include the person’s knowledge of the evidence they have given, the documents and things they have produced, and any information they have received in the course of their engagement with the IBAC (including in the course of an examination).
+143 The distinctive aspect of the IBAC Act, as already observed, is that a confidentiality notice may be effective to impose obligations on, or may need to be understood by, persons other than the original recipient. First, the notice will bind a person who receives a notice from the person to whom it is issued, by way of permitted disclosure. That occurs by operation of s 44(6), which requires the person issued with the notice to provide a copy of it to the person to whom a permitted disclosure is made. Secondly, the notice needs to be understood by the Victorian Inspectorate, to which a copy must be provided. The applicant relied on the fact that persons other than the original recipient of a notice must be able to understand its scope, as a basis for excluding reference to context for the purpose of construing a confidentiality notice.
+144 In my opinion, these considerations do not deny resort to context, including the circumstances and knowledge of the recipient of a notice, in giving meaning to that notice. A notice has the practical effect of prohibiting a person from disclosing a specified restricted matter, in respect of an investigation, of which he or she is aware at the time of disclosure. It is inherent in the nature of an obligation not to disclose a class of matters, imposed on successive people, that it will mean different things to different people, depending upon their respective states of knowledge. That means that the same notice will apply in a different way, albeit in the same terms, according to the knowledge of the person bound. There is therefore no intrinsic vice in a confidentiality notice having an ambulatory operation, depending on the circumstances in which it comes to impose an obligation on a person.
+145 Yet despite this characteristic of a confidentiality notice, a notice which fails to specify a particular investigation in terms will only be able to be construed, in the hands of a given recipient, if that person has sufficient knowledge, or receives the notice in such circumstances, as to mean that such context supplies the missing detail identifying the subject matter of the relevant investigation. If not, the notice would, to that extent and in that operation, be impermissibly general in scope.
+146 In practice, it is highly likely that a recipient of a confidentiality notice will, as part of the disclosure, come to possess the knowledge of the original recipient of the notice relevant to it scope. So, a lawyer consulted as to the effect of a notice would be expected to be instructed as to what the recipient knows of the relevant circumstances (including, in particular, as to any accompanying summons). The same is true of other advisers, being parents, guardians and independent persons assisting those with impairments to understand their obligations. In providing for all such persons consulted about the operation of a confidentiality notice to be bound by that notice, Parliament can be taken to have considered it likely that the person consulted will be given the information which the person issued with the notice has about any particular investigation to which the notice relates.
+147 That in turn suggests that the prospect of different recipients receiving notices in different contexts and with different states of knowledge cannot have been a matter of such concern that it could be concluded that a notice must, contrary to the general position, be construed without regard to its context. The better view is that a notice unconfined by reference to a particular investigation or its subject matter, construed in the light of the circumstances of each recipient who receives the notice, may not necessarily bind all recipients equally.[61]
+148 As far as the Victorian Inspectorate is concerned, it is required to be made aware of a summons to give evidence and the reasons for issuing it, and so can be expected to review a confidentiality notice in the light of what it knows from such a summons. The Victorian Inspectorate’s role is to oversee compliance by the IBAC with the IBAC Act: see Victorian Inspectorate Act 2011 [http://www.austlii.edu.au/au/legis/vic/consol_act/via2011256/], s 40A(1)(a) [http://www.austlii.edu.au/au/legis/vic/consol_act/via2011256/s40a.html] and (2).[62] It is therefore in a different position, whereby it needs to be able to review, rather than comply with, a confidentiality notice (although its officers are still subject to general non-disclosure obligations: see s 30). [http://www.austlii.edu.au/au/legis/vic/consol_act/via2011256/s30.html] To the extent that a notice lacks any apparent connection to a particular investigation, even in the light of what the Victorian Inspectorate knows from a summons or other disclosures made to it, it can still perform its function of review, in any event, by acting on that apparent failure of compliance on the part of the IBAC.
+149 In the circumstances, the fact that persons other than the original recipient of a confidentiality notice might come to be bound by, or need to understand, that notice, is not a reason for departing from the usual requirement that a statutory notice imposing obligations on a person is to be read in the light of the knowledge and circumstances of the recipient. To the extent that such other persons lack the knowledge of the circumstances of the original recipient, or are not in the same circumstances, it is possible, instead, that the notice will simply not operate to restrict them from making the relevant disclosure or, in the case of the Victorian Inspectorate, that it will identify a failure of compliance by the IBAC with the IBAC Act.[63]
+150 In the present case, resort to the context in which the applicant received the notices amply shows the subject matter of the investigation in respect of which the notices were issued. First, each notice was served with a summons. On the first occasion, that summons set out matters of fact about which the applicant might be
+examined. The second notice was served, along with the second summons, when he came to be examined. Plainly, therefore, both notices were issued in respect of the same investigation. By way of confirmation, each notice bore a reference on the first page to the same ‘matter’ number.
+151 By virtue of this combination of circumstances, it is impossible that the applicant did not know what was the subject matter of the investigation in respect of which the notices were issued. The notices are to be construed accordingly.
+152 The subject matter in respect of which a confidentiality notice is issued may of course form part of some wider investigation that travels well beyond that subject matter. Inevitably, witnesses will be examined in respect of those parts of an investigation which concern them, and not others. It is therefore possible that the present investigation is broader in scope than the subject matter disclosed in the first summons. If so, a notice cast in the terms of those issued to the applicant in the circumstances of this case would not operate to prohibit him from disclosing a ‘restricted matter’ in respect of such other subject matter.[64] But it is enough that, read in context, the notices prohibit disclosure of ‘restricted matters’ in respect of an investigation whose subject matter includes that set out in the first summons.
+Conclusion
+153 It follows that the applicant has failed to impugn the validity of the notices, and the primary judge was correct to set aside the order of the magistrate dismissing the charges. Leave to appeal should be granted, but the appeal should be dismissed.
+
+
+
+
+NIALL JA:
+
+154 I have had the advantage of reading in draft the separate reasons for judgment of Maxwell P and McLeish JA. As McLeish JA explains in his reasons, the resolution of this appeal turns on the construction of both the IBAC Act and the confidentially notices served on the applicant (‘the notices’). I agree with McLeish JA on the construction of the Act but have come to the conclusion that the notices do not specify a restricted matter and therefore do not comply with s 42 of the IBAC Act.
+155 For the reasons that follow, I agree with the orders proposed by Maxwell P that leave to appeal should be granted and the appeal allowed.
+156 I agree with McLeish JA for the reasons he gives that the items described in paras (a) to (g) of the definition of ‘restricted matter’ are all restricted matters.[65] That is, I do not accept that the definition employs umbrella terms that must be reduced or confined before they can be deployed in a notice in order to describe a restricted matter.
+157 Section 42 of the IBAC Act has two relevant aspects. The first, which is internal and deliberative, involves the Independent Broad-based Anti-corruption Commission (‘the IBAC’) forming a view based on reasonable grounds that disclosure of a ‘restricted matter’ would be likely to prejudice one or more of the three items stipulated in sub-ss 41(1)(a) to (c). When the IBAC addresses itself to that question there is no reason to read down the definition of restricted matter. The second aspect is the requirement to specify those matters in respect of which a confidentiality notice is issued. That requires a notice to state with clarity and precision the information or thing that the recipient must not disclose. The purpose is to inform the recipient of the obligation that is imposed upon them. There must be sufficient detail in the notice to achieve this purpose.
+158 I also agree with McLeish JA that in order to specify a restricted matter in a confidentiality notice more is required than to simply replicate the matters contained in the statutory definition. I arrive at that conclusion because first, the word specify in this context means to state with a sufficient degree of clarity and precision. Second, the context requires that the thing specified arise during a specific investigation and the IBAC must form the requisite state of satisfaction in that context. That is made clear by the introductory words of s 42(1) of the IBAC Act that the issue arise ‘during an investigation’ and that the harm against which the section seeks to protect all have a connection, either expressly or by implication, with an investigation. Unless tethered by text or context to a specific investigation, there is no means to avoid a literal meaning that would extend to everything given to or supplied to the IBAC at any time.
+159 It follows that the specification of the restricted matter in a confidentiality notice must, at the least, be tied back to a specific investigation. Even then, in any given case a mere reference in a notice to the subject matter of an investigation may not be sufficient to specify the information or thing that must not be disclosed.
+160 For these reasons, I agree with the construction of the IBAC Act adopted by McLeish JA.
+161 Turning then to the notices themselves, I do not accept the applicant’s submission that the replication of the statutory text in the notices, of itself, constitutes a fatal flaw. However, I am unable to agree with McLeish JA that, when read in a broader context, the notices are sufficiently confined so that all of the relevant matters set out in the notices are connected to a specific investigation in the way the IBAC Act requires. By simply referring to all of the restricted matters in an indiscriminate way and without any or at least sufficient textual limitations, the notices fail to specify the restricted matter that the recipient is prohibited from disclosing. The recipient is forced to make assumptions as to what information is caught by the confidentiality notice, which involves more than a fair reading of the notices.
+162 I accept that in construing a confidentiality notice it may be possible to have regard to surrounding circumstances that will be known to the person who is bound by the notice. However, there are limits as to how far that method of construction can go. Those limits arise from a number of aspects of the statutory context and the nature of the function being performed. First, the giving of a confidentiality notice imposes obligations of confidence that are enforced by criminal sanction. That of itself calls for a high degree of clarity and certainty.
+163 Second, relevant matters must be specified in a notice and the process remains one of construction of the terms of the notice. Where the meaning to be attributed to a confidentiality notice can only be derived when it is read in combination with another document, such as a summons, that other document does not so much as provide context but is an additional repository of information. The ability to read a notice in context and having regard to surrounding circumstances should not be used to source the primary content of the obligation in a document that is extraneous to the notice itself.
+164 Third, a notice can bind more than one person if the first recipient passes the notice on to a third party in one of the circumstances permitted by the IBAC Act. Given the purpose of a notice is to protect against harm of the kind identified in sub-ss 42(1)(a) to (c) and requires reasonable grounds, it is to my mind improbable that the level of protection obtained through the obligation of confidence should depend on the knowledge of the recipient.
+165 In this case, to the extent there is any textual link between the notices and the summonses served on the applicant, it is found in the reference to the number of the summons and the matter number on the front page of each notice. Although that might direct a recipient to the summons, it could not be said that the notation serves to incorporate the terms of the summons by reference. Further, the link does not suggest that the notices are required to be read in conjunction with the summonses.
+166 It is possible to read the notices as relating to information or documents that have been provided or supplied, or that may later be provided or supplied, in the course of the investigation in which they were served. However, that approach is more a reflection of an assumption that the IBAC intended to keep confidential everything in relation to the investigation rather than a conclusion reached by a fair reading of the notices. Given the potential for criminal liability, prudence might suggest that a person who receives a notice might compensate for the lack of detail by reading it as broadly as possible. However, the meaning of a notice should not be determined by prudential considerations such as a desire to minimise the risk of any noncompliance. Such an approach would give rise to a real chance that a notice will have a broader operation than the IBAC Act permits and extend beyond those matters that the IBAC considers on reasonable grounds must be kept confidential. The requirement that there be reasonable grounds before a relevant matter is specified in a notice is at risk of being diluted by an overly defensive construction on the part of the recipient.
+167 Further, it is not clear that the restricted matters in the notices are confined by the subject matter of the investigation or the nature of the matters about which the person named in the summonses is to be questioned. The power in s 42 of the IBAC Act to issue a confidentiality notice arises during an investigation. An investigation conducted by the IBAC must relate to an area that falls within the scope of powers conferred on the IBAC. Section 121(2) requires that a witness summons state ‘the nature of the matters about which the person to whom it is directed is to be questioned’ unless the giving of that information would be likely to prejudice the investigation. The IBAC Act does not require a complete correspondence between the subject matter of the investigation and the information provided in the witness summons. In this case, the notices do not say whether those two things are the same. For that additional reason, even allowing for a connection between the notices and the investigation, the ambit of the notices remains uncertain.
+168 It follows that the summonses do not limit or confine the breadth of the notices in a way that would bring their terms within the legitimate scope of s 42 of the IBAC Act. The notices do not specify one or more restricted matters. I agree with the orders proposed by Maxwell P.
+---
+
+[1] Browne v Beckingham [2020] VSC 301 [http://www.austlii.edu.au/au/cases/vic/VSC/2020/301.html] (‘Reasons’).
+
+[2] IBAC Act s 42(2).
+
+[3] IBAC Act s 42(2)(e) was repealed on 31 December 2019 by the Integrity and Accountability Legislation Amendment (Public Interest Disclosures, Oversight and Independence) Act 2019.
+
+[4] Independent Broad-based Anti-Corruption Commission Regulations [http://www.austlii.edu.au/au/legis/vic/consol_reg/ibacr2013588/] 2013 [http://www.austlii.edu.au/au/legis/vic/consol_reg/ibacr2013588/] reg 32 – Schedule, Form 1.
+
+[5] Reasons [36].
+
+[6] Ibid [48] (citation omitted).
+
+[7] (2013) 42 VR 372 [/cgi-bin/LawCite?cit=%282013%29%2042%20VR%20372]; [2013] VSCA 104 [http://www.austlii.edu.au/au/cases/vic/VSCA/2013/104.html] (‘Harofam’).
+
+[8] Reasons [49] (citation omitted).
+
+[9] [1982] FCA 18 [http://www.austlii.edu.au/au/cases/cth/FCA/1982/18.html]; (1982) 57 FLR 368 [/cgi-bin/LawCite?cit=%281982%29%2057%20FLR%20368], affirmed on appeal in Pyneboard Pty Ltd v Trade Practices Commission (1983) 152 CLR 328 [/cgi-bin/LawCite?cit=%281983%29%20152%20CLR%20328]; [1983] HCA 9 [http://www.austlii.edu.au/au/cases/cth/HCA/1983/9.html] (‘Pyneboard’).
+
+[10] Ibid 374 (Northrop, Deane and Fisher JJ) (emphasis added).
+
+[11] (2015) 45 VR 266 [/cgi-bin/LawCite?cit=%282015%29%2045%20VR%20266]; [2015] VSCA 10 [http://www.austlii.edu.au/au/cases/vic/VSCA/2015/10.html] (‘Daniel’).
+
+[12] Ibid 274 [25].
+
+[13] Reasons [58].
+
+[14] [2013] FCAFC 121 [http://www.austlii.edu.au/au/cases/cth/FCAFC/2013/121.html]; (2013) 216 FCR 214 [/cgi-bin/LawCite?cit=%282013%29%20216%20FCR%20214], 235 [87]; [2013] FCAFC 121 (Kerr [http://www.austlii.edu.au/au/cases/cth/FCAFC/2013/121.html], Farrell and Mortimer JJ) (‘Comcare’).
+
+[15] Reasons [85]–[93] (citations omitted) (emphasis added).
+
+[16] (2009) 175 FCR 296 [/cgi-bin/LawCite?cit=%282009%29%20175%20FCR%20296]; [2009] FCA 119 [http://www.austlii.edu.au/au/cases/cth/FCA/2009/119.html] (‘AB Pty Ltd’).
+
+[17] Ibid 300, [13] (Flick J).
+
+[18] Ibid 311 [49] (emphasis added).
+
+[19] Ibid 308 [39], 311 [48].
+
+[20] Reasons [101].
+
+[21] Ibid [97]–[98] (emphasis added).
+
+[22] Alcan (NT) Alumina Pty Ltd v Commissioner of Territory Revenue (Northern Territory) [2009] HCA 41 [http://www.austlii.edu.au/au/cases/cth/HCA/2009/41.html]; (2009) 239 CLR 27 [/cgi-bin/LawCite?cit=%282009%29%20239%20CLR%2027], 46–7 [47]; [2009] HCA 41 (Hayne [http://www.austlii.edu.au/au/cases/cth/HCA/2009/41.html], Heydon, Crennan and Kiefel JJ); Thiess v Collector of Customs [2014] HCA 12 [http://www.austlii.edu.au/au/cases/cth/HCA/2014/12.html]; (2014) 250 CLR 664 [/cgi-bin/LawCite?cit=%282014%29%20250%20CLR%20664], 671 [22]; [2014] HCA 12 (French [http://www.austlii.edu.au/au/cases/cth/HCA/2014/12.html] CJ, Hayne, Kiefel, Gageler and Keane JJ).
+
+[23] See, for example, Workplace Injury Rehabilitation and Compensation Act 2013 [http://www.austlii.edu.au/au/legis/vic/consol_act/wiraca2013484/] s 3 [http://www.austlii.edu.au/au/legis/vic/consol_act/wiraca2013484/s3.html] definitions of ‘heart attack injury’, ‘stroke injury’ and ‘disease’, as applicable to operative provision s 40(2) [http://www.austlii.edu.au/au/legis/vic/consol_act/wiraca2013484/s40.html]; Environment Protection Act 2017 [http://www.austlii.edu.au/au/legis/vic/consol_act/epa2017284/] s 3 [http://www.austlii.edu.au/au/legis/vic/consol_act/epa2017284/s3.html] definitions of ‘waste’ and ‘pollution’, as applicable to operative provision s 25(1). [http://www.austlii.edu.au/au/legis/vic/consol_act/epa2017284/s25.html]
+
+[24] IBAC Act s 42(1).
+
+[25] Reasons [85].
+
+[26] Ibid [86]–[87], [92]–[93] (emphasis added).
+
+[27] (2013) 42 VR 372 [/cgi-bin/LawCite?cit=%282013%29%2042%20VR%20372]; [2013] VSCA 104. [http://www.austlii.edu.au/au/cases/vic/VSCA/2013/104.html]
+
+[28] Ibid 376 [12]. The same definition was used in Deputy Federal Commissioner of Taxation v Gillis [2003] NSWCA 340 [http://www.austlii.edu.au/au/cases/nsw/NSWCA/2003/340.html]; (2003) 59 NSWLR 153 [/cgi-bin/LawCite?cit=%282003%29%2059%20NSWLR%20153], 164 [27]; [2003] NSWCA 340 (Hodgson [http://www.austlii.edu.au/au/cases/nsw/NSWCA/2003/340.html] JA) (‘Gillis’) and Evans v Minister for Immigration & Multicultural & Indigenous Affairs [2003] FCAFC 276 [http://www.austlii.edu.au/au/cases/cth/FCAFC/2003/276.html]; (2003) 135 FCR 306 [/cgi-bin/LawCite?cit=%282003%29%20135%20FCR%20306], 319 [43]; [2003] FCAFC 276 (Kenny [http://www.austlii.edu.au/au/cases/cth/FCAFC/2003/276.html] J).
+
+[29] [2013] VSCA 104 [http://www.austlii.edu.au/au/cases/vic/VSCA/2013/104.html]; (2013) 42 VR 372 [/cgi-bin/LawCite?cit=%282013%29%2042%20VR%20372], 376 [14]; [2013] VSCA 104 (Nettle [http://www.austlii.edu.au/au/cases/vic/VSCA/2013/104.html] AP, Neave JA and Garde AJA).
+
+[30] [1994] FCA 1212 [http://www.austlii.edu.au/au/cases/cth/FCA/1994/1212.html]; (1994) 51 FCR 554 [/cgi-bin/LawCite?cit=%281994%29%2051%20FCR%20554], 569 (Burchett J) (emphasis added) (‘Gantry’).
+
+[31] (2003) 59 NSWLR 153 [/cgi-bin/LawCite?cit=%282003%29%2059%20NSWLR%20153]; [2003] NSWCA 340. [http://www.austlii.edu.au/au/cases/nsw/NSWCA/2003/340.html]
+
+[32] Ibid 164 [27] (Hodgson JA).
+
+[33] (1913) 16 CLR 254 [/cgi-bin/LawCite?cit=%281913%29%2016%20CLR%20254], 272; [1913] HCA 71. [http://www.austlii.edu.au/au/cases/cth/ArgusLawRp/1913/36.html]
+
+[34] Tickner v Chapman [1995] FCAFC 1726 [http://www.austlii.edu.au/au/cases/cth/FCA/1995/1726.html]; (1995) 57 FCR 451 [/cgi-bin/LawCite?cit=%281995%29%2057%20FCR%20451], 480.
+
+[35] Reasons [97].
+
+[36] Deputy Commissioner of Taxation v Woodhams (2000) 199 CLR 370 [/cgi-bin/LawCite?cit=%282000%29%20199%20CLR%20370]; [2000] HCA 10 [http://www.austlii.edu.au/au/cases/cth/HCA/2000/10.html] (‘Woodhams’).
+
+[37] IBAC Act s 44(2)(c).
+
+[38] Emphasis added.
+
+[39] (2015) 45 VR 266 [/cgi-bin/LawCite?cit=%282015%29%2045%20VR%20266]; [2015] VSCA 10. [http://www.austlii.edu.au/au/cases/vic/VSCA/2015/10.html]
+
+[40] [2013] FCAFC 121 [http://www.austlii.edu.au/au/cases/cth/FCAFC/2013/121.html]; (2013) 216 FCR 214 [/cgi-bin/LawCite?cit=%282013%29%20216%20FCR%20214], 235 [87]; [2013] FCAFC 121 (Kerr [http://www.austlii.edu.au/au/cases/cth/FCAFC/2013/121.html], Farrell and Mortimer JJ).
+
+[41] Gantry [1994] FCA 1212 [http://www.austlii.edu.au/au/cases/cth/FCA/1994/1212.html]; (1994) 51 FCR 554 [/cgi-bin/LawCite?cit=%281994%29%2051%20FCR%20554], 569 (Burchett J), cited with approval in Harofam [2013] VSCA 104 [http://www.austlii.edu.au/au/cases/vic/VSCA/2013/104.html]; (2013) 42 VR 372 [/cgi-bin/LawCite?cit=%282013%29%2042%20VR%20372], 376–7 [14]; [2013] VSCA 104 (Nettle [http://www.austlii.edu.au/au/cases/vic/VSCA/2013/104.html] AP, Neave JA and Garde AJA).
+
+[42] Vanstone v Clark (2005) 147 FCR 299 [/cgi-bin/LawCite?cit=%282005%29%20147%20FCR%20299], 306 [13]; [2005] FCAFC 189 (Black [http://www.austlii.edu.au/au/cases/cth/FCAFC/2005/189.html] CJ), also cited with approval in Harofam [2013] VSCA 104 [http://www.austlii.edu.au/au/cases/vic/VSCA/2013/104.html]; (2013) 42 VR 372 [/cgi-bin/LawCite?cit=%282013%29%2042%20VR%20372], 376 [13]; [2013] VSCA 104 (Nettle [http://www.austlii.edu.au/au/cases/vic/VSCA/2013/104.html] AP, Neave JA and Garde AJA).
+
+[43] [1913] HCA 71 [http://www.austlii.edu.au/au/cases/cth/ArgusLawRp/1913/36.html]; (1913) 16 CLR 245 [/cgi-bin/LawCite?cit=%281913%29%2016%20CLR%20245], 272; [1913] HCA 71. [http://www.austlii.edu.au/au/cases/cth/ArgusLawRp/1913/36.html]
+
+[44] Ibid 285.
+
+[45] Woodhams [2000] HCA 10 [http://www.austlii.edu.au/au/cases/cth/HCA/2000/10.html]; (2000) 199 CLR 370 [/cgi-bin/LawCite?cit=%282000%29%20199%20CLR%20370], 384 [33]; [2000] HCA 10 (Gleeson [http://www.austlii.edu.au/au/cases/cth/HCA/2000/10.html] CJ, McHugh, Gummow, Kirby and Callinan JJ).
+
+[46] See, eg, Hunter Resources Ltd v Melville [1988] HCA 5 [http://www.austlii.edu.au/au/cases/cth/HCA/1988/5.html]; (1988) 164 CLR 234 [/cgi-bin/LawCite?cit=%281988%29%20164%20CLR%20234], 244; [1988] HCA 5 (Mason [http://www.austlii.edu.au/au/cases/cth/HCA/1988/5.html] CJ and Gaudron J).
+
+[47] Disclosure to the Victorian Inspectorate does not fall within the permitted disclosure regime in s 44.
+
+[48] [1998] 3 VR 241. [/cgi-bin/LawCite?cit=%5b1998%5d%203%20VR%20241]
+
+[49] Ibid 254 (Brooking JA, Winneke P agreeing at 242, Tadgell JA agreeing at 264).
+
+[50] Daniel [2015] VSCA 10 [http://www.austlii.edu.au/au/cases/vic/VSCA/2015/10.html]; (2015) 45 VR 266 [/cgi-bin/LawCite?cit=%282015%29%2045%20VR%20266], 274 [25]; [2015] VSCA 10 (Priest [http://www.austlii.edu.au/au/cases/vic/VSCA/2015/10.html] JA, Weinberg JA agreeing at 267 [1], Beach JA agreeing at 275 [32])).
+
+[51] Hogan v Hinch [2011] HCA 4 [http://www.austlii.edu.au/au/cases/cth/HCA/2011/4.html]; (2011) 243 CLR 506 [/cgi-bin/LawCite?cit=%282011%29%20243%20CLR%20506], 530 [19]; [2011] HCA 4 (French [http://www.austlii.edu.au/au/cases/cth/HCA/2011/4.html] CJ).
+
+[52] [2020] HCA 14 [http://www.austlii.edu.au/au/cases/cth/HCA/2020/14.html]; (2020) 94 ALJR 502 [/cgi-bin/LawCite?cit=%282020%29%2094%20ALJR%20502], 517 [29]; [2020] HCA 14. [http://www.austlii.edu.au/au/cases/cth/HCA/2020/14.html]
+
+[53] [1982] FCA 18 [http://www.austlii.edu.au/au/cases/cth/FCA/1982/18.html]; (1982) 57 FLR 368. [/cgi-bin/LawCite?cit=%281982%29%2057%20FLR%20368]
+
+[54] (2009) 175 FCR 296 [/cgi-bin/LawCite?cit=%282009%29%20175%20FCR%20296]; [2009] FCA 119. [http://www.austlii.edu.au/au/cases/cth/FCA/2009/119.html]
+
+[55] [1982] FCA 18 [http://www.austlii.edu.au/au/cases/cth/FCA/1982/18.html]; (1982) 57 FLR 368 [/cgi-bin/LawCite?cit=%281982%29%2057%20FLR%20368], 372 (citations omitted).
+
+[56] Reasons [90] (citations omitted).
+
+[57] [1961] AC 636 [/cgi-bin/LawCite?cit=%5b1961%5d%20AC%20636] (‘Fawcett’).
+
+[58] [1982] FCA 18 [http://www.austlii.edu.au/au/cases/cth/FCA/1982/18.html]; (1982) 57 FLR 368 [/cgi-bin/LawCite?cit=%281982%29%2057%20FLR%20368], 372 (Northrop, Deane and Fisher JJ).
+
+[59] Fawcett [1961] AC 636 [/cgi-bin/LawCite?cit=%5b1961%5d%20AC%20636], 670–1.
+
+[60] AB Pty Ltd [2009] FCA 119 [http://www.austlii.edu.au/au/cases/cth/FCA/2009/119.html]; (2009) 175 FCR 296 [/cgi-bin/LawCite?cit=%282009%29%20175%20FCR%20296], 312 [50]; [2009] FCA 119 [http://www.austlii.edu.au/au/cases/cth/FCA/2009/119.html], citing The Integrated Financial Group Pty Ltd v Australian Securities and Investments Commission (2004) [/cgi-bin/LawCite?cit=%282004%29%20187%20FLR%207]187 FLR 7 [http://www8.austlii.edu.au/cgi-bin/LawCite?cit=187%20FLR%207]; http://www8.austlii.edu.au/cgi-bin/viewdoc/au/cases/wa/WASCA/2004/213.html[2004] WASCA 213 [http://www.austlii.edu.au/au/cases/wa/WASCA/2004/213.html] and Hart v Commissioner of Taxation [2005] FCA 1748 [http://www.austlii.edu.au/au/cases/cth/FCA/2005/1748.html]; (2005) 148 FCR 198 [/cgi-bin/LawCite?cit=%282005%29%20148%20FCR%20198], 226 [91]; [2005] FCA 1748 (Greenwood [http://www.austlii.edu.au/au/cases/cth/FCA/2005/1748.html] J); see also Telstra Corporation Ltd v Australian Competition and Consumer Commission [No 2] [2007] FCA 493 [http://www.austlii.edu.au/au/cases/cth/FCA/2007/493.html]; (2007) 240 ALR 135 [/cgi-bin/LawCite?cit=%282007%29%20240%20ALR%20135], 144 [40]; [2007] FCA 493 (Bennett [http://www.austlii.edu.au/au/cases/cth/FCA/2007/493.html] J).
+
+[61] It goes without saying that these issues are avoided if the IBAC refers to the subject matter of the relevant investigation, or otherwise limits the scope of the restriction imposed, in the body of a confidentiality notice.
+
+[62] This provision was introduced after the issue of the notices in the current matter, but it was always one of the functions of the Victorian Inspectorate to monitor the compliance of the IBAC with the IBAC Act generally: s 11(2)(a).
+
+[63] Again, these prospects are avoided if the IBAC refers to the subject matter of the relevant investigation, or otherwise limits the scope of the restriction imposed, in the body of a confidentiality notice.
+
+[64] This naturally assumes that there is not some other information possessed by the applicant, or other relevant circumstance, bearing on construction of the notices.
+
+[65] Independent Broad-based Anti-corruption Commission Act [http://www.austlii.edu.au/au/legis/vic/consol_act/ibaca2011479/] 2011 [http://www.austlii.edu.au/au/legis/vic/consol_act/ibaca2011479/] s 3(1). [http://www.austlii.edu.au/au/legis/vic/consol_act/ibaca2011479/s3.html]

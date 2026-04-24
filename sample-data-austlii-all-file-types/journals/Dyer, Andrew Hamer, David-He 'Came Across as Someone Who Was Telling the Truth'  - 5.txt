@@ -1,0 +1,480 @@
+-----------------------------------
+type: journal
+title: He 'Came Across as Someone Who Was Telling the Truth': Pell v the Queen
+author: Dyer, Andrew; Hamer, David
+year: 2020
+citation: [2020] SydLawRw 5
+url: https://austlii.edu.au/cgi-bin/viewdoc/au/journals/SydLawRw/2020/5.html
+date: 2020-01-01 00:00:00
+database: SydLawRw
+data_quality: H
+-----------------------------------
+
+
+DYER, ANDREW; HAMER, DAVID --- "HE 'CAME ACROSS AS SOMEONE WHO WAS TELLING THE TRUTH': PELL V THE QUEEN" [2020] SYDLAWRW 5; (2020) 42(1) SYDNEY LAW REVIEW 109
+
+Before the High Court
+
+He ‘Came Across as Someone Who Was Telling the Truth’: Pell v The Queen
+
+Andrew Dyer(High Court of Australia, Case No M112/2019.)and David Hamer(High Court of Australia, Case No M112/2019.)
+
+Abstract
+
+When the jury at Cardinal Pell’s second trial convicted him on 11 December 2018 of five charges of historical sexual offending, were the verdicts unreasonable or insupportable having regard to the evidence? A majority of the Court of Appeal of Victoria (‘VSCA’) held that they were not, and Pell has now asked the High Court of Australia (‘HCA’) to reverse that decision. It is argued in this column that, if the HCA grants Pell special leave to appeal, it should reject his argument that the VSCA majority reversed the onus of proof when reaching the conclusion that it did. That, however, is not necessarily to say that the jury was entitled to find Pell guilty largely on the strength of the complainant’s testimony. Evidence that Pell had no opportunity to offend was powerful, and it appears to us that the jury might have acquitted. Whether it must have done so is a more contentious question. Especially given the highly controversial nature of these proceedings, it might be that, if it decides this question, the HCA will attach much weight to the established principle that jury verdicts are not lightly to be disturbed.
+
+
+I INTRODUCTION
+
+In Pell v The Queen,(High Court of Australia, Case No M112/2019.)the High Court of Australia (‘HCA’) has been asked to decide whether the Court of Appeal of Victoria (‘VSCA’) was right to find, by majority,(Pell v The Queen [2019] VSCA 186, [14] (Ferguson CJ and Maxwell P) (‘Pell (VSCA)’). Weinberg JA dissented at [1051]–[1112].) that it was open to the jury at Cardinal Pell’s trial to convict him of one charge of sexual penetration of a child under the age of 16 and four charges of performing an indecent act with a child under that age. Alternatively, was this a case where, however compelling the complainant’s testimony, the jury should have had a reasonable doubt about the accused’s guilt?
+
+Pell’s submission that his case falls into the latter category is partly based on his contention that, regardless of whether the complainant ‘came across as someone who was telling the truth’,(Ibid [91].) inconsistencies between his evidence and other witnesses’ testimony that Pell was accompanied and elsewhere when the alleged offending occurred, prevent our being sure that such offending took place.(George Pell, ‘Applicant’s Submissions’, Submission in Pell v The Queen, Case No M112/2019, 3 January 2020, [35]–[38] (‘Pell Submissions’).) Indeed, according to Pell, on the VSCA majority’s own analysis, the Crown failed to disprove his ‘alibi’ beyond reasonable doubt.(Ibid [48].) Pell submits that their Honours’ analysis reversed the onus of proof.(Ibid [45], [48].)
+
+Even if the HCA rejects this argument, however, a large question remains.
+
+A significant body of evidence(See Pell (VSCA) (n 2) [841], [855], [875].) made it difficult for the Crown to prove that Pell offended as alleged. Could the jury really be satisfied that there was no reasonable possibility of Pell’s innocence? We believe that the HCA is entitled to find that it could not; but we doubt whether their Honours will make this finding.
+
+In Chamberlain v The Queen (No 2), Brennan J noted that, if appellate courts were to set aside jury verdicts as unreasonable wherever those courts had a reasonable doubt about the accused’s guilt, ‘the function of returning the effective verdict would be transferred from the jury to the court ... which would ... erode public confidence in the administration of criminal justice’.([1984] HCA 7; (1984) 153 CLR 521, 603 (‘Chamberlain (No 2)’). It is true that Brennan J has been seen — including by himself (Jones v The Queen [1997] HCA 56; (1997) 191 CLR 439, 441–2 (‘Jones’)) — as having favoured greater restraint in this area than the HCA ultimately determined to be suitable. Nevertheless, his Honour’s approach is uncontroversial insofar as it insists that, ‘for both constitutional and practical reasons’ (M v The Queen [1994] HCA 63; (1994) 181 CLR 487, 502) appellate courts should not too readily interfere with juries’ verdicts; and, for the reasons developed below, the HCA might give this principle particular prominence in this case.) Similar considerations apply here. While Pell has his defenders,(See, eg, Keith Windschuttle, ‘George Pell and the Jury’ (2019) 63(4) Quadrant 4.) there is much hostility in the community towards him.(Three books about Pell are currently on sale: David Marr, The Prince: Faith, Abuse and George Pell (Black Inc, 2019); Louise Milligan, Cardinal: The Rise and Fall of George Pell (Melbourne University Press, 2019); Lucie Morris-Marr, Fallen: The Inside Story of the Secret Trial and Conviction of Cardinal George Pell (Allen and Unwin, 2019). All portray him unfavourably.)
+
+An appellate court’s decision to override the jury’s assessment of the complainant’s evidence could be viewed by a significant part of the community as constituting an impermissible usurpation of that jury’s role, thus weakening the courts’ legitimacy. Given some High Court Justices’ expressed concern to do their work unobtrusively, lest the reputation of the courts be damaged,(See, eg, Justice Virginia Bell, ‘Judicial Activists or Champions of Self-Restraint: What Counts for Leadership in the Judiciary?’ (General Sir John Monash Leadership Oration, 4 August 2016) 17–18.) their Honours might be unwilling to risk creating such a perception. That is, especially in such a controversial case, the Court might attach much weight to the undoubted rule that appellate courts must show appropriate respect for jury verdicts.
+
+
+II THE TRIAL, THE VSCA’S DECISION AND THE HCA PROCEEDINGS
+
+
+A THE TRIAL
+
+At trial, the Crown alleged that, following Sunday Solemn Mass at St Patrick’s Cathedral in 1996, the complainant, A, and his friend, B, who were choristers aged about 13, detached themselves from the choir as it left the Cathedral.(Pell (VSCA) (n 2) [43].) After
+
+re-entering the Cathedral, they proceeded to the Priests’ Sacristy, where Pell robed and disrobed that year.(Ibid.) Upon entering the Sacristy, the two boys located and started drinking some sacramental wine.(Ibid [44].) Shortly afterwards, however, Pell appeared in the doorway.(Ibid [44].) After saying something like ‘You’re in trouble’, Pell manoeuvred his penis out of his robes, grabbed B’s head and lowered it towards Pell’s genitalia.(Ibid [44]–[45].) Pell then turned to A.(Ibid [46].) After forcing A to fellate him, Pell instructed A to remove his own pants, which he did.(Ibid [46]–[47].) While touching A’s bare genitals, Pell touched his own penis with his other hand.(Ibid [47].) The whole episode took five or six minutes.(Ibid [45]–[47].)
+
+A alleged that a second incident occurred at least a month later, again following Sunday Solemn Mass at the Cathedral.(Ibid [50].) As A was processing with the choir back through the Sacristy corridor to the choir room, Pell pushed himself against A(Ibid.) and squeezed A’s genitals over his robes.(Ibid.)
+
+The ‘critical issue’ at trial was ‘whether A’s evidence was credible and reliable’.(Ibid [53].) B died the year before the complainant first complained to the police.(Ibid [51].) Before his death, when his mother asked him whether he had ever been ‘touched up’ when a chorister, he denied it.(Ibid.) Pell emphatically denied the allegations.(Ibid [181]–[185].) The jury at his first trial could not reach a verdict.(Ibid [1].) Pell’s second jury convicted him on all charges.(Ibid [1], [4].)
+
+
+B THE VSCA PROCEEDINGS
+
+Before the VSCA, Pell argued that his convictions were unreasonable(Criminal Procedure Act 2009 (Vic) s 276(1)(a).) and that the Court should substitute verdicts of acquittal for them.
+
+All judges agreed upon the applicable principles.(Pell (VSCA) (n 2) [19]–[24] (Ferguson CJ and Maxwell P), [590], [613]–[618] (Weinberg JA).) ‘[T]he question’, said the HCA majority in M v The Queen, ‘is whether ... upon the whole of the evidence it was open to the jury to be satisfied beyond reasonable doubt’ of the accused’s guilt.(M v The Queen (n 8) 493 (Mason CJ, Deane, Dawson and Toohey JJ).) This, the VSCA observed, was the relevant test, and — contrary to some judges’ claims(See, eg, MFA v The Queen (2002) 213 CLR 606, 623 [55] (McHugh, Gummow and Kirby JJ). Cf, however, eg, Chidiac v The Queen [1991] HCA 4; (1991) 171 CLR 432, 443 (Mason CJ), 451 (Dawson J), 457–8 (Toohey J) (‘Chidiac’).) — it does not differ from Hayne J’s formulation in Libke v The Queen, where he said that the question is whether the jury ‘must as distinct from might’ have entertained a reasonable doubt.(Libke v The Queen [2007] HCA 30; (2007) 230 CLR 559, 596–7 [113] (emphasis in original).) The pertinent enquiry is, however, distinct from the trial judge’s consideration, as a matter of law, whether there is evidence on which a jury could convict.(MFA v The Queen (n 33) 615 [26].) The appellate court must undertake its own ‘independent assessment’ of the evidence’s sufficiency and quality.(Morris v The Queen [1987] HCA 50; (1987) 163 CLR 454, 473 (Deane, Toohey and Gaudron JJ).) If, after doing so, it experiences a reasonable doubt about the accused’s guilt, it must acquit him/her — unless the ‘jury’s advantage in seeing and hearing the evidence’ can resolve that doubt.(M v The Queen (n 8) 494 (Mason CJ, Deane, Dawson and Toohey JJ).)
+
+Underlying this are two competing considerations. The first concerns the jury’s role. As the HCA has repeatedly stated, not only has the jury seen and heard the witnesses; it has primarily been entrusted with deciding questions of criminal guilt.(See, eg, SKA v The Queen [2011] HCA 13; (2011) 243 CLR 400, 405 [13] (French CJ, Gummow and Kiefel JJ).) Thus, it is a ‘serious step’(R v Baden-Clay (2016) 258 CLR 308, 329 [65].) to overturn its findings. But this step can be taken. That is because of the second consideration. Because the law recognises that ‘juries sometimes make mistakes’,(Chamberlain (No 2) (n 8) 569 (Murphy J).) and because of society’s unwillingness to tolerate the miscarriages of justice that can result from such mistakes,(MFA v The Queen (n 33) 624 [59].) a jury’s verdict will be set aside as unreasonable if ‘there is a significant possibility that an innocent person has been convicted.’(M v The Queen (n 8) 494 (Mason CJ, Deane, Dawson and Toohey JJ).)
+
+As noted above, the VSCA majority found that it was open to the jury to be satisfied beyond reasonable doubt that Pell was guilty as charged.(Pell (VSCA) (n 2) [14] (Ferguson CJ and Maxwell P).) ‘[T]here was nothing about A’s evidence’, their Honours held, or about the evidence that Pell had no opportunity to offend, that required the jury to acquit.(Ibid.) Indeed, their Honours did not experience doubt ‘about the truth of A’s account or the Cardinal’s guilt’.(Ibid [39].) Therefore, it was unnecessary to consider whether the jury’s advantage in seeing and hearing the witnesses could resolve any such doubt.(Ibid.)
+
+Concerning A’s reliability and credibility, according to the majority he fared well under cross-examination; and while his account might have differed in certain ways from that which he had given previously, this often happens where someone repeatedly describes events from the ‘distant past’.(Ibid [73].) The jury’s attention was drawn to the relevant inconsistencies,(Ibid [76].) the majority observed, and it was well-placed to decide whether A’s evidence was honest and accurate.(Ibid [75].)
+
+The majority then considered Pell’s submission that the offending was highly improbable. Would he really have risked his career and reputation by offending so brazenly?(Ibid [98].) Their Honours dealt with this submission as they had Pell’s attack on A’s credibility and reliability. The arguments from improbability were ‘powerful’.(Ibid.) But they had been placed fairly before the jury, and it had rejected them. If an appellate court were to override the jury in these circumstances, their Honours suggested, it would be paying insufficient regard to the established principle that, because juries are primarily responsible for deciding questions of criminal guilt, their verdicts are not lightly to be disturbed.(Ibid [107]–[109].) Sexual offenders do sometimes offend where there is a high risk of detection.(Ibid [99]–[102].)
+
+Finally, the majority dealt with Pell’s argument that he had no opportunity to offend, making the offending impossible.(Ibid [135].) Their Honours found that, although certain witnesses had pointed to the unlikelihood of: (a) choristers detaching themselves from the choir during the procession out of the Cathedral; and (b) returning unnoticed to it after the incident, none of this evidence compelled a conclusion that Pell lacked an opportunity to offend.(Ibid [326].) For example, Rodney Dearing’s evidence that someone would have noticed if choristers had left the procession, was just an opinion.(Ibid [313]–[314].) And even though there was a choir rehearsal after Mass on the only two dates on which the first incident could have occurred, there was evidence that the choir often took up to 15 minutes to disrobe before rehearsals.(Ibid [227].) Whether the complainants would have been noticed walking late into a rehearsal,(See ibid [566].) they could less conspicuously have rejoined the choir when it was disrobing.(Ibid [325].)
+
+Regarding Pell’s submission that the Priest’s Sacristy was a ‘hive of activity’(Ibid [158], [299].) just after Mass, thus eliminating any reasonable possibility that the first incident had occurred, the majority noted two altar servers’ evidence that the Sacristy would be unlocked after Mass and then left unattended for five or six minutes.(Ibid [294]–[295].) If the jury accepted this, it could also accept that, even if the Sacristy then became very busy indeed, Pell was not thus prevented from offending as alleged.(Ibid [296].) He could have offended within the five or six minute period.
+
+This last conclusion did depend, however, upon whether anything else deprived Pell of criminal opportunity. Certain witnesses testified that: (a) the Archbishop was always attended while in the Cathedral(Ibid [243], [285]–[286].) (pursuant to ‘centuries old Church law’(Ibid [285].)); and (b) would invariably wait on the Cathedral’s steps after Mass to greet parishioners.(See, eg, ibid [246], [279].) Indeed, some said they specifically recalled Pell’s remaining on the steps for an extended period on one(Ibid [268]–[272].) or both(Ibid [248]–[249], [875].) of the dates when the first incident could have occurred. But the majority observed(Ibid [283].) that Pell’s Master of Ceremonies, Charles Portelli, had conceded both that he might occasionally not have accompanied Pell back to the Sacristy, and that Pell might sometimes have remained on the steps only very briefly.(Ibid [246].) Other witnesses claimed that they had sometimes seen Pell in the Cathedral unaccompanied in his robes.(See especially ibid [289].) And the majority regarded as unpersuasive the evidence of those who said they recalled seeing Pell on the steps on the particular days. These witnesses’ memories had become considerably vaguer when asked to recall other events that had occurred at the time.(See, eg, ibid [253]–[254].)
+
+
+C THE HCA PROCEEDINGS
+
+On 13 November 2019, Gordon and Edelman JJ referred to the Full Court, for argument as on an appeal, Pell’s application for special leave to appeal to the HCA.(Transcript of Proceedings, Pell v The Queen [2019] HCATrans 217. Of course, the Full Court might not grant Pell special leave. Our focus in this column is not on this procedural issue, but rather on the arguments that Pell has urged upon the Court. Even if their Honours refuse to grant special leave, they might still consider those arguments in a reasoned judgment: see, eg, Clayton v The Queen [2006] HCA 58; (2006) 81 ALJR 439.) At the Full Court hearing, their Honours will consider Pell’s contention that the VSCA majority erred by treating its ‘belief in the complainant’ as determinative.(Pell Submissions (n 4) [55].) According to Pell, however believable the complainant was, the jury could convict only if it was entitled to find that the prosecution had proved beyond reasonable doubt that Pell had an opportunity to offend;(Ibid [54].) and the jury had no such entitlement. ‘[E]vidence which placed [Pell] on the front steps [of the Cathedral] or with others at the time of the alleged offending’(Ibid [35].) was ‘effectively, alibi evidence’, which was not disproved to the criminal standard.(Ibid.) The VSCA majority, Pell submits, erred by instead requiring the defence to ‘demonstrate the events were impossible’(Ibid [46].): this reversed the onus and standard of proof.(Ibid [45].)
+
+
+III WILL PELL’S ARGUMENT SUCCEED?
+
+As noted above, the VSCA majority’s reasoning contained three main prongs: A’s evidence was compelling and the jury was well-placed to weigh any inconsistencies in it; the Court should not intervene because of the allegations’ improbability; and Pell had an opportunity to offend. While Pell’s complaint of error in the majority’s approach relates primarily to its findings about opportunity, he has also queried whether it correctly found that it was ‘open to the jury to find the offending proven beyond reasonable doubt’.(Ibid [6].) Accordingly, we will examine each aspect of their Honours’ reasoning.
+
+
+A A’S EVIDENCE
+
+In Chidiac v The Queen, Mason CJ stated that, because ‘issues of credibility and reliability ... are matters for the jury’, an appellate court will only ‘infrequently set aside a conviction as being unsafe because the evidence of a vital Crown witness’ was lacking in either regard.(Chidiac (n 33) 444.) Nevertheless, his Honour noted, ‘occasions do arise’ where a conviction is based on evidence that is ‘so unreliable or wanting in credibility’ as to render that verdict unreasonable.(Ibid.) Accordingly, in GAX v The Queen,([2017] HCA 25; (2017) 344 ALR 489 (‘GAX’).) the HCA set aside as unreasonable a conviction that depended upon the complainant’s evidence that the appellant had touched her genitals. Because the complainant was suggestible,(Ibid 493 [17].) had limited intelligence(Ibid 492 [11].) and a poor memory,(Ibid.)
+
+and had originally said she was sleeping at the relevant time,(Ibid 496 [29].) her later evidence that she recalled being touched was quite possibly a ‘reconstruction’.(Ibid.) In other cases, a sexual offence complainant’s credibility — as opposed to her/his reliability — has been damaged sufficiently to require the jury to doubt the accused’s guilt. In Mejia v The Queen,([2016] VSCA 296, [150]–[163].) for instance, a VSCA majority attached much importance to the consideration that, in its view, the complainant had lied about an uncharged act — and had therefore ‘made a false allegation of sexual abuse’(Ibid [161].) against the accused.
+
+The majority in Pell was right to conclude that this is not such a case. Certainly, as Weinberg JA observed, dissenting, there were inconsistencies and discrepancies in A’s account.(Pell (VSCA) (n 2) [455].) A said that Pell had pulled aside his robes to expose his penis.(Ibid [435], [437].) The robes could not be parted.(Ibid [438].) He claimed that he had drunk red wine in the Sacristy.(Ibid [827].) The Sacristy wine was probably white.(Ibid [828].) He insisted that the two incidents happened in the same year.(Ibid [666]–[667].) The Crown ultimately accepted that he was mistaken about that.(Ibid [681].) Moreover, A withdrew his claim that Pell had actually delivered Mass before each incident.(Ibid [419]–[420].) As Vanstone J stated in R v LKB,((2017) 127 SASR 274.) however, ‘variation ... almost inevitably creeps into accounts of such events ... where the witness ... give[s] evidence ... some years [later]’.(Ibid 281 [35].) Accordingly, Australian courts have repeatedly held that, where, as here, the inconsistencies were before the jury and were relatively minor and/or related to matters peripheral to the offending, the conviction(s) were not unreasonable because of them.(See, eg, Dyers v The Queen [2002] HCA 45; (2002) 210 CLR 285, 310–11 [68] (Kirby J), 331 [134] (Callinan J) (‘Dyers’); R v Haak (2012) 112 SASR 315, 326–7 [45]–[52], 327 [55]; R v Lyall (2016) 264 A Crim R 172, 188 [77]–[78].)
+
+
+B IMPLAUSIBILITY
+
+The VSCA majority was also right to hold that the implausibility of the allegations, by itself, did not justify intervention. Certainly, in M v The Queen, the majority held the appellant’s convictions to be unreasonable primarily because of ‘the improbability of [his] ... acting as ... alleged’.(M v The Queen (n 8) 500 (Mason CJ, Deane, Dawson and Toohey JJ).) Did he really molest his daughter ‘on a squeaky bed in an unlocked bedroom’, with his wife nearby?(Ibid.) But, as Gans has noted, this decision has ‘aged badly’.(Jeremy Gans, ‘A Judge’s Doubts’, Inside Story (online, 29 August 2019) <https://insidestory.org.au/) Dissenting in M v The Queen, Brennan J observed that ‘I might well have acquitted had I been a [juror]’.(M v The Queen (n 8) 507.) ‘Yet’, he continued, ‘I am unable to say that the jury were not entitled to bring in an adverse verdict.’(Ibid.) His Honour’s approach is consistent with more recent authority.(See, eg, Dyers (n 100) 310 [67] (Kirby J), 331 [134] (Callinan J); DeSilva v The Queen [2015] VSCA 290, [78]; Spence v The Queen [2016] VSCA 265, [50]–[51].) Appellate judges commonly note, as Martin CJ did in JJR v Western Australia,((2018) 272 A Crim R 209, 225 [68].) that while apparent implausibilities in the complainant’s account might have caused the jury to experience a reasonable doubt, it was not bound to acquit. Judges will not too readily substitute their views for the jury’s assessment of such matters.(Ibid 225 [69].)
+
+In Pell, Weinberg JA thought that the complainant’s second allegation was one of those rare instances where the implausibility rose so high as to render the relevant verdict unreasonable.(Pell (VSCA) (n 2) [1095]–[1096].) His Honour could not believe that such conduct ‘would take place in public, and in the presence of numerous potential witnesses’.(Ibid [1096].) As the majority observed, however, the alleged touching was ‘fleeting’.(Ibid [112].) And their Honours rightly, in our view,(For a similar analysis, see Gans (n 103).) implied that Weinberg JA was in no position to override the jury’s verdict, based as it presumably was on ‘life experience’(M v The Queen (n 8) 508 (Brennan J).) that ‘confined spaces facilitate furtive sexual touching, even when others are [present]’.(Pell (VSCA) (n 2) [112].)
+
+
+C OPPORTUNITY
+
+In Palmer v The Queen,((1998) 193 CLR 1, 30 [75].) McHugh J described as ‘very persuasive’ the complainant’s evidence that the appellant had committed various sexual offences against her. Nevertheless, for his Honour(Ibid.) and three other Justices,(Ibid 14–15 [21]–[22] (Brennan CJ, Gaudron and Gummow JJ).) because the Crown could not eliminate the reasonable possibility that the appellant was elsewhere at the relevant time, his convictions could not stand. How sound is Pell’s claim that, similarly to Palmer, the Crown failed to disprove beyond reasonable doubt testimony that he was elsewhere when the alleged offending occurred?
+
+Pell has placed some emphasis(Pell Submissions (n 4) [48].) on the VSCA majority’s finding that the jury was entitled to have ‘reservations’(Pell (VSCA) (n 2) [253].) and ‘doubts’(Ibid [267].) about the reliability of claims by Portelli and by the Sacristan, Maxwell Potter, that they specifically recalled Pell’s being in company and on the steps on the relevant dates: having reservations about exculpatory evidence does not imply satisfaction beyond reasonable doubt of guilt. But we doubt whether there is much substance in Pell’s claim that the majority reversed the onus of proof. In Dyers, Kirby J held that the jury had been entitled to ‘discount’ certain alibi evidence, because it was contradicted and given by individuals who were not ‘completely independent of the appellant’.(Dyers (n 100) 311 [70].) Similar considerations apply here. Certainly, the Crown was prohibited from suggesting,(Pell (VSCA) (n 2) [988].) and did not suggest,(Ibid [995].) that Portelli or Potter had any allegiance to Pell. But their testimony was contradicted — albeit only by the complainant — and, most importantly, when asked, they could not recall other events on the particular days.(Ibid [250], [265].) Further, the majority’s remarks about ‘reservations’ were made as their Honours accepted(Ibid [253]–[255].) a Crown submission(Ibid [251].) that his re-examination ‘demonstrated’ that Portelli had no independent recollection of the relevant days. In these circumstances, the other language the majority used probably does not evidence any forgetfulness about the onus of proof.
+
+
+D MIGHT PELL NEVERTHELESS SUCCEED?
+
+If this is correct, the VSCA majority did not err as alleged. Nor do we agree with Finnis’s similar contention(John Finnis, ‘Where the Pell Judgment Went Fatally Wrong’ (2019) 63(10) Quadrant 20, 22.) that their Honours reversed the onus of proof when they observed that they were ‘not persuaded that the evidence ... established impossibility in the sense contended for by the defence’.(Pell (VSCA) (n 2) [143] (emphasis added).) Elsewhere, their Honours clearly implied that it would have been enough if the jury had ‘had a doubt’ about whether Pell had a realistic opportunity to offend.(Ibid [351] (emphasis added).) And it was perfectly acceptable for them to note that, once the offending was possible — which it was once the Crown ‘persuade[d] the jury’(Ibid [151].) to the requisite standard to reject the alibi evidence — there was no logical bar to proof of Pell’s guilt beyond reasonable doubt.
+
+That is different from saying, however, that the jury was necessarily entitled to find Pell guilty because of the complainant’s testimony.
+
+Pell has correctly noted that it is insufficient for a jury to believe a complainant;(Pell Submissions (n 4) [41].) it must further be convinced of the accused’s guilt beyond reasonable doubt.(Liberato v The Queen [1985] HCA 66; (1985) 159 CLR 507, 515 (Brennan J), 520 (Deane J); De Silva v The Queen [2019] HCA 48; (2019) 94 ALJR 100, 104–5 [12] (Kiefel CJ, Bell, Gageler and Gordon JJ).) Pell has also claimed that
+
+[t]he law recognises the dangers in overvaluing demeanour are such that no jury is to make the manner in which a witness gives evidence the only or even the most important factor in its decision as to whether the prosecution has proved guilt beyond reasonable doubt ...(Pell Submissions (n 4) [41] (citations omitted).)
+
+The law, however, rightly allows for convictions based largely or solely on the complainant’s evidence.(DL v The Queen [2018] HCA 26; (2018) 92 ALJR 636, 652 [85] (Bell J).) A different approach would undermine the prohibition against child sexual assault.(David Hamer, ‘Delayed Complaint, Lost Evidence and Fair Trial: Epistemic and Non-epistemic Concerns’ in Paul Roberts and Jill Hunter (eds), Criminal Evidence and Human Rights: Reimagining Common Law Procedural Traditions (Hart Publishing, 2012) 215, 224.) Moreover, in the cases that Pell has cited as authority for the proposition about demeanour, the crucial oral testimony was, respectively, demonstrably wrong(Fox v Percy (2003) 214 CLR 118, 130–1 [37]–[38] (Gleeson CJ, Gummow and Kirby JJ), 148 [95]–[96] (McHugh J).) and so ‘glaringly improbable’(Fennell v The Queen [2019] HCA 37; (2019) 93 ALJR 1219, 1233 [81].) as to require its rejection — ‘no matter how impressive[ly]’ it was delivered.(Fox (n 136) 148 [96] (McHugh J).) This distinguishes those cases from Pell.
+
+Sometimes, however, appellate courts hold guilty verdicts to be unreasonable because of the ‘cumulative effect’(R v Parbery [2003] NSWCCA 120; (2003) 141 A Crim R 43, 52 [37].) of various factors.(See, eg, ALS v R [2015] NSWCCA 70, [26]–[37], [123]–[127]; PLR v Western Australia (No 2) [2015] WASCA 149, [93]–[107]; Tyrrell v The Queen [2019] VSCA 52, [153].) It appears open to the HCA to overturn the Pell verdicts on this basis.(The Crown contends that, if the HCA rejects Pell’s submission that the VSCA majority made specific errors, it should not determine for itself whether it was open to the jury to convict: Crown, ‘Respondent’s Submissions’, Submission in Pell v The Queen, Case No M112/2019, 31 January 2020, [7] (‘Crown Submissions’). That contention seems inconsistent with cases such as GAX (n 82).) We have noted much of the evidence that Pell had/would have had no opportunity to offend.(See text accompanying nn 54–67.) Viewed overall, it is powerful. As Weinberg JA observed,(Pell (VSCA) (n 2) [1064]; see also [841].) to convict, the jury had to be satisfied that: Pell did not linger on the steps on the relevant days (despite much evidence(See, eg, ibid [683].) that, from the time he became Archbishop,(Ibid [706].) he invariably did so); he was unaccompanied (despite much evidence that he invariably was accompanied);(See, eg, ibid [714]–[715].)
+
+the Sacristy was not a ‘hive of activity’ at the time of the first incident (despite evidence that it would have been);(Ibid [725], [730]–[731].) and A and B detached themselves from the choir and then rejoined it without being noticed (despite much evidence that this was most unlikely).(Ibid [766]–[776], [805]–[806].) Once we also consider: the inconsistencies in A’s account (however understandable); the unlikelihood that Pell would take such risks; and B’s and Pell’s denials,(By itself, Pell’s denial would be of limited significance: PH v R [2017] NSWCCA 194, [38].) it becomes apparent that a reasonable jury might not have convicted. Indeed, the case seems close to the borderline between one where the jury was entitled to return a guilty verdict, and one where it should have had a doubt.(Pell also argues that, because of the delay in complaint, he sustained forensic disadvantage of the type noted in Longman v The Queen [1989] HCA 60; (1989) 168 CLR 79, 91 (Brennan, Dawson and Toohey JJ): Pell Submissions (n 4) [33], [38], [54]. Certainly, the delay ‘may have ... deprived [him] of a cast iron alibi’: Jones (n 8) 455 (Gaudron, McHugh and Gummow JJ). It equally might have deprived the Crown of inculpatory evidence: David Hamer, ‘Trying Delays: Forensic Disadvantage in Child Sexual Assault Trials’ [2010] (9) Criminal Law Review 671, 671. Any forensic disadvantage seems relatively unimportant on an unreasonableness appeal. Historical child sexual abuse trials are common: this attests to the law’s acceptance that, where there is delay in complaint, proof beyond reasonable doubt is nevertheless possible.)
+
+If, however, it is open to the HCA to enter verdicts of acquittal, that does not necessarily mean that it will do so. Immediately before the VSCA hearing, Gans noted that ‘Anne Ferguson, Chris Maxwell and Mark Weinberg would surely rather not be [Pell’s] judges’.(Jeremy Gans, ‘Pell’s Judges’, Inside Story (online, 3 June 2019) <https://insidestory.org.au/pells-judges/>.) The same must be true of the High Court Justices who will hear his application. For, as the VSCA majority noted, these proceedings are highly controversial.(Pell (VSCA) (n 2) [2] (Ferguson CJ and Maxwell P).) Pell has been widely criticised for his handling of sexual abuse allegations against Catholic priests while he was Archbishop of Melbourne and then Sydney. Many of his critics are sure of his guilt. Others, however, have come ‘ferocious[ly]’(Russell Marks, ‘George Pell’s appeal to the High Court’, Saturday Paper (Melbourne, 16–22 November 2019) 4.) to his defence. If, as Bell J has recently suggested, the judiciary wishes ‘not ... to be seen very much at all,’(Bell, above n 11, 17.) their Honours would surely prefer to avoid this case. Their decision will be noticed.
+
+In such circumstances, and without indisputable grounds for intervening, might the Court be inclined to preserve the status quo? Whatever ridicule the VSCA majority’s decision attracted in some quarters,(See, eg, Keith Windschuttle, ‘The Contradictions of the Choirboy’ (2019) 63(10) Quadrant 26.) this might not have seriously affected the VSCA’s broader reputation. A decision, in an emotive case, to override the judgment of the defendant’s peers, might arouse more concern.
+
+This is not to express a cynical attitude about how the HCA exercises its powers. Rather, considerations of judicial restraint are relevant here and assist the Crown.(As it recognises: Crown Submissions (n 141) [20]–[22].) The two most senior Justices have recently written approvingly of Brennan CJ’s judicial philosophy.(Bell, above n 11, 13–15; Chief Justice Susan Kiefel, ‘Social Values and the Criminal Law’s Adaptability to Change’ (Speech, International Criminal Law Congress, 6 October 2018) 5, 8.) At the heart of his approach was an appreciation of the need for restraint if public confidence in the courts was to remain.(See, eg, Dietrich v The Queen [1992] HCA 57; (1992) 177 CLR 292, 319 (Brennan J); Nicholas v The Queen [1998] HCA 9; (1998) 193 CLR 173, 197 [37] (Brennan CJ).) Crucially, his Honour thought that it was only in ‘exceptional cases’(Jones (n 8) 442 (Brennan CJ).) that an appellate court should overturn a jury’s verdict. For, might not the courts’ reputation suffer(See text accompanying n 8.) if appellate judges were too liberally to substitute their views for those of ‘the constitutional arbiter of guilt’?(Jones (n 8) 442 (Brennan CJ).) Or, to return to Pell: will the Court’s legitimacy be damaged if it decides to release the Cardinal?
+
+
+IV CONCLUSION
+
+In 2002, at an internal Catholic Church inquiry, Alec Southwell QC was not satisfied that allegations of sexual offending against the then Archbishop of Sydney, George Pell, had been established.(AJ Southwell QC, Report of an Inquiry into an Allegation of Sexual Abuse against Archbishop George Pell (2002) <https://web.archive.org/web/20030527160009/http:/www.catholic.org.au/) The case was similar to the present one. There was delay in complaint, limited corroboration and Pell had made emphatic denials — but, while Southwell found that some criticisms could be made of the complainant’s credibility, he also gained ‘the impression that he was speaking honestly from an actual recollection’.(Ibid 15.) Because Southwell was also impressed by the Archbishop’s evidence, however, he gave him the benefit of the doubt.(Ibid.)
+
+The jury might have done the same at Pell’s recent trial. Whether it must have done so is more questionable. Pell’s claim that the VSCA majority reversed the onus of proof is dubious. But the evidence that Pell had no opportunity to offend was strong; and it does seem open to the HCA plausibly to insist that Pell’s convictions were unreasonable — as indeed Weinberg JA has shown. Against that, however, are considerations of judicial restraint. Especially in such a high-profile case, their Honours will be cognisant of the established principle that the power to overturn a jury verdict must ‘be exercised with caution and discrimination’.(Whitehorn v The Queen [1983] HCA 42; (1983) 152 CLR 657, 688 (Dawson J).)
+
+(High Court of Australia, Case No M112/2019.) Colin Phegan Senior Lecturer, Sydney Law School, University of Sydney, New South Wales, Australia; Deputy Director, Sydney Institute of Criminology. Email: andrew.dyer@sydney.edu.au; ORCID iD: 0000-0001-6245-6773.
+
+We thank the referee for his or her fair, helpful and constructive comments.
+
+(High Court of Australia, Case No M112/2019.) High Court of Australia, Case No M112/2019.
+
+(Pell v The Queen [2019] VSCA 186, [14] (Ferguson CJ and Maxwell P) (‘Pell (VSCA)’). Weinberg JA dissented at [1051]–[1112].) Pell v The Queen [2019] VSCA 186 [http://www.austlii.edu.au/au/cases/vic/VSCA/2019/186.html], [14] (Ferguson CJ and Maxwell P) (‘Pell (VSCA)’). Weinberg JA dissented at [1051]–[1112].
+
+(Ibid [91].) Ibid [91].
+
+(George Pell, ‘Applicant’s Submissions’, Submission in Pell v The Queen, Case No M112/2019, 3 January 2020, [35]–[38] (‘Pell Submissions’).) George Pell, ‘Applicant’s Submissions’, Submission in Pell v The Queen, Case No M112/2019, 3 January 2020, [35]–[38] (‘Pell Submissions’).
+
+(Ibid [48].) Ibid [48].
+
+(Ibid [45], [48].) Ibid [45], [48].
+
+(See Pell (VSCA) (n 2) [841], [855], [875].) See Pell (VSCA) (n 2) [841], [855], [875].
+
+([1984] HCA 7; (1984) 153 CLR 521, 603 (‘Chamberlain (No 2)’). It is true that Brennan J has been seen — including by himself (Jones v The Queen [1997] HCA 56; (1997) 191 CLR 439, 441–2 (‘Jones’)) — as having favoured greater restraint in this area than the HCA ultimately determined to be suitable. Nevertheless, his Honour’s approach is uncontroversial insofar as it insists that, ‘for both constitutional and practical reasons’ (M v The Queen [1994] HCA 63; (1994) 181 CLR 487, 502) appellate courts should not too readily interfere with juries’ verdicts; and, for the reasons developed below, the HCA might give this principle particular prominence in this case.) [1984] HCA 7 [http://www.austlii.edu.au/au/cases/cth/HCA/1984/7.html]; (1984) 153 CLR 521 [/cgi-bin/LawCite?cit=%281984%29%20153%20CLR%20521], 603 (‘Chamberlain (No 2)’). It is true that Brennan J has been seen — including by himself (Jones v The Queen [1997] HCA 56 [http://www.austlii.edu.au/au/cases/cth/HCA/1997/56.html]; (1997) 191 CLR 439 [/cgi-bin/LawCite?cit=%281997%29%20191%20CLR%20439], 441–2 (‘Jones’)) — as having favoured greater restraint in this area than the HCA ultimately determined to be suitable. Nevertheless, his Honour’s approach is uncontroversial insofar as it insists that, ‘for both constitutional and practical reasons’ (M v The Queen [1994] HCA 63 [http://www.austlii.edu.au/au/cases/cth/HCA/1994/63.html]; (1994) 181 CLR 487 [/cgi-bin/LawCite?cit=%281994%29%20181%20CLR%20487], 502) appellate courts should not too readily interfere with juries’ verdicts; and, for the reasons developed below, the HCA might give this principle particular prominence in this case.
+
+(See, eg, Keith Windschuttle, ‘George Pell and the Jury’ (2019) 63(4) Quadrant 4.) See, eg, Keith Windschuttle, ‘George Pell and the Jury’ (2019) 63(4) Quadrant 4. [/cgi-bin/LawCite?cit=%282019%29%2063%20%284%29%20Quadrant%204]
+
+(Three books about Pell are currently on sale: David Marr, The Prince: Faith, Abuse and George Pell (Black Inc, 2019); Louise Milligan, Cardinal: The Rise and Fall of George Pell (Melbourne University Press, 2019); Lucie Morris-Marr, Fallen: The Inside Story of the Secret Trial and Conviction of Cardinal George Pell (Allen and Unwin, 2019). All portray him unfavourably.) Three books about Pell are currently on sale: David Marr, The Prince: Faith, Abuse and George Pell (Black Inc, 2019); Louise Milligan, Cardinal: The Rise and Fall of George Pell (Melbourne University Press, 2019); Lucie Morris-Marr, Fallen: The Inside Story of the Secret Trial and Conviction of Cardinal George Pell (Allen and Unwin, 2019). All portray him unfavourably.
+
+(See, eg, Justice Virginia Bell, ‘Judicial Activists or Champions of Self-Restraint: What Counts for Leadership in the Judiciary?’ (General Sir John Monash Leadership Oration, 4 August 2016) 17–18.) See, eg, Justice Virginia Bell, ‘Judicial Activists or Champions of Self-Restraint: What Counts for Leadership in the Judiciary?’ (General Sir John Monash Leadership Oration, 4 August 2016) 17–18.
+
+(Pell (VSCA) (n 2) [43].) Pell (VSCA) (n 2) [43].
+
+(Ibid.) Ibid.
+
+(Ibid [44].) Ibid [44].
+
+(Ibid [44].) Ibid [44].
+
+(Ibid [44]–[45].) Ibid [44]–[45].
+
+(Ibid [46].) Ibid [46].
+
+(Ibid [46]–[47].) Ibid [46]–[47].
+
+(Ibid [47].) Ibid [47].
+
+(Ibid [45]–[47].) Ibid [45]–[47].
+
+(Ibid [50].) Ibid [50].
+
+(Ibid.) Ibid.
+
+(Ibid.) Ibid.
+
+(Ibid [53].) Ibid [53].
+
+(Ibid [51].) Ibid [51].
+
+(Ibid.) Ibid.
+
+(Ibid [181]–[185].) Ibid [181]–[185].
+
+(Ibid [1].) Ibid [1].
+
+(Ibid [1], [4].) Ibid [1], [4].
+
+(Criminal Procedure Act 2009 (Vic) s 276(1)(a).) Criminal Procedure Act 2009 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2009188/] (Vic) s 276(1)(a). [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2009188/s276.html]
+
+(Pell (VSCA) (n 2) [19]–[24] (Ferguson CJ and Maxwell P), [590], [613]–[618] (Weinberg JA).) Pell (VSCA) (n 2) [19]–[24] (Ferguson CJ and Maxwell P), [590], [613]–[618] (Weinberg JA).
+
+(M v The Queen (n 8) 493 (Mason CJ, Deane, Dawson and Toohey JJ).) M v The Queen (n 8) 493 (Mason CJ, Deane, Dawson and Toohey JJ).
+
+(See, eg, MFA v The Queen (2002) 213 CLR 606, 623 [55] (McHugh, Gummow and Kirby JJ). Cf, however, eg, Chidiac v The Queen [1991] HCA 4; (1991) 171 CLR 432, 443 (Mason CJ), 451 (Dawson J), 457–8 (Toohey J) (‘Chidiac’).) See, eg, MFA v The Queen (2002) 213 CLR 606 [/cgi-bin/LawCite?cit=%282002%29%20213%20CLR%20606], 623 [55] (McHugh, Gummow and Kirby JJ). Cf, however, eg, Chidiac v The Queen [1991] HCA 4 [http://www.austlii.edu.au/au/cases/cth/HCA/1991/4.html]; (1991) 171 CLR 432 [/cgi-bin/LawCite?cit=%281991%29%20171%20CLR%20432], 443 (Mason CJ), 451 (Dawson J), 457–8 (Toohey J) (‘Chidiac’).
+
+(Libke v The Queen [2007] HCA 30; (2007) 230 CLR 559, 596–7 [113] (emphasis in original).) Libke v The Queen [2007] HCA 30 [http://www.austlii.edu.au/au/cases/cth/HCA/2007/30.html]; (2007) 230 CLR 559 [/cgi-bin/LawCite?cit=%282007%29%20230%20CLR%20559], 596–7 [113] (emphasis in original).
+
+(MFA v The Queen (n 33) 615 [26].) MFA v The Queen (n 33) 615 [26].
+
+(Morris v The Queen [1987] HCA 50; (1987) 163 CLR 454, 473 (Deane, Toohey and Gaudron JJ).) Morris v The Queen [1987] HCA 50 [http://www.austlii.edu.au/au/cases/cth/HCA/1987/50.html]; (1987) 163 CLR 454 [/cgi-bin/LawCite?cit=%281987%29%20163%20CLR%20454], 473 (Deane, Toohey and Gaudron JJ).
+
+(M v The Queen (n 8) 494 (Mason CJ, Deane, Dawson and Toohey JJ).) M v The Queen (n 8) 494 (Mason CJ, Deane, Dawson and Toohey JJ).
+
+(See, eg, SKA v The Queen [2011] HCA 13; (2011) 243 CLR 400, 405 [13] (French CJ, Gummow and Kiefel JJ).) See, eg, SKA v The Queen [2011] HCA 13 [http://www.austlii.edu.au/au/cases/cth/HCA/2011/13.html]; (2011) 243 CLR 400 [/cgi-bin/LawCite?cit=%282011%29%20243%20CLR%20400], 405 [13] (French CJ, Gummow and Kiefel JJ).
+
+(R v Baden-Clay (2016) 258 CLR 308, 329 [65].) R v Baden-Clay (2016) 258 CLR 308 [/cgi-bin/LawCite?cit=%282016%29%20258%20CLR%20308], 329 [65].
+
+(Chamberlain (No 2) (n 8) 569 (Murphy J).) Chamberlain (No 2) (n 8) 569 (Murphy J).
+
+(MFA v The Queen (n 33) 624 [59].) MFA v The Queen (n 33) 624 [59].
+
+(M v The Queen (n 8) 494 (Mason CJ, Deane, Dawson and Toohey JJ).) M v The Queen (n 8) 494 (Mason CJ, Deane, Dawson and Toohey JJ).
+
+(Pell (VSCA) (n 2) [14] (Ferguson CJ and Maxwell P).) Pell (VSCA) (n 2) [14] (Ferguson CJ and Maxwell P).
+
+(Ibid.) Ibid.
+
+(Ibid [39].) Ibid [39].
+
+(Ibid.) Ibid.
+
+(Ibid [73].) Ibid [73].
+
+(Ibid [76].) Ibid [76].
+
+(Ibid [75].) Ibid [75].
+
+(Ibid [98].) Ibid [98].
+
+(Ibid.) Ibid.
+
+(Ibid [107]–[109].) Ibid [107]–[109].
+
+(Ibid [99]–[102].) Ibid [99]–[102].
+
+(Ibid [135].) Ibid [135].
+
+(Ibid [326].) Ibid [326].
+
+(Ibid [313]–[314].) Ibid [313]–[314].
+
+(Ibid [227].) Ibid [227].
+
+(See ibid [566].) See ibid [566].
+
+(Ibid [325].) Ibid [325].
+
+(Ibid [158], [299].) Ibid [158], [299].
+
+(Ibid [294]–[295].) Ibid [294]–[295].
+
+(Ibid [296].) Ibid [296].
+
+(Ibid [243], [285]–[286].) Ibid [243], [285]–[286].
+
+(Ibid [285].) Ibid [285].
+
+(See, eg, ibid [246], [279].) See, eg, ibid [246], [279].
+
+(Ibid [268]–[272].) Ibid [268]–[272].
+
+(Ibid [248]–[249], [875].) Ibid [248]–[249], [875].
+
+(Ibid [283].) Ibid [283].
+
+(Ibid [246].) Ibid [246].
+
+(See especially ibid [289].) See especially ibid [289].
+
+(See, eg, ibid [253]–[254].) See, eg, ibid [253]–[254].
+
+(Transcript of Proceedings, Pell v The Queen [2019] HCATrans 217. Of course, the Full Court might not grant Pell special leave. Our focus in this column is not on this procedural issue, but rather on the arguments that Pell has urged upon the Court. Even if their Honours refuse to grant special leave, they might still consider those arguments in a reasoned judgment: see, eg, Clayton v The Queen [2006] HCA 58; (2006) 81 ALJR 439.) Transcript of Proceedings, Pell v The Queen [2019] HCATrans 217. [http://www.austlii.edu.au/au/cases/cth/HCATrans/2019/217.html] Of course, the Full Court might not grant Pell special leave. Our focus in this column is not on this procedural issue, but rather on the arguments that Pell has urged upon the Court. Even if their Honours refuse to grant special leave, they might still consider those arguments in a reasoned judgment: see, eg, Clayton v The Queen [2006] HCA 58 [http://www.austlii.edu.au/au/cases/cth/HCA/2006/58.html]; (2006) 81 ALJR 439. [/cgi-bin/LawCite?cit=%282006%29%2081%20ALJR%20439]
+
+(Pell Submissions (n 4) [55].) Pell Submissions (n 4) [55].
+
+(Ibid [54].) Ibid [54].
+
+(Ibid [35].) Ibid [35].
+
+(Ibid.) Ibid.
+
+(Ibid [46].) Ibid [46].
+
+(Ibid [45].) Ibid [45].
+
+(Ibid [6].) Ibid [6].
+
+(Chidiac (n 33) 444.) Chidiac (n 33) 444.
+
+(Ibid.) Ibid.
+
+([2017] HCA 25; (2017) 344 ALR 489 (‘GAX’).) [2017] HCA 25 [http://www.austlii.edu.au/au/cases/cth/HCA/2017/25.html]; (2017) 344 ALR 489 [/cgi-bin/LawCite?cit=%282017%29%20344%20ALR%20489] (‘GAX’).
+
+(Ibid 493 [17].) Ibid 493 [17].
+
+(Ibid 492 [11].) Ibid 492 [11].
+
+(Ibid.) Ibid.
+
+(Ibid 496 [29].) Ibid 496 [29].
+
+(Ibid.) Ibid.
+
+([2016] VSCA 296, [150]–[163].) [2016] VSCA 296 [http://www.austlii.edu.au/au/cases/vic/VSCA/2016/296.html], [150]–[163].
+
+(Ibid [161].) Ibid [161].
+
+(Pell (VSCA) (n 2) [455].) Pell (VSCA) (n 2) [455].
+
+(Ibid [435], [437].) Ibid [435], [437].
+
+(Ibid [438].) Ibid [438].
+
+(Ibid [827].) Ibid [827].
+
+(Ibid [828].) Ibid [828].
+
+(Ibid [666]–[667].) Ibid [666]–[667].
+
+(Ibid [681].) Ibid [681].
+
+(Ibid [419]–[420].) Ibid [419]–[420].
+
+((2017) 127 SASR 274.) (2017) 127 SASR 274. [/cgi-bin/LawCite?cit=%282017%29%20127%20SASR%20274]
+
+(Ibid 281 [35].) Ibid 281 [35].
+
+(See, eg, Dyers v The Queen [2002] HCA 45; (2002) 210 CLR 285, 310–11 [68] (Kirby J), 331 [134] (Callinan J) (‘Dyers’); R v Haak (2012) 112 SASR 315, 326–7 [45]–[52], 327 [55]; R v Lyall (2016) 264 A Crim R 172, 188 [77]–[78].) See, eg, Dyers v The Queen [2002] HCA 45 [http://www.austlii.edu.au/au/cases/cth/HCA/2002/45.html]; (2002) 210 CLR 285 [/cgi-bin/LawCite?cit=%282002%29%20210%20CLR%20285], 310–11 [68] (Kirby J), 331 [134] (Callinan J) (‘Dyers’); R v Haak (2012) 112 SASR 315 [/cgi-bin/LawCite?cit=%282012%29%20112%20SASR%20315], 326–7 [45]–[52], 327 [55]; R v Lyall (2016) 264 A Crim R 172 [/cgi-bin/LawCite?cit=%282016%29%20264%20A%20Crim%20R%20172], 188 [77]–[78].
+
+(M v The Queen (n 8) 500 (Mason CJ, Deane, Dawson and Toohey JJ).) M v The Queen (n 8) 500 (Mason CJ, Deane, Dawson and Toohey JJ).
+
+(Ibid.) Ibid.
+
+(Jeremy Gans, ‘A Judge’s Doubts’, Inside Story (online, 29 August 2019) <https://insidestory.org.au/) Jeremy Gans, ‘A Judge’s Doubts’, Inside Story (online, 29 August 2019) <https://insidestory.org.au/
+
+judges-doubts/>.
+
+(M v The Queen (n 8) 507.) M v The Queen (n 8) 507.
+
+(Ibid.) Ibid.
+
+(See, eg, Dyers (n 100) 310 [67] (Kirby J), 331 [134] (Callinan J); DeSilva v The Queen [2015] VSCA 290, [78]; Spence v The Queen [2016] VSCA 265, [50]–[51].) See, eg, Dyers (n 100) 310 [67] (Kirby J), 331 [134] (Callinan J); DeSilva v The Queen [2015] VSCA 290 [http://www.austlii.edu.au/au/cases/vic/VSCA/2015/290.html], [78]; Spence v The Queen [2016] VSCA 265 [http://www.austlii.edu.au/au/cases/vic/VSCA/2016/265.html], [50]–[51].
+
+((2018) 272 A Crim R 209, 225 [68].) (2018) 272 A Crim R 209 [/cgi-bin/LawCite?cit=%282018%29%20272%20A%20Crim%20R%20209], 225 [68].
+
+(Ibid 225 [69].) Ibid 225 [69].
+
+(Pell (VSCA) (n 2) [1095]–[1096].) Pell (VSCA) (n 2) [1095]–[1096].
+
+(Ibid [1096].) Ibid [1096].
+
+(Ibid [112].) Ibid [112].
+
+(For a similar analysis, see Gans (n 103).) For a similar analysis, see Gans (n 103).
+
+(M v The Queen (n 8) 508 (Brennan J).) M v The Queen (n 8) 508 (Brennan J).
+
+(Pell (VSCA) (n 2) [112].) Pell (VSCA) (n 2) [112].
+
+((1998) 193 CLR 1, 30 [75].) (1998) 193 CLR 1 [/cgi-bin/LawCite?cit=%281998%29%20193%20CLR%201], 30 [75].
+
+(Ibid.) Ibid.
+
+(Ibid 14–15 [21]–[22] (Brennan CJ, Gaudron and Gummow JJ).) Ibid 14–15 [21]–[22] (Brennan CJ, Gaudron and Gummow JJ).
+
+(Pell Submissions (n 4) [48].) Pell Submissions (n 4) [48].
+
+(Pell (VSCA) (n 2) [253].) Pell (VSCA) (n 2) [253].
+
+(Ibid [267].) Ibid [267].
+
+(Dyers (n 100) 311 [70].) Dyers (n 100) 311 [70].
+
+(Pell (VSCA) (n 2) [988].) Pell (VSCA) (n 2) [988].
+
+(Ibid [995].) Ibid [995].
+
+(Ibid [250], [265].) Ibid [250], [265].
+
+(Ibid [253]–[255].) Ibid [253]–[255].
+
+(Ibid [251].) Ibid [251].
+
+(John Finnis, ‘Where the Pell Judgment Went Fatally Wrong’ (2019) 63(10) Quadrant 20, 22.) John Finnis, ‘Where the Pell Judgment Went Fatally Wrong’ (2019) 63(10) Quadrant 20 [/cgi-bin/LawCite?cit=%282019%29%2063%20%2810%29%20Quadrant%2020], 22.
+
+(Pell (VSCA) (n 2) [143] (emphasis added).) Pell (VSCA) (n 2) [143] (emphasis added).
+
+(Ibid [351] (emphasis added).) Ibid [351] (emphasis added).
+
+(Ibid [151].) Ibid [151].
+
+(Pell Submissions (n 4) [41].) Pell Submissions (n 4) [41].
+
+(Liberato v The Queen [1985] HCA 66; (1985) 159 CLR 507, 515 (Brennan J), 520 (Deane J); De Silva v The Queen [2019] HCA 48; (2019) 94 ALJR 100, 104–5 [12] (Kiefel CJ, Bell, Gageler and Gordon JJ).) Liberato v The Queen [1985] HCA 66 [http://www.austlii.edu.au/au/cases/cth/HCA/1985/66.html]; (1985) 159 CLR 507 [/cgi-bin/LawCite?cit=%281985%29%20159%20CLR%20507], 515 (Brennan J), 520 (Deane J); De Silva v The Queen [2019] HCA 48 [http://www.austlii.edu.au/au/cases/cth/HCA/2019/48.html]; (2019) 94 ALJR 100 [/cgi-bin/LawCite?cit=%282019%29%2094%20ALJR%20100], 104–5 [12] (Kiefel CJ, Bell, Gageler and Gordon JJ).
+
+(Pell Submissions (n 4) [41] (citations omitted).) Pell Submissions (n 4) [41] (citations omitted).
+
+(DL v The Queen [2018] HCA 26; (2018) 92 ALJR 636, 652 [85] (Bell J).) DL v The Queen [2018] HCA 26 [http://www.austlii.edu.au/au/cases/cth/HCA/2018/26.html]; (2018) 92 ALJR 636 [/cgi-bin/LawCite?cit=%282018%29%2092%20ALJR%20636], 652 [85] (Bell J).
+
+(David Hamer, ‘Delayed Complaint, Lost Evidence and Fair Trial: Epistemic and Non-epistemic Concerns’ in Paul Roberts and Jill Hunter (eds), Criminal Evidence and Human Rights: Reimagining Common Law Procedural Traditions (Hart Publishing, 2012) 215, 224.) David Hamer, ‘Delayed Complaint, Lost Evidence and Fair Trial: Epistemic and Non-epistemic Concerns’ in Paul Roberts and Jill Hunter (eds), Criminal Evidence and Human Rights: Reimagining Common Law Procedural Traditions (Hart Publishing, 2012) 215, 224.
+
+(Fox v Percy (2003) 214 CLR 118, 130–1 [37]–[38] (Gleeson CJ, Gummow and Kirby JJ), 148 [95]–[96] (McHugh J).) Fox v Percy (2003) 214 CLR 118 [/cgi-bin/LawCite?cit=%282003%29%20214%20CLR%20118], 130–1 [37]–[38] (Gleeson CJ, Gummow and Kirby JJ), 148 [95]–[96] (McHugh J).
+
+(Fennell v The Queen [2019] HCA 37; (2019) 93 ALJR 1219, 1233 [81].) Fennell v The Queen [2019] HCA 37 [http://www.austlii.edu.au/au/cases/cth/HCA/2019/37.html]; (2019) 93 ALJR 1219 [/cgi-bin/LawCite?cit=%282019%29%2093%20ALJR%201219], 1233 [81].
+
+(Fox (n 136) 148 [96] (McHugh J).) Fox (n 136) 148 [96] (McHugh J).
+
+(R v Parbery [2003] NSWCCA 120; (2003) 141 A Crim R 43, 52 [37].) R v Parbery [2003] NSWCCA 120 [http://www.austlii.edu.au/au/cases/nsw/NSWCCA/2003/120.html]; (2003) 141 A Crim R 43 [/cgi-bin/LawCite?cit=%282003%29%20141%20A%20Crim%20R%2043], 52 [37].
+
+(See, eg, ALS v R [2015] NSWCCA 70, [26]–[37], [123]–[127]; PLR v Western Australia (No 2) [2015] WASCA 149, [93]–[107]; Tyrrell v The Queen [2019] VSCA 52, [153].) See, eg, ALS v R [2015] NSWCCA 70 [http://www.austlii.edu.au/au/cases/nsw/NSWCCA/2015/70.html], [26]–[37], [123]–[127]; PLR v Western Australia (No 2) [2015] WASCA 149 [http://www.austlii.edu.au/au/cases/wa/WASCA/2015/149.html], [93]–[107]; Tyrrell v The Queen [2019] VSCA 52 [http://www.austlii.edu.au/au/cases/vic/VSCA/2019/52.html], [153].
+
+(The Crown contends that, if the HCA rejects Pell’s submission that the VSCA majority made specific errors, it should not determine for itself whether it was open to the jury to convict: Crown, ‘Respondent’s Submissions’, Submission in Pell v The Queen, Case No M112/2019, 31 January 2020, [7] (‘Crown Submissions’). That contention seems inconsistent with cases such as GAX (n 82).) The Crown contends that, if the HCA rejects Pell’s submission that the VSCA majority made specific errors, it should not determine for itself whether it was open to the jury to convict: Crown, ‘Respondent’s Submissions’, Submission in Pell v The Queen, Case No M112/2019, 31 January 2020, [7] (‘Crown Submissions’). That contention seems inconsistent with cases such as GAX (n 82).
+
+(See text accompanying nn 54–67.) See text accompanying nn 54–67.
+
+(Pell (VSCA) (n 2) [1064]; see also [841].) Pell (VSCA) (n 2) [1064]; see also [841].
+
+(See, eg, ibid [683].) See, eg, ibid [683].
+
+(Ibid [706].) Ibid [706].
+
+(See, eg, ibid [714]–[715].) See, eg, ibid [714]–[715].
+
+(Ibid [725], [730]–[731].) Ibid [725], [730]–[731].
+
+(Ibid [766]–[776], [805]–[806].) Ibid [766]–[776], [805]–[806].
+
+(By itself, Pell’s denial would be of limited significance: PH v R [2017] NSWCCA 194, [38].) By itself, Pell’s denial would be of limited significance: PH v R [2017] NSWCCA 194 [http://www.austlii.edu.au/au/cases/nsw/NSWCCA/2017/194.html], [38].
+
+(Pell also argues that, because of the delay in complaint, he sustained forensic disadvantage of the type noted in Longman v The Queen [1989] HCA 60; (1989) 168 CLR 79, 91 (Brennan, Dawson and Toohey JJ): Pell Submissions (n 4) [33], [38], [54]. Certainly, the delay ‘may have ... deprived [him] of a cast iron alibi’: Jones (n 8) 455 (Gaudron, McHugh and Gummow JJ). It equally might have deprived the Crown of inculpatory evidence: David Hamer, ‘Trying Delays: Forensic Disadvantage in Child Sexual Assault Trials’ [2010] (9) Criminal Law Review 671, 671. Any forensic disadvantage seems relatively unimportant on an unreasonableness appeal. Historical child sexual abuse trials are common: this attests to the law’s acceptance that, where there is delay in complaint, proof beyond reasonable doubt is nevertheless possible.) Pell also argues that, because of the delay in complaint, he sustained forensic disadvantage of the type noted in Longman v The Queen [1989] HCA 60 [http://www.austlii.edu.au/au/cases/cth/HCA/1989/60.html]; (1989) 168 CLR 79 [/cgi-bin/LawCite?cit=%281989%29%20168%20CLR%2079], 91 (Brennan, Dawson and Toohey JJ): Pell Submissions (n 4) [33], [38], [54]. Certainly, the delay ‘may have ... deprived [him] of a cast iron alibi’: Jones (n 8) 455 (Gaudron, McHugh and Gummow JJ). It equally might have deprived the Crown of inculpatory evidence: David Hamer, ‘Trying Delays: Forensic Disadvantage in Child Sexual Assault Trials’ [2010] (9) Criminal Law Review 671 [/cgi-bin/LawCite?cit=%5b2010%5d%209%20Criminal%20Law%20Review%20671], 671. Any forensic disadvantage seems relatively unimportant on an unreasonableness appeal. Historical child sexual abuse trials are common: this attests to the law’s acceptance that, where there is delay in complaint, proof beyond reasonable doubt is nevertheless possible.
+
+(Jeremy Gans, ‘Pell’s Judges’, Inside Story (online, 3 June 2019) <https://insidestory.org.au/pells-judges/>.) Jeremy Gans, ‘Pell’s Judges’, Inside Story (online, 3 June 2019) <https://insidestory.org.au/pells-judges/>.
+
+(Pell (VSCA) (n 2) [2] (Ferguson CJ and Maxwell P).) Pell (VSCA) (n 2) [2] (Ferguson CJ and Maxwell P).
+
+(Russell Marks, ‘George Pell’s appeal to the High Court’, Saturday Paper (Melbourne, 16–22 November 2019) 4.) Russell Marks, ‘George Pell’s appeal to the High Court’, Saturday Paper (Melbourne, 16–22 November 2019) 4.
+
+(Bell, above n 11, 17.) Bell, above n 11, 17.
+
+(See, eg, Keith Windschuttle, ‘The Contradictions of the Choirboy’ (2019) 63(10) Quadrant 26.) See, eg, Keith Windschuttle, ‘The Contradictions of the Choirboy’ (2019) 63(10) Quadrant 26. [/cgi-bin/LawCite?cit=%282019%29%2063%20%2810%29%20Quadrant%2026]
+
+(As it recognises: Crown Submissions (n 141) [20]–[22].) As it recognises: Crown Submissions (n 141) [20]–[22].
+
+(Bell, above n 11, 13–15; Chief Justice Susan Kiefel, ‘Social Values and the Criminal Law’s Adaptability to Change’ (Speech, International Criminal Law Congress, 6 October 2018) 5, 8.) Bell, above n 11, 13–15; Chief Justice Susan Kiefel, ‘Social Values and the Criminal Law’s Adaptability to Change’ (Speech, International Criminal Law Congress, 6 October 2018) 5, 8.
+
+(See, eg, Dietrich v The Queen [1992] HCA 57; (1992) 177 CLR 292, 319 (Brennan J); Nicholas v The Queen [1998] HCA 9; (1998) 193 CLR 173, 197 [37] (Brennan CJ).) See, eg, Dietrich v The Queen [1992] HCA 57 [http://www.austlii.edu.au/au/cases/cth/HCA/1992/57.html]; (1992) 177 CLR 292 [/cgi-bin/LawCite?cit=%281992%29%20177%20CLR%20292], 319 (Brennan J); Nicholas v The Queen [1998] HCA 9 [http://www.austlii.edu.au/au/cases/cth/HCA/1998/9.html]; (1998) 193 CLR 173 [/cgi-bin/LawCite?cit=%281998%29%20193%20CLR%20173], 197 [37] (Brennan CJ).
+
+(Jones (n 8) 442 (Brennan CJ).) Jones (n 8) 442 (Brennan CJ).
+
+(See text accompanying n 8.) See text accompanying n 8.
+
+(Jones (n 8) 442 (Brennan CJ).) Jones (n 8) 442 (Brennan CJ).
+
+(AJ Southwell QC, Report of an Inquiry into an Allegation of Sexual Abuse against Archbishop George Pell (2002) <https://web.archive.org/web/20030527160009/http:/www.catholic.org.au/) AJ Southwell QC, Report of an Inquiry into an Allegation of Sexual Abuse against Archbishop George Pell (2002) <https://web.archive.org/web/20030527160009/http:/www.catholic.org.au/
+
+statements/2002_oct14b.pdf>.
+
+(Ibid 15.) Ibid 15.
+
+(Ibid.) Ibid.
+
+(Whitehorn v The Queen [1983] HCA 42; (1983) 152 CLR 657, 688 (Dawson J).) Whitehorn v The Queen [1983] HCA 42 [http://www.austlii.edu.au/au/cases/cth/HCA/1983/42.html]; (1983) 152 CLR 657 [/cgi-bin/LawCite?cit=%281983%29%20152%20CLR%20657], 688 (Dawson J).
+
+
+
+AustLII: Copyright Policy [/austlii/copyright.html] | Disclaimers [/austlii/disclaimers.html] | Privacy Policy [/austlii/privacy.html] | Feedback [/austlii/feedback.html]
+URL: http://www.austlii.edu.au/au/journals/SydLawRw/2020/5.html

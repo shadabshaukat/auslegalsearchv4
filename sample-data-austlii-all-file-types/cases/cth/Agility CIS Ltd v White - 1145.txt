@@ -1,0 +1,326 @@
+-----------------------------------
+title: Agility CIS Ltd v White
+titles: ["Agility CIS Ltd v White"]
+citations: ["[2021] FCA 1145","FCA 1145"]
+date: 2021-09-23 00:00:00
+type: case
+subjurisdiction: cth
+jurisdiction: au
+data_quality: H
+database: FCA
+url: https://austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FCA/2021/1145.html
+-----------------------------------
+
+
+AGILITY CIS LTD V WHITE [2021] FCA 1145 (23 SEPTEMBER 2021)
+
+Last Updated: 23 September 2021
+
+
+
+FEDERAL COURT OF AUSTRALIA
+
+
+Agility CIS Ltd v White [2021] FCA 1145 [http://www.austlii.edu.au/au/cases/cth/FCA/2021/1145.html]
+
+File number(s):
+VID 195 of 2021
+
+
+Judgment of:
+ANDERSON J
+
+
+Date of judgment:
+23 September 2021
+
+
+Catchwords:
+PRACTICE AND PROCEDURE – application pursuant to rr 16.21 and 26.01 of the Federal Court Rules 2011 [http://www.austlii.edu.au/au/legis/cth/consol_reg/fcr2011186/] (Cth) and s 31A(2) [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s31a.html] of the Federal Court of Australia Act 1976 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/] (Cth) to strike out and/or give summary judgment in relation to parts of the applicants’ statement of claim – where the applicant alleges a misuse of confidential information – where the applicant has failed to articulate the misuse with sufficient precision – where the applicants’ claims in their current form are speculative in nature – application to strike out pleadings pursuant to r 16.21 of the Federal Court Rules 2011 [http://www.austlii.edu.au/au/legis/cth/consol_reg/fcr2011186/] allowed
+
+
+Legislation:
+Federal Court Rules 2011 [http://www.austlii.edu.au/au/legis/cth/consol_reg/fcr2011186/] (Cth)
+Federal Court of Australia Act 1976 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/] (Cth)
+
+
+Cases cited:
+Creative Brands Pty Ltd v Franklin [2001] VSC 338 [http://www.austlii.edu.au/au/cases/vic/VSC/2001/338.html]
+Liberty Financial Pty Ltd v Scott (No 4) [2005] VSC 26 [http://www.austlii.edu.au/au/cases/vic/VSC/2005/26.html]; (2005) 11 VR 629 [/cgi-bin/LawCite?cit=%282005%29%2011%20VR%20629]
+Lynx Engineering Consultants Pty Ltd v The ANI Corporation Ltd (No 2) [2009] FCA 363 [http://www.austlii.edu.au/au/cases/cth/FCA/2009/363.html]
+Ocular Sciences Ltd v Aspect Vision Care Ltd [1996] EWHC Patents 1 [http://www.bailii.org/ew/cases/EWHC/Patents/1996/1.html]; [1997] RPC 289 [/cgi-bin/LawCite?cit=%5b1997%5d%20RPC%20289]
+Pioneer Concrete Services Limited v Galli [1985] VicRp 68 [http://www.austlii.edu.au/au/cases/vic/VicRp/1985/68.html]; (1985) VR 675 [/cgi-bin/LawCite?cit=%281985%29%20VR%20675]
+Reinforced Plastics Applications (Swansea) Limited v Swansea Plastics & Engineering Co Limited [1979] FSR 182 [/cgi-bin/LawCite?cit=%5b1979%5d%20FSR%20182]
+
+
+Division:
+General Division
+
+
+Registry:
+Victoria
+
+
+National Practice Area:
+Employment and Industrial Relations
+
+
+Number of paragraphs:
+47
+
+
+Date of hearing:
+16 September 2021
+
+
+Counsel for the Applicants:
+Mr L Merrick
+
+
+Solicitor for the Applicants:
+Corrs Chambers Westgarth
+
+
+Counsel for the Respondents:
+Mr S Rebikoff
+
+
+Solicitor for the Respondents:
+Clyde & Co
+
+ORDERS
+
+
+
+VID 195 of 2021
+
+BETWEEN:
+AGILITY CIS LTD (and another named in the schedule)
+First Applicant
+
+
+AND:
+LEE WHITE (and others named in the schedule)
+First Respondent
+
+
+
+ORDER MADE BY:
+ANDERSON J
+DATE OF ORDER:
+23 SEPTEMBER 2021
+
+
+
+THE COURT ORDERS THAT:
+
+
+1. The Applicants’ Statement of Claim dated 22 April 2021 be struck out pursuant to r 16.21 of the Rules.
+
+2. Leave is granted for the Applicants to file an Amended Statement of Claim by 4.00 p.m. on 30 November 2021, or such other time as may be agreed by the parties
+
+3. The Applicants pay the Respondents’ costs of the application on a lump sum basis to be agreed or in default of agreement in such lump sum as determined by a Registrar of this Court.
+
+> 
+
+Note: Entry of orders is dealt with in Rule 39.32 [http://www.austlii.edu.au/au/legis/cth/consol_reg/fcr2011186/s39.32.html] of the Federal Court Rules 2011 [http://www.austlii.edu.au/au/legis/cth/consol_reg/fcr2011186/].
+
+
+
+> 
+
+REASONS FOR JUDGMENT
+
+ANDERSON J:
+
+Introduction
+
+1 The substantive claim in this proceeding relates to the alleged misuse of confidential information by a group of former employees (Mr White (First Respondent), Mr Chandiramani (Second Respondent) and Ms Yang (Third Respondent) (together Respondents)) of Agility CIS Ltd and Agility CIS Pty Ltd (Applicants). The Fourth Respondent, Beige Technologies Pty Ltd is a company that now employs and is owned, in part, by the First to Third Respondents. The Fourth Respondent is alleged to have aided, abetted, counselled or procured, or been knowingly or indirectly concerned in the alleged misuse of information by the First to Third Respondents.
+
+2 By interlocutory application dated 26 July 2021, the Respondents seek orders that:
+
+> > (a) the proceeding be dismissed pursuant to r 26.01 of the Federal Court Rules 2011 [http://www.austlii.edu.au/au/legis/cth/consol_reg/fcr2011186/] (Cth) (Rules) and/or s 31A [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s31a.html] of the Federal Court of Australia Act 1976 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/] (Cth) (Act); or
+> > (b) the Applicants’ Statement of Claim dated 22 April 2021 be struck out pursuant to r 16.21 of the Rules.
+
+3 The Respondents submit that the Statement of Claim fails to specify either the precise nature of the confidential information that is said to have been misused or the manner of alleged misuse, and advances a claim which appears to be wholly speculative in character.
+
+4 The Respondents, in support of their application, rely on the affidavit of Nicole Joy Wearne dated 26 July 2021 (Wearne affidavit) and written submissions dated 27 August 2021. The Respondents also rely on the affidavit of Katherine Louise Hay affirmed 18 August 2021 (Hay affidavit).
+
+5 The Applicants oppose the application and submit that the application for summary dismissal and the strike out application, should both be refused. The Applicants rely upon the Hay affidavit and written submissions dated 9 September 2021.
+
+6 The application was heard before me on 16 September 2021. Mr Rebikoff of counsel appeared on behalf of the Respondents. Mr Merrick of counsel appeared on behalf of the Applicants.
+
+Relevant principles
+
+7 The relevant principles in determining this application were conveniently summarised by the Respondents in their submissions as follows.
+
+8 Pursuant to r 16.02(1) of the Rules, a pleading must (relevantly) state the material facts on which a party relies that are necessary to give the opposing party fair notice of the case to be made against that party at trial.
+
+9 Pursuant to r 16.02(2) of the Rules, a pleading must not:
+
+> > (a) be evasive or ambiguous;
+> > (b) be likely to cause prejudice, embarrassment or delay in the proceeding;
+> > (c) fail to disclose a reasonable cause of action or defence; or
+> > (d) otherwise be an abuse of the process of the Court.
+
+10 In the context of a claim for misuse of confidential information, it has often been said that it is vital that the information which is said to be confidential is defined with precision, and the disclosure or use of that information which is said to constitute a misuse of that information is specified with particularity. In Pioneer Concrete Services Limited v Galli [1985] VicRp 68 [http://www.austlii.edu.au/au/cases/vic/VicRp/1985/68.html]; (1985) VR 675 [/cgi-bin/LawCite?cit=%281985%29%20VR%20675] (Pioneer) at 711, the Court observed:
+
+> > What is important in the present case, as in all other cases of this kind, is that the court should be able, both, to define the precise nature of the confidential information which it is sought to protect and to identify with some particularity the disclosure or use which is alleged against the defendants.
+
+11 One of the reasons the courts insist on such specificity is to avoid the bringing of actions that are merely speculative in character, and to prevent a former employer from using a generally worded claim to stifle the right of an employee to use the skill and experience of that employee (or their “know-how”): see Creative Brands Pty Ltd v Franklin [2001] VSC 338 [http://www.austlii.edu.au/au/cases/vic/VSC/2001/338.html] (Creative Brands) at [16] per Warren J; Liberty Financial Pty Ltd v Scott (No 4) [2005] VSC 26 [http://www.austlii.edu.au/au/cases/vic/VSC/2005/26.html]; (2005) 11 VR 629 [/cgi-bin/LawCite?cit=%282005%29%2011%20VR%20629] (Liberty Financial) at [12]-[13] per Harper J.
+
+12 In Reinforced Plastics Applications (Swansea) Limited v Swansea Plastics & Engineering Co Limited [1979] FSR 182 [/cgi-bin/LawCite?cit=%5b1979%5d%20FSR%20182] at 182, Whitford J identified the risk of abuse arising from a generally worded claim for misuse of confidential information as follows:
+
+> > It is, I think, a matter of great concern in relation to confidential information cases that actions should not be brought which are no more than speculative in character. It is altogether too easy when employees leave and are employed by a rival firm to harass that rival firm upon the basis that the employees who have left the plaintiffs and joined them have taken away trade secrets of great value, and to bring an action which may involve the expenditure of an enormous amount of time and money and include disclosure of information which is going to be alleged to be confidential on either side with consequent troubles and worries. It is not really to be contemplated that proceedings of this kind should be allowed to go forward on nothing more than a speculative basis; and, unless the plaintiff can show that he has some basis for a reasonable belief in his assertion that the defendants are making use of his confidential information, then the action can only be characterised as speculative and fishing, and ought not, in my judgment, to be allowed to proceed. There must be something more than a mere assertion.
+
+13 If the claim amounts in substance to little more than that the defendants left their former employer, established their own business, and are now competing in a market place against their former employer that will not be sufficient to make out even an arguable case of misuse of confidential information: Creative Brands at [22].
+
+14 Even where there is some attempt to identify the information, if it is merely expressed in wide and general terms, it can still be used as “an instrument of oppression or harassment against a defendant”: Ocular Sciences Ltd v Aspect Vision Care Ltd [1996] EWHC Patents 1 [http://www.bailii.org/ew/cases/EWHC/Patents/1996/1.html]; [1997] RPC 289 [/cgi-bin/LawCite?cit=%5b1997%5d%20RPC%20289] (Ocular Sciences) at 360 per Laddie J. In Ocular Sciences, Laddie J explained why a failure to give proper particulars of such a claim is “a particularly damaging abuse of process”:
+
+> > The requirement of particularity may impose a heavy burden on the plaintiff. In a case where the plaintiff has a large quantity of confidential information and much of it has been taken by the defendant, the obligation to identify all of it might involve a great deal of work and time. ... The normal approach of the court is that if a plaintiff wishes to seek relief against a defendant for misuse of confidential information it is his duty to ensure that the defendant knows what information is in issue. This is not only for the reasons set out by Edmund Davies LJ in Zink (John) & Co Ltd v Lloyds Bank Ltd [1973] RPC 717 [/cgi-bin/LawCite?cit=%5b1973%5d%20RPC%20717] but for at least two other reasons. First, the plaintiff usually seeks an injunction to restrain the defendant from using its confidential information. Unless the confidential information is properly identified, an injunction in such terms is of uncertain scope and may be difficult to enforce ... Secondly, the defendant must know what he has to meet. He may wish to show that the items and information relied on by the plaintiff are matters of public knowledge. His ability to defend himself will be compromised if the plaintiff can rely on matters of which no proper warning was given. It is for all these reasons that failure to give proper particulars may be a particular damaging abuse of process.
+
+15 The Applicants accepted that there can be no doubt as to the soundness of the Full Court’s statement in Pioneer that, in a case of this nature, the confidential information must be identified with precision: Pioneer at 709-712. However, the Applicants submit that this statement must be understood within the context in which it was given. The Applicants submit that in Pioneer the pleading contained only general descriptions of the confidential information which was in dispute, and this, in the Applicants submission, cannot be said to be the case here.
+
+16 The Applicants submit that Laddie J in Ocular Sciences emphasised the importance of identifying the confidential information in dispute. However, the Applicants submit that Ocular Sciences is in a different context to the present case. The Applicants submit that the observations of Laddie J take place within the context of a matter where his Honour described the confidential information that was before him as encompassing “more or less everything”: Ocular Sciences at 361.
+
+17 The Applicants submit that the context in which the confidential information was pleaded in Creative Brands may also be distinguished from the present case. The Applicants submit that in Creative Brands the alleged confidential information was not identified at all, let alone with sufficient particularity: Creative Brands at [12]-[14] and [22]. The Applicants submit that despite this, leave was granted to allow the plaintiff in that case to re-plead.
+
+18 The Applicants submit that in relation to Liberty Financial, that case must also be understood in context. In that case, the pleading being considered by Harper J had been produced after the plaintiff had obtained an Anton Piller order from the Federal Court of Australia (Court) and after the plaintiff had had the benefit of some discovery. This, it was submitted, was to be contrasted with the present case, where the relevant confidential information is an identified body of information relating to a specific product. The Applicants submit, that despite Harper J rejecting the pleading as insufficient, leave was granted to allow the plaintiff in that case to re-plead.
+
+19 The Applicants, with the qualifications which I have identified above, substantially agreed with the Respondents’ summary of relevant principles.
+
+Respondents’ submissions
+
+20 The Respondents submit that the Applicants’ primary claim relates to conduct that commenced more than six years ago, and is based on nothing more than the suggestion that the Respondents left their employment with the Applicants and assisted in the development of a computer system (known as “CORE”), that allegedly competes with the computer system offered by the Applicants (known as “ORION”): see Statement of Claim [11]-[17].
+
+21 The Respondents submit that no particular information has been identified by the Applicants as having been misused, and no particular manner of misuse has been specified. Rather, the misuse is said to be inferred from two matters:
+
+> > (a) first, that in 2016, the Respondents had access to a version of ORION through a mutual customer of the Applicants and the Respondents’ then-employer, USS, as evidenced by an email sent by the First Respondent (Mr White) to the Applicants dated 26 April 2016, in which Mr White requested the export of certain data on behalf of a customer of USS, and specified the data fields from ORION in which that data was held: Particulars to [17] of the Statement of Claim; and
+> > (b) second, that it would not have been possible to develop CORE in the three-year timeframe that USS did without reference to “the Agility Business Information or parts of it” because of the complexity of the regulation governing the Australian energy market: Particulars to [17] of the Statement of Claim.
+
+22 The Respondents submit that there is no attempt in the pleading to connect either of these matters with particular information of the Applicants that is said to have been misused.
+
+23 The Respondents submit that precision is required to identify the confidential information in each instance of breach. The Respondents accept that the need for precision does not preclude the possibility of proof of a breach by inference, but there must at least be precision in identification of what it is that constitutes the alleged breach. The Respondents contend that whilst most applicants cannot give chapter and verse of precisely when, how and by whom a breach was committed, what constitutes the breach must be identified: Lynx Engineering Consultants Pty Ltd v The ANI Corporation Ltd (No 2) [2009] FCA 363 [http://www.austlii.edu.au/au/cases/cth/FCA/2009/363.html] (Lynx) per McKerrarcher J at [49].
+
+24 The Respondents submit that the Applicants’ claim is purely speculative. The Respondents submit that the Applicants’ claim is not a claim which the Applicants have reasonable cause to believe already exists. It is a claim, in the Respondents’ submission, that the Applicants are concerned might exist and they have commenced these proceedings to extract information from the Respondents which might assist them to identify some actionable conduct: see Hay affidavit at [29], where Ms Hay acknowledges that the Applicants’ allegations are presently based on inference and require certain documents to be produced to understand the conduct. This, in the Respondents’ submission, is not a proper use of the processes of the Court.
+
+25 The Respondents submit that the primary matter relied upon by the Applicants to infer the existence of a misuse of its confidential information is the complexity of the regulation of the energy market in Australia. This complexity inherently involves publicly available information and knowledge and expertise that is likely to fall squarely within the definition of non-protectable ‘know-how’ and truly confidential information which can be restrained. The Respondents submit that, without a proper pleading of what is said to constitute the confidential information, and what is said to constitute misuse of that confidential information, it is not possible for them to articulate a meaningful defence to the Applicants’ claim.
+
+Applicants’ submissions
+
+26 The Applicants submit that the impugned parts of the Statement of Claim must be understood against the following background facts:
+
+> > (a) The Applicants’ developed and licensed ORION, a billing software product for utility companies in Australia. The Applicants also provide consultancy and support services in relation to this product and their customers: Statement of Claim [3].
+> > (b) The First to Third Respondents were each employed by the Applicants over many years. During the course of their employment, the First to Third Respondents were all involved in coding software developments for ORION and they all had access to the confidential information of the Applicants which is in dispute. The First to Third Respondents all left the employment of the Applicants in mid-2015: Statement of Claim [4]-[6], [8]-[10].
+> > (c) Upon leaving the employment of the Applicants, the First to Third Respondents took up employment with Utility Software Services Pty Ltd (USS). At that time, USS did not offer or supply billing software products for use by utility companies in Australia. USS set about developing such a product. This product was then developed and named “CORE”. The First to Third Respondents assisted USS in the development of CORE. USS announced the commercial launch of CORE in April 2018: Statement of Claim [11]-[15].
+> > (d) ORION and CORE are competitive products in the market of billing software products for utility companies in Australia: Statement of Claim [16] and [18].
+> > (e) In June 2018, the Fourth Respondent was incorporated. At about the same time, the First to Third Respondents left the employ of USS and became employees of the Fourth Respondent. The First to Third Respondents are shareholders of the Fourth Respondent and the First and Second Respondents are its directors. Since about mid-2018, the Fourth Respondent has provided software services in relation to CORE: Statement of Claim [4(d)], [5(c)], [6(d)], [7] and [19].
+
+27 The Applicants submit that the key aspects of their claim are that:
+
+> > (a) the First to Third Respondents misused the Applicants’ confidential information in developing CORE whilst working for USS: Statement of Claim [17];
+> > (b) the Fourth Respondent was continuing to misuse the Applicants’ confidential information by providing development and support services in relation to CORE: Statement of Claim [19]-[20].
+
+28 The Applicants submit that [8(b)] of the Statement of Claim identifies the relevant confidential information, which is defined as the “Agility Business Information” as follows:
+
+> > (i) the source code of ORION and its supporting applications;
+> > (ii) the software architecture of ORION and the relationships between its constituent software modules;
+> > (iii) the content and arrangement of the databases used by ORION and its supporting applications for the functioning of billing systems in the Australian energy market;
+> > (iv) the software logic used by ORION and its supporting applications for achieving compliance with the regulatory requirements of the Australian energy market;
+> > (v) client lists.
+
+29 The Applicants submit that [8(b)] of the Statement of Claim (above) identifies the relevant confidential information with sufficient specificity. The Applicants submit that the level of detail provided is more than sufficient for the Respondents (who worked on the ORION software for many years) to provide instructions necessary to prepare a defence.
+
+30 The Applicants submit that [17] of the Statement of Claim identifies the misuse by the Respondents of the Agility Business Information, or parts of it, in the course of their work for USS in developing CORE. The particulars to [17] of the Statement of Claim state that this use is to be inferred from two matters:
+
+> > (a) first, the fact that the First to Third Respondents had unauthorised access to a version or versions of ORION during a period of their employment with USS (a matter which is demonstrated by the email dated 26 April 2016, referred to in particular (b) to [17]); and
+> > (b) second, the short timeframe in which USS developed and was able to launch CORE commercially which, the Applicants submit, would not have been possible to develop and launch CORE in that short timeframe without the alleged misuse.
+
+31 The Applicants submit that the Respondents have already demonstrated that they understand, and are able to respond to, the allegations made by the Applicants. Prior to the commencement of the proceeding, on 20 April 2021, the Respondents’ former solicitors provided a detailed response to the Applicants’ letters of demand which engaged substantively with the Applicants’ allegations: Hay affidavit [20]; Wearne affidavit [6].
+
+32 On 11 June 2021, the Respondents’ solicitors requested further and better particulars of identified paragraphs of the Statement of Claim. On 25 June 2021, the Applicants’ solicitors provided a response to the request for further and better particulars of the Statement of Claim. Following the case management hearing on 6 August 2021, the Applicants’ solicitors, by letter dated 18 August 2021, provided further particulars of [8] and [17] of the Statement of Claim. The Applicants submit that when the Statement of Claim is read as a whole together with the further and better particulars provided in the letters of 25 June 2021 and 18 August 2021 (18 August letter), the Respondents have more than sufficient information to know the nature of the confidential information said to have been misused such that the Respondents are able to provide the necessary instructions to prepare a defence.
+
+33 The Applicants recognise that the allegations of misuse of confidential information depend, at present, on drawing inferences. This, however, in the Applicants’ submission, does not render their case speculative. Rather, in the Applicants’ submission, their case is based on rational inferences which, if made good, will provide support for the Applicants’ allegations of misuse of confidential information.
+
+34 The Applicants submit that they will seek discovery from the Respondents, and may seek production of documents from USS, with a view to obtaining documentary evidence to help support their case: Hay affidavit [29].
+
+35 The Applicants submit that the Court has ample case management powers to ensure that, as the proceeding progresses towards trial, the precise nature and extent of the Applicants’ allegations are known such that there will be at trial no doubt as to the matters to be litigated.
+
+Consideration
+
+36 I am not satisfied that the Applicants have identified the alleged confidential information with sufficient precision to enable the Court to identify what is sought to be protected. I am also not satisfied that the Applicants have identified the disclosure or use of that alleged confidential information which is said to constitute misuse. The Applicants’ claims, as presently pleaded, are expressed in wide and general terms such that the claims have all the hallmarks of being purely speculative claims. I am of this view for the reasons that follow.
+
+37 First, the Applicants have not, in their Statement of Claim, identified with sufficient precision what is alleged to constitute the confidential information. Paragraph [8(b)] of the Statement of Claim purports to identify the relevant confidential information as the “Agility Business Information” that is pleaded as including:
+
+> > (1) With respect to [8(b)(i)] of the Statement of Claim - “the source code of ORION and its supporting applications”. The source code is not identified nor are the supporting applications identified in the Statement of Claim. The Applicants’ solicitors’ 18 August letter purports to give further particulars but fails to identify with any particularity the source code said to comprise the confidential information.
+> > (2) With respect to [8(b)(ii)] of the Statement of Claim - “the software architecture of ORION and the relationships between its constituent software modules”. The Statement of Claim does not provide any particulars of the software architecture of ORION, nor are the relationships between constituent software modules identified. The 18 August letter which purports to provide further particulars is couched in the most general of terms and lacks the precision required to identify what constitutes the confidential information.
+> > (3) With respect to [8(b)(iii)] of the Statement of Claim - “the content and arrangement of the databases used by ORION and its supporting applications for the functioning of billing systems in the Australian energy market”. The Statement of Claim does not identify the content of the databases used by ORION. The Statement of Claim does not identify the arrangement of the databases used by ORION. The Statement of Claim does not identify the supporting applications. The 18 August letter provides some further particulars of the ORION supporting applications and the content and arrangement of the ORION databases, but only in the most general of terms.
+> > (4) With respect to [8(b)(iv)] of the Statement of Claim - “the software logic used by ORION and its supporting applications for achieving compliance with the regulatory requirements of the Australian energy market”. The Statement of Claim does not identify the software logic used by ORION. It does not identify the supporting applications for achieving compliance with the regulatory requirements of the Australian energy market. The Statement of Claim is devoid of any particulars. The 18 August letter purports to provide further particulars of the software logic for achieving compliance, however, it is couched in the most general terms. By way of example, the 18 August letter refers to the software logic as “the logic contained in ORION’s market interaction module is crucial for maintaining compliance with and adapting to changes in Australia’s various regulatory requirements in relation to the retailing of energy”.
+> > (5) With respect to [8(b)(v)] of the Statement of Claim - “client lists”. The Statement of Claim does not identify any client lists. It is devoid of any particulars. The 18 August letter does not provide any further particulars in respect to the “client lists”.
+
+38 Second, the Statement of Claim fails to identify the manner of the alleged misuse of confidential information. The misuse is said to be inferred in [17] of the Statement of Claim from the fact that the First to Third Respondents had unauthorised access to a version or versions of ORION during the period of their employment with USS and the short time frame in which USS developed and was able to launch CORE commercially. I accept the Respondents’ submission, that the pleading makes no attempt to connect either of these matters with particular confidential information of the Applicants that is said to have been misused. What has been described as a “short timeframe” (of around three years in which CORE was developed and launched) cannot, on its own, provide a basis to infer misuse of any confidential information.
+
+39 Third, the 18 August letter in response to the Respondents’ complaints in relation to [17] of the Statement of Claim states as follows:
+
+> > Paragraph 17 concerns your clients’ conduct. Our clients were not privy to the development of CORE by Utility Software Services Pty Ltd or the specific tasks that your clients undertook in that development work. It is unsurprising that our clients are not privy to such information in relation to the conduct of a competitor. In contrast, your clients are intimately familiar with those matters. As stated in the Statement of Claim, our clients are not able to provide further particulars to paragraph 17 until discovery and inspection has been completed. Given the knowledge that your clients have of these matters, this presents no impediment to your clients’ pleading to this paragraph.
+
+40 By this statement, the Applicants frankly concede that, other than by the inferences which the Applicants asked the Court to draw, they cannot provide any further particulars of misuse by the Respondents of the alleged confidential information. This, in my view, exposes the speculative nature of the Applicants’ claims.
+
+41 In Lynx, McKerrarcher J identified the requirement of a claim for misuse of confidential information to be pleaded with precision at [49] as follows:
+
+> > Precision is required to identify the confidential information, the copyright and then, in each instance, the breach. The need for precision does not preclude the possibility of proof of a breach by inference. But there must at least be precision in identification of what it is that constitutes the breach. Clearly most applicants cannot give chapter and verse of precisely when, how and by whom a breach was committed. But what constitutes the breach must be identified.
+
+42 I respectfully agree with this statement of principle by McKerrarcher J. It identifies the vice in the Applicants’ Statement of Claim in this case. The Applicants, save for the inference which they ask the Court to draw, have not identified with any precision, what it is that constitutes the breach. It is no answer for the Applicants to simply say to the Respondents in the 18 August letter “your clients undertook in that development work”; and “your clients are intimately familiar with those matters” and “our clients are not able to provide further particulars to paragraph 17 until discovery and inspection has been completed” and “given the knowledge that your clients have of these matters, this presents no impediment to your clients’ pleading to this paragraph”.
+
+43 Fourth, I accept the Respondents’ submission that this is not a claim that the Applicants have reasonable cause to believe already exists. It is a claim the Applicants are concerned might exist and have commenced these proceedings to extract information from the Respondents which might assist them to identify some actionable conduct: Hay affidavit at [29]. The authorities make clear, that is not a proper use of the processes of the Court.
+
+44 I accept the Respondents’ submission that it is not appropriate for the Applicants to simply set out every aspect of its system and allege that “the whole or a part” of that system has been taken and misused simply in order to obtain discovery that the Applicants hope will provide the evidence which will enable them to plead the case they intend to run at trial: Liberty Financial at [20]-[25].
+
+Disposition
+
+45 The Applicants’ Statement of Claim dated 22 April 2021 will be struck out pursuant to r 16.21 of the Rules. I will not order that the proceeding be dismissed pursuant to r 26.01 of the Rules and/or s 31A [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s31a.html] of the Act.
+
+46 I will give the Applicants leave to re-plead their Statement of Claim by 4.00 p.m. on 30 November 2021, or such other time as may be agreed by the parties.
+
+47 The Applicants will pay the Respondents’ costs of the application on a lump sum basis to be agreed, or in default of agreement in such lump sum as determined by a Registrar of this Court.
+
+I certify that the preceding forty-seven (47) numbered paragraphs are a true copy of the Reasons for Judgment of the Honourable Justice Anderson.
+
+> Associate:
+> 
+> Dated: 23 September 2021
+
+
+
+
+
+SCHEDULE OF PARTIES
+
+> 
+
+
+
+VID 195 of 2021 [2021_1145.html#FileNo]
+Applicants
+
+
+> Second Applicant:
+
+> Agility CIS Pty Ltd ACN 152 690 090
+
+Respondents
+
+
+> Second Respondent:
+
+> Ravi Chandiramani
+
+> Third Respondent:
+
+> Ya Chu Yang
+
+> Fourth Respondent:
+
+> Beige Technologies Pty Ltd ACN 626 663 081
+
+>

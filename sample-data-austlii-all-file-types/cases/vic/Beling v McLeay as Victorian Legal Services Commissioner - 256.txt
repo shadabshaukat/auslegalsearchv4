@@ -1,0 +1,791 @@
+-----------------------------------
+title: Beling v McLeay as Victorian Legal Services Commissioner
+titles: ["Beling v McLeay as Victorian Legal Services Commissioner"]
+citations: ["[2021] VSCA 256","VSCA 256"]
+date: 2021-09-13 00:00:00
+type: case
+subjurisdiction: vic
+jurisdiction: au
+data_quality: H
+database: VSCA
+url: https://austlii.edu.au/cgi-bin/viewdoc/au/cases/vic/VSCA/2021/256.html
+-----------------------------------
+
+
+BELING V MCLEAY AS VICTORIAN LEGAL SERVICES COMMISSIONER [2021] VSCA 256 (13 SEPTEMBER 2021)
+
+Last Updated: 13 September 2021
+
+
+
+SUPREME COURT OF VICTORIA
+
+COURT OF APPEAL
+
+
+S EAPCI 2021 0076
+
+
+JOEL LORENSZ BELING
+Applicant
+
+
+v
+
+
+
+FIONA RUTH McLEAY AS VICTORIAN LEGAL SERVICES COMMISSIONER
+Respondent
+
+
+
+
+---
+
+
+JUDGES:
+KAYE and NIALL JJA
+WHERE HELD:
+MELBOURNE
+DATE OF HEARING:
+3 September 2021
+DATE OF JUDGMENT:
+13 September 2021
+MEDIUM NEUTRAL CITATION:
+[2021] VSCA 256 [http://www.austlii.edu.au/au/cases/vic/VSCA/2021/256.html]
+JUDGMENT APPEALED FROM:
+[2020] VCC 1010 (Judge [http://www.austlii.edu.au/au/cases/vic/VCC/2020/1010.html] Cosgrave); [2020] VCC 1071 (Judge [http://www.austlii.edu.au/au/cases/vic/VCC/2020/1071.html] Cosgrave); [2021] VCC 764 (Judge [http://www.austlii.edu.au/au/cases/vic/VCC/2021/764.html] A Ryan); [2021] VCC 1021 (Judge [http://www.austlii.edu.au/au/cases/vic/VCC/2021/1021.html] A Ryan)
+
+
+---
+
+
+PRACTICE AND PROCEDURE – Applications for leave to appeal from decisions of County Court – Applicant found guilty by VCAT of professional misconduct and unsatisfactory professional conduct under Legal Profession Act 2004 [http://www.austlii.edu.au/au/legis/nsw/repealed_act/lpa2004179/] – Parties subsequently reached agreement on costs – Applicant made three instalment payments under settlement deed and subsequently defaulted – Parties filed competing applications for summary judgment and strike out in County Court – Respondent granted summary judgment – Applicant’s amended defence and counterclaim struck out – Whether Court failed to take into account relevant considerations – Whether Court erred in failing to consider defences raised by applicant – Whether Court erred in refusing to admit evidence of without prejudice settlement offer made in judicial resolution conference – Whether Court erred in application of previous decision of Supreme Court in the proceeding – Whether Court failed to consider merits of applicant’s case – Leave to appeal refused – Civil Procedure Act 2010 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/] ss 63 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/s63.html], 67 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/s67.html], County Court Civil Procedure Rules 2018 [http://www.austlii.edu.au/au/legis/vic/consol_reg/cccpr2018380/] r 22.08.
+
+EVIDENCE LAW – Whether Court erred in admitting without prejudice correspondence filed by respondent – Evidence Act 2008 [http://www.austlii.edu.au/au/legis/vic/consol_act/ea200880/] s 131. [http://www.austlii.edu.au/au/legis/vic/consol_act/ea200880/s131.html]
+
+COSTS – Whether applicant denied procedural fairness in costs decision – Whether Court erred in granting respondent costs and reserved costs of proceeding below.
+
+PRACTICE AND PROCEDURE – Application for extension of time to file application for leave to appeal – Substantial delay – Delay caused by deliberate decision of applicant – No proper explanation for delay – Application entirely without merit – Application refused – Supreme Court (General Civil Procedure) Rules 2015 [http://www.austlii.edu.au/au/legis/vic/consol_reg/sccpr2015433/] rr 64.05, 64.08.
+
+
+---
+
+
+
+
+
+APPEARANCES:
+Counsel
+Solicitors
+
+
+
+For the Applicant
+In person
+
+
+
+
+For the Respondent
+Mr M G McNamara
+White Cleland Pty Ltd
+
+
+KAYE JA
+NIALL JA:
+
+1 The Court has before it two applications for leave to appeal. They involve four decisions of the County Court, and a decision by a judge of the Trial Division of this Court. The two applications arise out of a common set of circumstances which it is necessary to summarise, in a little detail, before turning to each application for leave.
+
+Background circumstances
+
+2 At the times material to these proceedings, the applicant (‘Beling’) was a legal practitioner conducting a sole practice. Between August 2012 and January 2013, Beling acted for Tracie and Peter Hanna in a proceeding brought against them by the ANZ Bank in the Federal Circuit Court. The retainer ended in January 2013. Mrs Hanna disagreed with the amount of fees for which Beling charged them, and in turn Beling was concerned that Mr and Mrs Hanna were far behind in their payment of those fees.
+3 Subsequently, on 21 February 2013, Mrs Hanna lodged a complaint with the respondent, the Victorian Legal Services Commissioner (‘the Commissioner’). On 20 May 2014, the Commissioner advised Beling by letter that it was possible that a finding of professional misconduct or unsatisfactory professional conduct might be made against him as a consequence of the complaints made by Mrs Hanna. The Commissioner gave Beling an opportunity to provide written submissions in response.
+4 Subsequently, on 17 November 2014, Beling commenced a proceeding by originating motion against the Commissioner in the Supreme Court (‘the first Supreme Court proceeding’) seeking orders in the nature of mandamus and prohibition in respect of that notification by the Commissioner. On 5 January 2015, Beling informed the Court and the Commissioner by email that he intended to apply for leave to discontinue the proceeding. However, because his application was not in the appropriate form and had not been filed, the Commissioner, out of an abundance of caution, applied to the Court on 20 February 2015 to summarily dismiss the proceeding. That application came before Derham AsJ who, on 22 April 2016, delivered judgment in favour of the Commissioner, ordering that the proceeding be dismissed with costs.[1]
+5 In the meantime, on 23 December 2014, the Commissioner decided under s 4.4.13 of the Legal Profession Act 2004 [http://www.austlii.edu.au/au/legis/nsw/repealed_act/lpa2004179/] that she was satisfied there was a reasonable likelihood that Beling would be found guilty of professional misconduct. As a consequence, the Commissioner was obliged to apply to the Victorian Civil and Administrative Tribunal (‘VCAT’) for an order in relation to Beling. The proceeding against Beling in VCAT comprised two charges of professional misconduct at common law, and two charges of statutory professional misconduct. The charges were heard on various dates before Senior Member Smithers between November 2016 and 8 May 2017. On 12 July 2017, Senior Member Smithers found Beling guilty of one charge of professional misconduct at common law (charge 1). On another charge (charge 3), the Senior Member found Beling not guilty of statutory professional misconduct, but guilty of unsatisfactory professional conduct under s 4.4.20 of the Legal Profession Act [http://www.austlii.edu.au/au/legis/nsw/repealed_act/lpa2004179/]. The other two charges were dismissed.[2] The Senior Member then adjourned the proceeding to determine the orders which would be made in light of those findings.
+6 Having heard further submissions as to those matters, the Senior Member, on 27 September 2017, delivered his decision and made further orders. They included that Beling pay a fine of $10,000 to the Victorian Legal Services Board, and that he pay the Commissioner’s costs in relation to charges 1 and 3.[3]
+7 Subsequently, the Commissioner and Beling entered into negotiations concerning the costs of the first Supreme Court proceeding (that had been dismissed by Derham AsJ) and of the VCAT proceeding. In the course of those negotiations, the Commissioner sent Beling draft bills of costs in relation to both the first Supreme Court proceeding and the VCAT proceeding. The combined costs, including the cost of producing the taxable bills, exceeded $318,000. The Commissioner offered to settle the costs claim for $237,767.15, payable by monthly instalments of $10,000. Further negotiations took place in which Beling claimed that he was under financial duress and needed time to consider the proposal. Ultimately, on 6 June 2018, Beling signed a deed (‘the settlement deed’) that had been forwarded to him by the solicitors acting for the Commissioner.
+8 The settlement deed provided for the payment of the sum of $237,767.15 by monthly instalments of $10,000. Pursuant to the deed, Beling made payments of $10,000 each on 27 June, 27 July and 20 August 2018. However, he made no further payments. On 27 September 2018, he sent an email to the Commissioner in which he made a series of allegations by which he denied liability under the settlement deed.
+9 On 13 August 2019, the Commissioner commenced a proceeding in the County Court by writ (‘the County Court proceeding’) by which she claimed the outstanding debt. Beling filed a defence and counterclaim by which he denied liability and made a number of allegations against the Commissioner. In March 2020, the Commissioner issued a summons in the proceeding seeking orders for summary judgment, or alternatively that the defence and counterclaim be struck out. In response, Beling issued a summons seeking orders for summary judgment on the defence and counterclaim and an order striking out the statement of claim.
+10 Those summonses came before Judge Cosgrave of the County Court. On 14 July 2020, his Honour made orders striking out Beling’s defence and counterclaim, and giving Beling leave to file a proposed amended defence and counterclaim by 3 August 2020. His Honour adjourned the Commissioner’s application for summary judgment to a date to be fixed.[4] On 23 July 2020, Judge Cosgrave ordered that Beling pay the Commissioner’s costs of the failed application, and made orders based on his ruling of 14 July.[5]
+11 Subsequently, Beling served a proposed amended defence and counterclaim in the County Court proceeding dated 30 July 2020. The Commissioner objected to that pleading being filed. Accordingly, on 25 August 2020, Beling filed a summons seeking leave to file the proposed pleading.
+12 The Commissioner’s summons of March 2020 (claiming summary judgment) and Beling’s summons filed 25 August 2020, came before her Honour Judge Ryan of the County Court. On 23 June 2021, in a reserved decision, her Honour refused Beling’s application for leave to file and serve the proposed amended defence and counterclaim. Her Honour upheld the application by the Commissioner for summary judgment.[6] Subsequently, having heard submissions on costs, Judge Ryan, on 30 July 2021 made formal orders, inter alia: refusing the application by Beling for leave to file and serve the proposed defence and counterclaim; dismissing Beling’s application for summary judgment based on the proposed defence and counterclaim; giving judgment for the Commissioner in the sum of $207,767.15 together with interest pursuant to statute; and ordering Beling to pay the costs of the proceeding, including reserved costs, and including the costs of and incidental to the Commission’s summons dated 13 March 2020 and Beling’s summons dated 25 August 2020.[7]
+13 The two decisions of Judge Cosgrave, and the two decisions of Judge Ryan, are the subject of the present application for leave to appeal (‘the first appeal’).
+14 Before turning to those applications, it is convenient to note that, in the meantime, Beling instituted two other applications, namely:
+
+(1) In the first Supreme Court proceeding, he sought leave to appeal the decision of Derham AsJ made on 22 April 2016. That application was sought to be made some four years out of time.
+
+(2) In a separate proceeding in the Supreme Court number 04627 of 2019, (‘the second Supreme Court proceeding’), Beling sought leave to appeal the VCAT decisions made on 12 July and 27 September 2017. In respect to that proceeding, Judicial Registrar Keith, on 22 April 2020, refused an application by Beling for an extension of time within which to seek leave to appeal the VCAT decision and ordered Beling to pay costs.[8]
+
+15 The application by Beling to seek leave to appeal against the decision of Associate Justice Derham in the first Supreme Court proceeding, and the application by Beling to seek leave to appeal against the decision of Judicial Registrar Keith in the second Supreme Court proceeding, refusing leave to appeal the VCAT orders, came before Ginnane J of the Trial Division. At the commencement of the hearing of those applications, Beling sought to make three interlocutory applications. By those applications he sought leave:
+
+
+
+> > (a) To join VCAT as the second defendant in each proceeding.
+> > (b) To serve interrogatories directed to VCAT in the second Supreme Court proceeding.
+> > (c) To file and serve a notice to admit on VCAT in the second Supreme Court proceeding.
+
+
+
+16 On 1 July 2021, Ginnane J delivered judgment. His Honour refused Beling leave to join VCAT as a party to the proceedings, and refused leave to Beling to serve interrogatories and a notice to admit on VCAT. Ginnane J granted leave to Beling to amend the notice of appeal from the decision of Judicial Registrar Keith in the second Supreme Court proceeding. His Honour did not grant leave to Beling to rely on two amended notices of appeal from Associate Justice Derham or from VCAT.[9]
+17 Subsequently, by a further ruling, Ginnane J ordered that Beling pay the costs of the applications.[10] The two decisions of Ginnane J, and the orders made by his Honour, are the subject of the notice of application for leave to appeal in appeal number S EAPCI 2021 0077 (‘the second appeal’). We will address that application in a separate judgment.
+18 We turn, then, to the first appeal.
+19 As mentioned, the first appeal comprises the application by Beling for leave to appeal the two decisions of Judge Cosgrave and the two decisions of Judge Ryan in the County Court proceeding.
+
+
+
+> Judge Cosgrave Decisions
+
+
+
+20 It will be recalled that by his first ruling, his Honour Judge Cosgrave struck out Beling’s defence and counterclaim and gave leave to Beling to serve a proposed amended defence and counterclaim. His Honour dismissed Beling’s application for summary judgment against the Commissioner, and adjourned the Commissioner’s application for summary judgment to a date to be fixed.
+21 In that ruling, Judge Cosgrave commenced with the application made by Beling for summary judgment against the Commissioner. His Honour rejected that application. He noted that the Commissioner made a simple claim for breach of the settlement deed. There was no dispute that Beling signed the deed, made three monthly instalment payments, and then failed to pay the balance of the money owing under the deed. The pleading of the claim in the Commissioner’s statement of claim was not defective and none of it needed to be struck out. Accordingly, there was no basis upon which Beling could obtain summary dismissal of the Commissioner’s claim.[11]
+22 The judge then held that the application by the Commissioner to strike out the defence and counterclaim should succeed. His Honour stated:
+
+> > I accept that the current form of defence and counterclaim does not comply with the court’s rules about pleading. The defence and counterclaim is an idiosyncratic document which is lengthy, prolix and repetitive. More than 60 pages long and comprising about 240 paragraphs, much of it reads more like an affidavit than a pleading. This is a little surprising when Beling was a practising solicitor.
+> > The defence and counterclaim is frivolous, vexatious and is apt to prejudice, embarrass or delay the fair trial of the proceeding. In my view, the defence and counterclaim pleads not just material facts but much additional material of an evidentiary nature. It asserts conclusions or opinions and parts of the material are confusing and not relevant. I am concerned that major aspects of Beling’s case relate to issues which have already been raised in the VCAT proceeding or the Supreme Court proceeding. To the extent that the defence and counterclaim raises questions already litigated between the parties, they cannot be litigated again.[12]
+
+23 In reaching that conclusion, the judge provided specific examples of a number of the problems which vitiated the defence and counterclaim.[13] His Honour considered, however, that the ends of justice were best served by permitting Beling to have a further opportunity to plead a defence and counterclaim that complied with the County Court Civil Procedure Rules 2018 [http://www.austlii.edu.au/au/legis/vic/consol_reg/cccpr2018380/] (‘County Court Rules’). His Honour cautioned that, subject to exceptional circumstances, that should be Beling’s final opportunity to file a valid defence and counterclaim, and if, on the next occasion, he were unable to do so, it would suggest that he did not have a valid defence and counterclaim.[14]
+24 The judge then noted that it was not strictly necessary to address in detail the matters raised in Beling’s current pleading. However, his Honour proceeded to briefly state his views on the issues which, although obiter dicta, might assist Beling in framing his amended pleading. In doing so, his Honour outlined the present difficulties and deficiencies in the pleading relating to each of the issues that were sought to be pleaded and identified the respects in which the pleadings were either deficient or defective.[15]
+25 As mentioned, in a subsequent decision dated 23 July 2020,[16] Judge Cosgrave concluded that it was appropriate to order that Beling pay the Commissioner’s costs of and incidental to his application for dismissal of the proceeding, and that the Commissioner’s costs of and incidental to her application for summary judgment should be reserved.
+
+
+
+> Judge Ryan Decisions
+
+
+
+26 Pursuant to the order of Judge Cosgrave, Beling served a proposed amended defence and counterclaim dated 30 July 2020. The Commissioner objected to the pleading being filed. Accordingly, Beling filed a summons on 25 August 2020 seeking (inter alia) an order granting him leave to file the pleading. That application was heard by Judge Ryan, who delivered a detailed ruling dismissing the application.[17]
+27 Having outlined the relevant principles, and the competing submissions of the parties, her Honour stated her conclusions as follows:
+
+> > The proposed amended defence and counterclaim dated 30 July 2020 is clearly defective. The document is more in the nature of a submission than a pleading. It is convoluted, prolix and difficult to follow and often repetitive. It fails to comply with the basic rules relating to pleadings. It does not comply with the requirement in r 13.02(1) of the Rules to plead in summary form the material facts relied upon but not the evidence upon which those facts are to be proved. A defence upon which Beling seeks to rely is not pleaded in any way that is recognisable. Various scandalous and irrelevant allegations are made.[18]
+
+28 The judge then referred, by way of example, to four paragraphs of the proposed pleadings, which her Honour described as being some of the ‘more objectionable paragraphs’, and concluded:
+
+> > I am satisfied that permitting a trial to proceed based on Beling’s proposed pleading would prejudice, embarrass, and delay the fair trial of the proceeding. When a pleading is riddled with objectionable material, as is the case here, it is not appropriate or necessary to go through each paragraph of the document and identify which is objectionable. In such circumstances, the appropriate course is to strike out the pleading as a whole.
+> > By reason of the obvious deficiencies in the pleading, I will not grant leave to Beling to file and serve the proposed amended defence and counterclaim dated 30 July 2020.[19]
+
+29 The judge then considered whether Beling should be given a further opportunity to provide a proposed pleading. In that respect, she noted that Beling had been admitted to practice in 2002 and had been in practise for several years.[20] Her Honour considered that the point had been reached that Beling should not be permitted to waste the Court’s and the Commissioner’s time and resources any further. Her Honour considered that to permit Beling a further opportunity to deliver what, ‘in all likelihood,’ would be a further lengthy and non-compliant pleading, would not be in the interests of justice or consistent with the overarching purpose specified in s 7 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/s7.html] of the Civil Procedure Act 2010 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/].[21] In that respect, Judge Ryan noted that Beling had disregarded the extensive guidance he had been provided, first, by the Judicial Registrar of the County Court, and, secondly, by Judge Cosgrave in his earlier decision. Accordingly, her Honour declined to grant Beling leave to serve a further proposed amended defence and counterclaim.[22]
+30 The judge then turned to the application made by Beling for summary judgment against the Commissioner. Her Honour noted that the relief sought by Beling was the same as in his earlier summons which was dismissed by Judge Cosgrave. She noted that the statement of claim did not suffer any pleading defects as a matter of substance or form and therefore dismissed the summons.[23]
+31 Judge Ryan then turned to the application by the Commissioner for summary judgment on her claim. Her Honour noted that Beling did not dispute that he had signed the settlement deed and paid three instalments, but that then ceased to pay any further amount.[24] Her Honour noted that Beling relied on submissions and an affidavit setting out his grounds of complaint concerning the Commissioner, but they did not provide a proper basis for a defence to the debt claimed under the settlement deed.[25] In that respect, the most persistent complaint was that the Commissioner, together with officers of VCAT, had tampered with Beling’s clients’ file that had been tendered to VCAT by Beling in 2013.[26] Judge Ryan noted that while Beling had a ‘fervently held view’ as to that matter, he had not proffered any proof to substantiate his claim. In any event, the claim made by Beling could not have any bearing on the question whether the debt claimed by the Commissioner was due.[27]
+32 Judge Ryan noted that Beling had brought an appeal against the VCAT decision some four years out of time. Her Honour observed that Beling remained bound by the VCAT decision and the decision of Judicial Registrar Keith, unless and until those decisions were overturned on appeal.[28]
+33 Judge Ryan noted that Beling contended that the Commissioner had not denied a number of the allegations that he had made about file tampering and the like. However, her Honour noted that the fact, that the Commissioner had not deigned to deny those allegations, did not constitute admissions on her behalf.[29] Thus, her Honour was not persuaded that the allegations about file tampering demonstrated that Beling has a defence which would have a real prospect of success in response to the debt claim.[30]
+34 Judge Ryan then considered the argument made by Beling that the settlement deed had been procured by fraud, because the bill of costs that was relied on was ‘false and fraudulent’. The judge noted that Beling had not proffered any evidence to support that allegation. Her Honour noted that Beling had relied on a ‘minor omission’ (of a solicitor’s name) in the bill of costs, and observed that such a minor omission did not provide a defence with real prospects of success.[31]
+35 The judge then considered a complaint by Beling that the Commissioner had committed a fraud because, in negotiations, in February 2020, she had offered to accept a lower amount. However, the Commissioner objected to reference to that offer, because it had been made on a ‘without prejudice’ basis. Having considered the competing submissions, the judge accepted the submissions made by the Commissioner that Beling was not entitled to refer to communications that were made at a ‘without prejudice’ judicial resolution conference attended by the parties.[32] Her Honour further considered that, even if the communications were admissible, the fact, that the Commissioner might have offered to compromise a sum that was substantially less than that ultimately agreed upon, did not establish that the party had committed a fraud.[33]
+36 The judge further rejected a contention by Beling that, because the Commissioner had delayed taking proceedings to enforce her claim against him, that constituted a waiver on the part of the Commissioner. Her Honour regarded that argument as ‘hopeless’.[34]
+37 The judge further considered that matters relied on by Beling relating to Derham AsJ were scandalous and did not constitute any appropriate defence to the Commissioner’s claim under the settlement deed.[35]
+38 Next, the judge turned to a ‘litany of complaints’ made by Beling about the conduct of the Commissioner. Her Honour noted that those complaints were ‘largely unintelligible’, that they were unsupported factually, and that they provided no proper defence to the Commissioner’s claim under the settlement deed.[36]
+39 Judge Ryan concluded as follows:
+
+> > Having considered the materials filed by Beling, as well as his oral submissions at length, I am not satisfied he has shown cause in response to the Commissioner’s claim. I am not persuaded, based on the materials relied upon by Beling, including his written and oral submissions, that he has established any defence which has a real, as opposed to a fanciful, prospect of success.
+> > The allegations of duress, fraud and deceit (being numerous fraudulent representations pleaded) which may have, or could have been said to vitiate the Deed, are simply not borne out by the matters alleged by Beling in the proposed defence and counterclaim, his affidavits and submissions. The same applies to the allegations of waiver, acquiescence, unconscionable conduct, and estoppel claimed upon which it might have been said the Commissioner should not be permitted to enforce the Deed. Similarly, the various allegations regarding breaches of a contractual duty of good faith, statutory duty, negligence or breaches of the [Civil Procedure Act] do not, on the materials filed by Beling, provide any basis for a defence to the debt claim which has a real, as opposed to a fanciful, prospect of success.
+> > Beling has failed to satisfy the onus placed upon him to show cause in response to the Commissioner’s claim and therefore, will not be given leave to defend. It follows that the Commissioner is entitled to judgment on her claim. I have considered when exercising my discretion that Beling is a self-represented litigant who must have a reasonable opportunity of presenting his case, albeit one who has practised as a legal practitioner for many years. I am also mindful that summary judgment should only be entered in clear cases and that caution should be exercised before doing so. But having considered these matters, I remain of the view that summary judgment should be ordered in this case.
+> > Additionally, even though I am satisfied that Beling’s defence has no real prospects of success under s 63, I do not consider this is an appropriate case, being a simple debt claim, where leave to proceed to trial should be given under s 64 of the [Civil Procedure Act]. Both parties produced extensive written and oral submissions, and affidavits with copious exhibits which dealt fully with the issues in dispute. Given this, I do not consider it is in the interests of justice that the matter should proceed to trial or that only a full hearing on the merits is appropriate. In my view, the proceeding is one which can and should be disposed of summarily.[37]
+
+
+
+> First appeal — proposed grounds of appeal
+
+
+
+40 As mentioned, the amended application for leave to appeal, and the proposed grounds of appeal, are directed to the two decisions of Judge Cosgrave and the two decisions of Judge Ryan. The application for leave to appeal from the decisions of Judge Cosgrave were first brought almost twelve months after the expiration of the time prescribed by the Supreme Court (General Civil Procedure) Rules 2015 [http://www.austlii.edu.au/au/legis/vic/consol_reg/sccpr2015433/] (‘the Rules’). Accordingly, it is necessary for the applicant first to obtain an extension of time within which to seek leave to appeal from those two decisions. Before turning to that application, it is, however, convenient first to summarise the proposed grounds of appeal sought to be relied on by the applicant in respect of the decisions of both Judge Cosgrave and Judge Ryan.
+41 There are some sixteen proposed grounds of appeal. They are prolix and somewhat tendentious. They each commence with the phrase ‘the Court has erred in its decision ...’ without specifying to which decision the proposed ground is directed. As paraphrased the proposed grounds are as follows:
+
+(1)
+
+The Court erred in its decision to grant summary judgment ‘or strike out’ to the Commissioner because it failed to consider sufficiently or at all: the circumstances preceding the parties’ entry into the deed of settlement dated 25 June 2018; the applicant’s personal circumstances before and at the time of entering into the deed; the circumstances of the signing of the deed; the costs of legal representation and future Court proceedings; the Commissioner’s ‘uncooperative and stonewalling conduct’ in refusing to discuss issues in dispute; the effect of the Court proceeding on the applicant’s likelihood of success on future appeal; the documents and information available to the applicant; the Commissioner’s ‘failure to comply with professional standards in the legal profession’; ‘the authenticity of the applicant’s client files’; and ‘clear evidence of error’ in the VCAT and Supreme Court decisions relied on by the Commissioner.
+
+(2)
+
+The Court erred in its decision to refuse the applicant’s applications for summary judgment and/or to strike out parts of the Commissioner’s statement of claim in that it failed to consider sufficiently or at all the considerations relied on in respect of ground 1, and, in addition: the Commissioner’s alleged failure to comply with ss 16 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/s16.html]-26 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/s26.html] of the Civil Procedure Act [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/]; ‘insufficient evidence and law to support the Commissioner’s claim’; and ‘the Court having dealt with the application there [was] no legal or factual basis for not dealing with it again if there are new facts and circumstances.’
+
+(3)
+
+The Court erred in its decision to strike out and/or grant summary judgment to the Commissioner concerning the applicant’s defence and counterclaim of duress.
+
+(4)
+
+The Court erred in its decision to strike out and/or grant summary judgment concerning the applicant’s defences of waiver, acquiescence, unconscionability and estoppel.
+
+(5)
+
+The Court erred in its decision to strike out and/or grant summary judgment concerning the applicant’s defence and counterclaim of breach of a contractual duty of good faith.
+
+(6) & (7)
+
+These two grounds each allege that the Court erred in its decision to strike out and/or grant summary judgment concerning the applicant’s defence and counterclaim based on breach of statutory duties and negligence.
+
+(8), (9) & (10)
+
+Each of these grounds allege that the Court erred in its decision to strike out and/or grant summary judgment concerning the applicant’s defence and counterclaim of breach of statutory duty, fraudulent misrepresentation and negligence based on various aspects of the applicant’s pleading.
+
+(11)
+
+The Court erred in failing to consider or sufficiently consider the applicant’s arguments concerning the respondent’s inclusion of the applicant’s ‘without prejudice’ correspondence and concerning the admissibility of the Commissioner’s ‘without prejudice’ settlement offer of $20,000 on 28 February 2020 at the judicial resolution conference.
+
+(12)
+
+The Court erred in its application of the decision of Judicial Registrar Keith dated 22 April 2020.
+
+(13)
+
+The Court erred by allegedly being misled by the Commissioner failing to disclose the consent orders she signed with the applicant on 19 January 2021 in the first Supreme Court proceeding and the present Supreme Court proceeding.
+
+(14)
+
+Judge Cosgrave failed to consider sufficiently the applicant’s submissions and ‘evidence on the merits’ referred to in grounds 1 to 12.
+
+(15)
+
+Judge Cosgrave failed to consider sufficiently the applicant’s submissions and evidence on costs.
+
+(16)
+
+The Court erred in failing to consider sufficiently both parties’ submissions and the applicant’s evidence as to costs.
+
+Application for extension of time
+
+42 The applicant first applied for an extension of time within which to apply for leave to appeal against the decisions of Judge Cosgrave on 23 July 2021, almost twelve months after the expiration of the time fixed by rule 64.05(1) of the Rules for the making of such an application. The application is supported by an affidavit sworn by the applicant. In summary the applicant deposes as follows:
+
+ * On 19 January 2021, the Commissioner and the applicant signed consent orders agreeing to the filing of an application to amend the three notices of appeal in the first Supreme Court proceeding and the second Supreme Court proceeding. The applicant maintains that those consent orders constitute ‘special circumstances’ which would justify an extension of time.
+ * Due to the quantum of the costs order made by VCAT, the applicant was unable to afford legal advice or legal representation. Therefore, adding further legal costs to the debt was an ‘unacceptable financial risk’ in view of the state of the evidence at the time.
+ * The applicant could not afford legal advice regarding his rights to appeal.
+ * The applicant maintains that he ‘was and [is] being denied the opportunity to explore the merits of my case on appeal by the Commissioner’s stone walling conduct’. In particular, the applicant maintains that the Commissioner has refused to assign delegates with personal knowledge of the client file to meet with him.
+ * It is maintained that the fact, that the Commissioner did not seek costs after the first decision by Judge Cosgrave, was ‘an acknowledgement that the judgment was laden with errors’.
+ * Since 14 July 2020 and the lockdowns commencing in August 2020, the applicant has been ‘under immense stress’ due to work commitments and the need to share home schooling duties for his two young children.
+ * The applicant has been unable to trust judges ruling on his case ‘because of grave fears of bias’. He maintains that he was ‘not thinking properly and still has significant issues with trusting judges’.
+
+43 In support of the application, the applicant filed written submissions which, in substantial measure, repeated the matters and points contained in his affidavit. In particular, it is submitted that the conduct by the Commissioner prevented the applicant obtaining the evidence he needed for his appeal. That conduct, it was contended, included the Commissioner’s refusal to meet with the applicant concerning the issues in dispute, the production by the Commissioner of ‘false bills of costs’ for the VCAT proceeding, and the Commissioner’s conduct in signing the consent orders on 19 January 2021. The applicant relied on his financial difficulties and the stresses of work and family life as providing a sufficient excuse for the delay in seeking leave to appeal the decisions of Judge Cosgrave. Further, it was submitted that as the Court will be hearing the leave application against the decisions of Judge Ryan, no significant burden would be placed on the Court to hear and determine the appeal against Judge Cosgrave’s two decisions at the same time. Further, it was submitted that there is no prejudice to the Commissioner if time were extended, and that the applicant’s appeals from the decisions of Judge Cosgrave ‘were and are meritorious’.
+44 In response, counsel for the respondent noted that the decisions made by Judge Cosgrave were quite limited. In particular, his Honour declined to grant the Commissioner’s application for summary judgment, and, having struck out Beling’s defence and counterclaim, provided Beling with an opportunity to put forward a further pleading. Beling took advantage of that opportunity, and sought leave (by summons dated 25 August 2020) to file a proposed amended defence and counterclaim. In that way, it was submitted, Beling made a deliberate decision not to seek leave to appeal the orders of Judge Cosgrave.
+45 Counsel further submitted that Beling has provided no adequate excuse or reason why he did not seek leave to appeal the orders of Judge Cosgrave within the time prescribed by the Rules. In particular, it was submitted, Beling’s claim to be impecunious did not justify an extension of time for a period of twelve months. Throughout the relevant proceedings, Beling had acted for himself and had been able to prepare detailed Court documents. Counsel contended that the Court should reject Beling’s complaints about the conduct of the Commissioner’s office. Those complaints predated the decisions of Judge Cosgrave. Further, it was submitted, the Commissioner and the legal practitioners acting on her behalf were not obliged to meet with Beling or otherwise to cooperate with him. Counsel further submitted there is no substance in a number of the allegations made by Beling in his affidavit and submissions in support of an extension of time. In particular, it was submitted, there was no substance to the claim that the Commissioner had produced false bills of costs, and to the allegation that the Commissioner had subjected Beling to economic duress. The fact that the Commissioner did not commence the County Court proceeding until August 2019 did not constitute acquiescence in the default by Beling in compliance with the terms of the settlement deed, nor did it amount to a waiver by the Commissioner of her entitlement to payment under the deed.
+46 Finally, it was submitted on behalf of the Commissioner that the proposed appeal, from the orders of Judge Cosgrave, were without merit and accordingly a grant of an extension of time would be futile.
+
+
+
+> Application for extension of time — consideration and conclusion
+
+
+
+47 The application by Beling, for an extension of time within which to apply for leave to appeal against the two decisions of Judge Cosgrave, is made under r 64.08 of the Rules. The underlying object of that rule is to provide to the Court a discretion to extend time with a view to avoidance of an injustice.[38] In Kambouris v Kiatos,[39] McLeish JA and Riordan AJA identified the principal relevant factors that are ordinarily taken into account on such an application in the following terms:
+
+> > In deciding whether an extension of time to seek leave to appeal should be granted, the Court will take into account several factors, including: (a) the length of delay; (b) the reasons for delay; and (c) the extent of any prejudice suffered by the respondent if the extension is granted. An extension of time will not be granted if the appeal ‘is so devoid of merit that it would be futile to do so’.[40]
+
+48 The exercise of the discretion must be undertaken taking into account that the overarching purpose of the Rules is to facilitate ‘the just, efficient, timely and cost effective resolution of the real issues in dispute’,[41] and that, upon the expiry of the time limited for the appeal, the respondent had a vested right to retain the judgment obtained at first instance unless the application for an extension of time is granted.[42]
+49 Based on those principles, we consider that the application for an extension of time in respect of the orders made by Judge Cosgrave is entirely without merit. The applicant delayed almost twelve months before seeking to file an application seeking leave to appeal against the orders of Judge Cosgrave. It is clear, from the applicant’s application for leave to extend time, that that delay was the product of a deliberate decision by the applicant. In his written submissions in support of the application for leave to extend time, the applicant stated:
+
+> > Put simply, the Applicant had a reasonable expectation that the clear errors identified in the Applicant’s Notice of Appeal, which first manifested themselves in his Honour Judge Cosgrave’s decisions, would be remedied in the Court’s next decision on the pleadings. This was not, unfortunately the case and her Honour Judge Ryan made virtually exactly the same decision as Cosgrave J. It is submitted that the Applicant’s conduct in not appealing immediately was reasonable and prudent.
+
+50 The applicant has sought to proffer other reasons why he was unable to, or did not, seek to file an application for leave to appeal against Judge Cosgrave’s decisions for a period of almost twelve months. In particular, he referred to his impecuniosity, and to the pressures of his work and family life at the time. However, the applicant was a qualified legal practitioner, who had conducted practice for some years. He had previously prepared and filed a number of legal documents on his own behalf, in the first Supreme Court proceeding, in the second Supreme Court proceeding, and in the County Court proceeding. While pressures of his work and family life at the time might account for some minor aspects of the delay, they do not, and could not, logically account for the delay of twelve months.
+51 In his affidavit, and in his written submissions, the applicant has made a number of other unsubstantiated allegations concerning the Commissioner and other persons associated with the case. Those allegations lack any evidentiary support. In particular, the applicant has claimed that the Commissioner was to blame for the delay because she, and those acting for her, declined to meet with the applicant. The Commissioner was under no such obligation. Further, the fact that the Commissioner or her staff did not meet with the applicant is, logically, irrelevant to the decision made by the applicant to refrain from seeking leave to appeal the decisions of Judge Cosgrave for a period of twelve months. The allegations made by the applicant, in his materials, that the Commissioner had lodged ‘false’ bills of costs, and the allegations levelled against four judicial officers of bias and collusion, are entirely without substance, and are irrelevant to the decision made by the applicant to refrain from seeking leave to appeal from the decisions of Judge Cosgrave.
+52 Thus, the delay in the case is substantial, and the applicant has failed to provide any proper excuse or explanation for that delay. Further, the applicant has failed to demonstrate that he will suffer any unfair prejudice if he were unable to seek leave to appeal against the decisions of Judge Cosgrave. As counsel for the respondent has noted, the orders made by Judge Cosgrave were of a fairly narrow compass. His Honour declined to grant the Commissioner’s application for summary judgment. Having struck out Beling’s defence and counterclaim, he provided Beling with a further opportunity to put forward an amended pleading that complied with the County Court Rules and that pleaded justiciable defences and counterclaims.
+53 Finally, the proposed grounds of appeal, in relation to Judge Cosgrave’s two decisions, are without merit. As we will briefly discuss when addressing the proposed grounds of appeal, the grounds that were addressed to Judge Cosgrave’s decision are flawed. If an extension of time were granted, those grounds would be without any material prospect of success.
+54 In those circumstances, the application by Beling for an extension of time within which to file and serve a notice of application for leave to appeal against the orders of Judge Cosgrave made 14 July 2020 and 23 July 2020 is refused.
+
+
+
+> Ground 1 — submissions
+
+
+
+55 Ground 1 is directed to the decision of Judge Ryan on 23 June 2021, granting summary judgment to the Commissioner on her claim in the County Court proceeding.
+56 In support of ground 1, Beling submitted that the Commissioner’s submissions, before Judge Ryan, failed to respond to the defences sought to be pleaded in the proposed amended defence and counterclaim. He further submitted that the Commissioner’s submissions to Judge Ryan ignored her alleged ‘failure to deny conspiring with VCAT to falsify and forge [Beling’s] client files ... the elephant in the Court room, which conspiracy she has admitted in the Supreme Court consent orders’. It was further submitted that the majority of the Commissioner’s case was based on the VCAT bill of costs which was not filed with the Court. In fact, it was submitted, no itemised bill of costs had been filed in the Court. It was further submitted that the solicitor acting for the Commissioner had tampered with the file in the VCAT proceeding, which had been impliedly admitted by the consent order signed on behalf of the respondent on 19 January 2021.
+57 In response, counsel for the Commissioner noted that the claim made by the Commissioner in the County Court proceeding was a simple claim based on the debt payable by the applicant pursuant to the settlement deed. Counsel noted that Beling, having entered into the deed, paid the first three instalments due and payable under it, and then ceased making further payments. Beling’s liability to pay the balance of the monies owing under the deed was adequately proven by the affidavit in support of the summary judgment sworn by the Commissioner’s solicitor Alexandra Freeman made 12 March 2020. Further, it was submitted, Beling has not adduced any evidence to support the allegation that the Commissioner had conspired with VCAT to falsify and forge his client files. Those issues were agitated by Beling in the VCAT proceeding and, after detailed consideration, the Senior Member rejected those allegations.
+58 Counsel for the Commissioner noted that the Commissioner sent the bill of costs, concerning the VCAT proceeding, to Beling, by email on 10 May 2018. Beling first agitated any issues about the bill following receipt of Ms Freeman’s affidavit of 12 March 2020. The bills were not exhibited to that affidavit because (as deposed by Ms Freeman) they are voluminous. Counsel noted that as the quantum of the costs payable by Beling to the Commissioner was agreed in the settlement deed, it was not necessary for the respondent to plead or tender the bills in the County Court proceeding.
+
+
+
+> Ground 1 — consideration and conclusion
+
+
+
+59 The application by the Commissioner for summary judgment in the County Court proceeding was made under s 63 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/s63.html] of the Civil Procedure Act [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/] and Rule 22.08 of the County Court Rules. Section 63(1) provides that a court may give summary judgment in any civil proceeding if it is satisfied that a claim, defence or counterclaim, or part of the claim, defence or counterclaim (as the case requires) ‘has no real prospect of success’.
+60 In Lysaght Building Solutions Pty Ltd v Blanalko Pty Ltd,[43] this Court gave detailed consideration to the content of the test posited by s 63. It contrasted the previous test (‘no real prospect of success’) with the test described in cases such as General Steel Industries Inc v Commissioner for Railways (NSW),[44] which required that, in order that an application for summary judgment succeed, the defence (or, where applicable, the claim) was ‘hopeless’ or ‘bound to fail’. In Lysaght, the Court held that the test prescribed by s 63 was more liberal than that previous test. The Court stated:
+
+> > It follows that, for present purposes, the test under s 63 [http://www.austlii.edu.au/cgi-bin/viewdoc/au/legis/vic/consol_act/cpa2010167/s63.html] of the Civil Procedure Act [http://www.austlii.edu.au/cgi-bin/viewdoc/au/legis/vic/consol_act/cpa2010167/] should be construed as one of whether the respondent to the application for summary judgment has a ‘real’ as opposed to a ‘fanciful’ chance of success; that the ‘real chance of success’ test is to some degree a more liberal test than the ‘hopeless’ or ‘bound to fail’ test; and that, as the law is at present understood, the real chance of success test permits of the possibility that there may be cases, yet to be identified, in which it appears that, although the respondent’s case is not ‘hopeless’ or ‘bound to fail’, it does not have a real prospect of succeeding.[45]
+
+61 In Silver Chef Rentals Pty Ltd v Makong Australia Pty Ltd,[46] Sloss J conveniently quoted from the decision of the Court in Lysaght in the following terms:
+
+> > In Lysaght Building Solutions Pty Ltd v Blanalko Pty Ltd, the Court of Appeal stated the relevant test to be applied in determining an application for summary judgment made under ss 61 and 63, as follows:
+> > (a) the test for summary judgment under s 63 of the [Civil Procedure Act [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/]] is whether the respondent to the application for summary judgment has a ‘real’ as opposed to a ‘fanciful’ chance of success;
+> > (b) the test is to be applied by reference to its own language and without paraphrase or comparison with the ‘hopeless’ or ‘bound to fail test’ essayed in [General Steel Industries Inc v Commissioner for Railways (NSW) [1964] HCA 69 [http://www.austlii.edu.au/au/cases/cth/HCA/1964/69.html]; (1964) 112 CLR 125] [/cgi-bin/LawCite?cit=%281964%29%20112%20CLR%20125];
+> > (c) it should be understood, however, that the test is to some degree a more liberal test than the ‘hopeless’ or ‘bound to fail’ test essayed in General Steel and, therefore, permits of the possibility that there might be cases, yet to be identified, in which it appears that, although the respondent’s case is not hopeless or bound to fail, it does not have a real prospect of success;
+> > (d) at the same time, it must be borne in mind that the power to terminate proceedings summarily should be exercised with caution and thus should not be exercised unless it is clear that there is no real question to be tried; and that is so regardless of whether the application for summary judgment is made on the basis that the pleadings fail to disclose a reasonable cause of action (and the defect cannot be cured by amendment) or on the basis that the action is frivolous or vexatious or an abuse of process or where the application is supported by evidence.[47]
+
+62 As counsel for the respondent has correctly noted, the claim made by the Commissioner in the County Court proceeding was a simple claim for a debt payable by Beling by the terms of the settlement deed executed by him. The affidavit of Ms Freeman sufficiently proved the execution of the deed, the payment by Beling of the first three instalments due under it, and the failure by him to pay any further instalment. It was not necessary for the Commissioner to adduce the bills of costs as evidence in the proceeding. In the absence of a sufficiently arguable defence — that is, one that has a ‘real’ as opposed to ‘fanciful’ prospect of success — the Commissioner was entitled to summary judgment pursuant to s 63 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/s63.html] of the Civil Procedure Act [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/]. We also note that, in any event, in an affidavit in response to the claim by the Commissioner for summary judgment, Beling himself exhibited the Commissioner’s bill of costs.
+63 As we will discuss when considering the remaining grounds of the application for leave, we consider that Judge Ryan was correct in concluding that none of the matters relied on by Beling, in response to the application for summary judgment, had a real (as opposed to fanciful) prospect of success. Further, the contention advanced by Beling — that the Commissioner had failed to ‘deny conspiring with VCAT to falsify and forge [Beling’s] client files’ — is entirely lacking in any evidentiary foundation or support. In the VCAT proceeding, the Senior Member, having considered the same allegation made by Beling, concluded:
+
+> > Finally, I confirm I find nothing raised by Mr Beling in this submission gives rise to any doubts about the integrity of the VLSC’s conduct in this matter. Nor do I accept the other allegations or insinuations made by Mr Beling against the VLSC or its counsel in the conduct of this matter.[48]
+
+64 Further, Beling claims that it was in January 2017 that, in the course of the VCAT hearing, he discovered that the client files had been tampered with. It is significant that, notwithstanding his claimed knowledge of that circumstance, and having unsuccessfully agitated that issue in the VCAT proceeding, he nevertheless entered into the agreement, constituted by the settlement deed, in June 2018, to pay the costs of the Commissioner.
+65 For those reasons, the allegation of file tampering was entirely without evidentiary foundation.
+66 Further, the allegation of file tampering does not, logically, provide any justiciable response to the claim by the Commissioner for the debt due under and pursuant to the deed.
+67 For those reasons, ground 1 of the application must fail.
+
+
+
+> Ground 2 — submissions
+
+
+
+68 In support of ground 2, Beling submitted that Judge Ryan erred in failing to consider his application for summary judgment, and to strike out the statement of claim, because there were ‘new facts and circumstances’ comprising ‘the alleged conspiracy’ involving three named judicial officers.
+69 Under ground 2, Beling then advanced a number of reasons why Judge Ryan should have granted leave to him to file and serve the amended defence and counterclaim. He noted that the pleading was ‘very similar’ to the previous pleading of the defence and counterclaim upon which the Commissioner had made a settlement offer of $20,000 in exchange for a release of all claims. Beling also noted that Judge Cosgrave had granted him leave to make application for summary judgment based on the amended defence and counterclaim, so that it ‘stands to reason that the [amended defence and counterclaim] is a significantly more meritorious pleading’.
+70 Beling also submitted that the new facts introduced by the amended pleading justified the delivery of that pleading.
+
+
+
+> Ground 2 — analysis and conclusion
+
+
+
+71 Ground 2, as drafted, is directed to the decision by Judge Ryan to refuse Beling’s application for summary judgment against the Commissioner and to strike out the Commissioner’s statement of claim. Those applications were entirely without any legal merit. The claim by the Commissioner was properly pleaded, and was supported by the affidavit sworn by Ms Freeman. Beling did not put forward any logical reason, either before Judge Ryan, or this Court, why the pleading should be struck out. Further, Beling failed to adduce any evidence to support the allegation of some form of undefined conspiracy between three judicial officers. Such an allegation is, on its face, particularly serious. As a matter of fundamental principle, an allegation such as that should only be made where there is cogent and proper proofs adduced in support of it.[49] No such proofs — indeed, no proof at all — was provided by Beling in support of the allegation.
+72 We will deal with the submissions made by Beling, in relation to the settlement offer of $20,000 made by the Commissioner at the judicial resolution conference, when we consider ground 11. In short, Judge Ryan was correct to conclude that the offer, having been made ‘without prejudice’ at the judicial resolution conference, was not admissible in the proceeding pursuant to s 67 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/s67.html] of the Civil Procedure Act [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/]. In any event, the fact of the making of that offer, in the course of settlement negotiations, provides no logical support to ground 2 in the present application.
+73 It follows that ground 2 of the application for leave to appeal must be refused.
+
+
+
+> Ground 3 — submissions
+
+
+
+74 In support of ground 3, Beling submitted that Judge Ryan erred in dismissing his defence and counterclaim based on duress. First, it was submitted that the Commissioner had not denied engaging in duress. Secondly, it was submitted, the Commissioner admitted that there were new allegations which she had not denied in submissions or affidavits before Judge Ryan. Thirdly, it was submitted, the Commissioner did not provide evidence in support of her claim for the specific work she allegedly performed in incurring the costs that were claimed in the first Supreme Court proceeding and in the VCAT proceeding. It was submitted that the production of the ‘fraudulent’ VCAT bill of costs predated the signing of the settlement deed. Accordingly, it was submitted, the settlement deed is flawed.
+75 In response, it was submitted on behalf of the Commissioner that it is clear, on the evidence, that Beling wished to enter into the settlement deed, and to avoid additional costs of the matters going to the Costs Court. In his communications with the Commissioner, Beling accepted the compromised sum sought by the Commissioner for costs, and stated that he was able to pay that sum by monthly instalments of $10,000 each. In those circumstances, it was submitted, there was no basis upon which it could be contended that it was arguable that Beling had entered into the deed under duress.
+
+
+
+> Ground 3 — consideration and conclusion
+
+
+
+76 In Crescendo Management Pty Ltd v Westpac Banking Corp,[50] McHugh JA (with whom Samuels and Mahoney JJA agreed) observed that the rationale of the doctrine of economic duress is that ‘the law will not give effect to an apparent consent which was induced by pressure exercised upon one party by another party when the law regards that pressure as illegitimate’.[51] McHugh JA rejected the theory that, in order to establish duress, it is necessary to demonstrate that the will of the contracting party has been overborne. His Honour stated:
+
+> > In my opinion the overbearing of the will theory of duress should be rejected. A person who is the subject of duress usually knows only two well what he is doing. But he chooses to submit to the demand or pressure rather than take an alternative course of action. The proper approach in my opinion is to ask whether any applied pressure induced the victim to enter into the contract and then ask whether that pressure went beyond what the law is prepared to countenance as legitimate? Pressure will be illegitimate if it consists of unlawful threats or amounts to unconscionable conduct. But the categories are not closed. Even overwhelming pressure, not amounting to unconsconiable or unlawful conduct, however, will not necessarily constitute economic duress.[52]
+
+77 In Commonwealth Bank of Australia v Doggett,[53] Hargrave J summarised the relevant principle as follows:
+
+> > It is for the party alleging duress to prove it. This requires proof of two essential elements. First, that pressure was applied to the affected party and was one of the reasons for the party entering into the transaction. Second, that the pressure was of an illegitimate kind, so as to negate the consent of the affected party. As Tadgell JA observed in McKay v National Bank of Australia Ltd, the kinds of illegitimate pressure are ‘various and indefinite and the categories are not closed ... the validity in law of pressure exerted by one party on another ... will obviously be determined by the circumstances and the relationship, if any, between the parties.’
+> > Mere commercial pressure to act is not sufficient to establish the second element of duress. In the commercial arena, many acts are done under pressure, sometimes overwhelming pressure, so that it can be said that the party had no choice but to act. To constitute duress, however, the commercial pressure must be of a kind that is regarded by the law as illegitimate. As Tadgell JA said in McKay, ‘a threat by the creditor to institute legal proceedings or to pursue another legal remedy in order to recover the debt could seldom be wrong in itself’.[54]
+
+78 In similar terms, in Air India v The Commonwealth,[55] the New South Wales Court of Appeal, having examined the relevant authorities, stated:
+
+> > The authorities ... indicate that in general it must be established in order to show that a payment was made under compulsion that: (a) there was a fear that, if it were not paid, the payee would take some step, other than invoking legal process, which would cause harm to the payer; and (b) that this fear was reasonably caused or well-founded.[56]
+
+79 The circumstances, in which Beling signed the settlement deed, are described in Ms Freeman’s affidavit. In short, on 28 November 2017, Ms Freeman sent an email to Beling with a draft schedule of the costs of the VCAT proceeding in the sum of $201,856.37. In her letter, Ms Freeman advised Beling that the Commissioner was in the process of having the file costed in relation to the first Supreme Court proceeding. Ms Freeman sent a further email to Beling informing him that if the matter could not be resolved, the Commissioner would have the file costed. Beling responded by email dated 21 December stating that the amount was not in dispute, and accepting that he was required to pay the approximate sum of $201,000. In the email he requested a ‘reasonable instalment plan’ to pay that amount. In response, Ms Freeman, on 22 December 2017, sent an email to Beling advising that the Commissioner would accept the payment of $10,000 per month until the debt was paid. Beling responded by an email dated 8 January 2018, advising that it was not necessary to have the VCAT file costed, because he had agreed that the sum of $201,856.37 was to be paid and he had already paid $10,000 towards that amount (in fact he had paid the amount of the fine).
+80 On 9 January, Ms Freeman sent Beling an email stating that the Commissioner was of the view that $10,000 per month was an appropriate payment plan. She advised Beling that her office would not be entering into any further communication with him, until it had received bills of costs from its cost consultant in relation to both the VCAT matter and the first Supreme Court proceeding. In response, Beling sent a series of emails to the Commissioner requesting time within which to commence payment of the instalments of $10,000. In an email dated 7 March 2018, he requested Ms Freeman to cancel the assessments of the Commissioner’s costs. He advised that he was ready to pay the first instalment of $10,000 and that he had agreed to pay the Commissioner’s bill of approximately $201,000.
+81 On 10 May 2018, Ms Freeman sent Beling a letter attaching the proposed settlement deed, a draft bill of costs in the VCAT proceeding, and a draft bill of costs in the Supreme Court proceeding. Those two bills of costs totalled $297,941.09, not taking into account the Commissioner’s costs for drawing the bills. In her letter, Ms Freeman advised that, taking into account the fine of $10,000 that Beling had paid, the Commissioner was prepared to accept payment of $237,767.15 by instalments of $10,000 each month.
+82 In response, Beling sent emails dated 14 May and 15 May to Ms Freeman stating that he was under financial duress and that he would need significant time for consideration and to obtain legal advice. He repeated that request by a further email on 16 May. On 17 May, Ms Freeman sent a letter to Beling by email responding to a number of matters that had been raised by Beling. In the email, she stated that the Commissioner was willing to provide an extension of twenty one days for him to consider the documents and obtain legal advice about them. She rejected the suggestion that she was placing Beling under financial pressure.
+83 By emails dated 5 and 6 June 2018, Beling claimed that the debt was wholly unjustifiable and unreasonable, and that if the Commissioner wished to proceed with her claim to the amount of $237,000, she would be attempting to obtain a financial advantage, by a threat of costs in the Costs Court, to cause him economic duress. By email dated 6 June, Ms Freeman responded noting that Beling was unwilling to pay the Commissioner’s costs in the amount of $237,767.15, and that consequently the Commissioner withdrew her offer and would now seek payment of her costs in full.
+84 On the same day, 6 June 2018, Beling responded to Ms Freeman’s email attaching a copy of the signed settlement deed. On 12 June, Ms Freeman received in the post the settlement deed signed by Beling.
+85 In that set of circumstances, it is clear that the only ‘pressure’, which, it could be contended, the Commissioner placed on Beling, was the Commissioner’s statement that, if Beling did not accept the compromised amount of approximately $237,000, the Commissioner would seek payment of her costs in full, including the costs of preparation of the bills of costs. That ‘pressure’ was entirely legitimate and constituted no more than a statement by the Commissioner that if Beling was not prepared to accept the compromised amount, the Commissioner would seek to enforce her legitimate legal rights.
+86 In those circumstances, it is clear that the purported defence based on economic duress had no real prospect of success. Indeed, in terms of the more stringent former test applied in summary judgment of proceedings, the prospects of success of such a defence were hopeless.
+87 It follows that ground 3 must fail.
+
+
+
+> Ground 4 — submissions
+
+
+
+88 In support of ground 4, Beling submitted that the particulars, pleaded in paragraph 51 of the amended defence and counterclaim, provided clear examples of conduct by the Commissioner that constituted waiver, estoppel and acquiescence. It was submitted that that conduct, as particularised in the proposed pleading, demonstrated that the Commissioner ‘... was paralysed in a state of fear and panic because her various frauds and the conspiracy with VCAT would be brought to light if she commenced proceedings and she knowingly refused to act ...’. It was further submitted that the Commissioner had waived and abandoned her rights under the settlement deed by not seeking to enforce them between October 2018 and July 2019. In that respect, Beling noted that the Commissioner did not respond to his letter dated 27 September 2018 repudiating the deed of settlement.
+89 In respect of the defence of unconscionability, it was submitted that the Commissioner did not, in the affidavit of Ms Freeman or in written submissions in the County Court proceeding, dispute a number of allegations, including: failing to comply with professional standards in the legal profession; ‘conspiring with VCAT to falsify his client files’; failing to comply with the Civil Procedure Act [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/]; providing ‘a false and fraudulent bill of costs for the VCAT proceeding’; refusing to negotiate the costs for charges 2 and 4 in the VCAT proceeding on which Beling had been found not guilty; and using the outstanding debt to prevent the applicant from working as an employee legal practitioner.
+
+
+
+> Ground 4 — analysis and conclusion
+
+
+
+90 Paragraph 51 of the proposed amended defence and counterclaim alleged that once Beling raised issues concerning the Commissioner’s professional conduct in the proceedings, the Commissioner refrained from enforcing her rights under the settlement deed between October 2018 and July 2019, and the Commissioner refused to enter into any discussions with Beling concerning her conduct in the proceeding. Further, at the ‘without prejudice’ judicial resolution conference on 28 February 2020, the Commissioner offered to settle all pending proceedings between the parties for $20,000, that sum constituting a 91 per cent discount on the possible claim that she had against Beling.
+91 The facts, that are contained in Ms Freeman’s affidavit, plainly negate the potential viability of the defences of waiver, acquiescence, unconsionability and estoppel that are the subject of ground 4. As we have noted, following execution of the deed in June 2018, Beling promptly paid the first three instalments that were due under the deed by 1 July, 1 August and 1 September 2018 respectively. The next instalment was due on 1 October. Three days earlier, on 27 September, Beling sent an email to Ms Freeman containing allegations concerning the entry into the deed and contending that the deed was unenforceable for a variety of reasons. In response, Ms Freeman sent an email to Beling on 3 October 2018, in which she advised that the Commissioner did not agree with his assessment contained in his email of 27 September, and noting that as Beling had not paid the instalment that was due by 1 September, he was now in default of the deed of settlement. Beling then sent an email to Ms Freeman on 5 October, requesting that she advise in detail why the Commissioner disagreed with his assessment as to the circumstances in which the parties entered into the settlement deed. Ms Freeman responded by email dated 9 October, reiterating that Beling was in default under the deed, and stating that the Commissioner was assessing her option to recover the full settlement sum in accordance with clause 4.1(a) of the deed. She also informed Beling that the Commissioner was under no obligation to continue to engage in discussions with him in relation to the concerns he had raised. She advised Beling that the Commissioner would not be entering into any further communication with him about that matter.
+92 Subsequently, on 17 December 2018, Beling sent an email to the Commissioner alleging that the Commissioner had waived her rights under the settlement deed and that he would be relying on the Commissioner’s ‘apparent waiver, abandonment, agreement and acquiescence to not enforce [her] alleged rights under the deed’. Ms Freeman responded by an email dated 24 December, stating that the Commissioner did not agree with the matters alleged in Beling’s email, and denying that she had acquiesced in Beling’s default under the deed. Ms Freeman reiterated that the Commissioner was assessing her options to recover the full settlement sum from Beling in accordance with the settlement deed, and that she would be in contact in the new year about how the Commissioner wished to recover her costs from Beling.
+93 In those circumstances, it is clear that the proposed defences by Beling of waiver, acquiescence, unconscionability and estoppel are without any appropriate factual foundation. Throughout her dealings with Beling, the Commissioner made it plain that, after he had defaulted in payment under the settlement deed, she rejected his allegations, and that she would pursue her rights under the deed to recover the full amount of the debt. The Commissioner was not obliged to meet with Beling in relation to the issue. Her apparent refusal to do so could not constitute any relevant waiver, acquiescence, unconscionability or estoppel. As we have discussed, the ‘without prejudice’ offer apparently made by the Commissioner at the judicial resolution conference was covered by legal privilege. However, in any event, such an offer could not logically support any of the proposed defences sought to be relied on by Beling.
+94 For those reasons, ground 4 cannot succeed.
+
+
+
+> Ground 5 — submissions
+
+
+
+95 In support of ground 5, Beling alleged that the Commissioner had conspired and colluded with VCAT to forge and falsify his client files in the disciplinary proceedings. Beling referred to and relied on the ‘failure’ of the Commissioner to discuss issues in dispute with him, her (alleged) failure to provide relevant documents to him, and her failure to file the two bills of costs. Further, Beling referred to the settlement offer of $20,000 made to him at the judicial resolution conference on 28 February 2020.
+96 In response, counsel for the Commissioner has noted that, as the law currently stands, there is no general contractual term, implied by law, that requires parties to act in good faith either when negotiating the contract or in performing it. It was submitted that in the present case there is no reason why the settlement deed should be subject to such a term.
+97 Further, counsel for the Commissioner noted that the submissions made by Beling focus principally on his ‘preoccupation’ with the question of the authenticity of the client file put before the VCAT proceeding, which, counsel noted, predated entry into the settlement deed by a period of almost two years.
+
+
+
+> Ground 5 — analysis and conclusion
+
+
+
+98 As counsel for the Commissioner has pointed out, as the law currently stands, there is no general contractual term, implied by law, that requires parties to a contract to act in good faith either when negotiating the contract or in the performance of it. Thus, in Esso Resources Pty Ltd v Southern Pacific Petroleum NL,[57] Buchanan JA stated:
+
+> > I am reluctant to conclude that commercial contracts are a class of contracts carrying an implied term of good faith as a legal incident, so that an obligation of good faith applies indiscriminately to all the rights and power conferred by a commercial contract. It may, however, be appropriate in a particular case to import such an obligation to protect a vulnerable party from exploitive conduct which subverts the original purpose for which the contract was made. Implication in this fashion is perhaps ad hoc implication meeting the tests laid down in BP Refinery (Westernport) Pty Ltd v Shire of Hastings, rather than implication as a matter of law creating a legal incident of contracts of a certain type.[58]
+
+99 In the present case, it is not readily apparent that the implication of such a term would be necessary to give business efficacy to the contract, or that such a term would be so obvious that it ‘goes without saying’.[59]
+100 In any event, if it were assumed that such a term was implied into the settlement deed, the matters relied on by Beling are incapable of establishing a breach of that term. There is no evidence at all to substantiate the grave allegation that the Commissioner in some way conspired and colluded with VCAT to forge and falsify Beling’s client files in the disciplinary hearing. In any event that alleged conduct predated the entry of the parties into the settlement deed by almost two years. The Commissioner was not obliged to meet with and discuss issues in dispute with Beling. As we have noted, the two bills of costs were not exhibited to Ms Freeman’s affidavit because they were voluminous. The quantum of the costs was agreed in the settlement deed, and accordingly it was not necessary for the Commissioner to tender those bills in evidence in the County Court proceeding. As we have already discussed, the offer of settlement made by the Commissioner at the judicial resolution conference was not admissible in evidence, and, in any event, it did not, logically, support any alleged breach of a contractual condition of good faith.
+101 For those reasons, ground 5 is not reasonably arguable and must fail.
+
+
+
+> Ground 6 — submissions
+
+
+
+102 In the proposed amended defence and counterclaim, it was sought to be pleaded that the Commissioner had breached statutory obligations contained in the Legal Profession Act [http://www.austlii.edu.au/au/legis/nsw/repealed_act/lpa2004179/] and that she had failed to act in good faith and acted unreasonably in her conduct of the complaint made against Beling by Mrs Hanna.
+103 In support of that pleading, Beling contended that the County Court erred in its decision to strike out or grant summary judgment concerning that part of the pleading, because the allegations that he made concerning the Commissioner had not been denied by the Commissioner and had not been given any consideration by the Court.
+
+
+
+> Ground 6 — analysis and conclusion
+
+
+
+104 The plea of breach of statutory duty contained in the proposed amended defence and counterclaim, and the submissions made by Beling, focus on a letter by the Commissioner to him dated 3 June 2014, in which the Commissioner advised Beling of her position, and provided some information to him. In the proceeding before VCAT, Beling raised the contents of that letter, and other matters with which we will shortly deal, in seeking to impugn the integrity of the conduct of the Commissioner in the disciplinary proceeding. Senior Member Smithers rejected the allegations made by Beling against the Commissioner’s officers, holding:
+
+> > In circumstances where the LSC was engaging in a dialogue with Mr Beling as part of its investigation, and inviting him to comment on certain matters, no basis has been demonstrated on which it would be appropriate for me, in considering his defence to these disciplinary charges, to entertain the suggestion LSC officers have acted in bad faith and are guilty of professional misconduct.[60]
+
+105 Further and in any event, the alleged conduct of the Commissioner predated the entry into the settlement deed by some four years. No logical nexus has been demonstrated between the alleged conduct of the Commissioner in 2014, and the entry into the settlement deed. It could not, on any view, provide a valid or viable defence to the claim by the Commissioner under the settlement deed.
+106 Accordingly, ground 6 must fail.
+
+
+
+> Ground 7 — submissions
+
+
+
+107 Ground 7 is directed to paragraphs 135G, 135H and particular (h) to paragraph 185 of the proposed amended defence and counterclaim. Those paragraphs alleged breach of statutory duty and negligence by the Commissioner relating to the Commissioner’s notice of decision dated 23 December 2014. That decision was that the Commissioner was satisfied that there was a reasonable likelihood that VCAT would find Beling guilty of professional misconduct. It was that decision which obliged the Commissioner, under s 4.4.13(2) of the Legal Profession Act [http://www.austlii.edu.au/au/legis/nsw/repealed_act/lpa2004179/], to apply to VCAT for an order under Division 4 of that Act in respect of Beling.
+108 In support of ground 7, Beling has contended that the County Court erred in its decision to strike out those paragraphs of the proposed amended defence and counterclaim because the allegations contained in them had been insufficiently denied by the Commissioner.
+
+
+
+> Ground 7 — analysis and conclusion
+
+
+
+109 Paragraph 135G of the proposed amended defence and counterclaim alleged that the Commissioner failed to make any adequate decision or provide adequate reasons for the decision contained in the notice of decision dated 23 December 2014.
+110 Paragraph 135H alleged that the Commissioner failed to adequately decide Beling’s complaint dated 14 November 2014 concerning the professional conduct of members of her office.
+111 There is no substance in either such pleading, or in the submissions made by Beling in support of them. In respect of paragraph 135G, it will be recalled that on 17 November 2014 Beling commenced the first Supreme Court proceeding seeking orders in relation to the notification to him by the Commissioner, dated 20 May 2014, that it was possible that a finding of professional misconduct or unsatisfactory professional conduct might be made against him. On 5 January 2015, some thirteen days after the Commissioner’s notice of decision dated 23 December 2014, Beling then informed the Supreme Court and the Commissioner that he intended to apply for leave to discontinue the first Supreme Court proceeding. In his decision in that proceeding, Derham AsJ rejected the issues raised by Beling concerning the Commissioner’s dismissal of the complaint that he had made by letter dated 14 December 2014 concerning the conduct of members of the Commissioner’s office in the investigation of the complaint against Beling. As mentioned, in the VCAT proceeding, Senior Member Smithers also rejected those allegations.[61]
+112 Further, and in any event, the allegations contained in the three subparagraphs of the proposed pleading are unsubstantiated. It is not demonstrated how, if they were made out, they could in any event give rise to a cross claim in damages which would provide Beling with an arguable defence to the claim made under the settlement deed.
+113 It follows that ground 7 does not succeed.
+
+
+
+> Ground 8 — submissions
+
+
+
+114 Ground 8 is directed to the decision of the County Court to strike out paragraphs 135I, 135J, 140, 142, and 185(i) and (j) of the proposed amended defence and counterclaim.
+115 Paragraph 135I alleged that the Commissioner failed to adequately investigate and decide the complaint that Beling made on 5 May 2016 concerning the professional conduct of officers of the Commissioner’s office. Paragraph 135J alleged that the Commissioner failed to maintain a proper chain of custody of the solicitor file resulting in the tender of a file to VCAT which was ‘in all the circumstances grossly inaccurate’. Paragraph 140 alleged that the Commissioner made a false statement in a letter to Beling dated 18 November 2014, which rejected the complaint made by Beling about members of the Commissioner’s office. Paragraph 142 alleged that the Commissioner made a false statement in a letter dated 6 May 2016, in which the Commissioner expressed the view that there was a reasonable likelihood that Beling’s conduct would amount to professional misconduct. Paragraph 185(i) alleged that the Commissioner failed to adequately decide Beling’s complaint dated 14 November 2014 concerning members of her office. Paragraph 185(j) alleged that the Commissioner failed to adequately investigate and decide Beling’s complaint dated 5 May 2016.
+116 In support of ground 8, Beling contended that the Court erred in its decision to strike out those paragraphs and to grant summary judgment in relation to them, because ( he contended) the allegations contained in them were insufficiently denied by the Commissioner and not properly dealt with by the Court.
+
+
+
+> Ground 8 — analysis and conclusion
+
+
+
+117 As we have already noted, the matters alleged in paragraphs 135I, 135J, 140, 142, 185(i) and 185(j) each concerned the rejection by the Commissioner of complaints made by Beling in his two letters dated 14 November 2014 and 5 May 2016. As we have mentioned, those allegations were rejected by VCAT. Beling did not provide any appropriate substantiation of them. It is not demonstrated how, if they were substantiated, they could provide a viable defence to or counterclaim in respect of the claim by the Commissioner under the settlement deed.
+118 Paragraph 135J, again, relates to the integrity and authenticity of Beling’s client file in the VCAT proceeding. Senior Member Smithers rejected Beling’s submissions in relation to that matter. Again, Beling has failed to adduce any relevant substantiation of the claim by him as relating to his file. Significantly, during the hearing of the VCAT proceeding Beling did not cross-examine Ms Freeman about the authenticity of the file that she annexed to her statement in the proceeding.[62]
+119 In those circumstances, Judge Ryan was correct to hold that the allegations about file tampering made by Beling did not have any real prospect of success in response to the claim by the Commissioner under the settlement deed.[63]
+120 It follows that ground 8 has not been made out.
+
+
+
+> Ground 9 -submissions
+
+
+
+121 Ground 9 contends that the Court erred in its decision to strike out, or grant summary judgment in respect of, the pleading of breach of statutory duty in paragraphs 135K, 135L and 135M of the proposed amended defence and counterclaim, the pleading of fraudulent misrepresentation contained in paragraph 143 of the pleading, and the allegation of negligence contained in subparagraphs (k), (l) and (n) of the particulars to paragraph 185 of the proposed pleading. In essence it is submitted that the allegations had not been sufficiently denied by the Commissioner in the County Court and were ‘admitted’ by the Commissioner in the consent orders the parties signed in the second Supreme Court proceeding on 19 January 2021.
+
+
+
+> Ground 9 — analysis and conclusion
+
+
+
+122 The allegations contained in the paragraphs of the pleading, that are the subject of ground 9, concern three matters, namely:
+
+
+
+> > (a) It is alleged that the Commissioner breached her statutory duties by failing to investigate issues relating to the client file (paragraph 135K and paragraph 185(k), (l) and (n)).
+> > (b) It is alleged that the Commissioner breached her statutory duties by undertaking the investigation without obtaining a complaint or authority from Mr Hanna which (as alleged) waived Mr Hanna’s legal professional privilege (paragraph 135L).
+> > (c) It is alleged that the Commissioner breached statutory duties by producing to Beling a bill of costs which was ‘false, misleading and deceptive’ (paragraphs 135M, 143).
+
+
+
+123 As we have already noted, Senior Member Smithers in the VCAT proceeding considered and rejected the claims made by Beling concerning the authenticity of the client file. Beling has failed to adduce any evidence to substantiate the allegation concerning the lack of authenticity of the file. The matters raised in respect to it do not provide any arguable defence to the claim by the Commissioner under the settlement deed.
+124 The fact that Mr Hanna was not a party to the complaint to the Commissioner did not preclude the Commissioner from undertaking the investigation of the complaint made by Mrs Hanna. The Tribunal and Derham AsJ each found that Mr Hanna (as well as Mrs Hanna) had waived legal professional privilege.[64]
+125 As already mentioned, the bills of costs were sent to Beling on 10 May 2018. They were not exhibited to Ms Freeman’s affidavit made on 12 March 2020 because they were voluminous. The bills of costs did not form part of the necessary proofs of the cause of action relied on by the Commissioner under the settlement deed and it was not necessary for her to exhibit them. Beling failed to adduce any appropriate substantiation for his allegation that the bills of costs were in any respect false, misleading or deceptive.
+126 On 19 January 2021, the parties signed consent orders in the first Supreme Court proceeding and the second Supreme Court proceeding by which they consented to Beling filing of three amended notices of appeal in those two proceedings. Those consent orders were procedural steps taken by the parties in order to enable Beling to file amended notices of appeal in those particular proceedings. There is no logical basis upon which it could be maintained that, by signing those orders, the Commissioner in some way admitted the allegations of breach of statutory duty and fraudulent misrepresentation contained in the proposed further amended defence and counterclaim.
+127 For those reasons ground 9 does not succeed.
+
+
+
+> Ground 10 — submissions
+
+
+
+128 Ground 10 is concerned with paragraph 135N, paragraph 139, and subparagraph (m) of the particulars under paragraph 185 of the proposed amended defence and counterclaim.
+129 There is in fact no paragraph 135N of the proposed further amended defence and counterclaim. The submissions made by Beling under ground 10 are directed, again, to the proposition that the Commissioner had acted in breach of statutory duty or negligently, by commencing an investigation into Beling’s conduct in circumstances in which she did not have any authority from Peter Hanna to do so, and in circumstances in which Peter Hanna had not waived legal professional privilege.
+
+
+
+> Ground 10 — analysis and conclusion
+
+
+
+130 As we have already noted, when considering ground 9, the fact that Mr Hanna was not a party to the complaint to the Commissioner did not preclude the Commissioner from investigating the complaint that was made by Mrs Hanna. Further, as we have noted, both VCAT and Derham AsJ each found that Mr Hanna had waived legal professional privilege.
+131 Ground 10 is therefore without foundation and it must fail.
+
+
+
+> Ground 11 — submissions
+
+
+
+132 Under ground 11, the applicant submitted that the County Court erred in admitting into evidence correspondence that he had had with the Commissioner, that preceded entry by him into the settlement deed, and which was marked ‘without prejudice’. It was submitted that in admitting that evidence, the Court failed to comply with the provisions of s 131 [http://www.austlii.edu.au/au/legis/vic/consol_act/ea200880/s131.html] of the Evidence Act 2008 [http://www.austlii.edu.au/au/legis/vic/consol_act/ea200880/].
+133 The applicant further submitted, under ground 11, that the Court erred in excluding consideration of the settlement offer made by the Commissioner to him of $20,000 at the judicial resolution conference on 28 February 2020. It was submitted that the evidence of that offer contradicts or qualifies the evidence of Ms Freeman about the course of the attempt to settle the dispute, and that, in the absence of consideration of that offer, the Court would have been misled. The applicant submitted that the settlement offer made by the Commissioner, at that conference, constituted an almost ‘complete abandonment’ of her claim and was thus an admission by her of the merits of the applicant’s claim.
+
+
+
+> Ground 11 — analysis and conclusion
+
+
+
+134 At common law, it was well established that where there was a dispute as to whether a binding contract has been entered into between parties, or where it was alleged that an agreement has been the product of vitiating circumstances, such as misleading conduct, correspondence and communications between the parties, that preceded entry into the document, and which were conducted on a ‘without prejudice’ basis, were admissible in evidence.[65] That principle has now been encapsulated in s 131(2)(f) [http://www.austlii.edu.au/au/legis/vic/consol_act/ea200880/s131.html] of the Evidence Act [http://www.austlii.edu.au/au/legis/vic/consol_act/ea200880/].
+135 Section 131(1) [http://www.austlii.edu.au/au/legis/vic/consol_act/ea200880/s131.html] of the Evidence Act [http://www.austlii.edu.au/au/legis/vic/consol_act/ea200880/] provides that evidence is not to be adduced of a communication that is made between persons in a dispute, or a document prepared in connection with such a dispute, where the communication is made, or the document is prepared, in connection with an attempt to negotiate settlement of the dispute. Section 131(2)(f) [http://www.austlii.edu.au/au/legis/vic/consol_act/ea200880/s131.html] provides, as an exception to that preclusion, that sub-s (1) does not apply if:
+
+> > The proceeding in which it is sought to adduce the evidence is a proceeding to enforce an agreement between the persons in dispute to settle the dispute, or a proceeding in which the making of such an agreement is in issue.
+
+136 The settlement deed was, on its face, an agreement between the Commissioner and Beling by which they settled a dispute between them concerning the amount of costs payable by Beling pursuant to the orders of Derham AsJ in the first Supreme Court proceeding and the orders made by VCAT. The County Court proceeding was one in which the Commissioner sought to enforce that agreement against Beling. In those circumstances, the correspondence between the parties, that preceded the entry by them into the settlement deed, was clearly admissible under s 131(2)(f) [http://www.austlii.edu.au/au/legis/vic/consol_act/ea200880/s131.html] of the Evidence Act [http://www.austlii.edu.au/au/legis/vic/consol_act/ea200880/].
+137 As we have already discussed, Judge Ryan was correct to conclude that the settlement negotiations that took place at the judicial resolution conference in February 2020, and any offer made by the Commissioner at that conference, were not admissible in evidence. The reception of evidence concerning that offer, and those negotiations, was specifically precluded by s 67 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/s67.html] of the Civil Procedure Act [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/], which provides:
+
+> > Evidence of things said and done in appropriate dispute resolution which is judicial resolution conference
+> > If a court orders that a judicial resolution conference be conducted in relation to a civil proceeding, no evidence shall be admitted at the hearing of any proceeding of anything said or done by any person in the course of the conduct of the judicial resolution conference unless the court otherwise orders, having regard to the interests of justice and fairness.
+
+138 For those reasons, ground 11 must fail.
+
+
+
+> Ground 12 — submissions
+
+
+
+139 Ground 12 is based on an extract from the decision of Keith JR in the second Supreme Court proceeding, which, it will be recalled, concerned an application by Beling for an extension of time to appeal the two decisions of VCAT in 2017. At an early point in his reasons, Keith JR noted that the disciplinary proceedings, that were before VCAT, followed ‘a complaint filed by Mrs Hanna with the Commissioner ...’.[66] Under ground 12, Beling has contended that, inconsistent with that ‘finding’ by Judicial Registrar Keith, Judge Cosgrave and Judge Ryan found that both Mr and Mrs Hanna filed the complaint with the Commissioner. Accordingly, he submitted, the two County Court judges had proceeded on an incorrect basis.
+
+
+
+> Ground 12 — analysis and conclusion
+
+
+
+140 The point sought to be advanced under ground 12 contains a number of fundamental flaws. First, the statement by Keith JR that the complaint was made by Mrs Hanna, did not amount to a binding finding of that fact. It was simply an introductory comment to Keith JR’s reasons for refusing the application made by Beling for an extension of time within which to appeal the decisions of VCAT. Secondly, and in any event, as we have noted, VCAT found, as a fact, that Mr Hanna had waived privilege in that proceeding. Thirdly, even if the Judicial Registrar did make such a ‘finding’, it would not have been relevant at all to the outcome of the applications before Judge Cosgrave and Judge Ryan. It was, logically, irrelevant to any of the issues respectively determined by them. In other words, it did not constitute any arguable error made by either County Court judge.
+141 Accordingly, ground 12 must fail.
+
+
+
+> Ground 13 — submissions
+
+
+
+142 Under ground 13, Beling submitted that the Commissioner and her legal representatives ‘knowingly or recklessly misled the County Court, and abused the process of the County Court’, by failing to inform it that on 19 January 2021 she had consented to proposed amendments by Beling to the notice of appeal filed by him in the first Supreme Court proceeding and to the two notices of appeal filed by him in the second Supreme Court proceeding.
+143 In the amended notices of appeal it was alleged that the Commissioner had conspired with judicial officers to tamper with Beling’s client files in the VCAT proceeding. In the present application, Beling submitted that, by consenting to those amendments to the notices of appeal, the Commissioner no longer disputed the allegations of file tampering. Thus, it was submitted, the Commissioner was under a duty to inform Judge Ryan of her consent to the amendments to the notices of appeal.
+
+
+
+> Ground 13 — analysis and conclusion
+
+
+
+144 Ground 13 is based on a fundamental misconception by Beling as to the effect of the consent given by the Commissioner to the amendments to the notices of appeal in the two Supreme Court proceedings.
+145 Put simply, the fact that the Commissioner did not oppose the amendment to the notices of appeal did not, and could not, constitute an admission or concession by the Commissioner that the contents of the proposed notices of appeal were valid or correct. In civil litigation, it is quite common for one party to consent to the opposite party filing an amended document, such as an amended pleading or an amended notice. An agreement by a party to the making of such an amendment does not, and could not, constitute an admission or concession by that party as to the validity, correctness or truth of the allegations contained in the amended pleading or notice.
+146 Indeed, in the present case, the solicitor for the Commissioner, in his email by which he consented to the proposed amendments, expressly stated that the proposed amendments were ‘wholly without merit’, and that, on behalf of his client, he consented to the proposed amendments ‘... in order to ensure that there is no delay in the current timetable’.
+147 In those circumstances, the agreement by the Commissioner to the filing of the amended notices of appeal did not, and could not, constitute any concession by her as to the truth, accuracy or validity of the allegations contained in them. Accordingly, the Commissioner was not under any obligation to draw the amended notices of appeal to the attention of Judge Ryan.
+148 For those reasons, ground 13 is devoid of any merit.
+
+
+
+> Ground 14 — submissions
+
+
+
+149 Beling did not present any additional argument under ground 14, apart from adopting the arguments that he presented in support of grounds 1 to 12.
+150 For the reasons that we have given in considering each of those grounds, ground 14 must accordingly fail.
+
+
+
+> Ground 15 — submissions
+
+
+
+151 Under ground 15, Beling submitted that Judge Cosgrave failed to comply with the principles of procedural fairness in his decision on costs on 23 July 2020. In short, Beling noted that the judge gave the parties 24 hours in which to confer and make submissions in relation to that issue. It was submitted that the judge thus failed to give to the parties sufficient time within which to compile their submissions, and to present their arguments in relation to the issue of costs.
+
+
+
+> Ground 15 — analysis and conclusion
+
+
+
+152 For the reasons which we gave earlier in this decision, we have refused to extend the time within which Beling be permitted to seek leave to appeal from the decisions of Judge Cosgrave. In any event, the point that is made by Beling, under ground 15, is without substance.
+153 Notwithstanding that the judge did not provide to the parties a lengthy period of time, Beling did file written submissions on the question of costs within the time prescribed by Judge Cosgrave. We interpolate that it is understandable that, in the circumstances, the judge prescribed a relatively short time within which the parties be permitted to provide those submissions. It was appropriate that Beling be ordered to pay the costs in respect of his summons which was dismissed. Further, it was appropriate that the judge reserved the costs in respect of the Commissioner’s application, in view of the decision by his Honour that Beling be given a further opportunity to file and serve an amended defence and counterclaim.
+154 It follows that ground 15 is without substance and must fail.
+
+
+
+> Ground 16 — submissions
+
+
+
+155 In support of ground 16, Beling submitted that Judge Ryan erred in ordering that he pay the costs of the proceeding including the reserved costs. In support of that submission, Beling contended that Judge Ryan failed to take into account the ‘Commissioner’s admitted change of position’, in which (he alleged) the Commissioner ran inconsistent cases in the County Court and Supreme Court relating to the file tampering allegations. It was submitted that that conduct by the Commissioner disentitled her to an order for costs in the proceeding.
+
+
+
+> Ground 16 — analysis and conclusion
+
+
+
+156 The point made by Beling in support of ground 16 is entirely without substance. As we have already explained, the Commissioner did not, in the Supreme Court proceedings, concede or admit the file tampering allegations made by Beling. She thus did not adopt differing and inconsistent positions in the County Court proceeding and the Supreme Court proceedings respectively.
+157 In the circumstances in which Judge Ryan, correctly, concluded that Beling’s application for leave to file and serve the proposed amended defence and counterclaim should be refused, that his application to strike out the Commissioner’s claim be dismissed, and that there be judgment for the Commissioner in the amount claimed plus interest in the proceeding, it was entirely appropriate that her Honour should order that Beling pay the Commissioner’s costs of the proceeding, including reserved costs.
+158 Ground 16 is, thus, entirely without merit and must fail.
+
+Summary of conclusions
+
+159 For the foregoing reasons, we have reached the following conclusions:
+
+(1) The application by Beling for an extension of time within which to seek leave to appeal from the decisions of Judge Cosgrave dated 14 July 2020 and 23 July 2020 respectively is refused.
+
+(2) Beling has failed to demonstrate that any of the proposed sixteen grounds of his application for leave to appeal are reasonably arguable. Accordingly, the application by Beling to seek leave to appeal against the decisions of Judge Ryan dated 23 June 2021 and 30 July 2021, and the orders made by her Honour dated 30 July 2021, is refused.
+
+
+---
+
+[1] Beling v Legal Services Commissioner [2016] VSC 180. [http://www.austlii.edu.au/au/cases/vic/VSC/2016/180.html]
+
+[2] Victorian Legal Services Commissioner v Beling (Legal Practice) [2017] VCAT 1022. [http://www.austlii.edu.au/au/cases/vic/VCAT/2017/1022.html]
+
+[3] Victorian Legal Services Commissioner v Beling (Legal Practice) [2017] VCAT 1576. [http://www.austlii.edu.au/au/cases/vic/VCAT/2017/1576.html]
+
+[4] Victorian Legal Services Commissioner v Beling [2020] VCC 1010. [http://www.austlii.edu.au/au/cases/vic/VCC/2020/1010.html]
+
+[5] Victorian Legal Services Commissioner v Beling [No 2] [2020] VCC 1071. [http://www.austlii.edu.au/au/cases/vic/VCC/2020/1071.html]
+
+[6] Victorian Legal Services Commissioner v Beling [No 3] [2021] VCC 764. [http://www.austlii.edu.au/au/cases/vic/VCC/2021/764.html]
+
+[7] Victorian Legal Services Commissioner v Beling [No 4] [2021] VCC 1021. [http://www.austlii.edu.au/au/cases/vic/VCC/2021/1021.html]
+
+[8] Beling v VLSC [2020] VSC 200. [http://www.austlii.edu.au/au/cases/vic/VSC/2020/200.html]
+
+[9] Beling v Victorian Legal Services Commissioner [2021] VSC 390. [http://www.austlii.edu.au/au/cases/vic/VSC/2021/390.html]
+
+[10] Beling v Victorian Legal Services Commissioner [No 2] [2021] VSC 466. [http://www.austlii.edu.au/au/cases/vic/VSC/2021/466.html]
+
+[11] Victorian Legal Services Commissioner v Beling [2020] VCC 1010 [http://www.austlii.edu.au/au/cases/vic/VCC/2020/1010.html], [29]–[33].
+
+[12] Ibid [36]–[37].
+
+[13] Ibid [38].
+
+[14] Ibid [39].
+
+[15] Ibid [40]–[58].
+
+[16] Victorian Legal Services Commissioner v Beling [No 2] [2020] VCC 1071. [http://www.austlii.edu.au/au/cases/vic/VCC/2020/1071.html]
+
+[17] Victorian Legal Services Commissioner v Beling [No 3] [2021] VCC 764. [http://www.austlii.edu.au/au/cases/vic/VCC/2021/764.html]
+
+[18] Ibid [42].
+
+[19] Ibid [43]–[44] (citations omitted).
+
+[20] Ibid [46].
+
+[21] Ibid [47].
+
+[22] Ibid [48].
+
+[23] Ibid [53].
+
+[24] Ibid [56].
+
+[25] Ibid [58].
+
+[26] Ibid [59].
+
+[27] Ibid [60].
+
+[28] Ibid [61].
+
+[29] Ibid [62].
+
+[30] Ibid [63].
+
+[31] Ibid [67].
+
+[32] Ibid [73].
+
+[33] Ibid.
+
+[34] Ibid [74].
+
+[35] Ibid [75].
+
+[36] Ibid [77].
+
+[37] Ibid [79]–[82].
+
+[38] Hughes v National Trustees Executors and Agency Co of Australasia Ltd [1978] VicRp 27 [http://www.austlii.edu.au/au/cases/vic/VicRp/1978/27.html]; [1978] VR 257 [/cgi-bin/LawCite?cit=%5b1978%5d%20VR%20257], 262–3 (McInerney J) (‘Hughes’).
+
+[39] [2016] VSCA 266. [http://www.austlii.edu.au/au/cases/vic/VSCA/2016/266.html]
+
+[40] Ibid [23] (citations omitted). See also Gippsreal Ltd v Kenny [2016] VSCA 65 [http://www.austlii.edu.au/au/cases/vic/VSCA/2016/65.html], [21] (Kyrou JA); Hewitt v Count Financial Ltd [2017] VSCA 354 [http://www.austlii.edu.au/au/cases/vic/VSCA/2017/354.html], [20] (Tate and Kyrou JJA) (‘Hewitt’).
+
+[41] Civil Procedure Act 2010 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/] s 7 [http://www.austlii.edu.au/au/legis/vic/consol_act/cpa2010167/s7.html]; Hewitt [2017] VSCA 354 [http://www.austlii.edu.au/au/cases/vic/VSCA/2017/354.html], [21] (Tate and Kyrou JJA).
+
+[42] Hughes [1978] VicRp 27 [http://www.austlii.edu.au/au/cases/vic/VicRp/1978/27.html]; [1978] VR 257 [/cgi-bin/LawCite?cit=%5b1978%5d%20VR%20257], 263 (McInerney J).
+
+[43] (2013) 42 VR 27 [/cgi-bin/LawCite?cit=%282013%29%2042%20VR%2027]; [2013] VSCA 158 [http://www.austlii.edu.au/au/cases/vic/VSCA/2013/158.html] (‘Lysaght’).
+
+[44] (1964) 112 CLR 125 [/cgi-bin/LawCite?cit=%281964%29%20112%20CLR%20125]; [1964] HCA 69. [http://www.austlii.edu.au/au/cases/cth/HCA/1964/69.html]
+
+[45] Lysaght [2013] VSCA 158 [http://www.austlii.edu.au/au/cases/vic/VSCA/2013/158.html]; (2013) 42 VR 27 [/cgi-bin/LawCite?cit=%282013%29%2042%20VR%2027], 39 [29]; [2013] VSCA 158 (Warren [http://www.austlii.edu.au/au/cases/vic/VSCA/2013/158.html] CJ, Nettle and Neave JJA).
+
+[46] [2019] VSC 703. [http://www.austlii.edu.au/au/cases/vic/VSC/2019/703.html]
+
+[47] Ibid [53] (citation omitted).
+
+[48] Victorian Legal Services Commissioner v Beling (Legal Practice) [2017] VCAT 1022 [http://www.austlii.edu.au/au/cases/vic/VCAT/2017/1022.html], [58] (Senior Member Smithers).
+
+[49] Briginshaw v Briginshaw (1938) 60 CLR 336 [http://www.austlii.edu.au/au/cases/cth/ArgusLawRp/1938/49.html]; [1938] HCA 34. [http://www.austlii.edu.au/au/cases/cth/HCA/1938/34.html]
+
+[50] (1988) 19 NSWLR 40. [/cgi-bin/LawCite?cit=%281988%29%2019%20NSWLR%2040]
+
+[51] Ibid 45.
+
+[52] Ibid, 45–6.
+
+[53] [2014] VSC 423. [http://www.austlii.edu.au/au/cases/vic/VSC/2014/423.html]
+
+[54] Ibid [199]–[200] (citations omitted).
+
+[55] [1977] 1 NSWLR 449. [/cgi-bin/LawCite?cit=%5b1977%5d%201%20NSWLR%20449]
+
+[56] Ibid 455 (Moffitt P, Reynolds and Samuels JJA).
+
+[57] [2005] VSCA 228. [http://www.austlii.edu.au/au/cases/vic/VSCA/2005/228.html]
+
+[58] Ibid [25] (citations omitted); see also at [2]–[4] (Warren CJ). See also Specialist Diagnostic Services Pty Ltd v Healthscope Ltd [2012] VSCA 175 [http://www.austlii.edu.au/au/cases/vic/VSCA/2012/175.html]; (2012) 41 VR 1 [/cgi-bin/LawCite?cit=%282012%29%2041%20VR%201], 20 [86]–[87]; [2012] VSCA 175 (Buchanan [http://www.austlii.edu.au/au/cases/vic/VSCA/2012/175.html], Mandie and Osborn JJA); Androvitsaneas v Members First Broker Network Pty Ltd [2013] VSCA 212 [http://www.austlii.edu.au/au/cases/vic/VSCA/2013/212.html], [108] (Redlich and Priest JJA and Macaulay AJA).
+
+[59] Cf BP Refinery (Westernport) Pty Ltd v Shire of Hastings (1977) 180 CLR 266, 282–3 (Lord Simon of Glaisdale for the Court) (Privy Council).
+
+[60] Victorian Legal Services Commissioner v Beling (Legal Practice) [2017] VCAT 1022 [http://www.austlii.edu.au/au/cases/vic/VCAT/2017/1022.html], [60].
+
+[61] Ibid [58]–[61].
+
+[62] Ibid [48].
+
+[63] Victorian Legal Services Commissioner v Beling [No 3] [2021] VCC 764 [http://www.austlii.edu.au/au/cases/vic/VCC/2021/764.html], [63].
+
+[64] Victorian Legal Services Commissioner v Beling (Legal Practice) [2017] VCAT 1022 [http://www.austlii.edu.au/au/cases/vic/VCAT/2017/1022.html], [24]; Beling v Legal Services Commissioner [2016] VSC 180 [http://www.austlii.edu.au/au/cases/vic/VSC/2016/180.html], [33].
+
+[65] See, eg, Tomlin v Standard Telephones & Cables Ltd [1969] 1 WLR 1378 [/cgi-bin/LawCite?cit=%5b1969%5d%201%20WLR%201378], 1382–3 (Danckwerts LJ), 1386 (Sir Gordon Willmer); Quad Consulting Pty Ltd v David R Bleakley & Associates Pty Ltd (1990) 27 FCR 86 [/cgi-bin/LawCite?cit=%281990%29%2027%20FCR%2086], 93 (Hill J); Unilever Plc v The Procter & Gamble Co [1999] EWCA Civ 3027 [http://www.bailii.org/ew/cases/EWCA/Civ/1999/3027.html]; [2000] 1 WLR 2436 [/cgi-bin/LawCite?cit=%5b2000%5d%201%20WLR%202436], 2444 (Robert Walker LJ).
+
+[66] Beling v Victorian Legal Services Commissioner [2020] VSC 200 [http://www.austlii.edu.au/au/cases/vic/VSC/2020/200.html], [3].

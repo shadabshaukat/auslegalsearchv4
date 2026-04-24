@@ -1,0 +1,802 @@
+-----------------------------------
+title: Australian Competition and Consumer Commission v Campbell (No 3)
+titles: ["Australian Competition and Consumer Commission v Campbell (No 3)"]
+citations: ["[2021] FCA 528","FCA 528"]
+date: 2021-05-19 00:00:00
+type: case
+subjurisdiction: cth
+jurisdiction: au
+data_quality: H
+database: FCA
+url: https://austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FCA/2021/528.html
+-----------------------------------
+
+
+AUSTRALIAN COMPETITION AND CONSUMER COMMISSION V CAMPBELL (NO 3) [2021] FCA 528 (19 MAY 2021)
+
+Last Updated: 20 May 2021
+
+FEDERAL COURT OF AUSTRALIA
+
+
+Australian Competition and Consumer Commission v Campbell (No 3) [2021] FCA 528 [http://www.austlii.edu.au/au/cases/cth/FCA/2021/528.html]
+
+File number:
+VID 612 of 2019 [2021_528.html#FileNo]
+
+
+Judgment of:
+O'BRYAN J [2021_528.html#Judge]
+
+
+Date of judgment:
+19 May 2021
+
+
+Catchwords:
+CONSUMER LAW – application for remedies under the Australian Consumer Law (Schedule 2 to the Competition and Consumer Act 2010 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/] (Cth)) – contraventions of ss 18 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s18.html], 29 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s29.html](1)(g), 36 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s36.html](3) and 36 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s36.html](4) of the Australian Consumer Law – where the respondents sold franchises to consumers representing that those franchises would be operational within 12 months, and received payments from franchisees on that basis, but in most instances did not supply a franchise within that period or at all – where the contravening conduct caused substantial loss to franchisees – where the first respondent is in liquidation and the third respondent has limited financial resources – where the parties have jointly filed statements of agreed facts and admissions – where the applicant and third respondent have agreed penalties and filed joint submissions in support of agreed penalties – where the first respondent does not oppose the orders sought by the applicant – consideration of the relevant principles to the assessment of pecuniary penalties, non-party consumer redress orders, declaratory and injunctive relief
+
+STATUTORY INTERPRETATION – proper construction of s 227 of the Australian Consumer Law – meaning and effect of the requirement to give preference to making an order for compensation – whether orders proposed by the applicant satisfy that requirement
+
+
+Legislation:
+Bankruptcy Act 1966 [http://www.austlii.edu.au/au/legis/cth/consol_act/ba1966142/] (Cth) s 82(3) [http://www.austlii.edu.au/au/legis/cth/consol_act/ba1966142/s82.html]
+Competition and Consumer Act 2010 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/] (Cth) ss 80 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s80.html], 137H [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s137h.html]
+Competition and Consumer Act 2010 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/] (Cth) Schedule 2 (Australian Consumer Law) ss 4 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s4.html], 18 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s18.html], 29 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s29.html](1)(g), 36 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s36.html](3), 36 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s36.html](4), 224, 227, 232, 233, 239, 240(1), 240(3)
+Corporations Act 2001 [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/] (Cth) s 553B [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s553b.html]
+Evidence Act 1995 [http://www.austlii.edu.au/au/legis/cth/consol_act/ea199580/] (Cth) s 191 [http://www.austlii.edu.au/au/legis/cth/consol_act/ea199580/s191.html]
+Federal Court of Australia Act 1976 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/] (Cth) s 37AF(1) [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s37af.html]
+
+
+Cases cited:
+Australian Competition and Consumer Commission v ACN 117 372 915 Pty Ltd (in liq) (formerly Advanced Medical Institute Pty Ltd) [2015] FCA 368 [http://www.austlii.edu.au/au/cases/cth/FCA/2015/368.html]; ATPR 42-498
+Australian Competition and Consumer Commission v AGL South Australia Pty Ltd [2015] FCA 399 [http://www.austlii.edu.au/au/cases/cth/FCA/2015/399.html]; 146 ALD 385 [/cgi-bin/LawCite?cit=146%20ALD%20385]
+Australian Competition and Consumer Commission v Birubi Art Pty Ltd (in liq) (No 3) [2019] FCA 996 [http://www.austlii.edu.au/au/cases/cth/FCA/2019/996.html]; 374 ALR 776 [/cgi-bin/LawCite?cit=374%20ALR%20776]
+Australian Competition and Consumer Commission v Campbell [2019] FCA 886 [http://www.austlii.edu.au/au/cases/cth/FCA/2019/886.html]
+Australian Competition and Consumer Commission v Campbell (No 2) [2019] FCA 1487 [http://www.austlii.edu.au/au/cases/cth/FCA/2019/1487.html]
+Australian Competition and Consumer Commission v Clinica Internationale Pty Ltd (No 2) [2016] FCA 62 [http://www.austlii.edu.au/au/cases/cth/FCA/2016/62.html]
+Australian Competition and Consumer Commission v Coles Supermarkets Australia Pty Ltd [2014] FCA 1405 [http://www.austlii.edu.au/au/cases/cth/FCA/2014/1405.html]
+Australian Competition and Consumer Commission v Geowash Pty Ltd (Subject to a Deed of Company Arrangement) (No 4) [2020] FCA 23 [http://www.austlii.edu.au/au/cases/cth/FCA/2020/23.html]; 376 ALR 701 [/cgi-bin/LawCite?cit=376%20ALR%20701]
+Australian Competition and Consumer Commission v Pratt (No 3) [2009] FCA 407 [http://www.austlii.edu.au/au/cases/cth/FCA/2009/407.html]; (2009) 175 FCR 558 [/cgi-bin/LawCite?cit=%282009%29%20175%20FCR%20558]
+Australian Competition and Consumer Commission v Reebok Australia Pty Ltd [2015] FCA 83 [http://www.austlii.edu.au/au/cases/cth/FCA/2015/83.html]; ATPR 42-501
+Australian Competition and Consumer Commission v STA Travel Pty Ltd [2020] FCA 723 [http://www.austlii.edu.au/au/cases/cth/FCA/2020/723.html]
+Australian Competition and Consumer Commission v TPG Internet Pty Ltd [2013] HCA 54 [http://www.austlii.edu.au/au/cases/cth/HCA/2013/54.html]; (2013) 250 CLR 640 [/cgi-bin/LawCite?cit=%282013%29%20250%20CLR%20640]
+Australian Competition and Consumer Commission v Yazaki Corporation [2018] FCAFC 73 [http://www.austlii.edu.au/au/cases/cth/FCAFC/2018/73.html]; (2018) 262 FCR 243 [/cgi-bin/LawCite?cit=%282018%29%20262%20FCR%20243]
+Australian Competition and Consumer Commission v Yellow Page Marketing BV (No 2) [2011] FCA 352 [http://www.austlii.edu.au/au/cases/cth/FCA/2011/352.html]; (2011) 195 FCR 1 [/cgi-bin/LawCite?cit=%282011%29%20195%20FCR%201]
+Australian Competition and Consumer Commission v Z-Tek Computer Pty Ltd [1997] FCA 871 [http://www.austlii.edu.au/au/cases/cth/FCA/1997/871.html]; (1997) 78 FCR 197 [/cgi-bin/LawCite?cit=%281997%29%2078%20FCR%20197]
+Australian Securities and Investments Commission v Dover Financial Advisers Pty Ltd (No 3) [2021] FCA 170 [http://www.austlii.edu.au/au/cases/cth/FCA/2021/170.html]
+Commonwealth v Director, Fair Work Building Industry Inspectorate [2015] HCA 46 [http://www.austlii.edu.au/au/cases/cth/HCA/2015/46.html]; (2015) 258 CLR 482 [/cgi-bin/LawCite?cit=%282015%29%20258%20CLR%20482]
+Foster v Australian Competition and Consumer Commission [2006] FCAFC 21 [http://www.austlii.edu.au/au/cases/cth/FCAFC/2006/21.html]; (2006) 149 FCR 135 [/cgi-bin/LawCite?cit=%282006%29%20149%20FCR%20135]
+ICI Australia Operations Pty Ltd v Trade Practices Commission (1992) 38 FCR 248 [/cgi-bin/LawCite?cit=%281992%29%2038%20FCR%20248]
+Singtel Optus Pty Ltd v Australian Competition and Consumer Commission [2012] FCAFC 20 [http://www.austlii.edu.au/au/cases/cth/FCAFC/2012/20.html]; 287 ALR 249 [/cgi-bin/LawCite?cit=287%20ALR%20249]
+
+
+Division:
+General Division
+
+
+Registry:
+Victoria
+
+
+National Practice Area:
+Commercial and Corporations
+
+
+Sub-area:
+Regulator and Consumer Protection
+
+
+Number of paragraphs:
+170
+
+
+Date of hearing:
+2 December 2020, 15 March 2021
+
+
+Counsel for the Applicant at the hearing on 2 December 2020:
+Dr O Bigos QC with Mr A C Roe
+
+
+Counsel for the Applicant at the hearing on 15 March 2021:
+Mr T Begbie QC with Ms J Watson
+
+
+Solicitor for the Applicant:
+Australian Government Solicitor
+
+
+Counsel for the First Respondent at the hearing on 15 March 2021:
+Mr A Silver
+
+
+Solicitor for the First Respondent at the hearing on 15 March 2021:
+KCL Law
+
+
+Counsel for the Third Respondent:
+Mr N J Derrington
+
+
+Solicitor for the Third Respondent:
+HWL Ebsworth
+
+
+
+
+ORDERS
+
+
+
+VID 612 of 2019
+
+BETWEEN:
+AUSTRALIAN COMPETITION AND CONSUMER COMMISSION
+Applicant
+AND:
+JUMP LOOPS PTY LTD ACN 611 066 589 (IN LIQ)
+First Respondent
+
+SWIM LOOPS HOLDINGS PTY LTD ACN 607 815 636 (IN LIQ)
+Second Respondent
+
+IAN MICHAEL CAMPBELL
+Third Respondent
+
+
+
+ORDER MADE BY:
+O'BRYAN J
+DATE OF ORDER:
+19 MAY 2021
+
+
+
+THE COURT DECLARES THAT:
+
+ 1. The First Respondent contravened:
+
+> > (a) s 18(1) of the Australian Consumer Law (Australian Consumer Law), being Schedule 2 of the Competition and Consumer Act 2010 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/] (Cth), by engaging in conduct, in trade or commerce, which was misleading or deceptive, or likely to mislead or deceive; and
+> > (b) s 29(1)(g) [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s29.html] of the Australian Consumer Law, by making, in connection with the supply or possible supply of services, and the promotion by any means of the supply or use of services, in trade or commerce, a false or misleading representation that the franchises offered by the First Respondent had certain uses, benefits or performance characteristics,
+> > in representing, in the period from March 2016 to February 2019, to each of the persons listed in column B of Annexure A to the Reasons for Judgment of the Court in this proceeding dated today (Judgment), prior to the date listed at column C or D of Annexure A, that an operational swim school franchise would be provided to that person within 12 months of signing a franchise agreement when there were not reasonable grounds for making that representation.
+
+ 1. The First Respondent contravened s 36(3) [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s36.html] of the Australian Consumer Law in the period from April 2017 to March 2019 by accepting payments for a franchise from each of the persons listed in column B of Annexure B to the Judgment on or about each of the dates listed in column E of Annexure B, when at the time such payments were accepted:
+
+> > (a) there were reasonable grounds for believing that it would not be able to supply the franchise to each person within 12 months from the date of signing a franchise agreement (which was the period specified at or before the time of accepting payment for the franchise), or within a reasonable time; and
+> > (b) it ought reasonably have been aware of those grounds.
+
+ 1. The First Respondent contravened s 36(4) [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s36.html] of the Australian Consumer Law in the period from April 2016 by, having accepted payments for a franchise from each of the persons listed in column B of Annexure C to the Judgment, failing to provide those persons with a franchise within 12 months from the date of signing a franchise agreement (which was the period specified at or before the time of accepting payment for the franchise) or within a reasonable time.
+ 2. The Third Respondent was knowingly concerned in, and party to, the contraventions by the First Respondent of ss 18(1) [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s18.html], 29 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s29.html](1)(g), 36 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s36.html](3) and 36 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s36.html](4) of the Australian Consumer Law.
+ 3. The Third Respondent was knowingly concerned in, and party to, the Second Respondent’s contraventions of ss 18(1) [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s18.html] and 29 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s29.html](1)(g) of the Australian Consumer Law on each occasion that the Second Respondent represented to prospective franchisees that an operational swim school franchise would be provided within 12 months of signing a franchise agreement when there were not reasonable grounds for making that representation.
+
+AND THE COURT ORDERS THAT:
+Penalty
+
+ 1. Pursuant to s 224 of the Australian Consumer Law, the First Respondent pay to the Commonwealth of Australia an aggregate pecuniary penalty in the sum of $23 million.
+ 2. Pursuant to s 224 of the Australian Consumer Law, the Third Respondent pay to the Commonwealth of Australia an aggregate pecuniary penalty in the sum of $400,000.
+ 3. The penalty in order 7 is due and payable:
+
+> > > (a) if the payment in order 9 below is paid within the time required by that order, by 30 June 2022; or
+> > > (b) otherwise, by the date which is 50 days after the date of these orders.
+
+Orders to redress loss
+
+ 1. Pursuant to s 239 of the Australian Consumer Law, the Third Respondent must pay to the trust account of HWL Ebsworth Lawyers by the date which is 21 days after the date of these orders, the amount of $500,000 (Funds) and must direct HWL Ebsworth Lawyers to apply the Funds solely in accordance with the requirements set out in the Appendix to these orders (Redress Scheme).
+ 2. The Third Respondent must notify the Applicant within 24 hours of payment of the Funds pursuant to order 9.
+ 3. Subject to, and from the date on which the Third Respondent makes, payment of the Funds pursuant to order 9 (Scheme Commencement Date), the Applicant and the Third Respondent must comply with the requirements set out in the Redress Scheme as applicable to each of them.
+ 4. The Applicant and the Third Respondent have liberty to apply to the Court to vary the requirements of the Redress Scheme if they become impracticable to comply with.
+
+Injunctions
+
+ 1. Pursuant to s 232 of the Australian Consumer Law, the Third Respondent be restrained for a period of 5 years from the date of this order from being knowingly concerned in, or party to, the making of representations to a prospective franchisee concerning the timeframe for establishing an operational franchise in circumstances where there are not reasonable grounds for such representations.
+ 2. Pursuant to s 232 of the Australian Consumer Law, the Third Respondent be restrained for a period of 5 years from being knowingly concerned in, or party to, the acceptance of payment or other consideration for the supply of goods or services for, or relating to, the business of a franchisor in circumstances where, at the time of acceptance, the person accepting the payment or other consideration is aware, or ought reasonably to be aware, that there are reasonable grounds for believing the goods or services would not be supplied within the period specified at or before the time the payment or other consideration is accepted or, if no period is specified, within a reasonable time.
+ 3. For a period of 3 years from the date of these orders, the Third Respondent be restrained in Australia from being in any way, directly or indirectly, involved in carrying on business as or of a franchisor, including as an individual franchisor or as an employee, director, manager, servant, agent or representative of another person (including a corporation).
+ 4. For the purposes of these orders, the term "franchisor" has the same meaning as those terms are defined in clause 4 of Schedule 1 of the Competition and Consumer (Industry Codes - Franchising) Regulation 2014 (Cth) as in force on 31 March 2020.
+
+Freezing orders
+
+ 1. The freezing orders made on 7 June 2019, as varied on 12 June 2019, 19 June 2019 and 28 June 2019 (the Freezing Orders), be:
+
+> > (a) further varied to allow the Third Respondent to make the payment under paragraphs 7 and 9 above; and
+> > (b) discharged from the date on which the Third Respondent makes the payment under paragraphs 7 and 9 above.
+
+Confidentiality
+
+ 1. Pursuant to s 37AF(1) [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s37af.html] of the Federal Court of Australia Act 1976 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/] (Cth), in order to prevent prejudice to the proper administration of justice, the personal and company names contained in:
+
+> > > (a) the First and Second Annexures to the Statement of Agreed Facts and Admissions dated 6 November 2020;
+> > > (b) the Annexure to the Supplementary Statement of Agreed Facts dated 14 December 2020;
+> > > (c) the First and Second Annexures to the Statement of Agreed Facts and Admissions dated 17 December 2020; and
+> > > (d) Annexures A to D to the Judgment,
+> > > be kept confidential and:
+
+> > > > (i) are not to be accessed by any person other than by the Court and the parties to this proceeding and their legal advisors, including HWL Ebsworth Lawyers; and
+> > > > (ii) their contents are prohibited from being disclosed (save as between the parties) by publication or otherwise.
+
+Other
+
+ 1. The Applicant’s claims against the Respondents are otherwise dismissed.
+ 2. There be no order as to costs.
+ 3. A copy of the Judgment in this proceeding, with the seal of the Court thereon, be retained in the Court for the purposes of s 137H [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s137h.html] of the Competition and Consumer Act 2010 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/] (Cth).
+
+APPENDIX
+Redress Scheme
+
+
+
+ 1. Subject to further order of the Court, the Funds must only be paid in accordance with the terms of the Redress Scheme set out in this Appendix.
+ 2. The persons eligible to be paid compensation from the Funds pursuant to the Redress Scheme (eligible persons) are those persons listed in Annexure D to the Judgment.
+ 3. Within 14 days of the Scheme Commencement Date, the Third Respondent must provide the Applicant with all contact details (including mail and email addresses) known to the Third Respondent for each of the eligible persons.
+ 4. The Applicant must:
+    a. within 28 days of the Scheme Commencement Date, send a notice to each of the eligible persons for which the Applicant has a last known mail address and/or email address; or
+    b. where the Applicant has no last known mail address and/or email address for any eligible person, within 45 days of the Scheme Commencement Date use its best endeavours to locate and contact them so as to provide them with a notice,
+
+stating that:
+
+ i. the Court has found that the Third Respondent was knowingly concerned in, and party to, contraventions of s 29(1)(g) [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s29.html] of the Australian Consumer Law by the First and Second Respondents and ss 36(3) [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s36.html] and 36 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s36.html](4) of the Australian Consumer Law by the First Respondent;
+
+ a. the Court has ordered the Third Respondent to pay to the trust account of HWL Ebsworth Lawyers the amount of $500,000 (Funds) which is to be paid by way of partial redress to persons who have incurred loss and damage caused by the contravening conduct in the form of fees paid to the First and Second Respondents in relation to purchasing a franchise (Redress Scheme);
+ b. the Redress Scheme has been approved by the Court;
+ c. the recipient of the notice has been identified as one of the persons who incurred loss or damage caused by the contravening conduct;
+ d. the Funds will be insufficient to compensate fully all persons who suffered loss or damage caused by the contravening conduct and, accordingly, each person who accepts the redress will be entitled to receive a proportionate share of the Funds based on the amount of fees which each person paid for the franchise (to a maximum of the total amount of fees paid by each person);
+ e. the recipient of the notice may choose whether:
+
+(i) to accept the redress, in which case they will be bound by the order, and will not be able to bring any claim, action or demand against the Third Respondent in relation to that amount of their loss or damage that has been redressed; or
+
+(ii) not to accept the redress, in which case they will not be bound by the order and will be able to bring any claim, action or demand against the Third Respondent in relation to their loss or damage;
+
+ i. for the avoidance of doubt, accepting the redress will not prevent the recipient of the notice from proving in the liquidation of the First and Second Respondents in relation to any loss or damage beyond the amount of redress;
+
+ a. in order to accept the redress, the recipient of the notice must send to the Applicant, within 28 days of receipt of the notice, a written response which includes sufficient proof of the person's identity and banking details; and
+ b. redress will be paid from the Funds paid by the Third Respondent to the trust account of HWL Ebsworth Lawyers as soon as practicable and is expected to be paid to persons accepting the redress in 30 to 60 days.
+
+ 1. The notice referred to in paragraph 4 will be deemed to have been received by the person to whom it was sent:
+    a. if the notice was sent by email, one day after the email was sent unless a message is received by the Applicant in that time that the email was undeliverable; and
+    b. if the notice was sent by mail, 14 days after the mail was sent by ordinary prepaid mail.
+ 2. If the Applicant receives a message that an email sent to an eligible person was undeliverable, the Applicant will use its best endeavours to obtain a mail address for the eligible person and send a copy of the notice by mail.
+ 3. Upon the expiry of the period within which recipients of the notice may accept the redress, the Applicant must prepare a document that:
+    a. lists the eligible persons who have accepted the redress (the participating persons) together with their contact and bank account details; and
+    b. calculates for each participating person their proportionate share of the Funds based on the amount of fees which that person paid for a franchise (to a maximum of the total amount of fees paid by that person),
+
+and provide a copy of the document to HWL Ebsworth Lawyers.
+
+ 1. Within 14 days of receiving the document referred to in paragraph 7, HWL Ebsworth Lawyers must disburse the Funds in accordance with the details contained in the document and notify the Applicant:
+    a. when the disbursement is complete; and
+    b. if any disbursement was unable to be made.
+ 2. Within 14 days of receiving notification under paragraph 8, the Applicant must provide a notice to each participating person confirming the payment of redress and the amount of the payment.
+
+
+Note: Entry of orders is dealt with in Rule 39.32 [http://www.austlii.edu.au/au/legis/cth/consol_reg/fcr2011186/s39.32.html] of the Federal Court Rules 2011 [http://www.austlii.edu.au/au/legis/cth/consol_reg/fcr2011186/].
+
+> 
+
+REASONS FOR JUDGMENT
+
+O’BRYAN J:
+
+A. INTRODUCTION
+
+ 1. From 2014 to March 2016, a company by the name of Swim Loops Pty Ltd (now in liquidation) (Swim Loops) conducted a business, as franchisor, of promoting, selling and supplying swim school franchises under the “JUMP! Swim Schools” brand (Jump Swim Schools franchise). The third respondent, Mr Campbell, was a director of Swim Loops.
+ 2. In March 2016, the “Jump Swim” corporate group was formed which comprised a number of related companies. Relevantly, the first respondent in this proceeding, Jump Loops Pty Ltd (now in liquidation) (Jump Loops), took over as the franchisor of the Jump Swim Schools franchise business. The second respondent, Swim Loops Holdings Pty Ltd (now in liquidation) (Swim Loops Holdings), was the ultimate holding company of the “Jump Swim” corporate group and was involved in the promotion of franchises to prospective franchisees and held relevant intellectual property including the brand name “JUMP! Swim Schools” and its associated logo. Mr Campbell was the founder, sole director and managing director of Jump Loops and a director of Swim Loops Holdings.
+ 3. Jump Loops offered Jump Swim School franchises on a “turn-key” basis, promising to hand over a ready-to-operate business including premises, fitout services, training and associated rights pursuant to a standard form franchise agreement. The total amount payable by each franchisee for the establishment of a Jump Swim School generally ranged from $150,000 to $175,000.
+ 4. Between March 2016 and July 2019 (relevant period), Jump Loops entered into 174 franchise agreements. When doing so, it represented that the franchisees would be provided with an operational swim school within 12 months of signing up to the franchise agreement. Jump Loops did not have reasonable grounds for making that representation. Of the 174 franchisees that signed up in that period, at least 152 never received an operational swim school. Of those 152 franchisees, only 21 received a refund of monies paid to Jump Loops in full or in part. Of the remaining 131 franchisees, at least 100 waited more than 12 months and never received a swim school and some 31 waited less than 12 months (to the date of liquidation of Jump Loops) and never received a swim school. Jump Loops received payments from the 174 franchisees totalling some $24 million of which less than $1 million was refunded. At least $21 million was paid to Jump Loops by franchisees who never received a swim school.
+ 5. On 6 June 2019, the Australian Competition and Consumer Commission (ACCC) made an ex parte application seeking freezing orders in respect of the assets of the respondents. On 7 June 2019, I made the orders sought by the ACCC: Australian Competition and Consumer Commission v Campbell [2019] FCA 886. [http://www.austlii.edu.au/au/cases/cth/FCA/2019/886.html]
+ 6. On 17 June 2019, the ACCC filed its originating application in these proceedings alleging that Jump Loops and Swim Loops Holdings had contravened various provisions of the Australian Consumer Law (Australian Consumer Law), being Schedule 2 to the Competition and Consumer Act 2010 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/] (Cth) (CCA), in their conduct of the Jump Swim Schools franchise business. Relevantly, the ACCC alleged that:
+
+> > (a) Jump Loops and Swim Loops Holdings had engaged in misleading and deceptive conduct in contravention of s 18 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s18.html] of the Australian Consumer Law and made false or misleading representations as to services they offered in contravention of s 29(1)(g) [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s29.html] of the Australian Consumer Law when representing that franchisees would be provided with an operational swim school within 12 months of signing up to the franchise agreement;
+> > (b) Jump Loops had contravened s 36(3) [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s36.html] of the Australian Consumer Law by accepting payment for franchises when there were reasonable grounds for believing that Jump Loops would not be able to supply the franchises to prospective franchisees within the period of 12 months specified by Jump Loops and Jump Loops was aware or ought reasonably to have been aware of those grounds; and
+> > (c) Jump Loops had contravened s 36(4) [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s36.html] of the Australian Consumer Law by accepting payment for franchises and failing to supply the franchise within the period of 12 months specified by Jump Loops or within a reasonable time.
+
+ 1.  The ACCC further alleged that Mr Campbell was knowingly concerned in each of the above contraventions of the Australian Consumer Law by Jump Loops and Swim Loops Holdings.
+ 2.  In respect of these contraventions, the ACCC seeks civil penalties, compensation for affected franchisees, declarations and injunctive relief.
+ 3.  On 5 July 2019, Registrar Gitsham of this Court made orders to wind up Jump Loops in insolvency and appointed liquidators.
+ 4.  On 22 July 2019, the Supreme Court of Queensland made orders to wind up Swim Loops Holdings in insolvency and appointed a liquidator.
+ 5.  By an interlocutory application dated 31 July 2019, ACCC sought leave pursuant to s 471B [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s471b.html] of the Corporations Act 2001 [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/] (Cth) to continue proceedings against Jump Loops and Swim Loops Holdings. On 9 September 2019, I made orders granting that leave: Australian Competition and Consumer Commission v Campbell (No 2) [2019] FCA 1487. [http://www.austlii.edu.au/au/cases/cth/FCA/2019/1487.html]
+ 6.  On 9 September 2019, I also made orders referring the proceeding to mediation before a Registrar of the Court. The mediation was lengthy, continuing into late 2020, but was ultimately successful.
+ 7.  On 19 November 2020, the ACCC and Mr Campbell filed a statement of agreed facts and admissions and joint submissions and agreed orders in order to resolve the proceeding as against Mr Campbell. A hearing was conducted on 2 December 2020. In addition to declaratory and injunctive relief, the agreed orders proposed the imposition of a pecuniary penalty under s 224 [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s224.html] of the Australian Consumer Law in the sum of $400,000 and a non-party consumer redress order under s 239 [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s239.html] in the sum of $500,000. A question arose at the hearing in relation to the operation of s 227 [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s227.html], which directs the Court to give preference to making an order for compensation to consumers over the payment of a penalty in circumstances where a respondent may not have sufficient funds to pay both the compensation and the penalty. I made orders for the filing of further submissions from the parties on the operation of s 227 [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s227.html] and a number of other issues.
+ 8.  On 14 December 2020, the ACCC and Mr Campbell filed a joint supplementary statement of agreed facts and each respectively filed supplementary submissions and proposed orders addressing the operation of s 227. [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s227.html]
+ 9.  Between 15 and 21 December 2020, the ACCC and Jump Loops filed a statement of agreed facts and admissions, and the ACCC filed submissions and proposed final orders, in order to resolve the proceeding as against Jump Loops. While Jump Loops did not join in the submissions filed by the ACCC, it did not oppose the orders sought. Also on 21 December 2020, the ACCC’s proceeding against Swim Loops Holdings was discontinued by consent with no order as to costs.
+ 10. In light of the supplementary submissions filed in respect of the proceeding against Mr Campbell, and the proposed resolution of the proceeding against Jump Loops (and the discontinuance against Swim Loops Holdings), I determined that it was appropriate to conduct a final hearing in respect of the proceedings against Jump Loops and Mr Campbell concurrently. I considered that certain of the issues to be addressed might be common to each respondent. The final hearing was conducted on 15 March 2021.
+ 11. I have determined that it is appropriate to make orders largely, but not entirely, as proposed by the parties. In respect of the case against Jump Loops, I consider that the upper end of the range of pecuniary penalties proposed by the ACCC is appropriate and will impose an aggregate penalty of $23 million. In respect of the case against Mr Campbell, I accept that it is appropriate to make an order for Mr Campbell to pay an amount of $500,000 by way of redress for franchisees and, in addition, to impose an aggregate pecuniary penalty of $400,000.
+ 12. These are my reasons for making those orders.
+
+B. AGREED FACTS AND ADMISSIONS
+
+ 1. The evidence before the Court comprises:
+
+> > (a) the statement of agreed facts and admissions between the ACCC and Mr Campbell dated 6 November 2020 and the supplementary statement of agreed facts dated 14 December 2020 (together with their respective annexures); and
+> > (b) the statement of agreed facts and admissions between the ACCC and Jump Loops dated 17 December 2020 (together with its respective annexures).
+
+ 1. Section 191 [http://www.austlii.edu.au/au/legis/cth/consol_act/ea199580/s191.html] of the Evidence Act 1995 [http://www.austlii.edu.au/au/legis/cth/consol_act/ea199580/] (Cth) deals with agreements as to facts. That section reads as follows:
+
+> > 191 Agreements as to facts
+> > (1) In this section:
+> > agreed fact means a fact that the parties to a proceeding have agreed is not, for the purposes of the proceeding, to be disputed.
+> > (2) In a proceeding:
+
+> > > (a) evidence is not required to prove the existence of an agreed fact; and
+> > > (b) evidence may not be adduced to contradict or qualify an agreed fact;
+> > > unless the court gives leave.
+
+> > (3) Subsection (2) does not apply unless the agreed fact:
+
+> > > (a) is stated in an agreement in writing signed by the parties or by Australian legal practitioners, legal counsel or prosecutors representing the parties and adduced in evidence in the proceeding; or
+> > > (b) with the leave of the court, is stated by a party before the court with the agreement of all other parties.
+
+ 1. Each statement of agreed facts and admissions is admissible for the purposes of the proceeding in which the agreement is made only: Australian Competition and Consumer Commission v Pratt (No 3) [2009] FCA 407 [http://www.austlii.edu.au/au/cases/cth/FCA/2009/407.html]; (2009) 175 FCR 558 [/cgi-bin/LawCite?cit=%282009%29%20175%20FCR%20558] at [85] [http://www.austlii.edu.au/au/cases/cth/FCA/2009/407.html#para85]. As such, the statement of agreed facts between the applicant and Jump Loops is admissible in the case against Jump Loops and the statement between the ACCC and Mr Campbell is admissible in the case against Mr Campbell.
+ 2. The two statements of agreed facts are substantially the same. There are certain facts, however, which are only relevant to, and admitted by, Mr Campbell. I have taken that into account in these reasons. The following is a summary of the primary facts agreed between the parties and admissions made by the first and third respondents.
+
+Agreed facts that are common to the parties
+
+The business structure
+
+ 1. From 2014 to March 2016, Swim Loops, as franchisor, conducted the Jump Swim Schools franchise business. As such, it:
+
+> > (a) promoted franchises to prospective franchisees and entered into franchise agreements;
+> > (b) employed all persons involved in the business;
+> > (c) leased properties for the construction of swimming pools, for the purpose of licensing the use of the properties to franchisees for the operation of Jump Swim Schools franchises; and
+> > (d) conducted all of the other operations of the business.
+
+ 1. Swim Loops has been in liquidation since 23 August 2019.
+ 2. In or around 2016, the Jump Swim corporate group was formed. Between March 2016 and July 2019, it conducted the Jump Swim Schools franchise business. It comprised some six corporate entities which assumed different parts of the business previously conducted by Swim Loops. The ultimate holding company was the second respondent, Swim Loops Holdings. That company was involved in the promotion of franchises to prospective franchisees and held relevant intellectual property including the brand name “JUMP! Swim Schools” and its associated logo. It has been in liquidation since 22 July 2019. The first respondent, Jump Loops, became the franchisor and also promoted the supply of franchises to prospective franchisees. It has been in liquidation since 5 July 2019. Different entities within the group employed staff and engaged contractors, leased properties and undertook construction works.
+ 3. At all relevant times, Mr Campbell was:
+
+> > (a) a director of Swim Loops (Mr Campbell was one of two directors until 10 October 2016 and after that date he was the sole director);
+> > (b) the founder, sole director and managing director of Jump Loops;
+> > (c) a director of Swim Loops Holdings (Mr Campbell was one of two directors until 14 October 2018 and after that date he was the sole director);
+> > (d) the sole director of all other companies within the Jump Swim corporate group;
+> > (e) managing director of the Jump Swim corporate group; and
+> > (f) responsible for and had knowledge of all aspects of the operation and management of the Jump Loops and Swim Loops businesses and the Jump Swim corporate group, including marketing and selling Jump Swim School franchises, overseeing prospective and operating franchises, the development process for securing and fitting out premises, and supervising staff who were also responsible for these aspects of the business.
+
+Jump Swim School franchises
+
+ 1. Jump Loops offered franchises for sale on a “turn-key” basis such that Jump Loops agreed to hand over ready-to-operate businesses pursuant to a standard form franchise agreement. Under the franchise agreement, Jump Loops agreed (among other things) to supply the premises (subject to agreement being reached on a suitable location), fitout services, training and associated rights required to operate the franchise in order to provide swimming lessons to the public.
+
+The relevant representation
+
+ 1. During the relevant period, representatives of Jump Loops and Swim Loops Holdings sent emails to all prospective franchisees who ultimately entered into a franchise agreement or paid non-refundable amounts to Jump Loops, and some (but an unknown number of) other prospective franchisees who did not proceed to obtain a franchise, which contained a brochure titled “Come on board with a Jump! Swim Schools franchise” (the Brochure). There were three versions of the Brochure distributed in the relevant period. Each of the Brochures was substantively in the same form. Each version of the Brochure contained a prominent statement: “12 month turnaround from sign-on to open”. By making this statement, Jump Loops and Swim Loops Holdings represented that franchisees would be provided with an operational Jump Swim Schools franchise within 12 months of signing up to the franchise agreement (the Representation).
+ 2. Brochures were generally sent to prospective franchisees following a first contact call made using a script provided by Jump Loops to sales consultants. Consultants were instructed by the script, if asked, to state that the average time for opening a site from the time of securing a site was 9 to 12 months.
+ 3. As Managing Director, Mr Campbell provided final authorisation of, and made the decision to publish and otherwise make available, the Brochures which contained the Representation.
+
+Payments made by franchisees
+
+ 1. Jump Loops accepted payment of various fees from franchisees to establish a Jump Swim Schools franchise. As Managing Director, Mr Campbell participated in accepting payments from franchisees.
+ 2. The total amount payable by each franchisee for the establishment of a Jump Swim Schools franchise generally ranged from $150,000 to $175,000. Payment amounts were set out in the franchise agreement and were due at various times throughout the development process.
+ 3. The payments required to be made to Jump Loops on or before execution of the franchise agreement included an initial franchise fee, which varied from time to time in the range of $25,000 to $50,000, and fees relating to document preparation in the amount of $3,000 to $5,000. For some franchisees, there were additional fees including:
+    * the first instalment of the fitout fee in an amount of $33,000;
+    * a project design fee in the amount of $25,000;
+    * a fitout development and training fee in the amount of $25,000; and
+    * a student rebate fee in the amount of $25,000.
+ 4. Further payments required to be made to Jump Loops after execution of the franchise agreement included fitout fees which varied over time in the range of $80,000 to $140,000.
+ 5. To the extent that payments were received by an entity other than Jump Loops, the amounts were payable to that entity as directed by Jump Loops under the franchise agreement.
+ 6. During the relevant period, Jump Loops received total payments of at least $24 million. The payments were made under the franchise agreement in consideration for the provision of operational swim schools. All of those funds were expended in the operation of the Jump Swim corporate group.
+
+Failure to provide operational swim schools
+
+ 1. During the relevant period, Jump Loops entered into franchise agreements with at least 155 franchisees to supply operational Jump Swim Schools franchise. Jump Loops also received funds from a further 19 prospective franchisees, but there is no record of those prospective franchisees executing a franchise agreement.
+ 2. Of the 174 franchisees who had either entered into a franchise agreement or paid monies to Jump Loops without entering into a franchise agreement, Jump Loops had not provided an operational franchise within 12 months of sign-up to:
+
+> > (a) at least 9 franchisees by 30 June 2017;
+> > (b) at least 56 franchisees by 30 June 2018; and
+> > (c) at least 93 franchisees by 12 March 2019.
+
+ 1. As at the date of liquidation of Jump Loops, the state of its franchisees was as follows:
+
+> > (a) 21 franchisees had received an operational franchise. Of those, 6 received an operational swim school within 12 months of signing up to a franchise agreement; 11 received an operational swim school only after 12 months or more had passed since signing up; and for the remaining 4 it is not known how much time passed between signing up to a franchise agreement and receipt of an operational franchise.
+> > (b) 23 franchisees had not received an operational franchise but had been fully or partially refunded by Jump Loops. Of those, 21 franchisees received full refunds which totalled $755,345.43 and 2 received partial refunds which totalled $74,500.00.
+> > (c) At least 100 franchisees had signed up to a franchise agreement more than 12 months prior to the date of liquidation and had not received an operational franchise, with the average number of days spent waiting being over 700 days.
+> > (d) At least 31 franchisees had signed up to a franchise agreement less than 12 months prior to the date of liquidation and had not received an operational franchise.
+> > (e) In respect of 3 other franchisees that had not received an operational franchise, the parties are unable to identify when two of them signed a franchise agreement and the agreement was terminated in respect of the third.
+
+ 1. In a relatively small, but indeterminate, number of these cases, the franchisee had indicated to Jump Loops prior to the expiration of 12 months of entering into a franchise agreement that they were either financially unable or unwilling to proceed with their franchise and requested that the franchise agreement be terminated. Some of these requests were denied by Jump Loops.
+
+Awareness of issues relating to timing
+
+ 1. At all material times during the relevant period, Jump Loops did not have a reasonable basis for making the Representation.
+ 2. Jump Loops knew, including through Mr Campbell’s personal knowledge, that it was not possible to estimate accurately the length of time it would take to open a Jump Swim Schools franchise from the date of signing the franchise agreement, as the time taken to secure a site for the franchise differed for each site. Further, the time it would take to open a site from sign-up depended on the franchise location (including the rules and requirements of the relevant State or local council) and was largely reliant on approvals and other elements outside of the control of Jump Loops and Mr Campbell.
+ 3. Mr Campbell knew that the former franchisee, Swim Loops, had sold 52 franchises. Of those, 29 became operational franchises within 12 months of the franchise agreement, 15 became operational swim schools outside of 12 months of signing up and 8 never became operational.
+ 4. Between March 2016 and July 2019, Jump Loops and Mr Campbell received numerous complaints from franchisees in relation to significant delays in providing an operational franchise, and the lack of progress in establishing franchises.
+ 5. Between February 2017 and July 2019, Jump Loop’s failure to provide operational franchises within 12 months increased and Jump Loops and Mr Campbell were aware of this fact. As such, Mr Campbell knew that there were reasonable grounds for believing Jump Loops would be unable to provide an operational franchise within the 12 month timeframe or within a reasonable time (if at all). Despite this, Jump Loops continued to sign up and advertise for new or prospective franchisees until at least 27 February 2019.
+ 6. Based on the foregoing, neither Jump Loops nor Mr Campbell had reasonable grounds, and both Jump Loops and Mr Campbell knew that they did not have reasonable grounds, to make the Representation.
+ 7. Further, from at least April 2017, at the time of accepting payments from franchisees for franchises, there were reasonable grounds for believing that Jump Loops would not be able to supply an operational swim school within 12 months of signing a franchise agreement or within a reasonable time, and Mr Campbell and Jump Loops were aware, or ought reasonably to have been aware, of those grounds.
+
+Use of money received from franchisees
+
+ 1. Of the $24 million received by Jump Loops from franchisees that had signed up to franchise agreements, approximately $10 million was loaned to the former franchisor, Swim Loops. Those funds were used by the Swim Loops both for the purposes of the Jump Swim corporate group as a whole (including to fund the operations of the Jump Swim corporate group undertaken by Swim Loops and to repay debts of Swim Loops as part of those operations), as well as supplying franchises to franchisees who had contracted with Swim Loops, rather than the franchisees who had paid money to Jump Loops. Mr Campbell was aware of these payments and the use by Swim Loops of the money received from Jump Loops.
+ 2. On a number of occasions, Jump Loops was unable to pay construction costs or rent related to a franchise site that Jump Loops was obliged to pay pursuant to the franchise agreement. On some of these occasions, Jump Loops and the relevant franchisee agreed that the franchisee would pay for the costs required to be paid by Jump Loops, and the franchisee would offset those payments against future royalty fee invoices from Jump Loops, though many of those franchisees never received an operational site. Mr Campbell was aware of these arrangements, and on occasion personally agreed to them.
+ 3. Jump Loops knew, including through Mr Campbell’s personal knowledge, that the payment of franchisee funds to Swim Loops, as referred to above, meant those funds could not be used to supply operational franchises to franchisees who had signed franchise agreements with Jump Loops.
+ 4. Jump Loops has admitted that it had no banking finance facilities, alternative finance of any certainty or other material realisable assets that would permit Jump Loops to meet its obligations to construct franchises under the franchise agreements it had entered. Accordingly, Jump Loops was reliant on recovery of the loan to Swim Loops and/or generating sufficient future revenue to fund its prior contractual commitments. I note that Mr Campbell did not admit that fact.
+
+Jump Loops’ financial position
+
+ 1. In the financial years 2016 to 2019, Jump Loops received total revenue (including money paid to Jump Loops that was passed directly through to landlords) of at least $16.8 million, as follows:
+
+> > (a) $451,356.55 in FY16;
+> > (b) $6,950,532.92 in FY17;
+> > (c) $7,835,356.77 in FY18; and
+> > (d) $1,562,762.39 in FY19.
+
+ 1. Over 95 percent of Jump Loops’ total revenue was generated from the sale of new Jump Swim Schools franchises, with a total revenue of at least $16.1 million during the relevant period, as follows:
+
+> > (a) $450,681.82 in FY16;
+> > (b) $6,840,802.50 in FY17;
+> > (c) $7,698,540.91 in FY18; and
+> > (d) $1,143,718.16 in FY19.
+
+ 1. All of those funds were expended in the operation of the Jump Swim corporate group.
+ 2. In the financial years 2016 to 2019, the Jump Swim corporate group, although having a total revenue of at least $20.746 million, made:
+
+> > (a) a loss of $436,105 in FY17;
+> > (b) a profit of $152,090 in FY18; and
+> > (c) a loss in FY19 that is unknown due to the group’s liquidation.
+
+ 1. The estimated return to ordinary unsecured creditors of Jump Loops (who include franchisees) from its liquidation is 1 cent in the dollar.
+
+Effect on consumers
+
+ 1. In the relevant period, Jump Loops only provided 21 franchisees with operational franchises. Two of those franchisees each obtained two operational franchises.
+ 2. Jump Loops accepted payments totalling at least $19.5 million (exclusive of GST) from franchisees who were not provided by Jump Loops with an operational franchise within 12 months, or at all, and who were not refunded in whole or in part.
+ 3. At least 133 franchisees have suffered loss or damage in the form of fees that were paid (that were not refunded in whole or in part) without receiving an operational franchise or any other consideration. Since Jump Loops is now in liquidation, those 133 franchisees will not receive a franchise in the future from Jump Loops. Any entitlements that those franchisees have against Jump Loops as creditors are now claims in the liquidation. While the liquidation of Jump Loops is continuing, it is anticipated there will be a very significant shortfall between the value of the assets that can be realised by the liquidators and the amounts owed to unsecured creditors.
+ 4. Jump Loops accepted payments totalling $755,345.43 from 21 franchisees who were not provided with an operational franchise, but which amounts were subsequently refunded by Jump Loops.
+ 5. Jump Loops accepted payments totalling at least $113,000 from two franchisees who were not provided with an operational franchise, and Jump Loops refunded $74,500.
+ 6. Franchisees have also expended time, effort and money in anticipation of receiving an operational franchise within the specified 12-month period (e.g. rental payments) and may have also suffered emotional distress and uncertainty. On at least one occasion, a franchisee suffered loss in the form of a loss of employment opportunity.
+
+Additional facts agreed with Mr Campbell
+
+ 1. The knowledge of Jump Loops and Swim Loops Holdings was shared by Mr Campbell.
+ 2. Mr Campbell worked with the management team of the Jump Swim corporate group, liaising with and providing direction to other senior management.
+ 3. In his capacity as director and secretary of Jump Loops, Mr Campbell personally signed each new franchise agreement. Mr Campbell also had control of and access to all of the Jump Swim corporate group bank accounts. By reason of those matters, Mr Campbell knowingly participated in accepting payments from franchisees.
+ 4. During the relevant period, Mr Campbell declared an income from Jump Loops and Swim Loops Holdings as follows:
+    * $126,590 in FY16;
+    * $153,712 in FY17;
+    * $227,408 in FY18; and
+    * $210,974 in FY19.
+ 5. Notwithstanding that Mr Campbell declared these amounts as income in his annual tax returns in 2018 and 2019, he did not actually receive the amounts declared and appearing on his group certificates as money was left in Swim Loops Holdings to cover other expenses of the company as a priority. The money was recorded in the Jump Swim corporate group's accounts as repayment of director's loans made to Mr Campbell.
+ 6. Mr Campbell's financial position as at 6 November 2020 included:
+
+> > (a) no real property owned or shares in listed companies;
+> > (b) little cash at bank;
+> > (c) no loans receivable;
+> > (d) shares in Jump Swim Franchise Corp valued at approximately $20,000; and
+> > (e) shares in Swim Loops Holdings and Swim Loops.
+
+Annexures to these reasons
+
+ 1. As noted earlier, the statements of agreed facts and admissions filed in the proceedings against Jump Loops and Mr Campbell contained detailed annexures, in the form of excel spreadsheets and tables, providing details of franchisees, the dates on which franchise agreements were entered into, the dates on which payments were made and the total amounts paid, whether the franchisee received an operational swim school and whether any amounts paid by the franchisee were subsequently refunded. The ACCC compiled that information into four annexures which are relevant to the admissions made and relief sought in the proceeding. Those four annexures are attached to these reasons and contain the following information:
+
+> > (a) Annexure A contains a list of franchisees (totalling 174) to whom the Representation was made in the period from March 2016 to February 2019 and the date on which the franchisee signed a franchise agreement or, where the sign-up date is not known, the date on which the franchisee first made a substantial payment in respect of the franchise;
+> > (b) Annexure B contains a list of franchisees (totalling 127) in respect of whom, in the period from April 2017 to March 2019, Jump Loops accepted payments for a franchise where there were reasonable grounds for believing that it would not be able to supply the franchise to each person within 12 months from the date of signing a franchise agreement, together with the date on which the franchisee signed a franchise agreement or, where the sign up date is not known, the date on which the franchisee first made a substantial payment in respect of the franchise and, in each case, the date on which the franchisee made payments;
+> > (c) Annexure C contains a list of franchisees (totalling 108) in respect of whom, in the period from April 2016, Jump Loops accepted payments for a franchise but failed to provide a franchise within 12 months, together with the date on which the franchisee signed a franchise agreement or, where the sign up date is not known, the date on which the franchisee first made a substantial payment in respect of the franchise and, in each case, the total amount paid by the franchisee;
+> > (d) Annexure D contains a list of franchisees (totalling 131) to whom the Representation was made in the relevant period and who made payments for, but did not receive, an operational franchise and the amounts paid by them (which have not been refunded).
+
+ 1. The ACCC sought a confidentiality order under s 37AF(1) [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s37af.html] of the Federal Court of Australia Act 1976 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/] (Cth) in respect of the annexures to each of the statements of agreed facts and admissions and the Annexures A to D to these reasons. I consider that such an order is necessary to prevent prejudice to the proper administration of justice. The annexures contain personal and financial information of franchisees who are not party to this proceeding and are the victims of the respondents’ unlawful conduct. It may cause prejudice or embarrassment to such persons for that information to be published, and there is no necessity for the information to be published. I will therefore make the order sought by the ACCC.
+
+C. RELIEF SOUGHT AGAINST JUMP LOOPS
+
+Admitted contraventions
+
+ 1. Jump Loops has admitted that by the conduct described above it contravened ss 18 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s18.html], 29 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s29.html](1)(g), 36 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s36.html](3) and 36 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s36.html](4) of the Australian Consumer Law. Pecuniary penalties can be imposed for contraventions of ss 29 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s29.html] and 36 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s36.html], but not s 18. [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s18.html] The relevant sections of the Australian Consumer Law are as follows:
+
+> > 18 Misleading or deceptive conduct
+> > (1) A person must not, in trade or commerce, engage in conduct that is misleading or deceptive or is likely to mislead or deceive.
+> > ...
+
+ 1. False or misleading representations about goods or services
+
+> > (1) A person must not, in trade or commerce, in connection with the supply or possible supply of goods or services or in connection with the promotion by any means of the supply or use of goods or services:
+> > ...
+
+> > > (g) make a false or misleading representation that goods or services have sponsorship, approval, performance characteristics, accessories, uses or benefits; or
+> > > ...
+
+> > 36 Wrongly accepting payment
+> > (3) A person must not, in trade or commerce, accept payment or other consideration for goods or services if, at the time of the acceptance:
+
+> > > (a) there are reasonable grounds for believing that the person will not be able to supply the goods or services:
+
+> > > > (i) within the period specified by or on behalf of the person at or before the time the payment or other consideration was accepted; or
+> > > > (ii) if no period is specified at or before that time—within a reasonable time; and
+
+> > > (b) the person is aware or ought reasonably to be aware of those grounds.
+
+> > (4) A person who, in trade or commerce, accepts payment or other consideration for goods or services must supply all the goods or services:
+
+> > > (a) within the period specified by or on behalf of the person at or before the time the payment or other consideration was accepted; or
+> > > (b) if no period is specified at or before that time—within a reasonable time.
+
+ 1. Jump Loops admits that, by making the Representation (that franchisees would be provided with an operational swim school franchise within 12 months) it engaged in conduct in trade or commerce which was misleading or deceptive, or likely to mislead or deceive, in contravention of s 18 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s18.html], and made a false or misleading representation that the franchises (including both goods and services) provided by Jump Loops to franchisees had the uses, benefits or performance characteristics described in the Brochures in contravention of s 29(1)(g). [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s29.html] That is because the Representation was with respect to a future matter and Jump Loops did not have reasonable grounds for making the Representation. By s 4 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s4.html] of the Australian Consumer Law, the Representation is taken to be misleading. The Representations were made to each of the persons listed in column B of Annexure A to these reasons prior to the date listed at column C or D of Annexure A.
+ 2. Jump Loops also admits that it contravened s 36(3) [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s36.html] by accepting payment from franchisees where there were reasonable grounds for believing that Jump Loops would not be able to supply an operational Jump Swim Schools franchise within 12 months of signing the franchise agreement (being the period specified at or before the time of accepting payment for the franchise) or within a reasonable time, and Jump Loops was aware, or ought reasonably to have been aware, of those grounds. The relevant franchisees were each of the persons listed in column B of Annexure B to these reasons and payments were accepted on or about each of the dates listed in column E of Annexure B.
+ 3. Jump Loops further admits that it contravened s 36(4) [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s36.html] by accepting payment from franchisees for the supply of a Jump Swim Schools franchise but did not supply operational franchises within 12 months of signing the franchise agreement (being the period specified at or before the time of accepting payment for the franchise), or within a reasonable time. The relevant franchisees were each of the persons listed in column B of Annexure C to these reasons.
+
+Declaratory relief
+
+ 1. The ACCC seeks declarations that, by its conduct as described in these reasons, Jump Loops contravened ss 18(1) [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s18.html], 29 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s29.html](1)(g), 36 [http://www.austlii.edu.au/au/legis/cth/consol_act/fcoaa1976249/s36.html](3) and (4) of the Australian Consumer Law.
+ 2. The relevant principles relating to declaratory orders in the context of regulatory proceedings were summarised by Gordon J in Australian Competition and Consumer Commission v Coles Supermarkets Australia Pty Ltd [2014] FCA 1405 [http://www.austlii.edu.au/au/cases/cth/FCA/2014/1405.html] as follows:
+
+> > [74] The Court has a wide discretionary power to make declarations under s 21 of the Federal Court Act: Forster v Jododex Australia Pty Ltd [1972] HCA 61 [http://www.austlii.edu.au/au/cases/cth/HCA/1972/61.html]; (1972) 127 CLR 421 [/cgi-bin/LawCite?cit=%281972%29%20127%20CLR%20421] at 437-8; Ainsworth v Criminal Justice Commission [1992] HCA 10 [http://www.austlii.edu.au/au/cases/cth/HCA/1992/10.html]; (1992) 175 CLR 564 [/cgi-bin/LawCite?cit=%281992%29%20175%20CLR%20564] at 581-2 and Tobacco Institute of Australia Ltd v Australian Federation of Consumer Organisations Inc (No 2) [1993] FCA 105 [http://www.austlii.edu.au/au/cases/cth/FCA/1993/83.html]; (1993) 41 FCR 89 [/cgi-bin/LawCite?cit=%281993%29%2041%20FCR%2089] at 99.
+> > [75] Where a declaration is sought with the consent of the parties, the Court’s discretion is not supplanted, but nor will the Court refuse to give effect to terms of settlement by refusing to make orders where they are within the Court’s jurisdiction and are otherwise unobjectionable: see, for example, Econovite at [11].
+> > [76] However, before making declarations, three requirements should be satisfied:
+
+> > > (1) The question must be a real and not a hypothetical or theoretical one;
+> > > (2) The applicant must have a real interest in raising it; and
+> > > (3) There must be a proper contradictor:
+
+> > Forster v Jododex at 427-8.
+
+ 1. I am satisfied that it is appropriate to make declaratory orders largely in the form sought by the ACCC. The proposed declarations are appropriate because they:
+
+> > (a) record the Court’s disapproval of the contravening conduct;
+> > (b) will deter people, including other franchisors, from engaging in conduct that contravenes the Australian Consumer Law;
+> > (c) will serve the public interest in defining and publicising the type of conduct that contravenes the Australian Consumer Law;
+> > (d) assist the ACCC in the future in carrying out the duties conferred on it by the CCA (including the Australian Consumer Law);
+> > (e) inform consumers of the contravening conduct; and
+> > (f) accurately convey the gist of the findings that identify the contraventions.
+
+Pecuniary penalty
+
+ 1. The ACCC seeks an aggregate pecuniary penalty against Jump Loops in the range of $18 million to $25 million in respect of Jump Loops’ contraventions of Australian Consumer Law, comprising:
+
+> > (a) $1 million to $2 million for the contraventions of s 29(1)(g);
+> > (b) $15 million to $20 million for the contraventions of s 36(3); and
+> > (c) $2 million to $3 million for contraventions of s 36(4).
+
+ 1. Those proposed penalties are neither agreed to, nor opposed by, Jump Loops.
+
+Relevant statutory provisions and legal principles
+
+ 1. Under s 224(1) of the Australian Consumer Law, the Court may, in respect of contraventions of the provisions of Part 3-1 of the Australian Consumer Law (which relevantly includes ss 29 and 36), order the contravener to pay such pecuniary penalty in respect of each act or omission to which s 224 applies as the Court determines to be appropriate.
+ 2. Subsection 224(2) provides that, in determining the appropriate pecuniary penalty, the Court must have regard to all relevant matters including:
+
+> > (a) the nature and extent of the act or omission and of any loss or damage suffered as a result of the act or omission; and
+> > (b) the circumstances in which the act or omission took place; and
+> > (c) whether the person has previously been found by a court in proceedings under Chapter 4 or Part 5-2 of Chapter 5 of the Australian Consumer Law to have engaged in any similar conduct.
+
+ 1. Subsection 224(3) specifies the maximum penalty that may be imposed by the Court for each act or omission to which s 224(1) applies. Different maximum penalties applied during the period in which the contraventions occurred (between March 2016 and July 2019). In respect of contraventions of the provisions of Part 3-1 of the Australian Consumer Law, in the period up to 31 August 2018 the maximum penalty for a body corporate for each contravening act or omission was $1.1 million. In the period since 1 September 2018, the maximum penalty for each contravening act or omission has been the greater of:
+
+> > (a) $10 million;
+> > (b) if the Court can determine the value of the benefit to the body corporate, and any related body corporate, obtained directly or indirectly from the relevant act or omission – 3 times the value of that benefit; or
+> > (c) if the Court cannot determine the value of the benefit – 10% of the annual turnover during the 12-month period ending at the end of the month in which the act or omission occurred.
+
+ 1. In the present case, the ACCC submitted, and I accept, that the greater of the amounts in (a) to (c) above is $10 million.
+ 2. Subsection 224(4) provides that, if conduct constitutes a contravention of two or more provisions referred to in s 224(1)(a), a person is not liable for more than one pecuniary penalty in respect of the same conduct.
+ 3. The applicable principles governing s 224 are well known. I have recently summarised those principles relevant to the application of s 224 in Australian Competition and Consumer Commission v STA Travel Pty Ltd [2020] FCA 723 [http://www.austlii.edu.au/au/cases/cth/FCA/2020/723.html] and to an equivalent penalty provision in s 12GBA [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s12gba.html] of the Australian Securities and Investments Commission Act 2001 [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/] (Cth) in Australian Securities and Investments Commission v Dover Financial Advisers Pty Ltd (No 3) [2021] FCA 170. [http://www.austlii.edu.au/au/cases/cth/FCA/2021/170.html] I adopt those summaries for the purposes of this judgment.
+
+Consideration of relevant factors
+
+The nature and extent of the contravening act or omission
+
+ 1. Between March 2016 and February 2019, representatives of Jump Loops sent an email to each prospective franchisee who ultimately entered into a franchise agreement or paid non‑refundable amounts to Jump Loops, and to some other prospective franchisees who did not proceed to obtain a franchise, which contained the Brochure. The Brochure, in turn, contained the Representation (namely that a customer who signed up to a franchise agreement would be provided an operational Jump Swim Schools franchise within 12 months of signing). The Representation was misleading, and contravened s 29(1)(g) [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s29.html], because there was no reasonable basis for that estimated time frame. The Representation was made to at least 174 persons or entities who became franchisees by signing a franchise agreement. Having signed a franchise agreement, the franchisees became liable for the payment of fees for the establishment of a Jump Swim Schools franchise which generally ranged from $150,000 to $175,000.
+ 2. The Representation was likely to have had an operative effect on persons deciding whether to enter into a franchise agreement. The Brochure containing the Representation was sent to prospective franchisees following a first contact call made with prospective franchisees. The misrepresentation was therefore directed to a person who had already indicated their interest in signing up for a franchise and would be more susceptible to the misrepresentation. Further, the Representation related to a central business consideration for entering into the franchise agreement, being the time it would take for an operational Jump Swim Schools franchise to be provided.
+ 3. Between April 2017 and March 2019, Jump Loops accepted payments from some 127 franchisees when, at the time of accepting payment, there were reasonable grounds for believing it would not be able to supply the franchise within the specified period of 12 months. Many franchisees made multiple payments in that period, with some franchisees making ten or twenty payments. Each payment accepted by Jump Loops was a contravention of s 36(3), with the result that the conduct involved some 762 contravening acts.
+ 4. From April 2016, Jump Loops accepted payments for a Jump Swim Schools franchise from some 108 franchisees but failed to provide those persons with a franchise within the specified period of 12 months from the date of signing a franchise agreement. Many franchisees made multiple payments in that period, with some franchisees making ten or twenty payments. Each payment accepted by Jump Loops was a contravention of s 36(4).
+ 5. At all times during the relevant period, Jump Loops was aware that there were not reasonable grounds to believe that it could provide a fully operational franchise within 12 months, if at all, and yet it continued to enter into franchise agreements on that basis and accept payments from franchisees throughout that period.
+
+Loss and damage suffered
+
+ 1. The loss suffered by franchisees as a result of Jump Loops’ contravening conduct is substantial. At least 133 franchisees have suffered loss or damage in the form of fees that were paid (that were not refunded in whole or in part) without receiving an operational Jump Swim Schools franchise. The total amount payable for each franchisee for the establishment of a franchise generally ranged from $150,000 to $175,000. In relation to the 127 franchisees the subject of the contraventions under s 36(3), Jump Loops accepted 762 separate payments from those franchisees amounting to a total of more than $15.2 million.
+ 2. As Jump Loops is now in liquidation, those franchisees will not receive a franchise in the future from Jump Loops. Any entitlements that those franchisees have against Jump Loops as creditors will be provable in the liquidation. While the liquidation of Jump Loops is continuing, there will likely be a very significant shortfall between the value of the assets that can be realised by the liquidator and the amounts owed to unsecured creditors. The estimated return to ordinary unsecured creditors of Jump Loops is 1 cent in the dollar.
+ 3. The franchisees impacted by Jump Loops’ conduct are generally small, unsophisticated businesses. They made large payments to Jump Loops and received nothing in return. The conduct was likely to have had a very serious detrimental effect on the businesses and the livelihoods of those small business owners.
+
+Any financial gain from the contravening conduct
+
+ 1. This was not a case of misappropriating franchisees’ payments. Subject to one qualification, the payments were expended by Jump Loops in seeking to establish Jump Swim Schools franchises. However, Jump Loops proved to be incapable of delivering the physical infrastructure required for the franchises.
+ 2. Although this is not a case involving fraudulent conduct, the facts demonstrate that there must have been, and I find that there was, wilful blindness to the financial circumstances facing Jump Loops. Most significantly, after the establishment of the Jump Swim corporate group to take over the franchise business from Swim Loops, a large proportion of the revenue received by Jump Loops (some $10 million) was paid to Swim Loops by way of loan to enable that company to repay its debts (including establishing franchises for its franchisees). Thus, payments from new franchisees were being diverted for the benefit of pre-existing franchisees. It ought to have been apparent to Jump Loops from an early stage that its business and financial model were flawed.
+
+The deliberateness of the contravention
+
+ 1. The agreed facts show that, at all relevant times, Jump Loops knew that it was not delivering on its promise to deliver an operational franchise within 12 months. The business failings by Jump Loops grew in scale over time. Despite that, it continued to sign up new franchisees and take payments from them.
+ 2. The ACCC did not submit that Jump Loops deliberately failed to deliver on its promise to provide a franchise within 12 months. I understand the ACCC’s submission to be that Jump Loops continued to work on constructing operational swim schools during the relevant period. That may be so, but its contravening conduct should nevertheless be characterised as deliberate. In the relevant period, it entered into 174 franchise agreements but only delivered an operational franchise to 21. Its failures to deliver increased over time. The failures were obvious but, for reasons that are not explained, Jump Loops ignored what was obvious and continued to make the Representation knowing that it would not be fulfilled and accept payments knowing that the business was failing to provide franchises as promised. Jump Loops displayed a reckless disregard for the consequences of its actions.
+
+Whether the person has previously been found by a court to have engaged in any similar conduct
+
+ 1. Neither Jump Loops nor Swim Loops Holdings have previously been found by a court in proceedings under Chapter 4 or Part 5.2 [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/index.html#p5.2] to have engaged in similar conduct.
+
+Whether the contraventions arose out of the conduct of senior management or at a lower level
+
+ 1. The contraventions arose out of the conduct of the most senior management within Jump Loops, being Mr Campbell. Mr Campbell was at all relevant times the managing director and was responsible for and had knowledge of all aspects of the operation and management of Jump Loops, Swim Loops and the Jump Swim corporate group. He also held key positions in companies within the Jump Swim corporate group. Mr Campbell provided final authorisation of and made the decision to publish and otherwise make available the Brochure which contained the Representation.
+
+Compliance culture
+
+ 1. There is little before me in the statement of agreed facts and admissions and the parties’ submissions in relation to compliance culture. There is therefore no evidence that Jump Loops had compliance process in place to ensure compliance with the Australian Consumer Law.
+
+The size of the contravening company and financial position of the contravener
+
+ 1. In the financial years 2016 to 2019, Jump Loops received total revenue (including money paid to Jump Loops that was passed directly through to landlords) of at least $16.8 million. However, it is now in liquidation and the return to creditors is estimated to be 1 cent in the dollar.
+
+Cooperation with the enforcement authorities
+
+ 1. In this proceeding, Jump Loops has made full admissions and has not opposed the orders sought by the ACCC. Some allowance should be made for its cooperation.
+
+Contrition
+
+ 1. There is no evidence of contrition on the part of Jump Loops.
+
+Consideration of the appropriate penalty
+
+ 1.  The principal object of imposing a pecuniary penalty is deterrence; both the need to deter repetition of the contravening conduct by the contravener (specific deterrence) and to deter others who might be tempted to engage in similar contraventions (general deterrence): Singtel Optus Pty Ltd v Australian Competition and Consumer Commission [2012] FCAFC 20 [http://www.austlii.edu.au/au/cases/cth/FCAFC/2012/20.html]; 287 ALR 249 [/cgi-bin/LawCite?cit=287%20ALR%20249] at [62] [http://www.austlii.edu.au/au/cases/cth/FCAFC/2012/20.html#para62]- [63] [http://www.austlii.edu.au/au/cases/cth/FCAFC/2012/20.html#para63]; Australian Competition and Consumer Commission v TPG Internet Pty Ltd [2013] HCA 54 [http://www.austlii.edu.au/au/cases/cth/HCA/2013/54.html]; (2013) 250 CLR 640 [/cgi-bin/LawCite?cit=%282013%29%20250%20CLR%20640] at [65] [http://www.austlii.edu.au/au/cases/cth/HCA/2013/54.html#para65] per French CJ, Crennan, Bell and Keane JJ; Commonwealth v Director, Fair Work Building Industry Inspectorate [2015] HCA 46 [http://www.austlii.edu.au/au/cases/cth/HCA/2015/46.html]; (2015) 258 CLR 482 [/cgi-bin/LawCite?cit=%282015%29%20258%20CLR%20482] (FWBII) at [55] per French CJ, Kiefel, Bell, Nettle and Gordon JJ and [110] per Keane J.
+ 2.  There is little role for specific deterrence in this case. Jump Loops is in liquidation. In those circumstances there is no risk of Jump Loops engaging in similar contravening conduct in the future. However, the object of general deterrence is served by imposing appropriate penalties that reflect the seriousness of the contraventions even in circumstances where the company is in liquidation and the penalties may not be recovered: Australian Competition and Consumer Commission v Birubi Art Pty Ltd (in liq) (No 3) [2019] FCA 996 [http://www.austlii.edu.au/au/cases/cth/FCA/2019/996.html]; 374 ALR 776 [/cgi-bin/LawCite?cit=374%20ALR%20776] at [23] [http://www.austlii.edu.au/au/cases/cth/FCA/2019/996.html#para23]‑[25] and the authorities cited therein.
+ 3.  In my view, Jump Loops’ conduct involved very serious contraventions of the Australian Consumer Law. The contraventions caused very large losses to persons and entities seeking to conduct a small franchise business. While Jump Loops’ conduct cannot be described as fraudulent, it was deliberate in the sense that Jump Loops was aware that it could not deliver on its promises, but continued to entice persons to enter into franchise agreements and take payments from them. It displayed a reckless disregard of their interests and its contravening conduct deserves strong condemnation. The only mitigating factor is that Jump Loops has cooperated with, and not opposed, the ACCC in this proceeding. However, in circumstances where Jump Loops is now in liquidation, I give that factor little weight.
+ 4.  Throughout most of the period of the contravening conduct, the maximum penalty for each act that constituted a contravention of ss 29 [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s29.html] and 36 was $1.1 million. The maximum was increased to $10 million from 1 September 2018.
+ 5.  In the present case, there is a large number of contraventions of each of the three prohibitions in ss 29(1)(g) [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s29.html], 36(3) and 36(4). It is necessary to consider whether the contraventions are in respect of the same conduct, invoking the limitation in s 224(4) [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s224.html], and also whether some or all of the contraventions arise out of the same course of conduct such that it is appropriate to impose a single penalty for some or all of the conduct in order to avoid double punishment.
+ 6.  Section 224(4)(b) [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s224.html] of the Australian Consumer Law provides that where conduct constitutes a contravention of two or more of the provisions referred to in s 224 [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s224.html], the person is not liable to more than one penalty in respect of the same conduct. Such provisions apply to conduct which is truly “the same”, not merely similar or repeated, and can therefore be differentiated from the “course of conduct” principle: Australian Competition and Consumer Commission v Yazaki Corporation [2018] FCAFC 73 [http://www.austlii.edu.au/au/cases/cth/FCAFC/2018/73.html]; (2018) 262 FCR 243 [/cgi-bin/LawCite?cit=%282018%29%20262%20FCR%20243] (Yazaki) at [217]-[224].
+ 7.  In this case, while each of the contraventions of ss 29(1)(g) [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s29.html], 36(3) and 36(4) has overlapping elements with the others, each also has distinct elements that are independent of the others.
+ 8.  The contraventions of s 29(1)(g) [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s29.html] arise from making the Representation (the delivery of a franchise within 12 months) in circumstances where Jump Loops did not have reasonable grounds for making it.
+ 9.  The contraventions of s 36(3) are based on that same conduct and circumstance, but are also based on additional conduct (accepting payments) and an additional circumstance (Jump Loops’ awareness that there were no reasonable grounds for making the Representation). Section 36(3) was contravened when Jump Loops specified that a franchise would be provided within 12 months (i.e. by making the Representation) and accepted payments from franchisees in circumstances where there were reasonable grounds, of which Jump Loops was aware or ought reasonably to have been aware, for believing that Jump Loops would not be able to supply the franchises within 12 months.
+ 10. Section 36(4) was contravened when Jump Loops specified that a franchise would be provided within 12 months (i.e. by making the Representation), accepting payments from franchisees and then failing to supply the franchises within 12 months. The contraventions of s 36(4) thus have a distinct element to the contraventions of s 36(3), being the failure to deliver the franchise within 12 months.
+ 11. It follows that the conduct constituting the contraventions of ss 29(1)(g) [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s29.html], 36(3) and 36(4) are not the same conduct for the purposes of s 224(4). [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s224.html] Nevertheless, the overlapping elements of the contraventions are relevant to the assessment of an appropriate penalty. It is important to ensure that elements and penalty factors common to the different provisions are not ‘double counted’ for penalty purposes. Where separate acts, giving rise to separate contraventions, are inextricably interrelated, they may be grouped as a “course of conduct” for penalty purposes: Yazaki at [234]. This provides one way of avoiding double-punishment for those parts of the legally distinct contraventions which involve overlap in wrongdoing.
+ 12. The ACCC has sought a substantially lower total penalty for the contraventions of s 36(4) than those of s 36(3), in part to avoid double punishment for what was largely the same conduct. Similarly, the ACCC has sought a substantially lower total penalty for the contraventions of s 29(1)(g) [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s29.html] to avoid double punishment for the conduct that resulted in contraventions of ss 36(3) and (4).
+ 13. In the circumstances, I consider that the approach to the imposition of penalties proposed by the ACCC is appropriate. Given the seriousness of the contraventions, I consider that penalties towards the top of the range proposed by the ACCC are the penalties that should be imposed. In respect of the contraventions of s 29(1)(g) [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s29.html], a penalty of $2 million will be imposed. While that contravening conduct also formed the backbone of the contraventions of s 36, there were 47 more franchisees the subject of the s 29(1)(g) [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s29.html] contraventions in comparison to the s 36 contraventions. For that reason, the s 29(1)(g) [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s29.html] contraventions require a separate penalty. In respect of the contraventions of s 36(3), I consider that a penalty of $20 million should be imposed. In many ways, I consider that the contraventions of s 36(3) to be the most serious contraventions, as it involved the acceptance of more than 700 payments from 127 franchisees in circumstances where Jump Loops was aware, or ought reasonably to have been aware, that there were reasonable grounds for believing that it would not be able to supply a franchise within the specified period. In respect of the contraventions of s 36(4), I consider that an additional penalty of $1 million should be imposed. This recognises that there is considerable overlap in the conduct that gave rise to the contraventions of ss 36(3) and (4), but that s 36(4) nevertheless constituted contravening conduct that warrants its own penalty.
+ 14. In imposing those penalties, I recognise that the contravening conduct in respect of each franchisee had the same features and was therefore repeated on many occasions. However, it is not appropriate to treat the contravening conduct as a single course of conduct. While the same Representation was made to each franchisee, the Representation was made over a lengthy period of time during which it became more and more obvious that Jump Loops was incapable of supplying an operational Jump Swim Schools franchise within 12 months. Each transaction involved an individual franchisee paying Jump Loops large sums of money on the promise of receiving a franchise business. Each contravention warrants the imposition of a penalty.
+ 15. In the circumstances, I consider that an aggregate penalty of $23 million is appropriate.
+
+D. RELIEF SOUGHT AGAINST MR CAMPBELL
+
+Admitted contraventions
+
+ 1. Mr Campbell has admitted that he was knowingly concerned in, and party to, each of Jump Loops’ contraventions outlined above. Mr Campbell also admitted that Swim Loops Holdings contravened ss 18 [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s18.html] and 29 [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s29.html](1)(g) of the Australian Consumer Law in the same manner as Jump Loops and that he was knowingly concerned in, and party to, each of those contraventions by Swim Loops Holdings.
+ 2. In resolving the proceeding, Mr Campbell agreed to the orders for relief sought by the ACCC against him.
+
+Declarations
+
+ 1. The ACCC sought declaratory relief concerning Mr Campbell’s contravening conduct. I am satisfied that it is appropriate to make declaratory orders for the same reasons as given above in respect of Jump Loops.
+
+Pecuniary penalties
+
+ 1. The ACCC and Mr Campbell jointly propose an aggregate pecuniary penalty to be imposed against Mr Campbell in the amount of $400,000.
+ 2. The maximum penalty that may be imposed in respect of each contravening act by Mr Campbell was $220,000 up to 31 August 2018 and has been $500,000 since 1 September 2018.
+ 3. When deciding whether to make orders that are consented to by the parties, the Court must be satisfied that the orders are appropriate. If the Court is so satisfied, it is “highly desirable in practice for the court to accept the parties’ proposal and therefore impose the proposed penalty”: FWBII at [58]. As French CJ, Kiefel, Bell, Nettle and Gordon JJ made clear in FWBII, the Court need only consider that the proposed remedy is “an appropriate remedy” (as opposed to “the” appropriate remedy). An agreed penalty may be adopted if the Court considers it an appropriate amount even if the Court “might otherwise have been disposed to select some other figure” (at [47]).
+ 4. As stated above in respect of Jump Loops, I consider that the contraventions of the Australian Consumer Law, in respect of which Mr Campbell was knowingly involved, were very serious contraventions. It is unnecessary to repeat what is said above about those contraventions. But for the factors I refer to below, I would have considered a penalty of $400,000 to be wholly inadequate to mark the Court’s condemnation of Mr Campbell’s involvement in the contravening conduct. Mr Campbell was the managing director of the Jump Swim corporate group. It is admitted that he had knowledge of all of its business affairs and, by March 2016, knew that Jump Loops was failing to supply Jump Swim Schools franchises within 12 months of a franchisee signing a franchise agreement. He knew there were not reasonable grounds for making that representation. Despite that, he so managed the affairs of Jump Loops that it continued to sign franchisees up and receive payments from them. Most of those franchisees never received an operational franchise business and most received nothing in consideration of the large payments they made to Jump Loops. All of this was known to Mr Campbell, who bears primary responsibility for the losses inflicted on franchisees.
+ 5. There are two main factors that provide some support for a lower penalty than might otherwise have been imposed.
+ 6. First, Mr Campbell has admitted liability and consented to the proposed relief, thereby avoiding the need for a time-consuming trial. This is a mitigating factor in his favour.
+ 7. Second, Mr Campbell’s means to pay a penalty are limited. As at 6 November 2020, Mr Campbell owned no real property or shares in listed companies, little cash at bank, no loans receivable, and shares in various entities in the Jump Swim corporate group of little to no value. As such, it is unlikely that Mr Campbell will be able to pay the penalty imposed, in whole or in part.
+ 8. I have also had regard to the fact that Mr Campbell has consented to an order that he pay an additional amount of $500,000 by way of non-party consumer redress. That order is discussed below. Ordinarily, the fact that a respondent has agreed to compensate persons harmed by the contravening conduct is a mitigating factor in the assessment of penalty. While in the present case it is uncertain that Mr Campbell has the financial means to carry out the order, the orders have been structured to create an incentive for Mr Campbell to fulfil the order. The proposed orders require Mr Campbell to pay the amount of consumer compensation first (within 21 days) and, if he does so, the pecuniary penalty need not be paid until 30 June 2022. If he fails to pay the amount of consumer compensation, the pecuniary penalty becomes payable within 50 days. I consider that Mr Campbell’s agreement to the non-party consumer redress order is a factor in mitigation; however, I give that factor limited weight in circumstances where no evidence has been adduced to show that the order will in fact be fulfilled.
+ 9. Even taking the above factors into account, I would have been inclined to impose a higher penalty on Mr Campbell. Nevertheless, I consider the penalty jointly proposed by the parties to be within the range of appropriate penalties that might be imposed in this case, and I will accordingly impose the penalty that the parties have agreed.
+
+Non-party consumer redress order
+
+ 1. As noted above, the ACCC and Mr Campbell have jointly proposed that the Court make an order under s 239 of the Australian Consumer Law requiring Mr Campbell to pay an amount of $500,000 into the trust account of his solicitors, HWL Ebsworth Lawyers, with the funds to be applied under a non-party redress scheme. The proposed scheme has the following elements:
+
+> > (a) The persons eligible to participate in the redress scheme are those persons named in Annexure D to these reasons who are franchisees (totalling 131) to whom the Representation was made in the relevant period and who made payments for, but did not receive, an operational franchise. The amounts paid by the franchisees, and which have not been refunded, is also shown in Annexure D.
+> > (b) Mr Campbell is required to provide the ACCC with all contact details known to him of each of the franchisees eligible for redress.
+> > (c) The ACCC is required to send a notice to all eligible franchisees inviting them to participate in the redress scheme by return notice.
+> > (d) The ACCC is then required to compile a list of eligible franchisees who have accepted the redress, calculate for each eligible franchisee their proportionate share of the funds based on the amount paid by them for a franchise, and provide a copy of that list to HWL Ebsworth Lawyers.
+> > (e) HWL Ebsworth Lawyers is required to disperse the funds to eligible franchisees within 14 days of receipt of that notice.
+
+ 1. Accepting the redress will not prevent the recipient from proving in the liquidation of Jump Loops or Swim Loops Holdings in relation to any loss or damage beyond the amount of redress.
+
+Relevant principles
+
+ 1. Under s 239 of the Australian Consumer Law, if a person has engaged in conduct in contravention of, relevantly, a provision of Part 3 [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/index.html#p3]-1 [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/index.html#p1] of the Australian Consumer Law (which includes ss 29(1)(g) [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s29.html], 36(3) and 36(4)), and the contravening conduct has caused or is likely to cause a class of persons (including non-party consumers) to suffer loss or damage, the Court has power to make such orders (other than an award of damages) as the Court thinks appropriate against the person who engaged in the contravening conduct or a person involved in that conduct. The order must be an order that the Court considers will redress, in whole or in part, the loss or damage suffered by the non-party consumers: s239(3). In determining whether to make an order under s 239, the Court may have regard to the conduct of the person and of the non-party consumers in relation to the contravening conduct since the contravention occurred: s 240(1). No finding is necessary about which persons are non-party consumers, or their loss or damage: s 240(3). A non-party consumer who accepts the redress is bound by that order and gives up the right to make any other claim against Mr Campbell in relation to that loss or damage: s 241. [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s241.html]
+ 2. This Court has made consumer redress orders in a number of cases under s 239 and its predecessor provision: see e.g. Australian Competition and Consumer Commission v Geowash Pty Ltd (Subject to a Deed of Company Arrangement) (No 4) [2020] FCA 23 [http://www.austlii.edu.au/au/cases/cth/FCA/2020/23.html]; 376 ALR 701 [/cgi-bin/LawCite?cit=376%20ALR%20701] (Geowash); Australian Competition and Consumer Commission v Yellow Page Marketing BV (No 2) [2011] FCA 352 [http://www.austlii.edu.au/au/cases/cth/FCA/2011/352.html]; (2011) [/cgi-bin/LawCite?cit=%282011%29%20195%20FCR%201]195 FCR 1 [/cgi-bin/LawCite?cit=%282011%29%20195%20FCR%201]; Australian Competition and Consumer Commission v ACN 117 372 915 Pty Ltd (in liq) (formerly Advanced Medical Institute Pty Ltd) [2015] FCA 368 [http://www.austlii.edu.au/au/cases/cth/FCA/2015/368.html]; ATPR 42-498; Australian Competition and Consumer Commission v AGL South Australia Pty Ltd [2015] FCA 399 [http://www.austlii.edu.au/au/cases/cth/FCA/2015/399.html]; 146 ALD 385 [/cgi-bin/LawCite?cit=146%20ALD%20385]; Australian Competition and Consumer Commission v Reebok Australia Pty Ltd [2015] FCA 83 [http://www.austlii.edu.au/au/cases/cth/FCA/2015/83.html]; ATPR 42-501; Australian Competition and Consumer Commission v Clinica Internationale Pty Ltd (No 2) [2016] FCA 62 [http://www.austlii.edu.au/au/cases/cth/FCA/2016/62.html] (Clinica).
+ 3. In Clinica, Mortimer J observed (at [293]):
+
+> > Section 239 is a remedial power. It is designed to allow the Court to undo damage to third parties caused by contravening conduct. The manner in which damage caused might need to be undone will inevitably need to be tailored to the circumstances of the contravening conduct, to the loss or damage suffered, and to the circumstances of the contravener and those involved in the contravention. There are no boundaries drawn in express terms in the way the power is conferred. The terms of s 243 [http://www.austlii.edu.au/au/legis/cth/consol_act/asaica2001529/s243.html] provide examples of the way power might be exercised but should not be construed as confining s 239: Acts Interpretation Act 1901 [http://www.austlii.edu.au/au/legis/cth/consol_act/aia1901230/] (Cth), s 15AD. [http://www.austlii.edu.au/au/legis/cth/consol_act/aia1901230/s15ad.html] Rather, the use of the standard of appropriateness is a clear indicator that the legislature intends the Court to be able to fashion orders to suit the circumstances of a given case. It is precisely the kind of power where what is important is to look at the 'reality' of the financial circumstances of the contraveners, and those involved in the contravention.
+
+ 1. In Geowash, Colvin J undertook detailed analysis of the relevant principles, including by surveying the key authorities (at [164]-[193]). Referring to s 240(3), his Honour observed (at [185]) that there is “no requirement that the Court be satisfied that there is a precise correspondence between the redress that might be received by a particular member of the class and actual loss suffered by that member”.
+ 2. The authorities illustrate the remedial nature of s 239 and the broad discretion given to the Court to shape orders made pursuant to that provision to do justice on the facts of the relevant case before it.
+ 3. In this case, the parties have consented to Mr Campbell paying $500,000 in non-party consumer redress. Similarly to the order made in Geowash, the form of redress order proposed in this case provides for Mr Campbell to pay money to an intermediary (here, a trust account maintained by his solicitors, HWL Ebsworth Lawyers) and for payments to the relevant franchisees to be made from that account. The following features of the proposed order can be noted.
+
+> > (a) First, the purpose of the order is to provide a form of redress to the franchisees, albeit a “limited form of redress”: Clinica at [255].
+> > (b) Second, the loss or damage is “clearly identifiable” (Clinica at [255]) with “sufficient certainty” (Geowash at [187]), being primarily of a quantifiable monetary nature.
+> > (c) Third, the order is sought in circumstances of contravening conduct: Clinica at [255].
+> > (d) Fourth, the order is designed to undo damage to the franchisees: Clinica at [293]. As the contraventions of ss 36(3) [http://www.austlii.edu.au/au/legis/cth/consol_act/aia1901230/s36.html] and (4) relate to the wrongful acceptance of monies, the damage caused by the contraventions may be redressed by refunds, which operate restoratively.
+> > (e) Fifth, the order reflects the reality of the financial circumstances of the contraveners; particularly, Mr Campbell’s current financial position. Based on that position, and the fact that Jump Loops is in liquidation, the redress that any franchise may expect to obtain is imperfect. However, the redress will compensate those eligible franchisees at least in part and franchisees may pursue the balance of their claims against Jump Loops or Mr Campbell as they choose in accordance with the principles in s 241 of the Australian Consumer Law: Geowash at [187] - [192].
+> > (f) Sixth, each franchisee may choose to decline the redress and instead pursue alternative legal remedies against Jump Loops, Swim Loops Holdings or Mr Campbell. The proposed orders will not disturb any rights of the franchisees to prove in the liquidation of Jump Loops and Swim Loops Holdings. Each franchisee will be notified of that matter (and other relevant matters) in the proposed notice.
+
+ 1. Subject to two matters addressed below, I consider that the proposed redress orders are appropriate, in the sense of being suitable or fitting the purpose of effecting redress: Geowash at [193].
+
+Concerns with respect to the proposed redress order
+
+ 1. At the hearing on 2 December 2020, I raised with the parties a number of concerns about the proposed redress order. The parties responded by filing supplementary submissions on 14 December 2020, and further submissions were made at the hearing on 15 March 2021. It is only necessary to refer to two of the concerns raised.
+ 2. The first concern related to a proposed monetary “floor” on the redress scheme. The parties originally proposed that only franchisees that had paid more than $30,000 would be eligible to participate in the redress scheme, thereby excluding franchisees that had paid only the initial deposit for a franchise. This, it was submitted, would preserve more funds to be distributed to those franchisees who had suffered the most loss, in circumstances where only a pool of $500,000 would be available to satisfy the claims of more than 100 franchisees, some of whom had claims of over $150,000 each.
+ 3. In my view, the proposed monetary floor is not justified and is unfair to those franchisees that suffered more modest losses. It can be accepted that, in some cases, the costs associated with administering a redress scheme might outweigh the losses suffered by particular consumers such that it would be uneconomic and wasteful to provide redress to those consumers. However, it is not apparent that this case falls into that category. The costs of administering the proposed scheme are likely to be very modest. The eligible franchisees number only 131 and the amounts paid by each of them in respect of their franchises is known. It is a simple and inexpensive task to contact the franchisees and invite them to participate in the scheme. It is also a simple and inexpensive task to apportion the $500,000 fund between the participating franchisees based on their relative losses (calculated as the amounts paid for their franchise). For those reasons, I have excluded any monetary “floor” to the redress scheme.
+ 4. The second concern related to the operation of s 227 of the Australian Consumer Law which provides as follows:
+
+> > 227 Preference must be given to compensation for victims
+> > If a court considers that:
+> > (a) it is appropriate to order a person (the defendant) to pay a pecuniary penalty under section 224 in relation to:
+
+> > > (i) a contravention of a provision referred to in subsection (1)(a) of that section; or
+> > > (ii) conduct referred to in subsection (1)(b), (c), (d), (e) or (f) of that section that relates to a contravention such a provision; and
+
+> > (b) it is appropriate to order the defendant to pay compensation to a person who has suffered loss or damage as result of that contravention or conduct; and
+> > (c) the defendant does not have sufficient financial resources to pay both the pecuniary penalty and the compensation;
+> > the court must give preference to making an order for compensation.
+
+ 1. In Clinica, Mortimer J concluded (at [255]) that a non-party redress order under s 239 was an order for compensation within paragraph (b) of s 227. The parties did not contest that conclusion. Respectfully, I agree with that conclusion for the reasons expressed by her Honour.
+ 2. In the present case, and for the reasons expressed earlier, I consider that it is appropriate to order Mr Campbell to pay a pecuniary penalty of $400,000. I also consider that it is appropriate to order Mr Campbell to compensate those franchisees who have paid monies to Jump Loops without receiving anything in return. The statement of agreed facts indicates that those franchisees have incurred losses of some $19.5 million. The parties have proposed that Mr Campbell pay an amount of $500,000 into a fund to be disbursed under the redress scheme. Plainly, that amount falls well short of the losses incurred by franchisees. The statement of agreed facts indicates that Mr Campbell does not have sufficient resources to pay both the proposed pecuniary penalty ($400,000) and the proposed compensation under the redress scheme ($500,000). In those circumstances, s 227 applies and requires the Court to give preference to making an order for compensation. The concern I raised with the ACCC was: what precisely does s 227 require in these circumstances? Is it consistent with the requirements of s 227 for the Court to order Mr Campbell to pay a pecuniary penalty of $400,000 to the Commonwealth of Australia in circumstances where the compensation to be paid to franchisees ($500,000) is only a small proportion of the loss suffered by franchisees? Does s 227 require the Court to preference an order for compensation by, for example, ordering Mr Campbell to pay an amount of $900,000 into the fund to be disbursed under the redress scheme, instead of ordering a pecuniary penalty?
+ 3. In its written supplementary submissions, the ACCC submitted that s 227 mandates the temporal order or sequence of payment of penalties and compensation; that is, the Court must order that the compensation be paid first in time, before the payment of penalties, in circumstances where orders for both compensation and penalties are made. The ACCC submitted that s 227 does not mandate or permit the Court to reduce the amount of penalty so as to allow for a greater amount of compensation, let alone allow the Court to eliminate a penalty altogether in favour of compensation. In support of that submission, the ACCC referred to three matters.
+ 4. First, the ACCC placed substantial reliance on the following statement in the Explanatory Memorandum to the Trade Practices Amendment Bill (No 1) [http://www.austlii.edu.au/au/legis/cth/bill/tpab12000266/] 2000 [http://www.austlii.edu.au/au/legis/cth/bill/tpab12000266/] (Cth), which introduced s 79B of the Trade Practices Act 1974 [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/] (Cth), the predecessor provision to s 227 of the Australian Consumer Law, at [30]:
+
+> > The new section is not directed to allowing the Court to waive or reduce the fine or pecuniary penalty where it considers the defendant does not have sufficient financial resources, thereby allowing the defendant to avoid punishment. A Court may still impose a fine or pecuniary penalty. The provision allows the Court to order that a person who has suffered loss or damage will be compensated before a fine or pecuniary penalty will be paid into consolidated revenue. Where a fine or pecuniary penalty is not paid, proceedings for enforcement and recovery may be commenced under sections 77 [http://www.austlii.edu.au/au/legis/cth/num_act/tpa1974149/s77.html] or 79A.
+
+ 1. Second, the ACCC emphasised the different objectives of a compensation order in comparison to a pecuniary penalty. It submitted that the purpose of a compensation order is redress whereas the purpose of a penalty order is deterrence. Additionally, the ACCC noted that compensation orders have different legal consequences to penalty orders: an order to pay a penalty survives bankruptcy or liquidation (see s 82(3) [http://www.austlii.edu.au/au/legis/cth/consol_act/ba1966142/s82.html] of the Bankruptcy Act 1966 [http://www.austlii.edu.au/au/legis/cth/consol_act/ba1966142/] (Cth) and s 553B [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s553b.html] of the Corporations Act 2001 [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/] (Cth)) whereas an order to pay compensation does not (it is converted into a right to prove alongside other ordinary unsecured debts and claims). The ACCC submitted that this feature of penalties promotes deterrence because it is a disincentive to the respondent entering into voluntary liquidation or filing a debtor’s petition for bankruptcy.
+ 2. Third, the ACCC submitted that a construction of s 227 [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s227.html] that allowed an order of compensation to be made in substitution for ordering a penalty would involve:
+
+> > “the unwinding of the satisfaction of the preconditions that allows one to reach the operative part of s 227 [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s227.html] in the first place. To reach the operative part of s 227 [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s227.html], the Court must consider it appropriate to order a penalty. If the Court was then to go on to only order compensation on the basis that this was said to give effect to s 227 [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s227.html], it would have the result that the Court has determined it to no longer be appropriate to order a penalty. That is to say, the Court, as a result of the provision, would necessarily be taken to have changed its view that a penalty is appropriate to a different view that a penalty is not appropriate. ”
+
+ 1. The ACCC also submitted that increasing the amount payable by way of compensation and correspondingly decreasing the amount payable by way of penalty would lead to “unintended and potentially absurd outcomes”. The ACCC argued that there are many cases in which a wrongdoer may not have the financial means to pay an appropriate amount of compensation in full and that an approach that preferenced an order for compensation over an order for penalty might result in no penalty being ordered. The ACCC argued that that would place a wrongdoer in a better position than if they were required to pay a penalty because of the bankruptcy and liquidation considerations referred to above. Further, as a redress scheme under s 239 [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s239.html] is optional for non-party consumers, the wrongdoer may end up paying a smaller amount by way of compensation by reason that consumers do not take up the offered redress.
+ 2. In the course of oral submissions made at the hearing on 15 March 2021, the ACCC softened a number of the submissions that it had made in writing. The ACCC accepted, where the conditions to s 227 [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s227.html] apply, the section requires the Court to give preference to making an order for compensation. However, the ACCC submitted that the section does not command a binary choice between making an order for compensation or an order for a pecuniary penalty. The manner in which the preference is to be given is left to the Court. In that regard, the ACCC emphasised that there may be a range of factual circumstances that need to be considered in any given case including the amount of losses suffered, the amount of penalty that is appropriate and the evidence as to the resources available to the respondent. The Court is empowered to formulate orders that fulfil the statutory obligation in a wide range of circumstances.
+ 3. In the present case, the ACCC conceded that, on the agreed facts, Mr Campbell does not have the resources to pay the proposed redress, let alone the pecuniary penalty. The ACCC submitted, however, that the order for a pecuniary penalty was important for the purposes of general deterrence.
+
+Consideration of s 227 [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s227.html]
+
+ 1. The purpose of s 227 [http://www.austlii.edu.au/au/legis/cth/consol_act/ca2001172/s227.html] is clear from the statutory text: where the Court has determined that it is appropriate to make an order for the imposition of a pecuniary penalty and an order for the payment of compensation but the respondent does not have sufficient financial resources to pay both, the Court is required to give preference to making an order for compensation. The intention of the legislature is that the financial resources of the respondent should be directed to compensating those that have been harmed by the respondent’s conduct in preference to paying a pecuniary penalty which is paid to the Commonwealth of Australia. That statutory purpose is confirmed by the Explanatory Memorandum to the Trade Practices Amendment Bill (No 1) [http://www.austlii.edu.au/au/legis/cth/bill/tpab12000266/] 2000 [http://www.austlii.edu.au/au/legis/cth/bill/tpab12000266/] (Cth) which stated:
+
+> > Item 14 - Preference for Compensation
+> > 28. Item 14 inserts a new section 79B that directs to the court to give preference to compensation. A person who contravenes the TPA may be required to pay both a fine or pecuniary penalty and compensate those who have suffered loss or damage as a result of the contravention. Where the person who has contravened the Act has insufficient financial resources for both, the Court is to give preference to compensating those who have suffered loss or damage.
+> > 29. The ALRC noted that compensation was an important objective of an enforcement action under the TPA but that this was not always achieved. Where the defendant does not have the financial resources for to pay both compensation and a court imposed fine or pecuniary penalty, the plaintiff may conceivable [sic] fail to receive compensation even though a fine or pecuniary penalty has been paid into consolidated revenue.
+> > 30. The new section is not directed to allowing the Court to waive or reduce the fine or pecuniary penalty where it considers the defendant does not have sufficient financial resources, thereby allowing the defendant to avoid punishment. A Court may still impose a fine or pecuniary penalty. The provision allows the Court to order that a person who has suffered loss or damage will be compensated before a fine or pecuniary penalty will be paid into consolidated revenue. Where a fine or pecuniary penalty is not paid, proceedings for enforcement and recovery may be commenced under sections 77 or 79A.
+> > 31. Alternatively, it would be open to the Court to make an additional order under section 86C or 86D. For example, the Court may make a Community Service or Adverse Publicity Order where it feels the defendant's financial resources would prevent a fine being recovered.
+> > 32. Preference for compensation helps give effect to the objectives of the TPA, to protect consumers and provide a remedy where they have suffered loss or damage because of a contravention of the Act.
+
+ 1. I reject the ACCC’s submission to the effect that s 227 is concerned only with the temporal order or sequence of payment of penalties and compensation and that the section does not permit the Court to reduce the amount of penalty so as to allow for a greater amount of compensation, or allow the Court to eliminate a penalty altogether in favour of compensation. The matters relied on by the ACCC do not support that submission.
+ 2. First, the plain language of s 227 is not limited in the manner suggested by the ACCC. The conditions to the operation of the section include the appropriateness of making an order for a pecuniary penalty and an order for compensation. The section concludes by directing the Court to give “preference to making an order for compensation”. Read in context, the direction contemplates the possibility of the Court making an order of compensation instead of any order for a pecuniary penalty.
+ 3. Second, the ACCC’s reliance on paragraph 30 of the Explanatory Memorandum is misplaced. The ACCC’s argument impermissibly seeks to replace the language of the Explanatory Memorandum for the statutory text. The Explanatory Memorandum is not the statutory text and should not be read as a statute. Further, despite the awkwardness of the language used in paragraph 30 of the Explanatory Memorandum that “The new section is not directed to allowing the Court to waive or reduce the fine or pecuniary penalty”, the statement is best understood as reflecting Parliament’s intent that s 227 does not mandate that the Court waive or reduce a fine or pecuniary penalty by reason that the respondent does not have sufficient resources to pay the fine or penalty. The Explanatory Memorandum continues by stating that “A Court may still impose a fine or pecuniary penalty”, properly recognising (by the use of the permissive mood) that the imposition of a fine or penalty in any given circumstances lies in the discretion of the Court. The further statement that “The provision allows the Court to order that a person who has suffered loss or damage will be compensated before a fine or pecuniary penalty will be paid into consolidated revenue” properly recognises (again by the use of the permissive mood) that one practical means by which the Court may give effect to the direction in s 227 is by the temporal order of payment. However, the Explanatory Memorandum does not suggest that that is the only means by which the direction may be fulfilled in any given circumstances.
+ 4. Third, the ACCC’s submission that a construction of s 227 that allowed an order of compensation to be made in substitution for ordering a penalty would involve “the unwinding of the satisfaction of the preconditions that allows one to reach the operative part of s 227 in the first place” is incorrect. The Court may consider that it is appropriate to order the respondent to pay a penalty, but must comply with the direction in s 227 if the other conditions are satisfied. Compliance with the direction does not “unwind” the Court’s determination that a penalty is appropriate. The determination that a penalty is appropriate enlivens the Court’s discretion to impose a penalty under s 224, but the exercise of that discretionary power is affected by the direction in s 227.
+ 5. The statutory requirement in s 227 that the Court is to give preference to making an order for compensation is open textured; it does not mandate the manner in which the preference is to be given. The section leaves that to the discretion of the Court in light of the facts and circumstances. Respectfully, I agree with the following observation of Mortimer J in Clinica (at [247]):
+
+> > Section 227 does not prescribe, or circumscribe, the way in which the Court should structure its orders so as to ensure preference is given to the compensation orders. Self-evidently, there will be a variety of factors for the Court to consider in each proceeding, and orders will need to be fashioned to fit the particular circumstances of a case.
+
+ 1. It is possible, though, to mark out certain boundaries concerning the operation of the section. First, the section makes clear that, if the three conditions to the operation of the section are enlivened, it is impermissible for the Court to make an order for the imposition of a penalty rather than an order for compensation. To do so would fail to give preference to making an order for compensation. Second, if the three conditions to the operation of the section are enlivened, it remains permissible for the Court to make an order for the imposition of a penalty provided the Court has given preference to making an order for compensation. How the Court chooses to do so is a matter for the Court. Ultimately, the direction given by s 227 to the Court is to seek to ensure that consumers receive payment of compensation in preference to the Commonwealth receiving payment of a penalty.
+ 2. Turning to the present case, the application of s 227 is complicated by the following circumstances:
+
+> > (a) the parties have proposed agreed orders for compensation of $500,000 and penalty of $400,000;
+> > (b) the agreed facts indicate that franchisees have suffered losses that far exceed the amount of compensation of $500,000 (in the vicinity of $19.5 million); and
+> > (c) the agreed facts indicate that Mr Campbell may not have the financial resources to pay the amount of compensation, let alone the further amount of penalty.
+
+ 1. What is missing from the material before the Court is any evidence explaining how those numbers have been arrived at, both as to the amount of compensation and the division of the sums between compensation and penalty. It is unclear to the Court whether the ACCC and Mr Campbell have reached agreement with respect to the orders on the basis of some understanding as to potential sources of money available to Mr Campbell, or whether the parties seek the orders notwithstanding that there are no financial resources available to Mr Campbell to satisfy them, or perhaps without knowing what the ultimate position will be.
+ 2. The means by which the ACCC has sought to address the requirement of s 227 is to propose that the compensation be paid first and, if it is paid, the payment of the penalty will be deferred to a later date (30 June 2022). However, on their face, the orders leave open the following possibilities:
+
+> > (a) Mr Campbell is unable to pay the amount of compensation or the penalty;
+> > (b) Mr Campbell does not pay the compensation ordered by the due date, bringing forward the obligation to pay the penalty and pays part or all of the penalty;
+> > (c) Mr Campbell pays the amount of compensation of $500,000 and a penalty of $400,000 is paid to the Commonwealth of Australia.
+
+ 1. The possible outcomes in (b) and (c) are, on their face, inconsistent with the requirement of s 227. Money would be paid to the Commonwealth of Australia by way of penalty in circumstances where those who have suffered losses have not been fully compensated.
+ 2. Ultimately, the ACCC invited the Court to make the orders proposed on the basis that the agreed facts indicate that Mr Campbell does not have the financial resources to pay the agreed amount of compensation, let alone pay the penalty. The ACCC submitted that the compensation order may result in Mr Campbell’s bankruptcy, in which case the payment will not be made. Notwithstanding that outcome, the ACCC submitted that a pecuniary penalty should be imposed even if it is not paid because of the importance of general deterrence of the conduct engaged in by Mr Campbell. The ACCC submitted that it would be inappropriate to order that Mr Campbell pay compensation of $900,000, and no penalty, in circumstances where the agreed facts indicate that Mr Campbell does not have the resources available to pay that amount and the parties have not agreed to such an order in the context of an agreed settlement of the proceeding.
+ 3. Not without some hesitation, I have determined that it is appropriate to make the orders sought by the parties. I do so primarily on the basis that the agreed facts indicate that Mr Campbell does not have, from his own resources, $500,000 to satisfy the order for compensation. Whether Mr Campbell complies with that order, to which he has agreed, will depend on some other person providing him with the funds to do so. In those circumstances, the prospects of Mr Campbell satisfying the order for the payment of a pecuniary penalty seems, on the facts before me, to be remote. I emphasise that this is not a case in which Mr Campbell has available to him $900,000 which the parties have chosen to allocate between the order for compensation and the order for penalty. If those were the facts before me, I would not make the orders sought by the parties as I consider that such orders would involve non-compliance with s 227.
+
+Injunctive relief
+
+ 1. The ACCC and Mr Campbell have agreed to the imposition of the following injunctive orders under s 232 of the Australian Consumer Law:
+
+> > (a) that Mr Campbell be restrained for a period of 5 years from being knowingly concerned in, or party to, the making of representations to a prospective franchisee concerning the timeframe for establishing an operational franchise in circumstances where there are not reasonable grounds for such representations;
+> > (b) that Mr Campbell be restrained for a period of 5 years from being knowingly concerned in, or party to, the acceptance of payment or other consideration for the supply of goods or services for, or relating to, the business of a franchisor in circumstances where, at the time of acceptance, the person accepting the payment or other consideration is aware, or ought reasonably to be aware, that there are reasonable grounds for believing the goods or services would not be supplied within the period specified at or before the time the payment is accepted or, if no period is specified, within a reasonable time; and
+> > (c) that Mr Campbell be restrained in Australia for a period of 3 years from being in any way, directly or indirectly, involved in carrying on business as or of a franchisor, including as an individual franchisor or as an employee, director, manager, servant, agent or representative of another person (including a corporation).
+
+ 1. Section 232(1) of the Australian Consumer Law provides that the Court may grant an injunction, on such terms as the Court considers appropriate, if the Court is satisfied that a person has engaged, or is proposing to engage, in conduct that constitutes or would constitute, relevantly, being in any way, directly or indirectly, knowingly concerned in or party to a contravention of a provision of Chapter 3 of the Australian Consumer Law. Further, s 233 provides that, if an application is made under s 232, the Court may, if it considers that it is appropriate to do so, grant an injunction under this section by consent of all of the parties to the proceeding, whether or not the Court is satisfied as to the requirements of s 232(1).
+ 2. Analogous statutory injunctive powers (s 80 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s80.html] of the Competition and Consumer Act 2010 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/] (Cth) have been described as giving the Court “the widest possible injunctive powers, devoid of traditional constraints, though the power must be exercised judicially and sensibly”: ICI Australia Operations Pty Ltd v Trade Practices Commission (1992) 38 FCR 248 [/cgi-bin/LawCite?cit=%281992%29%2038%20FCR%20248] at 256; Foster v Australian Competition and Consumer Commission [2006] FCAFC 21 [http://www.austlii.edu.au/au/cases/cth/FCAFC/2006/21.html]; (2006) 149 FCR 135 [/cgi-bin/LawCite?cit=%282006%29%20149%20FCR%20135] at [30] [http://www.austlii.edu.au/au/cases/cth/FCAFC/2006/21.html#para30]- [32] [http://www.austlii.edu.au/au/cases/cth/FCAFC/2006/21.html#para32]. An injunction will be “appropriate” if there is a “sufficient nexus” or relationship between the injunction and the contravention that is found: Australian Competition and Consumer Commission v Z-Tek Computer Pty Ltd [1997] FCA 871 [http://www.austlii.edu.au/au/cases/cth/FCA/1997/871.html]; (1997) 78 FCR 197 [/cgi-bin/LawCite?cit=%281997%29%2078%20FCR%20197] at 202-204 (Merkel J).
+ 3. I consider that it is appropriate to make the injunctions sought by the ACCC. In respect of the first two injunctions, the conduct sought to be enjoined has a close relationship with the contraventions that have been admitted by Mr Campbell. Further, those injunctions are limited to a defined period of 5 years, which I consider to be appropriate in circumstances where Mr Campbell has not previously been found to have contravened the Australian Consumer Law. In respect of the third injunction, while the conduct to be enjoined would not of itself involve a contravention of the Australian Consumer Law, that is not a statutory requirement. In my view, Mr Campbell’s contravening conduct in his management of, and involvement in, the Jump Swim corporate group is so reprehensible that it warrants an injunction preventing him from being involved in the franchising sector for a period of 3 years.
+
+E. CONCLUSIONS
+
+ 1. In conclusion, I will make the orders sought by the ACCC (which are not contested by Jump Loops and which are agreed by Mr Campbell), subject to the modifications discussed in these reasons. The ACCC has agreed that there be no orders as to its costs on the basis that that will ensure the maximum amount possible being directed towards non-party consumer redress. Accordingly, there will be no order as to costs.
+
+> 
+
+I certify that the preceding one hundred and seventy (170) numbered paragraphs are a true copy of the Reasons for Judgment of the Honourable Justice O'Bryan.
+
+> Associate:
+> 
+> Dated: 19 May 2021
+
+ANNEXURE A
+
+Franchisees to whom representations were made in contravention of ss 18 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s18.html] and 29 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s29.html](1)(g)
+[Redacted for confidentiality]
+
+ANNEXURE B
+
+Franchisees from whom payments were received in contravention of s 36(3) [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s36.html]
+[Redacted for confidentiality]
+
+ANNEXURE C
+
+Franchisees from whom payments were received in contravention of s 36(4) [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s36.html]
+[Redacted for confidentiality]
+
+ANNEXURE D
+
+Franchisees to whom representations were made in contravention of ss 18 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s18.html] and 29 [http://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/s29.html](1)(g) and who made payments without receiving a franchise
+[Redacted for confidentiality]

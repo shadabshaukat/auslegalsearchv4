@@ -1,0 +1,285 @@
+-----------------------------------
+title: AGP21 v Minister for Home Affairs
+titles: ["AGP21 v Minister for Home Affairs"]
+citations: ["[2021] FCA 281","FCA 281"]
+date: 2021-03-29 00:00:00
+type: case
+subjurisdiction: cth
+jurisdiction: au
+data_quality: H
+database: FCA
+url: https://austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FCA/2021/281.html
+-----------------------------------
+
+
+AGP21 V MINISTER FOR HOME AFFAIRS [2021] FCA 281 (29 MARCH 2021)
+
+Last Updated: 29 March 2021
+
+
+
+FEDERAL COURT OF AUSTRALIA
+
+
+AGP21 v Minister for Home Affairs [2021] FCA 281 [http://www.austlii.edu.au/au/cases/cth/FCA/2021/281.html]
+
+File number:
+NSD 60 of 2021 [2021_281.html#FileNo]
+
+
+Judgment of:
+FLICK J [2021_281.html#Judge]
+
+
+Date of judgment:
+29 March 2021
+
+
+Catchwords:
+MIGRATION – transfer to Australia for medical treatment – request to be returned – flights booked – refusal to be returned – application for immediate release from detention – application refused
+
+
+Legislation:
+Judiciary Act [http://www.austlii.edu.au/au/legis/cth/consol_act/ja1903112/] 1903 [http://www.austlii.edu.au/au/legis/cth/consol_act/ja1903112/] (Cth) s 39B [http://www.austlii.edu.au/au/legis/cth/consol_act/ja1903112/s39b.html]
+Migration Act [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/] 1958 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/] (Cth) ss 198 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html], 198AD [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html], 198AH [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ah.html]
+
+
+Cases cited:
+Plaintiff M96A/2016 v Commonwealth of Australia [2017] HCA 16 [http://www.austlii.edu.au/au/cases/cth/HCA/2017/16.html], (2017) 261 CLR 582 [/cgi-bin/LawCite?cit=%282017%29%20261%20CLR%20582]
+
+
+Division:
+General Division
+
+
+Registry:
+New South Wales
+
+
+National Practice Area:
+Administrative and Constitutional Law and Human Rights
+
+
+Number of paragraphs:
+27
+
+
+Date of hearing:
+17 March 2021
+
+
+Solicitor for the Applicants:
+Mr D Taylor of Sydney West Legal and Migration
+
+
+Counsel for the Respondents:
+Mr P Herzfeld SC with Mr C Tran and Ms N Wootton
+
+
+Solicitor for the Respondents:
+Australian Government Solicitor
+
+
+
+
+ORDERS
+
+
+
+NSD 60 of 2021
+
+BETWEEN:
+AGP21
+First Applicant
+
+AGQ21
+Second Applicant
+
+AGR21
+Third Applicant
+
+AGS21
+Fourth Applicant
+AND:
+MINISTER FOR HOME AFFAIRS
+First Respondent
+
+MINISTER FOR IMMIGRATION, CITIZENSHIP, MIGRANT SERVICES AND MULTICULTURAL AFFAIRS
+Second Respondent
+
+
+
+ORDER MADE BY:
+FLICK J
+DATE OF ORDER:
+29 MARCH 2021
+
+
+
+THE COURT ORDERS THAT:
+
+ 1. The Amended Application for Interlocutory Relief filed on 23 February 2021 is dismissed.
+ 2. The hearing be expedited.
+ 3. Costs reserved.
+
+> 
+
+Note: Entry of orders is dealt with in Rule 39.32 [http://www.austlii.edu.au/au/legis/cth/consol_reg/fcr2011186/s39.32.html] of the Federal Court Rules 2011 [http://www.austlii.edu.au/au/legis/cth/consol_reg/fcr2011186/].
+
+> 
+
+REASONS FOR JUDGMENT
+
+FLICK J:
+
+ 1. On 31 January 2021, the four Applicants in the present proceeding filed in this Court an Originating Application seeking relief under s 39B [http://www.austlii.edu.au/au/legis/cth/consol_act/ja1903112/s39b.html] of the Judiciary Act [http://www.austlii.edu.au/au/legis/cth/consol_act/ja1903112/] 1903 [http://www.austlii.edu.au/au/legis/cth/consol_act/ja1903112/] (Cth). The First Applicant, identified by the pseudonym AGP21, is the husband of the Second Applicant. The remaining two Applicants are their children.
+ 2. The Applicants arrived in Australia as unauthorised maritime arrivals on 27 August 2013. They were transferred to Nauru for the purpose of processing their applications for protection on 22 March 2014. In February 2020 they were transferred to Australia for the medical treatment of the First Applicant. The Fourth Applicant (the daughter) also claimed that since she arrived in Australia she had “suffered from Sciatica and mental health” and has not received “adequate medical treatment”. But she was not brought to Australia for the purpose of receiving medical treatment. After their arrival, requests were made by one or other of the Applicants for their removal back to Nauru.
+ 3. Included in the Originating Application filed on 31 January 2021 was a Claim for Interlocutory Relief. That Claim was amended and the relief now sought in the Amended Interlocutory Application filed on 23 February 2021 is expressed as follows:
+    1. A Writ of Habeas Corpus issue requiring the immediate release of the applicants from immigration detention.
+    2. A Writ of Mandamus issue compelling the respondents to remove the applicants to Nauru.
+    3. Such further orders as the Court thinks fit.
+
+> It was that Amended Interlocutory Application which came before the Court on 17 March 2021 for hearing. Order 2 was then abandoned. Order 1 was pressed. But the facts underlying the two prayers for interlocutory relief overlap.
+
+ 1. Order 2 as sought in the Amended Interlocutory Application was abandoned in circumstances where there emerged shortly before the hearing reason for the daughter (and thereby her family) resisting being returned to the regional processing centre on Nauru. But the requests for the removal of the Applicants from Australia had been made. And it is those requests which were being effected by the Respondents and which provided – at least prior to shortly before the hearing – the very basis for their continued detention pending removal.
+ 2. The interlocutory order that the Applicants be released from immigration detention is refused because the Applicants have not established – even on a prima facie basis – that their detention was not authorised. Their detention was for the purpose of removing them from Australia as soon as was reasonably practicable pursuant to their requests. Other questions which were canvassed in both written and oral submissions during the hearing are not resolved. They can await a final hearing.
+
+The Migration Act 1958 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/] (Cth)
+
+ 1. The provision of the Migration Act [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/] 1958 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/] (Cth) (the “Migration Act [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/]”) which assumes primary importance for the purposes of the present application is s 198. [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html]
+ 2. Section 198 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] provides (in relevant part) as follows:
+
+> > Removal from Australia of unlawful non-citizens
+> > Removal on request
+> > (1) An officer must remove as soon as reasonably practicable an unlawful non-citizen who asks the Minister, in writing, to be so removed.
+> > Removal of transitory persons brought to Australia for a temporary purpose
+> > (1A) In the case of an unlawful non-citizen who has been brought to Australia under section 198B [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198b.html] or repealed section 198C for a temporary purpose, an officer must remove the person as soon as reasonably practicable after the person no longer needs to be in Australia for that purpose (whether or not the purpose has been achieved).
+> > ...
+> > (11) This section does not apply to an unauthorised maritime arrival to whom section 198AD [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html] applies.
+
+> If an unlawful non-citizen is brought to Australia for a temporary purpose, such as medical treatment, s 198AD [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html] applies by reason of s 198AH. [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ah.html] It is s 198AH [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ah.html] which applies s 198AD [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html] to the Applicants in the present case. Section 198AH [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ah.html] provides in part as follows:
+
+> > Application of section 198AD [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html] to certain transitory persons
+> > (1) Section 198AD [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html] applies, subject to sections 198AE [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ae.html], 198AF [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198af.html] and 198AG [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ag.html], to a transitory person if, and only if, the person is covered by subsection (1A) or (1B).
+> > (1A) A transitory person is covered by this subsection if:
+
+> > > (a) the person is an unauthorised maritime arrival who is brought to Australia from a regional processing country under section 198B [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198b.html] or repealed section 198C for a temporary purpose; and
+> > > (b) the person is detained under section 189 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s189.html]; and
+> > > (c) the person no longer needs to be in Australia for the temporary purpose (whether or not the purpose has been achieved).
+> > > ...
+
+ 1. But a person who is brought to Australia for a temporary purpose can request to be removed and effect is to be given to that request and thereby bring their detention to an end: Plaintiff M96A/2016 v Commonwealth of Australia [2017] HCA 16 [http://www.austlii.edu.au/au/cases/cth/HCA/2017/16.html], (2017) 261 CLR 582 [/cgi-bin/LawCite?cit=%282017%29%20261%20CLR%20582] at 591-592 (“Plaintiff M96A”). Kiefel CJ, Bell, Keane, Nettle, Gordon and Edelman JJ there concluded:
+
+> > [16] Section 198 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] will apply to a person who is an unlawful non-citizen within s 198 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] but not to an “unauthorised maritime arrival” within s 198AD. [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html] The category of unlawful non-citizens is broader than unauthorised maritime arrivals because, by ss 13 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s13.html] and 14 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s14.html] of the Act, an unlawful non-citizen is any non-citizen in the migration zone who does not hold a visa. However, as the plaintiffs were unauthorised maritime arrivals, the provisions of s 198 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] only apply to them where s 198AD [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html] does not apply. One circumstance where s 198AD [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html] will not apply is where a transitory person still needs to be in Australia for a temporary purpose. While that need to be in Australia is present, as it is for the plaintiffs on their pleaded case, s 198AD [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html] will not apply and the operation of s 198 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] is not excluded by s 198(11). [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] Hence, while a person needs to be in Australia for a temporary purpose, the person can nevertheless request to be removed from Australia under s 198(1) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] of the Act. Contrary to the plaintiffs’ submissions, there is nothing illogical about a construction which permits a person who is taken to Australia for a temporary purpose such as consensual medical treatment to request removal from Australia. As to the scope of s 198(1) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html], and in circumstances where it does not affect the ultimate conclusion in this case, it is sufficient to proceed on the basis of the defendants’ submission that s 198(1) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html], properly construed by reference to its consensual character, would not permit removal of an unlawful non-citizen to a place contrary to his or her wishes.
+
+ 1. Separate questions may also arise as to the authority to detain a person brought to Australia for the purpose of receiving medical treatment, and whether it is the subjective opinion of an officer (presumably on the advice of those providing medical treatment) which determines the application of provisions such as s 198AH(1A)(c). [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ah.html] In Plaintiff M96A, Gageler J answered this latter question in the negative. His Honour there concluded (at 598 to 599):
+
+> > [38] The answer to the question which arises under s 198(1A) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html], and under s 198AH(1A) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ah.html] where it applies, of whether the transitory person any longer needs to be in Australia for the temporary purpose for which the person was brought to Australia, does not depend, expressly or by implication, on the opinion, satisfaction or belief of any officer. I reject the argument of the defendants that answering of the question is committed by the terms of ss 198(1A) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] and 198AH [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ah.html](1A) to the evaluative judgment of an officer, subject perhaps to the “general principle of law ... that a discretion allowed by statute to the holder of an office is intended to be exercised according to the rules of reason and justice, not according to private opinion; according to law, and not humour, and within those limits within which an honest man, competent to discharge the duties of his office, ought to confine himself”. The question of whether the duty to remove is triggered is in that respect separate from, and anterior to, the question of what is required of an officer to remove the person from Australia as soon as reasonably practicable in the performance of the duty once triggered.
+> > (citations omitted)
+
+> Kiefel CJ, Bell, Keane, Nettle, Gordon and Edelman JJ found it unnecessary to resolve this question: [2017] HCA 16 [http://www.austlii.edu.au/au/cases/cth/HCA/2017/16.html] at [32] [http://www.austlii.edu.au/au/cases/cth/HCA/2017/16.html#para32], (2017) 261 CLR at 597.
+
+ 1. And where a person who is being detained requests in writing to be removed from Australia or where their presence is no longer required for the purpose of receiving medical treatment, they must be removed from Australia “as soon as reasonably practicable”: s 198(1) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] and (1A). Pending removal, however, they are to be detained. In Plaintiff M96A, Kiefel CJ, Bell, Keane, Nettle, Gordon and Edelman JJ explained the position as follows (at 592 to 593):
+
+> > [18] In every circumstance where s 198AD [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html] does not apply and where an unlawful non-citizen is brought to Australia for a temporary purpose, s 198(1A) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] imposes an obligation upon an officer to “remove the person as soon as reasonably practicable after the person no longer needs to be in Australia for [the temporary] purpose (whether or not the purpose has been achieved)”. The combination of ss 198(1A) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] and 198AD [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html](2) means that any transitory person who is brought to Australia for a temporary purpose must be removed as soon as reasonably practicable after the person no longer needs to be in Australia for that purpose (whether or not the purpose has been achieved). As we explain below, the Act has the effect that the person will be kept in immigration detention whilst in Australia (s 189). [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s189.html] That immigration detention must continue until the time of removal from Australia under s 198(1A) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] (s 196 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s196.html](1)(a)), or until the commencement of acts involving the process of removal from Australia to a regional processing country under s 198AD(3) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html] (s 196 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s196.html](1)(aa)).
+> > The validity of ss 189 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s189.html] and 196 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s196.html] of the Act in relation to transitory persons
+> > [19] Section 189(1) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s189.html] creates an obligation upon an officer to detain a person who is in the migration zone if the officer knows or reasonably suspects that the person is an unlawful non-citizen. Section 196(1) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s196.html] provides that an unlawful non-citizen must be kept in immigration detention until the happening of one of four events: (i) removal from Australia under s 198 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] or s 199 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s199.html]; (ii) an officer beginning the s 198AD(3) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html] process for removal to a regional processing country; (iii) deportation under s 200 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s200.html]; or (iv) the grant of a visa.
+> > [20] In the case of a transitory person, therefore, the detention must continue until: (i) removal under s 198 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] (the first event); (ii) the beginning of the process of removal to a regional processing country under s 198AD [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html] (the second event); or (iii) the making by the Minister of a determination under s 46B(2) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s46b.html], allowing an application for a visa, which is then made and granted. In the case of each of the first or second event, under ss 198 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] and 198AD [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html], it is a condition that removal must occur as soon as reasonably practicable after the person no longer needs to be in Australia for the temporary purpose.
+
+> Their Honours continued (at 595):
+
+> > [27] The purposes which the Act contemplates for the temporary detention in Australia of a transitory person are, therefore, different from the temporary purposes for which a person can be brought to Australia. The purposes of the temporary detention are the same purposes, and governed by some of the same provisions (ss 189 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s189.html] and 196 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s196.html]), as all other instances involving unlawful non-citizens under s 189. [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s189.html] In this case, where the plaintiffs have not made an application for a visa and cannot do so while they are in Australia, the purpose for which the plaintiffs are detained during their medical treatment is the purpose of subsequent removal from Australia. That removal can occur in a number of circumstances, including as soon as reasonably practicable after they no longer need to be in Australia for the medical treatment (s 198(1A) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] or s 198AD(2)) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198ad.html], or as soon as reasonably practicable after asking the Minister, in writing, to be removed (s 198(1)). [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html]
+
+The requests for removal, the withdrawal of the request & s 198(1) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html]
+
+ 1. Immediately prior to the hearing of the present application for interlocutory relief, the Respondents were seeking to give effect to requests that had been made by one or other of the Applicants for their removal.
+ 2. Those requests attracted s 198(1) [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s198.html] and (1A) of the Migration Act [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/]. Those requests “in writing” were potentially to be found in one or other of a number of documents.
+ 3. There was, accordingly, a Request Form completed by the Third Applicant on 15 January 2021, which stated as follows (without alteration):
+
+> > Your request:
+> > Hello. I have been in detention since 2013
+> > until now it’s 8 [http://www.austlii.edu.au/au/legis/cth/consol_act/ma1958118/s8.html] years without any reason.
+> > I’m so frustrated and distress
+> > I can not stay any longer in detention.
+> > I want to have my freedom.
+> > release me from detention to the community.
+> > 
+> > If you can’t moved me to the community so
+> > return me to Nauru.
+> > I had enough torture.
+
+> Thereafter, and on 26 January 2021, a Request Form had been completed and initialled by each of the Applicants making the following request:
+
+> > return us to Nauru
+
+ 1. There then followed, on 31 January 2021, the filing of the Originating Application.
+ 2. Thereafter, and on 15 February 2021, there was the following conversation between the Fourth Applicant and her case officer:
+
+> > [Case officer]: Do you want to return back to Nauru as a family or separately because your mum is not fit for a flight to return to Nauru.
+> > [AGS21]: We don’t want to be split up we want to return as a family. The reason we came was for my father’s medical treatment because he needed surgery for his shoulder but until now he did not have any treatment.
+> > [Case officer]: You and your mum cannot be sent separately but your dad and brother they are ok to fly separately. But your request was to be sent back as a family
+> > [AGS21]: We want to be sent back as a family
+> > [Case officer]: Ok I will confirm that you want to return as a family and I will call you back later.
+
+> On the following day, the Fourth Applicant sent an email to her case officer which read (without alteration):
+
+> > Hi [Case officer], I’m sorry, I didn’t understand before , we can not wait in detention for treatment return us to Nauru today,
+> > If you receive my Email call me back.
+
+> The case officer then telephoned AGS21 and asked whether she wanted to return to Nauru. The Applicant responded “Yes”. The case officer then said:
+
+> > I will refer you to Northern Territory and Queensland removals but it may not be practicable to remove you at the moment because your mother is not fit for a flight.
+
+ 1. Thereafter, but relevantly on 23 February 2021, a First Assistant Secretary within the Department of Home Affairs emailed the Acting Secretary for Multicultural Affairs of the Republic of Nauru to ascertain if the Government of Nauru would be amenable to receiving the Applicants. An affirmative response was provided that afternoon.
+ 2. Arrangements were made for a charter flight scheduled for departure from Darwin on 15 March 2021.
+ 3. On 13 March 2021, however, the solicitor for the Applicants forwarded the following email to the Respondents (without alteration):
+
+> > [The daughter] has been experiencing panic attacks about returning to Nauru and is unwilling to return there due to her fear for her safety as a young woman. I am instructed by [the daughter] that while in Nauru she was attacked by young men one of whom tried to rape her and wounded her on the arm with a knife. [The daughter] indicates she was also chased by young men on two occasions in Nauru and feared for her life and safety.
+> > As a consequence she is withdrawing her request for removal.
+> > [The daughter] makes a non-refoulement claim with respect to Nauru as the authorities there are unable to protect her.
+> > Her mother and father ... and brother ..., all indicate that they will not leave without [her] and in consequence withdraw they make this as a written withdrawal of their request for removal.
+> > The family have indicated that they will stay together as a family unit because they fear that they would not be able to reunite if they are separated.
+> > Please confirm by 3pm AEST that the removal scheduled for 5.am on Monday 15th March 2021 will not occur in the absence of which an injunction would be sought.
+
+The absence of a serious question – at least prior to 13 March
+
+ 1. At least during the period from about mid-January 2021 through to 13 March 2021 it is concluded that:
+    * the continued detention of the Applicants throughout that period was authorised, because all reasonable steps were being taken to secure their removal from Australia pursuant to requests in writing; and
+    * the Applicants had, for that reason, failed to establish any basis upon which any interlocutory order should be made for their release from detention, assuming the Court had power to make such an order.
+
+> Whilst steps were being taken to remove the Applicants from Australia pursuant to their requests, their continued detention was lawful: Plaintiff M96A [2017] HCA 16 [http://www.austlii.edu.au/au/cases/cth/HCA/2017/16.html] at [18] [http://www.austlii.edu.au/au/cases/cth/HCA/2017/16.html#para18] to [20], (2017) 261 CLR at 592 to 593. And it was upon the basis of the requests to be removed from Australia that the Applicants relied in bringing the present interlocutory application.
+
+ 1. Such conclusions say nothing as to the lawfulness of the detention of the Applicants prior to mid-January 2021.
+ 2. After 13 March 2021, however, the situation had changed. The requests previously made in writing for their removal from Australia were then “withdrawn”.
+ 3. But no submissions were made during the interlocutory hearing as to the significance of the withdrawal of the requests for removal and no submissions were specifically directed to the source of the authority thereafter to detain the Applicants. No submissions were, for example, directed to:
+    * whether the Applicants wished to be removed from Australia to another regional processing centre such as Papua New Guinea; and/or
+    * whether the First Applicant wished for the future provision of medical treatment in Australia to continue, the provision of such treatment being inconsistent with the prior requests for removal from Australia.
+
+> But some submissions were advanced on behalf of the Respondents as to:
+
+ * whether the expressions of opinion of a medical practitioner as summarised in the Health Summary Report in respect to the First Applicant dated 31 January 2021 were conclusive as to the need to keep the First Applicant in Australia for the purposes of medical treatment or whether that was a matter to be resolved by the Court, as was the conclusion of Gageler J in Plaintiff M96A [2017] HCA 16 [http://www.austlii.edu.au/au/cases/cth/HCA/2017/16.html] at [38] [http://www.austlii.edu.au/au/cases/cth/HCA/2017/16.html#para38], [2017] HCA 16 [http://www.austlii.edu.au/au/cases/cth/HCA/2017/16.html]; (2017) 261 CLR 582 [/cgi-bin/LawCite?cit=%282017%29%20261%20CLR%20582] at 598 to 599.
+
+> Whether the First Applicant needed to remain in Australia for medical treatment, either before or after 13 March 2021, is an issue not presently resolved.
+
+ 1. In the absence of submissions, particularly from the Applicants, as to the significance to be attached to the withdrawal of the requests for removal on 13 March 2021, no conclusion could be reached as to whether the continued detention of the Applicants for the period between 13 March 2021 and the hearing on 17 March 2021 was authorised. Whether or not there came a point of time during which the First Applicant was not being detained for the purpose of receiving medical treatment, and whether during that period of time there was no continuing authority to detain him pending his removal from Australia, is a question not presently resolved and left for the final hearing.
+
+CONCLUSIONS
+
+ 1. Up until at least 13 March 2021 the continued detention of the Applicants was authorised because steps were being taken to give effect to their requests in writing for their removal to Nauru.
+ 2. After 13 March 2021 there is uncertainty as to what the Applicants now want – other than their freedom in Australia. They certainly do not want to be returned to Nauru. If they nevertheless wish to be removed from Australia and no longer be detained in Australia, one possible option is to be removed to the regional processing centre in Papua New Guinea.
+ 3. The Applicants have not for present purposes, however, established a prima facie basis for their release from detention – assuming the power of this Court to make such an order on an interlocutory basis exists.
+ 4. In the circumstances, and given the liberty of persons is at stake, the best course is to order an early final hearing.
+
+THE ORDERS OF THE COURT ARE:
+
+ 1. The Amended Application for Interlocutory Relief filed on 23 February 2021 is dismissed.
+ 2. The hearing be expedited.
+ 3. Costs reserved.
+
+> 
+
+I certify that the preceding twenty-seven (27) numbered paragraphs are a true copy of the Reasons for Judgment of the Honourable Justice Flick.
+
+> Associate:
+> 
+> Dated: 29 March 2021

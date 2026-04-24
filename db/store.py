@@ -44,8 +44,10 @@ import os
 import hashlib
 import time
 import bcrypt
+import re
+import json
 from types import SimpleNamespace
-from typing import Any, Dict, Optional
+from typing import Any, Dict, Optional, List
 from functools import lru_cache
 
 try:
@@ -110,6 +112,68 @@ def _os_int(name: str, default: int) -> int:
 def _stable_int_id(seed: str, hex_chars: int = 15) -> int:
     h = hashlib.sha1(seed.encode("utf-8")).hexdigest()[:hex_chars]
     return int(h, 16)
+
+
+def _sanitize_os_meta_key(key: Any) -> Optional[str]:
+    s = str(key or "").strip()
+    if not s:
+        return None
+    s = s.replace(".", "_")
+    s = re.sub(r"[^A-Za-z0-9_-]+", "_", s)
+    s = re.sub(r"_+", "_", s).strip("_-")
+    if not s:
+        return None
+    if s[0].isdigit():
+        s = f"k_{s}"
+    return s[:64]
+
+
+def _sanitize_chunk_metadata_for_os(md: Any) -> Optional[Dict[str, Any]]:
+    """
+    Prevent OpenSearch mapper explosions from arbitrary metadata keys.
+    - removes/normalizes problematic keys (e.g. starting/ending with '.')
+    - caps number of mapped metadata fields
+    - keeps only scalar-ish values
+    """
+    if md is None:
+        return None
+    if not isinstance(md, dict):
+        try:
+            return {"raw": str(md)[:500]}
+        except Exception:
+            return None
+
+    # Default to preserving common legal metadata keys only.
+    default_allow = (
+        "url,citation,title,jurisdiction,subjurisdiction,court,date,year,database,"
+        "author,judge,bench,section,chapter,part,division,act,regulation,type,source"
+    )
+    allow_raw = os.environ.get("OPENSEARCH_METADATA_ALLOWLIST", default_allow)
+    allow_set = {k.strip().lower() for k in allow_raw.split(",") if k.strip()}
+    max_fields = _os_int("OPENSEARCH_METADATA_MAX_FIELDS", 32)
+
+    out: Dict[str, Any] = {}
+    for k, v in md.items():
+        if len(out) >= max_fields:
+            break
+        sk = _sanitize_os_meta_key(k)
+        if not sk:
+            continue
+        if allow_set and sk.lower() not in allow_set:
+            continue
+
+        if isinstance(v, (str, int, float, bool)) or v is None:
+            sv = v
+        elif isinstance(v, (list, dict)):
+            try:
+                sv = json.dumps(v, ensure_ascii=False)[:500]
+            except Exception:
+                sv = str(v)[:500]
+        else:
+            sv = str(v)[:500]
+        out[sk] = sv
+
+    return out or None
 
 
 def _chunk_doc_key(source: str, chunk_index: int, text: str) -> str:
@@ -861,6 +925,10 @@ def add_embedding(doc_id: int, chunk_index: int, vector, chunk_metadata=None) ->
         emb_key = hashlib.sha1(f"{doc_key or doc_id}|{int(chunk_index)}".encode("utf-8")).hexdigest()
         eid = _stable_int_id("emb:" + emb_key)
 
+        safe_md = _sanitize_chunk_metadata_for_os(chunk_metadata)
+        if _os_bool("OPENSEARCH_DROP_METADATA", False):
+            safe_md = None
+
         body = {
             "embedding_id": eid,
             "embedding_key": emb_key,
@@ -868,7 +936,8 @@ def add_embedding(doc_id: int, chunk_index: int, vector, chunk_metadata=None) ->
             "doc_key": doc_key,
             "chunk_index": int(chunk_index),
             "vector": list(vector),
-            "chunk_metadata": chunk_metadata,
+            "chunk_metadata": safe_md,
+            "chunk_metadata_text": json.dumps(safe_md or {}, ensure_ascii=False),
             "source": source,
             "format": fmt,
         }
@@ -1025,7 +1094,9 @@ def bulk_upsert_file_chunks_opensearch(
     for i, chunk in enumerate(chunks):
         abs_i = int(chunk_start_index) + int(i)
         text_body = chunk.get("text", "")
-        md = chunk.get("chunk_metadata") or {}
+        md = _sanitize_chunk_metadata_for_os(chunk.get("chunk_metadata") or {})
+        if _os_bool("OPENSEARCH_DROP_METADATA", False):
+            md = None
 
         doc_key = _chunk_doc_key(source_path, abs_i, text_body)
         doc_id = _stable_int_id("doc:" + doc_key)
@@ -1055,6 +1126,7 @@ def bulk_upsert_file_chunks_opensearch(
             "chunk_index": abs_i,
             "vector": list(vectors[i]),
             "chunk_metadata": md,
+            "chunk_metadata_text": json.dumps(md or {}, ensure_ascii=False),
             "source": source_path,
             "format": fmt,
         }
@@ -1151,7 +1223,7 @@ def search_bm25(query, top_k=5):
             "query": {
                 "multi_match": {
                     "query": query,
-                    "fields": ["content^2", "text", "text_preview", "chunk_metadata.*"],
+                    "fields": ["content^2", "text", "text_preview", "chunk_metadata_text"],
                 }
             },
         }
@@ -1432,9 +1504,9 @@ def search_fts(query, top_k=10, mode="both"):
         if mode in ("documents", "both"):
             fields.append("content")
         if mode in ("metadata", "both"):
-            fields.extend(["chunk_metadata.*", "text", "text_preview"])
+            fields.extend(["chunk_metadata_text", "text", "text_preview"])
         if not fields:
-            fields = ["content", "chunk_metadata.*", "text"]
+            fields = ["content", "chunk_metadata_text", "text"]
 
         body = {
             "size": int(top_k) * 8,

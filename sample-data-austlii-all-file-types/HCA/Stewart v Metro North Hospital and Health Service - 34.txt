@@ -1,0 +1,469 @@
+-----------------------------------
+title: Stewart v Metro North Hospital and Health Service
+titles: ["Stewart v Metro North Hospital and Health Service"]
+citations: ["[2025] HCA 34","HCA 34"]
+date: 2025-09-03 00:00:00
+type: case
+subjurisdiction: cth
+jurisdiction: au
+data_quality: H
+database: HCA
+url: https://austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2025/34.html
+-----------------------------------
+
+
+STEWART V METRO NORTH HOSPITAL AND HEALTH SERVICE [2025] HCA 34 (3 SEPTEMBER 2025)
+
+Last Updated: 3 September 2025
+
+
+
+HIGH COURT OF AUSTRALIA
+
+GAGELER CJ,
+GORDON, EDELMAN, JAGOT AND BEECH‑JONES JJ
+
+
+
+
+
+
+MICHAEL STEWART BY HIS LITIGATION GUARDIAN
+
+CAROL SCHWARZMAN APPELLANT
+
+
+
+AND
+
+
+
+METRO NORTH HOSPITAL AND HEALTH
+
+SERVICE RESPONDENT
+
+
+
+
+
+Stewart v Metro North Hospital and Health Service
+[2025] HCA 34 [http://www.austlii.edu.au/au/cases/cth/HCA/2025/34.html]
+
+Date of Hearing: 11 June 2025
+
+Date of Judgment: 3 September 2025
+B10/2025
+
+ORDER
+
+
+ 1. Appeal allowed with costs.
+
+
+
+ 1. Set aside order 1 of the orders of the Court of Appeal of the Supreme Court of Queensland in appeal no CA 4488/24 made on 15 November 2024 and order 1 of the orders of the Court of Appeal in appeal no CA 4488/24 made on 6 December 2024 and in their place order that:
+
+
+
+> (a) the appeal be allowed with costs;
+
+
+
+> (b) the order of the Supreme Court of Queensland in matter 4665/22 made on 20 March 2024 be set aside; and
+
+
+
+> (c) orders 1 and 2 of the costs orders of the Supreme Court of Queensland in matter 4665/22 made on 22 May 2024 be set aside and in their place it be ordered that the defendant pay the plaintiff's costs.
+
+
+
+
+
+> 
+
+
+
+> 
+
+ 1. The matter be remitted to the Supreme Court of Queensland for assessment of damages and consequential orders.
+
+
+
+
+
+On appeal from the Supreme Court of Queensland
+
+
+
+
+
+Representation
+
+
+
+B W Walker SC with G R Mullins KC and J J Liddle for the appellant (instructed by Maurice Blackburn Lawyers)
+
+
+
+C C Heyworth-Smith KC with K E Slack for the respondent (instructed by Corrs Chambers Westgarth)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notice: This copy of the Court's Reasons for Judgment is subject to formal revision prior to publication in the Commonwealth Law Reports.
+
+
+
+> 
+
+
+
+CATCHWORDS
+
+
+
+Stewart v Metro North Hospital and Health Service
+
+
+
+Damages – Assessment – Tort – Personal injury – Where appellant suffered personal injuries arising from his treatment as patient at hospital operated by respondent – Where prior to injury appellant lived in his own home with his brother where his son and dogs could stay – Where after injury appellant transferred to nursing home – Where appellant's physical condition deteriorated because of lack of therapy and exercise – Whether reasonable for damages awarded to appellant to include component for medical and nursing care and treatment in own home – Whether assessment of reasonableness confined to balancing only health benefits against cost.
+
+
+
+Words and phrases – "assessment of damages", "assessment of reasonableness", "care at home", "compensation", "compensatory principle", "cost of home care", "cost of nursing and medical care", "costs of future care", "extreme brain injury", "general damages", "health benefits", "home care", "home or in a home setting", "injury scale", "institution or in an institutional setting", "institutional care", "matters of amenities", "mitigation of loss", "nursing and medical expenses", "onus", "other matters", "pain, suffering and loss of amenities of life", "proof of loss", "quantum", "reasonable", "reasonableness", "reasonably incurred", "repair the consequences of the tort", "unreasonably refused".
+
+
+
+Civil Liability Act 2003 [http://www.austlii.edu.au/au/legis/qld/consol_act/cla2003161/index.html] (Qld), ss 61 [http://www.austlii.edu.au/au/legis/qld/consol_act/cla2003161/s61.html], 62 [http://www.austlii.edu.au/au/legis/qld/consol_act/cla2003161/s62.html].
+
+Civil Liability Regulation 2014 [http://www.austlii.edu.au/au/legis/qld/consol_reg/clr2014252/index.html] (Qld), Sch 3, Pt 2 [http://www.austlii.edu.au/au/legis/qld/consol_reg/clr2014252/index.html#p2], Sch 4.
+
+
+
+> 
+
+
+
+> 
+
+GAGELER CJ, GORDON, EDELMAN, JAGOT AND BEECH-JONES JJ.
+
+Introduction
+
+ 1. The compensatory principle in tort entitles an injured party to compensation in a sum which, so far as money can do, will put that party in the same position as they would have been in if the tort had not been committed. In Sharman v Evans,[1] Gibbs and Stephen JJ referred to the "touchstone of reasonableness" when assessing compensation for a plaintiff's nursing and medical care following the negligence of a defendant. This appeal concerns reasonableness in the proof and assessment of loss where an injured party claims damages on the basis that they will or wish to live in their own home or in a home setting rather than in an institution or in an institutional setting.
+ 2. The appellant, Mr Stewart, was catastrophically injured as a result of the negligence of the respondent ("MNHHS"). Prior to his injury he lived at his own home with his brother. His son and dogs would often stay at home with him. At the time of trial, he was being cared for in an institution without his son and dog. He was miserable at the institution and his physical health was deteriorating, in part due to lack of engagement with therapy. He sought compensation for his losses, including the cost of nursing and medical care in a (rented) home of his own where his son and dog could stay.
+ 3. In the Supreme Court of Queensland, the trial judge held that Mr Stewart could recover for the cost of nursing and medical care at the institution and for the additional cost of an external care assistant to provide more frequent therapy and exercise. But, balancing any benefits to his physical health against the substantial increase in the cost of care if Mr Stewart were to reside and receive the required care in his own (rented) home, the trial judge held that an award of compensation to reflect that increased cost would be unreasonable. The Court of Appeal of the Supreme Court of Queensland upheld that balancing exercise in terms of both the reasoning and the conclusion.
+ 4. The approach taken to reasonableness was erroneous. The proper starting point was that Mr Stewart was entitled to compensation in a sum which, so far as money can do, would put him in the same position as he would have been in had MNHHS not acted negligently. From that starting point, Mr Stewart was required to prove that his choice to live and receive the required care in a rented home of his own, rather than in an institution or an institutional setting, was a reasonable response to repair the consequences of the tort and to restore him to his position prior to the tort. The evaluation of the reasonableness of Mr Stewart's response was not discharged by balancing only the health benefits against the increased cost. In his circumstances, the choice of home care by Mr Stewart was a reasonable means of repairing the consequences of the tort. MNHHS did not establish that part or all of that claimed cost of home care could be avoided but for an unreasonable decision by Mr Stewart to refuse a proffered alternative option. The appeal should be allowed.
+
+Background facts
+
+ 1. In 2016, prior to the events that are the subject of this litigation, Mr Stewart was 63 years old and living in the Queensland coastal suburb of Margate. Mr Stewart lived in a property which he shared with, and paid rent to, his brother. Mr Stewart had separated from his wife (and now litigation guardian), Ms Schwarzman, in 2008 but they remained on good terms. Mr Stewart and Ms Schwarzman shared the custody of their only child, 14-year-old son Jesse. Mr Stewart loved animals and he shared the love of family dogs with Ms Schwarzman and Jesse.
+ 2. During March and April 2016, Mr Stewart sought treatment at Redcliffe Hospital in Queensland for nausea and generalised abdominal pain. He was treated negligently and MNHHS accepted liability for that negligence. As a consequence of the negligence, Mr Stewart suffered numerous injuries including bowel perforations, sepsis, cardiac arrest, and stroke. Mr Stewart was left with many injuries including brain damage, pain on the right side of his body with no active movement in the right upper limb, the need for a colostomy bag, and right lower limb contractures. As a 71-year-old man at the time of trial in 2023 he was found to have an estimated life expectancy of five years.
+ 3. In November 2016, Mr Stewart was discharged from hospital to a nursing home. In March 2017, Mr Stewart was transferred to Ozanam Villa Aged Care Facility ("Ozanam"), where he remained at the time of trial. At the time of trial, Ms Schwarzman and Jesse had a dog called Sasha who would sit on Mr Stewart's lap or on Mr Stewart's bed. But Mr Stewart was not permitted to keep a dog at Ozanam. Mr Stewart also alleged that Jesse was not permitted to stay, and it is clear that, at the least, it was very difficult for Jesse to stay. Although Jesse gave evidence that he "just would love to stay ... with my dad overnight" at Ozanam, over the course of six years before trial Jesse was only able to stay overnight in an unoccupied room at Ozanam for one night at Christmas in 2017 or 2018. Even a visit to Ozanam by Jesse generally required advance notice of one day.
+ 4. Mr Stewart's physical condition deteriorated at Ozanam as a consequence of lack of therapy and exercise. At trial, Mr Stewart claimed that he intended to move from Ozanam to his own residence (a rental apartment or rental home) and that his medical, health, social, and nursing needs were not being well met at Ozanam. There is no remaining dispute that Mr Stewart intended to use a sufficient award of compensation for that purpose. The central issue in dispute at trial and on appeal was expressed as whether it was "reasonable" for the damages awarded to Mr Stewart to include a component for medical and nursing care and treatment of Mr Stewart in his own (rented) home.
+
+The decisions of the trial judge and the Court of Appeal
+
+The evidence and findings about Mr Stewart's wishes
+
+ 1. Despite Mr Stewart's constrained ability to express himself due to the impact of his receptive and expressive aphasia, there was a substantial volume of evidence at trial that Mr Stewart wished to live in his own home rather than at Ozanam. As the trial judge (Cooper J) noted, that evidence included: (i) Mr Stewart's "tendency to immerse himself in photographs from his past life and possessions"; (ii) Mr Stewart's communication by sounds and gestures to Ms Schwarzman that he would like to stay in a home where Jesse and a dog could stay with him and that he did not want to stay at Ozanam; (iii) Mr Stewart's communication to Dr Rotinen Diaz (a rehabilitation physician) by "a very clear verbal and non verbal answer" that he did not want to live in a nursing home and wanted to live in a private dwelling, and "a very strong and clear 'no'" indicating that he was not happy at Ozanam; and (iv) Mr Stewart's facial expressions communicating answers to Ms Coles (an occupational therapist) that he wished to live in his own home.[2]
+ 2. Although the trial judge had concern about whether Mr Stewart had a "full understanding" of all the potential difficulties that a move to his own home might involve, the trial judge accepted the evidence from Ms Coles that Mr Stewart had "clearly communicated his desire to live in his own home rather than at Ozanam", a decision supported by Ms Coles on the basis that it would improve Mr Stewart's quality of life.[3]
+
+The evidence and findings about Mr Stewart's health benefits from living at home
+
+ 1. The trial judge heard evidence from numerous experts about the health benefits to Mr Stewart that would come from living in his own home. Dr Rotinen Diaz described Mr Stewart's environment as a crucial factor in Mr Stewart's motivation for therapy and considered that with comprehensive care and therapy Mr Stewart would see functional improvements in his health and physical condition. Ms McCorkell (a neurological physiotherapist) expressed the opinion that Mr Stewart's "health outcome would be better if he resided in his own home" and in an environment which could include engagement "through the presence of a family member or a pet during therapy". Dr Gray (a psychiatrist) concluded that Mr Stewart's mental health would benefit in the medium to long term from living in his own home. And Ms Coles and Ms Coventry (also an occupational therapist) gave evidence that they did not consider it to be in Mr Stewart's best interests to stay at Ozanam because they considered that there was a lack of specialised equipment and a lack of ongoing and regular therapy services.[4]
+ 2. The trial judge accepted the evidence of Dr Rotinen Diaz, Ms McCorkell, and Dr Gray that additional care and therapy would result in improvements in Mr Stewart's physical and mental health including addressing the deconditioning and decreased mobility that Mr Stewart had experienced at Ozanam.[5] The trial judge also considered it likely that the provision of care and therapy to Mr Stewart in his own home would increase his willingness to "move from his bed to participate in activities of interest". The trial judge described Jesse's presence as a "powerful motivator" for Mr Stewart to get out of bed and to engage in therapy and referred to Jesse's evidence that he wished to live with his father for the first few months after the move and then to live back and forth between his father and his mother.[6] The trial judge concluded:[7]
+
+> > "In the end, I am satisfied that the provision of comprehensive care and therapy to Mr Stewart in his own home would result in health benefits for Mr Stewart. I do not consider that those health benefits can properly be characterised as slight or speculative. This is not a case where the benefit to Mr Stewart of receiving care and therapy in his own home is entirely one of amenity."
+
+The trial judge's reasons concerning compensation
+
+ 1. The trial judge considered three options for Mr Stewart. The first was the cost of Mr Stewart's current care at Ozanam, for a period of life expectancy of five years. That total cost, as discounted, was $304,650.46. The second was the cost of care at Ozanam for that period with an external care assistant and the provision of more frequent therapy and exercise. That total cost, as discounted, was $1,081,895.56. The third was the cost for Mr Stewart to be cared for in his own (rented) home for the remainder of his life. That total cost, as discounted including for future contingencies, was $4,910,342.52.[8]
+ 2. As to the first option, in light of the deterioration of Mr Stewart's condition at Ozanam and his decreased mobility from a lack of therapy and exercise, the trial judge rejected a submission by MNHHS that the physical health benefits to Mr Stewart from care and therapy in his own home would be no better than those he obtained from the care that he was receiving at Ozanam.[9]
+ 3. As to the second and third options, the trial judge concluded that although the second option would not achieve the enhancement of Mr Stewart's quality of life that would be achieved by the third option of living in his own home with Jesse and a dog, the likely health benefits of the third option were not "significantly better" than those of the second option. This conclusion was, however, substantially qualified. In order for Mr Stewart to engage with frequent exercise and activities in the community, the external care assistant provided under the second option would need to develop a positive rapport with Mr Stewart and Mr Stewart would need to be engaged by the external care assistant to a much greater degree than had previously been the case.[10] The trial judge found that the "consistent provision of additional care from external care assistants ... would be likely to engage him to a much greater degree" than the existing arrangements at Ozanam and would in turn "be likely to ... provide health benefits similar to those which he would receive if he was to be cared for in his own home".[11]
+ 4. The trial judge weighed the health benefits to Mr Stewart under the second and third options against the difference in cost of those options and concluded that his Honour was "not satisfied that it would be likely to result in health benefits for Mr Stewart that are significantly better than those likely to be achieved at Ozanam with additional therapy and a dedicated external care assistant".[12] His Honour concluded that it was "not ... reasonable to require that the MNHHS pay the significant additional cost that would be involved in Mr Stewart moving from Ozanam into his own home".[13]
+ 5. Three matters should be noted about that reasoning. First, in focusing on "health benefits", the trial judge appears to be referring to the benefits to Mr Stewart's health including mental health benefits but not any benefit to him that was "entirely one of amenity".[14] Secondly, in comparing the relative health benefits of Mr Stewart living at home with the benefits of living at Ozanam, the trial judge assumed that there was an onus on Mr Stewart to satisfy the Court that the former are "significantly better" than the latter.[15] Thirdly, his Honour did not expressly address whether Mr Stewart's choice to live and receive care at home was a reasonable one, although the earlier findings would suggest that his Honour would accept that it was reasonable.[16] As will be explained below, this was the wrong approach to the issue of reasonableness in the assessment of compensation.
+ 6. The total amount of damages awarded by the trial judge was $2,190,505.48, before management fees.[17]
+
+The Court of Appeal's reasons concerning compensation
+
+ 1. Mr Stewart's grounds of appeal from the decision of the trial judge included a challenge to the trial judge's conclusion that it was not reasonable for MNHHS to pay the additional costs for Mr Stewart to have care in his own home. Mr Stewart relied upon factors including: (i) his expressed wish to be cared for in a residence that he could share with Jesse and a dog, similar to the arrangements prior to his injury; (ii) such care arrangements being of a kind commonly undertaken in the community; (iii) his living arrangements being in the community prior to the tort; and (iv) the significant psychological and emotional benefits to him, as described in the uncontradicted evidence of Dr Rotinen Diaz.
+ 2. In the leading reasons in the Court of Appeal, Boddice JA (with whom Mullins P and Ryan J agreed) took a similar approach to the trial judge when considering reasonableness in the assessment of damages, asking whether the expenses were, or would be, "reasonably incurred".[18] Although his Honour rightly observed that "matters of amenities" should be considered when assessing reasonableness in this manner, Boddice JA upheld the reasoning and the conclusion of the trial judge which had assessed the reasonableness of the expenses that Mr Stewart proposed to incur by balancing the cost of those expenses with the physical health benefits that would result.[19] His Honour considered that the difference in physical health benefits between the second and third options considered by the trial judge would be "practically removed" by an increased level of engagement from Mr Stewart with the additional care and assistance provided by an external care assistant.[20]
+ 3. The premise that the physical health benefits of the second and third options were substantially the same had been heavily qualified by the trial judge. Boddice JA essentially recognised the heavily qualified nature of the trial judge's finding by concluding that "it had not been established, on the balance of probabilities, that living in his own home with Jesse and a dog, would be likely to result in health benefits for Mr Stewart that are significantly better than those likely to be achieved [at Ozanam], with additional therapy and a dedicated external care assistant".[21] Neither Mr Stewart nor MNHHS could establish the extent to which the third option would have better physical health effects than the second option.[22]
+ 4. On the basis that the second and third options had substantially the same physical health benefits, his Honour held that the significant difference in cost meant that the option of home care was not reasonable.[23] As a result, the appeal was dismissed. The Court of Appeal also amended the award of damages made by the trial judge to $2,171,244.03 on the agreed basis that there had previously been a miscalculation.[24]
+ 5. In this Court, the sole ground of appeal upon which special leave was granted to Mr Stewart asserted that the Court of Appeal erred in its consideration of reasonableness by failing to take into account four of the factors, set out above, upon which Mr Stewart had relied in the Court of Appeal. In written and oral submissions, Mr Stewart asserted that the essence of this error was that the Court of Appeal asked the wrong question in relation to reasonableness. That submission should be accepted. As explained below, the question that should have been asked was whether Mr Stewart's choice to live at home was a reasonable response to repair the consequences of the tort. If so, it was for MNHHS to show that part or all of the cost arising from that choice should have been, or should be, avoided by reasonable steps by Mr Stewart to mitigate that loss.
+
+The principles of reasonableness in damages for torts
+
+ 1. The "compensatory principle" in the law of torts has been expressed on many occasions for close to a century and a half.[25] As four members of this Court expressed it in Haines v Bendall,[26] the principle is that:
+
+> > "the injured party should receive compensation in a sum which, so far as money can do, will put that party in the same position as he or she would have been in if ... the tort had not been committed".
+
+ 1. The compensatory principle thus aims, so far as money can do, to rectify wrongful acts and to repair their consequences.[27] There are two different ways in which the concept of "reasonableness" limits the application of the compensatory principle. The first is concerned with proof of consequential loss. In order to recover compensation for consequential losses that have been or will be incurred by some action of the plaintiff, the plaintiff must prove those losses by proving the reasonable cost[28] of steps that the plaintiff has taken, or will take,[29] which are reasonably required to repair the consequences of a defendant's tort. The second is that once the plaintiff proves the reasonable cost of those steps, it is for the defendant to establish that the plaintiff failed to avoid or mitigate that cost "by adopting some [other] course which it was reasonable for [the plaintiff] to take".[30] The difference between the first reasonableness limit and the second reasonableness limit is a difference between "the issue of damages for proof by the plaintiff [and] the issue of mitigation for proof by the defendant".[31]
+ 2. The first limit ensures that the steps taken by the plaintiff are, objectively, reasonably required to restore the position of the plaintiff. The "first task" is to "determine whether or not what is claimed is something which should be provided by the defendant as a reasonable consequence of the tort ... before proceeding to calculate its cost".[32] For instance, where a defendant's negligence prevented a plaintiff from conceiving, damages might include the cost of overseas surrogacy but only where the proposed treatment was reasonable in the sense that the plaintiff would otherwise have had the number of children proposed to be conceived through the treatment and where it was reasonable to seek the treatment overseas.[33] So too, in this Court it has been held that where a defendant's negligence has rendered a plaintiff's car unusable, the plaintiff must establish that the expenses that are proposed or that have been incurred are for the hire of a broadly equivalent vehicle which will actually be used as a substitute.[34] The assessment of whether steps taken or to be taken by the plaintiff are, objectively, reasonably required to restore the position of the plaintiff is to be carried out at the time at which those steps are taken or proposed to be taken. Thus the costs of a reasonable decision to have medical treatment to repair the consequences of a tort can be recovered even if the medical treatment turns out to worsen the plaintiff's condition.[35]
+ 3. It is also necessary for the plaintiff to prove the reasonable cost of taking those steps. As Baroness Hale said in XX v Whittington Hospital NHS Trust,[36] "in seeking to restore what has been lost, the steps taken [or proposed to be taken by a plaintiff] must be reasonable ones and the costs thereby incurred must be reasonable". Thus where a defendant's negligence has rendered a plaintiff's car unusable, the recovered cost of hiring the equivalent vehicle must be the reasonable cost of hiring a vehicle of that kind.[37] In this case, there was no issue that the amount of $4,753,241.47 represented the reasonable cost of home care for the plaintiff.
+ 4. The second limit, with the onus on the defendant, is a rule of mitigation of loss.[38] Once the loss has been proved, the second limit is part of a wider principle that an onus is "on the wrongdoer to show a good reason why the wrongdoer should not be liable to compensate the victim for the full extent of the loss".[39] It is for the defendant to establish that the failure by the plaintiff to take an alternative option was unreasonable. For instance, if a plaintiff has hired a broadly equivalent vehicle as a substitute for a vehicle rendered unusable by the defendant's negligence, then it is for the defendant to prove that some or all of that expense could have been avoided by other action that the plaintiff unreasonably failed to take.[40] So too, if an injured plaintiff proves that loss such as lost income and shortened life expectancy was a consequence of the defendant's negligence, then it is for the defendant to prove that the loss could have been reduced or eliminated by medical treatment or by surgery which was unreasonably refused by the plaintiff.[41]
+
+Sharman v Evans
+
+ 1. The focus of submissions in this case was the decision of this Court in Sharman v Evans.[42] One reason for the difficulty in application of this decision arises from the different approaches taken in the various judgments. Another arises because the conclusion reached by the majority did not require their Honours to separate the two different roles that were played by reasonableness: (i) the reasonableness of the plaintiff's choice to live with her mother full-time, despite the threat to her health that that action posed; and (ii) the reasonableness of the cost of living with her mother full-time when compared with available alternatives.
+
+The facts and decisions at trial and by the Court of Appeal
+
+ 1. Ms Evans was a 20-year-old woman who had grown up in Perth, living with her mother. At the time of the accident, Ms Evans was studying full-time at a Bible College in Brisbane. She was catastrophically injured in a car accident in western New South Wales. As a result of the accident, she became a quadriplegic and an epileptic. She lost the power of speech. She had difficulty breathing. She needed constant nursing attention.
+ 2. Ms Evans was eventually transferred to Perth, where she was treated at the Royal Perth Hospital and moved to the Quadriplegic Centre within that hospital. She was accommodated within the Quadriplegic Centre at a cost of $20 per day, which, over her life expectancy of a minimum of 20 years, was found to have a present value of $86,000. Ms Evans, however, submitted that damages should be assessed in accordance with her desire to live at home with her mother. That cost, even without future medical services and necessary renovations to Ms Evans' mother's house, was found to have a present value of $375,000.
+ 3. The trial judge in the Supreme Court of New South Wales (Sheppard J) accepted that Ms Evans' wish to go home "should be respected" but observed that there were "grave practical problems" with Ms Evans living entirely at home, including occasions when Ms Evans would be left without any nurses for some hours.[43] Further, there would be periods of time when Ms Evans would need to be transferred to hospital because it would not be possible to look after her at home.[44] In effect, the trial judge held that it was impossible for Ms Evans to live a life exclusively at her mother's home for the (at least) 20 years of life expectancy upon which damages were calculated. The trial judge held that the amount that should be awarded for care on the basis that Ms Evans would live partly at hospital and partly at home, and therefore including the cost of modifications to Ms Evans' mother's house, was $150,000 to $175,000.[45]
+ 4. The ultimate award by the trial judge of $300,547.50 damages was not disturbed on appeal to the Court of Appeal of the Supreme Court of New South Wales, the majority concluding that the award was not disproportionate to the injuries suffered by Ms Evans.[46]
+
+The decision in this Court
+
+ 1. On appeal to this Court, the award was reduced to $270,547.50. But the reasons given by the two judgments of the majority of this Court (Barwick CJ, Gibbs and Stephen JJ; Jacobs J and Murphy J dissenting) were significantly different.
+ 2. Barwick CJ held that the costs of nursing and medical care should not have been recoverable in the range of $150,000 to $175,000 found by the trial judge. Barwick CJ considered that the periods in which Ms Evans would stay at her mother's house "would necessarily be relatively few" and said that the costs of those stays were "not reasonably necessary in any real sense for the treatment and care of [Ms Evans]" and were "disproportionate to any causal connexion which might possibly be found". Further, the "satisfaction" to Ms Evans of being in her mother's house for some periods could be far outweighed by "the disturbance and the upset" of her being transferred back to hospital. Nevertheless, and only because the appellant had conceded the point, his Honour recognised that the award of damages could reflect provision for Ms Evans to be transferred from time to time to her mother's house.[47]
+ 3. A different approach was taken by Gibbs and Stephen JJ. Gibbs and Stephen JJ had "no doubt" that Ms Evans was entitled to compensation for the cost of "outings" to her mother's house. However, their Honours reduced the amount in the range awarded by the trial judge of $150,000 to $175,000 to a more particularised amount of $148,000, comprised of $128,000 for hospital and related expenses and a further $20,000 for nursing care and transport for "occasional day visits to her [mother's] home and ... other outings [from hospital], possibly even ... occasional weekends away from hospital".[48]
+ 4. Like the trial judge, Gibbs and Stephen JJ rejected an award made on the basis of Ms Evans living with her mother full-time. Their Honours estimated the present value of that cost as $390,000 based on a life expectancy of 20 years.[49] As Gibbs and Stephen JJ reiterated, the evidence suggested that Ms Evans "would be somewhat more at risk physically at home than in hospital" and there was no evidence suggesting any likely psychiatric benefits of living at her mother's home.[50] It was in that context that Gibbs and Stephen JJ remarked that the "touchstone of reasonableness" involved considering the "cost matched against health benefits to the plaintiff", where it is clearly unreasonable to incur a great cost with slight or speculative health benefits, particularly if there is a relatively inexpensive alternative offering equal or slightly lesser benefits. Their Honours continued:[51]
+
+> > "The present case ... is a case of alternatives in which the difference in relative costs is great whereas the benefit to the plaintiff of the more expensive alternative is entirely one of amenity, in no way involving physical or mental well-being."
+
+ 1. Jacobs J and Murphy J dissented. Jacobs J agreed with the analysis of Gibbs and Stephen JJ about the approach to take to an assessment of damages but would not have altered the trial judge's assessment of a range of $150,000 to $175,000 for hospital and nursing care, including the cost of spending periods at home. His Honour thought that "nothing less than the top of this range was appropriate".[52] Murphy J thought that it was not unreasonable for damages to include part-time care at home and considered that the range of $150,000 to $175,000 was "quite inadequate".[53]
+
+The rationale for and reception of Sharman v Evans
+
+ 1. The decision of the majority in Sharman v Evans, that it was unreasonable for Ms Evans to choose to live at home with her mother full-time, turned upon the use of unreasonableness in the first sense described above. Reasonableness was used as a limit upon compensation which requires that steps taken, or proposed, by a plaintiff be steps that are reasonably required to repair the consequences of the tort. As Gibbs and Stephen JJ expressed the point: "The question here is not what are the ideal requirements but what are the reasonable requirements of [Ms Evans]".[54]
+ 2. For Gibbs and Stephen JJ, Ms Evans' choice to live full-time with her mother was not something that was reasonably required as a step in attempting to restore her to the position prior to the tort. Their reasoning depended upon the increased risk to the health of Ms Evans with no evidence of any likely psychiatric benefits. When their Honours spoke of the more expensive choice of living at home full-time being "entirely one of amenity", they were using the term "amenity" in a narrow sense. Amenity in this narrow sense connotes merely the ability to do something, in contradistinction with anything that improves "physical or mental well-being".[55] Indeed, their Honours allowed $20,000 for the purpose only of the enhanced mental well-being arising from visits to Ms Evans' mother's home.[56]
+ 3. Once the reasonableness limit applied by Gibbs and Stephen JJ is understood as concerning whether Ms Evans' choice to live full-time with her mother was a reasonable choice to repair the consequences to her of the tort, the outcome in Sharman v Evans should be seen as concerning no "more than propositions of fact which were relevant to the case in hand".[57]
+ 4. It may be that, in 2025, where a plaintiff's choice is between nursing care at home or in a home setting or in an institution or an institutional setting there will be few cases where there is any substantial increase in risk to the plaintiff's health from living full-time at home with home care. Further, as Basten JA rightly said in McNeilly v Imbree,[58] "it is commonly accepted nowadays that significant benefits will flow to a person from modifications which would allow him or her to live at home, rather than in an institution". In other words, the exercise of a person's autonomy of choice will usually be associated with mental well-being. That view has been reflected in decisions such as Government Insurance Office of NSW v Mackie,[59] in which the New South Wales Court of Appeal rejected an argument that the cost of home care could not be included in an award of compensation where maintenance of the plaintiff in her home environment was "vital to her well-being and whatever prospects of improvement she might have".
+ 5. On the other hand, contrary to this reasoning, some intermediate appellate court decisions following Sharman v Evans have treated the decision of Gibbs and Stephen JJ as requiring a balancing by the court, independently of the choice by the plaintiff, of the health benefits to a plaintiff against the financial cost. In such cases, it has been held that a high cost of provision of care at home would not usually be justified in the absence of "particular and special needs".[60] It has also been said that the "fundamental area of reasonableness" contrasts with "the principle of restitutio in integrum" and involves asking "what was reasonable compensation being at all times fair to the tortfeasor".[61] This was essentially the approach of the trial judge and of the Court of Appeal in this case. This approach is not correct.
+
+The reasonableness of Mr Stewart's choice of care at home
+
+Reasonableness of a choice to be cared for at home
+
+ 1. The proper approach to the assessment of the reasonableness of a person's choice to be cared for at home or in a home setting, rather than in an institution or an institutional setting, starts from the premise that the plaintiff is entitled to compensation in a sum which, so far as money can do, will put them in the same position as they would have been in had the defendant not acted negligently. In a case such as this, that proper approach requires an assessment of whether the choice to incur the expense of care at home is a reasonable response to repair the consequences of the tort. In assessing the reasonableness of that choice, all the circumstances should be considered and compared with those circumstances that existed prior to the tort. The assessment of reasonableness is not confined to balancing only the health benefits against the cost. The assessment of reasonableness will be significantly affected by what is ordinary in those circumstances. The same is true for the question of whether it was unreasonable for a person not to take alternative action which could have mitigated the loss.[62]
+ 2. Where a person lived in their own home or in a home setting prior to the tort, and the restoration of that position, or a similar position, will be beneficial or at least not worsen their physical or mental health, it would be unusual to find that the choice by that person to receive treatment at home or in a home setting is unreasonable. Of course, there will be cases where living at home or in a home setting might not be chosen: "[t]o one person being permanently in the best of institutions might be as unpleasant as being permanently in a prison, while to another the same institution might be the most desirable of safe havens".[63] But, as Lord Burrows has observed, "private treatment may offer advantages which are more than merely medical in nature (eg speed and comfort) and it is hard to see how it can ever be unreasonable for a claimant to opt for it".[64]
+ 3. In the context of a choice to be cared for at home or in a home setting, overseas courts have also adopted the approach to reasonableness which focuses upon the choice of the injured plaintiff as a means to restore their position rather than an approach which simply balances the health benefits of the expenditure against the cost of the expenditure. In giving the judgment of the Supreme Court of Canada in Thornton v Board of School Trustees of School District No 57 (Prince George),[65] Dickson J said that "[t]he current enlightened concept is to dignify and accept the gravely injured person as a continuing, useful member of the human race". In the judgment of the Supreme Court in another case, decided on the same day, Dickson J said of a man rendered quadriplegic by the negligence of the defendant that it was "difficult to conceive of any reasonably-minded person of ample means who would not be ready to incur the expense of home care, rather than institutional care".[66]
+ 4. Similarly, in the Court of Appeal of England and Wales, O'Connor LJ referred to the position of the plaintiff prior to the tort as the "starting point" for an assessment of the reasonableness of the plaintiff's choice.[67] Stephenson LJ referred to "the principle that the defendant is answerable for what is reasonable human conduct and if [the plaintiff's] choice is reasonable [the defendant] is no less answerable for it if [the defendant] is able to point to cheaper treatment which is also reasonable".[68] This reasoning was later applied by the Court of Appeal in Sowden v Lodge,[69] where Pill LJ emphasised that the test to be applied did not ask what was in the "best interests" of the plaintiff because "paternalism does not replace the right of a claimant, or those with responsibility for the claimant, making a reasonable choice".
+
+The reasonableness of Mr Stewart's choice
+
+ 1. For the reasons explained above, the approach to reasonableness taken by the trial judge and the Court of Appeal, which reflected the approach adopted by some of the authorities decided after Sharman v Evans,[70] was in error. The inquiry should have started from the premise that Mr Stewart was entitled to compensation in a sum which, as far as money can do, would put him in the same position as he would have been in had MNHHS not acted negligently. The inquiry should not have been reduced to a simple balancing of the costs to MNHHS and the health benefits to Mr Stewart of care at (a rented) home. In this case, the question was whether his choice to be cared for at home was a reasonable response to repair the consequences of the tort by MNHHS.
+ 2. In addressing that question, this assessment of Mr Stewart's choice of home care is that prior to the negligence by MNHHS, Mr Stewart lived in a home with his brother where Jesse and his dog would visit regularly. The option of living with care at Ozanam did not restore, and would not have restored, that position because of the restrictions on Jesse or a dog staying at Ozanam. It can be accepted that, as MNHHS submitted in this Court, care in a rented home without Mr Stewart's brother would not precisely restore Mr Stewart's prior position. But the fact that a precise level of correspondence cannot be achieved is beside the point. For Mr Stewart to be cared for in a rented home is a degree of restoration that is far closer to his prior position than his circumstances at the time of trial of living at Ozanam.
+ 3. The reasonableness of Mr Stewart's choice of home care is reinforced by the conclusions of the trial judge about the effect of living at home on Mr Stewart's physical and mental health. Mr Stewart's quality of life and mental health would be enhanced by receiving care at home rather than at Ozanam and the real physical health benefits were, as the trial judge found,[71] not slight or speculative. Further, whatever might have been the position in 1977 when Sharman v Evans was decided, a choice by a severely injured plaintiff to receive care at home is, today, one that is not unusual, especially given the improvement in levels of care that can be provided at home or in a home setting.
+ 4. The effect of the conclusion that Mr Stewart acted reasonably in seeking to restore his position to that prior to the tort by his choice to live in a rented home of his own with care that was not suggested to be other than at reasonable rates is that the onus then fell upon MNHHS to establish that part or all of that claimed cost of home care could be avoided by an alternative that was unreasonably refused. MNHHS attempted to discharge that onus by suggesting the second option, which was much cheaper (staying at Ozanam with enhanced care from an external care assistant and the provision of more frequent therapy and exercise).
+ 5. MNHHS failed to discharge its onus of establishing that Mr Stewart acted unreasonably in refusing the second option despite that option being much cheaper. Although it was possible that Mr Stewart might be equally motivated under the second care option at Ozanam to achieve physical health improvements that were not significantly worse than those that could be achieved at home, MNHHS did not establish any likelihood that the external care assistant would develop the necessary rapport required to motivate Mr Stewart. In other words, unlike the improvement in his physical health that would likely result from Mr Stewart's care at home, MNHHS did not establish the extent of any likelihood that the second option would improve Mr Stewart's physical health when compared with his then present arrangements at Ozanam. The better quality of life and the mental health improvements that would also result from Mr Stewart living in his own (rented) home, and the ordinary nature of such arrangements for a person in Mr Stewart's position, reinforce the lack of unreasonableness in Mr Stewart declining the second option despite the substantially lower cost of that option.
+
+The effect of damages for care at home on general damages
+
+ 1. In Sharman v Evans, Gibbs and Stephen JJ performed the exercise of quantification of the damages payable to Ms Evans by considering nursing and medical expenses before general damages since the extent to which Ms Evans would be required to be in hospital would affect the size of her general damages: "a lifetime substantially spent in hospital will greatly aggravate" her loss of amenities and enjoyment of life.[72] That approach properly reduces the possibility of double counting in the assessment of damages.
+ 2. In Queensland, general damages for personal injury are assessed in accordance with ss 61 [http://www.austlii.edu.au/au/legis/qld/consol_act/cla2003161/s61.html] and 62 [http://www.austlii.edu.au/au/legis/qld/consol_act/cla2003161/s62.html] of the Civil Liability Act 2003 [http://www.austlii.edu.au/au/legis/qld/consol_act/cla2003161/index.html] (Qld). In order to determine the level of general damages under those provisions, the court is required to follow the rules outlined in Pt 2 [http://www.austlii.edu.au/au/legis/qld/consol_act/cla2003161/index.html#p2] of Sch 3 of the Civil Liability Regulation 2014 [http://www.austlii.edu.au/au/legis/qld/consol_reg/clr2014252/index.html] (Qld) and to assign an injury scale value based on the ranges for particular injuries set out in Sch 4 of the Civil Liability Regulation [http://www.austlii.edu.au/au/legis/qld/consol_reg/clr2014252/index.html]. The trial judge found that Mr Stewart's injury fell within item 5.1 of Sch 4 ("Extreme brain injury – Substantial insight remaining") with a range of injury scale values between 71 and 100, from which the trial judge assigned a value of 85.[73]
+ 3. In assessing the injury scale value for a particular injury, a court may have regard to "other matters", to the extent that they are relevant in any given case, including "pain, suffering and loss of amenities of life".[74] In this case, however, the reasons of the trial judge concerning general damages were exclusively functional and did not make any adjustment within the range for any lack of mental well-being of Mr Stewart at Ozanam. It was not suggested by either party that this assessment was not undertaken in accordance with the statutory regime. However, the fact that general damages were assessed in that manner provides context for how the compensatory principle is to be applied in relation to Mr Stewart's claim for cost of care. There was therefore no dispute between the parties that the total quantum of damages assessed "on the basis that the appellant would reside in his own residence" should be $5,883,688.85 (before management fees), which included, amongst other things, $4,753,241.47 for the costs of future care in a rented home, and $284,700 as general damages, which was the same amount awarded by the trial judge.
+
+Conclusion
+
+ 1. Although the quantum of the relevant heads of damages which should follow this appeal being allowed was agreed by the parties, Mr Stewart sought, without opposition from MNHHS, orders that the matter be remitted to the trial judge to determine all issues of quantum and to address any consequential issues. Orders should be made as follows:
+
+> > 1. Appeal allowed with costs.
+
+ 1. Set aside order 1 of the orders of the Court of Appeal of the Supreme Court of Queensland in appeal no CA 4488/24 made on 15 November 2024 and order 1 of the orders of the Court of Appeal in appeal no CA 4488/24 made on 6 December 2024 and in their place order that:
+
+> > (a) the appeal be allowed with costs;
+> > (b) the order of the Supreme Court of Queensland in matter 4665/22 made on 20 March 2024 be set aside; and
+> > (c) orders 1 and 2 of the costs orders of the Supreme Court of Queensland in matter 4665/22 made on 22 May 2024 be set aside and in their place it be ordered that the defendant pay the plaintiff's costs.
+
+ 1. The matter be remitted to the Supreme Court of Queensland for assessment of damages and consequential orders.
+
+[1] [1977] HCA 8 [http://www.austlii.edu.au/au/cases/cth/HCA/1977/8.html]; (1977) 138 CLR 563 at 573.
+
+[2] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [64] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para64]- [65] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para65], [73]-[76].
+
+[3] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [87] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para87], [127].
+
+[4] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [116] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para116]- [117] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para117], [120], [123], [126], [128]; Stewart v Metro North Hospital and Health Service [2024] QCA 225 [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html] at [50] [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html#para50].
+
+[5] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [136] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para136]- [138] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para138].
+
+[6] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [101] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para101]- [102] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para102], [138].
+
+[7] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [140] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para140].
+
+[8] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [160] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para160]- [167] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para167], [178]-[179], [208]-[212].
+
+[9] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [141] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para141], [145].
+
+[10] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [184] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para184]- [186] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para186].
+
+[11] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [185] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para185].
+
+[12] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [186] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para186].
+
+[13] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [186] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para186].
+
+[14] See above at [12].
+
+[15] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [186] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para186].
+
+[16] See above at [12].
+
+[17] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [269] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para269].
+
+[18] Stewart v Metro North Hospital and Health Service [2024] QCA 225 [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html] at [85] [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html#para85].
+
+[19] Stewart v Metro North Hospital and Health Service [2024] QCA 225 [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html] at [86] [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html#para86].
+
+[20] Stewart v Metro North Hospital and Health Service [2024] QCA 225 [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html] at [72] [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html#para72].
+
+[21] Stewart v Metro North Hospital and Health Service [2024] QCA 225 [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html] at [90] [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html#para90] (emphasis added). See also [72], [85]-[95].
+
+[22] Stewart v Metro North Hospital and Health Service [2024] QCA 225 [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html] at [93] [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html#para93].
+
+[23] Stewart v Metro North Hospital and Health Service [2024] QCA 225 [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html] at [95] [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html#para95].
+
+[24] Stewart v Metro North Hospital and Health Service [2024] QCA 225 [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html] at [108] [http://www.austlii.edu.au/au/cases/qld/QCA/2024/225.html#para108], [110].
+
+[25] Livingstone v Rawyards Coal Co [1880] UKHL 3 [http://www.bailii.org/uk/cases/UKHL/1880/3.html]; (1880) 5 App Cas 25 at 39.
+
+[26] [1991] HCA 15 [http://www.austlii.edu.au/au/cases/cth/HCA/1991/15.html]; (1991) 172 CLR 60 at 63.
+
+[27] Lewis v Australian Capital Territory [2020] HCA 26 [http://www.austlii.edu.au/au/cases/cth/HCA/2020/26.html]; (2020) 271 CLR 192 at 239-240 [139] [http://www.austlii.edu.au/au/cases/cth/HCA/2020/26.html#para139]- [141] [http://www.austlii.edu.au/au/cases/cth/HCA/2020/26.html#para141], citing Admiralty Commissioners v SS Susquehanna [1926] AC 655 at 661, O'Brien v McKean [1968] HCA 58 [http://www.austlii.edu.au/au/cases/cth/HCA/1968/58.html]; (1968) 118 CLR 540 at 557, and Johnson v Perez [1988] HCA 64 [http://www.austlii.edu.au/au/cases/cth/HCA/1988/64.html]; (1988) 166 CLR 351 at 386.
+
+[28] Arsalan v Rixon [2021] HCA 40 [http://www.austlii.edu.au/au/cases/cth/HCA/2021/40.html]; (2021) 274 CLR 606 at 615 [2] [http://www.austlii.edu.au/au/cases/cth/HCA/2021/40.html#para2].
+
+[29] CSR Ltd v Eddy [2005] HCA 64 [http://www.austlii.edu.au/au/cases/cth/HCA/2005/64.html]; (2005) 226 CLR 1 at 16-17 [31] [http://www.austlii.edu.au/au/cases/cth/HCA/2005/64.html#para31].
+
+[30] Watts v Rake [1960] HCA 58 [http://www.austlii.edu.au/au/cases/cth/HCA/1960/58.html]; (1960) 108 CLR 158 at 159.
+
+[31] Munce v Vinidex Tubemakers Pty Ltd [1974] 2 NSWLR 235 at 240.
+
+[32] Chulcough v Holley (1968) 41 ALJR 336 at 338; [1968] ALR 274 at 279. See also State Rail Authority of New South Wales v Brown [2006] NSWCA 220 [http://www.austlii.edu.au/au/cases/nsw/NSWCA/2006/220.html] at [84] [http://www.austlii.edu.au/au/cases/nsw/NSWCA/2006/220.html#para84].
+
+[33] XX v Whittington Hospital NHS Trust [2020] UKSC 14 [http://www.bailii.org/uk/cases/UKSC/2020/14.html]; [2021] AC 275 at 322 [53] [http://www.bailii.org/uk/cases/UKSC/2020/14.html#para53].
+
+[34] Arsalan v Rixon [2021] HCA 40 [http://www.austlii.edu.au/au/cases/cth/HCA/2021/40.html]; (2021) 274 CLR 606 at 615-616 [2] [http://www.austlii.edu.au/au/cases/cth/HCA/2021/40.html#para2]- [3] [http://www.austlii.edu.au/au/cases/cth/HCA/2021/40.html#para3], 625-626 [34].
+
+[35] Jones v Watney, Combe, Reid, and Co Ltd (1912) 28 TLR 399; Bloor v Liverpool Derricking and Carrying Co Ltd [1936] 3 All ER 399 at 402; Lamb v Winston [No 1] [1962] QWN 18. See also Luntz, Assessment of Damages for Personal Injury and Death: General Principles (2006) at 178 [10.8].
+
+[36] [2020] UKSC 14 [http://www.bailii.org/uk/cases/UKSC/2020/14.html]; [2021] AC 275 at 320 [43] [http://www.bailii.org/uk/cases/UKSC/2020/14.html#para43]. See also Tettenborn and Wilby (eds), The Law of Damages, 2nd ed (2010) at 723 [29.37].
+
+[37] Arsalan v Rixon [2021] HCA 40 [http://www.austlii.edu.au/au/cases/cth/HCA/2021/40.html]; (2021) 274 CLR 606 at 615 [2] [http://www.austlii.edu.au/au/cases/cth/HCA/2021/40.html#para2].
+
+[38] Watts v Rake [1960] HCA 58 [http://www.austlii.edu.au/au/cases/cth/HCA/1960/58.html]; (1960) 108 CLR 158 at 159.
+
+[39] Armstead v Royal & Sun Alliance Insurance Co Ltd [2024] UKSC 6 [http://www.bailii.org/uk/cases/UKSC/2024/6.html]; [2025] AC 406 at 429 [63] [http://www.bailii.org/uk/cases/UKSC/2024/6.html#para63].
+
+[40] Arsalan v Rixon [2021] HCA 40 [http://www.austlii.edu.au/au/cases/cth/HCA/2021/40.html]; (2021) 274 CLR 606 at 626 [36] [http://www.austlii.edu.au/au/cases/cth/HCA/2021/40.html#para36].
+
+[41] Watts v Rake [1960] HCA 58 [http://www.austlii.edu.au/au/cases/cth/HCA/1960/58.html]; (1960) 108 CLR 158 at 159; Fazlic v Milingimbi Community Inc [1982] HCA 3 [http://www.austlii.edu.au/au/cases/cth/HCA/1982/3.html]; (1982) 150 CLR 345 at 353-354.
+
+[42] [1977] HCA 8 [http://www.austlii.edu.au/au/cases/cth/HCA/1977/8.html]; (1977) 138 CLR 563.
+
+[43] Evans v Sharman (unreported, Supreme Court of New South Wales, 10 December 1973) at 12, 14.
+
+[44] Evans v Sharman (unreported, Supreme Court of New South Wales, 10 December 1973) at 15.
+
+[45] Evans v Sharman (unreported, Supreme Court of New South Wales, 10 December 1973) at 17-19.
+
+[46] Evans v Sharman (unreported, Court of Appeal of New South Wales, 18 August 1975) at 8 (Reynolds JA), 1 (Glass JA).
+
+[47] Sharman v Evans [1977] HCA 8 [http://www.austlii.edu.au/au/cases/cth/HCA/1977/8.html]; (1977) 138 CLR 563 at 566-567.
+
+[48] Sharman v Evans [1977] HCA 8 [http://www.austlii.edu.au/au/cases/cth/HCA/1977/8.html]; (1977) 138 CLR 563 at 575, 585-587.
+
+[49] Sharman v Evans [1977] HCA 8 [http://www.austlii.edu.au/au/cases/cth/HCA/1977/8.html]; (1977) 138 CLR 563 at 574.
+
+[50] Sharman v Evans [1977] HCA 8 [http://www.austlii.edu.au/au/cases/cth/HCA/1977/8.html]; (1977) 138 CLR 563 at 574.
+
+[51] Sharman v Evans [1977] HCA 8 [http://www.austlii.edu.au/au/cases/cth/HCA/1977/8.html]; (1977) 138 CLR 563 at 573-574.
+
+[52] Sharman v Evans [1977] HCA 8 [http://www.austlii.edu.au/au/cases/cth/HCA/1977/8.html]; (1977) 138 CLR 563 at 590.
+
+[53] Sharman v Evans [1977] HCA 8 [http://www.austlii.edu.au/au/cases/cth/HCA/1977/8.html]; (1977) 138 CLR 563 at 597.
+
+[54] Sharman v Evans [1977] HCA 8 [http://www.austlii.edu.au/au/cases/cth/HCA/1977/8.html]; (1977) 138 CLR 563 at 573, quoting Arthur Robinson (Grafton) Pty Ltd v Carter [1968] HCA 9 [http://www.austlii.edu.au/au/cases/cth/HCA/1968/9.html]; (1968) 122 CLR 649 at 661.
+
+[55] Sharman v Evans [1977] HCA 8 [http://www.austlii.edu.au/au/cases/cth/HCA/1977/8.html]; (1977) 138 CLR 563 at 573-574.
+
+[56] Sharman v Evans [1977] HCA 8 [http://www.austlii.edu.au/au/cases/cth/HCA/1977/8.html]; (1977) 138 CLR 563 at 586.
+
+[57] Wieben v Wain (1990) Aust Torts Reports 81-051 at 68,189.
+
+[58] [2007] NSWCA 156 [http://www.austlii.edu.au/au/cases/nsw/NSWCA/2007/156.html]; (2007) 47 MVR 536 at 571 [155] [http://www.austlii.edu.au/au/cases/nsw/NSWCA/2007/156.html#para155]. Not in issue on appeal to this Court: Imbree v McNeilly [2008] HCA 40 [http://www.austlii.edu.au/au/cases/cth/HCA/2008/40.html]; (2008) 236 CLR 510.
+
+[59] (1990) Aust Torts Reports 81-053 at 68,211.
+
+[60] Burford v Allan [1993] SASC 3974 [http://www.austlii.edu.au/au/cases/sa/SASC/1993/4483.html]; (1993) 60 SASR 428 at 437.
+
+[61] Farr v Schultz (1988) 1 WAR 94 at 112-113.
+
+[62] British Westinghouse Electric and Manufacturing Co Ltd v Underground Electric Railways Co of London Ltd [1912] UKLawRpAC 43 [http://www.commonlii.org/uk/cases/UKLawRpAC/1912/43.html]; [1912] AC 673 at 689. See also Summers, Mitigation in the Law of Damages (2025) at 31.
+
+[63] Wieben v Wain (1990) Aust Torts Reports 81-051 at 68,189.
+
+[64] Burrows, Remedies for Torts, Breach of Contract, and Equitable Wrongs, 4th ed (2019) at 240.
+
+[65] 1978 CanLII 12 (SCC) [http://scc.lexum.umontreal.ca/en/1978/1978scr2-267/1978scr2-267.html]; [1978] 2 SCR 267 at 276. See also 280.
+
+[66] Andrews v Grand & Toy Alberta Ltd 1978 CanLII 1 (SCC) [http://scc.lexum.umontreal.ca/en/1978/1978scr2-229/1978scr2-229.html]; [1978] 2 SCR 229 at 245.
+
+[67] Rialis v Mitchell (unreported, Court of Appeal of England and Wales, 6 July 1984) at 15.
+
+[68] Rialis v Mitchell (unreported, Court of Appeal of England and Wales, 6 July 1984) at 26.
+
+[69] [2004] EWCA Civ 1370 [http://www.bailii.org/ew/cases/EWCA/Civ/2004/1370.html]; [2005] 1 WLR 2129 at 2144 [38] [http://www.bailii.org/ew/cases/EWCA/Civ/2004/1370.html#para38]; [2004] EWCA Civ 1370 [http://www.bailii.org/ew/cases/EWCA/Civ/2004/1370.html]; [2005] 1 All ER 581 at 594.
+
+[70] See above at [43].
+
+[71] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [140] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para140].
+
+[72] [1977] HCA 8 [http://www.austlii.edu.au/au/cases/cth/HCA/1977/8.html]; (1977) 138 CLR 563 at 573.
+
+[73] Stewart v Metro North Hospital and Health Service [2024] QSC 41 [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html] at [191] [http://www.austlii.edu.au/au/cases/qld/QSC/2024/41.html#para191], [198].
+
+[74] Civil Liability Regulation 2014 [http://www.austlii.edu.au/au/legis/qld/consol_reg/clr2014252/index.html] (Qld), Sch 3, Pt 2 [http://www.austlii.edu.au/au/legis/qld/consol_reg/clr2014252/index.html#p2], Div 2, s 9. [http://www.austlii.edu.au/au/legis/qld/num_reg/clr2014n129279/s9.html]

@@ -1,0 +1,278 @@
+-----------------------------------
+type: journal
+title: Judging the New by the Old in the Judicial Review of Executive Action
+author: Gageler, Stephen
+year: 2020
+citation: [2020] SydLawRw 20
+url: https://austlii.edu.au/cgi-bin/viewdoc/au/journals/SydLawRw/2020/20.html
+date: 2020-01-01 00:00:00
+database: SydLawRw
+data_quality: H
+-----------------------------------
+
+
+GAGELER, STEPHEN --- "JUDGING THE NEW BY THE OLD IN THE JUDICIAL REVIEW OF EXECUTIVE ACTION" [2020] SYDLAWRW 20; (2020) 42(4) SYDNEY LAW REVIEW 469
+
+Review Essay
+
+Judging the New by the Old in the Judicial Review of Executive Action
+
+Interpreting Executive Power by Janina Boughey and Lisa Burton Crawford (eds) (2020), Federation Press, 268 pp, ISBN 9781760022341
+
+Stephen Gageler AC(Victorian Stevedoring and General Contracting Co Pty Ltd v Dignan [1931] HCA 34; (1931) 46 CLR 73 (‘Dignan’).)
+
+Abstract
+
+Contestation about the exercise and interpretation of executive power is a significant theme of contemporary legal scholarship. Victorian Stevedoring and General Contracting Co Pty Ltd v Dignan [1931] HCA 34 [http://www.austlii.edu.au/au/cases/cth/HCA/1931/34.html]; (1931) 46 CLR 73 [/cgi-bin/LawCite?cit=%281931%29%2046%20CLR%2073] provides a historical setting in which to examine many of the issues explored in Interpreting Executive Power (Federation Press, 2020), an excellent collection of essays edited by Janina Boughey and Lisa Burton Crawford.
+
+
+I THE OLD AND THE NEW
+
+Long before the principles informing judicial review of executive action became a topic of systematic academic attention under the rubrics of ‘administrative law’ and ‘interpreting executive power’, Australian courts in practice engaged regularly and extensively in judicial review of executive action. In doing so, the courts forged and refined stable and enduring principles applicable to Australian conditions. They applied those principles consistently across a range of discrete subject-matters. Prime among those subject-matters was industrial relations.
+
+The High Court of Australia, in the exercise of its original jurisdiction to remedy ‘want’ or ‘excess’ of jurisdiction on the part of an industrial tribunal by writ of ‘mandamus’ or ‘prohibition’ scrutinised: the constitutional separation of Commonwealth legislative, executive and judicial powers; the limited scope for Commonwealth legislative power to be used to enact legislation regulating industrial relations; and the awkward fit within the three-fold constitutional classification of powers of the arbitral function legislatively conferred on industrial tribunals in innovative legislation enacted in the exercise of the limited legislative power. Those features of our federal constitutional structure, and of legislative choices made within it, combined with the political contentiousness and economic significance of industrial relations to give rise to hard-fought legal controversies of national significance throughout the 20th century. Judicial resolution of those controversies resulted in the development of a range of principles regarded as foundational to our emergent modern Australian understanding of judicial review of executive action.
+
+Industrial relations was the source of early development of principles informing judicial review of executive action in Australia, as migration became the subject area that produced the later development of those principles.
+
+One of the many important decisions of the High Court of Australia concerning judicial review of executive action made in the context of industrial relations was Victorian Stevedoring and General Contracting Co Pty Ltd v Dignan.(Victorian Stevedoring and General Contracting Co Pty Ltd v Dignan [1931] HCA 34; (1931) 46 CLR 73 (‘Dignan’).) The circumstances giving rise to that decision, nearly 100 years ago, provide a useful historical setting in which to illustrate and critique the contemporary issues explored in Interpreting Executive Power,(Janina Boughey and Lisa Burton Crawford (eds), Interpreting Executive Power (Federation Press, 2020).) an interesting collection of essays edited by two of Australia’s leading innovative thinkers on judicial review of executive action, Janina Boughey and Lisa Burton Crawford.
+
+
+II AN OLD CONTROVERSY
+
+The historical circumstances of the decision in Dignan were these.(See generally Geoffrey Sawer, Australian Federal Politics and Law 1901–1929 (Melbourne University Press, 1956) 265, 287–8, 306–7; Geoffrey Sawer, Australian Federal Politics and Law 1929–1949 (Melbourne University Press, 1963) 45, 30–31, 37.) The Commonwealth Parliament enacted the Transport Workers Act 1928 (Cth)(Transport Workers Act 1928 (Cth) (No 37 of 1928).) following a series of strikes in a long-running controversy between unions and employers over the method of hiring workers in the maritime and stevedoring industries during the Nationalist Party–Country Party Coalition Government of Stanley Bruce and Earle Page. The Act’s single operative provision was expressed to confer power on the Governor-General to make regulations
+
+with respect to the employment of transport workers, and in particular for regulating the engagement, service, and discharge of transport workers, and the licensing of persons as transport workers, and for regulating or prohibiting the employment of unlicensed persons as transport workers, and for the protection of transport workers.(Ibid s 3.)
+
+‘Transport workers’ were defined to mean ‘persons offering for or engaged in work in or in connexion with the provision of services in the transport of persons or goods in relation to trade or commerce by sea with other countries or among the States.’(Ibid s 2.) Regulations made under the provision were to have ‘the force of law’ ‘notwithstanding anything in any other Act’.(Ibid s 3.) Such Regulations were nevertheless to be subject to standard provisions of the Acts Interpretation Act 1901 [http://www.austlii.edu.au/au/legis/cth/consol_act/aia1901230/] (Cth) and of the Acts Interpretation Act 1904 (Cth), including those which required tabling of the Regulations in each of the House of Representatives and the Senate and allowed for their disallowance by resolution of either the House of Representatives or the Senate.
+
+The Bruce–Page Government used the regulation-making power during the year after the enactment of the Transport Workers Act 1928 (Cth) to introduce and fine-tune a detailed regulatory scheme in the Transport Workers Regulations which required every transport worker offering for or engaged in the loading and unloading of interstate and overseas ships to hold a licence. Licences could only be issued to individual workers on application by licensing officers. The licence issued to a worker could be cancelled by a licensing officer for a range of reasons which included that the worker had refused to comply with a lawful order or direction given in relation to their employment, had refused to work in accordance with the terms of a current applicable industrial award, had alone or in company with other persons exercised or attempted to exercise intimidation or violence in relation to any other waterside worker, or had used abusive language to any other waterside worker. The Bruce–Page Government used the licensing scheme to give preference in employment to members of a more moderate union over members of the militant Waterside Workers’ Federation. The Transport Workers Act 1929 (Cth) was then enacted to amend the Transport Workers Act 1928 (Cth) to incorporate the detail of the licensing scheme, without repealing the regulation-making power.
+
+Both the Transport Workers Act 1928 (Cth) and the Transport Workers Act 1929 (Cth) had been fiercely opposed by the Labor Party in Opposition. The 1929 House of Representatives Election resulted in the defeat of the Bruce–Page Government and the formation of the Labor Government of James Scullin. As there was no Senate Election, the Nationalist Party and the Country Party continued to outnumber the Labor Party in the Senate.
+
+Without the numbers in the Senate to be able to repeal the Transport Workers Act, the Scullin Government decided to use the existing regulation-making power conferred to promulgate the Waterside Employment Regulations 1931 (Cth) (‘Waterside Workers Regulations’). The Waterside Workers Regulations were designed to achieve the exact opposite of what the Bruce–Page Government had managed to achieve through its design and administration of the licensing scheme by then incorporated into the Transport Workers Act. The new regulations required employers employing transport workers for the loading and unloading of interstate or overseas ships to give priority to members of the Waterside Workers’ Federation over everyone other than returned servicemen. They made failure on the part of an employer to give priority to a member of the Waterside Workers’ Federation a criminal offence.
+
+Predictably, the Senate disallowed the Waterside Workers Regulations. The Scullin Government simply remade them. The pattern of disallowance and remaking was repeated on more than ten occasions over the two-year term of the Scullin Government.
+
+During one of the periods when the Waterside Workers Regulations had been remade but not yet disallowed, the Victorian Stevedoring and General Contracting Co Pty Ltd and Mr Meakes were each convicted by a Magistrate of an offence of failing to give priority to a member of the Waterside Workers’ Federation. They were convicted on the information of Inspector Dignan. At issue in Dignan were the constitutional validity of the regulation-making power conferred by the Transport Workers Act as well as the statutory validity of the Waterside Workers Regulations.
+
+
+III THE OLD CHESTNUT OF THE NEW DOUGHNUT
+
+The issue about the constitutional validity of the regulation-making power conferred by the Transport Workers Act in Dignan starkly illustrates the question explored by Groves in his contribution to the collection of essays with reference to more recent migration cases.(Matthew Groves, ‘The Return of the (Almost) Absolute Statutory Discretion’ in Boughey and Burton Crawford (n 2) ch 9.) The question concerns the extent to which the constitutional separation of Commonwealth legislative, executive and judicial powers will tolerate the existence of the phenomenon Groves refers to as ‘the (almost) absolute statutory discretion’.(Ibid 129.) Adopting Dworkin’s metaphorical description of discretion as the ‘hole in a doughnut’(Ronald Dworkin, Taking Rights Seriously (Harvard University Press, 1977) 31.) of legality, the question Groves explores is: as the hole gets bigger, what becomes of the doughnut?
+
+The discretion to make regulations ‘with respect to the employment of transport workers’ was held in Dignan not to be so extensive or vague as to run afoul of any constitutional limitation that might lurk in the separation of Commonwealth legislative, executive and judicial powers. As elaborated by Dixon J, the constitutional separation of legislative and executive power was not so strict as to prevent legislative authorisation of the making by the executive of subordinate legislation. The latter was to be understood to derive its force and effect as law not from the action of the executive, but from the continuing operation of the legislation authorising that action.(Dignan (n 1) 101–2.) There would have been a difficulty had the discretion been of such width or uncertainty that the subject-matter of the discretionary power sought to be legislatively conferred on the executive was not confined within the limits of the scope of Commonwealth legislative power. That difficulty did not arise since the regulation-making power could be read down to apply only to the employment of transport workers engaged in loading and unloading interstate or overseas ships and was therefore within the scope of Commonwealth legislative power with respect to interstate and overseas trade and commerce. Although Dixon J hinted that ‘the distribution of powers’ might in some other way supply ‘considerations of weight affecting the validity of an Act creating a legislative authority’,(Ibid 101.) the notion was taken no further.
+
+Groves explains that the notion remains as elusive now as it was nearly a century ago. This is despite the High Court having more recently reiterated that ‘the notion of “unbridled discretion” has no place in the Australian universe of discourse’,(Wotton v Queensland (2012) 246 CLR 1, 10 [10].) and despite the notion having been taken up as the subject of argument and judicial analysis in several challenges to discretions conferred by migration legislation in the 21st century.(Plaintiff S157/2002 v Commonwealth [2003] HCA 2; (2003) 211 CLR 476, 51213 [100][102]; Plaintiff M79/2012 v Minister for Immigration and Citizenship [2013] HCA 24; (2013) 252 CLR 336, 3668 [85][89].)
+
+
+IV COULD THE OLD STATUTORY PROVISION DO WITH A NEW INTERPRETATIVE APPROACH?
+
+The issue in Dignan about the statutory validity of the Waterside Workers Regulations was framed by counsel for the Victorian Stevedoring and General Contracting Co Pty Ltd and Mr Meakes in terms of ‘abuse of power’. That framing of the issue provoked the then orthodox response(See later R v Toohey; Ex parte Northern Land Council [1981] HCA 74; (1981) 151 CLR 170; FAI Insurances Ltd v Winneke [1982] HCA 26; (1982) 151 CLR 342.) of Gavan Duffy CJ and Starke J that, if making the Waterside Workers Regulations had involved executive abuse or misuse of the regulation-making power conferred by the Transport Workers Act, ‘the only remedy [was] by political action’.(Dignan (n 1) 84.) The sole question for a court of law, their Honours explained, was whether the Waterside Workers Regulations were within the regulation-making power conferred by the Transport Workers Act.(Ibid 84–5.)
+
+That question had already been answered in the affirmative by the High Court just months before, in the context of a challenge to one of the earlier iterations of the Waterside Workers Regulations, in Huddart Parker Ltd v Commonwealth.(Huddart Parker Ltd v Commonwealth [1931] HCA 1; (1931) 44 CLR 492.) There the statutory expression ‘with respect to the employment of transport workers’ had been held to extend ‘to the determination of the persons who shall or may be employed’.(Ibid 509.) There also it had been held not to be inconsistent with the elaborate statutory scheme providing for the licensing of transport workers ‘to invest some of those licensed ... with a right to be preferred to others of them in a competition for work’.(Ibid 511.) That was all that the Waterside Workers Regulations relevantly did.
+
+Those were the arguments challenging the exercise of executive power that were put and rejected in relation to the making of the Waterside Workers Regulations. What might be the arguments now?
+
+Bruce Chen reminds us in his essay on ‘Delegated Legislation and Rights-Based Interpretation’ that whether subordinate legislation derives force and effect from the statutory provision under which the subordinate legislation was purported to be made is still commonly understood to turn on the outcome of a three-step inquiry.(Bruce Chen, ‘Delegated Legislation and Rights-Based Interpretation’ in Boughey and Burton Crawford (n 2) ch 7.) The inquiry involves: construing the statutory provision authorising the making of subordinate legislation; construing the subordinate legislation purportedly made under the provision; and deciding whether the subordinate legislation meets the description in the statutory provision.(South Australia v Tanner [1989] HCA 3; (1989) 166 CLR 161, 173.) Chen also points out that the first of those steps, and in consequence the third, now has the potential to be affected by the unremitting creep of the pervasive and polymorphous interpretative principle often referred to as the ‘principle of legality’.(Chen (n 21) 93–5.)
+
+Quite what is entailed within the so-called principle of legality is the topic of a thoughtful essay by Brendan Lim.(Brendan Lim, ‘Executive Power and the Principle of Legality’ in Boughey and Burton Crawford (n 2) ch 6.) Lim has previously argued that two broad competing conceptions of the principle have emerged in the Australian context:
+
+
+
+> • one treating the principle as an empirical presumption to the effect that a legislature does not ordinarily intend to interfere with fundamental rights, observance of which can assist a court in determining legislative intention; and
+
+
+
+
+
+> • the other treating the principle as a normative rule, observance of which authorises a court to protect fundamental rights from legislative interference where a legislature has not expressed its intention to interfere with those rights with adequate clarity.(Brendan Lim, ‘The Normativity of the Principle of Legality’ [2013] MelbULawRw 17; (2013) 37(2) Melbourne University Law Review 372; Brendan Lim, ‘The Rationales for the Principle of Legality’ in Dan Meagher and Matthew Groves (eds), The Principle of Legality in Australia and New Zealand (Federation Press, 2017) 2.)
+
+
+
+Treating the principle as a normative rule, Lim now argues that the principle is best understood by looking beyond attempts to catalogue the rights that are sufficiently fundamental to engage it and looking instead to characterise the infringements of rights that are sufficient to engage it.(Lim (n 24) 79–80.) The infringements sufficient to engage the principle, he argues, are at least primarily those which occur outside the context in which courts characteristically strive to achieve equality in the protection of rights as in a contest between citizen and citizen. The relevant infringements are those that occur in the context of the asymmetrical contest that can exist between an executive officer who is the repository of a statutory power to affect rights or freedoms and a citizen who is the holder of the rights or freedoms that are vulnerable to an exercise of that power. He argues that the principle can be seen to authorise a court in that context to ‘take sides’ in the contest by construing the statute conferring the power in a manner that compensates for the asymmetry.(Ibid 85.) Hence, ‘[t]he central concern of the principle is what counts as sufficient positive authorisation for a lawful assertion of executive power’.(Ibid 89.)
+
+Lim does not proffer his argument as anything more than a tentative step in a work in progress attempting to propound a possible explanation for the emergence of the principle of legality as a normative rule. His presentation of the argument is in the nature of a scoping study, excluding or at least minimising application of the principle outside the context of a statutorily conferred capacity for an executive officer or agency to exercise power to affect individual rights or freedoms.
+
+In his important examination of the more general subject of ‘construing statutes conferring powers’,(John Basten, ‘Construing Statutes Conferring Powers — A Process of Implication or Applying Values?’ in Boughey and Burton Crawford (n 2) ch 5.) John Basten identifies the principle of legality (which he suggests might be more accurately described as ‘the clear statement principle’)(Ibid 66.) as one of a number of principles of statutory construction, the application of which involves courts bringing values external to a statute to a judicial process of statutory implication. He proceeds on the understanding that application of the particular principles of statutory construction, like judicial references to ‘legislative intention’ more generally, is an expression of ‘the constitutional relationship between the courts and the legislature’.(Singh v Commonwealth [2004] HCA 43; (2004) 222 CLR 322, 336 [19] (Gleeson CJ). See also Zheng v Cai [2009] HCA 52; (2009) 239 CLR 446, 455–6 [28].)
+
+‘When, exactly, do implied constraints operate to qualify executive powers in terms which find no express justification in the text?’(Basten (n 29) 74.) That is the question to which any theoretical analysis must ultimately be directed.
+
+Basten points out that providing an answer to that question requires engagement with two foundational elements of our constitutional system of representative and responsible government. One, sourced in the political conception of the rule of law, is that those who are represented are to be governed only by laws that are publicly promulgated and accessible to them. The other, sourced in the doctrine of separation of powers, denies to the judicial branch of government power to involve itself in making or remaking, as opposed to interpreting and enforcing, laws made by or under the authority of the representative legislature. Basten emphasises that the primacy of legislation over judge-made law
+
+imposes a constraint on courts which seek to read down the legislation by reference to judge-made principles of interpretation: those principles demand justification if the courts are not to be seen to exceed their constitutional role in either restricting or expanding the ordinary or apparent meaning of a statutory conferral of power.(Ibid 54.)
+
+Drawing on language of Sir Gerard Brennan, Basten suggests that the answer to his ‘when, exactly’ question lies in ‘underlying’ or ‘enduring’ values ‘which are not themselves enforceable’ but which ‘explain and constrain legal principles which are enforceable’.(Ibid 74.) The language of Sir Gerard Brennan drawn upon by Basten in pointing to that answer was expressed in the following statement in a public lecture given in August 1990:
+
+In the long history of the common law, some values have been recognised as the enduring values of a free and democratic society and they are the values which inform the development of the common law and help to mould the meaning of statutes. These values include the dignity and integrity of every person, substantive equality before the law, the absence of unjustified discrimination, the peaceful possession of one’s property, the benefit of natural justice, and immunity from retrospective and unreasonable operation of laws. To ensure that effect is given to these values when they stand in the way of an exercise of power, especially the power of governments, a judiciary of unquestioned independence is essential. The judge stands in the lonely no-man’s-land between the government and the governed, between the wealthy and the poor, the strong and the weak. She or he can identify with neither, for partisanship robs the judge of the authority essential to discharge the judicial office.(Gerard Brennan, ‘Courts, Democracy and the Law’ (1991) 65(1) Australian Law Journal 32, 40.)
+
+Evidently, Sir Gerard Brennan did not perceive any tension between that extra-judicial explanation of the role of enduring values in moulding the meaning of statutes and his judicial explanation two months earlier in Attorney-General (NSW) v Quin of the ‘duty and jurisdiction of [a] court to review administrative action’(Attorney-General (NSW) v Quin (1990) 170 CLR 1, 35–6 (‘Quin’).) as not going ‘beyond the declaration and enforcing of the law which determines the limits and governs the exercise of the repository’s power’.(Ibid 36.) The absence of tension is apparent in the explanation his Honour went on immediately to give in Quin that
+
+[i]n Australia, the modern development and expansion of the law of judicial review of administrative action [had] been achieved by an increasingly sophisticated exposition of implied limitations on the extent or the exercise of statutory power.(Ibid.)
+
+Basten does not enter into the controversy earlier exposed by Lim as to whether the principle of legality is to be treated as an empirical presumption or a normative rule. For, so long as a court can feel confident in asserting that ‘the preferred construction by the court of the statute in question is reached by the application of rules of interpretation accepted by all arms of government in the system of representative democracy’,(Zheng v Cai (n 31) 455–6 [28] (French CJ, Gummow, Crennan, Kiefel and Bell J).) the need to take sides in that controversy can be avoided. The more contentious the principle or constellation of principles applied by a court to arrive at its preferred construction within contemporary political discourse, the more difficult that attitude of avoidance is to maintain.
+
+The unqualified terms of the statutory expression ‘with respect to the employment of transport workers’ by which the Transport Workers Act conferred its regulation-making power might be thought by a modern proponent of the principle of legality to lend themselves to being creatively read down to prevent, or at least minimise the extent of, infringement of common law rights. The statutory addition of the expansionary explanation (‘and in particular for regulating the engagement, service and discharge of transport workers, and for regulating or prohibiting the employment of unlicensed persons as transport workers, and for the protection of transport workers’) might make it difficult to argue that the regulation-making power should be read to prevent, or minimise the extent of interference with, freedom of contract.
+
+However, it would not be beyond the wit of a creative modern lawyer to fashion an argument that the apparent generality of the grant of power to make regulations ‘with respect to the employment of transport workers’ should not be read so broadly as to empower the making of regulations which would compel unequal treatment or unjustifiable discrimination in the employment of transport workers. The values informing the development of the common law which would be protected from legislative incursion through the application of the principle of legality in that way, it might be argued, are those identified by Brennan as ‘substantive equality before the law’ and ‘the absence of unjustified discrimination’.(Brennan (n 35) 40.)
+
+Against the background of the transport workers legislation having been enacted and amended in an atmosphere of extreme political hostility, and against the background of the regulation-making power conferred by the applicable statute having been exploited by both sides of the political divide in the pursuit of overtly partisan industrial agendas, should an appeal of that nature to the enduring value of equal protection of the law, if made, have prevailed?
+
+You be the judge.
+
+
+V SHOULD IT MATTER WHO MAKES THE ARGUMENT?
+
+Inspector Dignan argued for an expansive interpretation of the regulation-making power conferred by the Transport Workers Act and for a literal interpretation of the Waterside Workers Regulations. Should his status as a governmental official charged with the responsibility for the administration of the legislation and the delegated legislation have meant that his arguments about the construction of the legislation and the delegated legislation carried more weight with the High Court than the arguments of the Victorian Stevedoring and General Contracting Co Pty Ltd and Mr Meakes? The orthodox answer: absolutely not!
+
+Janina Boughey might be thought perhaps by some to challenge that orthodoxy in presenting ‘The Case for “Deference” to (Some) Executive Interpretations of Law’.(Janina Boughey, ‘The Case for “Deference” to (Some) Executive Interpretations of Law’ in Boughey and Burton Crawford (n 2) ch 4.) Boughey advocates for the adoption in Australia of a version of the United States ‘Skidmore deference’ according to which a court engaged in the interpretation of legislation or delegated legislation should ‘consider [an] administering agency’s preferred interpretation, and give weight to that interpretation depending on its persuasive force’.(Ibid 36 discussing Skidmore v Swift & Co, [1944] USSC 129; 323 US 134 (1944) (‘Skidmore’).)
+
+Or perhaps not. Boughey explains that equivalent doctrines of deference to executive interpretations of law have been articulated and explained in the United States(Skidmore (n 42) 140. See also Chevron USA Inc v Natural Resources Defense Council Inc, [1984] USSC 140; 467 US 837 (1984); Auer v Robbins, [1997] USSC 13; 519 US 452 (1997); Kisor v Wilkie, 139 S Ct 2400 (2019).) and Canada(Dunsmuir v New Brunswick [2008] 1 SCR 190, 2212 [49], quoting David J Mullan, ‘Establishing the Standard of Review: The Struggle for Complexity?’ (2004) 17(1) Canadian Journal of Administrative Law & Practice 59, 93.) through the Supreme Courts of those countries stressing the importance of courts respecting, and learning from, executive agencies’ expertise and experience.(Brennan (n 35) 40.) Giving weight to the interpretation of legislation or delegated legislation adopted by the executive agency which administers it, Boughey argues, can promote the accountability of the agency to the public and to political branches of government, enhance the ability of the public to rely on guidance given by the agency in organising their affairs, and promote coherence, workability and predictability in the administration of the law.
+
+The consequentialist considerations to which Boughey points in favour of deference are all of a kind which have been recognised by the High Court to be appropriate to be weighed before departing from an interpretation of legislation or delegated legislation that has been relied on in practice.(R v Kirby; Ex parte Boiler-Makers’ Society of Australia [1956] HCA 10; (1956) 94 CLR 254, 295–6.) To ascribe weight to an executive agency’s preferred interpretation of legislation or delegated legislation it administers merely because the interpretation is preferred by the agency, however, must surely go too far. Interpretation is a matter of opinion. The weight appropriately ascribed to an opinion by reference to the status of the holder of the opinion, as distinct from by reference to the cogency of the reasoning relied on to support the opinion, must at best be slight. As noted by Boughey, the weight appropriately ascribed to an opinion by reference to the status of the holder of the opinion must also vary having regard to the expertise and experience of the holder, having regard to the reputation of the holder for independence and impartiality and having regard to the nature and character of the interpretive question.
+
+John McMillan,(John McMillan, ‘Statutory Interpretation and Deference: An Executive Perspective’ in Boughey and Burton Crawford (n 2) ch 3.) who argues from an executive perspective for a measure of deference, puts his argument no higher than one which calls for courts engaged in statutory construction to do so with common sense and professionalism combined with a healthy dose of humility. Courts undoubtedly have the ultimate function of resolving disputes as to statutory meaning. Courts would perform that function better were they prepared to recognise the limits of their own knowledge and experience and were they prepared to learn from the practical wisdom of others. He argues for an attitudinal shift both on the part of courts, in recognising that they might profit from the experience and insight of executive agencies, and on the part of executive agencies, in recognising that their preferred interpretation must be spelt out for the assistance of the court by some respectable process.(McMillan (n 47) 33.)
+
+Where that leaves Inspector Dignan, I suspect, is that he is entitled to present his argument and to have that argument evaluated on its merits in precisely the same way as the Victorian Stevedoring and General Contracting Co Pty Ltd and Mr Meakes are entitled to present their arguments and to have their arguments evaluated.
+
+
+VI WHAT ABOUT THE CHANGE OF GOVERNMENT AND THE CHANGE OF POLICY?
+
+Was the scope of the regulation-making power conferred by the Transport Workers Act set in stone at the time of its enactment? Or was its meaning capable of being affected, over time, by the manner of its utilisation first by the Bruce–Page Government and then by the Scullin Government? Questions of this nature are explored by Lisa Burton Crawford in her nuanced essay entitled ‘Between a Rock and a Hard Place: Executive Guidance in the Administrative State’.(Lisa Burton Crawford, ‘Between a Rock and a Hard Place: Executive Guidance in the Administrative State’ in Boughey and Burton Crawford (n 2) ch 2.)
+
+There is a very practical and very obvious sense in which the answer to both questions is ‘yes’. The scope of the regulation-making power was to be determined by reference to the meaning of the statutory text by which the power was conferred by the Commonwealth Parliament in enacting the Transport Workers Act as authoritatively construed by the High Court. The text was fixed at the time of enactment. The authoritative construction of that text occurred later. To ignore what had occurred in the interim would have been to deny reality.
+
+Just what the High Court was supposed to make of what had occurred in the interim for the purpose of construing the statutory text is another matter. Burton Crawford’s subtle analysis suggests that contemporary Australian jurisprudence leaves open the possibility that the meaning and effect of a statute as authoritatively construed by a court might, in some circumstances, be affected by action taken by the executive between the time of enactment and the time of construction, including through the provision of executive guidance.
+
+The fate of the Bruce–Page Government, the stand-off between the Scullin Government and the Nationalist Party and Country Party controlled Senate, and then later the fate of the Scullin Government itself, all provide reason to be cautious about the relationship between statutory interpretation and democratic accountability. That relationship is explored by Sangeetha Pillai and Shreeya Smith.(Sangeetha Pillai and Shreeya Smith, ‘Regional Processing of Asylum Seekers, Democratic Accountability and Statutory Interpretation’ in Boughey and Burton Crawford (n 2) ch 10.) They note that one of the rationales often proffered for the principle of legality is that it ‘means that Parliament must squarely confront what it is doing and accept the political cost’.(Ibid 164, quoting R v Secretary of State for the Home Department; Ex parte Simms [1999] UKHL 33; [2000] 2 AC 115, 131 (Hoffmann LJ).) As Pillai and Smith note, however, deployment of a principle of statutory interpretation having that as its rationale is not the inevitable consequence of limitations on political accountability. More generally, as they explore in the migration context, an approach to statutory interpretation that seeks to constrain executive action within the narrowest of a range of potential meanings in the supposed interests of democratic accountability carries the risk of provoking legislative reactions that, in practice, weaken mechanisms both of judicial review and of political accountability.
+
+Where mechanisms of democratic accountability are strong, and especially where political sentiment runs high, application by courts of a principle of statutory interpretation fashioned with a view to achieving judicial enhancement of the political process could be viewed as at best redundant and at worst counterproductive. The famous aphorism of Dixon CJ that ‘[t]here is no other safe guide to judicial decisions in great conflicts than a strict and complete legalism’(‘Swearing in of Sir Owen Dixon as Chief Justice’ (1952) 85 CLR, xiv.) was uttered in the wake of Australian Communist Party v Commonwealth(Australian Communist Party v Commonwealth [1951] HCA 5; (1951) 83 CLR 1.) (holding the Communist Party Dissolution Act 1950 (Cth) invalid) and the subsequent failure at a national referendum of the Constitution [http://www.austlii.edu.au/au/legis/cth/consol_act/coaca430/] Alteration (Powers to Deal with Communists and Communism) 1951 (Cth) (seeking to amend the Constitution [http://www.austlii.edu.au/au/legis/cth/consol_act/coaca430/] to confer legislative power on the Commonwealth Parliament sufficient to enable it to re-enact the Communist Party Dissolution Act). The wisdom of the aphorism lies in its linking of ‘strict and complete legalism’ to safe judicial conduct in making decisions in matters of ‘great conflicts’.
+
+
+VII THE NEW AND THE OLD
+
+My focus on judicial review of broad discretions conferred by statute is not to be understood as intended to detract from the fine essays by Dominique Dalla-Pozza and Greg Weeks on the counterintuitive phenomenon of detailed legislative schemes operating to limit judicial scrutiny of executive action,(Dominique Dalla-Pozza and Greg Weeks, ‘A Statutory Shield of the Executive: To What Extent Does Legislation Help Administrative Action Evade Judicial Scrutiny?’ in Boughey and Burton Crawford (n 2) ch 12.) by Peta Stephenson on statutory displacement of non-statutory executive power,(Peta Stephenson, ‘Statutory Displacement of the Prerogative in Australia’ in Boughey and Burton Crawford (n 2) ch 13.) by Amanda Sapienza on judicial review of non-statutory executive action,(Amanda Sapienza, ‘Interpreting the Limits of Non-Statutory Executive Action: What Role for Grounds of Judicial Review?’ in Boughey and Burton Crawford (n 2) ch 14.) by Anna Huggins on automated executive decision making and statutory interpretation,(Anna Huggins, ‘Executive Power in the Digital Age: Automation, Statutory Interpretation and Administrative Law’ in Boughey and Burton Crawford (n 2) ch 8.) and by Nick Seddon on whether Commonwealth executive contracting should be understood to require Commonwealth legislative backing.(Nick Seddon, ‘Statutory Backing of Commonwealth Government Contracts’ in Boughey and Burton Crawford (n 2) ch 11.) Each of those topics is worthy of its own review essay.
+
+Nor is my reflection on a discrete episode in our distant past intended to detract from the novelty and creativity of the numerous essays to which I have referred. One of the strengths of our inherited common law methodology, which we apply to the interpretation of executive power as much as to the interpretation of other powers and duties and rights and freedoms, is the ability it gives us to upgrade our legal toolbox to maintain the strength of our legal structure in an ever-changing social and political climate. Being able to test and refine contemporary legal ideas by reference to concrete events of the past aids us in our quest to ensure that the legal tools we employ in the future will be fit for purpose.
+
+(Victorian Stevedoring and General Contracting Co Pty Ltd v Dignan [1931] HCA 34; (1931) 46 CLR 73 (‘Dignan’).) Justice of the High Court of Australia. My thanks to Anthony Hall and Katharine Brown for assisting in refining this essay for publication.
+
+(Victorian Stevedoring and General Contracting Co Pty Ltd v Dignan [1931] HCA 34; (1931) 46 CLR 73 (‘Dignan’).) Victorian Stevedoring and General Contracting Co Pty Ltd v Dignan [1931] HCA 34 [http://www.austlii.edu.au/au/cases/cth/HCA/1931/34.html]; (1931) 46 CLR 73 [/cgi-bin/LawCite?cit=%281931%29%2046%20CLR%2073] (‘Dignan’).
+
+(Janina Boughey and Lisa Burton Crawford (eds), Interpreting Executive Power (Federation Press, 2020).) Janina Boughey and Lisa Burton Crawford (eds), Interpreting Executive Power (Federation Press, 2020).
+
+(See generally Geoffrey Sawer, Australian Federal Politics and Law 1901–1929 (Melbourne University Press, 1956) 265, 287–8, 306–7; Geoffrey Sawer, Australian Federal Politics and Law 1929–1949 (Melbourne University Press, 1963) 45, 30–31, 37.) See generally Geoffrey Sawer, Australian Federal Politics and Law 1901–1929 (Melbourne University Press, 1956) 265, 287–8, 306–7; Geoffrey Sawer, Australian Federal Politics and Law 1929–1949 (Melbourne University Press, 1963) 45, 30–31, 37.
+
+(Transport Workers Act 1928 (Cth) (No 37 of 1928).) Transport Workers Act 1928 (Cth) (No 37 of 1928).
+
+(Ibid s 3.) Ibid s 3.
+
+(Ibid s 2.) Ibid s 2.
+
+(Ibid s 3.) Ibid s 3.
+
+(Matthew Groves, ‘The Return of the (Almost) Absolute Statutory Discretion’ in Boughey and Burton Crawford (n 2) ch 9.) Matthew Groves, ‘The Return of the (Almost) Absolute Statutory Discretion’ in Boughey and Burton Crawford (n 2) ch 9.
+
+(Ibid 129.) Ibid 129.
+
+(Ronald Dworkin, Taking Rights Seriously (Harvard University Press, 1977) 31.) Ronald Dworkin, Taking Rights Seriously (Harvard University Press, 1977) 31.
+
+(Dignan (n 1) 101–2.) Dignan (n 1) 101–2.
+
+(Ibid 101.) Ibid 101.
+
+(Wotton v Queensland (2012) 246 CLR 1, 10 [10].) Wotton v Queensland (2012) 246 CLR 1 [/cgi-bin/LawCite?cit=%282012%29%20246%20CLR%201], 10 [10].
+
+(Plaintiff S157/2002 v Commonwealth [2003] HCA 2; (2003) 211 CLR 476, 51213 [100][102]; Plaintiff M79/2012 v Minister for Immigration and Citizenship [2013] HCA 24; (2013) 252 CLR 336, 3668 [85][89].) Plaintiff S157/2002 v Commonwealth [2003] HCA 2 [http://www.austlii.edu.au/au/cases/cth/HCA/2003/2.html]; (2003) 211 CLR 476 [/cgi-bin/LawCite?cit=%282003%29%20211%20CLR%20476], 51213 [100][102]; Plaintiff M79/2012 v Minister for Immigration and Citizenship [2013] HCA 24 [http://www.austlii.edu.au/au/cases/cth/HCA/2013/24.html]; (2013) 252 CLR 336 [/cgi-bin/LawCite?cit=%282013%29%20252%20CLR%20336], 3668 [85][89].
+
+(See later R v Toohey; Ex parte Northern Land Council [1981] HCA 74; (1981) 151 CLR 170; FAI Insurances Ltd v Winneke [1982] HCA 26; (1982) 151 CLR 342.) See later R v Toohey; Ex parte Northern Land Council [1981] HCA 74 [http://www.austlii.edu.au/au/cases/cth/HCA/1981/74.html]; (1981) 151 CLR 170 [/cgi-bin/LawCite?cit=%281981%29%20151%20CLR%20170]; FAI Insurances Ltd v Winneke [1982] HCA 26 [http://www.austlii.edu.au/au/cases/cth/HCA/1982/26.html]; (1982) 151 CLR 342. [/cgi-bin/LawCite?cit=%281982%29%20151%20CLR%20342]
+
+(Dignan (n 1) 84.) Dignan (n 1) 84.
+
+(Ibid 84–5.) Ibid 84–5.
+
+(Huddart Parker Ltd v Commonwealth [1931] HCA 1; (1931) 44 CLR 492.) Huddart Parker Ltd v Commonwealth [1931] HCA 1 [http://www.austlii.edu.au/au/cases/cth/HCA/1931/1.html]; (1931) 44 CLR 492. [/cgi-bin/LawCite?cit=%281931%29%2044%20CLR%20492]
+
+(Ibid 509.) Ibid 509.
+
+(Ibid 511.) Ibid 511.
+
+(Bruce Chen, ‘Delegated Legislation and Rights-Based Interpretation’ in Boughey and Burton Crawford (n 2) ch 7.) Bruce Chen, ‘Delegated Legislation and Rights-Based Interpretation’ in Boughey and Burton Crawford (n 2) ch 7.
+
+(South Australia v Tanner [1989] HCA 3; (1989) 166 CLR 161, 173.) South Australia v Tanner [1989] HCA 3 [http://www.austlii.edu.au/au/cases/cth/HCA/1989/3.html]; (1989) 166 CLR 161 [/cgi-bin/LawCite?cit=%281989%29%20166%20CLR%20161], 173.
+
+(Chen (n 21) 93–5.) Chen (n 21) 93–5.
+
+(Brendan Lim, ‘Executive Power and the Principle of Legality’ in Boughey and Burton Crawford (n 2) ch 6.) Brendan Lim, ‘Executive Power and the Principle of Legality’ in Boughey and Burton Crawford (n 2) ch 6.
+
+(Brendan Lim, ‘The Normativity of the Principle of Legality’ [2013] MelbULawRw 17; (2013) 37(2) Melbourne University Law Review 372; Brendan Lim, ‘The Rationales for the Principle of Legality’ in Dan Meagher and Matthew Groves (eds), The Principle of Legality in Australia and New Zealand (Federation Press, 2017) 2.) Brendan Lim, ‘The Normativity of the Principle of Legality’ [2013] MelbULawRw 17 [http://www.austlii.edu.au/au/journals/MelbULawRw/2013/17.html]; (2013) 37(2) Melbourne University Law Review 372 [/cgi-bin/LawCite?cit=%282013%29%2037%20Melbourne%20University%20Law%20Review%20372]; Brendan Lim, ‘The Rationales for the Principle of Legality’ in Dan Meagher and Matthew Groves (eds), The Principle of Legality in Australia and New Zealand (Federation Press, 2017) 2.
+
+(Lim (n 24) 79–80.) Lim (n 24) 79–80.
+
+(Ibid 85.) Ibid 85.
+
+(Ibid 89.) Ibid 89.
+
+(John Basten, ‘Construing Statutes Conferring Powers — A Process of Implication or Applying Values?’ in Boughey and Burton Crawford (n 2) ch 5.) John Basten, ‘Construing Statutes Conferring Powers — A Process of Implication or Applying Values?’ in Boughey and Burton Crawford (n 2) ch 5.
+
+(Ibid 66.) Ibid 66.
+
+(Singh v Commonwealth [2004] HCA 43; (2004) 222 CLR 322, 336 [19] (Gleeson CJ). See also Zheng v Cai [2009] HCA 52; (2009) 239 CLR 446, 455–6 [28].) Singh v Commonwealth [2004] HCA 43 [http://www.austlii.edu.au/au/cases/cth/HCA/2004/43.html]; (2004) 222 CLR 322 [/cgi-bin/LawCite?cit=%282004%29%20222%20CLR%20322], 336 [19] (Gleeson CJ). See also Zheng v Cai [2009] HCA 52 [http://www.austlii.edu.au/au/cases/cth/HCA/2009/52.html]; (2009) 239 CLR 446 [/cgi-bin/LawCite?cit=%282009%29%20239%20CLR%20446], 455–6 [28].
+
+(Basten (n 29) 74.) Basten (n 29) 74.
+
+(Ibid 54.) Ibid 54.
+
+(Ibid 74.) Ibid 74.
+
+(Gerard Brennan, ‘Courts, Democracy and the Law’ (1991) 65(1) Australian Law Journal 32, 40.) Gerard Brennan, ‘Courts, Democracy and the Law’ (1991) 65(1) Australian Law Journal 32 [/cgi-bin/LawCite?cit=%281991%29%2065%20Australian%20Law%20Journal%2032], 40.
+
+(Attorney-General (NSW) v Quin (1990) 170 CLR 1, 35–6 (‘Quin’).) Attorney-General (NSW) v Quin (1990) 170 CLR 1 [/cgi-bin/LawCite?cit=%281990%29%20170%20CLR%201], 35–6 (‘Quin’).
+
+(Ibid 36.) Ibid 36.
+
+(Ibid.) Ibid.
+
+(Zheng v Cai (n 31) 455–6 [28] (French CJ, Gummow, Crennan, Kiefel and Bell J).) Zheng v Cai (n 31) 455–6 [28] (French CJ, Gummow, Crennan, Kiefel and Bell J).
+
+(Brennan (n 35) 40.) Brennan (n 35) 40.
+
+(Janina Boughey, ‘The Case for “Deference” to (Some) Executive Interpretations of Law’ in Boughey and Burton Crawford (n 2) ch 4.) Janina Boughey, ‘The Case for “Deference” to (Some) Executive Interpretations of Law’ in Boughey and Burton Crawford (n 2) ch 4.
+
+(Ibid 36 discussing Skidmore v Swift & Co, [1944] USSC 129; 323 US 134 (1944) (‘Skidmore’).) Ibid 36 discussing Skidmore v Swift & Co, [1944] USSC 129 [http://www.worldlii.org/us/cases/federal/USSC/1944/129.html]; 323 US 134 [/cgi-bin/LawCite?cit=323%20US%20134] (1944) (‘Skidmore’).
+
+(Skidmore (n 42) 140. See also Chevron USA Inc v Natural Resources Defense Council Inc, [1984] USSC 140; 467 US 837 (1984); Auer v Robbins, [1997] USSC 13; 519 US 452 (1997); Kisor v Wilkie, 139 S Ct 2400 (2019).) Skidmore (n 42) 140. See also Chevron USA Inc v Natural Resources Defense Council Inc, [1984] USSC 140 [http://www.worldlii.org/us/cases/federal/USSC/1984/140.html]; 467 US 837 [/cgi-bin/LawCite?cit=467%20US%20837] (1984); Auer v Robbins, [1997] USSC 13 [http://www.worldlii.org/us/cases/federal/USSC/1997/13.html]; 519 US 452 [/cgi-bin/LawCite?cit=519%20US%20452] (1997); Kisor v Wilkie, 139 S Ct 2400 [/cgi-bin/LawCite?cit=139%20S%20Ct%202400] (2019).
+
+(Dunsmuir v New Brunswick [2008] 1 SCR 190, 2212 [49], quoting David J Mullan, ‘Establishing the Standard of Review: The Struggle for Complexity?’ (2004) 17(1) Canadian Journal of Administrative Law & Practice 59, 93.) Dunsmuir v New Brunswick [2008] 1 SCR 190 [http://scc.lexum.umontreal.ca/en/2008/2008scc9/2008scc9.html], 2212 [49], quoting David J Mullan, ‘Establishing the Standard of Review: The Struggle for Complexity?’ (2004) 17(1) Canadian Journal of Administrative Law & Practice 59 [/cgi-bin/LawCite?cit=%282004%29%2017%20Canadian%20Journal%20of%20Administrative%20Law%20%26%20Practice%2059], 93.
+
+(Brennan (n 35) 40.) Brennan (n 35) 40.
+
+(R v Kirby; Ex parte Boiler-Makers’ Society of Australia [1956] HCA 10; (1956) 94 CLR 254, 295–6.) R v Kirby; Ex parte Boiler-Makers’ Society of Australia [1956] HCA 10 [http://www.austlii.edu.au/au/cases/cth/HCA/1956/10.html]; (1956) 94 CLR 254 [/cgi-bin/LawCite?cit=%281956%29%2094%20CLR%20254], 295–6.
+
+(John McMillan, ‘Statutory Interpretation and Deference: An Executive Perspective’ in Boughey and Burton Crawford (n 2) ch 3.) John McMillan, ‘Statutory Interpretation and Deference: An Executive Perspective’ in Boughey and Burton Crawford (n 2) ch 3.
+
+(McMillan (n 47) 33.) McMillan (n 47) 33.
+
+(Lisa Burton Crawford, ‘Between a Rock and a Hard Place: Executive Guidance in the Administrative State’ in Boughey and Burton Crawford (n 2) ch 2.) Lisa Burton Crawford, ‘Between a Rock and a Hard Place: Executive Guidance in the Administrative State’ in Boughey and Burton Crawford (n 2) ch 2.
+
+(Sangeetha Pillai and Shreeya Smith, ‘Regional Processing of Asylum Seekers, Democratic Accountability and Statutory Interpretation’ in Boughey and Burton Crawford (n 2) ch 10.) Sangeetha Pillai and Shreeya Smith, ‘Regional Processing of Asylum Seekers, Democratic Accountability and Statutory Interpretation’ in Boughey and Burton Crawford (n 2) ch 10.
+
+(Ibid 164, quoting R v Secretary of State for the Home Department; Ex parte Simms [1999] UKHL 33; [2000] 2 AC 115, 131 (Hoffmann LJ).) Ibid 164, quoting R v Secretary of State for the Home Department; Ex parte Simms [1999] UKHL 33 [http://www.bailii.org/uk/cases/UKHL/1999/33.html]; [2000] 2 AC 115 [/cgi-bin/LawCite?cit=%5b2000%5d%202%20AC%20115], 131 (Hoffmann LJ).
+
+(‘Swearing in of Sir Owen Dixon as Chief Justice’ (1952) 85 CLR, xiv.) ‘Swearing in of Sir Owen Dixon as Chief Justice’ (1952) 85 CLR, xiv.
+
+(Australian Communist Party v Commonwealth [1951] HCA 5; (1951) 83 CLR 1.) Australian Communist Party v Commonwealth [1951] HCA 5 [http://www.austlii.edu.au/au/cases/cth/HCA/1951/5.html]; (1951) 83 CLR 1. [/cgi-bin/LawCite?cit=%281951%29%2083%20CLR%201]
+
+(Dominique Dalla-Pozza and Greg Weeks, ‘A Statutory Shield of the Executive: To What Extent Does Legislation Help Administrative Action Evade Judicial Scrutiny?’ in Boughey and Burton Crawford (n 2) ch 12.) Dominique Dalla-Pozza and Greg Weeks, ‘A Statutory Shield of the Executive: To What Extent Does Legislation Help Administrative Action Evade Judicial Scrutiny?’ in Boughey and Burton Crawford (n 2) ch 12.
+
+(Peta Stephenson, ‘Statutory Displacement of the Prerogative in Australia’ in Boughey and Burton Crawford (n 2) ch 13.) Peta Stephenson, ‘Statutory Displacement of the Prerogative in Australia’ in Boughey and Burton Crawford (n 2) ch 13.
+
+(Amanda Sapienza, ‘Interpreting the Limits of Non-Statutory Executive Action: What Role for Grounds of Judicial Review?’ in Boughey and Burton Crawford (n 2) ch 14.) Amanda Sapienza, ‘Interpreting the Limits of Non-Statutory Executive Action: What Role for Grounds of Judicial Review?’ in Boughey and Burton Crawford (n 2) ch 14.
+
+(Anna Huggins, ‘Executive Power in the Digital Age: Automation, Statutory Interpretation and Administrative Law’ in Boughey and Burton Crawford (n 2) ch 8.) Anna Huggins, ‘Executive Power in the Digital Age: Automation, Statutory Interpretation and Administrative Law’ in Boughey and Burton Crawford (n 2) ch 8.
+
+(Nick Seddon, ‘Statutory Backing of Commonwealth Government Contracts’ in Boughey and Burton Crawford (n 2) ch 11.) Nick Seddon, ‘Statutory Backing of Commonwealth Government Contracts’ in Boughey and Burton Crawford (n 2) ch 11.
+
+
+
+AustLII: Copyright Policy [/austlii/copyright.html] | Disclaimers [/austlii/disclaimers.html] | Privacy Policy [/austlii/privacy.html] | Feedback [/austlii/feedback.html]
+URL: http://www.austlii.edu.au/au/journals/SydLawRw/2020/20.html
