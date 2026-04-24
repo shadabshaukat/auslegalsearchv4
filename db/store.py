@@ -1110,57 +1110,58 @@ def bulk_upsert_file_chunks_opensearch(
     preview_chars = _os_int("OPENSEARCH_EMBED_TEXT_PREVIEW_CHARS", 0)
     refresh_on_write = _os_bool("OPENSEARCH_REFRESH_ON_WRITE", False)
 
-    actions = []
-    for i, chunk in enumerate(chunks):
-        abs_i = int(chunk_start_index) + int(i)
-        text_body = chunk.get("text", "")
-        md = _sanitize_chunk_metadata_for_os(chunk.get("chunk_metadata") or {})
-        if _os_bool("OPENSEARCH_DROP_METADATA", False):
-            md = None
+    def _iter_actions():
+        """Yield bulk actions lazily to avoid large in-memory action lists."""
+        for i, chunk in enumerate(chunks):
+            abs_i = int(chunk_start_index) + int(i)
+            text_body = chunk.get("text", "")
+            md = _sanitize_chunk_metadata_for_os(chunk.get("chunk_metadata") or {})
+            if _os_bool("OPENSEARCH_DROP_METADATA", False):
+                md = None
 
-        doc_key = _chunk_doc_key(source_path, abs_i, text_body)
-        doc_id = _stable_int_id("doc:" + doc_key)
-        emb_key = hashlib.sha1(f"{doc_key}|{abs_i}".encode("utf-8")).hexdigest()
-        emb_id = _stable_int_id("emb:" + emb_key)
+            doc_key = _chunk_doc_key(source_path, abs_i, text_body)
+            doc_id = _stable_int_id("doc:" + doc_key)
+            emb_key = hashlib.sha1(f"{doc_key}|{abs_i}".encode("utf-8")).hexdigest()
+            emb_id = _stable_int_id("emb:" + emb_key)
 
-        actions.append({
-            "_op_type": "index",
-            "_index": docs_idx,
-            "_id": str(doc_key),
-            "_source": {
+            yield {
+                "_op_type": "index",
+                "_index": docs_idx,
+                "_id": str(doc_key),
+                "_source": {
+                    "doc_id": int(doc_id),
+                    "doc_key": doc_key,
+                    "chunk_index": abs_i,
+                    "source": source_path,
+                    "content": text_body,
+                    "format": fmt,
+                    "created_at": _os_now(),
+                },
+            }
+
+            emb_src = {
+                "embedding_id": int(emb_id),
+                "embedding_key": emb_key,
                 "doc_id": int(doc_id),
                 "doc_key": doc_key,
                 "chunk_index": abs_i,
+                "vector": list(vectors[i]),
+                "chunk_metadata": md,
+                "chunk_metadata_text": json.dumps(md or {}, ensure_ascii=False),
                 "source": source_path,
-                "content": text_body,
                 "format": fmt,
-                "created_at": _os_now(),
-            },
-        })
+            }
+            if store_text:
+                emb_src["text"] = text_body
+            elif preview_chars > 0 and text_body:
+                emb_src["text_preview"] = text_body[:preview_chars]
 
-        emb_src = {
-            "embedding_id": int(emb_id),
-            "embedding_key": emb_key,
-            "doc_id": int(doc_id),
-            "doc_key": doc_key,
-            "chunk_index": abs_i,
-            "vector": list(vectors[i]),
-            "chunk_metadata": md,
-            "chunk_metadata_text": json.dumps(md or {}, ensure_ascii=False),
-            "source": source_path,
-            "format": fmt,
-        }
-        if store_text:
-            emb_src["text"] = text_body
-        elif preview_chars > 0 and text_body:
-            emb_src["text_preview"] = text_body[:preview_chars]
-
-        actions.append({
-            "_op_type": "index",
-            "_index": embs_idx,
-            "_id": str(emb_key),
-            "_source": emb_src,
-        })
+            yield {
+                "_op_type": "index",
+                "_index": embs_idx,
+                "_id": str(emb_key),
+                "_source": emb_src,
+            }
 
     def _extract_error_reason(item: Any) -> str:
         """Best-effort extraction of OpenSearch bulk item error reason."""
@@ -1192,9 +1193,10 @@ def bulk_upsert_file_chunks_opensearch(
             errors_count = 0
             sample_errors: List[str] = []
             if bulk_concurrency > 1:
+                actions_iter = _iter_actions()
                 for ok, item in parallel_bulk(
                     client,
-                    actions,
+                    actions_iter,
                     thread_count=bulk_concurrency,
                     queue_size=bulk_queue_size,
                     chunk_size=bulk_chunk_size,
@@ -1209,9 +1211,10 @@ def bulk_upsert_file_chunks_opensearch(
                         if len(sample_errors) < 8:
                             sample_errors.append(_extract_error_reason(item))
             else:
+                actions_iter = _iter_actions()
                 _, errors = bulk(
                     client,
-                    actions,
+                    actions_iter,
                     chunk_size=bulk_chunk_size,
                     max_chunk_bytes=bulk_max_bytes,
                     refresh=refresh_on_write,

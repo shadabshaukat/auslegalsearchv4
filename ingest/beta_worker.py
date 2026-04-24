@@ -447,6 +447,174 @@ class _RuntimeGovernor:
                 )
 
 
+def _cuda_memory_utilization() -> Optional[float]:
+    """Best-effort CUDA memory utilization ratio in [0,1], else None."""
+    try:
+        import torch  # type: ignore
+        if not torch.cuda.is_available():
+            return None
+        free_b, total_b = torch.cuda.mem_get_info()
+        if total_b <= 0:
+            return None
+        used_b = float(total_b - free_b)
+        return max(0.0, min(1.0, used_b / float(total_b)))
+    except Exception:
+        return None
+
+
+class _AutopilotTuner:
+    """
+    P2 autopilot tuner:
+      - adaptive embed batch size (GPU memory + OOM + index backpressure aware)
+      - adaptive pipeline prefetch depth (starvation/backpressure aware)
+    """
+    def __init__(self):
+        self.enabled = _truthy(os.environ.get("AUSLEGALSEARCH_AUTOPILOT_ENABLE", "1"))
+        self.adjust_every = max(1, int(os.environ.get("AUSLEGALSEARCH_AUTOPILOT_ADJUST_EVERY_WINDOWS", "3")))
+
+        env_batch = int(os.environ.get("AUSLEGALSEARCH_EMBED_BATCH", "64"))
+        env_prefetch = int(os.environ.get("AUSLEGALSEARCH_PIPELINE_PREFETCH", str(PIPELINE_PREFETCH)))
+
+        self.min_batch = max(4, int(os.environ.get("AUSLEGALSEARCH_AUTOPILOT_EMBED_BATCH_MIN", "16")))
+        self.max_batch = max(self.min_batch, int(os.environ.get("AUSLEGALSEARCH_AUTOPILOT_EMBED_BATCH_MAX", str(max(128, env_batch)))))
+
+        self.min_prefetch = max(1, int(os.environ.get("AUSLEGALSEARCH_AUTOPILOT_PREFETCH_MIN", "8")))
+        self.max_prefetch = max(self.min_prefetch, int(os.environ.get("AUSLEGALSEARCH_AUTOPILOT_PREFETCH_MAX", str(max(64, env_prefetch)))))
+
+        self.slow_index_ms = max(1000, int(os.environ.get("AUSLEGALSEARCH_AUTOPILOT_SLOW_INDEX_MS", "45000")))
+        self.fast_index_ms = max(500, int(os.environ.get("AUSLEGALSEARCH_AUTOPILOT_FAST_INDEX_MS", "15000")))
+        self.gpu_mem_high = float(os.environ.get("AUSLEGALSEARCH_AUTOPILOT_GPU_MEM_HIGH", "0.92"))
+        self.gpu_mem_low = float(os.environ.get("AUSLEGALSEARCH_AUTOPILOT_GPU_MEM_LOW", "0.65"))
+
+        self.cur_batch = max(self.min_batch, min(self.max_batch, env_batch))
+        self.cur_prefetch = max(self.min_prefetch, min(self.max_prefetch, env_prefetch))
+
+        self._windows_seen = 0
+        self._last_adjust_at = -10_000
+        self._good_streak = 0
+        self._bad_streak = 0
+
+    def initialize(self, session_name: str) -> None:
+        if not self.enabled:
+            return
+        os.environ["AUSLEGALSEARCH_EMBED_BATCH"] = str(self.cur_batch)
+        os.environ["AUSLEGALSEARCH_PIPELINE_PREFETCH"] = str(self.cur_prefetch)
+        print(
+            f"[beta_worker/opensearch] {session_name}: autopilot enabled "
+            f"embed_batch={self.cur_batch} prefetch={self.cur_prefetch}",
+            flush=True,
+        )
+
+    def _can_adjust(self) -> bool:
+        return (self._windows_seen - self._last_adjust_at) >= self.adjust_every
+
+    def batch_size(self, fallback: int) -> int:
+        if not self.enabled:
+            return int(fallback)
+        return max(self.min_batch, min(self.max_batch, int(self.cur_batch)))
+
+    def prefetch(self, fallback: int) -> int:
+        if not self.enabled:
+            return int(fallback)
+        return max(self.min_prefetch, min(self.max_prefetch, int(self.cur_prefetch)))
+
+    def observe_window(
+        self,
+        *,
+        session_name: str,
+        success: bool,
+        embed_ms: int,
+        index_ms: int,
+        oom_count: int,
+        gpu_mem_ratio: Optional[float],
+    ) -> None:
+        if not self.enabled:
+            return
+
+        self._windows_seen += 1
+        gpu_high = (gpu_mem_ratio is not None and gpu_mem_ratio >= self.gpu_mem_high)
+        gpu_low = (gpu_mem_ratio is not None and gpu_mem_ratio <= self.gpu_mem_low)
+        backpressure = (not success) or (index_ms >= self.slow_index_ms)
+
+        bad = backpressure or oom_count > 0 or gpu_high
+        good = success and oom_count == 0 and index_ms <= self.fast_index_ms and (gpu_mem_ratio is None or gpu_low)
+
+        if bad:
+            self._bad_streak += 1
+            self._good_streak = 0
+            if self._can_adjust():
+                old_batch = self.cur_batch
+                if oom_count > 0 or gpu_high:
+                    self.cur_batch = max(self.min_batch, int(self.cur_batch * 0.80))
+                else:
+                    self.cur_batch = max(self.min_batch, int(self.cur_batch * 0.90))
+                if self.cur_batch != old_batch:
+                    os.environ["AUSLEGALSEARCH_EMBED_BATCH"] = str(self.cur_batch)
+                    self._last_adjust_at = self._windows_seen
+                    print(
+                        f"[beta_worker/opensearch] {session_name}: autopilot step-down embed_batch {old_batch}->{self.cur_batch} "
+                        f"(oom={oom_count}, gpu_mem={gpu_mem_ratio}, index_ms={index_ms}, embed_ms={embed_ms})",
+                        flush=True,
+                    )
+            return
+
+        if good:
+            self._good_streak += 1
+            self._bad_streak = 0
+            if self._good_streak >= 3 and self._can_adjust():
+                old_batch = self.cur_batch
+                self.cur_batch = min(self.max_batch, max(self.min_batch, int(round(self.cur_batch * 1.10))))
+                if self.cur_batch != old_batch:
+                    os.environ["AUSLEGALSEARCH_EMBED_BATCH"] = str(self.cur_batch)
+                    self._last_adjust_at = self._windows_seen
+                    self._good_streak = 0
+                    print(
+                        f"[beta_worker/opensearch] {session_name}: autopilot step-up embed_batch {old_batch}->{self.cur_batch} "
+                        f"(gpu_mem={gpu_mem_ratio}, index_ms={index_ms}, embed_ms={embed_ms})",
+                        flush=True,
+                    )
+
+    def observe_prefetch(
+        self,
+        *,
+        session_name: str,
+        inflight_depth: int,
+        index_ms: int,
+        success: bool,
+    ) -> None:
+        if not self.enabled:
+            return
+        if not self._can_adjust():
+            return
+
+        # If producer is starving consumer and index isn't backpressured, raise prefetch.
+        if inflight_depth <= 1 and success and index_ms <= self.fast_index_ms:
+            old = self.cur_prefetch
+            self.cur_prefetch = min(self.max_prefetch, max(self.min_prefetch, int(round(self.cur_prefetch * 1.15))))
+            if self.cur_prefetch != old:
+                os.environ["AUSLEGALSEARCH_PIPELINE_PREFETCH"] = str(self.cur_prefetch)
+                self._last_adjust_at = self._windows_seen
+                print(
+                    f"[beta_worker/opensearch] {session_name}: autopilot step-up prefetch {old}->{self.cur_prefetch} "
+                    f"(inflight={inflight_depth}, index_ms={index_ms})",
+                    flush=True,
+                )
+            return
+
+        # If index is slow/failing and queue is already deep, lower prefetch.
+        if (not success or index_ms >= self.slow_index_ms) and inflight_depth >= max(2, int(self.cur_prefetch * 0.8)):
+            old = self.cur_prefetch
+            self.cur_prefetch = max(self.min_prefetch, int(self.cur_prefetch * 0.85))
+            if self.cur_prefetch != old:
+                os.environ["AUSLEGALSEARCH_PIPELINE_PREFETCH"] = str(self.cur_prefetch)
+                self._last_adjust_at = self._windows_seen
+                print(
+                    f"[beta_worker/opensearch] {session_name}: autopilot step-down prefetch {old}->{self.cur_prefetch} "
+                    f"(inflight={inflight_depth}, index_ms={index_ms}, success={success})",
+                    flush=True,
+                )
+
+
 def _completed_from_success_logs(log_dir: str) -> set:
     completed = set()
     try:
@@ -717,7 +885,12 @@ def _maybe_print_counts(dbs, session_name: str, label: str) -> None:
         print(f"[beta_worker] {session_name}: DB counts {label}: error: {e}", flush=True)
 
 
-def _embed_in_batches(embedder: Embedder, texts: List[str], batch_size: int) -> List:
+def _embed_in_batches(
+    embedder: Embedder,
+    texts: List[str],
+    batch_size: int,
+    telemetry: Optional[Dict[str, Any]] = None,
+) -> List:
     """
     Embed texts in smaller batches with adaptive backoff to avoid GPU OOM.
     Returns a list-like of vectors aligned with texts.
@@ -728,6 +901,7 @@ def _embed_in_batches(embedder: Embedder, texts: List[str], batch_size: int) -> 
     i = 0
     cur_bs = int(batch_size)
     n = len(texts)
+    oom_count = 0
     while i < n:
         sub = texts[i:i + cur_bs]
         try:
@@ -746,6 +920,7 @@ def _embed_in_batches(embedder: Embedder, texts: List[str], batch_size: int) -> 
             msg = str(e).lower()
             if "out of memory" in msg or "cuda" in msg and "memory" in msg:
                 # Adaptive backoff on OOM
+                oom_count += 1
                 next_bs = max(1, cur_bs // 2)
                 if next_bs == cur_bs:
                     # Already at 1; re-raise
@@ -757,6 +932,8 @@ def _embed_in_batches(embedder: Embedder, texts: List[str], batch_size: int) -> 
             else:
                 # Non-OOM error: propagate
                 raise
+    if telemetry is not None:
+        telemetry["oom_count"] = int(oom_count)
     return all_vecs
 
 
@@ -795,6 +972,7 @@ def _embed_and_index_file_chunks_opensearch(
     batch_size: int,
     insert_retries: int,
     governor: Optional[_RuntimeGovernor] = None,
+    autopilot: Optional[_AutopilotTuner] = None,
     session_name: str = "",
 ) -> (int, int, int):
     """
@@ -817,9 +995,14 @@ def _embed_and_index_file_chunks_opensearch(
         texts = [c.get("text", "") for c in sub_chunks]
 
         t2 = time.time()
+        embed_telemetry: Dict[str, Any] = {}
+        eff_batch_size = autopilot.batch_size(batch_size) if autopilot else batch_size
         with _deadline(EMBED_BATCH_TIMEOUT):
-            sub_vecs = _embed_in_batches(embedder, texts, batch_size=batch_size)
-        embed_ms_total += int((time.time() - t2) * 1000)
+            sub_vecs = _embed_in_batches(embedder, texts, batch_size=eff_batch_size, telemetry=embed_telemetry)
+        win_embed_ms = int((time.time() - t2) * 1000)
+        embed_ms_total += win_embed_ms
+        oom_count = int(embed_telemetry.get("oom_count") or 0)
+        gpu_mem_ratio = _cuda_memory_utilization()
 
         # IMPORTANT: avoid retry multiplication.
         # bulk_upsert_file_chunks_opensearch already performs internal retries,
@@ -840,10 +1023,28 @@ def _embed_and_index_file_chunks_opensearch(
             index_ms_total += win_index_ms
             if governor is not None:
                 governor.observe_window(session_name=session_name, success=True, index_ms=win_index_ms)
+            if autopilot is not None:
+                autopilot.observe_window(
+                    session_name=session_name,
+                    success=True,
+                    embed_ms=win_embed_ms,
+                    index_ms=win_index_ms,
+                    oom_count=oom_count,
+                    gpu_mem_ratio=gpu_mem_ratio,
+                )
         except Exception as e:
             win_index_ms = int((time.time() - t3) * 1000)
             if governor is not None:
                 governor.observe_window(session_name=session_name, success=False, index_ms=win_index_ms, error_text=str(e))
+            if autopilot is not None:
+                autopilot.observe_window(
+                    session_name=session_name,
+                    success=False,
+                    embed_ms=win_embed_ms,
+                    index_ms=win_index_ms,
+                    oom_count=oom_count,
+                    gpu_mem_ratio=gpu_mem_ratio,
+                )
             raise
 
         inserted_total += inserted_win
@@ -1965,6 +2166,8 @@ def run_worker_opensearch(
     failures: List[str] = []
     governor = _RuntimeGovernor()
     governor.initialize(session_name)
+    autopilot = _AutopilotTuner()
+    autopilot.initialize(session_name)
     state = _OpenSearchIngestState(enabled=_truthy(os.environ.get("OS_INGEST_STATE_ENABLE")) and not _throughput_mode_enabled())
     state.upsert(f"{session_name}::summary", {
         "type": "session",
@@ -2082,6 +2285,7 @@ def run_worker_opensearch(
                 batch_size=batch_size,
                 insert_retries=insert_retries,
                 governor=governor,
+                autopilot=autopilot,
                 session_name=session_name,
             )
 
@@ -2215,6 +2419,8 @@ def run_worker_opensearch_pipelined(
     failures: List[str] = []
     governor = _RuntimeGovernor()
     governor.initialize(session_name)
+    autopilot = _AutopilotTuner()
+    autopilot.initialize(session_name)
     state = _OpenSearchIngestState(enabled=_truthy(os.environ.get("OS_INGEST_STATE_ENABLE")) and not _throughput_mode_enabled())
     state.upsert(f"{session_name}::summary", {
         "type": "session",
@@ -2239,7 +2445,8 @@ def run_worker_opensearch_pipelined(
 
         def _submit_next():
             nonlocal submitted
-            while len(inflight) < PIPELINE_PREFETCH:
+            target_prefetch = autopilot.prefetch(PIPELINE_PREFETCH)
+            while len(inflight) < target_prefetch:
                 try:
                     fp = next(file_iter)
                 except StopIteration:
@@ -2375,7 +2582,15 @@ def run_worker_opensearch_pipelined(
                         batch_size=batch_size,
                         insert_retries=insert_retries,
                         governor=governor,
+                        autopilot=autopilot,
                         session_name=session_name,
+                    )
+
+                    autopilot.observe_prefetch(
+                        session_name=session_name,
+                        inflight_depth=len(inflight),
+                        index_ms=int(index_ms or 0),
+                        success=True,
                     )
 
                     processed_chunks += inserted
@@ -2440,6 +2655,12 @@ def run_worker_opensearch_pipelined(
                         "embed_ms": embed_ms, "index_ms": index_ms,
                     })
                     print(f"[beta_worker/opensearch] FAILED {done_count}/{total_files} -> {fp}: {e}", flush=True)
+                    autopilot.observe_prefetch(
+                        session_name=session_name,
+                        inflight_depth=len(inflight),
+                        index_ms=int(index_ms or autopilot.slow_index_ms),
+                        success=False,
+                    )
 
                 break
 

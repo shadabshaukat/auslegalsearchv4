@@ -24,6 +24,7 @@ import numpy as np
 import os
 import warnings
 from pathlib import Path
+from contextlib import nullcontext
 
 # Try to import SentenceTransformers for ST-native models
 try:
@@ -111,6 +112,8 @@ class Embedder:
         self._st_model = None
         self._hf_model = None
         self._hf_tokenizer = None
+        self._hf_device = "cpu"
+        self._hf_use_autocast = False
         self.dimension = None
 
         # Determine if we should pass trust_remote_code to ST loader
@@ -189,6 +192,21 @@ class Embedder:
                     revision=rev,
                     local_files_only=cand_local_only,
                 )
+                # Prefer CUDA for HF fallback inference unless explicitly disabled.
+                use_cuda = os.environ.get("AUSLEGALSEARCH_EMBED_USE_CUDA", "1") == "1"
+                if use_cuda:
+                    try:
+                        import torch  # type: ignore
+                        if torch.cuda.is_available():
+                            self._hf_device = "cuda"
+                    except Exception:
+                        self._hf_device = "cpu"
+                self._hf_model = self._hf_model.to(self._hf_device)
+                self._hf_model.eval()
+                self._hf_use_autocast = (
+                    self._hf_device == "cuda"
+                    and os.environ.get("AUSLEGALSEARCH_EMBED_AMP", "1") == "1"
+                )
                 hidden = getattr(self._hf_model.config, "hidden_size", None)
                 if hidden is None:
                     raise ValueError("HF model has no 'hidden_size' in config")
@@ -232,7 +250,11 @@ class Embedder:
                 max_length=max_len,
                 return_tensors="pt"
             )
-            outputs = self._hf_model(**toks)  # type: ignore
+            if self._hf_device != "cpu":
+                toks = {k: v.to(self._hf_device) for k, v in toks.items()}
+            amp_ctx = torch.autocast(device_type="cuda", dtype=torch.float16) if self._hf_use_autocast else nullcontext()
+            with amp_ctx:
+                outputs = self._hf_model(**toks)  # type: ignore
             last_hidden = outputs.last_hidden_state  # [B, T, H]
             mask = toks["attention_mask"].unsqueeze(-1).type_as(last_hidden)  # [B, T, 1]
             # Mean pooling
