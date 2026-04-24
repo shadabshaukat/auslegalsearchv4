@@ -122,7 +122,7 @@ class Embedder:
             trust_remote = True
         # Optional: pin revision and run offline from local cache
         rev = os.environ.get("AUSLEGALSEARCH_EMBED_REV", None)
-        local_only = os.environ.get("AUSLEGALSEARCH_HF_LOCAL_ONLY", "0") == "1"
+        env_local_only = os.environ.get("AUSLEGALSEARCH_HF_LOCAL_ONLY", "0") == "1"
 
         candidates = _model_candidates(resolved)
 
@@ -131,10 +131,11 @@ class Embedder:
         if SentenceTransformer is not None:
             for cand in candidates:
                 try:
+                    cand_local_only = env_local_only or Path(str(cand)).exists()
                     st_kwargs = {"trust_remote_code": trust_remote}
                     if rev:
                         st_kwargs["revision"] = rev
-                    if local_only:
+                    if cand_local_only:
                         st_kwargs["local_files_only"] = True
                     try:
                         self._st_model = SentenceTransformer(cand, **st_kwargs)
@@ -171,21 +172,22 @@ class Embedder:
         _ensure_hf_imports()
         candidates = model_name if isinstance(model_name, list) else [str(model_name)]
         rev = os.environ.get("AUSLEGALSEARCH_EMBED_REV", None)
-        local_only = os.environ.get("AUSLEGALSEARCH_HF_LOCAL_ONLY", "0") == "1"
+        env_local_only = os.environ.get("AUSLEGALSEARCH_HF_LOCAL_ONLY", "0") == "1"
         errs = []
         for cand in candidates:
             try:
+                cand_local_only = env_local_only or Path(str(cand)).exists()
                 self._hf_tokenizer = AutoTokenizer.from_pretrained(
                     cand,
                     trust_remote_code=trust_remote,
                     revision=rev,
-                    local_files_only=local_only,
+                    local_files_only=cand_local_only,
                 )
                 self._hf_model = AutoModel.from_pretrained(
                     cand,
                     trust_remote_code=trust_remote,
                     revision=rev,
-                    local_files_only=local_only,
+                    local_files_only=cand_local_only,
                 )
                 hidden = getattr(self._hf_model.config, "hidden_size", None)
                 if hidden is None:

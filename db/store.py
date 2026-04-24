@@ -171,6 +171,26 @@ def _sanitize_chunk_metadata_for_os(md: Any) -> Optional[Dict[str, Any]]:
                 sv = str(v)[:500]
         else:
             sv = str(v)[:500]
+
+        # Type-stabilize known fields that are prone to mapping conflicts.
+        # Example seen in production: chunk_metadata.year mapped as long, then
+        # non-numeric tokens like "LAW" / "(NSW" cause parse failures.
+        if sk.lower() == "year":
+            if sv is None:
+                continue
+            if isinstance(sv, bool):
+                continue
+            try:
+                if isinstance(sv, str):
+                    m = re.search(r"\b(18|19|20)\d{2}\b", sv)
+                    if not m:
+                        continue
+                    sv = int(m.group(0))
+                else:
+                    sv = int(sv)
+            except Exception:
+                continue
+
         out[sk] = sv
 
     return out or None

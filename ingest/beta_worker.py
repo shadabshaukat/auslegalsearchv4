@@ -614,9 +614,11 @@ def _embed_in_batches(embedder: Embedder, texts: List[str], batch_size: int) -> 
         try:
             with _deadline(EMBED_BATCH_TIMEOUT):
                 vecs = embedder.embed(sub)  # ndarray [batch, dim]
-            # Extend list with each row (so downstream indexing works)
-            for j in range(vecs.shape[0]):
-                all_vecs.append(vecs[j])
+            # Faster extend path for ndarray/list outputs.
+            if hasattr(vecs, "tolist"):
+                all_vecs.extend(vecs.tolist())
+            else:
+                all_vecs.extend(list(vecs))
             i += cur_bs
             # Optional: try to grow batch again if it was reduced before (conservative)
             if cur_bs < batch_size:
@@ -653,7 +655,9 @@ def _resolve_os_stream_flush_size(total_chunks: int) -> int:
     if cfg > 0:
         return max(1, cfg)
     if _throughput_mode_enabled():
-        return 1200
+        # Larger default window improves bulk throughput by reducing per-window
+        # OpenSearch request overhead for large files.
+        return 4000
     return max(1, int(total_chunks or 1))
 
 
@@ -688,26 +692,21 @@ def _embed_and_index_file_chunks_opensearch(
             sub_vecs = _embed_in_batches(embedder, texts, batch_size=batch_size)
         embed_ms_total += int((time.time() - t2) * 1000)
 
-        inserted_win = 0
-        for attempt in range(max(1, insert_retries)):
-            try:
-                t3 = time.time()
-                with _deadline(INSERT_TIMEOUT):
-                    inserted_win = bulk_upsert_file_chunks_opensearch(
-                        source_path=source_path,
-                        fmt=fmt,
-                        chunks=sub_chunks,
-                        vectors=sub_vecs,
-                        max_retries=max(1, insert_retries),
-                        chunk_start_index=start,
-                    )
-                index_ms_total += int((time.time() - t3) * 1000)
-                break
-            except Exception:
-                if attempt + 1 < max(1, insert_retries):
-                    time.sleep(min(8, 2 ** attempt))
-                else:
-                    raise
+        # IMPORTANT: avoid retry multiplication.
+        # bulk_upsert_file_chunks_opensearch already performs internal retries,
+        # so do not wrap it in another external retry loop.
+        t3 = time.time()
+        per_window_deadline = max(INSERT_TIMEOUT, INSERT_TIMEOUT * max(1, insert_retries))
+        with _deadline(per_window_deadline):
+            inserted_win = bulk_upsert_file_chunks_opensearch(
+                source_path=source_path,
+                fmt=fmt,
+                chunks=sub_chunks,
+                vectors=sub_vecs,
+                max_retries=max(1, insert_retries),
+                chunk_start_index=start,
+            )
+        index_ms_total += int((time.time() - t3) * 1000)
 
         inserted_total += inserted_win
 
