@@ -328,6 +328,125 @@ def _throughput_mode_enabled() -> bool:
     return _truthy(os.environ.get("AUSLEGALSEARCH_MAX_THROUGHPUT_MODE", "0"))
 
 
+class _RuntimeGovernor:
+    """
+    Conservative runtime governor for OpenSearch bulk ingest parameters.
+    Dynamically tunes with bounded, gradual changes.
+    """
+    def __init__(self):
+        self.enabled = _truthy(os.environ.get("AUSLEGALSEARCH_GOVERNOR_ENABLE", "1"))
+        self.cooldown_windows = max(1, int(os.environ.get("AUSLEGALSEARCH_GOVERNOR_COOLDOWN_WINDOWS", "3")))
+        self.slow_index_ms = max(1000, int(os.environ.get("AUSLEGALSEARCH_GOVERNOR_SLOW_INDEX_MS", "45000")))
+
+        env_conc = int(os.environ.get("OPENSEARCH_BULK_CONCURRENCY", "4"))
+        env_chunk = int(os.environ.get("OPENSEARCH_BULK_CHUNK_SIZE", "1000"))
+        env_window = int(os.environ.get("AUSLEGALSEARCH_OS_STREAM_CHUNK_FLUSH_SIZE", "0"))
+
+        self.min_conc = max(1, int(os.environ.get("AUSLEGALSEARCH_GOVERNOR_MIN_CONCURRENCY", "2")))
+        self.max_conc = max(self.min_conc, int(os.environ.get("AUSLEGALSEARCH_GOVERNOR_MAX_CONCURRENCY", str(max(env_conc, 8)))))
+
+        self.min_chunk = max(100, int(os.environ.get("AUSLEGALSEARCH_GOVERNOR_MIN_BULK_CHUNK_SIZE", "500")))
+        self.max_chunk = max(self.min_chunk, int(os.environ.get("AUSLEGALSEARCH_GOVERNOR_MAX_BULK_CHUNK_SIZE", str(max(env_chunk, 2000)))))
+
+        self.min_window = max(200, int(os.environ.get("AUSLEGALSEARCH_GOVERNOR_MIN_WINDOW_SIZE", "800")))
+        self.max_window = max(self.min_window, int(os.environ.get("AUSLEGALSEARCH_GOVERNOR_MAX_WINDOW_SIZE", "4000")))
+
+        self.cur_conc = max(self.min_conc, min(self.max_conc, env_conc))
+        self.cur_chunk = max(self.min_chunk, min(self.max_chunk, env_chunk))
+        if env_window > 0:
+            self.cur_window = max(self.min_window, min(self.max_window, env_window))
+        else:
+            self.cur_window = 0  # 0 = auto adaptive resolver
+
+        self._windows_seen = 0
+        self._last_adjust_at = -10_000
+        self._good_streak = 0
+        self._bad_streak = 0
+
+    def _apply_env(self) -> None:
+        os.environ["OPENSEARCH_BULK_CONCURRENCY"] = str(self.cur_conc)
+        os.environ["OPENSEARCH_BULK_CHUNK_SIZE"] = str(self.cur_chunk)
+        if self.cur_window > 0:
+            os.environ["AUSLEGALSEARCH_OS_STREAM_CHUNK_FLUSH_SIZE"] = str(self.cur_window)
+
+    def initialize(self, session_name: str) -> None:
+        if not self.enabled:
+            return
+        self._apply_env()
+        print(
+            f"[beta_worker/opensearch] {session_name}: governor enabled conc={self.cur_conc} "
+            f"bulk_chunk={self.cur_chunk} window={'auto' if self.cur_window == 0 else self.cur_window}",
+            flush=True,
+        )
+
+    def _can_adjust(self) -> bool:
+        return (self._windows_seen - self._last_adjust_at) >= self.cooldown_windows
+
+    def _step_down(self, severe: bool = False) -> bool:
+        f = 0.70 if severe else 0.85
+        new_conc = max(self.min_conc, int(self.cur_conc * f))
+        new_chunk = max(self.min_chunk, int(self.cur_chunk * f))
+        if self.cur_window <= 0:
+            # enter explicit conservative window control
+            new_window = max(self.min_window, 2500)
+        else:
+            new_window = max(self.min_window, int(self.cur_window * f))
+
+        changed = (new_conc != self.cur_conc) or (new_chunk != self.cur_chunk) or (new_window != self.cur_window)
+        self.cur_conc, self.cur_chunk, self.cur_window = new_conc, new_chunk, new_window
+        return changed
+
+    def _step_up(self) -> bool:
+        f = 1.10
+        new_conc = min(self.max_conc, max(self.min_conc, int(round(self.cur_conc * f))))
+        new_chunk = min(self.max_chunk, max(self.min_chunk, int(round(self.cur_chunk * f))))
+        if self.cur_window <= 0:
+            new_window = 0
+        else:
+            new_window = min(self.max_window, max(self.min_window, int(round(self.cur_window * f))))
+
+        changed = (new_conc != self.cur_conc) or (new_chunk != self.cur_chunk) or (new_window != self.cur_window)
+        self.cur_conc, self.cur_chunk, self.cur_window = new_conc, new_chunk, new_window
+        return changed
+
+    def observe_window(self, *, session_name: str, success: bool, index_ms: int, error_text: Optional[str] = None) -> None:
+        if not self.enabled:
+            return
+        self._windows_seen += 1
+
+        et = (error_text or "").lower()
+        severe = any(k in et for k in ["429", "too many requests", "rejected_execution_exception", "timed out", "timeout"])
+        bad = (not success) or (index_ms >= self.slow_index_ms)
+
+        if bad:
+            self._bad_streak += 1
+            self._good_streak = 0
+            if self._can_adjust() and (severe or self._bad_streak >= 2):
+                if self._step_down(severe=severe):
+                    self._apply_env()
+                    self._last_adjust_at = self._windows_seen
+                    print(
+                        f"[beta_worker/opensearch] {session_name}: governor step-down "
+                        f"conc={self.cur_conc} bulk_chunk={self.cur_chunk} window={self.cur_window}",
+                        flush=True,
+                    )
+            return
+
+        # Good window
+        self._good_streak += 1
+        self._bad_streak = 0
+        if index_ms <= int(self.slow_index_ms * 0.5) and self._good_streak >= 8 and self._can_adjust():
+            if self._step_up():
+                self._apply_env()
+                self._last_adjust_at = self._windows_seen
+                self._good_streak = 0
+                print(
+                    f"[beta_worker/opensearch] {session_name}: governor step-up "
+                    f"conc={self.cur_conc} bulk_chunk={self.cur_chunk} window={self.cur_window}",
+                    flush=True,
+                )
+
+
 def _completed_from_success_logs(log_dir: str) -> set:
     completed = set()
     try:
@@ -655,8 +774,14 @@ def _resolve_os_stream_flush_size(total_chunks: int) -> int:
     if cfg > 0:
         return max(1, cfg)
     if _throughput_mode_enabled():
-        # Larger default window improves bulk throughput by reducing per-window
-        # OpenSearch request overhead for large files.
+        # Adaptive windows for fairness + throughput:
+        # - very large files use smaller windows to avoid long head-of-line stalls
+        # - medium/normal files use larger windows for better bulk throughput
+        tc = int(total_chunks or 0)
+        if tc >= 30000:
+            return 800
+        if tc >= 10000:
+            return 1600
         return 4000
     return max(1, int(total_chunks or 1))
 
@@ -669,6 +794,8 @@ def _embed_and_index_file_chunks_opensearch(
     file_chunks: List[Dict[str, Any]],
     batch_size: int,
     insert_retries: int,
+    governor: Optional[_RuntimeGovernor] = None,
+    session_name: str = "",
 ) -> (int, int, int):
     """
     Stream file chunks through embed->index windows to reduce memory spikes and
@@ -683,7 +810,9 @@ def _embed_and_index_file_chunks_opensearch(
     embed_ms_total = 0
     index_ms_total = 0
 
-    for start in range(0, len(file_chunks), window_size):
+    total = len(file_chunks)
+    total_windows = (total + window_size - 1) // window_size
+    for widx, start in enumerate(range(0, total, window_size), start=1):
         sub_chunks = file_chunks[start:start + window_size]
         texts = [c.get("text", "") for c in sub_chunks]
 
@@ -697,18 +826,35 @@ def _embed_and_index_file_chunks_opensearch(
         # so do not wrap it in another external retry loop.
         t3 = time.time()
         per_window_deadline = max(INSERT_TIMEOUT, INSERT_TIMEOUT * max(1, insert_retries))
-        with _deadline(per_window_deadline):
-            inserted_win = bulk_upsert_file_chunks_opensearch(
-                source_path=source_path,
-                fmt=fmt,
-                chunks=sub_chunks,
-                vectors=sub_vecs,
-                max_retries=max(1, insert_retries),
-                chunk_start_index=start,
-            )
-        index_ms_total += int((time.time() - t3) * 1000)
+        try:
+            with _deadline(per_window_deadline):
+                inserted_win = bulk_upsert_file_chunks_opensearch(
+                    source_path=source_path,
+                    fmt=fmt,
+                    chunks=sub_chunks,
+                    vectors=sub_vecs,
+                    max_retries=max(1, insert_retries),
+                    chunk_start_index=start,
+                )
+            win_index_ms = int((time.time() - t3) * 1000)
+            index_ms_total += win_index_ms
+            if governor is not None:
+                governor.observe_window(session_name=session_name, success=True, index_ms=win_index_ms)
+        except Exception as e:
+            win_index_ms = int((time.time() - t3) * 1000)
+            if governor is not None:
+                governor.observe_window(session_name=session_name, success=False, index_ms=win_index_ms, error_text=str(e))
+            raise
 
         inserted_total += inserted_win
+
+        # Progress heartbeat for large files/windows (helps distinguish stall vs work).
+        if total_windows > 1 and (widx == 1 or widx == total_windows or widx % 5 == 0):
+            print(
+                f"[beta_worker/opensearch] embed+index progress: {source_path} "
+                f"window={widx}/{total_windows} chunks_done~{min(total, start + len(sub_chunks))}/{total}",
+                flush=True,
+            )
 
     return inserted_total, embed_ms_total, index_ms_total
 
@@ -1817,6 +1963,8 @@ def run_worker_opensearch(
     processed_chunks = 0
     successes: List[str] = []
     failures: List[str] = []
+    governor = _RuntimeGovernor()
+    governor.initialize(session_name)
     state = _OpenSearchIngestState(enabled=_truthy(os.environ.get("OS_INGEST_STATE_ENABLE")) and not _throughput_mode_enabled())
     state.upsert(f"{session_name}::summary", {
         "type": "session",
@@ -1933,6 +2081,8 @@ def run_worker_opensearch(
                 file_chunks=file_chunks,
                 batch_size=batch_size,
                 insert_retries=insert_retries,
+                governor=governor,
+                session_name=session_name,
             )
 
             processed_chunks += inserted
@@ -2063,6 +2213,8 @@ def run_worker_opensearch_pipelined(
     processed_chunks = 0
     successes: List[str] = []
     failures: List[str] = []
+    governor = _RuntimeGovernor()
+    governor.initialize(session_name)
     state = _OpenSearchIngestState(enabled=_truthy(os.environ.get("OS_INGEST_STATE_ENABLE")) and not _throughput_mode_enabled())
     state.upsert(f"{session_name}::summary", {
         "type": "session",
@@ -2222,6 +2374,8 @@ def run_worker_opensearch_pipelined(
                         file_chunks=file_chunks,
                         batch_size=batch_size,
                         insert_retries=insert_retries,
+                        governor=governor,
+                        session_name=session_name,
                     )
 
                     processed_chunks += inserted
