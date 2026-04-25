@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import html
 import json
+import time
 from typing import Any, Dict, List, Tuple
 
 import gradio as gr
@@ -46,18 +47,89 @@ def bootstrap_indexes() -> str:
         return f"bootstrap error: {e}"
 
 
-def ingest_run(root_dir: str, limit_files: int, include_html: bool) -> str:
+def recreate_indexes() -> str:
+    try:
+        r = _api_post("/v2/indexes/recreate", {})
+        data = r.json() if r.ok else {"error": r.text}
+        return json.dumps(data, indent=2)
+    except Exception as e:
+        return f"recreate error: {e}"
+
+
+def _render_ingest_status(data: Dict[str, Any]) -> str:
+    status = str(data.get("status") or "unknown").lower()
+    progress = data.get("progress") or {}
+    total = int(progress.get("total_files") or 0)
+    done = int(progress.get("files_completed") or progress.get("prepared_files") or 0)
+    okf = int(progress.get("ok_files") or 0)
+    failf = int(progress.get("failed_files") or 0)
+    chunks = int(progress.get("indexed_chunks") or 0)
+    edges = int(progress.get("citation_edges") or 0)
+    phase = str(progress.get("phase") or "")
+    pct = int((done / total) * 100) if total > 0 else 0
+
+    badge = {
+        "queued": "🟡 QUEUED",
+        "running": "🔵 RUNNING",
+        "completed": "🟢 COMPLETED",
+        "failed": "🔴 FAILED",
+        "none": "⚪ NONE",
+    }.get(status, status.upper())
+
+    return (
+        f"### Ingestion Job Status: {badge}\n"
+        f"- Job ID: `{data.get('job_id', '-')}`\n"
+        f"- Phase: `{phase or '-'}`\n"
+        f"- Progress: **{done}/{total} ({pct}%)**\n"
+        f"- Files: ok={okf}, failed={failf}\n"
+        f"- Indexed chunks: {chunks}\n"
+        f"- Citation edges: {edges}\n"
+    )
+
+
+def ingest_start(root_dir: str, limit_files: int, include_html: bool) -> Tuple[str, str, str]:
     payload = {
         "root_dir": root_dir,
         "limit_files": None if limit_files <= 0 else int(limit_files),
         "include_html": bool(include_html),
     }
     try:
-        r = _api_post("/v2/ingest/run", payload)
+        r = _api_post("/v2/ingest/start", payload)
         data = r.json() if r.ok else {"error": r.text}
-        return json.dumps(data, indent=2)
+        if "error" in data:
+            return "", "### Ingestion Job Status: 🔴 FAILED\n- Could not start job", json.dumps(data, indent=2)
+        job_id = str(data.get("job_id") or "")
+        status_doc = {"job_id": job_id, "status": data.get("status", "queued")}
+        return job_id, _render_ingest_status(status_doc), json.dumps(status_doc, indent=2)
     except Exception as e:
-        return f"ingest error: {e}"
+        err = {"error": str(e)}
+        return "", "### Ingestion Job Status: 🔴 FAILED\n- Exception while starting job", json.dumps(err, indent=2)
+
+
+def ingest_poll(job_id: str) -> Tuple[str, str]:
+    jid = (job_id or "").strip()
+    if not jid:
+        return "### Ingestion Job Status: ⚪ NONE\n- No active job", ""
+    try:
+        r = _api_get(f"/v2/ingest/status/{jid}")
+        data = r.json() if r.ok else {"job_id": jid, "status": "failed", "error": r.text}
+        return _render_ingest_status(data), json.dumps(data, indent=2)
+    except Exception as e:
+        err = {"job_id": jid, "status": "failed", "error": str(e)}
+        return _render_ingest_status(err), json.dumps(err, indent=2)
+
+
+def ingest_resume_latest() -> Tuple[str, str, str]:
+    try:
+        r = _api_get("/v2/ingest/jobs/latest")
+        data = r.json() if r.ok else {"status": "none", "error": r.text}
+        job_id = str(data.get("job_id") or "")
+        if not job_id:
+            return "", "### Ingestion Job Status: ⚪ NONE\n- No recent job found", json.dumps(data, indent=2)
+        return job_id, _render_ingest_status(data), json.dumps(data, indent=2)
+    except Exception as e:
+        err = {"status": "failed", "error": str(e)}
+        return "", "### Ingestion Job Status: 🔴 FAILED\n- Could not resume latest job", json.dumps(err, indent=2)
 
 
 def _result_cards(results: List[Dict[str, Any]]) -> str:
@@ -150,16 +222,30 @@ def build_ui() -> gr.Blocks:
 
         with gr.Tab("Index Bootstrap"):
             boot_btn = gr.Button("Bootstrap v2 Indexes")
+            recreate_btn = gr.Button("Delete + Recreate ALL v2 Indexes", variant="stop")
             boot_out = gr.Code(label="Bootstrap Output", language="json")
             boot_btn.click(bootstrap_indexes, inputs=[], outputs=[boot_out])
+            recreate_btn.click(recreate_indexes, inputs=[], outputs=[boot_out])
 
         with gr.Tab("Ingestion (from scratch)"):
             root_dir = gr.Textbox(label="Root Directory", placeholder="/abs/path/to/data")
             limit_files = gr.Number(label="Limit Files (0 = no limit)", value=0)
             include_html = gr.Checkbox(label="Include HTML", value=True)
-            ingest_btn = gr.Button("Run v2 Ingestion")
+            ingest_btn = gr.Button("Start Async Ingestion Job")
+            resume_btn = gr.Button("Resume Latest Job")
+            status_btn = gr.Button("Refresh Job Status")
+            ingest_job_id = gr.Textbox(label="Current Job ID", interactive=False)
+            ingest_status_md = gr.Markdown("### Ingestion Job Status: ⚪ NONE")
             ingest_out = gr.Code(label="Ingestion Output", language="json")
-            ingest_btn.click(ingest_run, inputs=[root_dir, limit_files, include_html], outputs=[ingest_out])
+            ingest_btn.click(ingest_start, inputs=[root_dir, limit_files, include_html], outputs=[ingest_job_id, ingest_status_md, ingest_out])
+            resume_btn.click(ingest_resume_latest, inputs=[], outputs=[ingest_job_id, ingest_status_md, ingest_out])
+            status_btn.click(ingest_poll, inputs=[ingest_job_id], outputs=[ingest_status_md, ingest_out])
+
+            poll_interval_s = max(1, int(settings.ingest_status_poll_seconds))
+            ingest_timer = gr.Timer(value=float(poll_interval_s))
+            ingest_timer.tick(ingest_poll, inputs=[ingest_job_id], outputs=[ingest_status_md, ingest_out])
+
+        demo.load(ingest_resume_latest, inputs=[], outputs=[ingest_job_id, ingest_status_md, ingest_out])
 
         with gr.Tab("Search Scenarios"):
             query = gr.Textbox(label="Query", lines=2, placeholder="e.g. Fair Work Act 2009 s 351")

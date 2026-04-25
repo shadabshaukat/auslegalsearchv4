@@ -149,6 +149,15 @@ class V2Settings:
     chunk_target_tokens: int = int(_env("V2_CHUNK_TARGET_TOKENS", "512"))
     chunk_overlap_tokens: int = int(_env("V2_CHUNK_OVERLAP_TOKENS", "64"))
     chunk_max_tokens: int = int(_env("V2_CHUNK_MAX_TOKENS", "640"))
+    chunk_min_sentence_tokens: int = int(_env("V2_CHUNK_MIN_SENTENCE_TOKENS", "8"))
+    chunk_min_chunk_tokens: int = int(_env("V2_CHUNK_MIN_CHUNK_TOKENS", "60"))
+
+    ingest_file_workers: int = int(_env("V2_INGEST_FILE_WORKERS", "4"))
+    ingest_embed_batch: int = int(_env("V2_INGEST_EMBED_BATCH", _env("V2_EMBED_BATCH", "64")))
+    ingest_bulk_chunk_size: int = int(_env("V2_INGEST_BULK_CHUNK_SIZE", "800"))
+    ingest_status_poll_seconds: int = int(_env("V2_INGEST_STATUS_POLL_SECONDS", "2"))
+    ingest_gpu_ids: str = _env("V2_INGEST_GPU_IDS", "")  # e.g. "0,1,2,3"
+    ingest_multigpu_min_texts: int = int(_env("V2_INGEST_MULTIGPU_MIN_TEXTS", "256"))
 
     api_host: str = _env("V2_API_HOST", "0.0.0.0")
     api_port: int = int(_env("V2_API_PORT", "8010"))
