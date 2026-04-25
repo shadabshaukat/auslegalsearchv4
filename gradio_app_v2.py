@@ -186,6 +186,12 @@ def search_run(
     date_from: str,
     date_to: str,
 ) -> Tuple[str, str, str]:
+    jurisdiction = str(jurisdiction or "")
+    database = str(database or "")
+    court = str(court or "")
+    date_from = str(date_from or "")
+    date_to = str(date_to or "")
+
     filters: Dict[str, Any] = {}
     if jurisdiction.strip():
         filters["jurisdiction"] = jurisdiction.strip().lower()
