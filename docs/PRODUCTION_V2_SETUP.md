@@ -36,6 +36,12 @@ cp .env.production_v2.example .env.production_v2
 AUSLEGALSEARCH_V2_ENV_FILE=.env.production_v2 python3 -m uvicorn fastapi_app_v2:app --host 0.0.0.0 --port 8010
 ```
 
+If `uvicorn` is missing in your environment:
+
+```bash
+python3 -m pip install uvicorn
+```
+
 3. Start Gradio v2
 
 ```bash
@@ -46,6 +52,26 @@ AUSLEGALSEARCH_V2_ENV_FILE=.env.production_v2 python3 gradio_app_v2.py
 
 ```bash
 curl -u legal_api:letmein -X POST "http://localhost:8010/v2/indexes/bootstrap"
+```
+
+### Troubleshooting: API tries `localhost:9200` instead of your cluster
+
+Check effective runtime config loaded by API:
+
+```bash
+curl -u legal_api:letmein "http://localhost:8010/v2/config/effective"
+```
+
+Verify:
+- `loaded_env_file` points to your intended `.env.production_v2`
+- `opensearch_host` is your remote OpenSearch endpoint (not `http://localhost:9200`)
+
+Recommended API launch from repo root:
+
+```bash
+cd /home/ubuntu/auslegalsearchv4
+AUSLEGALSEARCH_V2_ENV_FILE=/home/ubuntu/auslegalsearchv4/.env.production_v2 \
+python3 -m uvicorn fastapi_app_v2:app --host 0.0.0.0 --port 8010
 ```
 
 5. Run ingestion from scratch
