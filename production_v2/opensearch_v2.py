@@ -207,3 +207,24 @@ def ensure_indexes() -> Dict[str, str]:
             client.indices.create(index=idx, body=body)
             out[idx] = "created"
     return out
+
+
+def recreate_indexes() -> Dict[str, str]:
+    client = get_client()
+    targets = [
+        settings.index_authorities,
+        settings.index_chunks_lex,
+        settings.index_chunks_vec,
+        settings.index_citation_graph,
+    ]
+    out: Dict[str, str] = {}
+    for idx in targets:
+        if client.indices.exists(index=idx):
+            client.indices.delete(index=idx)
+            out[idx] = "deleted"
+        else:
+            out[idx] = "not_found"
+    created = ensure_indexes()
+    for k, v in created.items():
+        out[k] = f"{out.get(k, 'n/a')} -> {v}"
+    return out

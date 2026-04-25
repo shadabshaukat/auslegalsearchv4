@@ -54,6 +54,12 @@ AUSLEGALSEARCH_V2_ENV_FILE=.env.production_v2 python3 gradio_app_v2.py
 curl -u legal_api:letmein -X POST "http://localhost:8010/v2/indexes/bootstrap"
 ```
 
+Hard reset indexes (delete + recreate):
+
+```bash
+curl -u legal_api:letmein -X POST "http://localhost:8010/v2/indexes/recreate"
+```
+
 ### Troubleshooting: API tries `localhost:9200` instead of your cluster
 
 Check effective runtime config loaded by API:
@@ -120,6 +126,22 @@ curl -u legal_api:letmein -X POST "http://localhost:8010/v2/ingest/run" \
   -d '{"root_dir":"/abs/path/to/Data_for_Beta_Launch","include_html":true}'
 ```
 
+For large corpora, prefer async ingestion endpoints (prevents UI/API timeout):
+
+```bash
+# Start job
+curl -u legal_api:letmein -X POST "http://localhost:8010/v2/ingest/start" \
+  -H 'Content-Type: application/json' \
+  -d '{"root_dir":"/abs/path/to/Data_for_Beta_Launch","include_html":true}'
+
+# Check job status
+curl -u legal_api:letmein "http://localhost:8010/v2/ingest/status/<job_id>"
+
+# List recent jobs / latest job (for resume after UI refresh)
+curl -u legal_api:letmein "http://localhost:8010/v2/ingest/jobs?limit=20"
+curl -u legal_api:letmein "http://localhost:8010/v2/ingest/jobs/latest"
+```
+
 6. Run search
 
 ```bash
@@ -149,3 +171,21 @@ curl -u legal_api:letmein -X POST "http://localhost:8010/v2/search" \
 - RRF fusion combines exact legal signal with semantic recall.
 - Cross-encoder reranker is applied to top candidates (`V2_RERANK_TOP_N`) to improve precision.
 - Citation tracing scenarios include graph-edge enrichment for authority-to-authority traversal support.
+
+## Ingestion performance + quality recommendations (AustLII scale)
+
+- Use async ingestion (`/v2/ingest/start`) for long-running ingest.
+- Start tuning with:
+  - `V2_INGEST_FILE_WORKERS=4` (increase to 6–8 on CPU-rich hosts)
+  - `V2_INGEST_EMBED_BATCH=64` (raise to 96/128 if GPU memory allows)
+  - `V2_INGEST_BULK_CHUNK_SIZE=800` (raise to ~1200 if OpenSearch cluster can absorb)
+- For true multi-GPU embedding sharding:
+  - set `V2_INGEST_GPU_IDS=0,1,2,3` (example)
+  - keep `V2_INGEST_MULTIGPU_MIN_TEXTS=256` (or raise if process spin-up overhead is high)
+- Keep semantic chunking defaults near legal-safe values:
+  - target 512 / overlap 64 / max 640
+  - min sentence 8 / min chunk 60
+- Embeddings for legal accuracy:
+  - Recommended legal-specialized candidate: `maastrichtlawtech/bge-legal-en-v1.5`
+  - Stable baseline: `nomic-ai/nomic-embed-text-v1.5`
+  - Ensure `V2_EMBED_DIM` matches model output dimension before ingest.

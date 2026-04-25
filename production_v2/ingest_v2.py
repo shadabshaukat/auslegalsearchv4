@@ -1,9 +1,12 @@
 from __future__ import annotations
 
 import hashlib
+import os
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Callable, Dict, List, Optional, Tuple
 
 from opensearchpy.helpers import bulk  # type: ignore
 
@@ -129,18 +132,46 @@ def _extract_citation_mentions(text: str) -> List[str]:
     return uniq
 
 
+def _embed_shard_worker(payload: Dict[str, Any]) -> Dict[str, Any]:
+    """Process worker for true multi-GPU sharded embedding."""
+    gpu_id = str(payload.get("gpu_id", "")).strip()
+    model = str(payload.get("model") or settings.embed_model)
+    items: List[Tuple[int, str]] = payload.get("items") or []
+
+    if gpu_id:
+        os.environ["CUDA_VISIBLE_DEVICES"] = gpu_id
+    os.environ["AUSLEGALSEARCH_EMBED_USE_CUDA"] = "1"
+
+    emb = Embedder(model)
+    vecs = emb.embed([t for _, t in items])
+    out = []
+    for i, (idx, _) in enumerate(items):
+        v = vecs[i]
+        out.append((int(idx), v.tolist() if hasattr(v, "tolist") else list(v)))
+    return {"vectors": out}
+
+
 def run_ingestion(
     root_dir: str,
     limit_files: Optional[int] = None,
     include_html: bool = True,
+    progress_cb: Optional[Callable[[Dict[str, Any]], None]] = None,
 ) -> Dict[str, Any]:
     ensure_indexes()
     client = get_client()
     embedder = Embedder(settings.embed_model)
+    if int(settings.embed_dim) != int(embedder.dimension):
+        raise RuntimeError(
+            f"Embedding dimension mismatch: config V2_EMBED_DIM={settings.embed_dim} "
+            f"but model '{settings.embed_model}' produced dimension={embedder.dimension}. "
+            "Update V2_EMBED_DIM or model selection before ingest/bootstrap."
+        )
     cfg = ChunkingConfig(
         target_tokens=int(settings.chunk_target_tokens),
         overlap_tokens=int(settings.chunk_overlap_tokens),
         max_tokens=int(settings.chunk_max_tokens),
+        min_sentence_tokens=int(settings.chunk_min_sentence_tokens),
+        min_chunk_tokens=int(settings.chunk_min_chunk_tokens),
     )
 
     files = _find_all_supported_files(root_dir)
@@ -149,37 +180,128 @@ def run_ingestion(
     if limit_files and limit_files > 0:
         files = files[: int(limit_files)]
 
+    def _progress(payload: Dict[str, Any]) -> None:
+        if progress_cb is not None:
+            try:
+                progress_cb(payload)
+            except Exception:
+                pass
+
+    _progress({"phase": "scan", "total_files": len(files)})
+
     ok_files = 0
     failed_files = 0
     indexed_chunks = 0
     citation_edges = 0
     errors: List[str] = []
+
+    def _prep_file(fp: str) -> Dict[str, Any]:
+        base_doc = _parse_file(fp)
+        if not base_doc or not (base_doc.get("text") or "").strip():
+            return {"fp": fp, "skip": True}
+        authority_id, authority_doc = _extract_authority(fp, base_doc)
+        chunks = _chunk_doc(fp, base_doc, cfg)
+        return {
+            "fp": fp,
+            "skip": False,
+            "authority_id": authority_id,
+            "authority_doc": authority_doc,
+            "chunks": chunks,
+        }
+
+    prepared: List[Dict[str, Any]] = []
+    workers = max(1, int(settings.ingest_file_workers))
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        fut_map = {ex.submit(_prep_file, fp): fp for fp in files}
+        prep_done = 0
+        for fut in as_completed(fut_map):
+            fp = fut_map[fut]
+            try:
+                rec = fut.result()
+                prepared.append(rec)
+                prep_done += 1
+                _progress({"phase": "prepare", "prepared_files": prep_done, "total_files": len(files)})
+            except Exception as e:
+                failed_files += 1
+                errors.append(f"{fp}: {e}")
+                prep_done += 1
+                _progress({"phase": "prepare", "prepared_files": prep_done, "total_files": len(files), "failed_files": failed_files})
+
     citation_to_authority: Dict[str, Dict[str, str]] = {}
+    for rec in prepared:
+        if rec.get("skip"):
+            ok_files += 1
+            continue
+        authority_doc = rec["authority_doc"]
+        for cit in authority_doc.get("citations") or []:
+            if cit:
+                citation_to_authority[str(cit).lower()] = {
+                    "authority_id": rec["authority_id"],
+                    "title": str(authority_doc.get("title") or ""),
+                }
 
-    for fp in files:
+    def _embed_texts(texts: List[str]) -> List[Any]:
+        gpu_ids = [x.strip() for x in str(settings.ingest_gpu_ids or "").split(",") if x.strip()]
+        if gpu_ids and len(texts) >= int(settings.ingest_multigpu_min_texts):
+            indexed = list(enumerate(texts))
+            shards: List[List[Tuple[int, str]]] = [[] for _ in gpu_ids]
+            for idx, txt in indexed:
+                shards[idx % len(gpu_ids)].append((idx, txt))
+
+            payloads = [
+                {
+                    "gpu_id": gpu_ids[i],
+                    "model": settings.embed_model,
+                    "items": shards[i],
+                }
+                for i in range(len(gpu_ids))
+                if shards[i]
+            ]
+
+            merged: Dict[int, Any] = {}
+            with ProcessPoolExecutor(max_workers=len(payloads)) as ex:
+                futs = [ex.submit(_embed_shard_worker, p) for p in payloads]
+                for fut in as_completed(futs):
+                    part = fut.result()
+                    for idx, vec in part.get("vectors") or []:
+                        merged[int(idx)] = vec
+            missing = [i for i in range(len(texts)) if i not in merged]
+            if missing:
+                # Fallback to in-process embed for any missing shards to preserve alignment.
+                fb_vecs = embedder.embed([texts[i] for i in missing])
+                for j, mi in enumerate(missing):
+                    v = fb_vecs[j]
+                    merged[mi] = v.tolist() if hasattr(v, "tolist") else list(v)
+            return [merged[i] for i in range(len(texts))]
+
+        bs = max(1, int(settings.ingest_embed_batch))
+        out: List[Any] = []
+        for i in range(0, len(texts), bs):
+            part = texts[i : i + bs]
+            vec = embedder.embed(part)
+            for v in vec:
+                out.append(v)
+        return out
+
+    bulk_chunk_size = max(100, int(settings.ingest_bulk_chunk_size))
+
+    for rec in prepared:
+        fp = rec.get("fp", "")
+        if rec.get("skip"):
+            continue
         try:
-            base_doc = _parse_file(fp)
-            if not base_doc or not (base_doc.get("text") or "").strip():
-                ok_files += 1
-                continue
+            authority_id = rec["authority_id"]
+            authority_doc = rec["authority_doc"]
+            chunks = rec.get("chunks") or []
 
-            authority_id, authority_doc = _extract_authority(fp, base_doc)
             client.index(index=settings.index_authorities, id=authority_id, body=authority_doc, refresh=False)
 
-            for cit in authority_doc.get("citations") or []:
-                if cit:
-                    citation_to_authority[str(cit).lower()] = {
-                        "authority_id": authority_id,
-                        "title": str(authority_doc.get("title") or ""),
-                    }
-
-            chunks = _chunk_doc(fp, base_doc, cfg)
             if not chunks:
                 ok_files += 1
                 continue
 
             texts = [str(c.get("text") or "") for c in chunks]
-            vecs = embedder.embed(texts,)
+            vecs = _embed_texts(texts)
 
             actions_lex: List[Dict[str, Any]] = []
             actions_vec: List[Dict[str, Any]] = []
@@ -231,6 +353,7 @@ def run_ingestion(
                         },
                     }
                 )
+                v = vecs[i] if i < len(vecs) else embedder.embed([ctext])[0]
                 actions_vec.append(
                     {
                         "_op_type": "index",
@@ -238,7 +361,7 @@ def run_ingestion(
                         "_id": chunk_id,
                         "_source": {
                             **common,
-                            "vector": vecs[i].tolist() if hasattr(vecs[i], "tolist") else list(vecs[i]),
+                            "vector": v.tolist() if hasattr(v, "tolist") else list(v),
                             "text_preview": ctext[:500],
                         },
                     }
@@ -275,18 +398,40 @@ def run_ingestion(
                     )
 
             if actions_lex:
-                bulk(client, actions_lex, chunk_size=500, request_timeout=settings.os_timeout)
+                bulk(client, actions_lex, chunk_size=bulk_chunk_size, request_timeout=settings.os_timeout)
             if actions_vec:
-                bulk(client, actions_vec, chunk_size=500, request_timeout=settings.os_timeout)
+                bulk(client, actions_vec, chunk_size=bulk_chunk_size, request_timeout=settings.os_timeout)
             if actions_cg:
-                bulk(client, actions_cg, chunk_size=500, request_timeout=settings.os_timeout)
+                bulk(client, actions_cg, chunk_size=bulk_chunk_size, request_timeout=settings.os_timeout)
 
             indexed_chunks += len(actions_lex)
             citation_edges += len(actions_cg)
             ok_files += 1
+            _progress(
+                {
+                    "phase": "index",
+                    "files_completed": ok_files + failed_files,
+                    "ok_files": ok_files,
+                    "failed_files": failed_files,
+                    "total_files": len(files),
+                    "indexed_chunks": indexed_chunks,
+                    "citation_edges": citation_edges,
+                }
+            )
         except Exception as e:
             failed_files += 1
             errors.append(f"{fp}: {e}")
+            _progress(
+                {
+                    "phase": "index",
+                    "files_completed": ok_files + failed_files,
+                    "ok_files": ok_files,
+                    "failed_files": failed_files,
+                    "total_files": len(files),
+                    "indexed_chunks": indexed_chunks,
+                    "citation_edges": citation_edges,
+                }
+            )
 
     return {
         "root_dir": root_dir,
@@ -301,5 +446,11 @@ def run_ingestion(
             "chunks_lex": settings.index_chunks_lex,
             "chunks_vec": settings.index_chunks_vec,
             "citation_graph": settings.index_citation_graph,
+        },
+        "runtime": {
+            "file_workers": workers,
+            "embed_batch": int(settings.ingest_embed_batch),
+            "bulk_chunk_size": bulk_chunk_size,
+            "embed_model": settings.embed_model,
         },
     }
