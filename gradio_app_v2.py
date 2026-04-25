@@ -71,6 +71,8 @@ def _render_ingest_status(data: Dict[str, Any]) -> str:
     badge = {
         "queued": "🟡 QUEUED",
         "running": "🔵 RUNNING",
+        "stop_requested": "🟠 STOP REQUESTED",
+        "stopped": "🟠 STOPPED",
         "completed": "🟢 COMPLETED",
         "failed": "🔴 FAILED",
         "none": "⚪ NONE",
@@ -130,6 +132,19 @@ def ingest_resume_latest() -> Tuple[str, str, str]:
     except Exception as e:
         err = {"status": "failed", "error": str(e)}
         return "", "### Ingestion Job Status: 🔴 FAILED\n- Could not resume latest job", json.dumps(err, indent=2)
+
+
+def ingest_stop(job_id: str) -> Tuple[str, str]:
+    jid = (job_id or "").strip()
+    if not jid:
+        return "### Ingestion Job Status: ⚪ NONE\n- No active job", ""
+    try:
+        r = _api_post(f"/v2/ingest/stop/{jid}", {})
+        data = r.json() if r.ok else {"job_id": jid, "status": "failed", "error": r.text}
+        return _render_ingest_status(data), json.dumps(data, indent=2)
+    except Exception as e:
+        err = {"job_id": jid, "status": "failed", "error": str(e)}
+        return _render_ingest_status(err), json.dumps(err, indent=2)
 
 
 def _result_cards(results: List[Dict[str, Any]]) -> str:
@@ -236,12 +251,14 @@ def build_ui() -> gr.Blocks:
             limit_files = gr.Number(label="Limit Files (0 = no limit)", value=0)
             include_html = gr.Checkbox(label="Include HTML", value=True)
             ingest_btn = gr.Button("Start Async Ingestion Job")
+            stop_btn = gr.Button("Stop Current Job", variant="stop")
             resume_btn = gr.Button("Resume Latest Job")
             status_btn = gr.Button("Refresh Job Status")
             ingest_job_id = gr.Textbox(label="Current Job ID", interactive=False)
             ingest_status_md = gr.Markdown("### Ingestion Job Status: ⚪ NONE")
             ingest_out = gr.Code(label="Ingestion Output", language="json")
             ingest_btn.click(ingest_start, inputs=[root_dir, limit_files, include_html], outputs=[ingest_job_id, ingest_status_md, ingest_out])
+            stop_btn.click(ingest_stop, inputs=[ingest_job_id], outputs=[ingest_status_md, ingest_out])
             resume_btn.click(ingest_resume_latest, inputs=[], outputs=[ingest_job_id, ingest_status_md, ingest_out])
             status_btn.click(ingest_poll, inputs=[ingest_job_id], outputs=[ingest_status_md, ingest_out])
 

@@ -156,6 +156,7 @@ def run_ingestion(
     limit_files: Optional[int] = None,
     include_html: bool = True,
     progress_cb: Optional[Callable[[Dict[str, Any]], None]] = None,
+    should_stop_cb: Optional[Callable[[], bool]] = None,
 ) -> Dict[str, Any]:
     ensure_indexes()
     client = get_client()
@@ -201,6 +202,14 @@ def run_ingestion(
             except Exception:
                 pass
 
+    def _should_stop() -> bool:
+        if should_stop_cb is None:
+            return False
+        try:
+            return bool(should_stop_cb())
+        except Exception:
+            return False
+
     _progress({"phase": "scan", "total_files": len(files)})
 
     ok_files = 0
@@ -229,6 +238,8 @@ def run_ingestion(
         fut_map = {ex.submit(_prep_file, fp): fp for fp in files}
         prep_done = 0
         for fut in as_completed(fut_map):
+            if _should_stop():
+                raise RuntimeError("Ingestion stopped by user request")
             fp = fut_map[fut]
             try:
                 rec = fut.result()
@@ -300,6 +311,8 @@ def run_ingestion(
     bulk_chunk_size = max(100, int(settings.ingest_bulk_chunk_size))
 
     for rec in prepared:
+        if _should_stop():
+            raise RuntimeError("Ingestion stopped by user request")
         fp = rec.get("fp", "")
         if rec.get("skip"):
             continue

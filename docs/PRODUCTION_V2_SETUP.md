@@ -137,6 +137,9 @@ curl -u legal_api:letmein -X POST "http://localhost:8010/v2/ingest/start" \
 # Check job status
 curl -u legal_api:letmein "http://localhost:8010/v2/ingest/status/<job_id>"
 
+# Request stop/cancel for running job
+curl -u legal_api:letmein -X POST "http://localhost:8010/v2/ingest/stop/<job_id>"
+
 # List recent jobs / latest job (for resume after UI refresh)
 curl -u legal_api:letmein "http://localhost:8010/v2/ingest/jobs?limit=20"
 curl -u legal_api:letmein "http://localhost:8010/v2/ingest/jobs/latest"
@@ -193,6 +196,10 @@ cp .env.production_v2.example .env.production_v2
 # Stop
 ./scripts/v2_docker_stop.sh
 ```
+
+Notes:
+- `v2_docker_build.sh` and `v2_docker_start.sh` auto-create `.env.production_v2` from `.env.production_v2.example` if missing.
+- `v2_docker_start.sh` validates `V2_HOST_INGEST_DIR` exists before launching, to prevent silent no-op ingestion.
 
 ### Raw Docker Compose commands (equivalent)
 

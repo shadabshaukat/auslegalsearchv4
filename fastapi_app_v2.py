@@ -155,13 +155,29 @@ def ingest_start(req: V2IngestReq, _: str = Depends(_auth)):
                 },
             )
 
+        def _should_stop() -> bool:
+            j = _get_job(job_id) or {}
+            return bool(j.get("cancel_requested", False))
+
         try:
             result = run_ingestion(
                 root_dir=req.root_dir,
                 limit_files=req.limit_files,
                 include_html=req.include_html,
                 progress_cb=_on_progress,
+                should_stop_cb=_should_stop,
             )
+            if _should_stop():
+                _set_job(
+                    job_id,
+                    {
+                        "status": "stopped",
+                        "finished_at": time.time(),
+                        "updated_at": time.time(),
+                        "result": result,
+                    },
+                )
+                return
             _set_job(
                 job_id,
                 {
@@ -193,6 +209,18 @@ def ingest_status(job_id: str, _: str = Depends(_auth)):
     if not j:
         raise HTTPException(status_code=404, detail="job_id not found")
     return j
+
+
+@app.post("/v2/ingest/stop/{job_id}", tags=["v2"])
+def ingest_stop(job_id: str, _: str = Depends(_auth)):
+    j = _get_job(job_id)
+    if not j:
+        raise HTTPException(status_code=404, detail="job_id not found")
+    status_val = str(j.get("status") or "").lower()
+    if status_val in {"completed", "failed", "stopped"}:
+        return {"job_id": job_id, "status": status_val, "message": "job already finalized"}
+    _set_job(job_id, {"cancel_requested": True, "updated_at": time.time()})
+    return {"job_id": job_id, "status": "stop_requested"}
 
 
 @app.get("/v2/ingest/jobs", tags=["v2"])
