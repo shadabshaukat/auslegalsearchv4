@@ -74,6 +74,31 @@ AUSLEGALSEARCH_V2_ENV_FILE=/home/ubuntu/auslegalsearchv4/.env.production_v2 \
 python3 -m uvicorn fastapi_app_v2:app --host 0.0.0.0 --port 8010
 ```
 
+Pre-flight check in the same shell (before launching API):
+
+```bash
+cd /home/ubuntu/auslegalsearchv4
+export AUSLEGALSEARCH_V2_ENV_FILE=/home/ubuntu/auslegalsearchv4/.env.production_v2
+python3 - <<'PY'
+from production_v2.config import settings, loaded_env_file
+print("loaded_env_file=", loaded_env_file())
+print("V2_OPENSEARCH_HOST=", settings.os_host)
+PY
+```
+
+If this still prints `http://localhost:9200`, check:
+- file path is correct and readable by the runtime user
+- no typo in variable name (`V2_OPENSEARCH_HOST`)
+- process was restarted after env changes
+
+If using `systemd`, ensure the service is restarted:
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl restart auslegalsearch-v2-api
+sudo systemctl status auslegalsearch-v2-api --no-pager
+```
+
 5. Run ingestion from scratch
 
 ```bash
