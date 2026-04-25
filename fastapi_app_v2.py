@@ -9,7 +9,7 @@ from fastapi import Depends, FastAPI, HTTPException, status
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
 from pydantic import BaseModel, Field
 
-from production_v2.config import settings
+from production_v2.config import settings, loaded_env_file
 from production_v2.dsl_templates import SCENARIOS
 from production_v2.ingest_v2 import run_ingestion
 from production_v2.opensearch_v2 import ensure_indexes
@@ -56,6 +56,27 @@ class V2SearchReq(BaseModel):
 @app.get("/health")
 def health() -> Dict[str, str]:
     return {"status": "ok", "app": "production_v2"}
+
+
+@app.get("/v2/config/effective", tags=["v2"])
+def effective_config(_: str = Depends(_auth)):
+    return {
+        "loaded_env_file": loaded_env_file(),
+        "opensearch_host": settings.os_host,
+        "opensearch_user": settings.os_user,
+        "opensearch_verify_certs": settings.os_verify_certs,
+        "indexes": {
+            "authorities": settings.index_authorities,
+            "chunks_lex": settings.index_chunks_lex,
+            "chunks_vec": settings.index_chunks_vec,
+            "citation_graph": settings.index_citation_graph,
+        },
+        "reranker": {
+            "enabled_default": settings.reranker_enable_default,
+            "model": settings.reranker_model,
+            "top_n": settings.reranker_top_n,
+        },
+    }
 
 
 @app.get("/v2/scenarios", tags=["v2"])
