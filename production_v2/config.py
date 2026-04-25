@@ -30,29 +30,30 @@ def _load_v2_env() -> str:
     if explicit:
         p = Path(explicit)
         if not p.is_absolute():
-            candidates.append((cwd / p).resolve())
-            candidates.append((project_root / p).resolve())
+            candidates.append(((cwd / p).resolve(), True))
+            candidates.append(((project_root / p).resolve(), True))
         else:
-            candidates.append(p)
+            candidates.append((p, True))
 
     candidates.extend(
         [
-            (cwd / ".env.production_v2").resolve(),
-            (project_root / ".env.production_v2").resolve(),
-            (cwd / ".env").resolve(),
-            (project_root / ".env").resolve(),
+            ((cwd / ".env.production_v2").resolve(), True),
+            ((project_root / ".env.production_v2").resolve(), True),
+            ((cwd / ".env").resolve(), False),
+            ((project_root / ".env").resolve(), False),
         ]
     )
 
     seen = set()
-    for p in candidates:
+    for p, force_override in candidates:
         key = str(p)
         if key in seen:
             continue
         seen.add(key)
         if p.exists() and p.is_file():
-            # Do not clobber already-exported env vars from process manager.
-            load_dotenv(dotenv_path=str(p), override=False)
+            # For v2 env files, prefer file values (override=True) to avoid stale service env.
+            # For fallback generic .env, keep existing process env precedence.
+            load_dotenv(dotenv_path=str(p), override=bool(force_override))
             return str(p)
     return ""
 
