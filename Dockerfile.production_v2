@@ -1,0 +1,35 @@
+FROM pytorch/pytorch:2.4.1-cuda12.1-cudnn9-runtime
+
+ENV DEBIAN_FRONTEND=noninteractive \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    HF_HOME=/root/.cache/huggingface \
+    TRANSFORMERS_CACHE=/root/.cache/huggingface \
+    GRADIO_SERVER_NAME=0.0.0.0 \
+    V2_API_HOST=0.0.0.0 \
+    V2_GRADIO_HOST=0.0.0.0
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates \
+    curl \
+    git \
+    tini \
+    libpq-dev \
+    libxml2-dev \
+    libxslt1-dev \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements.txt /app/requirements.txt
+RUN python -m pip install --upgrade pip setuptools wheel && \
+    python -m pip install -r /app/requirements.txt
+
+COPY . /app
+
+RUN chmod +x /app/docker/production_v2/entrypoint.sh
+
+EXPOSE 8010 7861
+
+ENTRYPOINT ["/usr/bin/tini", "--", "/app/docker/production_v2/entrypoint.sh"]

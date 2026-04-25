@@ -158,6 +158,69 @@ curl -u legal_api:letmein -X POST "http://localhost:8010/v2/search" \
   -d '{"query":"[2025] HCA 12","scenario":"citation_tracing","top_k":10,"use_hybrid":true,"use_reranker":true}'
 ```
 
+## Production-grade Docker deployment (self-contained)
+
+This repo now includes a full v2 container stack:
+
+- `Dockerfile.production_v2` (CUDA runtime + all `requirements.txt` packages)
+- `docker-compose.production_v2.yml` (API + Gradio in one service, persistent mounts, GPU enabled)
+- `docker/production_v2/entrypoint.sh` (supervises FastAPI + Gradio, both bind to `0.0.0.0`)
+- helper scripts:
+  - `scripts/v2_docker_build.sh`
+  - `scripts/v2_docker_start.sh`
+  - `scripts/v2_docker_stop.sh`
+  - `scripts/v2_docker_logs.sh`
+
+### Prerequisites
+
+- Docker Engine + Docker Compose plugin
+- NVIDIA drivers + NVIDIA Container Toolkit (for GPU passthrough)
+
+### Build and run
+
+```bash
+cp .env.production_v2.example .env.production_v2
+
+# Build image
+./scripts/v2_docker_build.sh
+
+# Start containerized v2 stack
+./scripts/v2_docker_start.sh
+
+# Follow logs
+./scripts/v2_docker_logs.sh
+
+# Stop
+./scripts/v2_docker_stop.sh
+```
+
+### Raw Docker Compose commands (equivalent)
+
+```bash
+docker compose -f docker-compose.production_v2.yml build --pull
+docker compose -f docker-compose.production_v2.yml up -d
+docker compose -f docker-compose.production_v2.yml logs -f --tail=200
+docker compose -f docker-compose.production_v2.yml down
+```
+
+### Networking and resources
+
+- API exposed on `0.0.0.0:8010`
+- Gradio exposed on `0.0.0.0:7861`
+- Container uses host GPU(s) via `gpus: all`
+- CPU/memory scheduling remains host-native via Docker runtime; tune with compose resource options if needed.
+
+### Persistent storage mounts
+
+- `./logs -> /app/logs`
+- `./db -> /app/db`
+- `./data -> /app/data`
+- `./cache/huggingface -> /root/.cache/huggingface`
+- `./cache/torch -> /root/.cache/torch`
+- `./cache/gradio -> /root/.gradio`
+
+These preserve model caches, app state, and runtime outputs across restarts/redeployments.
+
 ## Notes
 
 - v2 keeps existing platform untouched.
