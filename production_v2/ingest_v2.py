@@ -233,12 +233,14 @@ def run_ingestion(
         }
 
     prepared: List[Dict[str, Any]] = []
-    workers = max(1, int(settings.ingest_file_workers))
+    configured_workers = int(settings.ingest_file_workers)
+    workers = max(1, (os.cpu_count() or 4) if configured_workers <= 0 else configured_workers)
     with ThreadPoolExecutor(max_workers=workers) as ex:
         fut_map = {ex.submit(_prep_file, fp): fp for fp in files}
         prep_done = 0
         for fut in as_completed(fut_map):
             if _should_stop():
+                ex.shutdown(wait=False, cancel_futures=True)
                 raise RuntimeError("Ingestion stopped by user request")
             fp = fut_map[fut]
             try:
@@ -268,40 +270,60 @@ def run_ingestion(
     def _embed_texts(texts: List[str]) -> List[Any]:
         gpu_ids = [x.strip() for x in str(settings.ingest_gpu_ids or "").split(",") if x.strip()]
         if gpu_ids and len(texts) >= int(settings.ingest_multigpu_min_texts):
-            indexed = list(enumerate(texts))
-            shards: List[List[Tuple[int, str]]] = [[] for _ in gpu_ids]
-            for idx, txt in indexed:
-                shards[idx % len(gpu_ids)].append((idx, txt))
+            window_size = max(
+                int(settings.ingest_multigpu_min_texts),
+                int(settings.ingest_embed_batch) * max(1, len(gpu_ids)) * 8,
+            )
+            merged_all: Dict[int, Any] = {}
 
-            payloads = [
-                {
-                    "gpu_id": gpu_ids[i],
-                    "model": settings.embed_model,
-                    "items": shards[i],
-                }
-                for i in range(len(gpu_ids))
-                if shards[i]
-            ]
+            for ws in range(0, len(texts), window_size):
+                if _should_stop():
+                    raise RuntimeError("Ingestion stopped by user request")
 
-            merged: Dict[int, Any] = {}
-            with ProcessPoolExecutor(max_workers=len(payloads)) as ex:
-                futs = [ex.submit(_embed_shard_worker, p) for p in payloads]
-                for fut in as_completed(futs):
-                    part = fut.result()
-                    for idx, vec in part.get("vectors") or []:
-                        merged[int(idx)] = vec
-            missing = [i for i in range(len(texts)) if i not in merged]
-            if missing:
-                # Fallback to in-process embed for any missing shards to preserve alignment.
-                fb_vecs = embedder.embed([texts[i] for i in missing])
-                for j, mi in enumerate(missing):
-                    v = fb_vecs[j]
-                    merged[mi] = v.tolist() if hasattr(v, "tolist") else list(v)
-            return [merged[i] for i in range(len(texts))]
+                sub = texts[ws : ws + window_size]
+                # Greedy load-balancing by text length to reduce GPU idling.
+                shards: List[List[Tuple[int, str]]] = [[] for _ in gpu_ids]
+                loads = [0 for _ in gpu_ids]
+                for local_idx, txt in enumerate(sub):
+                    j = min(range(len(loads)), key=lambda k: loads[k])
+                    shards[j].append((ws + local_idx, txt))
+                    loads[j] += max(1, len(txt))
+
+                payloads = [
+                    {
+                        "gpu_id": gpu_ids[i],
+                        "model": settings.embed_model,
+                        "items": shards[i],
+                    }
+                    for i in range(len(gpu_ids))
+                    if shards[i]
+                ]
+
+                merged: Dict[int, Any] = {}
+                with ProcessPoolExecutor(max_workers=len(payloads)) as ex:
+                    futs = [ex.submit(_embed_shard_worker, p) for p in payloads]
+                    for fut in as_completed(futs):
+                        part = fut.result()
+                        for idx, vec in part.get("vectors") or []:
+                            merged[int(idx)] = vec
+
+                missing = [i for i in range(ws, ws + len(sub)) if i not in merged]
+                if missing:
+                    # Fallback to in-process embed for any missing shards to preserve alignment.
+                    fb_vecs = embedder.embed([texts[i] for i in missing])
+                    for j, mi in enumerate(missing):
+                        v = fb_vecs[j]
+                        merged[mi] = v.tolist() if hasattr(v, "tolist") else list(v)
+
+                merged_all.update(merged)
+
+            return [merged_all[i] for i in range(len(texts))]
 
         bs = max(1, int(settings.ingest_embed_batch))
         out: List[Any] = []
         for i in range(0, len(texts), bs):
+            if _should_stop():
+                raise RuntimeError("Ingestion stopped by user request")
             part = texts[i : i + bs]
             vec = embedder.embed(part)
             for v in vec:
@@ -336,6 +358,8 @@ def run_ingestion(
             own_cits = [str(c).strip().lower() for c in (authority_doc.get("citations") or []) if str(c).strip()]
 
             for i, c in enumerate(chunks):
+                if _should_stop():
+                    raise RuntimeError("Ingestion stopped by user request")
                 ctext = str(c.get("text") or "")
                 if not ctext.strip():
                     continue

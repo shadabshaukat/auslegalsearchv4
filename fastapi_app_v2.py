@@ -188,6 +188,18 @@ def ingest_start(req: V2IngestReq, _: str = Depends(_auth)):
                 },
             )
         except Exception as e:
+            jnow = _get_job(job_id) or {}
+            if bool(jnow.get("cancel_requested", False)):
+                _set_job(
+                    job_id,
+                    {
+                        "status": "stopped",
+                        "finished_at": time.time(),
+                        "updated_at": time.time(),
+                        "error": str(e),
+                    },
+                )
+                return
             _set_job(
                 job_id,
                 {
