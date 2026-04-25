@@ -90,6 +90,12 @@ If this still prints `http://localhost:9200`, check:
 - file path is correct and readable by the runtime user
 - no typo in variable name (`V2_OPENSEARCH_HOST`)
 - process was restarted after env changes
+- ensure your runtime is using updated v2 code (this version does **not** auto-load generic `.env`)
+
+Important behavior:
+- v2 config now only loads `.env.production_v2` (or file from `AUSLEGALSEARCH_V2_ENV_FILE`).
+- This prevents legacy `.env` values like `OPENSEARCH_HOST=localhost` from polluting v2.
+- v2 fails fast on localhost OpenSearch unless `V2_ALLOW_LOCALHOST_OPENSEARCH=1`.
 
 If using `systemd`, ensure the service is restarted:
 

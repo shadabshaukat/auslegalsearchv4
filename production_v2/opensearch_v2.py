@@ -2,10 +2,11 @@ from __future__ import annotations
 
 from typing import Dict, Any
 
-from production_v2.config import settings
+from production_v2.config import settings, validate_v2_runtime
 
 
 def get_client():
+    validate_v2_runtime()
     from opensearchpy import OpenSearch  # type: ignore
     from urllib.parse import urlparse
 
