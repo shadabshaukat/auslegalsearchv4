@@ -1,0 +1,42 @@
+version: "3.9"
+
+services:
+  auslegalsearchv2:
+    build:
+      context: .
+      dockerfile: Dockerfile.production_v2
+    image: auslegalsearchv2:latest
+    container_name: auslegalsearchv2
+    restart: unless-stopped
+    env_file:
+      - .env.production_v2
+    environment:
+      AUSLEGALSEARCH_V2_ENV_FILE: /app/.env.production_v2
+      V2_API_HOST: 0.0.0.0
+      V2_GRADIO_HOST: 0.0.0.0
+      OMP_NUM_THREADS: "0"
+      MKL_NUM_THREADS: "0"
+      TOKENIZERS_PARALLELISM: "false"
+    ports:
+      - "8010:8010"
+      - "7861:7861"
+    volumes:
+      - ./.env.production_v2:/app/.env.production_v2:ro
+      - ./logs:/app/logs
+      - ./db:/app/db
+      - ./data:/app/data
+      - ./cache/huggingface:/root/.cache/huggingface
+      - ./cache/torch:/root/.cache/torch
+      - ./cache/gradio:/root/.gradio
+    shm_size: "16gb"
+    ulimits:
+      memlock: -1
+      stack: 67108864
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    gpus: all
