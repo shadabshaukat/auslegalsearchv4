@@ -9,7 +9,7 @@ from fastapi import Depends, FastAPI, HTTPException, status
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
 from pydantic import BaseModel, Field
 
-from production_v2.config import settings, loaded_env_file
+from production_v2.config import settings, loaded_env_file, validate_v2_runtime
 from production_v2.dsl_templates import SCENARIOS
 from production_v2.ingest_v2 import run_ingestion
 from production_v2.opensearch_v2 import ensure_indexes
@@ -21,6 +21,11 @@ app = FastAPI(
     description="Parallel v2 API for new 3-index OpenSearch architecture and routed DSL/hybrid search.",
     version="2.0.0",
 )
+
+
+@app.on_event("startup")
+def _startup_validate_runtime() -> None:
+    validate_v2_runtime()
 
 security = HTTPBasic()
 
