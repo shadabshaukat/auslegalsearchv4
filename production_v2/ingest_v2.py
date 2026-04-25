@@ -1,0 +1,305 @@
+from __future__ import annotations
+
+import hashlib
+import re
+from pathlib import Path
+from typing import Any, Dict, List, Optional, Tuple
+
+from opensearchpy.helpers import bulk  # type: ignore
+
+from embedding.embedder import Embedder
+from ingest.loader import parse_txt, parse_html
+from ingest.semantic_chunker import (
+    ChunkingConfig,
+    chunk_document_semantic,
+    chunk_generic_rcts,
+    chunk_legislation_dashed_semantic,
+    detect_doc_type,
+)
+from production_v2.config import settings
+from production_v2.opensearch_v2 import ensure_indexes, get_client
+
+
+def _sha1(s: str) -> str:
+    return hashlib.sha1(s.encode("utf-8", errors="ignore")).hexdigest()
+
+
+def _parse_file(path: str) -> Dict[str, Any]:
+    ext = Path(path).suffix.lower()
+    if ext == ".txt":
+        return parse_txt(path)
+    if ext == ".html":
+        return parse_html(path)
+    return {}
+
+
+def _find_all_supported_files(root_dir: str) -> List[str]:
+    out: List[str] = []
+    for p in Path(root_dir).rglob("*"):
+        if p.is_file() and p.suffix.lower() in {".txt", ".html"}:
+            out.append(str(p.resolve()))
+    return sorted(out)
+
+
+def _normalize_case_tokens(title: str) -> str:
+    t = (title or "").replace(" v ", " versus ").replace(" vs ", " versus ")
+    return " ".join(t.split()).strip().lower()
+
+
+def _extract_authority(path: str, base_doc: Dict[str, Any]) -> Tuple[str, Dict[str, Any]]:
+    md = dict(base_doc.get("chunk_metadata") or {})
+    title = str(md.get("title") or Path(path).stem)
+    citations = md.get("citations") or md.get("citation") or []
+    if isinstance(citations, str):
+        citations = [citations]
+    citations = [str(c).strip() for c in citations if str(c).strip()]
+    neutral = citations[0] if citations else ""
+    authority_type = str(md.get("type") or detect_doc_type(md, base_doc.get("text", "")) or "unknown").lower()
+    url = str(md.get("url") or "")
+    jurisdiction = str(md.get("jurisdiction") or "").lower()
+    subjurisdiction = str(md.get("subjurisdiction") or "").lower()
+    database = str(md.get("database") or "").lower()
+    court = str(md.get("court") or database or "").lower()
+    year = md.get("year")
+    try:
+        year = int(year) if year is not None and str(year).strip() != "" else None
+    except Exception:
+        year = None
+
+    authority_id = _sha1(f"{url}|{title}|{neutral}|{authority_type}")
+    doc = {
+        "authority_id": authority_id,
+        "type": authority_type,
+        "title": title,
+        "title_normalized": title.lower(),
+        "citations": citations,
+        "neutral_citation": neutral,
+        "citation_tokens": " ".join(citations),
+        "parties": title if authority_type == "case" else "",
+        "case_name_tokens": _normalize_case_tokens(title),
+        "act_name": title if authority_type == "legislation" else "",
+        "section_refs": [str(md.get("section_identifier") or "").strip()] if md.get("section_identifier") else [],
+        "authors": [str(md.get("author"))] if md.get("author") else [],
+        "countries": [str(c).lower() for c in (md.get("countries") or [])] if isinstance(md.get("countries"), list) else [],
+        "jurisdiction": jurisdiction,
+        "subjurisdiction": subjurisdiction,
+        "database": database,
+        "court": court,
+        "date": md.get("date"),
+        "year": year,
+        "url": url,
+        "data_quality": str(md.get("data_quality") or ""),
+    }
+    return authority_id, doc
+
+
+def _chunk_doc(path: str, base_doc: Dict[str, Any], cfg: ChunkingConfig) -> List[Dict[str, Any]]:
+    text = base_doc.get("text", "") or ""
+    if not text.strip():
+        return []
+    base_meta = dict(base_doc.get("chunk_metadata") or {})
+    chunks = chunk_legislation_dashed_semantic(text, base_meta=base_meta, cfg=cfg)
+    if not chunks:
+        chunks = chunk_document_semantic(text, base_meta=base_meta, cfg=cfg)
+    if not chunks:
+        chunks = chunk_generic_rcts(text, base_meta=base_meta, cfg=cfg)
+    return chunks
+
+
+_CIT_RE_BRACKET = re.compile(r"\[(19|20)\d{2}\]\s*[A-Z]{2,}\s*\d+", re.IGNORECASE)
+_CIT_RE_CLR = re.compile(r"\b\d+\s+CLR\s+\d+\b", re.IGNORECASE)
+_CIT_RE_HCA = re.compile(r"\bHCA\s+\d+\b", re.IGNORECASE)
+
+
+def _extract_citation_mentions(text: str) -> List[str]:
+    out: List[str] = []
+    for pat in (_CIT_RE_BRACKET, _CIT_RE_CLR, _CIT_RE_HCA):
+        for m in pat.finditer(text or ""):
+            v = " ".join(str(m.group(0)).split())
+            if v:
+                out.append(v)
+    # de-dupe preserve order
+    seen = set()
+    uniq = []
+    for c in out:
+        lc = c.lower()
+        if lc not in seen:
+            seen.add(lc)
+            uniq.append(c)
+    return uniq
+
+
+def run_ingestion(
+    root_dir: str,
+    limit_files: Optional[int] = None,
+    include_html: bool = True,
+) -> Dict[str, Any]:
+    ensure_indexes()
+    client = get_client()
+    embedder = Embedder(settings.embed_model)
+    cfg = ChunkingConfig(
+        target_tokens=int(settings.chunk_target_tokens),
+        overlap_tokens=int(settings.chunk_overlap_tokens),
+        max_tokens=int(settings.chunk_max_tokens),
+    )
+
+    files = _find_all_supported_files(root_dir)
+    if not include_html:
+        files = [f for f in files if Path(f).suffix.lower() == ".txt"]
+    if limit_files and limit_files > 0:
+        files = files[: int(limit_files)]
+
+    ok_files = 0
+    failed_files = 0
+    indexed_chunks = 0
+    citation_edges = 0
+    errors: List[str] = []
+    citation_to_authority: Dict[str, Dict[str, str]] = {}
+
+    for fp in files:
+        try:
+            base_doc = _parse_file(fp)
+            if not base_doc or not (base_doc.get("text") or "").strip():
+                ok_files += 1
+                continue
+
+            authority_id, authority_doc = _extract_authority(fp, base_doc)
+            client.index(index=settings.index_authorities, id=authority_id, body=authority_doc, refresh=False)
+
+            for cit in authority_doc.get("citations") or []:
+                if cit:
+                    citation_to_authority[str(cit).lower()] = {
+                        "authority_id": authority_id,
+                        "title": str(authority_doc.get("title") or ""),
+                    }
+
+            chunks = _chunk_doc(fp, base_doc, cfg)
+            if not chunks:
+                ok_files += 1
+                continue
+
+            texts = [str(c.get("text") or "") for c in chunks]
+            vecs = embedder.embed(texts,)
+
+            actions_lex: List[Dict[str, Any]] = []
+            actions_vec: List[Dict[str, Any]] = []
+            actions_cg: List[Dict[str, Any]] = []
+            own_cits = [str(c).strip().lower() for c in (authority_doc.get("citations") or []) if str(c).strip()]
+
+            for i, c in enumerate(chunks):
+                ctext = str(c.get("text") or "")
+                if not ctext.strip():
+                    continue
+                md = dict(c.get("chunk_metadata") or {})
+                chunk_id = _sha1(f"{authority_id}:{i}:{fp}")
+                title = str(md.get("title") or authority_doc.get("title") or "")
+                citations = md.get("citations") or authority_doc.get("citations") or []
+                if isinstance(citations, str):
+                    citations = [citations]
+                section_ref = str(md.get("section_identifier") or md.get("section") or "").strip()
+
+                common = {
+                    "chunk_id": chunk_id,
+                    "authority_id": authority_id,
+                    "chunk_index": i,
+                    "source": fp,
+                    "title": title,
+                    "citations": citations,
+                    "citation_tokens": " ".join([str(x) for x in citations]),
+                    "case_name_tokens": _normalize_case_tokens(title),
+                    "section_refs": [section_ref] if section_ref else [],
+                    "type": str(md.get("type") or authority_doc.get("type") or "").lower(),
+                    "jurisdiction": str(md.get("jurisdiction") or authority_doc.get("jurisdiction") or "").lower(),
+                    "subjurisdiction": str(md.get("subjurisdiction") or authority_doc.get("subjurisdiction") or "").lower(),
+                    "database": str(md.get("database") or authority_doc.get("database") or "").lower(),
+                    "court": str(md.get("court") or authority_doc.get("court") or "").lower(),
+                    "date": md.get("date") or authority_doc.get("date"),
+                    "year": md.get("year") or authority_doc.get("year"),
+                    "url": str(md.get("url") or authority_doc.get("url") or ""),
+                }
+
+                actions_lex.append(
+                    {
+                        "_op_type": "index",
+                        "_index": settings.index_chunks_lex,
+                        "_id": chunk_id,
+                        "_source": {
+                            **common,
+                            "text": ctext,
+                            "text_preview": ctext[:500],
+                            "chunk_metadata": md,
+                        },
+                    }
+                )
+                actions_vec.append(
+                    {
+                        "_op_type": "index",
+                        "_index": settings.index_chunks_vec,
+                        "_id": chunk_id,
+                        "_source": {
+                            **common,
+                            "vector": vecs[i].tolist() if hasattr(vecs[i], "tolist") else list(vecs[i]),
+                            "text_preview": ctext[:500],
+                        },
+                    }
+                )
+
+                mentioned = _extract_citation_mentions(ctext)
+                for mc in mentioned:
+                    if mc.lower() in own_cits:
+                        continue
+                    tgt = citation_to_authority.get(mc.lower(), {})
+                    edge_id = _sha1(f"{authority_id}:{chunk_id}:{mc}")
+                    actions_cg.append(
+                        {
+                            "_op_type": "index",
+                            "_index": settings.index_citation_graph,
+                            "_id": edge_id,
+                            "_source": {
+                                "edge_id": edge_id,
+                                "from_authority_id": authority_id,
+                                "to_authority_id": tgt.get("authority_id", ""),
+                                "from_citation": (authority_doc.get("neutral_citation") or ""),
+                                "to_citation": mc,
+                                "from_title": authority_doc.get("title") or "",
+                                "to_title": tgt.get("title", ""),
+                                "context": ctext[:1200],
+                                "source_chunk_id": chunk_id,
+                                "source": fp,
+                                "jurisdiction": authority_doc.get("jurisdiction") or "",
+                                "database": authority_doc.get("database") or "",
+                                "date": authority_doc.get("date"),
+                                "weight": 1.0,
+                            },
+                        }
+                    )
+
+            if actions_lex:
+                bulk(client, actions_lex, chunk_size=500, request_timeout=settings.os_timeout)
+            if actions_vec:
+                bulk(client, actions_vec, chunk_size=500, request_timeout=settings.os_timeout)
+            if actions_cg:
+                bulk(client, actions_cg, chunk_size=500, request_timeout=settings.os_timeout)
+
+            indexed_chunks += len(actions_lex)
+            citation_edges += len(actions_cg)
+            ok_files += 1
+        except Exception as e:
+            failed_files += 1
+            errors.append(f"{fp}: {e}")
+
+    return {
+        "root_dir": root_dir,
+        "total_files": len(files),
+        "ok_files": ok_files,
+        "failed_files": failed_files,
+        "indexed_chunks": indexed_chunks,
+        "citation_edges": citation_edges,
+        "errors": errors[:100],
+        "indexes": {
+            "authorities": settings.index_authorities,
+            "chunks_lex": settings.index_chunks_lex,
+            "chunks_vec": settings.index_chunks_vec,
+            "citation_graph": settings.index_citation_graph,
+        },
+    }
