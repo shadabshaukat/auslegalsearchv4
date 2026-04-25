@@ -8,6 +8,36 @@ from urllib.parse import urlparse
 _LOADED_ENV_FILE = ""
 
 
+def _simple_load_env_file(path: Path, override: bool) -> bool:
+    """Minimal .env loader fallback when python-dotenv isn't installed."""
+    try:
+        raw = path.read_text(encoding="utf-8")
+    except Exception:
+        return False
+
+    loaded_any = False
+    for line in raw.splitlines():
+        s = line.strip()
+        if not s or s.startswith("#"):
+            continue
+        if s.lower().startswith("export "):
+            s = s[7:].strip()
+        if "=" not in s:
+            continue
+        k, v = s.split("=", 1)
+        key = k.strip()
+        val = v.strip()
+        if not key:
+            continue
+        # Remove wrapping quotes
+        if len(val) >= 2 and ((val[0] == '"' and val[-1] == '"') or (val[0] == "'" and val[-1] == "'")):
+            val = val[1:-1]
+        if override or os.environ.get(key) is None:
+            os.environ[key] = val
+        loaded_any = True
+    return loaded_any
+
+
 def _load_v2_env() -> str:
     """
     Load v2 env in a robust way even when process cwd is not repo root.
@@ -19,10 +49,13 @@ def _load_v2_env() -> str:
     Note: We intentionally do NOT auto-fallback to generic .env here,
     to avoid accidental contamination from legacy OPENSEARCH_HOST=localhost.
     """
+    load_dotenv = None
     try:
-        from dotenv import load_dotenv
+        from dotenv import load_dotenv as _ld  # type: ignore
+
+        load_dotenv = _ld
     except Exception:
-        return ""
+        load_dotenv = None
 
     explicit = os.environ.get("AUSLEGALSEARCH_V2_ENV_FILE", "").strip()
     cwd = Path.cwd()
@@ -53,7 +86,10 @@ def _load_v2_env() -> str:
         seen.add(key)
         if p.exists() and p.is_file():
             # Prefer v2 env file values to avoid stale service env variables.
-            load_dotenv(dotenv_path=str(p), override=bool(force_override))
+            if load_dotenv is not None:
+                load_dotenv(dotenv_path=str(p), override=bool(force_override))
+            else:
+                _simple_load_env_file(path=p, override=bool(force_override))
             return str(p)
     return ""
 

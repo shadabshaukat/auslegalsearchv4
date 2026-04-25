@@ -91,6 +91,13 @@ If this still prints `http://localhost:9200`, check:
 - no typo in variable name (`V2_OPENSEARCH_HOST`)
 - process was restarted after env changes
 - ensure your runtime is using updated v2 code (this version does **not** auto-load generic `.env`)
+- ensure `python-dotenv` is installed, or rely on built-in fallback parser in latest v2 code
+
+Install dotenv explicitly (recommended):
+
+```bash
+python3 -m pip install python-dotenv
+```
 
 Important behavior:
 - v2 config now only loads `.env.production_v2` (or file from `AUSLEGALSEARCH_V2_ENV_FILE`).
