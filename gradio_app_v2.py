@@ -228,7 +228,11 @@ def build_ui() -> gr.Blocks:
             recreate_btn.click(recreate_indexes, inputs=[], outputs=[boot_out])
 
         with gr.Tab("Ingestion (from scratch)"):
-            root_dir = gr.Textbox(label="Root Directory", placeholder="/abs/path/to/data")
+            gr.Markdown(
+                "**Path must be visible inside runtime/container.** "
+                "For Docker default use `/app/data` (mapped from host `./data` or `V2_HOST_INGEST_DIR`)."
+            )
+            root_dir = gr.Textbox(label="Root Directory", placeholder="/app/data", value="/app/data")
             limit_files = gr.Number(label="Limit Files (0 = no limit)", value=0)
             include_html = gr.Checkbox(label="Include HTML", value=True)
             ingest_btn = gr.Button("Start Async Ingestion Job")

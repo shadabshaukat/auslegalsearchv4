@@ -174,11 +174,25 @@ def run_ingestion(
         min_chunk_tokens=int(settings.chunk_min_chunk_tokens),
     )
 
+    root_path = Path(root_dir)
+    if not root_path.exists() or not root_path.is_dir():
+        raise RuntimeError(
+            f"Ingestion root_dir not found inside runtime: '{root_dir}'. "
+            "If running in Docker, use container-visible path (e.g. /app/data) "
+            "and ensure host folder is mounted into container."
+        )
+
     files = _find_all_supported_files(root_dir)
     if not include_html:
         files = [f for f in files if Path(f).suffix.lower() == ".txt"]
     if limit_files and limit_files > 0:
         files = files[: int(limit_files)]
+
+    if len(files) == 0:
+        raise RuntimeError(
+            f"No supported files (.txt/.html) found under '{root_dir}'. "
+            "Check folder path, file extensions, and Docker volume mounts."
+        )
 
     def _progress(payload: Dict[str, Any]) -> None:
         if progress_cb is not None:
