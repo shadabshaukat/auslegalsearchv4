@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
   auslegalsearchv2:
     build:
@@ -24,7 +22,7 @@ services:
       - ./.env.production_v2:/app/.env.production_v2:ro
       - ./logs:/app/logs
       - ./db:/app/db
-      - ./data:/app/data
+      - ${V2_HOST_INGEST_DIR:-./data}:${V2_CONTAINER_INGEST_DIR:-/app/data}:ro
       - ./cache/huggingface:/root/.cache/huggingface
       - ./cache/torch:/root/.cache/torch
       - ./cache/gradio:/root/.gradio

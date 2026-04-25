@@ -219,6 +219,14 @@ docker compose -f docker-compose.production_v2.yml down
 - `./cache/torch -> /root/.cache/torch`
 - `./cache/gradio -> /root/.gradio`
 
+Ingestion corpus mount is configurable:
+
+- host path: `V2_HOST_INGEST_DIR` (default `./data`)
+- container path: `V2_CONTAINER_INGEST_DIR` (default `/app/data`)
+
+When running ingestion from Gradio/API in Docker, use the **container path** (e.g. `/app/data`) as `root_dir`.
+If you pass a host-only path (e.g. `/home/ubuntu/...`) that is not mounted, ingestion will fail fast with clear error.
+
 These preserve model caches, app state, and runtime outputs across restarts/redeployments.
 
 ## Notes
