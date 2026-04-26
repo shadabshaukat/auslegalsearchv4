@@ -61,7 +61,13 @@ def _build_offload_cmd(template: str, job_id: str, req: V2IngestReq) -> str:
         "root_dir_q": shlex.quote(str(req.root_dir)),
         "limit_files_q": shlex.quote(limit_raw),
     }
-    return template.format(**values)
+    # Be resilient to env/shell quoting behavior by applying explicit token
+    # replacement instead of relying solely on str.format().
+    rendered = str(template or "")
+    for k, v in values.items():
+        rendered = rendered.replace("{" + k + "}", str(v))
+        rendered = rendered.replace("{{" + k + "}}", str(v))
+    return rendered
 
 
 def _map_root_dir_for_offload(root_dir: str) -> str:
