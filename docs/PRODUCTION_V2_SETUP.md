@@ -203,10 +203,31 @@ Set in `.env.production_v2`:
 ```env
 AUSLEGALSEARCH_EMBED_USE_CUDA=1
 AUSLEGALSEARCH_EMBED_AMP=1
-V2_INGEST_GPU_IDS=0,1,2,3
+V2_INGEST_GPU_IDS=auto
+V2_INGEST_AUTO_DETECT_GPUS=1
 ```
 
 The embedding path uses CUDA when available and shards embedding work across configured GPU IDs in `production_v2/ingest_v2.py`.
+
+### Ingestion governor/autotuning (small + large datasets)
+
+v2 now includes beta-style robustness controls:
+
+```env
+V2_INGEST_GOVERNOR_ENABLE=1
+V2_INGEST_BULK_RETRIES=3
+V2_INGEST_EMBED_BATCH_MIN=16
+V2_INGEST_EMBED_BATCH_MAX=256
+V2_INGEST_BULK_CHUNK_MIN=200
+V2_INGEST_BULK_CHUNK_MAX=2000
+V2_INGEST_DYNAMIC_SHARDING_MIN_FILES=64
+```
+
+Behavior summary:
+- Auto-detect GPUs when `V2_INGEST_GPU_IDS=auto`.
+- Avoid dynamic shard fanout for tiny datasets (faster startup, less overhead).
+- Adapt embed batch size by workload size and GPU count.
+- Retry/reduce OpenSearch bulk chunk size on transient pressure (429/timeouts).
 
 ## Notes
 

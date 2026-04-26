@@ -5,6 +5,7 @@ import os
 import re
 import json
 import time
+import subprocess
 from concurrent.futures import FIRST_COMPLETED, ProcessPoolExecutor, ThreadPoolExecutor, wait
 from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Tuple
@@ -28,6 +29,80 @@ SUPPORTED_EXTS = {".txt", ".html"}
 _CIT_RE_BRACKET = re.compile(r"\[(19|20)\d{2}\]\s*[A-Z]{2,}\s*\d+", re.IGNORECASE)
 _CIT_RE_CLR = re.compile(r"\b\d+\s+CLR\s+\d+\b", re.IGNORECASE)
 _CIT_RE_HCA = re.compile(r"\bHCA\s+\d+\b", re.IGNORECASE)
+
+
+def _detect_gpu_count() -> int:
+    """Best-effort GPU count for VM-local runtime."""
+    try:
+        import torch  # type: ignore
+
+        if torch.cuda.is_available():
+            c = int(torch.cuda.device_count())
+            if c > 0:
+                return c
+    except Exception:
+        pass
+
+    try:
+        r = subprocess.run(["nvidia-smi", "-L"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        if int(r.returncode) == 0:
+            lines = [ln for ln in str(r.stdout or "").splitlines() if "GPU" in ln]
+            if lines:
+                return len(lines)
+    except Exception:
+        pass
+
+    return 0
+
+
+def _resolve_gpu_ids() -> List[str]:
+    raw = str(settings.ingest_gpu_ids or "").strip().lower()
+    if raw and raw not in {"auto", "detect"}:
+        return [x.strip() for x in str(settings.ingest_gpu_ids or "").split(",") if x.strip()]
+    if not bool(settings.ingest_auto_detect_gpus):
+        return []
+    c = _detect_gpu_count()
+    return [str(i) for i in range(max(0, c))]
+
+
+def _resolve_embed_batch(total_texts: int, gpu_count: int) -> int:
+    base = max(1, int(settings.ingest_embed_batch))
+    lo = max(1, int(settings.ingest_embed_batch_min))
+    hi = max(lo, int(settings.ingest_embed_batch_max))
+    # Small datasets: reduce batch to avoid latency spikes.
+    if total_texts <= 64:
+        base = min(base, 32)
+    # Multi-GPU hosts can usually carry larger per-process batches.
+    if gpu_count >= 2:
+        base = int(base * 1.25)
+    return max(lo, min(hi, base))
+
+
+def _bulk_with_retries(client, actions: List[Dict[str, Any]], chunk_size: int) -> None:
+    if not actions:
+        return
+    retries = max(0, int(settings.ingest_bulk_retries))
+    cur_chunk = int(chunk_size)
+    lo = max(100, int(settings.ingest_bulk_chunk_min))
+    hi = max(lo, int(settings.ingest_bulk_chunk_max))
+    cur_chunk = max(lo, min(hi, cur_chunk))
+
+    last_err: Optional[Exception] = None
+    for attempt in range(retries + 1):
+        try:
+            bulk(client, actions, chunk_size=cur_chunk, request_timeout=settings.os_timeout)
+            return
+        except Exception as e:
+            last_err = e
+            msg = str(e).lower()
+            transient = any(k in msg for k in ["429", "too many", "timeout", "timed out", "rejected_execution_exception"])
+            if not bool(settings.ingest_governor_enable) or not transient or attempt >= retries:
+                break
+            cur_chunk = max(lo, int(cur_chunk * 0.75))
+            time.sleep(min(2.0, 0.3 * (attempt + 1)))
+
+    if last_err is not None:
+        raise last_err
 
 
 def _sha1(s: str) -> str:
@@ -305,7 +380,10 @@ def _embed_texts(
         return []
 
     gpu_ids = [x.strip() for x in str(gpu_ids_csv or "").split(",") if x.strip()]
-    if gpu_ids and len(texts) >= int(multigpu_min_texts):
+    # Beta-style guardrail: only fork multi-process embedding when we have
+    # more than one GPU target. A single GPU shard should embed inline to
+    # avoid process-spawn overhead/stalls per file.
+    if len(gpu_ids) > 1 and len(texts) >= int(multigpu_min_texts):
         window_size = max(int(multigpu_min_texts), int(embed_batch) * max(1, len(gpu_ids)) * 8)
         merged_all: Dict[int, Any] = {}
         for ws in range(0, len(texts), window_size):
@@ -369,6 +447,7 @@ def _embed_and_index_file(
     citation_to_authority: Dict[str, Dict[str, str]],
     gpu_ids_override: Optional[str] = None,
     multigpu_min_texts_override: Optional[int] = None,
+    embed_batch_override: Optional[int] = None,
 ) -> Tuple[int, int]:
     if not chunks:
         return 0, 0
@@ -393,7 +472,7 @@ def _embed_and_index_file(
             texts=texts,
             embedder=embedder,
             should_stop=should_stop,
-            embed_batch=int(settings.ingest_embed_batch),
+            embed_batch=int(embed_batch_override if embed_batch_override is not None else settings.ingest_embed_batch),
             gpu_ids_csv=gpu_ids_override if gpu_ids_override is not None else settings.ingest_gpu_ids,
             multigpu_min_texts=(
                 int(multigpu_min_texts_override)
@@ -492,7 +571,7 @@ def _embed_and_index_file(
             indexed_chunks += 1
 
         if actions:
-            bulk(client, actions, chunk_size=bulk_chunk_size, request_timeout=settings.os_timeout)
+            _bulk_with_retries(client, actions, chunk_size=bulk_chunk_size)
 
     return indexed_chunks, citation_edges
 
@@ -506,6 +585,8 @@ def _run_shard(
     client,
     should_stop: Callable[[], bool],
     progress: Callable[[Dict[str, Any]], None],
+    embed_batch: int,
+    gpu_ids_csv: str,
 ) -> Dict[str, Any]:
     embedder = Embedder(settings.embed_model)
     citation_to_authority: Dict[str, Dict[str, str]] = {}
@@ -518,9 +599,38 @@ def _run_shard(
 
     include_rcts = os.environ.get("AUSLEGALSEARCH_USE_RCTS_GENERIC", "0") == "1"
 
-    for fp in files:
+    progress(
+        {
+            "phase": "prepare",
+            "shard_id": shard_id,
+            "gpu_id": gpu_id,
+            "files_total": len(files),
+            "files_started": 0,
+            "ok_files": ok_files,
+            "failed_files": failed_files,
+            "indexed_chunks": indexed_chunks,
+            "citation_edges": citation_edges,
+        }
+    )
+
+    for i, fp in enumerate(files, start=1):
         if should_stop():
             raise RuntimeError("Ingestion stopped by user request")
+
+        progress(
+            {
+                "phase": "prepare",
+                "shard_id": shard_id,
+                "gpu_id": gpu_id,
+                "files_total": len(files),
+                "files_started": i,
+                "current_file": fp,
+                "ok_files": ok_files,
+                "failed_files": failed_files,
+                "indexed_chunks": indexed_chunks,
+                "citation_edges": citation_edges,
+            }
+        )
 
         res = _cpu_prepare_file(
             {
@@ -577,8 +687,11 @@ def _run_shard(
                 embedder=embedder,
                 should_stop=should_stop,
                 citation_to_authority=citation_to_authority,
-                gpu_ids_override=(gpu_id or ""),
-                multigpu_min_texts_override=1 if gpu_id else int(settings.ingest_multigpu_min_texts),
+                gpu_ids_override=(gpu_id or gpu_ids_csv),
+                # Keep single-GPU shards inline; only enable multi-process
+                # embedding when multiple GPU IDs are configured.
+                multigpu_min_texts_override=int(settings.ingest_multigpu_min_texts),
+                embed_batch_override=int(embed_batch),
             )
             indexed_chunks += int(inc_chunks)
             citation_edges += int(inc_edges)
@@ -671,9 +784,13 @@ def run_ingestion(
     errors: List[str] = []
 
     dynamic_sharding = str(os.environ.get("V2_INGEST_DYNAMIC_SHARDING", "1")).strip().lower() in {"1", "true", "yes", "on"}
-    gpu_ids = [x.strip() for x in str(settings.ingest_gpu_ids or "").split(",") if x.strip()]
+    gpu_ids = _resolve_gpu_ids()
+    gpu_ids_csv = ",".join(gpu_ids)
+    embed_batch = _resolve_embed_batch(total_texts=len(files), gpu_count=len(gpu_ids))
 
-    if dynamic_sharding and gpu_ids:
+    use_dynamic = bool(dynamic_sharding and gpu_ids and len(files) >= int(settings.ingest_dynamic_sharding_min_files))
+
+    if use_dynamic:
         shard_count = int(os.environ.get("V2_INGEST_SHARDS", "0") or 0)
         if shard_count <= 0:
             shard_count = max(len(gpu_ids) * 4, len(gpu_ids))
@@ -698,6 +815,8 @@ def run_ingestion(
                 client=client,
                 should_stop=_should_stop,
                 progress=_progress,
+                embed_batch=embed_batch,
+                gpu_ids_csv=gpu_ids_csv,
             )
             active[fut] = (shard_idx, gpu_id)
 
@@ -759,6 +878,8 @@ def run_ingestion(
             client=client,
             should_stop=_should_stop,
             progress=_progress,
+            embed_batch=embed_batch,
+            gpu_ids_csv=gpu_ids_csv,
         )
         ok_files = int(sr.get("ok_files") or 0)
         failed_files = int(sr.get("failed_files") or 0)
@@ -781,9 +902,9 @@ def run_ingestion(
             "citation_graph": settings.index_citation_graph,
         },
         "runtime": {
-            "dynamic_sharding": dynamic_sharding,
-            "gpu_ids": settings.ingest_gpu_ids,
-            "embed_batch": int(settings.ingest_embed_batch),
+            "dynamic_sharding": bool(use_dynamic),
+            "gpu_ids": gpu_ids_csv,
+            "embed_batch": int(embed_batch),
             "bulk_chunk_size": int(settings.ingest_bulk_chunk_size),
             "embed_model": settings.embed_model,
             "multigpu_min_texts": int(settings.ingest_multigpu_min_texts),

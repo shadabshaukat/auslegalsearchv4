@@ -118,6 +118,7 @@ For production, secure endpoints behind WAF/reverse proxy and TLS. Store secrets
 
 ## Documentation Index
 
+- Production v2 (experimental local VM stack, ingestion governor/autotuning): [docs/PRODUCTION_V2_SETUP.md](docs/PRODUCTION_V2_SETUP.md)
 - Ingestion (Beta) Pipeline: [ingest/README.md](ingest/README.md)
 - Embedding Subsystem: [embedding/README.md](embedding/README.md)
 - Database Layer (Postgres + pgvector + FTS + Oracle 26ai connector): [db/README.md](db/README.md)
