@@ -625,7 +625,7 @@ def run_ingestion(
     if not root_path.exists() or not root_path.is_dir():
         raise RuntimeError(
             f"Ingestion root_dir not found inside runtime: '{root_dir}'. "
-            "If running in Docker, use container-visible path (e.g. /app/data) and ensure host folder is mounted."
+            "Provide a valid absolute path on this VM (e.g. /home/ubuntu/auslegalsearchv4/sample-data-austlii-all-file-types)."
         )
 
     files = _find_all_supported_files(root_dir)
@@ -636,7 +636,7 @@ def run_ingestion(
     if not files:
         raise RuntimeError(
             f"No supported files (.txt/.html) found under '{root_dir}'. "
-            "Check folder path, file extensions, and Docker volume mounts."
+            "Check folder path and file extensions."
         )
 
     files = _sort_by_size_zigzag(files)

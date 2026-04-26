@@ -250,10 +250,9 @@ def build_ui() -> gr.Blocks:
 
         with gr.Tab("Ingestion (from scratch)"):
             gr.Markdown(
-                "If `V2_INGEST_OFFLOAD_ENABLE=1`, use **host path** (e.g. `V2_HOST_INGEST_DIR`). "
-                "Otherwise use container-visible path (default `/app/data`)."
+                "Use an absolute VM path for the ingestion corpus (for example `V2_HOST_INGEST_DIR`)."
             )
-            _default_ingest_root = settings.host_ingest_dir if bool(settings.ingest_offload_enable) and str(settings.host_ingest_dir or "").strip() else "/app/data"
+            _default_ingest_root = settings.host_ingest_dir if str(settings.host_ingest_dir or "").strip() else "/home/ubuntu/auslegalsearchv4/sample-data-austlii-all-file-types"
             root_dir = gr.Textbox(label="Root Directory", placeholder=str(_default_ingest_root), value=str(_default_ingest_root))
             limit_files = gr.Number(label="Limit Files (0 = no limit)", value=0)
             include_html = gr.Checkbox(label="Include HTML", value=True)

@@ -157,97 +157,56 @@ curl -u legal_api:letmein -X POST "http://localhost:8010/v2/search" \
   -d '{"query":"[2025] HCA 12","scenario":"citation_tracing","top_k":10,"use_hybrid":true,"use_reranker":true}'
 ```
 
-## Production-grade Docker deployment (self-contained)
+## Local VM stack (Docker removed)
 
-This repo now includes a full v2 container stack:
+This build now runs fully local on VM (no Docker runtime for v2).
 
-- `Dockerfile.production_v2` (CUDA runtime + all `requirements.txt` packages)
-- `docker-compose.production_v2.yml` (API + Gradio in one service, persistent mounts, GPU enabled)
-- `docker/production_v2/entrypoint.sh` (supervises FastAPI + Gradio, both bind to `0.0.0.0`)
-- helper scripts:
-  - `scripts/v2_docker_build.sh`
-  - `scripts/v2_docker_start.sh`
-  - `scripts/v2_docker_stop.sh`
-  - `scripts/v2_docker_logs.sh`
-
-### Prerequisites
-
-- Docker Engine + Docker Compose plugin
-- NVIDIA drivers + NVIDIA Container Toolkit (for GPU passthrough)
-
-### Build and run
+### Start/stop local v2 services
 
 ```bash
-# Build image
-./scripts/v2_docker_build.sh
+# Start FastAPI v2 + Gradio v2
+bash run_legalsearch_v2_stack.sh
 
-# Start containerized v2 stack
-./scripts/v2_docker_start.sh
-
-# Follow logs
-./scripts/v2_docker_logs.sh
-
-# Stop
-./scripts/v2_docker_stop.sh
+# Stop both services
+bash stop_legalsearch_v2_stack.sh
 ```
 
-Notes:
-- `v2_docker_build.sh` and `v2_docker_start.sh` require `.env.production_v2` to exist (no auto-copy from example).
-- `v2_docker_start.sh` validates `V2_HOST_INGEST_DIR` exists before launching, to prevent silent no-op ingestion.
+Note: v1 scripts are unchanged and remain separate:
+- `run_legalsearch_stack.sh`
+- `stop_legalsearch_stack.sh`
 
-### Optional: run ingestion on host (outside container) while API/Gradio stay in Docker
+Service endpoints:
+- FastAPI: `http://localhost:8010`
+- Gradio: `http://localhost:7861`
 
-If API/Gradio run in Docker on the same host where code+data exist, enable local offload mode:
+Logs:
+- `logs/v2-fastapi.log`
+- `logs/v2-gradio.log`
+
+### Local ingestion helper script (path input)
+
+Use the helper to submit async ingestion with a VM path:
+
+```bash
+bash scripts/v2_local_ingest.sh /home/ubuntu/auslegalsearchv4/sample-data-austlii-all-file-types 0 true
+```
+
+Arguments:
+- arg1: `root_dir` (required, absolute VM path)
+- arg2: `limit_files` (optional, `0` means no limit)
+- arg3: `include_html` (optional, `true|false`)
+
+### GPU acceleration (PyTorch/CUDA)
+
+Set in `.env.production_v2`:
 
 ```env
-V2_INGEST_OFFLOAD_ENABLE=1
-V2_INGEST_OFFLOAD_WORKDIR=/home/ubuntu/auslegalsearchv4
-V2_INGEST_OFFLOAD_START_CMD=AUSLEGALSEARCH_V2_ENV_FILE=/home/ubuntu/auslegalsearchv4/.env.production_v2 python3 -m production_v2.host_ingest_entry --job-id {job_id_q} --root-dir {root_dir_q} --limit-files {limit_files_q} --include-html {include_html}
-V2_INGEST_OFFLOAD_STOP_CMD=AUSLEGALSEARCH_V2_ENV_FILE=/home/ubuntu/auslegalsearchv4/.env.production_v2 pkill -f "production_v2.host_ingest_entry --job-id {job_id}"
+AUSLEGALSEARCH_EMBED_USE_CUDA=1
+AUSLEGALSEARCH_EMBED_AMP=1
+V2_INGEST_GPU_IDS=0,1,2,3
 ```
 
-Behavior:
-- `/v2/ingest/start` starts the offload command and tracks its PID/log path in job status.
-- `/v2/ingest/status/{job_id}` refreshes status and parses host progress JSON from offload log.
-- `/v2/ingest/stop/{job_id}` sends stop command (or SIGTERM fallback).
-
-Note: with offload enabled, `root_dir` is interpreted by the **host runtime**, not container path.
-If Gradio submits `/app/data`, API auto-maps it to `V2_HOST_INGEST_DIR` for offload runs.
-
-### Raw Docker Compose commands (equivalent)
-
-```bash
-docker compose -f docker-compose.production_v2.yml build --pull
-docker compose -f docker-compose.production_v2.yml up -d
-docker compose -f docker-compose.production_v2.yml logs -f --tail=200
-docker compose -f docker-compose.production_v2.yml down
-```
-
-### Networking and resources
-
-- API exposed on `0.0.0.0:8010`
-- Gradio exposed on `0.0.0.0:7861`
-- Container uses host GPU(s) via `gpus: all`
-- CPU/memory scheduling remains host-native via Docker runtime; tune with compose resource options if needed.
-
-### Persistent storage mounts
-
-- `./logs -> /app/logs`
-- `./db -> /app/db`
-- `./data -> /app/data`
-- `./cache/huggingface -> /root/.cache/huggingface`
-- `./cache/torch -> /root/.cache/torch`
-- `./cache/gradio -> /root/.gradio`
-
-Ingestion corpus mount is configurable:
-
-- host path: `V2_HOST_INGEST_DIR` (default `./data`)
-- container path: `V2_CONTAINER_INGEST_DIR` (default `/app/data`)
-
-When running ingestion from Gradio/API in Docker, use the **container path** (e.g. `/app/data`) as `root_dir`.
-If you pass a host-only path (e.g. `/home/ubuntu/...`) that is not mounted, ingestion will fail fast with clear error.
-
-These preserve model caches, app state, and runtime outputs across restarts/redeployments.
+The embedding path uses CUDA when available and shards embedding work across configured GPU IDs in `production_v2/ingest_v2.py`.
 
 ## Notes
 
