@@ -11,7 +11,7 @@ This is a **parallel v2 implementation** and does not modify existing v1/beta ru
 - `production_v2/search_v2.py` — query routing + lexical/vector + RRF fusion + reranker stage + citation graph enrichment
 - `fastapi_app_v2.py` — new API layer for v2
 - `gradio_app_v2.py` — new Gradio UI for v2
-- `.env.production_v2.example` — dedicated environment template
+- `.env.production_v2` — dedicated production environment file
 
 ## Index model (new v2)
 
@@ -24,11 +24,7 @@ No backfill is required. Ingest from scratch into the new index family.
 
 ## Quick start
 
-1. Create v2 env file
-
-```bash
-cp .env.production_v2.example .env.production_v2
-```
+1. Ensure `.env.production_v2` exists and is configured for your deployment.
 
 2. Start API v2
 
@@ -182,8 +178,6 @@ This repo now includes a full v2 container stack:
 ### Build and run
 
 ```bash
-cp .env.production_v2.example .env.production_v2
-
 # Build image
 ./scripts/v2_docker_build.sh
 
@@ -198,8 +192,27 @@ cp .env.production_v2.example .env.production_v2
 ```
 
 Notes:
-- `v2_docker_build.sh` and `v2_docker_start.sh` auto-create `.env.production_v2` from `.env.production_v2.example` if missing.
+- `v2_docker_build.sh` and `v2_docker_start.sh` require `.env.production_v2` to exist (no auto-copy from example).
 - `v2_docker_start.sh` validates `V2_HOST_INGEST_DIR` exists before launching, to prevent silent no-op ingestion.
+
+### Optional: run ingestion on host (outside container) while API/Gradio stay in Docker
+
+If API/Gradio run in Docker on the same host where code+data exist, enable local offload mode:
+
+```env
+V2_INGEST_OFFLOAD_ENABLE=1
+V2_INGEST_OFFLOAD_WORKDIR=/home/ubuntu/auslegalsearchv4
+V2_INGEST_OFFLOAD_START_CMD=AUSLEGALSEARCH_V2_ENV_FILE=/home/ubuntu/auslegalsearchv4/.env.production_v2 python3 -m production_v2.host_ingest_entry --job-id {job_id_q} --root-dir {root_dir_q} --limit-files {limit_files_q} --include-html {include_html}
+V2_INGEST_OFFLOAD_STOP_CMD=AUSLEGALSEARCH_V2_ENV_FILE=/home/ubuntu/auslegalsearchv4/.env.production_v2 pkill -f "production_v2.host_ingest_entry --job-id {job_id}"
+```
+
+Behavior:
+- `/v2/ingest/start` starts the offload command and tracks its PID/log path in job status.
+- `/v2/ingest/status/{job_id}` refreshes status and parses host progress JSON from offload log.
+- `/v2/ingest/stop/{job_id}` sends stop command (or SIGTERM fallback).
+
+Note: with offload enabled, `root_dir` is interpreted by the **host runtime**, not container path.
+If Gradio submits `/app/data`, API auto-maps it to `V2_HOST_INGEST_DIR` for offload runs.
 
 ### Raw Docker Compose commands (equivalent)
 
