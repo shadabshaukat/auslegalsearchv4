@@ -250,10 +250,11 @@ def build_ui() -> gr.Blocks:
 
         with gr.Tab("Ingestion (from scratch)"):
             gr.Markdown(
-                "**Path must be visible inside runtime/container.** "
-                "For Docker default use `/app/data` (mapped from host `./data` or `V2_HOST_INGEST_DIR`)."
+                "If `V2_INGEST_OFFLOAD_ENABLE=1`, use **host path** (e.g. `V2_HOST_INGEST_DIR`). "
+                "Otherwise use container-visible path (default `/app/data`)."
             )
-            root_dir = gr.Textbox(label="Root Directory", placeholder="/app/data", value="/app/data")
+            _default_ingest_root = settings.host_ingest_dir if bool(settings.ingest_offload_enable) and str(settings.host_ingest_dir or "").strip() else "/app/data"
+            root_dir = gr.Textbox(label="Root Directory", placeholder=str(_default_ingest_root), value=str(_default_ingest_root))
             limit_files = gr.Number(label="Limit Files (0 = no limit)", value=0)
             include_html = gr.Checkbox(label="Include HTML", value=True)
             ingest_btn = gr.Button("Start Async Ingestion Job")

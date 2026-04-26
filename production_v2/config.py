@@ -158,6 +158,12 @@ class V2Settings:
     ingest_status_poll_seconds: int = int(_env("V2_INGEST_STATUS_POLL_SECONDS", "2"))
     ingest_gpu_ids: str = _env("V2_INGEST_GPU_IDS", "")  # e.g. "0,1,2,3"
     ingest_multigpu_min_texts: int = int(_env("V2_INGEST_MULTIGPU_MIN_TEXTS", "256"))
+    ingest_offload_enable: bool = _env_bool("V2_INGEST_OFFLOAD_ENABLE", False)
+    ingest_offload_start_cmd: str = _env("V2_INGEST_OFFLOAD_START_CMD", "")
+    ingest_offload_stop_cmd: str = _env("V2_INGEST_OFFLOAD_STOP_CMD", "")
+    ingest_offload_workdir: str = _env("V2_INGEST_OFFLOAD_WORKDIR", "")
+    host_ingest_dir: str = _env("V2_HOST_INGEST_DIR", "")
+    container_ingest_dir: str = _env("V2_CONTAINER_INGEST_DIR", "/app/data")
 
     api_host: str = _env("V2_API_HOST", "0.0.0.0")
     api_port: int = int(_env("V2_API_PORT", "8010"))
