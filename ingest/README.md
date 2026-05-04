@@ -2,6 +2,61 @@
 
 High-throughput, multi-GPU ingestion for legal corpora. Discovers .txt/.html, parses to text + metadata, performs semantic, token-aware chunking (dashed-header aware), embeds on GPU, and persists Documents + Embeddings to PostgreSQL with pgvector and FTS maintenance. Includes multi-GPU orchestration, resumability, per-file metrics logging, and performance tuning.
 
+## Production clone pipeline (type-routed OpenSearch indexes)
+
+New production clone modules (beta code untouched):
+- `ingest/production_orchestrator.py`
+- `ingest/production_worker.py`
+- `ingest/production_index_router.py`
+
+Behavior:
+- Reuses beta orchestrator/worker logic (GPU scheduling, governor/autotuning, resume, logs).
+- Routes each ingested file to **one production index** by metadata/path type.
+- Stores chunk text + embedding vector + metadata in that same type index.
+
+Default target indexes:
+- `auslegalsearch_cases`
+- `auslegalsearch_treaties`
+- `auslegalsearch_journals`
+- `auslegalsearch_legislation`
+- `auslegalsearch_hca`
+
+Override names via env:
+```bash
+export OPENSEARCH_PROD_INDEX_CASES=auslegalsearch_cases
+export OPENSEARCH_PROD_INDEX_TREATIES=auslegalsearch_treaties
+export OPENSEARCH_PROD_INDEX_JOURNALS=auslegalsearch_journals
+export OPENSEARCH_PROD_INDEX_LEGISLATION=auslegalsearch_legislation
+export OPENSEARCH_PROD_INDEX_HCA=auslegalsearch_hca
+```
+
+Bucket routing precedence:
+1. `database=HCA` -> `hca`
+2. `type` in metadata -> `cases|treaties|journals|legislation`
+3. path hint (`/HCA/`) -> `hca`
+4. fallback -> `cases`
+
+Run production clone orchestrator:
+```bash
+export AUSLEGALSEARCH_STORAGE_BACKEND=opensearch
+python3 -m ingest.production_orchestrator \
+  --root "/path/to/Data_for_Beta_Launch" \
+  --session "prod-full-$(date +%Y%m%d-%H%M%S)" \
+  --model "nomic-ai/nomic-embed-text-v1.5" \
+  --target_tokens 1500 --overlap_tokens 192 --max_tokens 1920 \
+  --log_dir "/abs/path/to/logs"
+```
+
+Run production search (all 5 indexes):
+```bash
+python3 -m ingest.production_search --query "[2025] HCA 3" --top_k 10
+```
+
+Run production search with type filter:
+```bash
+python3 -m ingest.production_search --query "section 351 fair work" --types legislation,cases --top_k 10
+```
+
 Key modules
 - Orchestrator: ingest/beta_orchestrator.py
 - Worker: ingest/beta_worker.py
