@@ -25,6 +25,7 @@ import re
 import sys
 import time
 import hashlib
+from datetime import timezone
 from pathlib import Path
 from typing import Dict, Any, List, Optional
 from datetime import datetime
@@ -294,11 +295,75 @@ def _bulk_upsert_file_chunks_opensearch_production(
 
     client = _store._os_client()
     timeout_sec = _store._os_int("OPENSEARCH_TIMEOUT", 120)
-    bulk_chunk_size = max(1, _store._os_int("OPENSEARCH_BULK_CHUNK_SIZE", 500))
+    base_bulk_chunk_size = max(1, _store._os_int("OPENSEARCH_BULK_CHUNK_SIZE", 500))
     bulk_max_bytes = max(1024 * 1024, _store._os_int("OPENSEARCH_BULK_MAX_BYTES", 104857600))
-    bulk_concurrency = max(1, _store._os_int("OPENSEARCH_BULK_CONCURRENCY", 2))
+    base_bulk_concurrency = max(1, _store._os_int("OPENSEARCH_BULK_CONCURRENCY", 2))
     bulk_queue_size = max(1, _store._os_int("OPENSEARCH_BULK_QUEUE_SIZE", 8))
     refresh_on_write = _store._os_bool("OPENSEARCH_REFRESH_ON_WRITE", False)
+
+    def _normalize_date(v: Any) -> Optional[str]:
+        if v is None:
+            return None
+        s = str(v).strip()
+        if not s:
+            return None
+        # Most common austlii/header date shapes
+        fmts = (
+            "%Y-%m-%d %H:%M:%S",
+            "%Y-%m-%d",
+            "%d/%m/%Y",
+            "%Y/%m/%d",
+        )
+        for f in fmts:
+            try:
+                dt = datetime.strptime(s, f)
+                return dt.replace(tzinfo=timezone.utc).isoformat().replace("+00:00", "Z")
+            except Exception:
+                pass
+        # ISO-ish fallback
+        try:
+            dt2 = datetime.fromisoformat(s.replace("Z", "+00:00"))
+            if dt2.tzinfo is None:
+                dt2 = dt2.replace(tzinfo=timezone.utc)
+            return dt2.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
+        except Exception:
+            return None
+
+    def _as_str_list(v: Any) -> List[str]:
+        if v is None:
+            return []
+        if isinstance(v, list):
+            out = []
+            for x in v:
+                sx = str(x).strip()
+                if sx:
+                    out.append(sx)
+            return out
+        s = str(v).strip()
+        return [s] if s else []
+
+    def _extract_error_reason(item: Any) -> str:
+        try:
+            if not isinstance(item, dict):
+                return str(item)
+            op_payload = next(iter(item.values())) if item else {}
+            if not isinstance(op_payload, dict):
+                return str(item)
+            err = op_payload.get("error")
+            if isinstance(err, dict):
+                typ = err.get("type")
+                reason = err.get("reason")
+                caused = err.get("caused_by") or {}
+                caused_reason = caused.get("reason") if isinstance(caused, dict) else None
+                parts = [p for p in [typ, reason, caused_reason] if p]
+                return " | ".join(parts) if parts else str(err)
+            if err:
+                return str(err)
+            if op_payload.get("status") and int(op_payload.get("status")) >= 300:
+                return f"status={op_payload.get('status')}"
+            return str(item)
+        except Exception:
+            return str(item)
 
     def _iter_actions():
         for i, chunk in enumerate(chunks):
@@ -312,6 +377,7 @@ def _bulk_upsert_file_chunks_opensearch_production(
             doc_id = _store._stable_int_id("doc:" + doc_key)
             emb_key = hashlib.sha1(f"{doc_key}|{abs_i}".encode("utf-8")).hexdigest()
 
+            norm_date = _normalize_date((md or {}).get("date"))
             src = {
                 "doc_id": int(doc_id),
                 "doc_key": doc_key,
@@ -324,9 +390,8 @@ def _bulk_upsert_file_chunks_opensearch_production(
                 "chunk_metadata": md,
                 "chunk_metadata_text": json.dumps(md or {}, ensure_ascii=False),
                 "title": (md or {}).get("title"),
-                "titles": (md or {}).get("titles") or [],
-                "citations": (md or {}).get("citations") or [],
-                "date": (md or {}).get("date"),
+                "titles": _as_str_list((md or {}).get("titles")),
+                "citations": _as_str_list((md or {}).get("citations")),
                 "type": (md or {}).get("type"),
                 "subjurisdiction": (md or {}).get("subjurisdiction"),
                 "jurisdiction": (md or {}).get("jurisdiction"),
@@ -336,13 +401,18 @@ def _bulk_upsert_file_chunks_opensearch_production(
                 "prod_bucket": bucket,
                 "created_at": datetime.utcnow().isoformat() + "Z",
             }
+            if norm_date:
+                src["date"] = norm_date
             yield {"_op_type": "index", "_index": idx, "_id": str(emb_key), "_source": src}
 
     last_err = None
+    bulk_chunk_size = int(base_bulk_chunk_size)
+    bulk_concurrency = int(base_bulk_concurrency)
     for attempt in range(max(1, int(max_retries))):
         try:
             if bulk_concurrency > 1:
                 errors_count = 0
+                sample_errors: List[str] = []
                 for ok, _item in _os_parallel_bulk(
                     client,
                     _iter_actions(),
@@ -357,8 +427,11 @@ def _bulk_upsert_file_chunks_opensearch_production(
                 ):
                     if not ok:
                         errors_count += 1
+                        if len(sample_errors) < 8:
+                            sample_errors.append(_extract_error_reason(_item))
                 if errors_count > 0:
-                    raise RuntimeError(f"bulk upsert errors: {errors_count} failures")
+                    sample = "; ".join(sample_errors[:5]) if sample_errors else "no detailed error payload"
+                    raise RuntimeError(f"bulk upsert errors: {errors_count} failures; sample={sample}")
             else:
                 _, errors = _os_bulk(
                     client,
@@ -371,12 +444,17 @@ def _bulk_upsert_file_chunks_opensearch_production(
                     raise_on_exception=False,
                 )
                 if errors:
-                    raise RuntimeError(f"bulk upsert errors: {len(errors)} failures")
+                    sample_errors = [_extract_error_reason(e) for e in (errors or [])[:8]]
+                    sample = "; ".join(sample_errors[:5]) if sample_errors else "no detailed error payload"
+                    raise RuntimeError(f"bulk upsert errors: {len(errors)} failures; sample={sample}")
 
             return len(chunks)
         except Exception as e:
             last_err = e
             if attempt + 1 < max(1, int(max_retries)):
+                # Adaptive downshift for transient pressure/rejections
+                bulk_chunk_size = max(100, int(bulk_chunk_size * 0.7))
+                bulk_concurrency = max(1, int(bulk_concurrency * 0.7))
                 time.sleep(min(8, 2 ** attempt))
             else:
                 break
