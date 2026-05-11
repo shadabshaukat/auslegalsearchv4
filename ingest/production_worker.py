@@ -1059,6 +1059,39 @@ def _write_logs(log_dir: str, session_name: str, successes: List[str], failures:
         "failed_ndjson": failed_ndjson_path,
     }
 
+
+def _write_session_summary(
+    log_dir: str,
+    session_name: str,
+    mode: str,
+    successes: List[str],
+    failures: List[str],
+    processed_chunks: int,
+    extra: Optional[Dict[str, Any]] = None,
+) -> str:
+    """
+    Persist a compact end-of-session summary JSON for easier post-run auditing.
+    """
+    os.makedirs(log_dir, exist_ok=True)
+    summary_path = os.path.join(log_dir, f"{session_name}.summary.json")
+    payload: Dict[str, Any] = {
+        "session": session_name,
+        "mode": mode,
+        "files_ok": len(list(dict.fromkeys(successes))),
+        "files_failed": len(list(dict.fromkeys(failures))),
+        "total_indexed_chunks": int(processed_chunks or 0),
+        "success_log": os.path.join(log_dir, f"{session_name}.success.log"),
+        "error_log": os.path.join(log_dir, f"{session_name}.error.log"),
+        "failed_paths_file": os.path.join(log_dir, f"{session_name}.failed.paths.txt"),
+        "failed_ndjson": os.path.join(log_dir, f"{session_name}.failed.ndjson"),
+        "ts_ms": int(time.time() * 1000),
+    }
+    if extra:
+        payload.update(extra)
+    with open(summary_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+    return summary_path
+
 def _error_details_enabled() -> bool:
     return os.environ.get("AUSLEGALSEARCH_ERROR_DETAILS", "1") == "1"
 
@@ -1902,9 +1935,18 @@ def run_worker_pipelined(
 
     # Write logs
     paths = _write_logs(log_dir, session_name, successes, failures)
+    summary_path = _write_session_summary(
+        log_dir=log_dir,
+        session_name=session_name,
+        mode="sql-pipelined",
+        successes=successes,
+        failures=failures,
+        processed_chunks=processed_chunks,
+    )
     print(f"[beta_worker] Session {session_name} complete. Files OK: {len(successes)}, failed: {len(failures)}", flush=True)
     print(f"[beta_worker] Success log: {paths['success_log']}", flush=True)
     print(f"[beta_worker] Error log:   {paths['error_log']}", flush=True)
+    print(f"[beta_worker] Summary:     {summary_path}", flush=True)
     complete_session(session_name)
 
 
@@ -2334,9 +2376,18 @@ def run_worker(
 
     # Write logs
     paths = _write_logs(log_dir, session_name, successes, failures)
+    summary_path = _write_session_summary(
+        log_dir=log_dir,
+        session_name=session_name,
+        mode="sql-single",
+        successes=successes,
+        failures=failures,
+        processed_chunks=processed_chunks,
+    )
     print(f"[beta_worker] Session {session_name} complete. Files OK: {len(successes)}, failed: {len(failures)}", flush=True)
     print(f"[beta_worker] Success log: {paths['success_log']}", flush=True)
     print(f"[beta_worker] Error log:   {paths['error_log']}", flush=True)
+    print(f"[beta_worker] Summary:     {summary_path}", flush=True)
 
     # Mark session complete (do not hard-fail on partial errors; logs capture details)
     complete_session(session_name)
@@ -2616,9 +2667,18 @@ def run_worker_opensearch(
             })
 
     paths = _write_logs(log_dir, session_name, successes, failures)
+    summary_path = _write_session_summary(
+        log_dir=log_dir,
+        session_name=session_name,
+        mode="opensearch-single",
+        successes=successes,
+        failures=failures,
+        processed_chunks=processed_chunks,
+    )
     print(f"[beta_worker/opensearch] Session {session_name} complete. OK={len(successes)} failed={len(failures)}", flush=True)
     print(f"[beta_worker/opensearch] Success log: {paths['success_log']}", flush=True)
     print(f"[beta_worker/opensearch] Error log:   {paths['error_log']}", flush=True)
+    print(f"[beta_worker/opensearch] Summary:     {summary_path}", flush=True)
     state.upsert(f"{session_name}::summary", {
         "type": "session",
         "session": session_name,
@@ -2930,9 +2990,18 @@ def run_worker_opensearch_pipelined(
             _submit_next()
 
     paths = _write_logs(log_dir, session_name, successes, failures)
+    summary_path = _write_session_summary(
+        log_dir=log_dir,
+        session_name=session_name,
+        mode="opensearch-pipelined",
+        successes=successes,
+        failures=failures,
+        processed_chunks=processed_chunks,
+    )
     print(f"[beta_worker/opensearch] Session {session_name} complete. OK={len(successes)} failed={len(failures)}", flush=True)
     print(f"[beta_worker/opensearch] Success log: {paths['success_log']}", flush=True)
     print(f"[beta_worker/opensearch] Error log:   {paths['error_log']}", flush=True)
+    print(f"[beta_worker/opensearch] Summary:     {summary_path}", flush=True)
     state.upsert(f"{session_name}::summary", {
         "type": "session",
         "session": session_name,

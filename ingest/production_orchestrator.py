@@ -229,6 +229,17 @@ def _write_lines(path: Path, lines: List[str]) -> None:
             f.write(ln + "\n")
 
 
+def _write_orchestrator_summary(log_root: Path, session_name: str, payload: Dict[str, Any]) -> Path:
+    """
+    Persist final orchestrator summary JSON for stable post-run access.
+    """
+    log_root.mkdir(parents=True, exist_ok=True)
+    out = log_root / f"{session_name}.summary.json"
+    with out.open("w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2)
+    return out
+
+
 def _db_ping() -> bool:
     if STORAGE_BACKEND == "opensearch":
         print("[beta_orchestrator] OpenSearch backend selected; SQL DB ping skipped", flush=True)
@@ -548,6 +559,11 @@ def orchestrate(
     }
 
     if not wait:
+        try:
+            summary_path = _write_orchestrator_summary(log_root, session_name, summary)
+            summary["summary_file"] = str(summary_path)
+        except Exception as e:
+            print(f"[beta_orchestrator] WARN: could not write summary file: {e}", flush=True)
         return summary
 
     # Wait for all workers
@@ -623,6 +639,12 @@ def orchestrate(
     summary["started_at"] = start_iso
     summary["ended_at"] = end_iso
     summary["duration_sec"] = duration_sec
+    try:
+        summary_path = _write_orchestrator_summary(log_root, session_name, summary)
+        summary["summary_file"] = str(summary_path)
+        print(f"[beta_orchestrator] Summary file: {summary_path}", flush=True)
+    except Exception as e:
+        print(f"[beta_orchestrator] WARN: could not write summary file: {e}", flush=True)
     _restore_indexes_after_bulk(restore_settings)
     return summary
 
